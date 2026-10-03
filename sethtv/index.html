@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1.0">
+<title>SethTV</title>
+<style>
+:root{
+  --bg:#04060c; --panel:rgba(10,16,28,.92); --txt:#f2f6fc; --dim:#9fb0c8;
+  --acc:#6ee7ff; --acc2:#a78bfa; --focus:#6ee7ff;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+html,body{height:100%; margin:0; background:#000; overflow:hidden;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;
+  color:var(--txt);}
+#video{position:fixed; inset:0; width:100%; height:100%; background:#000; object-fit:contain;}
+.hidden{display:none !important;}
+
+/* ---------- OSD channel banner ---------- */
+#osd{position:fixed; left:0; right:0; bottom:0; padding:28px 56px 40px;
+  background:linear-gradient(transparent, rgba(0,0,0,.85)); z-index:20;
+  transition:opacity .4s;}
+#osd .chnum{font-size:30px; font-weight:800; color:var(--acc); letter-spacing:2px;}
+#osd .chname{font-size:30px; font-weight:800; letter-spacing:1px;}
+#osd .prog{font-size:44px; font-weight:700; margin-top:6px;}
+#osd .meta{font-size:24px; color:var(--dim); margin-top:6px;}
+#osd .bar{height:8px; background:rgba(255,255,255,.15); border-radius:4px; margin-top:14px; overflow:hidden;}
+#osd .bar > div{height:100%; background:linear-gradient(90deg,var(--acc),var(--acc2)); border-radius:4px;}
+#clock{position:fixed; top:28px; right:48px; font-size:40px; font-weight:700; z-index:20;
+  font-variant-numeric:tabular-nums; text-shadow:0 2px 12px #000;}
+#live-dot{position:fixed; top:34px; left:48px; z-index:20; font-size:26px; font-weight:800;
+  letter-spacing:3px; color:#ff5d5d; display:flex; align-items:center; gap:12px;
+  text-shadow:0 2px 12px #000;}
+#live-dot::before{content:""; width:18px; height:18px; border-radius:50%; background:#ff3b3b;
+  box-shadow:0 0 14px #ff3b3b; animation:blink 2s infinite;}
+@keyframes blink{50%{opacity:.35;}}
+
+/* ---------- Guide overlay ---------- */
+#guide{position:fixed; inset:0; z-index:30; background:var(--panel);
+  display:flex; flex-direction:column; padding:36px 56px 30px;}
+#guide header{display:flex; align-items:baseline; gap:26px; margin-bottom:18px;}
+#guide h1{margin:0; font-size:44px; letter-spacing:4px;}
+#guide h1 .tv{color:var(--acc);}
+#guide .gclock{margin-left:auto; font-size:34px; color:var(--dim); font-variant-numeric:tabular-nums;}
+#rows{flex:1; overflow:hidden; display:flex; flex-direction:column; gap:14px;}
+.grow{display:grid; grid-template-columns:300px 1fr; gap:0; border-radius:18px; overflow:hidden;
+  border:3px solid transparent; background:rgba(255,255,255,.03);}
+.grow.sel{border-color:var(--focus); background:rgba(110,231,255,.06);}
+.gch{padding:20px 22px; display:flex; flex-direction:column; justify-content:center;
+  background:rgba(255,255,255,.04);}
+.gch .n{font-size:40px; font-weight:800;}
+.gch .n small{font-size:22px; color:var(--acc); font-weight:700;}
+.gch .t{font-size:20px; color:var(--dim); margin-top:4px;}
+.progs{display:flex; gap:12px; padding:14px; overflow:hidden;}
+.pcard{flex:1 1 0; min-width:0; border-radius:14px; padding:14px 16px;
+  background:rgba(255,255,255,.05); border:2px solid transparent;}
+.pcard .pt{font-size:24px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.pcard .pm{font-size:19px; color:var(--dim); margin-top:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.pcard .pbar{height:6px; background:rgba(255,255,255,.12); border-radius:3px; margin-top:10px; overflow:hidden;}
+.pcard .pbar > div{height:100%; background:var(--acc); border-radius:3px;}
+.pcard.now{border-color:rgba(110,231,255,.5);}
+.pcard.cursel{border-color:var(--focus); background:rgba(110,231,255,.10);
+  box-shadow:0 0 18px rgba(110,231,255,.35);}
+.pcard .when{font-size:17px; color:var(--acc2); font-weight:700; letter-spacing:1px;}
+#ghint{margin-top:14px; font-size:20px; color:var(--dim); text-align:center;}
+#ghint b{color:var(--txt);}
+
+/* ---------- status / errors ---------- */
+#status{position:fixed; inset:0; z-index:40; display:grid; place-items:center; background:#04060c;}
+#status .card{text-align:center; max-width:900px;}
+#status h2{font-size:52px; margin:0 0 18px;}
+#status p{font-size:26px; color:var(--dim); line-height:1.5;}
+.spinner{width:74px; height:74px; margin:0 auto 26px; border-radius:50%;
+  border:6px solid rgba(110,231,255,.2); border-top-color:var(--acc); animation:spin 1s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+</style>
+</head>
+<body>
+<video id="video" playsinline></video>
+
+<div id="live-dot" class="hidden">LIVE</div>
+<div id="clock" class="hidden"></div>
+
+<div id="osd" class="hidden">
+  <div><span class="chnum" id="osd-num"></span> <span class="chname" id="osd-name"></span></div>
+  <div class="prog" id="osd-prog"></div>
+  <div class="meta" id="osd-meta"></div>
+  <div class="bar"><div id="osd-bar"></div></div>
+</div>
+
+<div id="guide" class="hidden">
+  <header><h1>SETH<span class="tv">TV</span> GUIDE</h1><div class="gclock" id="gclock"></div></header>
+  <div id="rows"></div>
+  <div id="ghint"><b>▲▼</b> channels &nbsp; <b>◀▶</b> programs &nbsp; <b>OK</b> watch &nbsp; <b>BACK</b> close</div>
+</div>
+
+<div id="status"><div class="card"><div class="spinner"></div><h2>Tuning SethTV…</h2><p id="status-msg">Contacting the home relay.</p></div></div>
+
+<script src="./hls.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
