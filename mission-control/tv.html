@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1.0">
+<title>Mission Control TV</title>
+<meta name="theme-color" content="#05070d">
+<style>
+  :root{
+    --bg:#05070d;
+    --txt:#eef3fa; --dim:#a7b3c7; --faint:#6b7690;
+    --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6;
+    --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+    --focus:#6ee7ff;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{
+    margin:0; color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,sans-serif;
+    background:
+      radial-gradient(1400px 700px at 15% -5%, rgba(110,231,255,.08), transparent 60%),
+      radial-gradient(1200px 800px at 90% 10%, rgba(167,139,250,.09), transparent 60%),
+      radial-gradient(1000px 1000px at 50% 115%, rgba(244,114,182,.06), transparent 60%),
+      var(--bg);
+    background-attachment:fixed;
+    padding:36px 56px 30px;
+    min-height:100vh;
+    overflow:hidden;
+    font-size:26px;
+  }
+  .orb{position:fixed; border-radius:50%; filter:blur(110px); opacity:.15; pointer-events:none; z-index:0;
+       animation:drift 26s ease-in-out infinite alternate;}
+  .orb.o1{width:420px;height:420px;left:-110px;top:6%;background:#2563eb;}
+  .orb.o2{width:380px;height:380px;right:-100px;top:36%;background:#7c3aed;animation-delay:-9s;}
+  .orb.o3{width:320px;height:320px;left:32%;bottom:-110px;background:#db2777;animation-delay:-17s;opacity:.10;}
+  @keyframes drift{from{transform:translate(0,0) scale(1);}to{transform:translate(50px,70px) scale(1.12);}}
+
+  .wrap{position:relative; z-index:1; height:calc(100vh - 66px); display:flex; flex-direction:column;}
+
+  /* ---------- header ---------- */
+  header{display:flex; align-items:center; justify-content:space-between; gap:20px; padding:6px 8px 18px;}
+  .brand{display:flex; align-items:center; gap:22px;}
+  .logo{width:84px; height:84px; border-radius:24px; display:grid; place-items:center; flex:none;
+        background:conic-gradient(from 200deg,#0ea5e9,#8b5cf6,#ec4899,#0ea5e9);
+        box-shadow:0 0 34px rgba(139,92,246,.5), inset 0 0 0 3px rgba(255,255,255,.25);
+        animation:spinGlow 9s linear infinite;}
+  @keyframes spinGlow{to{filter:hue-rotate(360deg);}}
+  .logo svg{width:48px;height:48px;}
+  .brand h1{margin:0; font-size:52px; letter-spacing:5px; font-weight:800;
+    background:linear-gradient(92deg,#fff 10%,var(--acc1) 45%,var(--acc2) 75%,var(--acc3));
+    -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .brand .tag{margin:4px 0 0; font-size:22px; color:var(--dim); letter-spacing:.5px;}
+  .hdr-right{text-align:right;}
+  #clock{font-size:64px; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:2px; line-height:1;
+         background:linear-gradient(180deg,#fff,#9db4d0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  #updated{font-size:20px; color:var(--dim); margin-top:6px;}
+  #updated .fresh{color:var(--ok);}
+
+  /* ---------- sections / rows ---------- */
+  #rows{flex:1; overflow:hidden; display:flex; flex-direction:column; justify-content:center; gap:6px;}
+  .seclabel{display:flex; align-items:center; gap:18px; margin:10px 8px 12px;}
+  .seclabel span{font-size:24px; font-weight:800; letter-spacing:5px; color:var(--faint); text-transform:uppercase; white-space:nowrap;}
+  .seclabel::after{content:""; flex:1; height:2px;
+    background:linear-gradient(90deg, rgba(255,255,255,.16), transparent);}
+  .row{display:flex; gap:22px; overflow-x:auto; padding:10px 8px 18px; scroll-behavior:smooth;
+       scrollbar-width:none;}
+  .row::-webkit-scrollbar{display:none;}
+
+  /* ---------- cards ---------- */
+  .card{
+    position:relative; overflow:hidden; flex:0 0 460px;
+    background:linear-gradient(165deg, rgba(255,255,255,.065), rgba(255,255,255,.018) 55%, rgba(255,255,255,.04));
+    border:3px solid rgba(255,255,255,.09);
+    border-radius:26px;
+    padding:28px 28px 24px;
+    box-shadow:0 14px 38px rgba(0,0,0,.42);
+    transition:transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    outline:none;
+  }
+  .card::before{content:""; position:absolute; inset:0 0 auto 0; height:6px;
+    background:var(--stripe, linear-gradient(90deg,var(--acc1),var(--acc2)));}
+  .card.k-server{--stripe:linear-gradient(90deg,#38bdf8,#6366f1);}
+  .card.k-phone{--stripe:linear-gradient(90deg,#a78bfa,#f472b6);}
+  .card.k-tv{--stripe:linear-gradient(90deg,#fbbf24,#f97316);}
+  .card.k-gh{--stripe:linear-gradient(90deg,#e6edf3,#8b949e);}
+  .card.k-am{--stripe:linear-gradient(90deg,#fa2d48,#fc5c72);}
+  .card.k-artist{--stripe:linear-gradient(90deg,#fb7185,#c026d3);}
+  .card.k-emby{--stripe:linear-gradient(90deg,#38bdf8,#818cf8);}
+  .card.k-tb{--stripe:linear-gradient(90deg,#5eead4,#38bdf8);}
+  .card.k-bt{--stripe:linear-gradient(90deg,#f0abfc,#a78bfa);}
+  .card.k-kg{--stripe:linear-gradient(90deg,#86efac,#34d399);}
+  .card.k-act{--stripe:linear-gradient(90deg,#fca5a5,#f97316);}
+  .card.k-cal{--stripe:linear-gradient(90deg,#fcd34d,#fbbf24);}
+
+  /* DPAD focus */
+  .card.focused{
+    border-color:var(--focus);
+    transform:scale(1.045);
+    box-shadow:0 0 0 4px rgba(110,231,255,.35), 0 20px 55px rgba(0,0,0,.6), 0 0 44px rgba(110,231,255,.22);
+    z-index:2;
+  }
+  .qbtn.focused{
+    border-color:var(--focus);
+    box-shadow:0 0 0 4px rgba(110,231,255,.35), 0 0 30px rgba(110,231,255,.25);
+    transform:scale(1.03);
+  }
+
+  .chead{display:flex; align-items:center; gap:18px; margin-bottom:8px;}
+  .icon-tile{width:76px; height:76px; border-radius:22px; display:grid; place-items:center; flex:none;
+    background:linear-gradient(140deg, rgba(110,231,255,.20), rgba(167,139,250,.20));
+    border:2px solid rgba(255,255,255,.14);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.12), 0 6px 20px rgba(0,0,0,.35);}
+  .icon-tile svg{width:44px; height:44px;}
+  .chead h2{margin:0; font-size:34px; font-weight:700; letter-spacing:.3px; line-height:1.15;}
+  .chead .sub{font-size:20px; color:var(--dim); margin-top:4px; font-variant-numeric:tabular-nums;}
+  .chead .spacer{flex:1;}
+
+  .dotlive{width:20px; height:20px; border-radius:50%; display:inline-block; flex:none;}
+  .dotlive.on{background:var(--ok); box-shadow:0 0 16px var(--ok); animation:pulse 2.2s ease-in-out infinite;}
+  .dotlive.off{background:var(--bad); box-shadow:0 0 12px rgba(248,113,113,.7);}
+  .dotlive.na{background:var(--warn); box-shadow:0 0 12px rgba(251,191,36,.7); animation:pulse 3s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{transform:scale(1); opacity:1;}50%{transform:scale(.72); opacity:.65;}}
+
+  .pill{display:inline-block; font-size:19px; font-weight:700; padding:8px 22px; margin:12px 0 8px;
+        border-radius:99px; text-transform:uppercase; letter-spacing:2px;}
+  .pill.on{background:rgba(52,211,153,.13); color:var(--ok); border:2px solid rgba(52,211,153,.45);
+            box-shadow:0 0 18px rgba(52,211,153,.12);}
+  .pill.off{background:rgba(248,113,113,.10); color:var(--bad); border:2px solid rgba(248,113,113,.4);}
+  .pill.na{background:rgba(251,191,36,.10); color:var(--warn); border:2px solid rgba(251,191,36,.4);}
+
+  .rowline{display:flex; justify-content:space-between; align-items:center; gap:14px;
+       font-size:25px; padding:11px 0; border-top:2px solid rgba(255,255,255,.07);}
+  .rowline .k{color:var(--dim); display:flex; align-items:center; gap:10px;}
+  .rowline .v{font-variant-numeric:tabular-nums; text-align:right; font-weight:600;}
+  .rowline .v .ok{color:var(--ok);} .rowline .v .bad{color:var(--bad);} .rowline .v .dim{color:var(--dim); font-weight:400;}
+
+  .meter{height:10px; border-radius:99px; background:rgba(255,255,255,.09); margin-top:10px; overflow:hidden;}
+  .meter > i{display:block; height:100%; border-radius:99px;
+    background:linear-gradient(90deg,var(--acc1),var(--acc2)); box-shadow:0 0 12px rgba(110,231,255,.5);
+    transition:width .8s cubic-bezier(.2,.8,.2,1);}
+  .meter.warn > i{background:linear-gradient(90deg,var(--warn),#f97316);}
+  .meter.bad > i{background:linear-gradient(90deg,var(--bad),#ef4444);}
+
+  .bigstat{display:flex; align-items:baseline; gap:12px; margin:10px 0 4px;}
+  .bigstat .n{font-size:56px; font-weight:800; font-variant-numeric:tabular-nums; line-height:1;
+    background:linear-gradient(180deg,#fff,#9db4d0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .bigstat .u{font-size:24px; color:var(--dim);}
+
+  .upl-dots{display:inline-flex; gap:8px; align-items:center;}
+  .upl-dots i{width:16px; height:16px; border-radius:50%; background:rgba(255,255,255,.12);}
+  .upl-dots i.lit{background:var(--ok); box-shadow:0 0 12px var(--ok); animation:pulse 2.6s ease-in-out infinite;}
+
+  .sess{font-size:23px; color:var(--dim); padding:9px 0 9px 4px; border-left:3px solid rgba(110,231,255,.35);
+        margin:7px 0 7px 3px; padding-left:16px; line-height:1.4;}
+  .sess b{color:var(--txt);}
+  .sess .play{color:var(--acc1);}
+  .sesslbl{font-size:20px; text-transform:uppercase; letter-spacing:2.5px; color:var(--faint); margin:16px 0 4px;}
+  .stub{font-size:21px; color:var(--warn); margin-top:14px; padding:14px 16px; border-radius:14px; line-height:1.45;
+        background:rgba(251,191,36,.07); border:2px dashed rgba(251,191,36,.35);}
+  .adbline{font-size:21px; color:var(--dim); margin-top:12px; line-height:1.55;
+           padding:14px 16px; border-radius:14px; background:rgba(255,255,255,.03);
+           border:2px solid rgba(255,255,255,.07);}
+  .adbline b{color:var(--txt);}
+  .cal-today{display:inline-block; font-size:18px; font-weight:800; letter-spacing:1.5px; color:#0a0e14;
+    background:linear-gradient(90deg,#fcd34d,#fbbf24); border-radius:10px; padding:4px 14px; margin-left:12px;
+    animation:pulse 2.4s ease-in-out infinite;}
+
+  /* quick action buttons */
+  .qbtn{display:flex; align-items:center; gap:16px; flex:0 0 460px; padding:24px 22px;
+    font-size:27px; font-weight:700; color:var(--txt); text-align:left;
+    background:linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02));
+    border:3px solid rgba(255,255,255,.12); border-radius:20px; outline:none;
+    transition:transform .15s ease, border-color .2s ease, box-shadow .2s ease;}
+  .qbtn:disabled{opacity:.45;}
+  .qbtn .qi{font-size:36px;}
+  .qbtn small{display:block; font-size:20px; font-weight:400; color:var(--dim); margin-top:4px;}
+  #qmsg{font-size:22px; color:var(--dim); min-height:30px; margin-top:8px; text-align:center;}
+
+  /* detail overlay */
+  #overlay{position:fixed; inset:0; z-index:50; display:none; align-items:center; justify-content:center;
+    background:rgba(3,5,10,.82); backdrop-filter:blur(8px);}
+  #overlay.open{display:flex;}
+  #ov-card{width:min(1100px, 86vw); max-height:86vh; overflow-y:auto;
+    background:linear-gradient(165deg, rgba(30,38,55,.98), rgba(12,17,28,.98));
+    border:3px solid rgba(110,231,255,.4); border-radius:28px; padding:44px 48px;
+    box-shadow:0 30px 90px rgba(0,0,0,.7), 0 0 60px rgba(110,231,255,.15);}
+  #ov-card h2{font-size:46px; margin:0 0 6px;}
+  #ov-card .hint{font-size:22px; color:var(--faint); margin-top:26px; text-align:center;}
+  #ov-card .rowline{font-size:30px; padding:14px 0;}
+  #ov-card .sess{font-size:28px;}
+  #ov-card .bigstat .n{font-size:76px;}
+  #ov-card .bigstat .u{font-size:30px;}
+
+  #hint{position:fixed; bottom:14px; left:0; right:0; text-align:center; z-index:5;
+        font-size:20px; color:var(--faint); letter-spacing:1px;}
+  #hint b{color:var(--dim);}
+  footer{text-align:center; font-size:19px; color:var(--faint); padding:8px 0 0; letter-spacing:.4px;}
+  footer .live-tag{color:var(--ok);}
+  .err-card{text-align:center; padding:40px 26px;}
+  .err-card .big{font-size:64px; margin-bottom:12px;}
+  a.ext{color:var(--acc1); text-decoration:none; font-weight:600;}
+</style>
+</head>
+<body>
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+
+<div class="wrap">
+<header>
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round">
+        <circle cx="12" cy="12" r="3.2" fill="rgba(255,255,255,.9)" stroke="none"/>
+        <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-24 12 12)"/>
+        <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(38 12 12)" opacity=".55"/>
+        <circle cx="19.5" cy="7.5" r="1.3" fill="#fff" stroke="none"/>
+      </svg>
+    </div>
+    <div>
+      <h1>MISSION CONTROL</h1>
+      <p class="tag">Seth&rsquo;s fleet &middot; TV edition</p>
+    </div>
+  </div>
+  <div class="hdr-right">
+    <div id="clock">--:--:--</div>
+    <div id="updated">connecting&hellip;</div>
+  </div>
+</header>
+
+<main id="rows"></main>
+
+<footer><span id="src">&hellip;</span> &middot; collector <span id="collector">&hellip;</span></footer>
+</div>
+
+<div id="overlay"><div id="ov-card"></div></div>
+<div id="hint"><b>&#8592;&#8593;&#8595;&#8594;</b> move &nbsp;&middot;&nbsp; <b>OK</b> details &nbsp;&middot;&nbsp; <b>Back</b> close</div>
+
+<script>
+const ICONS = {
+  server: `<svg viewBox="0 0 24 24" fill="none" stroke="#7dd3fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="7" rx="1.6"/><rect x="3" y="13" width="18" height="7" rx="1.6"/><circle cx="7" cy="7.5" r="1" fill="#7dd3fc" stroke="none"/><circle cx="7" cy="16.5" r="1" fill="#7dd3fc" stroke="none"/><path d="M10.5 7.5h7M10.5 16.5h7"/></svg>`,
+  laptop: `<svg viewBox="0 0 24 24" fill="none" stroke="#c4b5fd" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="4.5" width="15" height="10" rx="1.6"/><path d="M2.5 18.5h19l-1.6-2.6H4.1z"/></svg>`,
+  phone: `<svg viewBox="0 0 24 24" fill="none" stroke="#f9a8d4" stroke-width="1.7" stroke-linecap="round"><rect x="7" y="2.8" width="10" height="18.4" rx="2.6"/><path d="M10.8 18.4h2.4"/></svg>`,
+  tv: `<svg viewBox="0 0 24 24" fill="none" stroke="#fcd34d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.8" y="5" width="18.4" height="12.4" rx="2"/><path d="M9 20.5h6"/></svg>`,
+  github: `<svg viewBox="0 0 24 24" fill="#e6edf3"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>`,
+  applemusic: `<svg viewBox="0 0 24 24" fill="#fa2d48"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>`,
+  vinyl: `<svg viewBox="0 0 24 24" fill="none" stroke="#f9a8d4" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5.5" opacity=".45"/><circle cx="12" cy="12" r="1.6" fill="#f9a8d4" stroke="none"/></svg>`,
+  film: `<svg viewBox="0 0 24 24" fill="none" stroke="#7dd3fc" stroke-width="1.7" stroke-linecap="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M2.5 9.5h19M2.5 14.5h19M7 5v14M17 5v14"/></svg>`,
+  cloud: `<svg viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 18.5a4.5 4.5 0 0 0 .9-8.9A6 6 0 0 0 6.7 8.8 4.8 4.8 0 0 0 7 18.5h10.5z"/></svg>`,
+  magnet: `<svg viewBox="0 0 24 24" fill="none" stroke="#f0abfc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4v7a3 3 0 0 0 6 0V4h4v7a7 7 0 0 1-14 0V4z"/><path d="M5 8.5h4M15 8.5h4"/></svg>`,
+  shield: `<svg viewBox="0 0 24 24" fill="none" stroke="#86efac" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l7.5 3v6c0 4.5-3.2 7.6-7.5 9-4.3-1.4-7.5-4.5-7.5-9v-6l7.5-3z"/><path d="M9 11.5l2.2 2.2 4.3-4.2"/></svg>`,
+  calendar: `<svg viewBox="0 0 24 24" fill="none" stroke="#fcd34d" stroke-width="1.7" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 2.8v3.4M16 2.8v3.4"/></svg>`,
+  bolt: `<svg viewBox="0 0 24 24" fill="none" stroke="#fca5a5" stroke-width="1.7" stroke-linejoin="round"><path d="M13 2.5L4.5 13.5H11l-1 8 8.5-11H12l1-8z"/></svg>`
+};
+</script>
+<script>
+const STATUS_URL = 'status.json';
+
+/* ---------- helpers ---------- */
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function pill(on, txt){
+  return `<span class="pill ${on===true?'on':on===false?'off':'na'}">${txt||(on?'online':'offline')}</span>`;
+}
+function rowline(k,v){ return `<div class="rowline"><span class="k">${k}</span><span class="v">${v}</span></div>`; }
+function fmtUptime(s){
+  if(s==null) return '—';
+  const d=Math.floor(s/86400), h=Math.floor(s%86400/3600), m=Math.floor(s%3600/60);
+  return d>0?`${d}d ${h}h`:(h>0?`${h}h ${m}m`:`${m}m`);
+}
+function ago(iso){
+  const s=Math.floor((Date.now()-new Date(iso).getTime())/1000);
+  return s<60?`${s}s ago`:s<3600?`${Math.floor(s/60)}m ago`:`${Math.floor(s/3600)}h ago`;
+}
+function fmtBytes(b){
+  if(b==null||isNaN(b)) return '—';
+  const u=['B','KB','MB','GB','TB']; let i=0;
+  while(b>=1024&&i<u.length-1){b/=1024;i++;}
+  return `${b>=100?Math.round(b):b.toFixed(1)} ${u[i]}`;
+}
+function meter(pct, cls){
+  const p=Math.max(0,Math.min(100,pct));
+  return `<div class="meter ${cls||''}"><i style="width:${p}%"></i></div>`;
+}
+function sigBars(ping){
+  const bars = ping==null?0:(ping<80?4:ping<200?3:ping<500?2:1);
+  let s='';
+  for(let i=0;i<4;i++) s+=`<i style="height:${10+i*6}px;width:9px;border-radius:3px;display:inline-block;background:${i<bars?'var(--ok)':'rgba(255,255,255,.12)'}"></i>`;
+  return `<span style="display:inline-flex;gap:6px;align-items:flex-end">${s}</span>`;
+}
+
+/* ---------- card builders (each returns {id,title,cls,icon,head,body,detail}) ---------- */
+function pcCard(d){
+  const dot=`<span class="dotlive ${d.online?'on':'off'}"></span>`;
+  const embyOk = d.emby && d.emby.running;
+  const up = d.terabox_uploaders||0;
+  let dots=''; for(let i=0;i<4;i++) dots+=`<i class="${i<up?'lit':''}"></i>`;
+  const sess=(d.emby_sessions||[]).map(s=>
+    `<div class="sess"><b>${esc(s.device||'?')}</b> <span class="dim">· ${esc(s.client||'')}</span>`+
+    (s.playing?`<br><span class="play">▶ ${esc(s.playing)}</span>`:`<br><span class="dim">(idle)</span>`)+`</div>`).join('');
+  const body =
+      rowline('🛰️ RVG agent', `<span class="${d.online?'ok':'bad'}">${esc(d.rvg_version||'—')}</span>`)
+    + rowline('⏱️ Uptime', `<b>${fmtUptime(d.uptime_s)}</b>`)
+    + meter(d.uptime_s!=null?Math.min(100,(d.uptime_s/86400)*100):0)
+    + rowline('🎬 Emby', embyOk?`<span class="ok">● ${esc(d.emby.version||'')}</span>`:'<span class="bad">● down</span>')
+    + rowline('☁️ Uploaders', `<span class="upl-dots">${dots}</span> <b>${up}</b>`)
+    + (sess?`<div class="sesslbl">▶ Now playing</div>${sess}`:'');
+  return {id:'pc', cls:'k-server', icon:'server', title:esc(d.name), sub:`${esc(d.hostname||d.id)} · ${esc(d.ip||'')}`,
+    dot, pill:pill(d.online), body, detail:body};
+}
+
+function macCard(d){
+  const dot=`<span class="dotlive ${d.online?'on':d.online===false?'off':'na'}"></span>`;
+  const bb = d.bluebubbles && d.bluebubbles.up;
+  const rvg = d.rvg_agent && d.rvg_agent.up;
+  const body =
+      rowline('💬 BlueBubbles', bb?'<span class="ok">● port 1234</span>':'<span class="bad">● down</span>')
+    + rowline('🛰️ RVG Mac', rvg?'<span class="ok">● reachable</span>':'<span class="bad">● down</span>')
+    + `<div class="stub">⚠️ Mac notifications: pending RVG Mac token</div>`;
+  return {id:'mac', cls:'k-server', icon:'laptop', title:esc(d.name), sub:`${esc(d.id)} · ${esc(d.ip||'')}`,
+    dot, pill:pill(d.online), body, detail:body};
+}
+
+function phoneCard(d){
+  const dot=`<span class="dotlive ${d.online?'on':'off'}"></span>`;
+  let body='';
+  if(d.id==='iphone-xs-max'){
+    body = rowline('📶 Tailnet ping', d.ping_ms!=null?`${sigBars(d.ping_ms)} <b>${d.ping_ms} ms</b>`:'<span class="dim">—</span>')
+      + rowline('🔔 Push alerts', '<span class="ok">via ntfy ●</span>');
+  } else {
+    const up = d.rvg_agent && d.rvg_agent.up;
+    body = rowline('🛰️ RVG Android', up?'<span class="ok">● agent up</span>':'<span class="bad">● down</span>')
+      + rowline('🔔 Push alerts', '<span class="ok">via ntfy ●</span>');
+  }
+  return {id:d.id, cls:'k-phone', icon:'phone', title:esc(d.name), sub:`${esc(d.id)} · ${esc(d.ip||'')}`,
+    dot, pill:pill(d.online), body, detail:body};
+}
+
+function fireTvCard(ft, pc){
+  ft = ft||{};
+  const active = !!ft.seen_in_emby;
+  const adbOk = typeof ft.adb==='string' && !/unreachable|closed|n\/a/i.test(ft.adb);
+  const dot=`<span class="dotlive ${active?'on':adbOk?'na':'off'}"></span>`;
+  let body = rowline('📺 Emby', active?'<span class="ok">● streaming</span>':'<span class="dim">standby</span>');
+  (ft.sessions||[]).forEach(s=>{
+    body += `<div class="sess"><b>${esc(s.device||'Fire TV')}</b>`+(s.playing?`<br><span class="play">▶ ${esc(s.playing)}</span>`:'')+`</div>`;
+  });
+  body += `<div class="adbline"><b>ADB</b> · ${esc(ft.adb||'n/a')}</div>`;
+  return {id:'firetv', cls:'k-tv', icon:'tv', title:'Fire TV Stick 4K', sub:'vega os · firetv',
+    dot, pill:pill(active?'on':'na', active?'streaming':'standby'), body, detail:body};
+}
+
+function embyCard(lib, sessions){
+  lib = lib||{};
+  const dot=`<span class="dotlive ${lib.movies!=null?'on':'na'}"></span>`;
+  const nSess=(sessions||[]).length;
+  const recent=(lib.recent||[]).slice(0,4).map(t=>`<div class="sess"><b>${esc(t)}</b></div>`).join('');
+  const body =
+      `<div class="bigstat"><span class="n">${lib.movies!=null?lib.movies:'—'}</span><span class="u">movies</span></div>`
+    + rowline('📺 Series', `<b>${lib.series!=null?lib.series:'—'}</b>`)
+    + rowline('🎞️ Episodes', `<b>${lib.episodes!=null?lib.episodes:'—'}</b>`)
+    + rowline('▶️ Streams', nSess?`<span class="ok">● ${nSess}</span>`:'<span class="dim">none</span>')
+    + (recent?`<div class="sesslbl">🆕 Recently added</div>${recent}`:'');
+  return {id:'emby', cls:'k-emby', icon:'film', title:'Emby Library', sub:'movies & tv',
+    dot, pill:pill(lib.movies!=null?'on':'na', lib.movies!=null?'indexed':'syncing'), body, detail:body};
+}
+
+function teraboxCard(tb, uploaders){
+  tb = tb||{};
+  const has = tb.total!=null && tb.used!=null;
+  const dot=`<span class="dotlive ${has?'on':'na'}"></span>`;
+  const pct = has ? Math.min(100,(tb.used/tb.total)*100) : 0;
+  const body = has
+    ? `<div class="bigstat"><span class="n">${Math.round(pct)}%</span><span class="u">used</span></div>`
+      + meter(pct, pct>85?'bad':pct>65?'warn':'')
+      + rowline('💾 Used', `<b>${fmtBytes(tb.used)}</b>`)
+      + rowline('💾 Free', `<b>${fmtBytes(tb.free)}</b>`)
+      + rowline('⬆️ Uploaders', `<b>${uploaders||0}</b>`)
+    : rowline('💾 Storage', '<span class="dim">unavailable</span>')
+      + rowline('⬆️ Uploaders', `<b>${uploaders||0}</b>`);
+  return {id:'terabox', cls:'k-tb', icon:'cloud', title:'TeraBox', sub:'cloud · tb-direct',
+    dot, pill:pill(has?'on':'na', has?Math.round(pct)+'% used':'syncing'), body, detail:body};
+}
+
+function biglybtCard(bb){
+  bb = bb||{};
+  const dot=`<span class="dotlive ${bb.running?'on':'off'}"></span>`;
+  const body =
+      rowline('🧲 Client', bb.running?'<span class="ok">● running</span>':'<span class="bad">● stopped</span>')
+    + rowline('⏱️ Scheduler', bb.scheduler?esc(bb.scheduler):'<span class="dim">—</span>');
+  return {id:'biglybt', cls:'k-bt', icon:'magnet', title:'BiglyBT', sub:'torrents · vpn-bound',
+    dot, pill:pill(bb.running?'on':'off'), body, detail:body};
+}
+
+function appleMusicCard(){
+  const body =
+      rowline('🎧 Player', `<a class="ext">music.apple.com ↗</a>`)
+    + rowline('🎤 Artist', `<a class="ext">The Artful Dodger ↗</a>`)
+    + `<div class="stub">🎵 RouteNote activated 2026-10-03 — releases land here on delivery.</div>`;
+  return {id:'applemusic', cls:'k-am', icon:'applemusic', title:'Apple Music', sub:'The Artful Dodger',
+    dot:`<span class="dotlive na"></span>`, pill:pill('na','web player'), body, detail:body};
+}
+
+function artistCard(){
+  const body =
+      `<div class="sess"><b>Tuff Old Bird</b> <span class="dim">· single</span><br><span class="dim">SoundOn appeal pending</span></div>`
+    + `<div class="sess"><b>East Coast Lhack Wead</b> <span class="dim">· album</span><br><span class="dim">appeal filed</span></div>`
+    + `<div class="sess"><b>Grandpa Tapes</b> <span class="dim">· single</span><br><span style="color:var(--ok)">RouteNote ready ●</span></div>`
+    + rowline('RouteNote', '<span class="ok">free ●</span>')
+    + rowline('SoundOn', '<span class="dim">appeals pending</span>');
+  return {id:'artist', cls:'k-artist', icon:'vinyl', title:'The Artful Dodger', sub:'artist project',
+    dot:`<span class="dotlive na"></span>`, pill:pill('na','3 releases'), body, detail:body};
+}
+
+function githubCard(g){
+  g = g||{};
+  const pub=g.public_repos||0, priv=g.private_repos||0, total=pub+priv;
+  const dot=`<span class="dotlive ${total>0?'on':'na'}"></span>`;
+  const body =
+      rowline('📦 Public', `<b>${pub}</b>`) + (total?meter(pub/total*100):'')
+    + rowline('🔒 Private', `<b>${priv}</b>`) + (total?meter(priv/total*100,'warn'):'')
+    + `<div class="sesslbl">🌍 Live Pages</div>`
+    + `<div class="sess"><b>seth-dashboard</b> ↗</div>`
+    + `<div class="sess"><b>theartfuldodger-site</b> ↗</div>`;
+  return {id:'github', cls:'k-gh', icon:'github', title:'GitHub', sub:'kellner-dot',
+    dot, pill:pill(total>0, total>0?total+' repos':'syncing'), body, detail:body};
+}
+
+function kaviguardCard(kg){
+  kg = kg||{};
+  const empty = Object.keys(kg).length===0;
+  const dot=`<span class="dotlive ${empty?'na':'on'}"></span>`;
+  const body = empty
+    ? rowline('🛡️ Engine', '<span class="dim">no data — check PC</span>')
+    : rowline('🛡️ Engine', '<span class="ok">● active</span>');
+  return {id:'kaviguard', cls:'k-kg', icon:'shield', title:'KaviGuard', sub:'pc protection',
+    dot, pill:pill(empty?'na':'on', empty?'syncing':'shield up'), body, detail:body};
+}
+
+function calendarCard(){
+  const items = [
+    {d:'2026-10-03', t:'🏠 House warming', s:'10:00 AM'},
+    {d:'2026-10-17', t:'🎃 Albany Nightmare Market', s:''},
+    {d:'2026-10-22', t:'⚖️ Warner prep call', s:'1:00–2:00 PM EDT'},
+    {d:'2026-11-12', t:'⚖️ Disability hearing', s:'8:15 AM ET · video'},
+    {d:'2026-11-20', t:'🎶 Upstate at Billsville', s:''},
+  ];
+  const now=new Date();
+  const tstr=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
+  const body=items.map(it=>{
+    const dt=new Date(it.d+'T12:00:00');
+    const label=dt.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+    return `<div class="sess"><b>${label}</b> · ${it.t}${it.d===tstr?'<span class="cal-today">TODAY</span>':''}${it.s?`<br><span class="dim">${it.s}</span>`:''}</div>`;
+  }).join('');
+  return {id:'calendar', cls:'k-cal', icon:'calendar', title:'Calendar', sub:'upcoming dates',
+    dot:`<span class="dotlive on"></span>`, pill:pill('on','5 events'), body, detail:body};
+}
+
+function actionsRow(){
+  return {id:'actions', isActions:true, title:'Quick Actions'};
+}
+
+/* ---------- render ---------- */
+let ROWS = [];   // [{label, cards:[...]}]
+let focus = {r:0, c:0};
+
+function cardHTML(c){
+  return `<div class="card ${c.cls}" data-id="${c.id}" tabindex="-1">
+    <div class="chead">
+      <div class="icon-tile">${ICONS[c.icon]}</div>
+      <div><h2>${c.title}</h2><div class="sub">${c.sub}</div></div>
+      <div class="spacer"></div>${c.dot}</div>
+    <div>${c.pill}</div>${c.body}</div>`;
+}
+
+function render(j){
+  const upd=document.getElementById('updated');
+  const s=Math.floor((Date.now()-new Date(j.generated_iso).getTime())/1000);
+  upd.innerHTML = s<120 ? `<span class="fresh">● LIVE</span> · ${ago(j.generated_iso)}` : `updated ${ago(j.generated_iso)}`;
+  document.getElementById('src').innerHTML = '<span class="live-tag">●</span> tv edition · read-only';
+  document.getElementById('collector').textContent = (j.collector||'—').replace(/\s*\(.*\)/,'');
+
+  const byId={}; (j.devices||[]).forEach(d=>byId[d.id]=d);
+  const pc = byId['seths-pc'];
+
+  const fleet=[];
+  if(pc) fleet.push(pcCard(pc));
+  if(byId['seths-macbook-air']) fleet.push(macCard(byId['seths-macbook-air']));
+  if(byId['iphone-xs-max']) fleet.push(phoneCard(byId['iphone-xs-max']));
+  if(byId['motorola-razr-2023']) fleet.push(phoneCard(byId['motorola-razr-2023']));
+  fleet.push(fireTvCard(pc && pc.firetv, pc));
+
+  const media=[
+    embyCard(j.emby_library, pc && pc.emby_sessions),
+    teraboxCard(j.terabox, pc && pc.terabox_uploaders),
+    biglybtCard(j.biglybt),
+    appleMusicCard(),
+    artistCard(),
+  ];
+
+  const ops=[
+    githubCard(j.github),
+    kaviguardCard(j.kaviguard),
+    calendarCard(),
+  ];
+
+  ROWS = [
+    {label:'Fleet', cards:fleet},
+    {label:'Media', cards:media},
+    {label:'Ops', cards:ops},
+  ];
+
+  const keepId = currentCard() && currentCard().id;
+  document.getElementById('rows').innerHTML = ROWS.map((r,ri)=>
+    `<div class="seclabel"><span>${r.label}</span></div>`+
+    `<div class="row" data-row="${ri}">`+r.cards.map(cardHTML).join('')+`</div>`
+  ).join('');
+
+  // restore focus by id if possible
+  if(keepId){
+    for(let ri=0;ri<ROWS.length;ri++){
+      const ci=ROWS[ri].cards.findIndex(c=>c.id===keepId);
+      if(ci>=0){ focus={r:ri,c:ci}; break; }
+    }
+  }
+  focus.r=Math.min(focus.r, ROWS.length-1);
+  focus.c=Math.min(focus.c, ROWS[focus.r].cards.length-1);
+  applyFocus();
+}
+
+function currentCard(){
+  if(!ROWS.length) return null;
+  return ROWS[focus.r].cards[focus.c];
+}
+
+function applyFocus(){
+  document.querySelectorAll('.card.focused').forEach(el=>el.classList.remove('focused'));
+  const c=currentCard(); if(!c) return;
+  const el=document.querySelector(`.card[data-id="${c.id}"]`);
+  if(el){
+    el.classList.add('focused');
+    el.scrollIntoView({block:'nearest', inline:'center', behavior:'smooth'});
+  }
+}
+
+function move(dr, dc){
+  if(!ROWS.length) return;
+  closeOverlay();
+  let r=focus.r+dr, c=focus.c+dc;
+  r=Math.max(0,Math.min(ROWS.length-1,r));
+  c=Math.max(0,Math.min(ROWS[r].cards.length-1,c));
+  focus={r,c};
+  applyFocus();
+}
+
+function openOverlay(){
+  const c=currentCard(); if(!c) return;
+  document.getElementById('ov-card').innerHTML =
+    `<div class="chead"><div class="icon-tile">${ICONS[c.icon]}</div>
+     <div><h2>${c.title}</h2><div class="sub">${c.sub}</div></div>
+     <div class="spacer"></div>${c.dot}</div>
+     <div>${c.pill}</div>${c.detail}
+     <div class="hint">Press <b>Back</b> to close</div>`;
+  document.getElementById('overlay').classList.add('open');
+}
+function closeOverlay(){
+  document.getElementById('overlay').classList.remove('open');
+}
+function overlayOpen(){
+  return document.getElementById('overlay').classList.contains('open');
+}
+
+/* ---------- DPAD / keyboard ---------- */
+document.addEventListener('keydown', e=>{
+  const k=e.key;
+  if(overlayOpen()){
+    if(k==='Escape'||k==='Backspace'||k==='GoBack'){ closeOverlay(); e.preventDefault(); }
+    return;
+  }
+  switch(k){
+    case 'ArrowLeft': move(0,-1); e.preventDefault(); break;
+    case 'ArrowRight': move(0,1); e.preventDefault(); break;
+    case 'ArrowUp': move(-1,0); e.preventDefault(); break;
+    case 'ArrowDown': move(1,0); e.preventDefault(); break;
+    case 'Enter': openOverlay(); e.preventDefault(); break;
+    case 'Escape': case 'Backspace': e.preventDefault(); break;
+  }
+});
+// Fire TV Back button often fires keyCode 10009 / 461
+document.addEventListener('keydown', e=>{
+  if((e.keyCode===10009||e.keyCode===461) && overlayOpen()){ closeOverlay(); e.preventDefault(); }
+});
+
+/* ---------- data ---------- */
+async function load(){
+  try{
+    const r = await fetch(STATUS_URL, {cache:'no-store'});
+    const j = await r.json();
+    render(j);
+  }catch(e){
+    document.getElementById('rows').innerHTML =
+      `<div class="card"><div class="err-card"><div class="big">🛰️</div>
+       <h2 style="margin:0 0 6px;font-size:40px">collector offline</h2>
+       <div class="sub" style="font-size:24px">status.json unreachable — check the 5-min cron</div></div></div>`;
+  }
+}
+
+function tick(){
+  const d=new Date();
+  document.getElementById('clock').textContent =
+    String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+':'+String(d.getSeconds()).padStart(2,'0');
+}
+tick(); setInterval(tick,1000);
+
+load();
+setInterval(load, 30000);
+</script>
+
+</body>
+</html>
