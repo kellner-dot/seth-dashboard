@@ -1,9 +1,9 @@
 {
   "missioncontrol": {
-    "build": 5,
+    "build": 6,
     "version": "0.1.0",
     "updated": "2026-10-03",
-    "notes": "Build 5: Ambient Mode (auto 10-min idle: clock/weather/photos) + Music Visualizer (reactive/ambient)"
+    "notes": "Build 6: Layout engine — Mission Control Editor (mission-control/editor/) with layout.json sync; drag-drop reorder/show/hide of dashboard rows & cards; TV applies new layouts on next 30s poll with \"Layout updated\" toast; falls back to built-in default if layout.json missing/invalid"
   },
   "iptvplayer": {
     "build": 1,
