@@ -1,11 +1,11 @@
 {
- "generated_at": 1791046730,
- "generated_iso": "2026-10-03T16:58:50+0000",
+ "generated_at": 1791047038,
+ "generated_iso": "2026-10-03T17:03:58+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "github": {
   "profile": "https://github.com/kellner-dot",
-  "public_repos": 9,
+  "public_repos": 10,
   "private_repos": 9,
   "pages": [
    {
@@ -18,6 +18,29 @@
    }
   ]
  },
+ "emby_library": {
+  "movies": 5527,
+  "series": 33,
+  "episodes": 59,
+  "recent": [
+   "On the Silver Globe",
+   "Das Profil: Walter Gropius aka Walter Gropius in profile",
+   "Films: Music for Millions (1977) Kawasaki Cut (1985) and The Plaza",
+   "Berlin: Die Sinfonie der Grosstadt",
+   "Melodie der Welt aka Melody of the World",
+   "Aka Mrs George Gilbert"
+  ]
+ },
+ "terabox": {
+  "total": null,
+  "used": null,
+  "free": null
+ },
+ "kaviguard": {},
+ "biglybt": {
+  "running": false,
+  "scheduler": "day \u00b7 throttled 1 MB/s"
+ },
  "devices": [
   {
    "id": "seths-pc",
@@ -26,7 +49,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 58872,
+   "uptime_s": 59180,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -37,7 +60,7 @@
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
-    "adb": "unreachable (port 5555 closed 2026-10-02)"
+    "adb": "unreachable (subnet route not approved or stick offline)"
    }
   },
   {
