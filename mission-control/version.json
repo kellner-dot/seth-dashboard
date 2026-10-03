@@ -1,9 +1,9 @@
 {
   "missioncontrol": {
-    "build": 4,
+    "build": 5,
     "version": "0.1.0",
     "updated": "2026-10-03",
-    "notes": "Build 4: auto-update banner fix (appBuild query param)"
+    "notes": "Build 5: Ambient Mode (auto 10-min idle: clock/weather/photos) + Music Visualizer (reactive/ambient)"
   },
   "iptvplayer": {
     "build": 1,
