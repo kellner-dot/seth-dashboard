@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Passman — Sign-in Launcher</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a12; color: #f2f2f5; font-family: system-ui, -apple-system, sans-serif;
+         min-height: 100vh; padding: 36px 48px; }
+  header { display: flex; align-items: center; gap: 18px; margin-bottom: 8px; }
+  .logo { width: 64px; height: 64px; border-radius: 16px; display: flex; align-items: center; justify-content: center;
+          font-size: 34px; font-weight: 800; background: linear-gradient(135deg, #3b82f6, #8b5cf6); color: #fff; }
+  h1 { font-size: 44px; letter-spacing: 1px; }
+  .sub { color: #9aa0b5; font-size: 22px; margin-bottom: 18px; }
+  .shield { display: inline-flex; align-items: center; gap: 10px; background: #101a12; border: 1px solid #22c55e;
+            color: #bbf7d0; border-radius: 12px; padding: 10px 18px; font-size: 20px; margin-bottom: 26px; }
+  #search { width: 100%; max-width: 640px; font-size: 26px; padding: 14px 20px; border-radius: 12px;
+            border: 2px solid #2a2a3d; background: #14141f; color: #fff; margin-bottom: 28px; outline: none; }
+  #search:focus { border-color: #3b82f6; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+  .card { background: linear-gradient(160deg, #17171f, #101018); border: 2px solid #26263a; border-radius: 16px;
+          padding: 22px; cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+  .card.focused, .card:hover { transform: scale(1.045); border-color: #22d3ee;
+          box-shadow: 0 0 26px rgba(34,211,238,.35); }
+  .card .initial { width: 56px; height: 56px; border-radius: 14px; display: flex; align-items: center; justify-content: center;
+          font-size: 30px; font-weight: 800; color: #fff; margin-bottom: 14px;
+          background: linear-gradient(135deg, #0ea5e9, #6366f1); }
+  .card h2 { font-size: 28px; margin-bottom: 4px; }
+  .card .note { color: #9aa0b5; font-size: 20px; margin-bottom: 10px; }
+  .card .open { color: #22d3ee; font-size: 20px; }
+  #overlay { position: fixed; inset: 0; background: rgba(4,4,10,.92); display: none; align-items: center; justify-content: center; z-index: 50; }
+  #overlay.show { display: flex; }
+  #panel { max-width: 900px; background: #14141f; border: 2px solid #3b82f6; border-radius: 20px; padding: 40px 48px; }
+  #panel h2 { font-size: 36px; margin-bottom: 18px; }
+  #panel ol { font-size: 24px; line-height: 1.9; margin-left: 28px; color: #d7dbe6; }
+  #panel .close { margin-top: 26px; font-size: 24px; background: #3b82f6; color: #fff; border: none; border-radius: 12px;
+          padding: 14px 34px; cursor: pointer; }
+  #helpbtn { position: fixed; right: 40px; bottom: 34px; font-size: 22px; background: #1c1c2b; color: #fff;
+          border: 2px solid #3b82f6; border-radius: 12px; padding: 12px 26px; cursor: pointer; }
+  .empty { color: #9aa0b5; font-size: 24px; padding: 30px 0; }
+  .hint { color: #6b7190; font-size: 19px; margin-top: 26px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">P</div>
+    <h1>Passman</h1>
+  </header>
+  <div class="sub">Sign-in launcher — pick an account to open its login page.</div>
+  <div class="shield">🛡️ Zero secrets here. Passman never stores, sees, or displays passwords.</div>
+  <div><input id="search" type="text" placeholder="Search accounts…"></div>
+  <div id="grid"></div>
+  <div class="hint">To edit this list, update <b>passman/accounts.json</b> in the seth-dashboard repo. Names and login-page URLs only — never usernames or passwords.</div>
+
+  <button id="helpbtn">❓ How to sign in</button>
+  <div id="overlay">
+    <div id="panel">
+      <h2>How to sign in on the TV</h2>
+      <ol>
+        <li>Pick an account below — its login page opens here.</li>
+        <li>On your <b>iPhone</b>, open the <b>Passwords</b> app and copy the password.</li>
+        <li>Open the <b>phone remote</b> page and use <b>clipboard share</b> to paste it onto the TV.</li>
+        <li>Your passwords live on your phone only — this TV never keeps them.</li>
+      </ol>
+      <button class="close" id="closehelp">Close</button>
+    </div>
+  </div>
+
+<script>
+var accounts = [];
+var focusIdx = 0;
+
+function initials(name) { return name.trim().charAt(0).toUpperCase(); }
+
+function render() {
+  var q = document.getElementById('search').value.toLowerCase();
+  var grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  var shown = accounts.filter(function(a){ return a.name.toLowerCase().indexOf(q) >= 0; });
+  if (!shown.length) { grid.innerHTML = '<div class="empty">No accounts match.</div>'; return; }
+  shown.forEach(function(a, i) {
+    var d = document.createElement('div');
+    d.className = 'card' + (i === focusIdx ? ' focused' : '');
+    d.innerHTML = '<div class="initial">' + initials(a.name) + '</div>' +
+      '<h2>' + escapeHtml(a.name) + '</h2>' +
+      '<div class="note">' + escapeHtml(a.note || '') + '</div>' +
+      '<div class="open">Open login →</div>';
+    d.addEventListener('click', function(){ openAccount(a); });
+    grid.appendChild(d);
+  });
+  focusIdx = Math.min(focusIdx, shown.length - 1);
+}
+
+function escapeHtml(s){ return String(s).replace(/[&<>"']/g, function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+
+function openAccount(a){ window.location.href = a.url; }
+
+function cards(){ return Array.prototype.slice.call(document.querySelectorAll('.card')); }
+
+document.getElementById('search').addEventListener('input', function(){ focusIdx = 0; render(); });
+document.getElementById('helpbtn').addEventListener('click', function(){
+  document.getElementById('overlay').classList.add('show'); });
+document.getElementById('closehelp').addEventListener('click', function(){
+  document.getElementById('overlay').classList.remove('show'); });
+document.getElementById('overlay').addEventListener('click', function(e){
+  if (e.target.id === 'overlay') e.target.classList.remove('show'); });
+
+document.addEventListener('keydown', function(e){
+  var cs = cards();
+  if (document.getElementById('overlay').classList.contains('show')) {
+    if (e.key === 'Escape' || e.keyCode === 461 || e.keyCode === 10009)
+      document.getElementById('overlay').classList.remove('show');
+    return;
+  }
+  var cols = Math.max(1, Math.floor(document.getElementById('grid').offsetWidth / 320));
+  if (e.key === 'ArrowRight' || e.keyCode === 39) { focusIdx = Math.min(focusIdx + 1, cs.length - 1); }
+  else if (e.key === 'ArrowLeft' || e.keyCode === 37) { focusIdx = Math.max(focusIdx - 1, 0); }
+  else if (e.key === 'ArrowDown' || e.keyCode === 40) { focusIdx = Math.min(focusIdx + cols, cs.length - 1); }
+  else if (e.key === 'ArrowUp' || e.keyCode === 38) { focusIdx = Math.max(focusIdx - cols, 0); }
+  else if (e.key === 'Enter' || e.keyCode === 13 || e.keyCode === 23) {
+    var q = document.getElementById('search').value.toLowerCase();
+    var shown = accounts.filter(function(a){ return a.name.toLowerCase().indexOf(q) >= 0; });
+    if (shown[focusIdx]) openAccount(shown[focusIdx]);
+    return;
+  }
+  else if (e.keyCode === 461 || e.keyCode === 10009) { return; }
+  else return;
+  e.preventDefault();
+  render();
+  var el = cs[focusIdx];
+  if (el && el.scrollIntoView) el.scrollIntoView({block: 'nearest'});
+});
+
+fetch('accounts.json', {cache: 'no-store'})
+  .then(function(r){ return r.json(); })
+  .then(function(j){ accounts = j.accounts || []; render(); })
+  .catch(function(){ document.getElementById('grid').innerHTML =
+    '<div class="empty">Could not load accounts.json</div>'; });
+</script>
+</body>
+</html>
