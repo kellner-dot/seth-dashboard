@@ -1,0 +1,134 @@
+:root {
+  --bg: #0d1117;
+  --panel: #161b22;
+  --panel2: #1c2330;
+  --border: #30363d;
+  --text: #e6edf3;
+  --dim: #8b949e;
+  --accent: #e50914;
+  --accent2: #1f6feb;
+  --gold: #d29922;
+  --green: #3fb950;
+  --radius: 10px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh; display: flex; flex-direction: column;
+}
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 20px; background: var(--panel);
+  border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 10px;
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand .logo { font-size: 2rem; }
+.brand h1 { margin: 0; font-size: 1.3rem; }
+.brand p { margin: 0; color: var(--dim); font-size: 0.8rem; }
+.header-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+button {
+  background: var(--panel2); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 8px 14px; cursor: pointer; font-size: 0.9rem;
+}
+button:hover { border-color: var(--dim); }
+button.primary { background: var(--accent2); border-color: var(--accent2); color: #fff; }
+button.accent { background: var(--accent); border-color: var(--accent); color: #fff; }
+input[type="date"], input[type="search"], input[type="text"], input[type="password"] {
+  background: var(--panel2); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+}
+#settingsPanel {
+  background: var(--panel); border-bottom: 1px solid var(--border);
+  padding: 12px 20px; display: flex; gap: 12px; align-items: end; flex-wrap: wrap;
+}
+#settingsPanel label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--dim); }
+#settingsPanel .hint { width: 100%; color: var(--dim); font-size: 0.8rem; margin: 4px 0 0; }
+.hidden { display: none !important; }
+
+main { display: flex; flex: 1; min-height: 0; }
+aside, section { padding: 14px; overflow-y: auto; }
+#channelList { width: 220px; background: var(--panel); border-right: 1px solid var(--border); flex-shrink: 0; }
+#channelList h2, #poolPanel h2 { font-size: 0.95rem; margin: 0 0 10px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.05em; }
+.ch-item {
+  padding: 10px 12px; border-radius: var(--radius); cursor: pointer;
+  border: 1px solid transparent; margin-bottom: 6px; background: var(--panel2);
+}
+.ch-item:hover { border-color: var(--dim); }
+.ch-item.active { border-color: var(--accent); background: #2a1214; }
+.ch-item .num { color: var(--accent); font-weight: bold; margin-right: 8px; }
+.ch-item .nm { font-weight: 600; }
+.ch-item .cur { display: inline-block; font-size: 0.7rem; background: var(--gold); color: #000; border-radius: 4px; padding: 1px 6px; margin-left: 6px; }
+
+#timelineWrap { flex: 1; min-width: 0; }
+#channelHeader h2 { margin: 0; }
+#channelHeader p { margin: 4px 0 12px; color: var(--dim); font-size: 0.9rem; }
+.prog {
+  display: flex; gap: 12px; align-items: center;
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 10px 14px; margin-bottom: 8px;
+  cursor: pointer; border-left: 4px solid var(--dim);
+}
+.prog:hover { border-color: var(--dim); }
+.prog .time { font-variant-numeric: tabular-nums; color: var(--dim); min-width: 110px; font-size: 0.85rem; }
+.prog .info { flex: 1; min-width: 0; }
+.prog .title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.prog .sub { color: var(--dim); font-size: 0.8rem; }
+.prog .slot { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 8px; border-radius: 4px; background: var(--panel2); color: var(--dim); }
+.prog .pin-badge { color: var(--gold); }
+.slot-morning { border-left-color: #d29922 !important; }
+.slot-afternoon { border-left-color: #1f6feb !important; }
+.slot-evening { border-left-color: #8957e5 !important; }
+.slot-prime { border-left-color: #e50914 !important; }
+.slot-late { border-left-color: #8b949e !important; }
+.slot-overnight { border-left-color: #3fb950 !important; }
+.slot-manual { border-left-color: #d29922 !important; }
+.gap {
+  text-align: center; color: var(--dim); font-size: 0.8rem;
+  padding: 6px; border: 1px dashed var(--border); border-radius: var(--radius);
+  margin-bottom: 8px; cursor: pointer;
+}
+.gap:hover { border-color: var(--accent2); color: var(--text); }
+
+#poolPanel { width: 300px; background: var(--panel); border-left: 1px solid var(--border); flex-shrink: 0; display: flex; flex-direction: column; }
+#poolSearch { width: 100%; margin-bottom: 8px; }
+#poolStats { color: var(--dim); font-size: 0.8rem; margin-bottom: 8px; }
+#pool { overflow-y: auto; flex: 1; }
+.movie {
+  background: var(--panel2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 10px; margin-bottom: 6px; cursor: pointer;
+}
+.movie:hover { border-color: var(--accent2); }
+.movie.selected { border-color: var(--gold); background: #2a2111; }
+.movie .t { font-weight: 600; font-size: 0.9rem; }
+.movie .m { color: var(--dim); font-size: 0.78rem; }
+
+#drawer, #epgModal {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.7);
+  display: flex; align-items: center; justify-content: center; z-index: 50;
+}
+#drawerCard, #epgCard {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 14px; padding: 24px; max-width: 560px; width: 92%;
+  max-height: 84vh; overflow-y: auto; position: relative;
+}
+#drawerClose, #epgClose { position: absolute; top: 12px; right: 12px; }
+#drawerBody .row { margin: 8px 0; font-size: 0.92rem; }
+#drawerBody .lbl { color: var(--dim); display: inline-block; min-width: 90px; }
+#drawerBody .actions { margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap; }
+#epgGrid table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+#epgGrid th, #epgGrid td { text-align: left; padding: 8px; border-bottom: 1px solid var(--border); }
+#epgGrid th { color: var(--dim); }
+#epgGrid .now { color: var(--accent); font-weight: bold; }
+
+#toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+  background: var(--panel2); border: 1px solid var(--border);
+  padding: 12px 20px; border-radius: 10px; z-index: 100;
+}
+
+@media (max-width: 900px) {
+  main { flex-direction: column; }
+  #channelList, #poolPanel { width: 100%; border: none; border-bottom: 1px solid var(--border); max-height: 220px; }
+}
