@@ -134,6 +134,8 @@
   .pdot.off{background:var(--bad); box-shadow:0 0 10px rgba(248,113,113,.7);}
   .pdot.na{background:var(--warn); box-shadow:0 0 10px rgba(251,191,36,.7);}
   @keyframes pulse{0%,100%{transform:scale(1); opacity:1;}50%{transform:scale(.72); opacity:.65;}}
+  .mprog{height:10px; background:#1a2233; border-radius:6px; margin:10px 24px 0; overflow:hidden;}
+  .mprogfill{height:100%; background:linear-gradient(90deg,#22d3ee,#818cf8); border-radius:6px; transition:width .6s ease;}
   .poster.focused{transform:scale(1.08); border-color:var(--focus); z-index:5;
     box-shadow:0 0 0 4px rgba(110,231,255,.35), 0 26px 70px rgba(0,0,0,.65), 0 0 54px rgba(110,231,255,.22);}
   .poster.focused .art svg{transform:scale(1.12);}
@@ -717,6 +719,7 @@ let focus = {zone:'rows', r:0, c:0};
 let heroActions = [];   // [{id,label,ghost}]
 let heroSubject = null; // {type, card?, item?}
 let npData = null;
+let spotlightData = null;
 let rowX = [];
 
 /* ---------- poster stat lines ---------- */
@@ -730,7 +733,9 @@ function posterStat(c, j, ctx){
     case 'motorola-razr-2023': { const d=ctx.razr; const up=d&&d.rvg_agent&&d.rvg_agent.up;
       return `RVG Android ${up?'up':'down'} · ntfy`; }
     case 'firetv': { const ft=(ctx.pc&&ctx.pc.firetv)||{}; return ft.seen_in_emby ? 'streaming now' : 'standby'; }
-    case 'emby': { const l=j.emby_library||{}; return `${l.movies!=null?l.movies:'—'} movies · ${l.series!=null?l.series:'—'} series`; }
+    case 'emby': { const l=j.emby_library||{}; const sp=spotlightData||{};
+      const uw=sp.unwatched!=null?` · ${sp.unwatched} unwatched`:'';
+      return `${l.movies!=null?l.movies:'—'} movies · ${l.series!=null?l.series:'—'} series${uw}`; }
     case 'terabox': { const t=j.terabox||{}; const has=t.total!=null&&t.used!=null;
       return has ? `${Math.round(t.used/t.total*100)}% used · ${ctx.pc&&ctx.pc.terabox_uploaders||0} up` : 'syncing'; }
     case 'biglybt': { const b=j.biglybt||{}; return b.running ? 'running' : 'stopped'; }
@@ -845,6 +850,44 @@ function renderHero(j, ctx){
     `<button class="hbtn${a.ghost?' ghost':''}" data-ha="${i}" tabindex="-1">${a.label}</button>`).join('');
 }
 
+
+/* ---------- Emby Spotlight: New on Emby + Continue Watching ---------- */
+function moviePoster(m, kind){
+  const yr = m.year ? ` (${m.year})` : '';
+  const genres = (m.genres||[]).join(' · ');
+  const prog = (kind==='resume' && m.progress_pct)
+    ? `<div class="mprog"><div class="mprogfill" style="width:${m.progress_pct}%"></div></div>` : '';
+  const sub = kind==='resume' ? `${m.progress_pct}% watched` : genres;
+  return {id:'movie-'+kind+'-'+m.name.replace(/[^a-z0-9]+/gi,'-').toLowerCase().slice(0,24),
+    cls:'k-emby', icon:'film', title:m.name+yr, sub:sub,
+    dot:'<span class="dotlive on"></span>', pill:pill('on', kind==='resume'?'resume':'new'),
+    body:`<div class="sess"><b>${esc(m.name)}${yr}</b><br><span class="dim">${esc(genres)}${m.runtime_min?' · '+m.runtime_min+' min':''}</span></div>${prog}`,
+    detail:`<div class="sess"><b>${esc(m.name)}${yr}</b></div><div class="sesslbl">${esc(genres)}</div>`+(m.runtime_min?`<div class="sess"><span class="dim">${m.runtime_min} min runtime</span></div>`:'')};
+}
+function spotlightRows(){
+  const rows=[];
+  const s=spotlightData;
+  if(!s) return rows;
+  if(s.new_arrivals && s.new_arrivals.length){
+    rows.push({label:'\uD83C\uDFAC New on Emby', cards:s.new_arrivals.map(m=>moviePoster(m,'new'))});
+  }
+  if(s.continue_watching && s.continue_watching.length){
+    rows.push({label:'\u25B6\uFE0F Continue Watching', cards:s.continue_watching.map(m=>moviePoster(m,'resume'))});
+  }
+  return rows;
+}
+function surpriseCard(){
+  const s=spotlightData;
+  if(!s || !s.surprise_pick) return null;
+  const p=s.surprise_pick;
+  const yr=p.year?` (${p.year})`:'';
+  return {id:'act-surprise', cls:'k-act', icon:'bolt', title:'\uD83C\uDFB2 Surprise Me', sub:'random pick',
+    dot:'<span class="dotlive on"></span>', pill:pill('on','random'),
+    isAction:'surprise',
+    body:`<div class="sess"><b>\uD83C\uDFB2 ${esc(p.name)}${yr}</b><br><span class="dim">${esc((p.genres||[]).join(' · '))}</span></div>`,
+    detail:`<div class="sess"><b>${esc(p.name)}${yr}</b></div><div class="sesslbl">${esc((p.genres||[]).join(' · '))}</div><div class="sess"><span class="dim">${esc(p.overview||'')}</span></div>`};
+}
+
 /* ---------- render ---------- */
 function render(j){
   // header/footer freshness
@@ -881,12 +924,15 @@ function render(j){
     hearingCard(),
   ];
 
+  const acts=actionCards();
+  const sc=surpriseCard(); if(sc) acts.unshift(sc);
   ROWS=[
     {label:'My Fleet', cards:fleet},
     {label:'Media', cards:media},
+  ].concat(spotlightRows()).concat([
     {label:'Operations', cards:ops},
-    {label:'Quick Actions', cards:actionCards()},
-  ];
+    {label:'Quick Actions', cards:acts},
+  ]);
 
   renderHero(j, ctx);
   processAlerts(j.alerts);
@@ -1017,6 +1063,7 @@ function runCardAction(c){
   if(!c||!c.isAction) return;
   if(c.isAction==='photos') openPhotoFrame();
   else if(c.isAction==='iptv'){ window.location.href='../iptv/'; }
+    else if(c.isAction==='surprise'){ openOverlay(c); }
   else if(c.isAction==='refresh'){ load(); }
 }
 
@@ -1131,13 +1178,14 @@ function showInboxBanner(url){
 
 async function load(){
   try{
-    const [r,b,h,p,ib,np]=await Promise.all([
+    const [r,b,h,p,ib,np,sp]=await Promise.all([
       fetch(STATUS_URL+'?t='+Date.now(),{cache:'no-store'}), // cache-bust GitHub Pages CDN
       fetch('briefing.json',{cache:'no-store'}).catch(()=>null),
       fetch('hearing.json',{cache:'no-store'}).catch(()=>null),
       fetch('photos.json',{cache:'no-store'}).catch(()=>null),
       fetch('../tv-inbox/inbox.json',{cache:'no-store'}).catch(()=>null),
       fetch('nowplaying.json',{cache:'no-store'}).catch(()=>null),
+      fetch('emby-spotlight.json',{cache:'no-store'}).catch(()=>null),
     ]);
     const j=await r.json();
     try{ if(b&&b.ok) briefingData=await b.json(); }catch(e){}
@@ -1145,6 +1193,7 @@ async function load(){
     try{ if(p&&p.ok) photosData=await p.json(); }catch(e){}
     try{ if(ib&&ib.ok) checkInbox(await ib.json()); }catch(e){}
     try{ if(np&&np.ok){ npData=await np.json(); renderNowPlaying(npData); } }catch(e){}
+    try{ if(sp&&sp.ok) spotlightData=await sp.json(); }catch(e){}
     render(j);
     checkForUpdate();
   }catch(e){
