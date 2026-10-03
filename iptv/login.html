@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TV Navigator – Add Source</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      // Runs before every other script: any load/parse/runtime error becomes
+      // visible on the TV instead of failing silently.
+      window.onerror = function (msg, src, line) {
+        try {
+          var b = document.getElementById("lp-diag");
+          if (b) {
+            b.style.display = "block";
+            b.style.color = "#ff9aa2";
+            b.textContent =
+              "JS ERROR: " +
+              msg +
+              " @ " +
+              String(src).split("/").pop() +
+              ":" +
+              line;
+          }
+        } catch (e) {}
+        return false;
+      };
+    </script>
+    <script src="polyfills.js"></script>
+    <style>
+      /* ── login page layout ─────────────────────────────────── */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #080b10;
+        overflow: hidden;
+      }
+      #login-page {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+      #login-card {
+        width: 1340px;
+        max-width: 92vw;
+        background: rgba(19, 24, 31, 0.98);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 24px;
+        padding: 36px 40px 40px;
+      }
+      .lp-head {
+        margin-bottom: 28px;
+      }
+      .lp-head h1 {
+        margin: 14px 0 8px;
+        font-size: 58px;
+        color: #edf1f7;
+      }
+      .lp-head p {
+        margin: 0;
+        color: #a4afbc;
+        font-size: 28px;
+        line-height: 1.5;
+      }
+      .lp-tabs {
+        margin-bottom: 22px;
+      }
+      .lp-fields {
+        margin-bottom: 24px;
+      }
+      .lp-error {
+        display: none;
+        margin-bottom: 16px;
+        border-radius: 12px;
+        padding: 14px 18px;
+        background: rgba(166, 44, 56, 0.16);
+        color: #f5aab1;
+        font-size: 26px;
+      }
+      .lp-error.show {
+        display: block;
+      }
+      .lp-actions {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+        margin-top: 8px;
+      }
+      /* field layout identical to the main app modal */
+      .lp-field-row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        margin-bottom: 14px;
+      }
+      .lp-field {
+        width: 50%;
+        padding-right: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .lp-field:last-child {
+        padding-right: 0;
+      }
+      .lp-field-wide {
+        width: 100%;
+        padding-right: 0;
+      }
+      .lp-field label {
+        display: block;
+        margin-bottom: 8px;
+        color: #a4afbc;
+        font-size: 24px;
+      }
+      .lp-field input {
+        width: 100%;
+        height: 74px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(28, 33, 41, 0.96);
+        color: #edf1f7;
+        padding: 0 18px;
+        font-size: 27px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        pointer-events: auto;
+      }
+      .lp-field input:focus {
+        outline: 3px solid #4a7afc;
+        outline-offset: 2px;
+      }
+      /* hidden tab blocks */
+      .lp-form-block {
+        display: none;
+      }
+      .lp-form-block.active {
+        display: block;
+      }
+      /* focus ring on buttons (webOS 3.x needs explicit outline) */
+      .tab-btn:focus,
+      .btn:focus {
+        outline: 3px solid #4a7afc !important;
+        outline-offset: 2px !important;
+      }
+      /* JS-managed selection ring. The page tracks selection itself because
+         DOM focus on an input opens the webOS keyboard and traps arrow keys. */
+      .lp-focus {
+        outline: 4px solid #4a7afc !important;
+        outline-offset: 3px !important;
+        box-shadow: 0 0 0 6px rgba(74, 122, 252, 0.28) !important;
+      }
+      button.lp-focus {
+        background: #4a7afc !important;
+        color: #ffffff !important;
+        border-color: #4a7afc !important;
+      }
+      input.lp-focus {
+        border-color: #4a7afc !important;
+        background: rgba(40, 52, 78, 0.98) !important;
+      }
+      /* nav hint bar at bottom */
+      #lp-hint {
+        margin-top: 18px;
+        font-size: 22px;
+        color: #6b7a8d;
+        text-align: right;
+      }
+      /* diagnostics readout — shows key codes / JS errors on the TV itself */
+      #lp-diag {
+        margin-top: 10px;
+        font-size: 20px;
+        color: #5d6b7d;
+        text-align: right;
+        font-family: monospace;
+        display: none;
+      }
+
+      body {
+        background:
+          radial-gradient(circle at 10% 8%, rgba(52, 226, 182, 0.32), transparent 28%),
+          radial-gradient(circle at 88% 92%, rgba(255, 116, 190, 0.2), transparent 32%),
+          linear-gradient(145deg, #102344 0%, #1c245a 55%, #30205a 100%);
+        color: #f9fbff;
+        font-family: "Segoe UI", Arial, sans-serif;
+      }
+      #login-card {
+        width: 1180px;
+        max-width: 90vw;
+        max-height: 92vh;
+        overflow: auto;
+        background: rgba(20, 30, 63, 0.96);
+        border: 1px solid rgba(158, 228, 255, 0.38);
+        border-radius: 18px;
+        padding: 38px 44px 32px;
+        -webkit-box-shadow: 0 20px 60px rgba(3, 7, 20, 0.4);
+        box-shadow: 0 20px 60px rgba(3, 7, 20, 0.4);
+      }
+      .lp-head {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .lp-head .brand-mark {
+        width: 86px;
+        height: 86px;
+        margin-right: 22px;
+        -webkit-flex-shrink: 0;
+        flex-shrink: 0;
+      }
+      .lp-head h1 {
+        margin: 0;
+        font-size: 48px;
+        line-height: 1.1;
+        color: #f9fbff;
+      }
+      .lp-tabs {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        margin-bottom: 26px;
+        border-bottom: 1px solid rgba(158, 228, 255, 0.2);
+      }
+      .tab-btn {
+        min-width: 190px;
+        min-height: 62px;
+        margin-right: 12px;
+        border: 1px solid rgba(158, 228, 255, 0.28);
+        border-radius: 12px 12px 0 0;
+        background: rgba(27, 37, 76, 0.84);
+        color: #b9c8de;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .tab-btn.active {
+        background: rgba(67, 213, 193, 0.28);
+        border-color: #63e1d2;
+        color: #ffffff;
+      }
+      .lp-fields {
+        margin-bottom: 26px;
+      }
+      .lp-field-row {
+        margin-bottom: 18px;
+      }
+      .lp-field {
+        padding-right: 14px;
+      }
+      .lp-field label {
+        margin-bottom: 9px;
+        color: #b9c8de;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .lp-field input {
+        height: 68px;
+        border-radius: 10px;
+        border: 1px solid rgba(158, 228, 255, 0.28);
+        background: rgba(12, 19, 42, 0.72);
+        color: #ffffff;
+        padding: 0 18px;
+        font-size: 25px;
+      }
+      .lp-field input:focus {
+        outline: none;
+        border-color: #63e1d2;
+        -webkit-box-shadow: 0 0 0 4px rgba(99, 225, 210, 0.28);
+        box-shadow: 0 0 0 4px rgba(99, 225, 210, 0.28);
+      }
+      .lp-error {
+        margin-bottom: 18px;
+        border: 1px solid rgba(255, 146, 158, 0.42);
+        border-radius: 10px;
+        background: rgba(166, 44, 56, 0.2);
+        color: #ffd0d5;
+      }
+      .lp-actions {
+        margin-top: 6px;
+      }
+      .lp-actions .btn {
+        min-width: 190px;
+        min-height: 64px;
+        border-radius: 10px;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .lp-actions .btn.primary {
+        background: #63e1d2;
+        border-color: #63e1d2;
+        color: #06241f;
+      }
+      #lp-hint {
+        margin-top: 22px;
+        color: #9db0c9;
+        font-size: 19px;
+      }
+      body.tvn-theme-light {
+        background: linear-gradient(145deg, #dceeff 0%, #f6f9ff 60%, #d9f5ef 100%);
+        color: #102344;
+      }
+      body.tvn-theme-light #login-card {
+        background: rgba(255, 255, 255, 0.96);
+        border-color: rgba(18, 56, 106, 0.24);
+        -webkit-box-shadow: 0 20px 60px rgba(18, 56, 106, 0.18);
+        box-shadow: 0 20px 60px rgba(18, 56, 106, 0.18);
+      }
+      body.tvn-theme-light .lp-head h1,
+      body.tvn-theme-light .lp-field input {
+        color: #102344;
+      }
+      body.tvn-theme-light .lp-field label,
+      body.tvn-theme-light #lp-hint {
+        color: #46617f;
+      }
+      body.tvn-theme-light .lp-field input {
+        background: #f3f7fc;
+        border-color: rgba(18, 56, 106, 0.24);
+      }
+      body.tvn-theme-light .tab-btn {
+        background: #edf4fb;
+        color: #46617f;
+      }
+      body.tvn-theme-light .tab-btn.active {
+        background: #d7f3ee;
+        border-color: #168d7f;
+        color: #073d36;
+      }
+      body.tvn-theme-oled #login-card {
+        background: #050708;
+        border-color: rgba(0, 255, 255, 0.48);
+      }
+      body.tvn-theme-oled .lp-actions .btn.primary {
+        background: #00ffff;
+        border-color: #00ffff;
+      }
+      body.tvn-theme-magenta #login-card {
+        background: rgba(38, 8, 45, 0.96);
+        border-color: rgba(255, 102, 215, 0.48);
+      }
+      body.tvn-theme-magenta .tab-btn.active,
+      body.tvn-theme-magenta .lp-actions .btn.primary {
+        background: #ff66d7;
+        border-color: #ff66d7;
+        color: #2a0322;
+      }
+
+      @media screen and (min-width: 1600px) and (min-height: 900px) {
+        #login-card {
+          width: 1320px;
+          max-width: 86vw;
+          padding: 48px 58px 40px;
+        }
+        .lp-head {
+          margin-bottom: 38px;
+        }
+        .lp-head .brand-mark {
+          width: 104px;
+          height: 104px;
+          margin-right: 28px;
+        }
+        .lp-head h1 {
+          font-size: 58px;
+        }
+        .lp-tabs {
+          margin-bottom: 32px;
+        }
+        .tab-btn {
+          min-width: 220px;
+          min-height: 72px;
+          font-size: 28px;
+        }
+        .lp-field-row {
+          margin-bottom: 24px;
+        }
+        .lp-field label {
+          margin-bottom: 12px;
+          font-size: 26px;
+        }
+        .lp-field input {
+          height: 80px;
+          font-size: 29px;
+        }
+        .lp-actions .btn {
+          min-width: 220px;
+          min-height: 74px;
+          font-size: 28px;
+        }
+        #lp-hint {
+          margin-top: 28px;
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login-page">
+      <div id="login-card">
+        <div class="lp-head">
+          <div class="brand-mark">
+            <img class="brand-logo" src="new-logo.png" alt="IPTV logo" />
+          </div>
+          <h1>TV Navigator</h1>
+        </div>
+
+        <div class="lp-tabs">
+          <button
+            id="lp-tab-xtream"
+            class="tab-btn active focusable"
+            type="button"
+            tabindex="0"
+            data-lptab="xtream"
+          >
+            Xtream
+          </button>
+          <button
+            id="lp-tab-m3u"
+            class="tab-btn focusable"
+            type="button"
+            tabindex="0"
+            data-lptab="m3u"
+          >
+            M3U URL
+          </button>
+        </div>
+
+        <div id="lp-error" class="lp-error"></div>
+
+        <!-- Xtream fields -->
+        <div id="lp-form-xtream" class="lp-form-block active lp-fields">
+          <div class="lp-field-row">
+            <div class="lp-field">
+              <label for="lp-name">Source Name</label>
+              <input
+                id="lp-name"
+                class="focusable"
+                type="text"
+                tabindex="0"
+                placeholder="My Xtream"
+              />
+            </div>
+            <div class="lp-field">
+              <label for="lp-server">Server URL</label>
+              <input
+                id="lp-server"
+                class="focusable"
+                type="text"
+                tabindex="0"
+                placeholder="http://provider.com:8080"
+              />
+            </div>
+          </div>
+          <div class="lp-field-row">
+            <div class="lp-field">
+              <label for="lp-user">Username</label>
+              <input id="lp-user" class="focusable" type="text" tabindex="0" />
+            </div>
+            <div class="lp-field">
+              <label for="lp-pass">Password</label>
+              <input
+                id="lp-pass"
+                class="focusable"
+                type="password"
+                tabindex="0"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- M3U fields -->
+        <div id="lp-form-m3u" class="lp-form-block lp-fields">
+          <div class="lp-field-row">
+            <div class="lp-field">
+              <label for="lp-m3u-name">Source Name</label>
+              <input
+                id="lp-m3u-name"
+                class="focusable"
+                type="text"
+                tabindex="0"
+                placeholder="Remote Playlist"
+              />
+            </div>
+            <div class="lp-field lp-field-wide">
+              <label for="lp-m3u-url">M3U URL</label>
+              <input
+                id="lp-m3u-url"
+                class="focusable"
+                type="text"
+                tabindex="0"
+                placeholder="https://example.com/playlist.m3u8"
+              />
+            </div>
+          </div>
+          <div class="lp-field-row">
+            <div class="lp-field lp-field-wide">
+              <label for="lp-m3u-ua">Custom User-Agent (optional)</label>
+              <input
+                id="lp-m3u-ua"
+                class="focusable"
+                type="text"
+                tabindex="0"
+                placeholder="Mozilla/5.0"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="lp-error2" class="lp-error"></div>
+
+        <div class="lp-actions">
+          <!-- Shown by login.js only when at least one source already exists. -->
+          <button
+            id="lp-cancel"
+            class="btn focusable"
+            type="button"
+            style="display: none; margin-right: 14px"
+          >
+            Cancel
+          </button>
+          <button
+            id="lp-save"
+            class="btn primary focusable"
+            type="button"
+            tabindex="0"
+          >
+            Save Source
+          </button>
+        </div>
+
+        <div id="lp-hint">
+          ▲▼◀▶ move &nbsp;·&nbsp; OK on a field to type &nbsp;·&nbsp; BACK when
+          done typing
+        </div>
+        <div id="lp-diag"></div>
+      </div>
+      <!-- /login-card -->
+    </div>
+    <!-- /login-page -->
+
+    <script src="login.js"></script>
+  </body>
+</html>
