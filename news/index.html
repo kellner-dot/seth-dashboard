@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1.0">
+<title>Headline Stream TV</title>
+<meta name="theme-color" content="#04060c">
+<style>
+  :root{
+    --bg:#04060c;
+    --txt:#f2f6fc; --dim:#a9b4c8; --faint:#5f6b85;
+    --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6;
+    --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+    --focus:#6ee7ff;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{min-height:100%;}
+  body{
+    margin:0; color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,sans-serif;
+    background:var(--bg);
+    font-size:28px;
+    overflow-x:hidden;
+  }
+  body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(1400px 700px at 12% -5%, rgba(110,231,255,.07), transparent 60%),
+      radial-gradient(1200px 800px at 92% 8%, rgba(167,139,250,.08), transparent 60%),
+      radial-gradient(1000px 900px at 50% 110%, rgba(244,114,182,.05), transparent 60%);}
+  .orb{position:fixed; border-radius:50%; filter:blur(120px); opacity:.13; pointer-events:none; z-index:0;
+       animation:drift 28s ease-in-out infinite alternate;}
+  .orb.o1{width:440px;height:440px;left:-120px;top:4%;background:#2563eb;}
+  .orb.o2{width:400px;height:400px;right:-110px;top:32%;background:#7c3aed;animation-delay:-9s;}
+  .orb.o3{width:340px;height:340px;left:30%;bottom:-120px;background:#db2777;animation-delay:-18s;opacity:.09;}
+  @keyframes drift{from{transform:translate(0,0) scale(1);}to{transform:translate(60px,80px) scale(1.12);}}
+
+  .wrap{position:relative; z-index:1; padding-bottom:120px;}
+
+  /* ============ slim top bar ============ */
+  .topbar{position:sticky; top:0; z-index:40; display:flex; align-items:center; justify-content:space-between;
+    padding:16px 64px 14px;
+    background:linear-gradient(180deg, rgba(4,6,12,.96) 0%, rgba(4,6,12,.82) 65%, transparent 100%);}
+  .topbar .brand{display:flex; align-items:center; gap:20px;}
+  .brand .logo{width:58px;height:58px;border-radius:16px;display:flex;align-items:center;justify-content:center;
+    font-size:32px;background:linear-gradient(135deg, rgba(110,231,255,.22), rgba(167,139,250,.22));
+    border:1px solid rgba(110,231,255,.35);}
+  .brand h1{font-size:36px;margin:0;letter-spacing:.04em;font-weight:700;}
+  .brand h1 span{color:var(--acc1);}
+  .topbar .meta{display:flex; align-items:center; gap:18px; color:var(--dim); font-size:24px;}
+  .dot{width:14px;height:14px;border-radius:50%;background:var(--ok);box-shadow:0 0 12px var(--ok);}
+  .dot.off{background:var(--faint);box-shadow:none;}
+  .hbtn{color:var(--txt); text-decoration:none; border:1px solid rgba(110,231,255,.4); border-radius:14px;
+    padding:10px 22px; font-size:26px; background:rgba(110,231,255,.06);}
+  .hbtn.focused{transform:scale(1.07); border-color:var(--focus); background:rgba(110,231,255,.18);
+    box-shadow:0 0 26px rgba(110,231,255,.45); outline:none;}
+
+  .content{padding:26px 64px 0;}
+
+  .tagline{color:var(--dim); font-size:25px; margin:6px 0 26px;}
+
+  /* ============ topic rows ============ */
+  .topic{margin-bottom:48px;}
+  .topic-head{display:flex; align-items:baseline; gap:18px; margin-bottom:18px;}
+  .topic-head h2{font-size:34px; margin:0;}
+  .topic-head .cnt{color:var(--faint); font-size:23px;}
+  .row{display:flex; gap:26px; overflow-x:auto; padding:10px 6px 26px; scrollbar-width:none;}
+  .row::-webkit-scrollbar{display:none;}
+
+  /* ============ 16:9 article posters ============ */
+  .poster{flex:0 0 560px; width:560px; border-radius:20px; overflow:hidden; text-decoration:none; color:var(--txt);
+    background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.12);
+    display:flex; flex-direction:column;}
+  .poster .art{position:relative; aspect-ratio:16/9; overflow:hidden;
+    background:linear-gradient(135deg, rgba(110,231,255,.16), rgba(167,139,250,.16) 60%, rgba(244,114,182,.12));}
+  .poster .art .glow{position:absolute; inset:0;
+    background:radial-gradient(420px 260px at 20% 10%, rgba(110,231,255,.28), transparent 65%),
+               radial-gradient(420px 260px at 85% 90%, rgba(244,114,182,.22), transparent 65%);}
+  .poster .art .src{position:absolute; left:22px; bottom:18px; font-size:22px; letter-spacing:.14em;
+    color:var(--acc1); text-transform:uppercase; text-shadow:0 2px 12px rgba(0,0,0,.8);}
+  .poster .body{padding:24px 26px 28px;}
+  .poster .title{font-size:30px; font-weight:700; line-height:1.35; margin-bottom:12px;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+  .poster .summary{font-size:24px; color:var(--dim); line-height:1.5;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+  .poster .time{margin-top:14px; font-size:21px; color:var(--faint);}
+  .poster.focused{transform:scale(1.05); border-color:var(--focus); z-index:5;
+    box-shadow:0 0 34px rgba(110,231,255,.4); outline:none;}
+
+  /* ============ empty state ============ */
+  .empty{border-radius:26px; padding:90px 60px; text-align:center; margin-bottom:44px;
+    background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.1);}
+  .empty .e{font-size:88px; margin-bottom:24px;}
+  .empty h2{font-size:38px; margin:0 0 14px;}
+  .empty p{color:var(--dim); font-size:27px; line-height:1.6; max-width:1100px; margin:0 auto;}
+  .refresh-line{color:var(--faint); font-size:22px; text-align:center; padding:10px 0 40px;}
+
+  /* ============ detail overlay ============ */
+  .overlay{position:fixed; inset:0; z-index:100; display:none; align-items:center; justify-content:center;
+    background:rgba(2,4,9,.82); backdrop-filter:blur(8px);}
+  .overlay.open{display:flex;}
+  .sheet{width:min(1480px, 92vw); max-height:88vh; overflow-y:auto; border-radius:26px; padding:56px 64px;
+    background:linear-gradient(160deg, #0a0f1e, #070b16);
+    border:1px solid rgba(110,231,255,.35); box-shadow:0 30px 90px rgba(0,0,0,.7);}
+  .sheet .src-line{font-size:23px; letter-spacing:.16em; color:var(--acc1); text-transform:uppercase; margin-bottom:14px;}
+  .sheet h2{font-size:44px; margin:0 0 12px; line-height:1.3;}
+  .sheet .tm{color:var(--faint); font-size:24px; margin-bottom:26px;}
+  .sheet .full{font-size:31px; line-height:1.65; color:var(--txt); margin-bottom:40px; white-space:pre-wrap;}
+  .btnrow{display:flex; gap:22px; flex-wrap:wrap;}
+  .pbtn{flex:1 1 0; min-width:320px; text-align:center; text-decoration:none; color:var(--txt);
+    border-radius:18px; padding:26px 20px; font-size:29px; font-weight:700;
+    background:rgba(110,231,255,.10); border:1px solid rgba(110,231,255,.45);}
+  .pbtn.ghost{background:rgba(255,255,255,.04); border-color:rgba(255,255,255,.2);}
+  .pbtn .sub{display:block; font-size:21px; font-weight:400; color:var(--dim); margin-top:8px;}
+  .pbtn.focused{transform:scale(1.03); border-color:var(--focus);
+    box-shadow:0 0 30px rgba(110,231,255,.5); outline:none;}
+</style>
+</head>
+<body>
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+<div class="wrap">
+
+  <div class="topbar">
+    <div class="brand">
+      <a class="hbtn focusable" href="../mission-control/tv.html" id="hubBtn">&#8592; Hub</a>
+      <div class="logo">&#128240;</div>
+      <h1>HEADLINE <span>STREAM</span></h1>
+    </div>
+    <div class="meta">
+      <span class="dot" id="liveDot"></span>
+      <span id="liveLabel">checking&hellip;</span>
+      <span id="clock"></span>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="tagline">A calm read of the day&rsquo;s headlines &mdash; no autoplay, no noise.</div>
+    <div id="topics"></div>
+    <div class="refresh-line">Headlines refresh every 30 minutes &middot; DPAD: move &middot; OK: read &middot; Back: close / hub</div>
+  </div>
+</div>
+
+<!-- article detail overlay -->
+<div class="overlay" id="ovl">
+  <div class="sheet" role="dialog" aria-modal="true">
+    <div class="src-line" id="ovlSrc"></div>
+    <h2 id="ovlTitle"></h2>
+    <div class="tm" id="ovlTime"></div>
+    <div class="full" id="ovlFull"></div>
+    <div class="btnrow">
+      <a class="pbtn focusable" id="ovlOpen" href="#">
+        Open article &rarr;
+        <span class="sub">reads the full story in this browser</span>
+      </a>
+      <a class="pbtn focusable" href="../kavi-console/">
+        &#128161; Ask Kavi for background
+        <span class="sub">opens Kavi Console on the TV</span>
+      </a>
+      <button class="pbtn ghost focusable" id="ovlClose" type="button">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+'use strict';
+/* ============================================================
+   HEADLINE STREAM — calm, non-toxic news reader for the TV.
+   Reads news/news.json (placed by the parent agent's RSS poller):
+     { "updated": "<iso>", "topics": [
+         { "name": "Tech", "articles": [
+             { "title": "...", "summary": "...", "source": "...",
+               "url": "https://...", "time": "<iso>" } ] } ] }
+   Refreshes every 30 minutes. No autoplay, no video embeds.
+   ============================================================ */
+const NEWS_URL = 'news.json';
+const POLL_MS = 30 * 60 * 1000;
+
+let lastUpdated = null;
+let ovlOpenState = false;
+
+function esc(s){
+  return String(s==null?'':s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+function fmtTime(t){
+  if(!t) return '';
+  const d = new Date(t);
+  if(isNaN(d.getTime())) return String(t);
+  return d.toLocaleTimeString([], {hour:'numeric', minute:'2-digit'}) +
+    ' \u00b7 ' + d.toLocaleDateString([], {month:'short', day:'numeric'});
+}
+
+function tickClock(){
+  const el = document.getElementById('clock');
+  if(el) el.textContent = new Date().toLocaleTimeString([], {hour:'numeric', minute:'2-digit'});
+}
+function setLive(ok, label){
+  document.getElementById('liveDot').classList.toggle('off', !ok);
+  document.getElementById('liveLabel').innerHTML = label;
+}
+
+function renderNews(data){
+  const topics = Array.isArray(data && data.topics) ? data.topics : [];
+  const box = document.getElementById('topics');
+
+  if(!topics.length){
+    box.innerHTML =
+      '<div class="empty">' +
+        '<div class="e">&#128240;</div>' +
+        '<h2>Headlines will appear here</h2>' +
+        '<p>The news feed is warming up. Topics like Tech, Vermont, Music and World ' +
+        'will show up here as soon as the feed is ready.</p>' +
+      '</div>';
+    refreshFocusables();
+    return;
+  }
+
+  box.innerHTML = topics.map((t, ti)=>{
+    const arts = Array.isArray(t.articles) ? t.articles : [];
+    if(!arts.length) return '';
+    const posters = arts.map((a, ai)=>{
+      return '<div class="poster focusable" data-ti="' + ti + '" data-ai="' + ai + '" role="button" tabindex="0">' +
+        '<div class="art"><div class="glow"></div>' +
+          '<div class="src">' + esc(a.source || 'News') + '</div></div>' +
+        '<div class="body">' +
+          '<div class="title">' + esc(a.title || '(untitled)') + '</div>' +
+          '<div class="summary">' + esc(a.summary || '') + '</div>' +
+          '<div class="time">' + esc(fmtTime(a.time)) + '</div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+    return '<section class="topic">' +
+      '<div class="topic-head"><h2>' + esc(t.name || 'Top stories') + '</h2>' +
+      '<span class="cnt">' + arts.length + ' stories</span></div>' +
+      '<div class="row">' + posters + '</div>' +
+    '</section>';
+  }).join('');
+
+  // wire poster activation (click + Enter handled by nav)
+  box.querySelectorAll('.poster').forEach(p=>{
+    p.addEventListener('click', ()=>{
+      const ti = +p.getAttribute('data-ti'), ai = +p.getAttribute('data-ai');
+      openArticle(data.topics[ti].articles[ai]);
+    });
+  });
+  refreshFocusables();
+}
+
+/* ---------- detail overlay ---------- */
+function openArticle(a){
+  if(!a) return;
+  document.getElementById('ovlSrc').textContent = a.source || 'News';
+  document.getElementById('ovlTitle').textContent = a.title || '(untitled)';
+  document.getElementById('ovlTime').textContent = fmtTime(a.time);
+  document.getElementById('ovlFull').textContent = a.summary || 'No summary available.';
+  const openBtn = document.getElementById('ovlOpen');
+  if(a.url){
+    openBtn.style.display = '';
+    openBtn.href = a.url;
+  } else {
+    openBtn.style.display = 'none';
+  }
+  document.getElementById('ovl').classList.add('open');
+  ovlOpenState = true;
+  refreshFocusables();
+  // focus the first visible button in the overlay
+  const btns = overlayBtns();
+  if(btns.length){ fIdx = focusables.indexOf(btns[0]); drawFocus(); }
+  document.querySelector('.sheet').scrollTop = 0;
+}
+function closeArticle(){
+  document.getElementById('ovl').classList.remove('open');
+  ovlOpenState = false;
+  refreshFocusables();
+}
+function overlayBtns(){
+  return focusables.filter(el => document.getElementById('ovl').contains(el));
+}
+
+/* ---------- poll ---------- */
+async function poll(){
+  try{
+    const r = await fetch(NEWS_URL + '?_=' + Date.now(), {cache:'no-store'});
+    if(r.status === 404){
+      setLive(true, 'waiting for feed');
+      renderNews({topics:[]});
+      lastUpdated = null;
+      return;
+    }
+    if(!r.ok) throw new Error('http ' + r.status);
+    const data = await r.json();
+    setLive(true, 'live');
+    if(data && data.updated !== lastUpdated){
+      lastUpdated = data.updated;
+      renderNews(data);
+    }
+  }catch(err){
+    setLive(false, 'offline \u2014 showing last headlines');
+  }
+}
+
+/* ---------- spatial DPAD navigation ---------- */
+let focusables = [], fIdx = 0;
+function refreshFocusables(){
+  const scope = ovlOpenState ? document.getElementById('ovl') : document;
+  focusables = Array.prototype.filter.call(
+    scope.querySelectorAll('.focusable'),
+    el => el.offsetParent !== null
+  );
+  if(fIdx >= focusables.length) fIdx = Math.max(0, focusables.length - 1);
+  drawFocus();
+}
+function drawFocus(){
+  document.querySelectorAll('.focused').forEach(el=>el.classList.remove('focused'));
+  const el = focusables[fIdx];
+  if(el){ el.classList.add('focused'); el.scrollIntoView({block:'nearest', inline:'nearest'}); }
+}
+function moveFocus(dx, dy){
+  const cur = focusables[fIdx];
+  if(!cur){ if(focusables.length){ fIdx = 0; drawFocus(); } return; }
+  const r = cur.getBoundingClientRect();
+  const cx = r.left + r.width/2, cy = r.top + r.height/2;
+  let best = null, bestScore = Infinity;
+  focusables.forEach(el=>{
+    if(el === cur) return;
+    const b = el.getBoundingClientRect();
+    const x = b.left + b.width/2, y = b.top + b.height/2;
+    const vx = x - cx, vy = y - cy;
+    if(dx === 1  && vx <= 8) return;
+    if(dx === -1 && vx >= -8) return;
+    if(dy === 1  && vy <= 8) return;
+    if(dy === -1 && vy >= -8) return;
+    const primary   = dx !== 0 ? Math.abs(vx) : Math.abs(vy);
+    const secondary = dx !== 0 ? Math.abs(vy) : Math.abs(vx);
+    const score = primary + secondary * 2.4;
+    if(score < bestScore){ bestScore = score; best = el; }
+  });
+  if(best){
+    fIdx = focusables.indexOf(best);
+    drawFocus();
+  } else if(dy !== 0){
+    window.scrollBy(0, dy * 420);
+  }
+}
+
+function goHub(){
+  window.location.href = '../mission-control/tv.html';
+}
+function handleKey(e){
+  const k = e.key;
+  if(ovlOpenState){
+    switch(k){
+      case 'ArrowLeft':  moveFocus(-1, 0); e.preventDefault(); break;
+      case 'ArrowRight': moveFocus( 1, 0); e.preventDefault(); break;
+      case 'ArrowUp':    moveFocus( 0,-1); e.preventDefault(); break;
+      case 'ArrowDown':  moveFocus( 0, 1); e.preventDefault(); break;
+      case 'Enter': {
+        const el = focusables[fIdx];
+        if(el){ el.click(); }
+        e.preventDefault(); break;
+      }
+      case 'Escape': case 'Backspace': case 'GoBack':
+        closeArticle(); e.preventDefault(); break;
+    }
+    return;
+  }
+  switch(k){
+    case 'ArrowLeft':  moveFocus(-1, 0); e.preventDefault(); break;
+    case 'ArrowRight': moveFocus( 1, 0); e.preventDefault(); break;
+    case 'ArrowUp':    moveFocus( 0,-1); e.preventDefault(); break;
+    case 'ArrowDown':  moveFocus( 0, 1); e.preventDefault(); break;
+    case 'Enter': {
+      const el = focusables[fIdx];
+      if(el){ el.click(); }
+      e.preventDefault(); break;
+    }
+    case 'Escape': case 'Backspace': case 'GoBack':
+      goHub(); e.preventDefault(); break;
+  }
+}
+document.addEventListener('keydown', handleKey);
+document.addEventListener('keydown', e=>{
+  if(e.keyCode === 10009 || e.keyCode === 461){ // Vega / Fire TV back key
+    if(ovlOpenState) closeArticle(); else goHub();
+    e.preventDefault();
+  }
+});
+document.getElementById('ovlClose').addEventListener('click', closeArticle);
+
+tickClock();
+setInterval(tickClock, 30000);
+poll();
+setInterval(poll, POLL_MS);
+refreshFocusables();
+</script>
+</body>
+</html>

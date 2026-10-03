@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1.0">
+<title>Kavi Console TV</title>
+<meta name="theme-color" content="#04060c">
+<style>
+  :root{
+    --bg:#04060c;
+    --txt:#f2f6fc; --dim:#a9b4c8; --faint:#5f6b85;
+    --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6;
+    --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+    --focus:#6ee7ff;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{min-height:100%;}
+  body{
+    margin:0; color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,sans-serif;
+    background:var(--bg);
+    font-size:28px;
+    overflow-x:hidden;
+  }
+  body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(1400px 700px at 12% -5%, rgba(110,231,255,.07), transparent 60%),
+      radial-gradient(1200px 800px at 92% 8%, rgba(167,139,250,.08), transparent 60%),
+      radial-gradient(1000px 900px at 50% 110%, rgba(244,114,182,.05), transparent 60%);}
+  .orb{position:fixed; border-radius:50%; filter:blur(120px); opacity:.13; pointer-events:none; z-index:0;
+       animation:drift 28s ease-in-out infinite alternate;}
+  .orb.o1{width:440px;height:440px;left:-120px;top:4%;background:#2563eb;}
+  .orb.o2{width:400px;height:400px;right:-110px;top:32%;background:#7c3aed;animation-delay:-9s;}
+  .orb.o3{width:340px;height:340px;left:30%;bottom:-120px;background:#db2777;animation-delay:-18s;opacity:.09;}
+  @keyframes drift{from{transform:translate(0,0) scale(1);}to{transform:translate(60px,80px) scale(1.12);}}
+
+  .wrap{position:relative; z-index:1; padding-bottom:120px;}
+
+  /* ============ slim top bar ============ */
+  .topbar{position:sticky; top:0; z-index:40; display:flex; align-items:center; justify-content:space-between;
+    padding:16px 64px 14px;
+    background:linear-gradient(180deg, rgba(4,6,12,.96) 0%, rgba(4,6,12,.82) 65%, transparent 100%);}
+  .topbar .brand{display:flex; align-items:center; gap:20px;}
+  .brand .logo{width:58px;height:58px;border-radius:16px;display:flex;align-items:center;justify-content:center;
+    font-size:32px;background:linear-gradient(135deg, rgba(110,231,255,.22), rgba(167,139,250,.22));
+    border:1px solid rgba(110,231,255,.35);}
+  .brand h1{font-size:36px;margin:0;letter-spacing:.04em;font-weight:700;}
+  .brand h1 span{color:var(--acc1);}
+  .topbar .meta{display:flex; align-items:center; gap:18px; color:var(--dim); font-size:24px;}
+  .dot{width:14px;height:14px;border-radius:50%;background:var(--ok);box-shadow:0 0 12px var(--ok);}
+  .dot.off{background:var(--faint);box-shadow:none;}
+  .hbtn{color:var(--txt); text-decoration:none; border:1px solid rgba(110,231,255,.4); border-radius:14px;
+    padding:10px 22px; font-size:26px; background:rgba(110,231,255,.06);}
+  .hbtn.focused{transform:scale(1.07); border-color:var(--focus); background:rgba(110,231,255,.18);
+    box-shadow:0 0 26px rgba(110,231,255,.45); outline:none;}
+
+  .content{padding:26px 64px 0;}
+
+  /* ============ hero: latest answer ============ */
+  .hero{position:relative; border-radius:26px; padding:44px 52px; margin-bottom:36px; overflow:hidden;
+    background:linear-gradient(120deg, rgba(110,231,255,.14), rgba(167,139,250,.12) 55%, rgba(244,114,182,.10));
+    border:1px solid rgba(110,231,255,.35);
+    box-shadow:0 20px 70px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.08);}
+  .hero .tag{display:inline-block; font-size:22px; letter-spacing:.22em; color:var(--acc1); margin-bottom:16px;}
+  .hero .atext{font-size:38px; line-height:1.45; font-weight:600; max-width:1500px; white-space:pre-wrap;}
+  .hero .atime{margin-top:18px; color:var(--dim); font-size:24px;}
+
+  /* ============ quick-action chips ============ */
+  .chips-label{font-size:24px; letter-spacing:.18em; color:var(--faint); margin:8px 0 16px;}
+  .chips{display:flex; gap:22px; margin-bottom:44px; flex-wrap:wrap;}
+  .chip{flex:1 1 0; min-width:300px; text-decoration:none; color:var(--txt);
+    background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.12);
+    border-radius:20px; padding:30px 28px; display:flex; flex-direction:column; gap:10px;}
+  .chip .e{font-size:44px;}
+  .chip .t{font-size:30px; font-weight:700;}
+  .chip .s{font-size:23px; color:var(--dim);}
+  .chip.focused{transform:scale(1.04); border-color:var(--focus); background:rgba(110,231,255,.12);
+    box-shadow:0 0 30px rgba(110,231,255,.4); outline:none;}
+
+  /* ============ conversation ============ */
+  .sect-head{display:flex; align-items:baseline; justify-content:space-between; margin:10px 0 20px;}
+  .sect-head h2{font-size:32px; margin:0;}
+  .sect-head .upd{color:var(--faint); font-size:22px;}
+  #msgs{display:flex; flex-direction:column; gap:20px; margin-bottom:44px;}
+  .msg{max-width:1500px; border-radius:20px; padding:28px 34px; border:1px solid rgba(255,255,255,.1);}
+  .msg .who{display:flex; align-items:center; gap:14px; margin-bottom:12px;}
+  .msg .avatar{width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;}
+  .msg .who b{font-size:26px;}
+  .msg .when{color:var(--faint); font-size:21px; margin-left:auto;}
+  .msg .text{font-size:30px; line-height:1.5; white-space:pre-wrap;}
+  .msg.kavi{background:rgba(110,231,255,.07); border-color:rgba(110,231,255,.25); align-self:flex-start;}
+  .msg.kavi .avatar{background:linear-gradient(135deg,#0ea5e9,#6366f1);}
+  .msg.seth{background:rgba(167,139,250,.08); border-color:rgba(167,139,250,.3); align-self:flex-end; margin-left:auto;}
+  .msg.seth .avatar{background:linear-gradient(135deg,#a855f7,#ec4899);}
+
+  /* ============ ask card ============ */
+  .ask{display:flex; align-items:center; gap:30px; text-decoration:none; color:var(--txt);
+    border-radius:26px; padding:40px 48px; margin-bottom:36px;
+    background:linear-gradient(120deg, rgba(167,139,250,.14), rgba(244,114,182,.10));
+    border:1px dashed rgba(167,139,250,.55);}
+  .ask .e{font-size:64px;}
+  .ask .tt{font-size:36px; font-weight:800; margin-bottom:8px;}
+  .ask .tt .arr{color:var(--acc2);}
+  .ask .dd{font-size:26px; color:var(--dim); line-height:1.5;}
+  .ask.focused{transform:scale(1.02); border-style:solid; border-color:var(--focus);
+    box-shadow:0 0 34px rgba(167,139,250,.5); outline:none;}
+
+  /* ============ empty / error states ============ */
+  .empty{border-radius:26px; padding:90px 60px; text-align:center; margin-bottom:44px;
+    background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.1);}
+  .empty .e{font-size:88px; margin-bottom:24px;}
+  .empty h2{font-size:38px; margin:0 0 14px;}
+  .empty p{color:var(--dim); font-size:27px; line-height:1.6; max-width:1100px; margin:0 auto;}
+  .refresh-line{color:var(--faint); font-size:22px; text-align:center; padding:10px 0 40px;}
+</style>
+</head>
+<body>
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+<div class="wrap">
+
+  <div class="topbar">
+    <div class="brand">
+      <a class="hbtn focusable" href="../mission-control/tv.html" id="hubBtn">&#8592; Hub</a>
+      <div class="logo">&#129302;</div>
+      <h1>KAVI <span>CONSOLE</span></h1>
+    </div>
+    <div class="meta">
+      <span class="dot" id="liveDot"></span>
+      <span id="liveLabel">checking&hellip;</span>
+      <span id="clock"></span>
+    </div>
+  </div>
+
+  <div class="content">
+    <div id="heroSlot"></div>
+
+    <div class="chips-label">QUICK ACTIONS</div>
+    <div class="chips">
+      <a class="chip focusable" href="../emby-theater/">
+        <div class="e">&#127916;</div>
+        <div class="t">What&rsquo;s on tonight?</div>
+        <div class="s">Your Emby movies &amp; shows</div>
+      </a>
+      <a class="chip focusable" href="../mission-control/">
+        <div class="e">&#128190;</div>
+        <div class="t">How&rsquo;s my storage?</div>
+        <div class="s">Mission Control status</div>
+      </a>
+      <a class="chip focusable" href="../radio/">
+        <div class="e">&#128251;</div>
+        <div class="t">Play radio</div>
+        <div class="s">Your stations</div>
+      </a>
+      <a class="chip focusable" href="../weather/">
+        <div class="e">&#127783;&#65039;</div>
+        <div class="t">Weather</div>
+        <div class="s">Bennington, VT forecast</div>
+      </a>
+    </div>
+
+    <div class="sect-head">
+      <h2>&#128172; Conversation</h2>
+      <span class="upd" id="updLine"></span>
+    </div>
+    <div id="msgs"></div>
+
+    <a class="ask focusable" href="../tv-tools/remote.html">
+      <div class="e">&#128241;</div>
+      <div>
+        <div class="tt">Ask Kavi <span class="arr">&rarr;</span></div>
+        <div class="dd">Ask from your phone remote. Type your question on your phone
+        and Kavi&rsquo;s answer appears right here on the TV.</div>
+      </div>
+    </a>
+
+    <div class="refresh-line">Answers refresh every 30 seconds &middot; DPAD: move &middot; OK: open &middot; Back: hub</div>
+  </div>
+</div>
+
+<script>
+'use strict';
+/* ============================================================
+   KAVI CONSOLE — lean-back TV chat reader.
+   Reads kavi-console/outbox.json (placed by the parent agent):
+     { "updated": "<iso>", "messages": [
+         { "role": "kavi"|"seth", "text": "...", "time": "<iso>" } ] }
+   The TV never writes. Questions come in from the phone remote
+   (tv-tools/remote.html) via the bridge.
+   ============================================================ */
+const OUTBOX_URL = 'outbox.json';
+const POLL_MS = 30000;
+
+let lastUpdated = null;
+let firstLoad = true;
+
+function esc(s){
+  return String(s==null?'':s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+function fmtTime(t){
+  if(!t) return '';
+  const d = new Date(t);
+  if(isNaN(d.getTime())) return String(t);
+  const opts = {hour:'numeric', minute:'2-digit'};
+  return d.toLocaleTimeString([], opts) + ' \u00b7 ' +
+         d.toLocaleDateString([], {month:'short', day:'numeric'});
+}
+
+function tickClock(){
+  const el = document.getElementById('clock');
+  if(el) el.textContent = new Date().toLocaleTimeString([], {hour:'numeric', minute:'2-digit'});
+}
+
+function setLive(ok, label){
+  document.getElementById('liveDot').classList.toggle('off', !ok);
+  document.getElementById('liveLabel').innerHTML = label;
+}
+
+function renderOutbox(data){
+  const msgs = Array.isArray(data && data.messages) ? data.messages : [];
+  const slot = document.getElementById('heroSlot');
+  const box  = document.getElementById('msgs');
+
+  // Hero: latest message from kavi
+  let latestKavi = null;
+  for(let i = msgs.length-1; i >= 0; i--){
+    if(msgs[i].role === 'kavi'){ latestKavi = msgs[i]; break; }
+  }
+  if(latestKavi){
+    slot.innerHTML =
+      '<div class="hero">' +
+        '<div class="tag">\u2728 LATEST FROM KAVI</div>' +
+        '<div class="atext">' + esc(latestKavi.text) + '</div>' +
+        '<div class="atime">' + esc(fmtTime(latestKavi.time)) + '</div>' +
+      '</div>';
+  } else {
+    slot.innerHTML = '';
+  }
+
+  // Conversation list
+  if(!msgs.length){
+    box.innerHTML =
+      '<div class="empty">' +
+        '<div class="e">&#128172;</div>' +
+        '<h2>Kavi answers will appear here</h2>' +
+        '<p>Ask a question from your phone remote (TV Tools &rarr; Remote) and ' +
+        'the conversation will show up on the TV within about 30 seconds.</p>' +
+      '</div>';
+  } else {
+    box.innerHTML = msgs.map(m=>{
+      const isK = m.role === 'kavi';
+      return '<div class="msg ' + (isK?'kavi':'seth') + '">' +
+        '<div class="who">' +
+          '<div class="avatar">' + (isK?'\u2728':'\uD83D\uDC64') + '</div>' +
+          '<b>' + (isK?'Kavi':'Seth') + '</b>' +
+          '<span class="when">' + esc(fmtTime(m.time)) + '</span>' +
+        '</div>' +
+        '<div class="text">' + esc(m.text) + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  document.getElementById('updLine').textContent =
+    data && data.updated ? 'updated ' + fmtTime(data.updated) : '';
+
+  // lean-back: on first load or when user is near the bottom, follow new messages
+  const nearBottom = (window.innerHeight + window.scrollY) >= (document.body.scrollHeight - 300);
+  if(firstLoad || nearBottom){
+    requestAnimationFrame(()=>{ window.scrollTo(0, document.body.scrollHeight); });
+  }
+  firstLoad = false;
+  refreshFocusables();
+}
+
+async function poll(){
+  try{
+    const r = await fetch(OUTBOX_URL + '?_=' + Date.now(), {cache:'no-store'});
+    if(r.status === 404){
+      setLive(true, 'ready');
+      renderOutbox({messages:[], updated:null});
+      lastUpdated = null;
+      return;
+    }
+    if(!r.ok) throw new Error('http ' + r.status);
+    const data = await r.json();
+    setLive(true, 'live');
+    if(data && data.updated !== lastUpdated){
+      lastUpdated = data.updated;
+      renderOutbox(data);
+    }
+  }catch(err){
+    setLive(false, 'offline \u2014 showing last answers');
+  }
+}
+
+/* ---------- spatial DPAD navigation ---------- */
+let focusables = [], fIdx = 0;
+function refreshFocusables(){
+  focusables = Array.prototype.filter.call(
+    document.querySelectorAll('.focusable'),
+    el => el.offsetParent !== null
+  );
+  if(fIdx >= focusables.length) fIdx = Math.max(0, focusables.length - 1);
+  drawFocus();
+}
+function drawFocus(){
+  document.querySelectorAll('.focused').forEach(el=>el.classList.remove('focused'));
+  const el = focusables[fIdx];
+  if(el){ el.classList.add('focused'); el.scrollIntoView({block:'nearest'}); }
+}
+function moveFocus(dx, dy){
+  const cur = focusables[fIdx];
+  if(!cur){ if(focusables.length) fIdx = 0, drawFocus(); return; }
+  const r = cur.getBoundingClientRect();
+  const cx = r.left + r.width/2, cy = r.top + r.height/2;
+  let best = null, bestScore = Infinity;
+  focusables.forEach(el=>{
+    if(el === cur) return;
+    const b = el.getBoundingClientRect();
+    const x = b.left + b.width/2, y = b.top + b.height/2;
+    const vx = x - cx, vy = y - cy;
+    if(dx === 1  && vx <= 8) return;
+    if(dx === -1 && vx >= -8) return;
+    if(dy === 1  && vy <= 8) return;
+    if(dy === -1 && vy >= -8) return;
+    const primary   = dx !== 0 ? Math.abs(vx) : Math.abs(vy);
+    const secondary = dx !== 0 ? Math.abs(vy) : Math.abs(vx);
+    const score = primary + secondary * 2.4;
+    if(score < bestScore){ bestScore = score; best = el; }
+  });
+  if(best){
+    fIdx = focusables.indexOf(best);
+    drawFocus();
+  } else if(dy !== 0){
+    // nothing focusable that way — just scroll the page
+    window.scrollBy(0, dy * 420);
+  }
+}
+
+function handleKey(e){
+  const k = e.key;
+  switch(k){
+    case 'ArrowLeft':  moveFocus(-1, 0); e.preventDefault(); break;
+    case 'ArrowRight': moveFocus( 1, 0); e.preventDefault(); break;
+    case 'ArrowUp':    moveFocus( 0,-1); e.preventDefault(); break;
+    case 'ArrowDown':  moveFocus( 0, 1); e.preventDefault(); break;
+    case 'Enter': {
+      const el = focusables[fIdx];
+      if(el){ el.click(); }
+      e.preventDefault(); break;
+    }
+    case 'Escape': case 'Backspace': case 'GoBack':
+      window.location.href = '../mission-control/tv.html';
+      e.preventDefault(); break;
+  }
+}
+document.addEventListener('keydown', handleKey);
+document.addEventListener('keydown', e=>{
+  if(e.keyCode === 10009 || e.keyCode === 461){ // Vega / Fire TV back key
+    window.location.href = '../mission-control/tv.html';
+    e.preventDefault();
+  }
+});
+
+tickClock();
+setInterval(tickClock, 30000);
+poll();
+setInterval(poll, POLL_MS);
+refreshFocusables();
+</script>
+</body>
+</html>
