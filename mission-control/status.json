@@ -1,6 +1,6 @@
 {
- "generated_at": 1791048830,
- "generated_iso": "2026-10-03T17:33:50+0000",
+ "generated_at": 1791049132,
+ "generated_iso": "2026-10-03T17:38:52+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "github": {
@@ -49,7 +49,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 60970,
+   "uptime_s": 61273,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -69,13 +69,13 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": 0,
-    "up": false
+    "http": 200,
+    "up": true
    },
    "rvg_agent": {
-    "up": false
+    "up": true
    },
-   "online": false
+   "online": true
   },
   {
    "id": "iphone-xs-max",
