@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KaviTV Scheduler</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="logo">📺</span>
+    <div>
+      <h1>KaviTV Scheduler</h1>
+      <p>Program the 24/7 broadcast channels</p>
+    </div>
+  </div>
+  <div class="header-controls">
+    <input type="date" id="datePicker" aria-label="Broadcast day">
+    <button id="autoFillBtn" class="primary">✨ Auto-fill 24h</button>
+    <button id="epgBtn">📖 EPG preview</button>
+    <button id="sendBtn" class="accent">📡 Send to KaviTV</button>
+    <button id="settingsBtn" title="Bridge settings">⚙️</button>
+  </div>
+</header>
+
+<div id="settingsPanel" class="hidden">
+  <label>Bridge URL
+    <input type="text" id="bridgeUrl" placeholder="http://100.x.y.z:8898">
+  </label>
+  <label>Bridge token
+    <input type="password" id="bridgeToken" placeholder="token">
+  </label>
+  <button id="saveSettings">Save</button>
+  <p class="hint">The bridge runs on the VM. From your phone on the tailnet,
+  use the VM's Tailscale address. Settings stay in this browser only.</p>
+</div>
+
+<main>
+  <aside id="channelList">
+    <h2>Channels</h2>
+    <div id="channels"></div>
+  </aside>
+
+  <section id="timelineWrap">
+    <div id="channelHeader">
+      <h2 id="channelName">—</h2>
+      <p id="channelMeta">—</p>
+    </div>
+    <div id="timeline"></div>
+  </section>
+
+  <aside id="poolPanel">
+    <h2>Movie pool</h2>
+    <input type="search" id="poolSearch" placeholder="🔍 Search movies…">
+    <div id="poolStats"></div>
+    <div id="pool"></div>
+  </aside>
+</main>
+
+<!-- program detail / replace drawer -->
+<div id="drawer" class="hidden">
+  <div id="drawerCard">
+    <button id="drawerClose">✕</button>
+    <h3 id="drawerTitle"></h3>
+    <div id="drawerBody"></div>
+  </div>
+</div>
+
+<!-- EPG preview modal -->
+<div id="epgModal" class="hidden">
+  <div id="epgCard">
+    <button id="epgClose">✕</button>
+    <h3>📖 EPG preview</h3>
+    <div id="epgGrid"></div>
+  </div>
+</div>
+
+<div id="toast" class="hidden"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
