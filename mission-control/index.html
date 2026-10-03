@@ -612,6 +612,57 @@ tick(); setInterval(tick,1000);
 
 load();
 setInterval(load, 30000);
+
+/* ---------- auto-update check ---------- */
+(function(){
+  var APP_BUILD = 0;
+  try {
+    var m = /[?&]appBuild=(\d+)/.exec(location.search);
+    if (m) APP_BUILD = parseInt(m[1], 10);
+    else APP_BUILD = parseInt(localStorage.getItem('mc_seen_build') || '0', 10);
+  } catch(e){}
+  // No build info yet (first run): check anyway; banner dismiss saves seen build.
+  fetch('version.json', {cache:'no-store'})
+    .then(function(r){ return r.json(); })
+    .then(function(v){
+      var latest = (v && v.missioncontrol && v.missioncontrol.build) || 0;
+      if (latest > APP_BUILD) {
+        showUpdateBanner(v.missioncontrol);
+      }
+    })
+    .catch(function(){});
+  function showUpdateBanner(info){
+    var ver = (info && info.version) || '';
+    var b = document.createElement('div');
+    b.id = 'update-banner';
+    b.setAttribute('tabindex', '0');
+    b.innerHTML =
+      '<div style="font-size:34px;margin-bottom:8px">\uD83D\uDD04 Update available'+
+      (ver ? ' <span style="opacity:.7">v'+ver+'</span>' : '')+'</div>'+
+      '<div style="font-size:24px;opacity:.85;line-height:1.5">A new Mission Control app build is ready.<br>'+
+      'Ask Kavi to deploy it, or sideload the latest .vpkg from GitHub.</div>'+
+      '<div style="margin-top:14px;font-size:22px;opacity:.6">Press BACK to dismiss</div>';
+    b.style.cssText = 'position:fixed;top:36px;left:50%;transform:translateX(-50%);'+
+      'z-index:9999;background:linear-gradient(135deg,#0e2a4a,#123);'+
+      'border:2px solid #6ee7ff;border-radius:18px;padding:28px 44px;'+
+      'color:#eef3fa;text-align:center;box-shadow:0 8px 40px rgba(110,231,255,.35);'+
+      'outline:none;max-width:80vw';
+    document.body.appendChild(b);
+    b.focus();
+    b.addEventListener('keydown', function(e){
+      if (e.keyCode===10009 || e.keyCode===461 || e.keyCode===27 || e.keyCode===8) {
+        try { localStorage.setItem('mc_seen_build', String(latest)); } catch(e2){}
+        b.remove(); e.preventDefault(); e.stopPropagation();
+      }
+    }, true);
+    // Also allow tap/click to dismiss
+    b.addEventListener('click', function(){
+      try { localStorage.setItem('mc_seen_build', String(latest)); } catch(e2){}
+      b.remove();
+    });
+  }
+})();
+
 </script>
 
 </body>
