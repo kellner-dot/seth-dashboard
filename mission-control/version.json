@@ -1,9 +1,9 @@
 {
   "missioncontrol": {
-    "build": 3,
+    "build": 4,
     "version": "0.1.0",
     "updated": "2026-10-03",
-    "notes": "TV dashboard with fancy gradient icons, DPAD navigation"
+    "notes": "Build 4: auto-update banner fix (appBuild query param)"
   },
   "iptvplayer": {
     "build": 1,
