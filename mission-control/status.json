@@ -1,7 +1,7 @@
 {
- "generated_at": 1791045310,
- "generated_iso": "2026-10-03T16:35:10+0000",
- "collector": "mission-control v1 (hatch VM, 5-min cron)",
+ "generated_at": 1791045530,
+ "generated_iso": "2026-10-03T16:38:50+0000",
+ "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
   {
@@ -11,37 +11,17 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 56766,
+   "uptime_s": 57671,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
     "version": "4.10.1.0"
    },
-   "emby_sessions": [
-    {
-     "device": "VM",
-     "client": "Muse",
-     "user": "",
-     "playing": null
-    },
-    {
-     "device": "Fire TV on VegaOS (AFTCA002)",
-     "client": "Emby for Fire TV",
-     "user": "Seth",
-     "playing": null
-    }
-   ],
+   "emby_sessions": [],
    "terabox_uploaders": 2,
    "firetv": {
-    "seen_in_emby": true,
-    "sessions": [
-     {
-      "device": "Fire TV on VegaOS (AFTCA002)",
-      "client": "Emby for Fire TV",
-      "user": "Seth",
-      "playing": null
-     }
-    ],
+    "seen_in_emby": false,
+    "sessions": [],
     "adb": "unreachable (port 5555 closed 2026-10-02)"
    }
   },
@@ -51,28 +31,28 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": 200,
-    "up": true
+    "http": 0,
+    "up": false
    },
    "rvg_agent": {
-    "up": true
+    "up": false
    },
-   "online": true
+   "online": false
   },
   {
    "id": "iphone-xs-max",
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": true,
-   "ping_ms": 29
+   "online": false,
+   "ping_ms": null
   },
   {
    "id": "motorola-razr-2023",
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": true,
+   "online": false,
    "rvg_agent": {
     "up": true,
     "authed": false
