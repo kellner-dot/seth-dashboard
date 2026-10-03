@@ -849,7 +849,7 @@ function renderHero(j, ctx){
 function render(j){
   // header/footer freshness
   const s=Math.floor((Date.now()-new Date(j.generated_iso).getTime())/1000);
-  const live = s<120;
+  const live = s<420; // 7-min threshold (5-min collector cadence)
   document.getElementById('updated').innerHTML = live ? `<span class="fresh" style="color:var(--ok)">● LIVE</span> · ${ago(j.generated_iso)}` : `updated ${ago(j.generated_iso)}`;
   document.getElementById('live-txt').textContent = live ? 'LIVE' : 'STALE';
   document.getElementById('live-dot').style.color = live ? 'var(--ok)' : 'var(--warn)';
@@ -1132,7 +1132,7 @@ function showInboxBanner(url){
 async function load(){
   try{
     const [r,b,h,p,ib,np]=await Promise.all([
-      fetch(STATUS_URL,{cache:'no-store'}),
+      fetch(STATUS_URL+'?t='+Date.now(),{cache:'no-store'}), // cache-bust GitHub Pages CDN
       fetch('briefing.json',{cache:'no-store'}).catch(()=>null),
       fetch('hearing.json',{cache:'no-store'}).catch(()=>null),
       fetch('photos.json',{cache:'no-store'}).catch(()=>null),
