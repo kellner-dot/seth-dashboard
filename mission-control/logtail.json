@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-03T23:37:25+0000",
+ "generated_iso": "2026-10-03T23:47:23+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -28,6 +28,14 @@
     },
     {
      "t": "[reboot-watch.l] 2026-10-03T23:21:24+0000 fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; VDA direct check confirms device unreachable (was already re",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03T23:46:05Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; VDA direct check confirms device still unreachable (state alread",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03T23:47:21Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; no reboot detected, no relaunch.",
      "c": "ok"
     },
     {
