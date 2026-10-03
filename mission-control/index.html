@@ -4,71 +4,338 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Mission Control</title>
-<meta name="theme-color" content="#0a0e14">
+<meta name="theme-color" content="#05070d">
 <style>
   :root{
-    --bg:#0a0e14; --panel:#11161f; --panel2:#161c28;
-    --txt:#e6edf3; --dim:#8b949e; --acc:#58a6ff;
-    --ok:#3fb950; --warn:#d29922; --bad:#f85149;
-    --radius:14px;
+    --bg:#05070d;
+    --txt:#eef3fa; --dim:#8b98ad; --faint:#5b6577;
+    --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6;
+    --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+    --radius:20px;
+    --card-brd:rgba(255,255,255,.09);
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
-  body{margin:0; background:var(--bg); color:var(--txt);
-       font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",Segoe UI,Roboto,sans-serif;
-       padding:env(safe-area-inset-top) 12px env(safe-area-inset-bottom);}
-  header{padding:18px 4px 10px; display:flex; align-items:baseline; justify-content:space-between;}
-  header h1{margin:0; font-size:22px; letter-spacing:.5px;}
-  header h1 .dot{color:var(--acc);}
-  #updated{font-size:11px; color:var(--dim);}
-  .grid{display:grid; gap:12px; grid-template-columns:1fr;}
-  @media(min-width:700px){ .grid{grid-template-columns:1fr 1fr;} }
-  .card{background:var(--panel); border:1px solid #1e2634; border-radius:var(--radius);
-        padding:14px 16px; position:relative; overflow:hidden;}
-  .card h2{margin:0 0 2px; font-size:16px; display:flex; align-items:center; gap:8px;}
-  .card .sub{font-size:12px; color:var(--dim); margin-bottom:10px;}
-  .pill{display:inline-block; font-size:11px; font-weight:600; padding:3px 10px;
-        border-radius:99px; text-transform:uppercase; letter-spacing:.6px;}
-  .pill.on{background:rgba(63,185,80,.15); color:var(--ok); border:1px solid rgba(63,185,80,.4);}
-  .pill.off{background:rgba(248,81,73,.12); color:var(--bad); border:1px solid rgba(248,81,73,.4);}
-  .pill.na{background:rgba(210,153,34,.12); color:var(--warn); border:1px solid rgba(210,153,34,.4);}
-  .row{display:flex; justify-content:space-between; font-size:13px; padding:5px 0;
-       border-top:1px solid #1a2230;}
-  .row:first-of-type{border-top:none;}
-  .row .k{color:var(--dim);}
-  .row .v{font-variant-numeric:tabular-nums; text-align:right;}
-  .dotlive{width:9px; height:9px; border-radius:50%; display:inline-block;}
-  .dotlive.on{background:var(--ok); box-shadow:0 0 8px var(--ok);}
-  .dotlive.off{background:var(--bad);}
-  #broadcast{margin:16px 4px 8px; width:calc(100% - 8px); padding:16px; font-size:17px;
-             font-weight:700; color:#fff; background:linear-gradient(135deg,#1f6feb,#388bfd);
-             border:none; border-radius:var(--radius); cursor:pointer;}
-  #broadcast:active{transform:scale(.98);}
-  #broadcast:disabled{opacity:.5;}
-  #bmsg{text-align:center; font-size:13px; color:var(--dim); min-height:20px; margin-bottom:10px;}
-  .sess{font-size:12px; color:var(--dim); padding:4px 0;}
+  html,body{height:100%;}
+  body{
+    margin:0; color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,sans-serif;
+    background:
+      radial-gradient(1200px 600px at 15% -5%, rgba(110,231,255,.07), transparent 60%),
+      radial-gradient(1000px 700px at 90% 10%, rgba(167,139,250,.08), transparent 60%),
+      radial-gradient(900px 900px at 50% 110%, rgba(244,114,182,.05), transparent 60%),
+      var(--bg);
+    background-attachment:fixed;
+    padding:env(safe-area-inset-top) 14px env(safe-area-inset-bottom);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+  /* floating ambient orbs */
+  .orb{position:fixed; border-radius:50%; filter:blur(90px); opacity:.16; pointer-events:none; z-index:0;
+       animation:drift 26s ease-in-out infinite alternate;}
+  .orb.o1{width:340px;height:340px;left:-90px;top:8%;background:#2563eb;}
+  .orb.o2{width:300px;height:300px;right:-80px;top:38%;background:#7c3aed;animation-delay:-9s;}
+  .orb.o3{width:260px;height:260px;left:30%;bottom:-90px;background:#db2777;animation-delay:-17s;opacity:.10;}
+  @keyframes drift{from{transform:translate(0,0) scale(1);}to{transform:translate(40px,60px) scale(1.12);}}
+
+  .wrap{position:relative; z-index:1; max-width:1060px; margin:0 auto;}
+
+  /* ---------- header ---------- */
+  header{display:flex; align-items:center; justify-content:space-between; gap:12px;
+         padding:22px 6px 16px; flex-wrap:wrap;}
+  .brand{display:flex; align-items:center; gap:14px;}
+  .logo{width:52px; height:52px; border-radius:16px; display:grid; place-items:center;
+        background:conic-gradient(from 200deg,#0ea5e9,#8b5cf6,#ec4899,#0ea5e9);
+        box-shadow:0 0 26px rgba(139,92,246,.45), inset 0 0 0 2px rgba(255,255,255,.25);
+        animation:spinGlow 9s linear infinite;}
+  @keyframes spinGlow{to{filter:hue-rotate(360deg);}}
+  .logo svg{width:30px;height:30px;}
+  .brand h1{margin:0; font-size:clamp(20px,4.5vw,27px); letter-spacing:3px; font-weight:800;
+    background:linear-gradient(92deg,#fff 10%,var(--acc1) 45%,var(--acc2) 75%,var(--acc3));
+    -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .brand .tag{margin:2px 0 0; font-size:12px; color:var(--dim); letter-spacing:.4px;}
+  .hdr-right{text-align:right;}
+  #clock{font-size:26px; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:1px;
+         background:linear-gradient(180deg,#fff,#9db4d0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  #updated{font-size:11px; color:var(--dim); margin-top:2px;}
+  #updated .fresh{color:var(--ok);}
+
+  /* ---------- fleet grid ---------- */
+  .grid{display:grid; gap:14px; grid-template-columns:1fr; margin-top:6px;}
+  @media(min-width:680px){ .grid{grid-template-columns:1fr 1fr;} }
+  @media(min-width:1020px){ .grid{grid-template-columns:1fr 1fr 1fr;} }
+
+  .card{
+    position:relative; overflow:hidden;
+    background:linear-gradient(165deg, rgba(255,255,255,.065), rgba(255,255,255,.018) 55%, rgba(255,255,255,.04));
+    border:1px solid var(--card-brd);
+    border-radius:var(--radius);
+    padding:18px 18px 16px;
+    backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+    box-shadow:0 12px 34px rgba(0,0,0,.42);
+    transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+    animation:rise .5s ease both;
+  }
+  .card:nth-child(2){animation-delay:.06s}.card:nth-child(3){animation-delay:.12s}
+  .card:nth-child(4){animation-delay:.18s}.card:nth-child(5){animation-delay:.24s}
+  @keyframes rise{from{opacity:0; transform:translateY(14px);}to{opacity:1; transform:none;}}
+  .card:hover{transform:translateY(-4px); border-color:rgba(255,255,255,.18);
+              box-shadow:0 18px 44px rgba(0,0,0,.55), 0 0 24px rgba(139,92,246,.12);}
+  .card::before{content:""; position:absolute; inset:0 0 auto 0; height:3px;
+    background:var(--stripe, linear-gradient(90deg,var(--acc1),var(--acc2)));}
+  .card.k-server{--stripe:linear-gradient(90deg,#38bdf8,#6366f1);}
+  .card.k-phone{--stripe:linear-gradient(90deg,#a78bfa,#f472b6);}
+  .card.k-tv{--stripe:linear-gradient(90deg,#fbbf24,#f97316);}
+
+  .chead{display:flex; align-items:center; gap:12px; margin-bottom:4px;}
+  .icon-tile{width:46px; height:46px; border-radius:14px; display:grid; place-items:center; flex:none;
+    background:linear-gradient(140deg, rgba(110,231,255,.20), rgba(167,139,250,.20));
+    border:1px solid rgba(255,255,255,.14);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.12), 0 4px 14px rgba(0,0,0,.35);}
+  .icon-tile svg{width:26px; height:26px;}
+  .card.k-phone .icon-tile{background:linear-gradient(140deg, rgba(167,139,250,.22), rgba(244,114,182,.20));}
+  .card.k-tv .icon-tile{background:linear-gradient(140deg, rgba(251,191,36,.22), rgba(249,115,22,.20));}
+  .chead h2{margin:0; font-size:17px; font-weight:700; letter-spacing:.3px;}
+  .chead .sub{font-size:11.5px; color:var(--dim); margin-top:2px; font-variant-numeric:tabular-nums;}
+  .chead .spacer{flex:1;}
+
+  /* pulsing status dot */
+  .dotlive{width:11px; height:11px; border-radius:50%; display:inline-block; flex:none;}
+  .dotlive.on{background:var(--ok); box-shadow:0 0 10px var(--ok); animation:pulse 2.2s ease-in-out infinite;}
+  .dotlive.off{background:var(--bad); box-shadow:0 0 8px rgba(248,113,113,.7);}
+  .dotlive.na{background:var(--warn); box-shadow:0 0 8px rgba(251,191,36,.7); animation:pulse 3s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{transform:scale(1); opacity:1;}50%{transform:scale(.72); opacity:.65;}}
+
+  .pill{display:inline-block; font-size:10.5px; font-weight:700; padding:4px 12px; margin:8px 0 4px;
+        border-radius:99px; text-transform:uppercase; letter-spacing:1px;}
+  .pill.on{background:rgba(52,211,153,.13); color:var(--ok); border:1px solid rgba(52,211,153,.45);
+            box-shadow:0 0 14px rgba(52,211,153,.12);}
+  .pill.off{background:rgba(248,113,113,.10); color:var(--bad); border:1px solid rgba(248,113,113,.4);}
+  .pill.na{background:rgba(251,191,36,.10); color:var(--warn); border:1px solid rgba(251,191,36,.4);}
+
+  .row{display:flex; justify-content:space-between; align-items:center; gap:10px;
+       font-size:13px; padding:7px 0; border-top:1px solid rgba(255,255,255,.06);}
+  .row .k{color:var(--dim); display:flex; align-items:center; gap:7px;}
+  .row .v{font-variant-numeric:tabular-nums; text-align:right; font-weight:600;}
+  .row .v .ok{color:var(--ok);} .row .v .bad{color:var(--bad);} .row .v .dim{color:var(--dim); font-weight:400;}
+
+  /* mini meter bars */
+  .meter{height:5px; border-radius:99px; background:rgba(255,255,255,.08); margin-top:6px; overflow:hidden;}
+  .meter > i{display:block; height:100%; border-radius:99px;
+    background:linear-gradient(90deg,var(--acc1),var(--acc2)); box-shadow:0 0 10px rgba(110,231,255,.5);
+    transition:width .8s cubic-bezier(.2,.8,.2,1);}
+  .meter.warn > i{background:linear-gradient(90deg,var(--warn),#f97316);}
+  .meter.bad > i{background:linear-gradient(90deg,var(--bad),#ef4444);}
+
+  .upl-dots{display:inline-flex; gap:5px; align-items:center;}
+  .upl-dots i{width:9px; height:9px; border-radius:50%; background:rgba(255,255,255,.12);}
+  .upl-dots i.lit{background:var(--ok); box-shadow:0 0 8px var(--ok); animation:pulse 2.6s ease-in-out infinite;}
+
+  .sess{font-size:12px; color:var(--dim); padding:5px 0 5px 2px; border-left:2px solid rgba(110,231,255,.35);
+        margin:4px 0 4px 2px; padding-left:10px;}
   .sess b{color:var(--txt);}
-  footer{text-align:center; font-size:11px; color:var(--dim); padding:18px 0 8px;}
-  .stub{font-size:11px; color:var(--warn); margin-top:8px;}
+  .sess .play{color:var(--acc1);}
+  .sesslbl{font-size:11px; text-transform:uppercase; letter-spacing:1.2px; color:var(--faint); margin:10px 0 2px;}
+  .stub{font-size:11px; color:var(--warn); margin-top:10px; padding:8px 10px; border-radius:10px;
+        background:rgba(251,191,36,.07); border:1px dashed rgba(251,191,36,.35);}
+  .adbline{font-size:11.5px; color:var(--dim); margin-top:8px; line-height:1.5;
+           padding:8px 10px; border-radius:10px; background:rgba(255,255,255,.03);
+           border:1px solid rgba(255,255,255,.07);}
+  .adbline b{color:var(--txt);}
+
+  /* ---------- broadcast ---------- */
+  #broadcast{margin:20px 2px 6px; width:calc(100% - 4px); padding:17px; font-size:16.5px; font-weight:800;
+    letter-spacing:.5px; color:#fff; cursor:pointer;
+    background:linear-gradient(120deg,#2563eb,#7c3aed 55%,#db2777);
+    background-size:180% 180%;
+    border:1px solid rgba(255,255,255,.18); border-radius:16px;
+    box-shadow:0 10px 30px rgba(124,58,237,.35), inset 0 1px 0 rgba(255,255,255,.25);
+    transition:transform .15s ease, box-shadow .2s ease, background-position .6s ease;}
+  #broadcast:hover:not(:disabled){background-position:90% 50%; box-shadow:0 14px 38px rgba(124,58,237,.5);}
+  #broadcast:active:not(:disabled){transform:scale(.98);}
+  #broadcast:disabled{opacity:.45; cursor:not-allowed; filter:saturate(.4);}
+  #bmsg{text-align:center; font-size:13px; color:var(--dim); min-height:22px; margin-bottom:8px;}
+
+  footer{text-align:center; font-size:11px; color:var(--faint); padding:16px 0 10px; letter-spacing:.4px;}
+  footer .live-tag{color:var(--ok);}
+  .err-card{text-align:center; padding:26px 18px;}
+  .err-card .big{font-size:34px; margin-bottom:8px;}
 </style>
 </head>
 <body>
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
 
+<div class="wrap">
 <header>
-  <h1>MISSION<span class="dot">.</span>CONTROL</h1>
-  <span id="updated">…</span>
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round">
+        <circle cx="12" cy="12" r="3.2" fill="rgba(255,255,255,.9)" stroke="none"/>
+        <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-24 12 12)"/>
+        <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(38 12 12)" opacity=".55"/>
+        <circle cx="19.5" cy="7.5" r="1.3" fill="#fff" stroke="none"/>
+      </svg>
+    </div>
+    <div>
+      <h1>MISSION CONTROL</h1>
+      <p class="tag">Seth&rsquo;s fleet &middot; live telemetry</p>
+    </div>
+  </div>
+  <div class="hdr-right">
+    <div id="clock">--:--:--</div>
+    <div id="updated">connecting&hellip;</div>
+  </div>
 </header>
 
-<div class="grid" id="fleet"></div>
+<main class="grid" id="fleet"></main>
 
-<button id="broadcast">📣 Broadcast alert to all devices</button>
+<button id="broadcast">&#128226; Broadcast alert to all devices</button>
 <div id="bmsg"></div>
 
-<footer>Seth's fleet · tailnet live · <span id="src">…</span></footer>
+<footer><span id="src">&hellip;</span> &middot; collector <span id="collector">&hellip;</span></footer>
+</div>
 
 <script>
 const LIVE = location.hostname !== 'kellner-dot.github.io'; // tailnet server = full actions
 let STATUS_URL = LIVE ? '/api/status' : 'status.json';
 
+/* ---------- icons (inline SVG, no external deps) ---------- */
+const ICONS = {
+  server: `<svg viewBox="0 0 24 24" fill="none" stroke="#7dd3fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="7" rx="1.6"/><rect x="3" y="13" width="18" height="7" rx="1.6"/><circle cx="7" cy="7.5" r="1" fill="#7dd3fc" stroke="none"/><circle cx="7" cy="16.5" r="1" fill="#7dd3fc" stroke="none"/><path d="M10.5 7.5h7M10.5 16.5h7"/></svg>`,
+  laptop: `<svg viewBox="0 0 24 24" fill="none" stroke="#c4b5fd" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="4.5" width="15" height="10" rx="1.6"/><path d="M2.5 18.5h19l-1.6-2.6H4.1z"/></svg>`,
+  phone: `<svg viewBox="0 0 24 24" fill="none" stroke="#f9a8d4" stroke-width="1.7" stroke-linecap="round"><rect x="7" y="2.8" width="10" height="18.4" rx="2.6"/><path d="M10.8 18.4h2.4"/></svg>`,
+  tv: `<svg viewBox="0 0 24 24" fill="none" stroke="#fcd34d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.8" y="5" width="18.4" height="12.4" rx="2"/><path d="M9 20.5h6"/></svg>`
+};
+
+/* ---------- helpers (data contract preserved) ---------- */
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function pill(on, txt){
+  return `<span class="pill ${on===true?'on':on===false?'off':'na'}">${txt||(on?'online':'offline')}</span>`;
+}
+function row(k,v){ return `<div class="row"><span class="k">${k}</span><span class="v">${v}</span></div>`; }
+function fmtUptime(s){
+  if(s==null) return '—';
+  const d=Math.floor(s/86400), h=Math.floor(s%86400/3600), m=Math.floor(s%3600/60);
+  return d>0?`${d}d ${h}h`:(h>0?`${h}h ${m}m`:`${m}m`);
+}
+function ago(iso){
+  const s=Math.floor((Date.now()-new Date(iso).getTime())/1000);
+  return s<60?`${s}s ago`:s<3600?`${Math.floor(s/60)}m ago`:`${Math.floor(s/3600)}h ago`;
+}
+function meter(pct, cls){
+  const p=Math.max(0,Math.min(100,pct));
+  return `<div class="meter ${cls||''}"><i style="width:${p}%"></i></div>`;
+}
+function uptimeMeter(s){
+  if(s==null) return '';
+  const pct=Math.min(100,(s/86400)*100);
+  return meter(pct, pct>66?'':(pct>33?'warn':'bad'));
+}
+
+/* ---------- device cards ---------- */
+function pcCard(d){
+  const dot=`<span class="dotlive ${d.online?'on':'off'}"></span>`;
+  const embyOk = d.emby && d.emby.running;
+  const up = d.terabox_uploaders||0;
+  let dots=''; for(let i=0;i<4;i++) dots+=`<i class="${i<up?'lit':''}"></i>`;
+  let body =
+      row('🛰️ RVG agent', `<span class="${d.online?'ok':'bad'}">${esc(d.rvg_version||'—')}</span>`+
+        (d.uptime_s!=null?` <span class="dim">(up ${fmtUptime(d.uptime_s)})</span>`:''))
+    + uptimeMeter(d.uptime_s)
+    + row('🎬 Emby', embyOk?`<span class="ok">● ${esc(d.emby.version||'')}</span>`:'<span class="bad">● down</span>')
+    + row('☁️ TeraBox uploaders', `<span class="upl-dots">${dots}</span> <b>${up}</b>`);
+  if(d.emby_sessions && d.emby_sessions.length){
+    body += `<div class="sesslbl">▶ Now playing · ${d.emby_sessions.length}</div>`;
+    d.emby_sessions.forEach(s=>{
+      body += `<div class="sess"><b>${esc(s.device||'?')}</b> <span class="dim">· ${esc(s.client||'')}</span>`+
+        (s.playing?`<br><span class="play">▶ ${esc(s.playing)}</span>`:`<br><span class="dim">(idle)</span>`)+`</div>`;
+    });
+  }
+  return `<div class="card k-server"><div class="chead">
+      <div class="icon-tile">${ICONS.server}</div>
+      <div><h2>${esc(d.name)}</h2><div class="sub">${esc(d.hostname||d.id)} · ${esc(d.ip||'')}</div></div>
+      <div class="spacer"></div>${dot}</div>
+    <div>${pill(d.online)}</div>${body}</div>`;
+}
+
+function macCard(d){
+  const dot=`<span class="dotlive ${d.online?'on':d.online===false?'off':'na'}"></span>`;
+  const bb = d.bluebubbles && d.bluebubbles.up;
+  const rvg = d.rvg_agent && d.rvg_agent.up;
+  const body =
+      row('💬 BlueBubbles', bb?'<span class="ok">● port 1234</span>':'<span class="bad">● down</span>')
+    + row('🛰️ RVG Mac agent', rvg?'<span class="ok">● reachable</span>':'<span class="bad">● down</span>')
+    + `<div class="stub">⚠️ Mac notifications: pending RVG Mac token</div>`;
+  return `<div class="card k-server"><div class="chead">
+      <div class="icon-tile">${ICONS.laptop}</div>
+      <div><h2>${esc(d.name)}</h2><div class="sub">${esc(d.id)} · ${esc(d.ip||'')}</div></div>
+      <div class="spacer"></div>${dot}</div>
+    <div>${pill(d.online)}</div>${body}</div>`;
+}
+
+function phoneCard(d, label){
+  const dot=`<span class="dotlive ${d.online?'on':'off'}"></span>`;
+  let extra='';
+  if(d.id==='iphone-xs-max'){
+    const ping = d.ping_ms;
+    const bars = ping==null?0:(ping<80?4:ping<200?3:ping<500?2:1);
+    let sig=''; for(let i=0;i<4;i++) sig+=`<i class="${i<bars?'lit':''}" style="height:${6+i*3}px;width:5px;border-radius:2px;display:inline-block;background:${i<bars?'var(--ok)':'rgba(255,255,255,.12)'}"></i>`;
+    extra = row('📶 Tailnet ping', ping!=null?`<span style="display:inline-flex;gap:3px;align-items:flex-end">${sig}</span> <b>${ping} ms</b>`:'<span class="dim">—</span>')
+      + row('🔔 Push alerts', '<span class="ok">via ntfy ●</span>');
+  } else {
+    const up = d.rvg_agent && d.rvg_agent.up;
+    extra = row('🛰️ RVG Android', up?'<span class="ok">● agent up</span>':'<span class="bad">● down</span>')
+      + row('🔔 Push alerts', '<span class="ok">via ntfy ●</span>');
+  }
+  return `<div class="card k-phone"><div class="chead">
+      <div class="icon-tile">${ICONS.phone}</div>
+      <div><h2>${esc(d.name)}</h2><div class="sub">${esc(d.id)} · ${esc(d.ip||'')}</div></div>
+      <div class="spacer"></div>${dot}</div>
+    <div>${pill(d.online)}</div>${extra}</div>`;
+}
+
+function fireTvCard(ft){
+  ft = ft||{};
+  const active = !!ft.seen_in_emby;
+  const adbOk = typeof ft.adb==='string' && !/unreachable|closed|n\/a/i.test(ft.adb);
+  const dot=`<span class="dotlive ${active?'on':adbOk?'na':'off'}"></span>`;
+  let body = row('📺 Emby status', active?'<span class="ok">● active in Emby</span>':'<span class="dim">idle (not in Emby)</span>');
+  if(ft.sessions && ft.sessions.length){
+    body += `<div class="sesslbl">▶ Sessions · ${ft.sessions.length}</div>`;
+    ft.sessions.forEach(s=>{
+      body += `<div class="sess"><b>${esc(s.device||'Fire TV')}</b>`+(s.playing?`<br><span class="play">▶ ${esc(s.playing)}</span>`:'')+`</div>`;
+    });
+  }
+  body += `<div class="adbline"><b>ADB</b> · ${esc(ft.adb||'n/a')}<br><span class="dim">dashboard-side integration only</span></div>`;
+  return `<div class="card k-tv"><div class="chead">
+      <div class="icon-tile">${ICONS.tv}</div>
+      <div><h2>Fire TV Stick 4K Select</h2><div class="sub">vega os · firetv</div></div>
+      <div class="spacer"></div>${dot}</div>
+    <div>${pill(active?'on':'na', active?'streaming':'standby')}</div>${body}</div>`;
+}
+
+/* ---------- render ---------- */
+function render(j){
+  const upd=document.getElementById('updated');
+  const s=Math.floor((Date.now()-new Date(j.generated_iso).getTime())/1000);
+  upd.innerHTML = s<90 ? `<span class="fresh">● live</span> · ${ago(j.generated_iso)}` : `updated ${ago(j.generated_iso)}`;
+  document.getElementById('src').innerHTML = LIVE ? '<span class="live-tag">● tailnet</span> · live actions on' : 'public snapshot · read-only';
+  document.getElementById('collector').textContent = (j.collector||'—').replace(/\s*\(.*\)/,'');
+
+  const byId={}; (j.devices||[]).forEach(d=>byId[d.id]=d);
+  let html='';
+  if(byId['seths-pc']) html+=pcCard(byId['seths-pc']);
+  if(byId['seths-macbook-air']) html+=macCard(byId['seths-macbook-air']);
+  if(byId['iphone-xs-max']) html+=phoneCard(byId['iphone-xs-max']);
+  if(byId['motorola-razr-2023']) html+=phoneCard(byId['motorola-razr-2023']);
+  // Fire TV Stick gets its own card (data lives under the PC device)
+  html+=fireTvCard(byId['seths-pc'] && byId['seths-pc'].firetv);
+  document.getElementById('fleet').innerHTML = html;
+
+  const b=document.getElementById('broadcast');
+  if(!LIVE){ b.disabled=true; b.innerHTML='&#128226; Broadcast <span style="opacity:.7">(tailnet only)</span>'; }
+}
+
+/* ---------- data load (contract preserved) ---------- */
 async function load(){
   try{
     const r = await fetch(STATUS_URL, {cache:'no-store'});
@@ -76,67 +343,13 @@ async function load(){
     render(j);
   }catch(e){
     document.getElementById('fleet').innerHTML =
-      '<div class="card"><h2>⚠️ collector offline</h2><div class="sub">status.json unreachable</div></div>';
+      `<div class="card"><div class="err-card"><div class="big">🛰️</div>
+       <h2 style="margin:0 0 6px">collector offline</h2>
+       <div class="sub">status.json unreachable — check the 5-min cron</div></div></div>`;
   }
 }
 
-function pill(on, txt){
-  return `<span class="pill ${on===true?'on':on===false?'off':'na'}">${txt||(on?'online':'offline')}</span>`;
-}
-function row(k,v){ return `<div class="row"><span class="k">${k}</span><span class="v">${v}</span></div>`; }
-function fmtUptime(s){
-  if(s==null) return '—';
-  const h=Math.floor(s/3600), m=Math.floor(s%3600/60);
-  return h>0?`${h}h ${m}m`:`${m}m`;
-}
-function ago(iso){
-  const s=Math.floor((Date.now()-new Date(iso).getTime())/1000);
-  return s<60?`${s}s ago`:s<3600?`${Math.floor(s/60)}m ago`:`${Math.floor(s/3600)}h ago`;
-}
-
-function card(d){
-  let body='';
-  const dot=`<span class="dotlive ${d.online?'on':'off'}"></span>`;
-  if(d.id==='seths-pc'){
-    body = row('RVG agent', (d.rvg_version||'—')+(d.uptime_s!=null?` <span style="color:var(--dim)">(up ${fmtUptime(d.uptime_s)})</span>`:''))
-      + row('Emby', d.emby&&d.emby.running?`✅ ${d.emby.version||''}`:'❌ down')
-      + row('TeraBox uploaders', d.terabox_uploaders!=null?`${d.terabox_uploaders} running`:'—');
-    if(d.emby_sessions && d.emby_sessions.length){
-      body += `<div class="sess" style="margin-top:6px">Emby sessions:</div>`;
-      d.emby_sessions.forEach(s=>{
-        body += `<div class="sess">▶ <b>${esc(s.device||'?')}</b> · ${esc(s.client||'')} ${s.playing?`— <i>${esc(s.playing)}</i>`:'(idle)'}</div>`;
-      });
-    }
-    // Fire TV Stick card lives inside the PC card (Emby-sourced)
-    const ft = d.firetv||{};
-    body += `<div class="sess" style="margin-top:8px;border-top:1px solid #1a2230;padding-top:8px">`
-      + `📺 <b>Fire TV Stick 4K Select</b> ${ft.seen_in_emby?'· active in Emby':'· idle (not in Emby)'}<br>`
-      + `<span style="font-size:11px">ADB: ${esc(ft.adb||'n/a')} — dashboard-side integration only</span></div>`;
-  } else if(d.id==='seths-macbook-air'){
-    body = row('BlueBubbles', d.bluebubbles&&d.bluebubbles.up?'✅ port 1234':'❌ down')
-      + row('RVG Mac agent', d.rvg_agent&&d.rvg_agent.up?'✅ reachable':'❌ down')
-      + `<div class="stub">Mac notifications: pending RVG Mac token</div>`;
-  } else if(d.id==='iphone-xs-max'){
-    body = row('Tailnet ping', d.ping_ms!=null?`${d.ping_ms} ms`:'—')
-      + row('Push alerts', 'via ntfy ✅');
-  } else if(d.id==='motorola-razr-2023'){
-    body = row('RVG Android', d.rvg_agent&&d.rvg_agent.up?'✅ agent up':'❌ down')
-      + row('Push alerts', 'via ntfy ✅');
-  }
-  return `<div class="card"><h2>${dot} ${esc(d.name)}</h2>
-    <div class="sub">${esc(d.id)} · ${esc(d.ip||'')}</div>
-    <div style="margin-bottom:8px">${pill(d.online)}</div>${body}</div>`;
-}
-function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-
-function render(j){
-  document.getElementById('updated').textContent = 'updated ' + ago(j.generated_iso);
-  document.getElementById('src').textContent = LIVE ? 'tailnet · live actions on' : 'public snapshot · read-only';
-  document.getElementById('fleet').innerHTML = j.devices.map(card).join('');
-  const b=document.getElementById('broadcast');
-  if(!LIVE){ b.disabled=true; b.textContent='📣 Broadcast (tailnet only)'; }
-}
-
+/* ---------- broadcast (contract preserved) ---------- */
 document.getElementById('broadcast').addEventListener('click', async ()=>{
   const m=document.getElementById('bmsg'), b=document.getElementById('broadcast');
   const msg=prompt('Alert message for all devices:','Mission Control ping');
@@ -150,6 +363,14 @@ document.getElementById('broadcast').addEventListener('click', async ()=>{
   }catch(e){ m.textContent='❌ relay unreachable'; }
   b.disabled=false;
 });
+
+/* ---------- live clock ---------- */
+function tick(){
+  const d=new Date();
+  document.getElementById('clock').textContent =
+    String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+':'+String(d.getSeconds()).padStart(2,'0');
+}
+tick(); setInterval(tick,1000);
 
 load();
 setInterval(load, 60000);
