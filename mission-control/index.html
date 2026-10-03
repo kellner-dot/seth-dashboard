@@ -280,6 +280,48 @@
   footer .live-tag{color:var(--ok);}
   .err-hero{text-align:center; padding:80px 40px;}
   .err-hero .big{font-size:80px; margin-bottom:16px;}
+
+  /* ============ Phase 3: ambient mode (1.1) ============ */
+  #ambient{position:fixed; inset:0; z-index:80; display:none; background:#000; overflow:hidden;}
+  #ambient.open{display:block;}
+  .amb-slide{position:absolute; inset:-6%; width:112%; height:112%; object-fit:cover; opacity:0;
+    transition:opacity 2.5s ease; will-change:transform,opacity;}
+  .amb-slide.show{opacity:1;}
+  .amb-slide.kb1{animation:kb1 14s ease-in-out forwards;}
+  .amb-slide.kb2{animation:kb2 14s ease-in-out forwards;}
+  @keyframes kb1{from{transform:scale(1) translate(0,0);}to{transform:scale(1.13) translate(-2%,1.5%);}}
+  @keyframes kb2{from{transform:scale(1.13) translate(2%,-1.5%);}to{transform:scale(1) translate(0,0);}}
+  .amb-shade{position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(0,0,0,.35) 0%, transparent 30%, transparent 58%, rgba(0,0,0,.74) 100%);}
+  .amb-info{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; pointer-events:none; z-index:2;}
+  #amb-clock{font-size:220px; font-weight:800; letter-spacing:8px; line-height:1; font-variant-numeric:tabular-nums;
+    background:linear-gradient(180deg,#fff 40%,#9db4d0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  #amb-date{font-size:52px; color:#e6ecf5; margin-top:10px; letter-spacing:3px; text-shadow:0 4px 24px rgba(0,0,0,.85);}
+  #amb-weather{font-size:44px; color:var(--dim); margin-top:16px; letter-spacing:1px; text-shadow:0 4px 24px rgba(0,0,0,.85);}
+  #amb-np{position:absolute; bottom:54px; left:0; right:0; text-align:center; font-size:34px; color:var(--acc2);
+    font-weight:600; text-shadow:0 4px 24px rgba(0,0,0,.9); z-index:2; pointer-events:none;}
+
+  /* ============ Phase 3: music visualizer (6.2) ============ */
+  #viz{position:fixed; inset:0; z-index:85; display:none; background:#02040a;}
+  #viz.open{display:block;}
+  #viz-canvas{position:absolute; inset:0; width:100%; height:100%;}
+  #viz-hud{position:absolute; top:0; left:0; right:0; padding:36px 48px; display:flex; align-items:center; gap:24px; z-index:2;}
+  #viz-title{font-size:42px; font-weight:800; letter-spacing:3px;}
+  #viz-sub{font-size:26px; color:var(--dim); margin-top:4px;}
+  #viz-modes{margin-left:auto; display:flex; gap:14px;}
+  .viz-mode{font-size:28px; font-weight:700; padding:14px 30px; border-radius:14px; cursor:pointer;
+    background:rgba(255,255,255,.07); color:var(--dim); border:2px solid rgba(255,255,255,.18);}
+  .viz-mode.on{background:linear-gradient(135deg,#0ea5e9,#a855f7); color:#fff; border-color:transparent;}
+  #viz-play{position:absolute; bottom:120px; left:50%; transform:translateX(-50%); z-index:2;
+    font-size:36px; font-weight:800; padding:24px 60px; border-radius:18px; border:none; cursor:pointer;
+    color:#06121f; background:linear-gradient(180deg,#fff,#cfe3f5);
+    box-shadow:0 14px 44px rgba(0,0,0,.5);}
+  #viz-play.hidden{display:none;}
+  #viz-note{position:absolute; bottom:86px; left:0; right:0; text-align:center; font-size:20px; color:var(--faint); z-index:2;}
+  #viz-hint{position:absolute; bottom:36px; left:0; right:0; text-align:center; font-size:24px; color:var(--faint); z-index:2;}
+  #viz-hint b{color:var(--dim);}
+
 </style>
 </head>
 <body>
@@ -335,7 +377,31 @@
   <div id="pf-cap"><div><div class="t" id="pf-title"></div><div class="l" id="pf-loc"></div></div><div class="c" id="pf-count"></div></div>
   <div id="pf-hint"><b>&#8592;&#8594;</b> prev/next &nbsp;&middot;&nbsp; <b>Back</b> exit</div>
 </div>
-<div id="hint"><b>&#8592;&#8593;&#8595;&#8594;</b> move &nbsp;&middot;&nbsp; <b>OK</b> details &nbsp;&middot;&nbsp; <b>P</b> photos &nbsp;&middot;&nbsp; <b>Back</b> close</div>
+<div id="ambient">
+  <img class="amb-slide a" alt="" />
+  <img class="amb-slide b" alt="" />
+  <div class="amb-shade"></div>
+  <div class="amb-info">
+    <div id="amb-clock">--:--</div>
+    <div id="amb-date">—</div>
+    <div id="amb-weather">—</div>
+  </div>
+  <div id="amb-np"></div>
+</div>
+<div id="viz">
+  <canvas id="viz-canvas"></canvas>
+  <div id="viz-hud">
+    <div><div id="viz-title">🎶 Visualizer</div><div id="viz-sub">reactive · iTunes preview demo</div></div>
+    <div id="viz-modes">
+      <button class="viz-mode on" id="viz-m-reactive">Reactive</button>
+      <button class="viz-mode" id="viz-m-ambient">Ambient</button>
+    </div>
+  </div>
+  <button id="viz-play">▶ Play preview</button>
+  <div id="viz-note">Apple Music web uses DRM — analysers get silence from DRM content. Full tracks need sign-in + Widevine (unverified).</div>
+  <div id="viz-hint"><b>&#8592;&#8594;</b> switch mode &nbsp;&middot;&nbsp; <b>OK</b> play/pause &nbsp;&middot;&nbsp; <b>Back</b> exit</div>
+</div>
+<div id="hint"><b>&#8592;&#8593;&#8595;&#8594;</b> move &nbsp;&middot;&nbsp; <b>OK</b> details &nbsp;&middot;&nbsp; <b>P</b> photos &nbsp;&middot;&nbsp; <b>V</b> visuals &nbsp;&middot;&nbsp; <b>Back</b> close</div>
 
 <script>
 const ICONS = {
@@ -747,6 +813,7 @@ function posterStat(c, j, ctx){
     case 'hearing': { const h=hearingData||{hearing_date:'2026-11-12'}; const target=new Date(h.hearing_date+'T08:15:00-04:00');
       const days=Math.max(0,Math.ceil((target-new Date())/86400000)); return `${days} days to go`; }
     case 'act-photos': return 'slideshow · press OK';
+    case 'act-viz': return 'reactive + ambient';
     case 'act-iptv': return 'TV Navigator player';
     case 'act-refresh': return 'reload dashboard data';
   }
@@ -777,6 +844,8 @@ function actionCards(){
   return [
     {id:'act-photos', cls:'k-act', icon:'film', title:'Photo Frame', sub:'his photography',
      dot:'<span class="dotlive na"></span>', pill:pill('na','slideshow'), isAction:'photos', body:'', detail:''},
+    {id:'act-viz', cls:'k-act', icon:'vinyl', title:'Visualize', sub:'music visualizer',
+     dot:'<span class="dotlive na"></span>', pill:pill('na','reactive + ambient'), isAction:'viz', body:'', detail:''},
     {id:'act-iptv', cls:'k-tv', icon:'tv', title:'IPTV Player', sub:'TV Navigator',
      dot:'<span class="dotlive on"></span>', pill:pill('on','player'), isAction:'iptv', body:'', detail:''},
     {id:'act-refresh', cls:'k-act', icon:'bolt', title:'Refresh', sub:'reload data',
@@ -1062,6 +1131,7 @@ function runHeroAction(i){
 function runCardAction(c){
   if(!c||!c.isAction) return;
   if(c.isAction==='photos') openPhotoFrame();
+  else if(c.isAction==='viz'){ openViz(); }
   else if(c.isAction==='iptv'){ window.location.href='../iptv/'; }
     else if(c.isAction==='surprise'){ openOverlay(c); }
   else if(c.isAction==='refresh'){ load(); }
@@ -1090,9 +1160,274 @@ async function checkForUpdate(){
   }catch(e){}
 }
 
+/* ---------- Phase 3: Ambient Mode (1.1) ---------- */
+let ambTimer=null, ambClockInt=null, ambWxInt=null, ambIdx=0, ambLayer=0;
+let ambWeather=null, ambWeatherAt=0;
+const IDLE_MS=10*60*1000, WX_MS=30*60*1000;
+let idleTimer=null;
+
+function wxDesc(code){
+  if(code==null) return ['🌡️','—'];
+  if(code===0) return ['☀️','Clear'];
+  if(code<=3) return ['⛅','Partly cloudy'];
+  if(code===45||code===48) return ['🌫️','Fog'];
+  if(code>=51&&code<=57) return ['🌦️','Drizzle'];
+  if(code>=61&&code<=67) return ['🌧️','Rain'];
+  if(code>=71&&code<=77) return ['🌨️','Snow'];
+  if(code>=80&&code<=82) return ['🌧️','Showers'];
+  if(code>=95) return ['⛈️','Thunderstorm'];
+  return ['🌡️','—'];
+}
+async function ambFetchWeather(){
+  const now=Date.now();
+  if(ambWeather&&now-ambWeatherAt<WX_MS){ ambRenderWeather(); return; }
+  try{
+    const r=await fetch('https://api.open-meteo.com/v1/forecast?latitude=42.93&longitude=-73.24&current=temperature_2m,weather_code&temperature_unit=fahrenheit',{cache:'no-store'});
+    if(!r.ok) throw new Error('wx');
+    const j=await r.json();
+    ambWeather={temp:Math.round(j.current.temperature_2m), code:j.current.weather_code};
+    ambWeatherAt=now;
+  }catch(e){ /* keep last cached, or fall back to — */ }
+  ambRenderWeather();
+}
+function ambRenderWeather(){
+  const el=document.getElementById('amb-weather');
+  if(ambWeather){
+    const d=wxDesc(ambWeather.code);
+    el.textContent=ambWeather.temp+'°F '+d[0]+' '+d[1]+' · Bennington VT';
+  } else el.textContent='—';
+}
+function ambUpdateClock(){
+  const d=new Date();
+  document.getElementById('amb-clock').textContent=
+    String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');
+  document.getElementById('amb-date').textContent=
+    d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+}
+function ambRenderNP(){
+  const el=document.getElementById('amb-np');
+  const it=npData&&npData.items&&npData.items[0];
+  el.textContent=it?('▶ '+(it.title||'Now playing')+(it.user?' · '+it.user:'')):'';
+}
+function ambShow(idx){
+  const photos=(photosData&&photosData.photos)||[];
+  if(!photos.length) return;
+  const p=photos[idx%photos.length];
+  const layers=document.querySelectorAll('.amb-slide');
+  const show=layers[ambLayer%2], hide=layers[(ambLayer+1)%2];
+  const img=new Image();
+  img.onload=function(){
+    show.classList.remove('show','kb1','kb2');
+    void show.offsetWidth;             // restart the Ken Burns animation
+    show.src=p.url;
+    show.classList.add('show', ambLayer%2?'kb2':'kb1');
+    hide.classList.remove('show');
+    ambLayer++;
+  };
+  img.onerror=function(){ ambLayer++; };   // skip broken URLs
+  img.src=p.url;
+}
+function openAmbient(){
+  const photos=(photosData&&photosData.photos)||[];
+  if(!photos.length) return;
+  if(overlayOpen()) closeOverlay();
+  if(photoFrameOpen()) closePhotoFrame();
+  if(vizIsOpen()) closeViz();
+  document.getElementById('ambient').classList.add('open');
+  ambUpdateClock(); ambClockInt=setInterval(ambUpdateClock,1000);
+  ambRenderNP();
+  ambFetchWeather(); ambWxInt=setInterval(ambFetchWeather,WX_MS);
+  ambIdx=0; ambShow(ambIdx);
+  clearInterval(ambTimer);
+  ambTimer=setInterval(function(){ ambIdx=(ambIdx+1)%photos.length; ambShow(ambIdx); },12000);
+}
+function closeAmbient(){
+  document.getElementById('ambient').classList.remove('open');
+  clearInterval(ambTimer); clearInterval(ambClockInt); clearInterval(ambWxInt);
+}
+function ambientOpen(){
+  return document.getElementById('ambient').classList.contains('open');
+}
+function resetIdle(){
+  clearTimeout(idleTimer);
+  idleTimer=setTimeout(function(){
+    if(!ambientOpen()&&!photoFrameOpen()&&!overlayOpen()&&!vizIsOpen()) openAmbient();
+  },IDLE_MS);
+}
+['keydown','click','touchstart'].forEach(function(ev){ window.addEventListener(ev,resetIdle,true); });
+resetIdle();
+document.getElementById('ambient').addEventListener('click', function(){ closeAmbient(); resetIdle(); });
+
+/* ---------- Phase 3: Music Visualizer (6.2) ---------- */
+let vizMode='reactive';
+let vizRAF=null, vizAC=null, vizAnalyser=null, vizAudio=null, vizSrcNode=null;
+let vizPreviewUrl=null, vizPreviewTitle='', vizPlaying=false;
+let vizParticles=[];
+
+function vizCanvas(){ return document.getElementById('viz-canvas'); }
+function vizIsOpen(){ return document.getElementById('viz').classList.contains('open'); }
+
+async function vizFetchPreview(){
+  try{
+    const r=await fetch('https://itunes.apple.com/search?term=schizopolis&media=music&limit=1');
+    if(!r.ok) return;
+    const j=await r.json();
+    const t=j.results&&j.results[0];
+    if(t&&t.previewUrl){
+      vizPreviewUrl=t.previewUrl;
+      vizPreviewTitle=(t.trackName||'')+' — '+(t.artistName||'');
+    }
+  }catch(e){}
+}
+function vizEnsureGraph(){
+  if(vizAC) return true;
+  try{
+    const AC=window.AudioContext||window.webkitAudioContext;
+    vizAC=new AC();
+    vizAnalyser=vizAC.createAnalyser();
+    vizAnalyser.fftSize=256;
+    vizAnalyser.smoothingTimeConstant=0.82;
+    vizAnalyser.connect(vizAC.destination);
+    return true;
+  }catch(e){ return false; }
+}
+function vizTogglePlay(){
+  if(vizMode!=='reactive') return;
+  if(!vizPreviewUrl){ document.getElementById('viz-sub').textContent='no preview loaded yet…'; return; }
+  if(!vizEnsureGraph()) return;
+  if(!vizAudio){
+    vizAudio=new Audio();
+    vizAudio.crossOrigin='anonymous';
+    vizAudio.src=vizPreviewUrl;
+    vizSrcNode=vizAC.createMediaElementSource(vizAudio);
+    vizSrcNode.connect(vizAnalyser);
+    vizAudio.loop=true;
+  }
+  if(vizAudio.paused){
+    if(vizAC.state==='suspended') vizAC.resume();
+    vizAudio.play(); vizPlaying=true;
+  } else { vizAudio.pause(); vizPlaying=false; }
+  vizUpdatePlayBtn();
+}
+function vizUpdatePlayBtn(){
+  const btn=document.getElementById('viz-play');
+  btn.classList.toggle('hidden', vizMode!=='reactive');
+  btn.textContent=vizPlaying?'⏸ Pause preview':'▶ Play preview';
+  document.getElementById('viz-sub').textContent=
+    vizMode==='reactive'
+      ? ('reactive · '+((vizPlaying&&vizPreviewTitle)?vizPreviewTitle:'30s iTunes preview demo'))
+      : 'ambient · beat-estimation pulse';
+}
+function setVizMode(m){
+  vizMode=m;
+  document.getElementById('viz-m-reactive').classList.toggle('on',m==='reactive');
+  document.getElementById('viz-m-ambient').classList.toggle('on',m==='ambient');
+  if(m==='ambient'&&vizAudio&&!vizAudio.paused){ vizAudio.pause(); vizPlaying=false; }
+  vizUpdatePlayBtn();
+}
+function vizSpawnParticles(w,h,n){
+  vizParticles=[];
+  for(let i=0;i<n;i++){
+    vizParticles.push({x:Math.random()*w, y:Math.random()*h, r:2+Math.random()*5,
+      vx:(Math.random()-.5)*1.2, vy:-0.4-Math.random()*1.4, hue:Math.random()<.5?190:300});
+  }
+}
+function vizFrame(t){
+  const cv=vizCanvas();
+  const ctx=cv.getContext('2d');
+  const w=cv.width, h=cv.height;
+  // dark background
+  const bg=ctx.createLinearGradient(0,0,0,h);
+  bg.addColorStop(0,'#030510'); bg.addColorStop(1,'#0a0620');
+  ctx.fillStyle=bg; ctx.fillRect(0,0,w,h);
+
+  const N=64;
+  const bins=new Float32Array(N);
+  if(vizMode==='reactive'&&vizAnalyser&&vizPlaying){
+    const data=new Uint8Array(vizAnalyser.frequencyBinCount);
+    vizAnalyser.getByteFrequencyData(data);
+    const step=Math.max(1,Math.floor(data.length/N));
+    for(let i=0;i<N;i++){ bins[i]=data[i*step]/255; }
+  } else {
+    // ambient beat-estimation fallback: layered LFOs, no audio needed
+    const s=t/1000;
+    for(let i=0;i<N;i++){
+      bins[i]=0.28+0.22*Math.sin(s*2.2+i*0.35)+0.14*Math.sin(s*1.1+i*0.13)+0.08*Math.sin(s*5.3+i*0.5);
+      bins[i]=Math.max(0.03,Math.min(1,bins[i]));
+    }
+  }
+  let sum=0; for(let i=0;i<N;i++) sum+=bins[i];
+  const avg=sum/N;
+
+  // floating particles
+  for(let pi=0; pi<vizParticles.length; pi++){
+    const p=vizParticles[pi];
+    p.x+=p.vx*(0.6+avg*2); p.y+=p.vy*(0.6+avg*2);
+    if(p.y<-10){ p.y=h+10; p.x=Math.random()*w; }
+    if(p.x<-10) p.x=w+10; else if(p.x>w+10) p.x=-10;
+    const g=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.r*4);
+    g.addColorStop(0,'hsla('+p.hue+',100%,70%,'+(0.25+avg*0.5).toFixed(3)+')');
+    g.addColorStop(1,'hsla(0,0%,0%,0)');
+    ctx.fillStyle=g;
+    ctx.beginPath(); ctx.arc(p.x,p.y,p.r*4,0,6.283); ctx.fill();
+  }
+
+  // center pulse glow
+  const cx=w/2, cy=h*0.42, R=Math.min(w,h)*0.16*(1+avg*0.5);
+  const pulse=ctx.createRadialGradient(cx,cy,0,cx,cy,R);
+  pulse.addColorStop(0,'hsla(190,100%,65%,'+(0.18+avg*0.3).toFixed(3)+')');
+  pulse.addColorStop(1,'hsla(300,90%,60%,0)');
+  ctx.fillStyle=pulse; ctx.beginPath(); ctx.arc(cx,cy,R,0,6.283); ctx.fill();
+
+  // frequency bars, cyan -> magenta gradient
+  const bw=w/N;
+  for(let i=0;i<N;i++){
+    const bh=Math.max(6,bins[i]*h*0.55);
+    const bx=i*bw+bw*0.18, bw2=bw*0.64, by=h-bh;
+    const grad=ctx.createLinearGradient(0,by,0,h);
+    grad.addColorStop(0,'#f472b6'); grad.addColorStop(0.55,'#a78bfa'); grad.addColorStop(1,'#22d3ee');
+    ctx.fillStyle=grad;
+    ctx.fillRect(bx,by,bw2,bh);
+  }
+  vizRAF=requestAnimationFrame(vizFrame);
+}
+function vizResize(){
+  const cv=vizCanvas(); cv.width=window.innerWidth; cv.height=window.innerHeight;
+}
+function openViz(){
+  if(photoFrameOpen()) closePhotoFrame();
+  if(overlayOpen()) closeOverlay();
+  if(ambientOpen()) closeAmbient();
+  vizResize();
+  vizSpawnParticles(vizCanvas().width, vizCanvas().height, 90);
+  document.getElementById('viz').classList.add('open');
+  setVizMode('reactive');
+  vizFetchPreview().then(function(){ vizUpdatePlayBtn(); });
+  cancelAnimationFrame(vizRAF);
+  vizRAF=requestAnimationFrame(vizFrame);
+  window.addEventListener('resize',vizResize);
+}
+function closeViz(){
+  document.getElementById('viz').classList.remove('open');
+  cancelAnimationFrame(vizRAF);
+  window.removeEventListener('resize',vizResize);
+  if(vizAudio){ vizAudio.pause(); vizPlaying=false; }
+  vizUpdatePlayBtn();
+}
+document.getElementById('viz-play').addEventListener('click', vizTogglePlay);
+document.getElementById('viz-m-reactive').addEventListener('click', function(){ setVizMode('reactive'); });
+document.getElementById('viz-m-ambient').addEventListener('click', function(){ setVizMode('ambient'); });
+
 /* ---------- DPAD / keyboard ---------- */
 document.addEventListener('keydown', e=>{
   const k=e.key;
+  if(ambientOpen()){ closeAmbient(); resetIdle(); e.preventDefault(); return; }
+  if(vizIsOpen()){
+    if(k==='ArrowLeft'||k==='ArrowRight'){ setVizMode(vizMode==='reactive'?'ambient':'reactive'); e.preventDefault(); return; }
+    if(k==='Enter'){ vizTogglePlay(); e.preventDefault(); return; }
+    if(k==='Escape'||k==='Backspace'||k==='GoBack'){ closeViz(); resetIdle(); e.preventDefault(); return; }
+    return;
+  }
   if(photoFrameOpen()){
     if(k==='ArrowLeft'){ pfNav(-1); e.preventDefault(); return; }
     if(k==='ArrowRight'){ pfNav(1); e.preventDefault(); return; }
@@ -1117,12 +1452,15 @@ document.addEventListener('keydown', e=>{
       else { const c=currentCard(); if(c&&c.isAction) runCardAction(c); else openOverlay(); }
       e.preventDefault(); break;
     case 'p': case 'P': openPhotoFrame(); e.preventDefault(); break;
+    case 'v': case 'V': openViz(); e.preventDefault(); break;
     case 'Escape': case 'Backspace': e.preventDefault(); break;
   }
 });
 document.addEventListener('keydown', e=>{
   if(e.keyCode===10009||e.keyCode===461){
-    if(photoFrameOpen()){ closePhotoFrame(); e.preventDefault(); }
+    if(ambientOpen()){ closeAmbient(); resetIdle(); e.preventDefault(); }
+    else if(vizIsOpen()){ closeViz(); resetIdle(); e.preventDefault(); }
+    else if(photoFrameOpen()){ closePhotoFrame(); e.preventDefault(); }
     else if(overlayOpen()){ closeOverlay(); e.preventDefault(); }
     else {
       const stack=document.getElementById('notif-stack');
