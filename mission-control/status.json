@@ -1,6 +1,6 @@
 {
- "generated_at": 1791055731,
- "generated_iso": "2026-10-03T19:28:51+0000",
+ "generated_at": 1791056033,
+ "generated_iso": "2026-10-03T19:33:53+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "github": {
@@ -26,7 +26,7 @@
    "Megalopolis",
    "Inland Empire",
    "Poor Things",
-   "Cowboys and Aliens",
+   "Cowboys & Aliens",
    "Big Fish",
    "The Invisible Man"
   ]
@@ -49,7 +49,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 67871,
+   "uptime_s": 68176,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
