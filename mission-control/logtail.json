@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-03T23:47:23+0000",
+ "generated_iso": "2026-10-03T23:57:24+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -36,6 +36,10 @@
     },
     {
      "t": "[reboot-watch.l] 2026-10-03T23:47:21Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; no reboot detected, no relaunch.",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03T23:49:18Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; state was_reachable=false, device still unreachable; no reboot d",
      "c": "ok"
     },
     {
