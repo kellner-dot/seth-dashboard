@@ -81,6 +81,12 @@
 </div>
 
 <div class="card">
+  <h2>&#128172; Ask Kavi</h2>
+  <input type="text" id="askinput" placeholder="Ask Kavi a question..." autocomplete="off">
+  <button class="btn" id="asksend" style="width:100%">Send Question</button>
+</div>
+
+<div class="card">
   <h2>⚡ Device Actions</h2>
   <div class="row">
     <button class="btn action" id="embyrescan">🔄 Rescan Emby</button>
@@ -168,6 +174,24 @@ $('sendurlbtn').addEventListener('click', async () => {
   if (r) {
     setStatus(r.ok ? '✓ Queued — will open on TV shortly' : '✗ ' + (r.error || r.detail || 'failed'), r.ok ? 'ok' : 'err');
     if (r.ok) $('sendurl').value = '';
+  }
+});
+
+// Ask Kavi — POSTs to the RVG bridge /rvd/ask endpoint, which appends the
+// question to mission-control/kavi-questions/inbox.json on GitHub.
+// Bridge endpoint spec (wired by parent orchestrator):
+//   POST /rvd/ask   {"question": "...", "from": "phone-remote"}
+//   -> {"ok": true, "id": "<question-id>"}
+// The TV dashboard polls mission-control/kavi-questions/answers/latest.json
+// every 30s and shows new answers as notification cards.
+$('asksend').addEventListener('click', async () => {
+  const q = $('askinput').value.trim();
+  if (!q) return;
+  setStatus('Sending...', '');
+  const r = await api('/rvd/ask', {question: q, from: 'phone-remote'});
+  if (r) {
+    setStatus(r.ok ? "\u2713 Sent \u2014 watch the TV for Kavi\u2019s answer" : "\u2717 " + (r.error || r.detail || 'failed'), r.ok ? 'ok' : 'err');
+    if (r.ok) $('askinput').value = '';
   }
 });
 

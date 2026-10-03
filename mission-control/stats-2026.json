@@ -1,0 +1,50 @@
+{
+ "generated_at": 1791069524,
+ "generated_iso": "2026-10-03T23:18:44+0000",
+ "year": 2026,
+ "emby": {
+  "hours_watched": 4.6,
+  "movies_played": 6,
+  "total_plays": 6,
+  "top5": [
+   {
+    "title": "Doodlebug",
+    "year": 1997,
+    "plays": 1,
+    "poster_url": "posters/stats1.jpg"
+   },
+   {
+    "title": "Nocturama",
+    "year": 2016,
+    "plays": 1,
+    "poster_url": "posters/stats2.jpg"
+   },
+   {
+    "title": "Pi",
+    "year": 1998,
+    "plays": 1,
+    "poster_url": "posters/stats3.jpg"
+   },
+   {
+    "title": "Poor Things",
+    "year": 2023,
+    "plays": 1,
+    "poster_url": "posters/stats4.jpg"
+   },
+   {
+    "title": "Smithereens",
+    "year": 1982,
+    "plays": 1,
+    "poster_url": "posters/stats5.jpg"
+   }
+  ]
+ },
+ "github": {
+  "repos": {
+   "kellner-dot/seth-dashboard": 447,
+   "kellner-dot/firetv-vega": 4
+  },
+  "total_commits": 451
+ },
+ "downloads_completed": null
+}

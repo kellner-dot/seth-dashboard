@@ -1,0 +1,32 @@
+{
+ "episode_proxy": "https://api.rss2json.com/v1/api.json?rss_url=",
+ "note": "Episodes load via the rss2json proxy (CORS-friendly). Kavi Briefings feed appears here when published.",
+ "shows": [
+  {
+   "description": "Musicians dissect their songs, piece by piece.",
+   "rss": "https://feeds.simplecast.com/44GtIsTE",
+   "title": "Song Exploder"
+  },
+  {
+   "description": "True stories from the dark side of the internet.",
+   "rss": "https://feeds.megaphone.fm/darknetdiaries",
+   "title": "Darknet Diaries"
+  },
+  {
+   "description": "The NYT's flagship daily news show.",
+   "rss": "https://feeds.simplecast.com/54nAGcIl",
+   "title": "The Daily"
+  },
+  {
+   "description": "World news from the BBC, twice daily.",
+   "rss": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+   "title": "BBC Global News Podcast"
+  },
+  {
+   "description": "Hourly news headlines from NPR.",
+   "rss": "https://feeds.npr.org/500005/podcast.xml",
+   "title": "NPR News Now"
+  }
+ ],
+ "updated": "2026-10-03"
+}

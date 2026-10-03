@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Torrent Manager</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0a12;
+    color: #e0e0e0;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    padding: 24px 32px;
+  }
+  .header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 20px; padding-bottom: 16px;
+    border-bottom: 1px solid #1e1e2e;
+  }
+  .header h1 { font-size: 36px; font-weight: 700; }
+  .header h1 .logo { color: #4da6ff; }
+  .stats-bar {
+    display: flex; gap: 24px; font-size: 20px;
+  }
+  .stat { display: flex; align-items: center; gap: 8px; }
+  .stat .label { color: #888; font-size: 16px; }
+  .stat .value { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .down { color: #4da6ff; } .up { color: #4dff88; }
+  .toolbar {
+    display: flex; gap: 12px; margin-bottom: 20px;
+  }
+  .btn {
+    background: #1a1a2e; color: #e0e0e0;
+    border: 2px solid #2a2a4e; border-radius: 10px;
+    padding: 14px 28px; font-size: 20px; cursor: pointer;
+    transition: all 0.15s;
+  }
+  .btn:focus, .btn.focused {
+    outline: none; border-color: #4da6ff;
+    background: #2a2a4e; transform: scale(1.04);
+    box-shadow: 0 0 20px rgba(77,166,255,0.4);
+  }
+  .btn.primary { background: #1a3a5e; border-color: #4da6ff; }
+  .btn.danger { background: #3a1a1a; border-color: #ff4d4d; }
+  .torrent-list { display: flex; flex-direction: column; gap: 12px; }
+  .torrent {
+    background: #14141f; border: 2px solid #1e1e2e;
+    border-radius: 12px; padding: 18px 24px;
+    transition: all 0.15s;
+  }
+  .torrent:focus, .torrent.focused {
+    outline: none; border-color: #4da6ff;
+    box-shadow: 0 0 20px rgba(77,166,255,0.3);
+  }
+  .torrent-top {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 10px;
+  }
+  .torrent-name {
+    font-size: 22px; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    max-width: 70%;
+  }
+  .torrent-status {
+    font-size: 18px; padding: 6px 16px; border-radius: 20px;
+    font-weight: 600;
+  }
+  .st-downloading { background: #1a3a5e; color: #4da6ff; }
+  .st-seeding { background: #1a3a2a; color: #4dff88; }
+  .st-paused { background: #2a2a2a; color: #999; }
+  .st-queued { background: #2a2a1a; color: #ffcc4d; }
+  .st-error { background: #3a1a1a; color: #ff4d4d; }
+  .progress-track {
+    height: 14px; background: #0a0a12; border-radius: 7px;
+    overflow: hidden; margin-bottom: 10px;
+  }
+  .progress-fill {
+    height: 100%; border-radius: 7px;
+    background: linear-gradient(90deg, #4da6ff, #66ccff);
+    transition: width 0.5s;
+  }
+  .torrent-meta {
+    display: flex; gap: 28px; font-size: 18px; color: #aaa;
+    font-variant-numeric: tabular-nums;
+  }
+  .torrent-meta b { color: #e0e0e0; font-weight: 600; }
+  .torrent-actions {
+    display: flex; gap: 10px; margin-top: 12px;
+  }
+  .action-btn {
+    background: #1a1a2e; color: #ccc;
+    border: 1px solid #2a2a4e; border-radius: 8px;
+    padding: 10px 20px; font-size: 18px; cursor: pointer;
+  }
+  .action-btn:focus {
+    outline: none; border-color: #4da6ff; color: #fff;
+    box-shadow: 0 0 12px rgba(77,166,255,0.4);
+  }
+  .empty-state {
+    text-align: center; padding: 80px 20px; color: #666;
+    font-size: 24px;
+  }
+  .modal {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.8); z-index: 100;
+    align-items: center; justify-content: center;
+  }
+  .modal.open { display: flex; }
+  .modal-box {
+    background: #14141f; border: 2px solid #4da6ff;
+    border-radius: 16px; padding: 32px; width: 700px; max-width: 90vw;
+  }
+  .modal-box h2 { font-size: 28px; margin-bottom: 20px; }
+  .modal-box input {
+    width: 100%; background: #0a0a12; color: #fff;
+    border: 2px solid #2a2a4e; border-radius: 8px;
+    padding: 16px; font-size: 20px; margin-bottom: 20px;
+  }
+  .modal-box input:focus { outline: none; border-color: #4da6ff; }
+  .modal-btns { display: flex; gap: 12px; justify-content: flex-end; }
+  .conn-status {
+    font-size: 16px; padding: 6px 14px; border-radius: 16px;
+  }
+  .conn-ok { background: #1a3a2a; color: #4dff88; }
+  .conn-warn { background: #2a2a1a; color: #ffcc4d; }
+  .conn-err { background: #3a1a1a; color: #ff4d4d; }
+  .updated { font-size: 14px; color: #666; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1><span class="logo">⬇</span> Torrent Manager</h1>
+    <div style="display:flex;gap:16px;align-items:center">
+      <span class="updated" id="updated">--</span>
+      <span class="conn-status conn-warn" id="conn">connecting…</span>
+    </div>
+  </div>
+
+  <div class="stats-bar" style="margin-bottom:20px">
+    <div class="stat"><span class="label">↓ Down</span><span class="value down" id="statDown">--</span></div>
+    <div class="stat"><span class="label">↑ Up</span><span class="value up" id="statUp">--</span></div>
+    <div class="stat"><span class="label">Active</span><span class="value" id="statActive">--</span></div>
+    <div class="stat"><span class="label">Ratio</span><span class="value" id="statRatio">--</span></div>
+  </div>
+
+  <div class="toolbar">
+    <button class="btn primary" id="btnAdd" tabindex="1">＋ Add Torrent</button>
+    <button class="btn" id="btnStartAll" tabindex="2">▶ Start All</button>
+    <button class="btn" id="btnStopAll" tabindex="3">⏸ Stop All</button>
+    <button class="btn" id="btnRefresh" tabindex="4">↻ Refresh</button>
+  </div>
+
+  <div class="torrent-list" id="list"></div>
+  <div class="empty-state" id="empty" style="display:none">
+    No torrents. Press <b>+ Add Torrent</b> to get started.
+  </div>
+
+  <div class="modal" id="addModal">
+    <div class="modal-box">
+      <h2>Add Torrent</h2>
+      <input type="text" id="magnetInput" placeholder="Paste magnet link here…" tabindex="10">
+      <div class="modal-btns">
+        <button class="btn" id="btnCancel" tabindex="12">Cancel</button>
+        <button class="btn primary" id="btnAddConfirm" tabindex="11">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="confirmModal">
+    <div class="modal-box">
+      <h2 id="confirmTitle">Remove torrent?</h2>
+      <p id="confirmText" style="font-size:20px;color:#aaa;margin-bottom:20px"></p>
+      <div class="modal-btns">
+        <button class="btn" id="btnNo" tabindex="22">Cancel</button>
+        <button class="btn" id="btnYesFiles" tabindex="21">Yes + Delete Files</button>
+        <button class="btn danger" id="btnYes" tabindex="20">Yes</button>
+      </div>
+    </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+<script>
+// ===== Config =====
+var STATUS_URL = 'status.json';
+var POLL_MS = 15000;
+// MQTT command bus (public broker, unguessable topic + token)
+var MQTT_BROKER = 'wss://broker.emqx.io:8084/mqtt';
+var MQTT_TOPIC = null; // loaded from mqtt-config.json
+var MQTT_TOKEN = null;
+
+var torrents = [];
+var focusedIdx = -1;
+var pendingRemoveId = null;
+var mqttClient = null;
+
+// ===== Helpers =====
+function fmtSpeed(bps) {
+  if (bps == null || bps < 0) return '--';
+  if (bps < 1024) return bps + ' B/s';
+  if (bps < 1048576) return (bps/1024).toFixed(1) + ' KB/s';
+  return (bps/1048576).toFixed(2) + ' MB/s';
+}
+function fmtSize(bytes) {
+  if (bytes == null) return '--';
+  var u = ['B','KB','MB','GB','TB'];
+  var i = 0;
+  while (bytes >= 1024 && i < u.length-1) { bytes /= 1024; i++; }
+  return bytes.toFixed(i > 0 ? 1 : 0) + ' ' + u[i];
+}
+function fmtETA(sec) {
+  if (sec == null || sec < 0 || sec > 999999) return '∞';
+  if (sec < 60) return sec + 's';
+  if (sec < 3600) return Math.floor(sec/60) + 'm';
+  return Math.floor(sec/3600) + 'h ' + Math.floor((sec%3600)/60) + 'm';
+}
+function statusClass(s) {
+  // Transmission status codes: 0 stopped, 4 downloading, 6 seeding
+  if (s === 4) return 'st-downloading';
+  if (s === 6) return 'st-seeding';
+  if (s === 0) return 'st-paused';
+  return 'st-queued';
+}
+function statusText(s) {
+  var m = {0:'Paused',1:'Queued',2:'Verifying',3:'Queued',4:'Downloading',5:'Queued',6:'Seeding'};
+  return m[s] || 'Unknown';
+}
+
+// ===== MQTT =====
+function mqttConnect() {
+  if (!window.Paho) { setConn('err', 'MQTT lib failed'); return; }
+  try {
+    mqttClient = new Paho.MQTT.Client(
+      'broker.emqx.io', 8084, '/mqtt', 'tv-torrent-' + Math.random().toString(36).slice(2,10));
+    mqttClient.onConnectionLost = function() {
+      setConn('warn', 'cmd offline');
+      setTimeout(mqttConnect, 10000);
+    };
+    mqttClient.connect({
+      useSSL: true, timeout: 10,
+      onSuccess: function() { setConn('ok', 'connected'); },
+      onFailure: function() { setConn('warn', 'cmd offline'); }
+    });
+  } catch(e) { setConn('err', 'MQTT error'); }
+}
+function sendCommand(cmd) {
+  cmd.token = MQTT_TOKEN;
+  cmd.ts = Date.now();
+  if (mqttClient && mqttClient.isConnected() && MQTT_TOPIC) {
+    try {
+      var msg = new Paho.MQTT.Message(JSON.stringify(cmd));
+      msg.destinationName = MQTT_TOPIC;
+      mqttClient.send(msg);
+      return true;
+    } catch(e) {}
+  }
+  return false;
+}
+function setConn(cls, txt) {
+  var el = document.getElementById('conn');
+  el.className = 'conn-status conn-' + cls;
+  el.textContent = txt;
+}
+
+// ===== Rendering =====
+function render() {
+  var list = document.getElementById('list');
+  var empty = document.getElementById('empty');
+  list.innerHTML = '';
+  if (!torrents.length) { empty.style.display = 'block'; return; }
+  empty.style.display = 'none';
+  torrents.forEach(function(t, i) {
+    var pct = (t.percentDone != null ? t.percentDone * 100 : 0);
+    var div = document.createElement('div');
+    div.className = 'torrent' + (i === focusedIdx ? ' focused' : '');
+    div.tabIndex = 100 + i;
+    var sc = statusClass(t.status);
+    div.innerHTML =
+      '<div class="torrent-top">' +
+        '<div class="torrent-name">' + escapeHtml(t.name || 'Unknown') + '</div>' +
+        '<div class="torrent-status ' + sc + '">' + statusText(t.status) + ' ' + pct.toFixed(1) + '%</div>' +
+      '</div>' +
+      '<div class="progress-track"><div class="progress-fill" style="width:' + pct + '%"></div></div>' +
+      '<div class="torrent-meta">' +
+        '<span>↓ <b>' + fmtSpeed(t.rateDownload) + '</b></span>' +
+        '<span>↑ <b>' + fmtSpeed(t.rateUpload) + '</b></span>' +
+        '<span>ETA <b>' + fmtETA(t.eta) + '</b></span>' +
+        '<span>Size <b>' + fmtSize(t.totalSize) + '</b></span>' +
+        '<span>Ratio <b>' + (t.uploadRatio != null ? t.uploadRatio.toFixed(2) : '--') + '</b></span>' +
+      '</div>' +
+      '<div class="torrent-actions">' +
+        (t.status === 0
+          ? '<button class="action-btn" data-act="start" data-id="' + t.id + '">▶ Resume</button>'
+          : '<button class="action-btn" data-act="stop" data-id="' + t.id + '">⏸ Pause</button>') +
+        '<button class="action-btn" data-act="remove" data-id="' + t.id + '">🗑 Remove</button>' +
+      '</div>';
+    list.appendChild(div);
+  });
+  // wire action buttons
+  list.querySelectorAll('.action-btn').forEach(function(b) {
+    b.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var act = b.getAttribute('data-act');
+      var id = parseInt(b.getAttribute('data-id'), 10);
+      doAction(act, id);
+    });
+  });
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, function(c) {
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+
+// ===== Actions =====
+function doAction(act, id) {
+  var ok = false;
+  if (act === 'start') ok = sendCommand({action:'torrent-start', ids:[id]});
+  else if (act === 'stop') ok = sendCommand({action:'torrent-stop', ids:[id]});
+  else if (act === 'remove') { pendingRemoveId = id; openModal('confirmModal'); return; }
+  if (!ok) showPhoneFallback();
+}
+function showPhoneFallback() {
+  alert('Command channel offline. Use the phone remote to control torrents.');
+}
+
+// ===== Data =====
+function loadStatus() {
+  fetch(STATUS_URL + '?t=' + Date.now(), {cache:'no-store'})
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      torrents = d.torrents || [];
+      document.getElementById('statDown').textContent = fmtSpeed(d.downSpeed);
+      document.getElementById('statUp').textContent = fmtSpeed(d.upSpeed);
+      document.getElementById('statActive').textContent = d.activeCount != null ? d.activeCount : torrents.length;
+      document.getElementById('statRatio').textContent = d.ratio != null ? d.ratio.toFixed(2) : '--';
+      document.getElementById('updated').textContent = d.updated ? 'updated ' + d.updated : '';
+      if (d.biglybtRunning === false) {
+        document.getElementById('empty').style.display = 'block';
+        document.getElementById('empty').innerHTML = 'BiglyBT is not running on the PC.<br>Start BiglyBT to manage torrents.';
+      }
+      render();
+    })
+    .catch(function() {
+      document.getElementById('updated').textContent = 'failed to load status';
+    });
+}
+function loadMqttConfig() {
+  fetch('mqtt-config.json?t=' + Date.now(), {cache:'no-store'})
+    .then(function(r) { return r.json(); })
+    .then(function(c) { MQTT_TOPIC = c.topic; MQTT_TOKEN = c.token; mqttConnect(); })
+    .catch(function() { setConn('err', 'no cmd config'); });
+}
+
+// ===== Modals =====
+function openModal(id) { document.getElementById(id).classList.add('open'); }
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+// ===== Wiring =====
+document.getElementById('btnAdd').addEventListener('click', function() {
+  openModal('addModal');
+  setTimeout(function(){ document.getElementById('magnetInput').focus(); }, 100);
+});
+document.getElementById('btnCancel').addEventListener('click', function() { closeModal('addModal'); });
+document.getElementById('btnAddConfirm').addEventListener('click', function() {
+  var magnet = document.getElementById('magnetInput').value.trim();
+  if (!magnet) return;
+  var ok = sendCommand({action:'torrent-add', filename: magnet});
+  closeModal('addModal');
+  document.getElementById('magnetInput').value = '';
+  if (ok) setTimeout(loadStatus, 3000);
+  else showPhoneFallback();
+});
+document.getElementById('btnStartAll').addEventListener('click', function() {
+  if (!sendCommand({action:'torrent-start', ids:'all'})) showPhoneFallback();
+});
+document.getElementById('btnStopAll').addEventListener('click', function() {
+  if (!sendCommand({action:'torrent-stop', ids:'all'})) showPhoneFallback();
+});
+document.getElementById('btnRefresh').addEventListener('click', loadStatus);
+document.getElementById('btnNo').addEventListener('click', function() { closeModal('confirmModal'); });
+document.getElementById('btnYes').addEventListener('click', function() {
+  sendCommand({action:'torrent-remove', ids:[pendingRemoveId], deleteLocalData:false});
+  closeModal('confirmModal'); setTimeout(loadStatus, 3000);
+});
+document.getElementById('btnYesFiles').addEventListener('click', function() {
+  sendCommand({action:'torrent-remove', ids:[pendingRemoveId], deleteLocalData:true});
+  closeModal('confirmModal'); setTimeout(loadStatus, 3000);
+});
+
+// DPAD navigation
+document.addEventListener('keydown', function(e) {
+  var items = document.querySelectorAll('.torrent');
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    if (!items.length) return;
+    e.preventDefault();
+    if (e.key === 'ArrowDown') focusedIdx = Math.min(focusedIdx + 1, items.length - 1);
+    else focusedIdx = Math.max(focusedIdx - 1, 0);
+    render();
+    var el = document.querySelectorAll('.torrent')[focusedIdx];
+    if (el) { el.focus(); el.scrollIntoView({block:'nearest'}); }
+  } else if (e.key === 'Enter' && focusedIdx >= 0) {
+    var t = torrents[focusedIdx];
+    if (t) doAction(t.status === 0 ? 'start' : 'stop', t.id);
+  } else if (e.key === 'Escape') {
+    closeModal('addModal'); closeModal('confirmModal');
+  } else if (e.key === 'GoBack' || e.keyCode === 461 || e.keyCode === 10009) {
+    closeModal('addModal'); closeModal('confirmModal');
+  }
+});
+
+// ===== Init =====
+loadMqttConfig();
+loadStatus();
+setInterval(loadStatus, POLL_MS);
+</script>
+</body>
+</html>

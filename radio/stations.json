@@ -1,0 +1,67 @@
+{
+ "note": "Streams play directly on the Fire Stick. No account needed.",
+ "source": "SomaFM \u2014 supporter-funded independent radio",
+ "stations": [
+  {
+   "description": "A nicely chilled plate of ambient beats and grooves.",
+   "genre": "Ambient Beats",
+   "name": "Groove Salad",
+   "url": "https://ice1.somafm.com/groovesalad-128-mp3"
+  },
+  {
+   "description": "Deep ambient electronic and space music.",
+   "genre": "Deep Ambient",
+   "name": "Deep Space One",
+   "url": "https://ice1.somafm.com/deepspaceone-128-mp3"
+  },
+  {
+   "description": "Served best chilled \u2014 safe with most medications.",
+   "genre": "Drone Ambient",
+   "name": "Drone Zone",
+   "url": "https://ice1.somafm.com/dronezone-128-mp3"
+  },
+  {
+   "description": "Music for hacking.",
+   "genre": "Hacker",
+   "name": "DEF CON Radio",
+   "url": "https://ice1.somafm.com/defcon-128-mp3"
+  },
+  {
+   "description": "From black to doom, grind to sludge.",
+   "genre": "Metal",
+   "name": "Metal Detector",
+   "url": "https://ice1.somafm.com/metal-128-mp3"
+  },
+  {
+   "description": "Americana roots music for cowhands, cowpokes and cowtippers.",
+   "genre": "Americana",
+   "name": "Boot Liquor",
+   "url": "https://ice1.somafm.com/bootliquor-128-mp3"
+  },
+  {
+   "description": "Classic bachelor-pad, playful exotica.",
+   "genre": "Lounge",
+   "name": "Illinois Street Lounge",
+   "url": "https://ice1.somafm.com/illstreet-128-mp3"
+  },
+  {
+   "description": "Transcending the world of jazz with eclectic takes.",
+   "genre": "Nu-Jazz",
+   "name": "Sonic Universe",
+   "url": "https://ice1.somafm.com/sonicuniverse-128-mp3"
+  },
+  {
+   "description": "Progressive house / trance.",
+   "genre": "Psychedelic",
+   "name": "The Trip",
+   "url": "https://ice1.somafm.com/thetrip-128-mp3"
+  },
+  {
+   "description": "Mellow album rock from the 1970s.",
+   "genre": "70s",
+   "name": "Left Coast 70s",
+   "url": "https://ice1.somafm.com/seventies-128-mp3"
+  }
+ ],
+ "updated": "2026-10-03"
+}

@@ -101,6 +101,28 @@
   .hbtn.focused{transform:scale(1.07);
     box-shadow:0 0 0 4px rgba(110,231,255,.5), 0 14px 44px rgba(0,0,0,.5), 0 0 44px rgba(110,231,255,.3);}
 
+
+  /* ============ techy widgets ============ */
+  .spark{display:block; margin-top:12px; width:100%;}
+  .bigstat{font-size:68px; font-weight:800; color:#fff; line-height:1; margin-top:6px;}
+  .bigstat small{font-size:26px; color:var(--dim); font-weight:600;}
+  .ubars{display:flex; gap:4px; margin-top:14px; align-items:flex-end; height:46px;}
+  .ubar{flex:1; min-width:5px; border-radius:3px;}
+  .ubar.ok{background:linear-gradient(180deg,#34d399,#059669);}
+  .ubar.warn{background:linear-gradient(180deg,#fbbf24,#d97706);}
+  .ubar.bad{background:linear-gradient(180deg,#f87171,#dc2626);}
+  .ubar.na{background:#1e293b;}
+  .term{background:#020617; border-radius:14px; padding:16px 18px; margin-top:12px;
+    font-family:ui-monospace,Menlo,Consolas,monospace; font-size:18px; line-height:1.7;
+    max-height:330px; overflow:hidden; border:1px solid rgba(52,211,153,.25);}
+  .tline{color:#86efac; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .tline.warn{color:#fcd34d;} .tline.err{color:#fca5a5;}
+  .meshs{display:block; margin:8px auto 0; max-width:100%;}
+  .prow{display:flex; justify-content:space-between; gap:12px; font-size:21px; padding:7px 0;
+    border-bottom:1px solid rgba(255,255,255,.07); color:#dbe4f3;}
+  .prow b{color:#fff; font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:60%;}
+  .prow .dim{color:var(--dim);}
+
   /* ============ rows ============ */
   #rows{margin-top:8px;}
   .row-sec{margin-top:38px;}
@@ -152,6 +174,7 @@
   .poster.k-kg{--pbg:linear-gradient(135deg,#0b4a34,#081410);}
   .poster.k-cal{--pbg:linear-gradient(135deg,#5e3a0b,#181006);}
   .poster.k-act{--pbg:linear-gradient(135deg,#3a3f1a,#12100a);}
+  .poster.k-muse{--pbg:linear-gradient(135deg,#7a4a2b,#1a1008);}
   .poster .pill{margin:10px 0 0;}
   .pill{display:inline-block; font-size:18px; font-weight:700; padding:7px 20px;
         border-radius:99px; text-transform:uppercase; letter-spacing:2px;}
@@ -229,6 +252,108 @@
     border:2px solid rgba(255,255,255,.14);}
   .ov-icon svg{width:56px; height:56px;}
 
+  /* ============ Phase 3.1 Global Search + 5.2 Ask Kavi ============ */
+  #search-overlay,#ask-overlay{position:fixed; inset:0; z-index:70; display:none;
+    align-items:center; justify-content:center; background:rgba(3,5,10,.93); backdrop-filter:blur(12px);}
+  #search-overlay.open,#ask-overlay.open{display:flex; animation:ovIn .28s cubic-bezier(.2,.8,.2,1);}
+  #sov-card,#ask-card{width:min(1400px,94vw); max-height:92vh; overflow-y:auto;
+    background:linear-gradient(165deg, rgba(28,36,54,.98), rgba(10,14,24,.98));
+    border:1px solid rgba(110,231,255,.35); border-radius:28px; padding:38px 46px;
+    box-shadow:0 40px 100px rgba(0,0,0,.75), 0 0 70px rgba(110,231,255,.12);
+    animation:ovCardIn .32s cubic-bezier(.2,.9,.3,1.15);}
+  .sov-field,.ask-field{min-height:86px; font-size:50px; font-weight:700; padding:16px 26px;
+    border-radius:18px; background:rgba(255,255,255,.05); border:2px solid rgba(110,231,255,.4);
+    margin:6px 0 22px; word-break:break-word; line-height:1.25;}
+  .sov-field .caret,.ask-field .caret{display:inline-block; width:.6em; color:var(--acc1);
+    animation:blink 1.1s steps(1) infinite;}
+  @keyframes blink{50%{opacity:0;}}
+  .sov-field .ph,.ask-field .ph{color:var(--faint); font-weight:400;}
+  .krow{display:flex; gap:10px; justify-content:center; margin-bottom:10px;}
+  .key{flex:1 1 0; max-width:104px; min-width:60px; padding:15px 0; text-align:center;
+    font-size:32px; font-weight:800; border-radius:14px; background:rgba(255,255,255,.06);
+    border:2px solid rgba(255,255,255,.13); color:var(--txt);}
+  .key.wide{max-width:330px; flex:2.2 1 0; font-size:28px;}
+  .key.focused{border-color:var(--focus); background:rgba(110,231,255,.2);
+    box-shadow:0 0 26px rgba(110,231,255,.4); transform:scale(1.07);}
+  .sres-group{margin:24px 0 8px; font-size:24px; font-weight:800; letter-spacing:4px;
+    color:var(--faint); text-transform:uppercase;}
+  .sres{display:flex; align-items:center; gap:18px; padding:13px 20px; border-radius:14px;
+    font-size:31px; border:2px solid transparent;}
+  .sres .st{flex:1;} .sres .ss{color:var(--dim); font-size:25px; flex:none;}
+  .sres.focused{border-color:var(--focus); background:rgba(110,231,255,.12);}
+  .sov-empty{font-size:30px; color:var(--dim); padding:34px 10px; text-align:center;}
+  .sov-info{padding:14px 6px;}
+  .si-name{font-size:44px; font-weight:800; margin-bottom:4px;}
+  .si-sub{font-size:27px; color:var(--dim); margin-bottom:18px;}
+  .sov-info p{font-size:29px; color:var(--txt); line-height:1.5; max-width:1000px;}
+  .sbtn{display:block; width:100%; margin:16px 0 8px; padding:18px; font-size:31px; font-weight:700;
+    color:#fff; background:linear-gradient(135deg,#22d3ee,#3b82f6); border:none; border-radius:16px;
+    cursor:pointer; border:3px solid transparent; text-align:center;}
+  .sbtn.ghost{background:rgba(255,255,255,.07); border:3px solid rgba(255,255,255,.16);}
+  .sbtn.focused{border-color:#fff; box-shadow:0 0 26px rgba(110,231,255,.5); transform:scale(1.02);}
+  .ask-ans{margin-top:8px; padding:22px 26px; border-radius:16px; font-size:29px; line-height:1.5;
+    background:rgba(52,211,153,.08); border:2px solid rgba(52,211,153,.35);}
+  .ask-ans b{color:var(--ok);}
+  .ask-q{font-size:32px; padding:6px 0 16px; color:var(--txt);}
+  .ask-q .lbl{color:var(--faint); font-size:24px; letter-spacing:3px; text-transform:uppercase; display:block; margin-bottom:8px;}
+  /* ============ Phase 3: What Should I Watch? (4.3) + Stats Wall (6.3) ============ */
+  .poster .art img.pimg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:1;}
+  #pick-overlay,#stats-overlay{position:fixed; inset:0; z-index:70; display:none;
+    align-items:center; justify-content:center; background:rgba(2,4,9,.93); backdrop-filter:blur(12px);}
+  #pick-overlay.open,#stats-overlay.open{display:flex; animation:ovIn .28s cubic-bezier(.2,.8,.2,1);}
+  #pick-card,#stats-card{width:min(1500px,94vw); max-height:92vh; overflow-y:auto;
+    background:linear-gradient(165deg, rgba(28,36,54,.98), rgba(10,14,24,.98));
+    border-radius:28px; padding:44px 52px;
+    animation:ovCardIn .32s cubic-bezier(.2,.9,.3,1.15);}
+  #pick-card{border:1px solid rgba(167,139,250,.45);
+    box-shadow:0 40px 100px rgba(0,0,0,.75), 0 0 70px rgba(167,139,250,.15);}
+  #stats-card{border:1px solid rgba(110,231,255,.35);
+    box-shadow:0 40px 100px rgba(0,0,0,.75), 0 0 70px rgba(110,231,255,.12);}
+  .pick-flex{display:flex; gap:52px; align-items:center;}
+  .pick-poster{flex:0 0 380px;}
+  .pick-poster img{width:380px; border-radius:20px; display:block; background:#0b101d;
+    border:2px solid rgba(255,255,255,.14); box-shadow:0 24px 70px rgba(0,0,0,.7);}
+  .pick-info{flex:1; min-width:0;}
+  .pick-kicker{font-size:25px; font-weight:800; letter-spacing:6px; color:var(--acc2); margin-bottom:14px; text-transform:uppercase;}
+  .pick-info h2{margin:0 0 8px; font-size:82px; font-weight:800; line-height:1.02; letter-spacing:1px;
+    background:linear-gradient(180deg,#fff 30%,#c4b5fd); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .pick-meta{display:flex; gap:16px; align-items:center; font-size:29px; color:var(--dim); margin-bottom:20px; font-weight:600;}
+  .pick-meta .yr{background:rgba(255,255,255,.08); border:2px solid rgba(255,255,255,.16); border-radius:12px; padding:5px 18px; font-weight:800; color:var(--txt);}
+  .pick-why{font-size:33px; line-height:1.45; color:var(--txt); padding:20px 24px; margin-bottom:18px;
+    border-left:6px solid var(--acc2); background:rgba(167,139,250,.07); border-radius:0 18px 18px 0;}
+  .pick-why b{color:var(--acc2);}
+  .pick-ov{font-size:27px; color:var(--dim); line-height:1.5; margin-bottom:32px;
+    display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;}
+  .pick-btns{display:flex; gap:22px;}
+  .pbtn{font-size:33px; font-weight:800; letter-spacing:1px; padding:22px 50px; border-radius:18px; cursor:pointer;
+    border:3px solid rgba(255,255,255,.2); background:rgba(255,255,255,.07); color:var(--txt); outline:none;
+    transition:transform .2s, box-shadow .2s;}
+  .pbtn.primary{background:linear-gradient(135deg,#22d3ee,#3b82f6); color:#fff; border-color:transparent;}
+  .pbtn.focused{transform:scale(1.07); box-shadow:0 0 0 5px rgba(110,231,255,.55), 0 16px 50px rgba(0,0,0,.55);}
+  .stats-kicker{font-size:25px; font-weight:800; letter-spacing:6px; color:var(--acc1); margin-bottom:8px; text-transform:uppercase;}
+  #stats-card h2{margin:0 0 24px; font-size:68px; font-weight:800;
+    background:linear-gradient(180deg,#fff 30%,#9db4d0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .stats-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px; margin-bottom:8px;}
+  .stat-tile{background:rgba(255,255,255,.04); border:2px solid rgba(255,255,255,.09); border-radius:22px; padding:28px 24px; text-align:center;}
+  .stat-tile .n{font-size:80px; font-weight:800; font-variant-numeric:tabular-nums; line-height:1;
+    background:linear-gradient(180deg,#fff,#9db4d0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .stat-tile .u{font-size:22px; color:var(--dim); letter-spacing:2px; text-transform:uppercase; margin-top:10px;}
+  .stats-sec{font-size:27px; font-weight:800; letter-spacing:4px; text-transform:uppercase; color:#cdd6e6; margin:24px 0 4px;}
+  .stop5{display:flex; align-items:center; gap:22px; padding:13px 0; border-top:2px solid rgba(255,255,255,.07);}
+  .stop5 .rk{font-size:42px; font-weight:800; color:var(--faint); width:66px; flex:none; text-align:center;}
+  .stop5 img{width:74px; height:111px; object-fit:cover; border-radius:10px; flex:none; background:#0b101d; border:2px solid rgba(255,255,255,.12);}
+  .stop5 .nopic{width:74px; height:111px; border-radius:10px; flex:none; display:grid; place-items:center;
+    background:linear-gradient(135deg,#16213a,#0b1120); border:2px solid rgba(255,255,255,.12); font-size:36px;}
+  .stop5 .tt{flex:1; min-width:0;}
+  .stop5 .tt .t{font-size:31px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .stop5 .tt .y{font-size:23px; color:var(--dim);}
+  .stop5 .pl{font-size:27px; font-weight:800; color:var(--acc1); width:120px; text-align:right; flex:none; font-variant-numeric:tabular-nums;}
+  .sbar2{height:14px; border-radius:99px; background:rgba(255,255,255,.08); overflow:hidden; margin-top:10px;}
+  .sbar2 > i{display:block; height:100%; border-radius:99px; background:linear-gradient(90deg,var(--acc1),var(--acc2)); box-shadow:0 0 14px rgba(110,231,255,.5);}
+  .sgh{display:flex; align-items:center; gap:20px; padding:11px 0;}
+  .sgh .rn{font-size:29px; font-weight:700; width:330px; flex:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .sgh .bar{flex:1;}
+  .sgh .ct{font-size:29px; font-weight:800; color:var(--acc2); width:110px; text-align:right; flex:none; font-variant-numeric:tabular-nums;}
   /* ============ notification center ============ */
   #notif-stack{position:fixed; top:18px; left:50%; transform:translateX(-50%); z-index:60;
     display:flex; flex-direction:column; gap:12px; width:min(1100px, 80vw); pointer-events:none;}
@@ -372,6 +497,61 @@
 
 <div id="overlay"><div id="ov-card"></div></div>
 <div id="notif-stack" aria-live="polite"></div>
+<div id="search-overlay">
+  <div id="sov-card">
+    <div class="ov-head"><div class="ov-icon" style="font-size:52px">&#128269;</div>
+      <div><h2 style="font-size:50px;margin:0 0 6px">Search</h2>
+      <div class="osub">Emby &middot; IPTV &middot; Apple Music</div></div></div>
+    <div id="sov-field" class="sov-field"></div>
+    <div id="sov-keys"></div>
+    <div id="sov-results"></div>
+    <div class="hint">DPAD: move &middot; OK: type &middot; Backspace: delete &middot; <b>Back</b>: close</div>
+  </div>
+</div>
+<div id="ask-overlay">
+  <div id="ask-card">
+    <div class="ov-head"><div class="ov-icon" style="font-size:52px">&#128172;</div>
+      <div><h2 style="font-size:50px;margin:0 0 6px">Ask Kavi</h2>
+      <div class="osub">answers pop up on your TV</div></div></div>
+    <div id="ask-field" class="ask-field"></div>
+    <div id="ask-keys"></div>
+    <div id="ask-body"></div>
+    <div class="hint">DPAD: move &middot; OK: type &middot; <b>Back</b>: close</div>
+  </div>
+</div>
+
+<div id="pick-overlay">
+  <div id="pick-card">
+    <div class="pick-flex">
+      <div class="pick-poster"><img id="pick-img" alt="Movie poster"></div>
+      <div class="pick-info">
+        <div class="pick-kicker">&#127922; Kavi's pick</div>
+        <h2 id="pick-title">&mdash;</h2>
+        <div class="pick-meta" id="pick-meta"></div>
+        <div class="pick-why" id="pick-why"></div>
+        <div class="pick-ov" id="pick-ov"></div>
+        <div class="pick-btns">
+          <button class="pbtn primary" id="pick-play">&#9654; Play on Emby</button>
+          <button class="pbtn" id="pick-reroll">&#127922; Reroll</button>
+        </div>
+      </div>
+    </div>
+    <div class="hint"><b>&#8592; &#8594;</b> choose &nbsp;&middot;&nbsp; <b>OK</b> select &nbsp;&middot;&nbsp; <b>Back</b> close</div>
+  </div>
+</div>
+<div id="stats-overlay">
+  <div id="stats-card">
+    <div class="stats-kicker">&#128202; 2026 in Review</div>
+    <h2>Year in Review</h2>
+    <div class="stats-grid" id="stats-grid"></div>
+    <div class="stats-sec">&#127908; Top movies</div>
+    <div id="stats-top5"></div>
+    <div class="stats-sec">&#128187; GitHub commits</div>
+    <div id="stats-gh"></div>
+    <div class="hint">Press <b>Back</b> to close</div>
+  </div>
+</div>
+
 <div id="photoframe">
   <img id="pf-img" alt="Photo" />
   <div id="pf-cap"><div><div class="t" id="pf-title"></div><div class="l" id="pf-loc"></div></div><div class="c" id="pf-count"></div></div>
@@ -417,7 +597,18 @@ const ICONS = {
   magnet: `<svg viewBox="0 0 48 48"><defs><linearGradient id="mgR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fb7a7a"/><stop offset="1" stop-color="#b91c1c"/></linearGradient><linearGradient id="mgS" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8fa0b8"/></linearGradient></defs><path d="M10 5h10.5v15a3.75 3.75 0 0 0 7.5 0V5H38.5v15a14.25 14.25 0 0 1-28.5 0z" fill="url(#mgR)"/><path d="M10 5h10.5v15a3.75 3.75 0 0 0 7.5 0V5H38.5v15a14.25 14.25 0 0 1-28.5 0z" fill="none" stroke="#7f1d1d" stroke-width="1.4" opacity=".6"/><rect x="10" y="5" width="10.5" height="8.5" fill="url(#mgS)"/><rect x="28" y="5" width="10.5" height="8.5" fill="url(#mgS)"/><rect x="10" y="5" width="10.5" height="2.6" fill="#fff" opacity=".55"/><rect x="28" y="5" width="10.5" height="2.6" fill="#fff" opacity=".55"/><path d="M24 34v6M21.5 37h5" stroke="#fbbf24" stroke-width="2.2" stroke-linecap="round"/><circle cx="15" cy="40" r="1.6" fill="#fde68a"/><circle cx="33" cy="40" r="1.6" fill="#fde68a"/></svg>`,
   shield: `<svg viewBox="0 0 48 48"><defs><linearGradient id="shB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3ddc97"/><stop offset="1" stop-color="#0e7490"/></linearGradient><linearGradient id="shI" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d3fbe9"/><stop offset="1" stop-color="#5eead4"/></linearGradient></defs><path d="M24 3l16.5 6.7V24c0 10.2-7 16.8-16.5 21.5C14.5 40.8 7.5 34.2 7.5 24V9.7z" fill="url(#shB)"/><path d="M24 8.2l11.8 4.8v10.3c0 7.4-5 12.2-11.8 15.5-6.8-3.3-11.8-8.1-11.8-15.5V13z" fill="url(#shI)" opacity=".92"/><path d="M17.5 23.8l4.6 4.6 8.4-8.8" stroke="#065f46" stroke-width="4.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.5 6.8l5 2" stroke="#fff" stroke-width="2.6" opacity=".55" stroke-linecap="round"/></svg>`,
   calendar: `<svg viewBox="0 0 48 48"><defs><linearGradient id="calH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb7185"/><stop offset="1" stop-color="#e11d48"/></linearGradient><linearGradient id="calB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dbe4f0"/></linearGradient></defs><rect x="7" y="9" width="34" height="32" rx="5.5" fill="url(#calB)"/><path d="M7 14.5A5.5 5.5 0 0 1 12.5 9h23A5.5 5.5 0 0 1 41 14.5V20H7z" fill="url(#calH)"/><rect x="13" y="5" width="4.4" height="10" rx="2.2" fill="#94a3b8"/><rect x="30.6" y="5" width="4.4" height="10" rx="2.2" fill="#94a3b8"/><rect x="7" y="9" width="34" height="32" rx="5.5" fill="none" stroke="#b6c2d6" stroke-width="1.3"/><circle cx="15.5" cy="27.5" r="2.4" fill="#38bdf8"/><circle cx="24" cy="27.5" r="2.4" fill="#a78bfa"/><circle cx="32.5" cy="27.5" r="2.4" fill="#34d399"/><circle cx="15.5" cy="34.5" r="2.4" fill="#fbbf24"/><circle cx="24" cy="34.5" r="3" fill="#e11d48"/><circle cx="32.5" cy="34.5" r="2.4" fill="#94a3b8"/></svg>`,
-  bolt: `<svg viewBox="0 0 48 48"><defs><linearGradient id="blB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde047"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs><path d="M28 2.5L9.5 27.5h10L16 45.5l20-27h-10.5z" fill="url(#blB)" stroke="#b45309" stroke-width="1.6" stroke-linejoin="round"/><path d="M27.5 7L18 19" stroke="#fff" stroke-width="3" opacity=".6" stroke-linecap="round"/></svg>`
+  bolt: `<svg viewBox="0 0 48 48"><defs><linearGradient id="blB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde047"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs><path d="M28 2.5L9.5 27.5h10L16 45.5l20-27h-10.5z" fill="url(#blB)" stroke="#b45309" stroke-width="1.6" stroke-linejoin="round"/><path d="M27.5 7L18 19" stroke="#fff" stroke-width="3" opacity=".6" stroke-linecap="round"/></svg>`,
+  chart: `<svg viewBox="0 0 48 48"><defs><linearGradient id="chB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs><rect x="3" y="3" width="42" height="42" rx="11" fill="#141a2b"/><rect x="3" y="3" width="42" height="42" rx="11" fill="none" stroke="#7d8aa5" stroke-width="1.4" opacity=".5"/><rect x="10" y="27" width="6.5" height="11" rx="2" fill="url(#chB)" opacity=".7"/><rect x="19" y="20" width="6.5" height="18" rx="2" fill="url(#chB)" opacity=".85"/><rect x="28" y="12" width="6.5" height="26" rx="2" fill="url(#chB)"/><path d="M9 41.5h30" stroke="#5b6b84" stroke-width="2.4" stroke-linecap="round"/></svg>`,
+  search: `<svg viewBox="0 0 48 48"><circle cx="21" cy="21" r="12.5" fill="none" stroke="#6ee7ff" stroke-width="5"/><path d="M30.5 30.5L42 42" stroke="#6ee7ff" stroke-width="5.5" stroke-linecap="round"/><circle cx="16.5" cy="16.5" r="3.4" fill="#fff" opacity=".35"/></svg>`,
+  muse: `<svg viewBox="0 0 48 48"><defs><linearGradient id="muBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f0e8"/><stop offset="1" stop-color="#e8ddd0"/></linearGradient></defs><rect x="3" y="3" width="42" height="42" rx="11" fill="url(#muBg)"/><rect x="3" y="3" width="42" height="13" rx="11" fill="#fff" opacity=".4"/><g fill="#b85c38"><path d="M24 8c-5.2 0-9.4 3.4-10.9 8.1L8 28.5c-.5 2.3.6 4.5 2.7 5.3 1 .4 2.1.5 3.1.2l2.4 3.6c.6.9 1.8.9 2.4 0l2.4-3.6 2.4 3.6c.6.9 1.8.9 2.4 0l2.4-3.6c1 .3 2.1.2 3.1-.2 2.1-.8 3.2-3 2.7-5.3l-5.1-12.4C33.4 11.4 29.2 8 24 8z"/><circle cx="19" cy="24" r="2.2" fill="#f5f0e8"/><circle cx="29" cy="24" r="2.2" fill="#f5f0e8"/><path d="M19 30c2 1.5 8 1.5 10 0" stroke="#f5f0e8" stroke-width="2" fill="none" stroke-linecap="round"/></g><rect x="3" y="3" width="42" height="42" rx="11" fill="none" stroke="#b85c38" stroke-width="1.4" opacity=".5"/></svg>`,
+  chat: `<svg viewBox="0 0 48 48"><rect x="6" y="9" width="36" height="25" rx="9" fill="none" stroke="#a78bfa" stroke-width="4"/><path d="M16 34l-3 8.5L24 34" fill="#a78bfa"/><circle cx="17" cy="21.5" r="2.6" fill="#a78bfa"/><circle cx="24" cy="21.5" r="2.6" fill="#a78bfa"/><circle cx="31" cy="21.5" r="2.6" fill="#a78bfa"/></svg>`,
+
+  gauge: `<svg viewBox="0 0 48 48"><path d="M8 34a16 16 0 0 1 32 0" fill="none" stroke="#334155" stroke-width="6" stroke-linecap="round"/><path d="M8 34a16 16 0 0 1 22-14.7" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/><line x1="24" y1="34" x2="33" y2="22" stroke="#fbbf24" stroke-width="3.5" stroke-linecap="round"/><circle cx="24" cy="34" r="3.5" fill="#e2e8f0"/></svg>`,
+  disk: `<svg viewBox="0 0 48 48"><rect x="6" y="14" width="36" height="20" rx="4" fill="#1e293b" stroke="#64748b" stroke-width="2"/><circle cx="24" cy="24" r="7" fill="none" stroke="#38bdf8" stroke-width="3"/><circle cx="24" cy="24" r="2" fill="#38bdf8"/><rect x="10" y="18" width="6" height="2.5" rx="1.2" fill="#34d399"/></svg>`,
+  term: `<svg viewBox="0 0 48 48"><rect x="5" y="9" width="38" height="30" rx="5" fill="#020617" stroke="#34d399" stroke-width="2.5"/><path d="M13 18l7 5-7 5" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="22" y1="30" x2="34" y2="30" stroke="#4ade80" stroke-width="3" stroke-linecap="round"/></svg>`,
+  net: `<svg viewBox="0 0 48 48"><g stroke="#64748b" stroke-width="2"><line x1="24" y1="24" x2="10" y2="12"/><line x1="24" y1="24" x2="38" y2="12"/><line x1="24" y1="24" x2="10" y2="36"/><line x1="24" y1="24" x2="38" y2="36"/></g><circle cx="24" cy="24" r="6" fill="#0ea5e9"/><circle cx="10" cy="12" r="4.5" fill="#34d399"/><circle cx="38" cy="12" r="4.5" fill="#34d399"/><circle cx="10" cy="36" r="4.5" fill="#fbbf24"/><circle cx="38" cy="36" r="4.5" fill="#34d399"/></svg>`,
+  check: `<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="none" stroke="#34d399" stroke-width="4"/><path d="M15 24.5l6.5 6.5L33 19" fill="none" stroke="#34d399" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  pulse: `<svg viewBox="0 0 48 48"><path d="M4 24h10l4-10 6 20 4-10h16" fill="none" stroke="#f472b6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
 };
 </script>
 <script>
@@ -578,6 +769,15 @@ function artistCard(){
     dot:`<span class="dotlive na"></span>`, pill:pill('na','3 releases'), body, detail:body};
 }
 
+function museCard(){
+  const body =
+      rowline('\u{1F9E0} Assistant', '<span class="ok">\u25CF Kavi</span>')
+    + rowline('\u{1F4AC} Chat', '<a class="ext" href="https://claude.ai" target="_blank">claude.ai \u2197</a>')
+    + rowline('\u2728; Ask', '<span class="dim">anything, anytime</span>');
+  return {id:'muse', url:'https://claude.ai', cls:'k-muse', icon:'muse', title:'Muse', sub:'chat with kavi',
+    dot:`<span class="dotlive on"></span>`, pill:pill('on','ai assistant'), body, detail:body};
+}
+
 function githubCard(g){
   g = g||{};
   const pub=g.public_repos||0, priv=g.private_repos||0, total=pub+priv;
@@ -624,6 +824,128 @@ function calendarCard(){
 
 function actionsRow(){
   return {id:'actions', isActions:true, title:'Quick Actions'};
+}
+
+/* ---------- Phase 3: What Should I Watch? (4.3) + Stats Wall (6.3) ---------- */
+let pickData = null, pickIdx = 0, pickBtn = 0; // pickBtn: 0=Play, 1=Reroll
+let statsData = null;
+
+function watchCard(){
+  const f = pickData && pickData.featured;
+  return {id:'watch-pick', cls:'k-emby', icon:'film', title:'🎲 Surprise Me', sub:'what should i watch',
+    dot:'<span class="dotlive on"></span>', pill:pill('on','kavi\u2019s pick'),
+    artImg: f ? f.poster_url : '',
+    body:'', detail:'', isWatch:true};
+}
+function statsWallCard(){
+  return {id:'stats-wall', cls:'k-gh', icon:'chart', title:'2026 in Review', sub:'stats wall',
+    dot:'<span class="dotlive on"></span>', pill:pill('on','infographic'),
+    body:'', detail:'', isStats:true};
+}
+function currentPick(){
+  const cands = (pickData && pickData.candidates) || [];
+  if(!cands.length) return null;
+  return cands[pickIdx % cands.length];
+}
+function applyPickBtnFocus(){
+  document.getElementById('pick-play').classList.toggle('focused', pickBtn===0);
+  document.getElementById('pick-reroll').classList.toggle('focused', pickBtn===1);
+}
+function renderPick(){
+  const p = currentPick();
+  const img = document.getElementById('pick-img');
+  if(!p){
+    document.getElementById('pick-title').textContent='No picks yet';
+    document.getElementById('pick-why').innerHTML='The collector hasn\u2019t run \u2014 check back soon.';
+    document.getElementById('pick-meta').innerHTML='';
+    document.getElementById('pick-ov').textContent='';
+    img.removeAttribute('src');
+    applyPickBtnFocus();
+    return;
+  }
+  img.src = p.poster_url || '';
+  document.getElementById('pick-title').textContent = p.title || 'Untitled';
+  document.getElementById('pick-meta').innerHTML =
+    `<span class="yr">${esc(String(p.year||''))}</span><span>on your Emby server</span>`;
+  document.getElementById('pick-why').innerHTML = `<b>Why Kavi picked it:</b> ${esc(p.why||'')}`;
+  document.getElementById('pick-ov').textContent = p.overview || '';
+  applyPickBtnFocus();
+}
+function pickOpen(){ return document.getElementById('pick-overlay').classList.contains('open'); }
+function openPickOverlay(){
+  pickBtn = 0;
+  renderPick();
+  document.getElementById('pick-overlay').classList.add('open');
+}
+function closePickOverlay(){
+  document.getElementById('pick-overlay').classList.remove('open');
+}
+function activatePickBtn(){
+  const p = currentPick();
+  if(pickBtn===0){
+    if(p && p.emby_item_id){
+      window.location.href = EMBY_WEB_ITEM + encodeURIComponent(p.emby_item_id);
+    }
+  } else {
+    const cands = (pickData && pickData.candidates) || [];
+    if(cands.length>1){ pickIdx = (pickIdx+1) % cands.length; }
+    pickBtn = 1;
+    renderPick();
+  }
+}
+function handlePickKey(e){
+  const k=e.key;
+  if(k==='ArrowLeft'||k==='ArrowRight'){ pickBtn = pickBtn===0?1:0; applyPickBtnFocus(); }
+  else if(k==='ArrowUp'||k==='ArrowDown'){ /* two-button row: ignore vertical */ }
+  else if(k==='Enter'){ activatePickBtn(); }
+  else if(k==='Escape'||k==='Backspace'||k==='GoBack'){ closePickOverlay(); }
+  else return;
+  e.preventDefault();
+}
+function statTile(n,u){
+  return `<div class="stat-tile"><div class="n">${esc(String(n))}</div><div class="u">${u}</div></div>`;
+}
+function statsOpen(){ return document.getElementById('stats-overlay').classList.contains('open'); }
+function openStatsOverlay(){
+  const s = statsData;
+  const grid = document.getElementById('stats-grid');
+  const top5 = document.getElementById('stats-top5');
+  const gh = document.getElementById('stats-gh');
+  if(!s){
+    grid.innerHTML = `<div class="stat-tile" style="grid-column:1/-1"><div class="n">\u2026</div><div class="u">loading stats</div></div>`;
+    top5.innerHTML=''; gh.innerHTML='';
+  } else {
+    const e = s.emby||{}, g = s.github||{};
+    grid.innerHTML =
+      statTile(e.hours_watched!=null?e.hours_watched:'\u2014','hours watched') +
+      statTile(e.movies_played!=null?e.movies_played:'\u2014','movies played') +
+      statTile(g.total_commits!=null?g.total_commits:'\u2014','github commits') +
+      statTile(s.downloads_completed!=null?s.downloads_completed:'\u2014','downloads done');
+    const t5 = e.top5||[];
+    const maxP = Math.max(1, ...t5.map(t=>t.plays||0));
+    top5.innerHTML = t5.map((t,i)=>
+      `<div class="stop5"><div class="rk">${i+1}</div>` +
+      (t.poster_url?`<img src="${esc(t.poster_url)}" alt="">`:`<div class="nopic">🎬</div>`) +
+      `<div class="tt"><div class="t">${esc(t.title)}</div><div class="y">${esc(String(t.year||''))}</div>` +
+      `<div class="sbar2"><i style="width:${Math.round((t.plays||0)/maxP*100)}%"></i></div></div>` +
+      `<div class="pl">${t.plays||0} \u25B6</div></div>`
+    ).join('') || '<div class="stub">No plays recorded yet.</div>';
+    const repos = g.repos||{};
+    const names = Object.keys(repos);
+    const maxC = Math.max(1, ...names.map(n=>repos[n]||0));
+    gh.innerHTML = names.map(n=>{
+      const short = n.split('/')[1]||n;
+      return `<div class="sgh"><div class="rn">${esc(short)}</div><div class="bar"><div class="sbar2"><i style="width:${Math.round((repos[n]||0)/maxC*100)}%"></i></div></div><div class="ct">${repos[n]!=null?repos[n]:'\u2014'}</div></div>`;
+    }).join('');
+  }
+  document.getElementById('stats-overlay').classList.add('open');
+}
+function closeStatsOverlay(){
+  document.getElementById('stats-overlay').classList.remove('open');
+}
+function handleStatsKey(e){
+  const k=e.key;
+  if(k==='Escape'||k==='Backspace'||k==='GoBack'){ closeStatsOverlay(); e.preventDefault(); }
 }
 
 
@@ -786,6 +1108,11 @@ let heroActions = [];   // [{id,label,ghost}]
 let heroSubject = null; // {type, card?, item?}
 let npData = null;
 let spotlightData = null;
+let vitalsData = null;
+let uptimeData = null;
+let ghPulseData = null;
+let meshData = null;
+let logtailData = null;
 let rowX = [];
 
 /* ---------- poster stat lines ---------- */
@@ -816,6 +1143,10 @@ function posterStat(c, j, ctx){
     case 'act-viz': return 'reactive + ambient';
     case 'act-iptv': return 'TV Navigator player';
     case 'act-refresh': return 'reload dashboard data';
+    case 'act-search': return 'Emby \u00b7 IPTV \u00b7 Music';
+    case 'act-askkavi': return 'answers on your TV';
+    case 'watch-pick': { const f=pickData&&pickData.featured; return f?`${f.title} (${f.year})`:'loading\u2026'; }
+    case 'stats-wall': { const s=statsData; return s?`${s.emby.hours_watched}h watched \u00b7 ${s.github.total_commits} commits`:'loading\u2026'; }
   }
   return c.sub||'';
 }
@@ -830,8 +1161,9 @@ function posterHTML(c, j, ctx){
   const stat = posterStat(c, j, ctx);
   const dc = dotClass(c);
   const icon = ICONS[c.icon] || '';
+  const art = c.artImg ? `<img class="pimg" src="${esc(c.artImg)}" alt="">` : icon;
   return `<div class="poster ${c.cls||''}" data-id="${c.id}" tabindex="-1">
-    <div class="art">${icon}</div>
+    <div class="art">${art}</div>
     <div class="pinfo">
       <div class="pt">${esc(c.title)} <span class="pdot ${dc}"></span></div>
       <div class="ps">${stat}</div>
@@ -850,6 +1182,10 @@ function actionCards(){
      dot:'<span class="dotlive on"></span>', pill:pill('on','player'), isAction:'iptv', body:'', detail:''},
     {id:'act-refresh', cls:'k-act', icon:'bolt', title:'Refresh', sub:'reload data',
      dot:'<span class="dotlive na"></span>', pill:pill('na','manual'), isAction:'refresh', body:'', detail:''},
+    {id:'act-search', cls:'k-tv', icon:'search', title:'Search', sub:'Emby \u00b7 IPTV \u00b7 Music',
+     dot:'<span class="dotlive on"></span>', pill:pill('na','search'), isAction:'search', body:'', detail:''},
+    {id:'act-askkavi', cls:'k-kg', icon:'chat', title:'Ask Kavi', sub:'answers on your TV',
+     dot:'<span class="dotlive on"></span>', pill:pill('na','ask'), isAction:'askkavi', body:'', detail:''},
   ];
 }
 
@@ -957,6 +1293,138 @@ function surpriseCard(){
     detail:`<div class="sess"><b>${esc(p.name)}${yr}</b></div><div class="sesslbl">${esc((p.genres||[]).join(' · '))}</div><div class="sess"><span class="dim">${esc(p.overview||'')}</span></div>`};
 }
 
+
+
+/* ---------- Tech: vitals / uptime / pulse / mesh / logs ---------- */
+function sparkline(pts, color){
+  if(!pts || pts.length<2) return '';
+  var W=400, H=90, vals=pts.map(function(p){return p[1];});
+  var mn=Math.min.apply(null,vals), mx=Math.max.apply(null,vals), rg=(mx-mn)||1;
+  var d=pts.map(function(p,i){
+    var x=(i/(pts.length-1)*W).toFixed(1);
+    var y=(H-6-((p[1]-mn)/rg)*(H-16)).toFixed(1);
+    return (i?'L':'M')+x+','+y;
+  }).join(' ');
+  return '<svg class="spark" viewBox="0 0 '+W+' '+H+'" width="100%" height="'+H+'">'
+    +'<path d="'+d+'" fill="none" stroke="'+color+'" stroke-width="4" stroke-linejoin="round"/></svg>';
+}
+function gaugeCard(id, icon, title, pct, sub, sparkPts, sparkColor, detailLead){
+  var lvl = pct==null ? 'na' : (pct<85 ? 'on' : 'off');
+  var big = '<div class="bigstat">'+(pct==null?'&mdash;':Math.round(pct))+'<small>%</small></div>';
+  return {id:id, cls:'k-act', icon:icon, title:title, sub:sub,
+    dot:'<span class="dotlive '+lvl+'"></span>', pill:pill(lvl, pct==null?'n/a':Math.round(pct)+'%'),
+    body: big+sparkline(sparkPts, sparkColor),
+    detail: (detailLead||'')+big+sparkline(sparkPts, sparkColor)};
+}
+function uptimeBars(days){
+  var h='<div class="ubars">';
+  (days||[]).forEach(function(p){
+    var cls = p==null?'na':(p>=99?'ok':(p>=95?'warn':'bad'));
+    var ht = p==null?100:Math.max(16,p);
+    h+='<div class="ubar '+cls+'" style="height:'+ht+'%"></div>';
+  });
+  return h+'</div>';
+}
+function meshSVG(nodes){
+  var W=880,H=400,cx=W/2,cy=H/2,R=140;
+  var others=nodes.filter(function(n){return !n.self;});
+  var s='<svg class="meshs" viewBox="0 0 '+W+' '+H+'">';
+  others.forEach(function(n,i){
+    var a=(i/Math.max(others.length,1))*Math.PI*2-Math.PI/2;
+    n._x=cx+R*Math.cos(a); n._y=cy+R*Math.sin(a);
+    var col=n.online?'#34d399':'#f87171';
+    s+='<line x1="'+cx+'" y1="'+cy+'" x2="'+n._x.toFixed(0)+'" y2="'+n._y.toFixed(0)
+      +'" stroke="'+col+'" stroke-opacity=".3" stroke-width="3"/>';
+  });
+  s+='<circle cx="'+cx+'" cy="'+cy+'" r="30" fill="#0ea5e9"/>'
+    +'<text x="'+cx+'" y="'+(cy+9)+'" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">VM</text>';
+  others.forEach(function(n){
+    var col=n.online?'#34d399':'#f87171';
+    s+='<circle cx="'+n._x.toFixed(0)+'" cy="'+n._y.toFixed(0)+'" r="22" fill="'+col
+      +'" fill-opacity="'+(n.online?'.95':'.25')+'"/>';
+    s+='<text x="'+n._x.toFixed(0)+'" y="'+(n._y+54).toFixed(0)+'" text-anchor="middle" fill="#cdd6e6" font-size="17">'
+      +esc(n.name)+'</text>';
+  });
+  return s+'</svg>';
+}
+function termHTML(lines){
+  if(!lines || !lines.length) return '<div class="term"><div class="tline">&mdash;</div></div>';
+  return '<div class="term">'+lines.map(function(x){
+    return '<div class="tline '+x.c+'">'+esc(x.t)+'</div>';
+  }).join('')+'</div>';
+}
+function techRows(){
+  var rows=[];
+  var v=vitalsData;
+  if(v){
+    var h=v.history||{};
+    var cards=[
+      gaugeCard('vitals-cpu','gauge','CPU',v.cpu_pct,(v.uptime_h||0)+'h uptime',h.cpu,'#38bdf8',
+        '<div class="sess"><span class="dim">Gaming PC processor load &middot; 8h window</span></div>'),
+      gaugeCard('vitals-mem','server','Memory',v.mem_pct,(v.mem_total_gb||0)+' GB total',h.mem,'#a78bfa',
+        '<div class="sess"><span class="dim">Physical memory in use</span></div>'),
+      gaugeCard('vitals-disk','disk','Disk C:',v.disk_pct,(v.disk_free_gb||0)+' GB free',h.disk,'#fbbf24',
+        '<div class="sess"><span class="dim">System drive usage</span></div>')
+    ];
+    var top=(v.top||[]).map(function(t){
+      return '<div class="prow"><b>'+esc(t.name)+'</b><span><span class="dim">CPU</span> '
+        +t.cpu+' &middot; <span class="dim">MEM</span> '+t.memMB+' MB</span></div>';
+    }).join('');
+    cards.push({id:'vitals-top', cls:'k-act', icon:'term', title:'Top Processes', sub:'by CPU on Gaming PC',
+      dot:'<span class="dotlive on"></span>', pill:pill('on','top'),
+      body:'<div style="margin-top:8px">'+(top||'<span class="dim">&mdash;</span>')+'</div>',
+      detail:'<div class="sesslbl">Top processes &middot; Gaming PC</div>'+top});
+    rows.push({label:'\u26A1 System Vitals', cards:cards});
+  }
+  var u=uptimeData;
+  if(u && u.services && u.services.length){
+    rows.push({label:'\uD83D\uDCCA Uptime', cards:u.services.map(function(s){
+      var on=!!s.online;
+      return {id:'up-'+String(s.name).replace(/[^a-z0-9]+/gi,'-').toLowerCase(),
+        cls:'k-act', icon:'check', title:s.name, sub:on?'online now':'DOWN now',
+        dot:'<span class="dotlive '+(on?'on':'off')+'"></span>', pill:pill(on?'on':'off', on?'up':'down'),
+        body:uptimeBars(s.days),
+        detail:'<div class="sesslbl">30-day uptime &middot; '+esc(s.name)+'</div>'+uptimeBars(s.days)};
+    })});
+  }
+  var g=ghPulseData;
+  if(g && g.pushes && g.pushes.length){
+    rows.push({label:'\uD83D\uDC19 GitHub Pulse', cards:g.pushes.slice(0,8).map(function(p,i){
+      var cl=(p.commits||[]).map(function(c){
+        return '<div class="prow"><b>'+esc(c.sha)+'</b><span>'+esc(c.msg)+'</span></div>';
+      }).join('');
+      return {id:'ghp-'+i, cls:'k-act', icon:'github', title:p.repo, sub:ago(p.time),
+        dot:'<span class="dotlive on"></span>', pill:pill('on',(p.commits||[]).length+' commits'),
+        body:'<div style="margin-top:8px">'+(cl||'<span class="dim">&mdash;</span>')+'</div>',
+        detail:'<div class="sesslbl">'+esc(p.repo)+' &middot; '+ago(p.time)+'</div>'+cl};
+    })});
+  }
+  var m=meshData;
+  if(m && m.nodes && m.nodes.length){
+    var on=m.nodes.filter(function(n){return n.online;}).length;
+    var nl=m.nodes.map(function(n){
+      return '<div class="prow"><b>'+esc(n.name)+'</b><span class="dim">'+esc(n.ip)+'</span><span>'
+        +(n.online?'\uD83D\uDFE2':'\uD83D\uDD34')+'</span></div>';
+    }).join('');
+    rows.push({label:'\uD83D\uDD78\uFE0F Tailnet Mesh', cards:[{id:'mesh-map', cls:'k-act', icon:'net',
+      title:'Mesh Map', sub:on+'/'+m.nodes.length+' nodes online',
+      dot:'<span class="dotlive '+(on===m.nodes.length?'on':'off')+'"></span>', pill:pill('on','tailnet'),
+      body:meshSVG(m.nodes),
+      detail:'<div class="sesslbl">Tailscale mesh &middot; '+on+'/'+m.nodes.length+' online</div>'
+        +meshSVG(m.nodes)+nl}]});
+  }
+  var l=logtailData;
+  if(l && l.sources && l.sources.length){
+    rows.push({label:'\uD83D\uDCDF Log Tail', cards:l.sources.map(function(s,i){
+      return {id:'logtail-'+i, cls:'k-act', icon:'term', title:s.name, sub:'recent log lines',
+        dot:'<span class="dotlive on"></span>', pill:pill('na','tail'),
+        body:termHTML((s.lines||[]).slice(-8)),
+        detail:'<div class="sesslbl">'+esc(s.name)+' &middot; tail</div>'+termHTML(s.lines)};
+    })});
+  }
+  return rows;
+}
+
 /* ---------- render ---------- */
 function render(j){
   // header/footer freshness
@@ -987,6 +1455,7 @@ function render(j){
   ];
 
   const ops=[
+    museCard(),
     githubCard(j.github),
     kaviguardCard(j.kaviguard),
     calendarCard(),
@@ -998,7 +1467,9 @@ function render(j){
   ROWS=[
     {label:'My Fleet', cards:fleet},
     {label:'Media', cards:media},
-  ].concat(spotlightRows()).concat([
+  ].concat(spotlightRows()).concat(techRows()).concat([
+    {label:'\uD83C\uDFB2 What Should I Watch?', cards:[watchCard()]},
+    {label:'\uD83D\uDCCA Stats Wall', cards:[statsWallCard()]},
     {label:'Operations', cards:ops},
     {label:'Quick Actions', cards:acts},
   ]);
@@ -1135,6 +1606,8 @@ function runCardAction(c){
   else if(c.isAction==='iptv'){ window.location.href='../iptv/'; }
     else if(c.isAction==='surprise'){ openOverlay(c); }
   else if(c.isAction==='refresh'){ load(); }
+  else if(c.isAction==='search'){ openSearchOverlay(); }
+  else if(c.isAction==='askkavi'){ openAskOverlay(); }
 }
 
 /* ---------- auto-update check ---------- */
@@ -1428,6 +1901,10 @@ document.addEventListener('keydown', e=>{
     if(k==='Escape'||k==='Backspace'||k==='GoBack'){ closeViz(); resetIdle(); e.preventDefault(); return; }
     return;
   }
+  if(searchOpen()){ handleSearchKey(e); return; }
+  if(askOpen()){ handleAskKey(e); return; }
+  if(pickOpen()){ handlePickKey(e); return; }
+  if(statsOpen()){ handleStatsKey(e); return; }
   if(photoFrameOpen()){
     if(k==='ArrowLeft'){ pfNav(-1); e.preventDefault(); return; }
     if(k==='ArrowRight'){ pfNav(1); e.preventDefault(); return; }
@@ -1449,7 +1926,7 @@ document.addEventListener('keydown', e=>{
     case 'ArrowDown': move(1,0); e.preventDefault(); break;
     case 'Enter':
       if(focus.zone==='hero') runHeroAction(focus.c);
-      else { const c=currentCard(); if(c&&c.isAction) runCardAction(c); else openOverlay(); }
+      else { const c=currentCard(); if(c&&c.isWatch) openPickOverlay(); else if(c&&c.isStats) openStatsOverlay(); else if(c&&c.isAction) runCardAction(c); else openOverlay(); }
       e.preventDefault(); break;
     case 'p': case 'P': openPhotoFrame(); e.preventDefault(); break;
     case 'v': case 'V': openViz(); e.preventDefault(); break;
@@ -1460,6 +1937,10 @@ document.addEventListener('keydown', e=>{
   if(e.keyCode===10009||e.keyCode===461){
     if(ambientOpen()){ closeAmbient(); resetIdle(); e.preventDefault(); }
     else if(vizIsOpen()){ closeViz(); resetIdle(); e.preventDefault(); }
+    if(searchOpen()){ closeSearchOverlay(); e.preventDefault(); }
+    else if(askOpen()){ closeAskOverlay(); e.preventDefault(); }
+    else if(pickOpen()){ closePickOverlay(); e.preventDefault(); }
+    else if(statsOpen()){ closeStatsOverlay(); e.preventDefault(); }
     else if(photoFrameOpen()){ closePhotoFrame(); e.preventDefault(); }
     else if(overlayOpen()){ closeOverlay(); e.preventDefault(); }
     else {
@@ -1468,6 +1949,307 @@ document.addEventListener('keydown', e=>{
     }
   }
 });
+
+
+/* ============================================================
+   Phase 3 — Global Search (1.5) + Ask Kavi on TV (5.2)
+   Search: DPAD on-screen keyboard, client-side indexes
+   (emby-index.json, iptv-index.json), Apple Music web link.
+   Ask Kavi: TV keyboard for composing; the phone remote
+   (tv-tools/remote.html) POSTs to the bridge /rvd/ask endpoint,
+   which files the question in mission-control/kavi-questions/.
+   Answers land in kavi-questions/answers/latest.json and pop up
+   here as notification cards.
+   ============================================================ */
+const EMBY_WEB_ITEM = 'http://sethserver.freeddns.org:8096/web/index.html#!/item?id=';
+let embySearchIdx = [];
+let iptvSearchIdx = [];
+
+/* ---------- shared DPAD on-screen keyboard ---------- */
+function kbRowDefs(){
+  const rows = [
+    ['1','2','3','4','5','6','7','8','9','0'],
+    ['Q','W','E','R','T','Y','U','I','O','P'],
+    ['A','S','D','F','G','H','J','K','L'],
+    ['Z','X','C','V','B','N','M'],
+  ].map(r=>r.map(ch=>({label:ch, kind:'char', val:ch})));
+  rows.push([
+    {label:'space', kind:'space', wide:true},
+    {label:'&#9003;', kind:'back'},
+    {label:'CLR', kind:'clear'},
+    {label:'&#10003; done', kind:'done', wide:true},
+  ]);
+  return rows;
+}
+function makeKb(el, activeFn){
+  const kb = {
+    el: el, cells: kbRowDefs(), r: 0, c: 0,
+    active: activeFn || (()=>true),
+    cell(){ return kb.cells[kb.r][kb.c]; },
+    draw(){
+      const on = kb.active();
+      el.innerHTML = kb.cells.map((row,ri)=>
+        '<div class="krow">'+row.map((cell,ci)=>
+          '<div class="key'+(cell.wide?' wide':'')+((on&&ri===kb.r&&ci===kb.c)?' focused':'')+'">'+cell.label+'</div>'
+        ).join('')+'</div>').join('');
+    },
+    move(dr,dc){
+      const r = kb.r+dr;
+      if(r<0 || r>=kb.cells.length) return false;
+      kb.r = r;
+      kb.c = Math.max(0, Math.min(kb.c+dc, kb.cells[kb.r].length-1));
+      kb.draw();
+      return true;
+    },
+  };
+  kb.draw();
+  return kb;
+}
+
+/* ---------- Global Search ---------- */
+let sOpen=false, sQuery='', sKb=null, sZone='keys', sResults=[], sResIdx=0, sInfoBtn=0;
+
+function searchOpen(){ return sOpen; }
+
+function openSearchOverlay(){
+  sOpen=true; sQuery=''; sZone='keys'; sResults=[]; sResIdx=0; sInfoBtn=0;
+  document.getElementById('sov-results').innerHTML='';
+  sKb = makeKb(document.getElementById('sov-keys'), ()=>sZone==='keys');
+  sKb.r=0; sKb.c=0; sKb.draw();
+  renderSearch();
+  document.getElementById('search-overlay').classList.add('open');
+}
+function closeSearchOverlay(){
+  sOpen=false;
+  document.getElementById('search-overlay').classList.remove('open');
+}
+
+function renderSearch(){
+  const f = document.getElementById('sov-field');
+  f.innerHTML = sQuery ? esc(sQuery)+'<span class="caret">&#9612;</span>'
+                       : '<span class="ph">Type to search&#8230;</span><span class="caret">&#9612;</span>';
+  const R = document.getElementById('sov-results');
+  const q = sQuery.trim().toLowerCase();
+  sResults = [];
+  if(!q){
+    R.innerHTML = '<div class="sov-empty">&#128269; Search your Emby library, IPTV channels, and Apple Music.</div>';
+    sZone='keys'; if(sKb) sKb.draw();
+    return;
+  }
+  const em = embySearchIdx.filter(i=>(i.title||'').toLowerCase().indexOf(q)>=0).slice(0,8);
+  const ip = iptvSearchIdx.filter(i=>(i.name||'').toLowerCase().indexOf(q)>=0).slice(0,8);
+  em.forEach(i=>sResults.push({kind:'emby', t:i.title||'(untitled)',
+    s:(((i.year||'')+' '+(i.type==='Series'?'TV show':'movie')).trim()||'Emby'), data:i}));
+  ip.forEach(i=>sResults.push({kind:'iptv', t:i.name||'(unnamed)',
+    s:'IPTV'+(i.group?' \u00b7 '+i.group:''), data:i}));
+  sResults.push({kind:'music', t:'\uD83D\uDD0D Apple Music: "'+sQuery.trim()+'"', s:'open music.apple.com search', data:null});
+  const head = {emby:'\uD83C\uDFAC Emby', iptv:'\uD83D\uDCE1 IPTV', music:'\uD83C\uDFB5 Music'};
+  let h='', last='';
+  sResults.forEach((r,idx)=>{
+    if(r.kind!==last){ last=r.kind; h+='<div class="sres-group">'+head[r.kind]+'</div>'; }
+    h+='<div class="sres"><div class="st">'+esc(r.t)+'</div><div class="ss">'+esc(r.s)+'</div></div>';
+  });
+  R.innerHTML = h;
+  sResIdx = Math.min(sResIdx, Math.max(0, sResults.length-1));
+  drawSRes();
+}
+
+function drawSRes(){
+  const els = document.querySelectorAll('#sov-results .sres');
+  els.forEach((el,idx)=>el.classList.toggle('focused', sZone==='results'&&idx===sResIdx));
+  if(sKb) sKb.draw();
+}
+
+function sPressKey(cell){
+  if(cell.kind==='char') sQuery += cell.val;
+  else if(cell.kind==='space') sQuery += ' ';
+  else if(cell.kind==='back') sQuery = sQuery.slice(0,-1);
+  else if(cell.kind==='clear') sQuery = '';
+  else if(cell.kind==='done'){
+    if(sResults.length){ sZone='results'; sResIdx=0; drawSRes(); }
+    return;
+  }
+  sResIdx=0;
+  renderSearch();
+}
+
+function showChannelInfo(ch){
+  sInfoBtn = 0; sZone = 'info';
+  const R = document.getElementById('sov-results');
+  R.innerHTML =
+    '<div class="sov-info">'+
+    '<div class="si-name">\uD83D\uDCE1 '+esc(ch.name)+'</div>'+
+    '<div class="si-sub">'+esc(ch.group||'IPTV channel')+'</div>'+
+    '<p>The Fire Stick can\u2019t receive direct launch commands, so open the <b>IPTV Player</b> and search for this channel name there.</p>'+
+    '<div class="sbtn">&#9654; Open IPTV Player</div>'+
+    '<div class="sbtn ghost">\u2190 Back to results</div>'+
+    '</div>';
+  drawSInfo();
+}
+function drawSInfo(){
+  const btns = document.querySelectorAll('#sov-results .sbtn');
+  btns.forEach((el,idx)=>el.classList.toggle('focused', idx===sInfoBtn));
+}
+function activateSRes(r){
+  if(r.kind==='emby' && r.data && r.data.item_id){
+    window.location.href = EMBY_WEB_ITEM + r.data.item_id;
+  } else if(r.kind==='iptv'){
+    showChannelInfo(r.data);
+  } else if(r.kind==='music'){
+    window.location.href = 'https://music.apple.com/search?term='+encodeURIComponent(sQuery.trim());
+  }
+}
+
+function handleSearchKey(e){
+  const k = e.key;
+  if(k==='Escape'||k==='GoBack'){ closeSearchOverlay(); e.preventDefault(); return; }
+  if(sZone==='info'){
+    if(k==='ArrowUp'||k==='ArrowDown'){ sInfoBtn = sInfoBtn?0:1; drawSInfo(); }
+    else if(k==='Enter'){
+      if(sInfoBtn===0){ window.location.href='../iptv/'; }
+      else { sZone='results'; renderSearch(); }
+    }
+    else if(k==='Backspace'){ sZone='results'; renderSearch(); }
+    e.preventDefault(); return;
+  }
+  if(sZone==='keys'){
+    if(k==='ArrowLeft'){ sKb.move(0,-1); }
+    else if(k==='ArrowRight'){ sKb.move(0,1); }
+    else if(k==='ArrowUp'){ sKb.move(-1,0); }
+    else if(k==='ArrowDown'){
+      if(!sKb.move(1,0) && sResults.length){ sZone='results'; sResIdx=0; drawSRes(); }
+    }
+    else if(k==='Enter'){ sPressKey(sKb.cell()); }
+    else if(k==='Backspace'){
+      if(sQuery){ sQuery=sQuery.slice(0,-1); renderSearch(); }
+      else closeSearchOverlay();
+    }
+    else if(k.length===1){ sQuery+=k; renderSearch(); }
+  } else {
+    if(k==='ArrowUp'){
+      if(sResIdx>0){ sResIdx--; drawSRes(); }
+      else { sZone='keys'; sKb.r=sKb.cells.length-1; drawSRes(); }
+    }
+    else if(k==='ArrowDown'){ if(sResIdx<sResults.length-1){ sResIdx++; drawSRes(); } }
+    else if(k==='Enter'){ const r=sResults[sResIdx]; if(r) activateSRes(r); }
+    else if(k==='Backspace'){ sZone='keys'; if(sQuery){ sQuery=sQuery.slice(0,-1); renderSearch(); } }
+    else if(k.length===1){ sQuery+=k; sZone='keys'; renderSearch(); }
+  }
+  e.preventDefault();
+}
+
+/* ---------- Ask Kavi on TV ---------- */
+let aOpen=false, aQuery='', aKb=null, aZone='keys', aBtnIdx=0, aDone=false, aAnswer=null;
+
+function askOpen(){ return aOpen; }
+
+async function fetchLatestAnswer(){
+  try{
+    const r = await fetch('kavi-questions/answers/latest.json',{cache:'no-store'});
+    if(r.ok) return await r.json();
+  }catch(e){}
+  return null;
+}
+
+function openAskOverlay(){
+  aOpen=true; aQuery=''; aZone='keys'; aDone=false; aBtnIdx=0;
+  document.getElementById('ask-body').innerHTML='';
+  aKb = makeKb(document.getElementById('ask-keys'), ()=>aZone==='keys');
+  aKb.r=0; aKb.c=0; aKb.draw();
+  renderAsk();
+  document.getElementById('ask-overlay').classList.add('open');
+  fetchLatestAnswer().then(a=>{ if(aOpen && a){ aAnswer=a; renderAsk(); } });
+}
+function closeAskOverlay(){
+  aOpen=false;
+  document.getElementById('ask-overlay').classList.remove('open');
+}
+
+function renderAsk(){
+  const f = document.getElementById('ask-field');
+  f.innerHTML = aQuery ? esc(aQuery)+'<span class="caret">&#9612;</span>'
+                       : '<span class="ph">Type your question&#8230;</span><span class="caret">&#9612;</span>';
+  const B = document.getElementById('ask-body');
+  if(aDone){
+    B.innerHTML =
+      '<div class="ask-q"><span class="lbl">\uD83D\uDCAC your question</span>\u201C'+esc(aQuery)+'\u201D</div>'+
+      '<p style="font-size:29px;line-height:1.55;color:var(--txt)">'+
+      '\uD83D\uDCF1 <b>To send it:</b> open the <b>Fire Stick Remote</b> on your phone \u2192 '+
+      '<b>\uD83D\uDCAC Ask Kavi</b> \u2192 type and <b>Send Question</b>.<br>'+
+      'Kavi\u2019s answer will pop up here as a notification.</p>'+
+      '<div class="sbtn ghost'+(aBtnIdx===0?' focused':'')+'">\u270F\uFE0F Edit question</div>'+
+      '<div class="sbtn'+(aBtnIdx===1?' focused':'')+'">\u2715 Close</div>';
+  } else {
+    let h = '';
+    if(aAnswer && aAnswer.answer){
+      h = '<div class="ask-ans"><b>\uD83D\uDCAC Kavi\u2019s latest answer</b><br>'+
+          esc(String(aAnswer.answer)).slice(0,400)+'</div>';
+    }
+    B.innerHTML = h;
+  }
+  if(aKb) aKb.draw();
+}
+
+function aPressKey(cell){
+  if(cell.kind==='char') aQuery += cell.val;
+  else if(cell.kind==='space') aQuery += ' ';
+  else if(cell.kind==='back') aQuery = aQuery.slice(0,-1);
+  else if(cell.kind==='clear') aQuery = '';
+  else if(cell.kind==='done'){
+    if(aQuery.trim()){ aDone=true; aZone='done'; aBtnIdx=0; }
+    renderAsk(); return;
+  }
+  renderAsk();
+}
+
+function handleAskKey(e){
+  const k = e.key;
+  if(k==='Escape'||k==='GoBack'){ closeAskOverlay(); e.preventDefault(); return; }
+  if(aZone==='done'){
+    if(k==='ArrowUp'||k==='ArrowDown'){ aBtnIdx = aBtnIdx?0:1; renderAsk(); }
+    else if(k==='Enter'){
+      if(aBtnIdx===0){ aDone=false; aZone='keys'; renderAsk(); }
+      else closeAskOverlay();
+    }
+    else if(k==='Backspace'){ aDone=false; aZone='keys'; renderAsk(); }
+    e.preventDefault(); return;
+  }
+  if(k==='ArrowLeft'){ aKb.move(0,-1); }
+  else if(k==='ArrowRight'){ aKb.move(0,1); }
+  else if(k==='ArrowUp'){ aKb.move(-1,0); }
+  else if(k==='ArrowDown'){ aKb.move(1,0); }
+  else if(k==='Enter'){ aPressKey(aKb.cell()); }
+  else if(k==='Backspace'){
+    if(aQuery){ aQuery=aQuery.slice(0,-1); renderAsk(); }
+    else closeAskOverlay();
+  }
+  else if(k.length===1){ aQuery+=k; renderAsk(); }
+  e.preventDefault();
+}
+
+/* ---------- Kavi answer polling (30s) ---------- */
+async function checkKaviAnswers(){
+  try{
+    const r = await fetch('kavi-questions/answers/latest.json',{cache:'no-store'});
+    if(!r.ok) return;
+    const a = await r.json();
+    if(!a || !a.id) return;
+    let seen = null;
+    try{ seen = localStorage.getItem('tv_seen_answer'); }catch(e){}
+    if(seen === a.id) return;
+    try{ localStorage.setItem('tv_seen_answer', a.id); }catch(e){}
+    const stack = document.getElementById('notif-stack');
+    if(!stack) return;
+    const el = document.createElement('div');
+    el.className = 'notif';
+    el.innerHTML = '<div class="ni">\uD83D\uDCAC</div><div><div class="nt">Kavi answered</div>'+
+      '<div class="nm">'+esc(String(a.answer||'')).slice(0,220)+'</div></div>'+
+      '<div class="nx">BACK \u2715</div>';
+    el.querySelector('.nx').onclick = ()=>{ el.classList.add('out'); setTimeout(()=>el.remove(),350); };
+    stack.appendChild(el);
+    if(aOpen){ aAnswer = a; renderAsk(); }
+  }catch(e){}
+}
 
 /* ---------- data ---------- */
 // Send to TV: poll inbox, open new URLs
@@ -1516,7 +2298,7 @@ function showInboxBanner(url){
 
 async function load(){
   try{
-    const [r,b,h,p,ib,np,sp]=await Promise.all([
+    const [r,b,h,p,ib,np,sp,ei,ii,pk,st,vi,up,gp,me,lt]=await Promise.all([
       fetch(STATUS_URL+'?t='+Date.now(),{cache:'no-store'}), // cache-bust GitHub Pages CDN
       fetch('briefing.json',{cache:'no-store'}).catch(()=>null),
       fetch('hearing.json',{cache:'no-store'}).catch(()=>null),
@@ -1524,6 +2306,15 @@ async function load(){
       fetch('../tv-inbox/inbox.json',{cache:'no-store'}).catch(()=>null),
       fetch('nowplaying.json',{cache:'no-store'}).catch(()=>null),
       fetch('emby-spotlight.json',{cache:'no-store'}).catch(()=>null),
+      fetch('emby-index.json',{cache:'no-store'}).catch(()=>null),
+      fetch('iptv-index.json',{cache:'no-store'}).catch(()=>null),
+      fetch('pick.json',{cache:'no-store'}).catch(()=>null),
+      fetch('stats-2026.json',{cache:'no-store'}).catch(()=>null),
+      fetch('vitals.json',{cache:'no-store'}).catch(()=>null),
+      fetch('uptime.json',{cache:'no-store'}).catch(()=>null),
+      fetch('github-pulse.json',{cache:'no-store'}).catch(()=>null),
+      fetch('mesh.json',{cache:'no-store'}).catch(()=>null),
+      fetch('logtail.json',{cache:'no-store'}).catch(()=>null),
     ]);
     const j=await r.json();
     try{ if(b&&b.ok) briefingData=await b.json(); }catch(e){}
@@ -1532,6 +2323,16 @@ async function load(){
     try{ if(ib&&ib.ok) checkInbox(await ib.json()); }catch(e){}
     try{ if(np&&np.ok){ npData=await np.json(); renderNowPlaying(npData); } }catch(e){}
     try{ if(sp&&sp.ok) spotlightData=await sp.json(); }catch(e){}
+    try{ if(ei&&ei.ok){ const x=await ei.json(); if(x&&Array.isArray(x.items)) embySearchIdx=x.items; } }catch(e){}
+    try{ if(ii&&ii.ok){ const x=await ii.json(); if(x&&Array.isArray(x.items)) iptvSearchIdx=x.items; } }catch(e){}
+    try{ if(pk&&pk.ok) pickData=await pk.json(); }catch(e){}
+    try{ if(st&&st.ok) statsData=await st.json(); }catch(e){}
+    try{ if(vi&&vi.ok) vitalsData=await vi.json(); }catch(e){}
+    try{ if(up&&up.ok) uptimeData=await up.json(); }catch(e){}
+    try{ if(gp&&gp.ok) ghPulseData=await gp.json(); }catch(e){}
+    try{ if(me&&me.ok) meshData=await me.json(); }catch(e){}
+    try{ if(lt&&lt.ok) logtailData=await lt.json(); }catch(e){}
+    checkKaviAnswers();
     render(j);
     checkForUpdate();
   }catch(e){
@@ -1551,6 +2352,7 @@ tick(); setInterval(tick,1000);
 
 load();
 setInterval(load, 30000);
+setInterval(checkKaviAnswers, 30000);
 </script>
 </body>
 </html>

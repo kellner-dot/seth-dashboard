@@ -1,0 +1,76 @@
+{
+ "generated_iso": "2026-10-03T19:30:00-04:00",
+ "events": [
+  {
+   "title": "Disability hearing",
+   "start_iso": "2026-11-12T08:15:00-05:00",
+   "end_iso": "2026-11-12T09:15:00-05:00",
+   "all_day": false,
+   "source": "planner"
+  },
+  {
+   "title": "Warner prep call",
+   "start_iso": "2026-10-22T13:00:00-04:00",
+   "end_iso": "2026-10-22T14:00:00-04:00",
+   "all_day": false,
+   "source": "planner"
+  },
+  {
+   "title": "Albany Nightmare Market",
+   "start_iso": "2026-10-17T10:00:00-04:00",
+   "end_iso": "2026-10-17T18:00:00-04:00",
+   "all_day": true,
+   "source": "planner"
+  },
+  {
+   "title": "Upstate at Billsville",
+   "start_iso": "2026-11-20T19:00:00-05:00",
+   "end_iso": "2026-11-20T22:00:00-05:00",
+   "all_day": true,
+   "source": "planner"
+  },
+  {
+   "title": "Xfinity bill \u2014 $51",
+   "start_iso": "2026-10-17T09:00:00-04:00",
+   "end_iso": null,
+   "all_day": true,
+   "source": "planner"
+  },
+  {
+   "title": "Xfinity bill \u2014 $51",
+   "start_iso": "2026-11-17T09:00:00-05:00",
+   "end_iso": null,
+   "all_day": true,
+   "source": "planner"
+  },
+  {
+   "title": "Xfinity bill \u2014 $51",
+   "start_iso": "2026-12-17T09:00:00-05:00",
+   "end_iso": null,
+   "all_day": true,
+   "source": "planner"
+  },
+  {
+   "title": "Xfinity bill \u2014 $51",
+   "start_iso": "2027-01-17T09:00:00-05:00",
+   "end_iso": null,
+   "all_day": true,
+   "source": "planner"
+  },
+  {
+   "title": "Xfinity bill \u2014 $51",
+   "start_iso": "2027-02-17T09:00:00-05:00",
+   "end_iso": null,
+   "all_day": true,
+   "source": "planner"
+  },
+  {
+   "title": "Xfinity bill \u2014 $51",
+   "start_iso": "2027-03-17T09:00:00-05:00",
+   "end_iso": null,
+   "all_day": true,
+   "source": "planner"
+  }
+ ],
+ "note": "seed \u2014 replaced by calendar poller"
+}
