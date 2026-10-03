@@ -1,14 +1,40 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-03T23:23:45+0000",
+ "generated_iso": "2026-10-03T23:24:36+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "(emby log unavailable: Invalid control character at: line 2 column 1999 (char 2000))",
+     "c": "ok"
+    }
+   ]
   },
   {
-   "name": "RVG Bridge",
-   "lines": []
+   "name": "Fleet Pollers",
+   "lines": [
+    {
+     "t": "[nowplaying-pol] 2026-10-03 20:50:56 UTC now-playing-poller: PASS \u2014 pushed nowplaying.json (commit 3747dae), 0 items playing",
+     "c": "ok"
+    },
+    {
+     "t": "[nowplaying-pol] 2026-10-03 19:14 EDT - now-playing-poller: pushed nowplaying.json d238c20 (0 playing)",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03T23:19:02+00:00 fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; no reboot detected.",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03T23:21:24+0000 fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; VDA direct check confirms device unreachable (was already re",
+     "c": "ok"
+    },
+    {
+     "t": "[collector-runs] 2026-10-03 10:38:47 EDT mission-control collector: success, pushed status.json (commit 618fe0f)",
+     "c": "ok"
+    }
+   ]
   }
  ]
 }
