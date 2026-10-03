@@ -1,7 +1,7 @@
 {
- "generated_at": 1791026109,
- "generated_iso": "2026-10-03T11:15:09+0000",
- "collector": "mission-control v1 (hatch VM, 5-min cron)",
+ "generated_at": 1791026329,
+ "generated_iso": "2026-10-03T11:18:49+0000",
+ "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
   {
@@ -11,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 37565,
+   "uptime_s": 38469,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -19,8 +19,8 @@
    },
    "emby_sessions": [
     {
-     "device": "VM",
-     "client": "Muse",
+     "device": "",
+     "client": "",
      "user": "",
      "playing": null
     }
@@ -51,7 +51,7 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": true,
+   "online": false,
    "ping_ms": null
   },
   {
@@ -59,7 +59,7 @@
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": true,
+   "online": false,
    "rvg_agent": {
     "up": true,
     "authed": false
