@@ -1,6 +1,6 @@
 {
- "generated_at": 1790992510,
- "generated_iso": "2026-10-03T01:55:10+0000",
+ "generated_at": 1790994609,
+ "generated_iso": "2026-10-03T02:30:09+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -11,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 3964,
+   "uptime_s": 6063,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -25,7 +25,7 @@
      "playing": null
     }
    ],
-   "terabox_uploaders": 2,
+   "terabox_uploaders": 3,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
@@ -52,7 +52,7 @@
    "kind": "phone",
    "ip": "100.109.182.123",
    "online": true,
-   "ping_ms": 17
+   "ping_ms": 130
   },
   {
    "id": "motorola-razr-2023",
