@@ -297,6 +297,15 @@
   </div>
 </header>
 
+<div id="nowplaying" style="display:none; background:linear-gradient(135deg,#1a1a2e,#2d1b4e); border-radius:12px; padding:16px 24px; margin:0 0 16px; font-size:26px; display:none; align-items:center; gap:16px;">
+  <span id="np-icon" style="font-size:36px;">🎬</span>
+  <div style="flex:1;">
+    <div id="np-title" style="font-weight:bold;"></div>
+    <div id="np-sub" style="font-size:20px; color:#aaa;"></div>
+  </div>
+  <div id="np-progress" style="font-size:22px; color:#8b5cf6;"></div>
+</div>
+
 <main id="rows"></main>
 
 <footer><span id="src">&hellip;</span> &middot; collector <span id="collector">&hellip;</span></footer>
@@ -859,18 +868,20 @@ document.addEventListener('keydown', e=>{
 /* ---------- data ---------- */
 async function load(){
   try{
-    const [r, b, h, p, ib] = await Promise.all([
+    const [r, b, h, p, ib, np] = await Promise.all([
       fetch(STATUS_URL, {cache:'no-store'}),
       fetch('briefing.json', {cache:'no-store'}).catch(()=>null),
       fetch('hearing.json', {cache:'no-store'}).catch(()=>null),
       fetch('photos.json', {cache:'no-store'}).catch(()=>null),
       fetch('../tv-inbox/inbox.json', {cache:'no-store'}).catch(()=>null),
+      fetch('nowplaying.json', {cache:'no-store'}).catch(()=>null),
     ]);
     const j = await r.json();
     try{ if(b && b.ok) briefingData = await b.json(); }catch(e){}
     try{ if(h && h.ok) hearingData = await h.json(); }catch(e){}
     try{ if(p && p.ok) photosData = await p.json(); }catch(e){}
     try{ if(ib && ib.ok) checkInbox(await ib.json()); }catch(e){}
+    try{ if(np && np.ok) renderNowPlaying(await np.json()); }catch(e){}
     render(j);
   }catch(e){
     document.getElementById('rows').innerHTML =
@@ -881,6 +892,25 @@ async function load(){
 }
 
 // Send to TV: poll inbox, open new URLs
+function renderNowPlaying(np){
+  const el = document.getElementById('nowplaying');
+  if(!np || !Array.isArray(np.items) || np.items.length === 0){
+    el.style.display = 'none';
+    return;
+  }
+  const item = np.items[0];
+  document.getElementById('np-icon').textContent = item.icon || '🎬';
+  document.getElementById('np-title').textContent = item.title || 'Unknown';
+  const sub = [];
+  if(item.series) sub.push(item.series);
+  if(item.user) sub.push(item.user);
+  if(item.device) sub.push(item.device);
+  document.getElementById('np-sub').textContent = sub.join(' · ');
+  document.getElementById('np-progress').textContent =
+    item.progress_pct ? Math.round(item.progress_pct) + '%' : '';
+  el.style.display = 'flex';
+}
+
 function checkInbox(inbox){
   if(!inbox || !Array.isArray(inbox.items)) return;
   let seen = [];
