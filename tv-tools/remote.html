@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Fire Stick Remote</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; font-family: -apple-system, system-ui, sans-serif; background: #0f0f1a; color: #fff; min-height: 100vh; padding: 16px; }
+  h1 { font-size: 1.3em; text-align: center; margin: 8px 0 16px; }
+  h2 { font-size: 1em; color: #888; margin: 20px 0 10px; text-transform: uppercase; letter-spacing: 1px; }
+  .card { background: #1a1a2e; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  .dpad { display: grid; grid-template-columns: repeat(3, 72px); grid-template-rows: repeat(3, 72px); gap: 8px; justify-content: center; margin: 10px 0; }
+  .dbtn { background: #2d2d44; border: none; border-radius: 12px; color: #fff; font-size: 24px; cursor: pointer; touch-action: manipulation; }
+  .dbtn:active { background: #4a4a6a; transform: scale(0.95); }
+  .dbtn.ok { background: #6c3ce0; font-size: 16px; font-weight: bold; }
+  .dbtn.ok:active { background: #7d4ff0; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+  .btn { background: #2d2d44; border: none; border-radius: 10px; color: #fff; padding: 14px 18px; font-size: 15px; cursor: pointer; touch-action: manipulation; flex: 1; min-width: 100px; }
+  .btn:active { background: #4a4a6a; transform: scale(0.97); }
+  .btn.danger { background: #5a2020; }
+  .btn.danger:active { background: #7a2a2a; }
+  .btn.action { background: #1e4d2e; }
+  .btn.action:active { background: #2a6b40; }
+  input[type=text], input[type=url] { width: 100%; padding: 14px; border-radius: 10px; border: 1px solid #3d3d5c; background: #0f0f1a; color: #fff; font-size: 16px; margin-bottom: 10px; }
+  input:focus { outline: none; border-color: #6c3ce0; }
+  .settings { font-size: 13px; color: #888; }
+  .settings input { padding: 10px; font-size: 13px; margin-bottom: 8px; }
+  #status { text-align: center; padding: 10px; font-size: 14px; min-height: 40px; color: #888; }
+  #status.ok { color: #4ade80; }
+  #status.err { color: #f87171; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<h1>📺 Fire Stick Remote</h1>
+<div id="status">Enter bridge details below to connect</div>
+
+<div class="card">
+  <h2>Navigation</h2>
+  <div class="dpad">
+    <div></div>
+    <button class="dbtn" data-key="up">▲</button>
+    <div></div>
+    <button class="dbtn" data-key="left">◀</button>
+    <button class="dbtn ok" data-key="ok">OK</button>
+    <button class="dbtn" data-key="right">▶</button>
+    <div></div>
+    <button class="dbtn" data-key="down">▼</button>
+    <div></div>
+  </div>
+  <div class="row">
+    <button class="btn" data-key="back">◀ Back</button>
+    <button class="btn" data-key="home">🏠 Home</button>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Media</h2>
+  <div class="row">
+    <button class="btn" data-key="playpause">⏯ Play/Pause</button>
+    <button class="btn" data-key="stop">⏹ Stop</button>
+  </div>
+  <div class="row" style="margin-top:8px">
+    <button class="btn" data-key="volup">🔊 Vol+</button>
+    <button class="btn" data-key="voldown">🔉 Vol−</button>
+    <button class="btn" data-key="mute">🔇 Mute</button>
+  </div>
+</div>
+
+<div class="card">
+  <h2>📋 Type on TV</h2>
+  <input type="text" id="textinput" placeholder="Type text to send to Fire Stick..." autocomplete="off">
+  <button class="btn" id="sendtext" style="width:100%">Send Text</button>
+</div>
+
+<div class="card">
+  <h2>📲 Send to TV</h2>
+  <input type="url" id="sendurl" placeholder="https://... paste a video link" autocomplete="off">
+  <button class="btn" id="sendurlbtn" style="width:100%">Queue on TV</button>
+</div>
+
+<div class="card">
+  <h2>⚡ Device Actions</h2>
+  <div class="row">
+    <button class="btn action" id="embyrescan">🔄 Rescan Emby</button>
+    <button class="btn action" id="findphone">📳 Find My Phone</button>
+  </div>
+  <div class="row" style="margin-top:8px">
+    <button class="btn danger" id="rebootpc">🔌 Reboot PC</button>
+    <button class="btn action" id="goodnight">🌙 Good Night</button>
+  </div>
+</div>
+
+<div class="card settings">
+  <h2>⚙️ Connection</h2>
+  <input type="text" id="bridgeurl" placeholder="Bridge URL (e.g. http://100.88.106.125:8898)">
+  <input type="text" id="token" placeholder="Bridge token" autocomplete="off">
+  <button class="btn" id="save" style="width:100%">Save</button>
+  <button class="btn hidden" id="test" style="width:100%; margin-top:8px">Test Connection</button>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const status = $('status');
+
+function getCfg() {
+  return {
+    base: (localStorage.getItem('rvg_base') || '').replace(/\/$/, ''),
+    token: localStorage.getItem('rvg_token') || ''
+  };
+}
+function setStatus(msg, cls) {
+  status.textContent = msg;
+  status.className = cls || '';
+}
+function saveCfg() {
+  localStorage.setItem('rvg_base', $('bridgeurl').value.trim());
+  localStorage.setItem('rvg_token', $('token').value.trim());
+  setStatus('Saved. Ready.', 'ok');
+  $('test').classList.remove('hidden');
+}
+
+async function api(path, body) {
+  const {base, token} = getCfg();
+  if (!base || !token) { setStatus('Set bridge URL and token first', 'err'); return null; }
+  try {
+    const r = await fetch(base + path, {
+      method: body ? 'POST' : 'GET',
+      headers: {'Content-Type': 'application/json', 'X-RVD-Token': token},
+      body: body ? JSON.stringify(body) : undefined,
+    });
+    const j = await r.json();
+    return {http: r.status, ...j};
+  } catch(e) {
+    setStatus('Connection failed: ' + e.message, 'err');
+    return null;
+  }
+}
+
+async function sendKey(key) {
+  const r = await api('/rvd/input', {key});
+  if (r) setStatus(r.ok ? '✓ ' + key : '✗ ' + (r.error || r.detail || 'failed'), r.ok ? 'ok' : 'err');
+}
+
+// D-pad and media buttons
+document.querySelectorAll('[data-key]').forEach(b => {
+  b.addEventListener('click', () => sendKey(b.dataset.key));
+});
+
+// Text input
+$('sendtext').addEventListener('click', async () => {
+  const t = $('textinput').value;
+  if (!t) return;
+  const r = await api('/rvd/input', {text: t});
+  if (r) {
+    setStatus(r.ok ? '✓ Text sent' : '✗ ' + (r.error || 'failed'), r.ok ? 'ok' : 'err');
+    if (r.ok) $('textinput').value = '';
+  }
+});
+
+// Send to TV
+$('sendurlbtn').addEventListener('click', async () => {
+  const u = $('sendurl').value.trim();
+  if (!u) return;
+  setStatus('Queueing...', '');
+  const r = await api('/rvd/send', {url: u, from: 'phone-remote'});
+  if (r) {
+    setStatus(r.ok ? '✓ Queued — will open on TV shortly' : '✗ ' + (r.error || r.detail || 'failed'), r.ok ? 'ok' : 'err');
+    if (r.ok) $('sendurl').value = '';
+  }
+});
+
+// Device actions
+$('embyrescan').addEventListener('click', async () => {
+  if (!confirm('Rescan Emby library?')) return;
+  setStatus('Rescanning...', '');
+  const r = await api('/rvd/action/emby-rescan', {});
+  if (r) setStatus(r.ok ? '✓ Emby rescan started' : '✗ ' + (r.error || r.detail || 'failed'), r.ok ? 'ok' : 'err');
+});
+$('findphone').addEventListener('click', async () => {
+  const r = await api('/rvd/action/find-phone', {});
+  if (r) setStatus(r.ok ? '✓ Phone pinged!' : '✗ ' + (r.error || r.detail || 'failed'), r.ok ? 'ok' : 'err');
+});
+$('rebootpc').addEventListener('click', async () => {
+  if (!confirm('Reboot SETHS-PC in 60 seconds?')) return;
+  setStatus('Rebooting...', '');
+  const r = await api('/rvd/action/reboot-pc', {delay: 60});
+  if (r) setStatus(r.ok ? '✓ PC rebooting in 60s' : '✗ ' + (r.error || r.detail || 'failed'), r.ok ? 'ok' : 'err');
+});
+$('goodnight').addEventListener('click', async () => {
+  if (!confirm('Run Good Night routine? (TV to Mission Control)')) return;
+  setStatus('Good night...', '');
+  await api('/rvd/input', {key: 'home'});
+  await new Promise(r => setTimeout(r, 1500));
+  const r = await api('/rvd/launch', {appId: 'com.kellner.missioncontrol.main'});
+  if (r) setStatus(r.ok ? '✓ Good night 🌙' : '✗ ' + (r.error || 'failed'), r.ok ? 'ok' : 'err');
+});
+
+// Settings
+$('save').addEventListener('click', saveCfg);
+$('test').addEventListener('click', async () => {
+  setStatus('Testing...', '');
+  const r = await api('/rvd/status');
+  if (r) setStatus(r.device ? '✓ Connected: ' + r.device : '✗ ' + (r.error || 'failed'), r.device ? 'ok' : 'err');
+});
+
+// Load saved
+$('bridgeurl').value = localStorage.getItem('rvg_base') || 'http://100.88.106.125:8898';
+if (localStorage.getItem('rvg_token')) {
+  $('token').value = localStorage.getItem('rvg_token');
+  $('test').classList.remove('hidden');
+  setStatus('Ready. Tap Test to verify.', '');
+}
+</script>
+</body>
+</html>
