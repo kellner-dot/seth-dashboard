@@ -611,6 +611,7 @@ const ICONS = {
   pulse: `<svg viewBox="0 0 48 48"><path d="M4 24h10l4-10 6 20 4-10h16" fill="none" stroke="#f472b6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
 };
 </script>
+<script src="layout-engine.js"></script>
 <script>
 /* ---------- helpers ---------- */
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
@@ -1274,10 +1275,10 @@ function spotlightRows(){
   const s=spotlightData;
   if(!s) return rows;
   if(s.new_arrivals && s.new_arrivals.length){
-    rows.push({label:'\uD83C\uDFAC New on Emby', cards:s.new_arrivals.map(m=>moviePoster(m,'new'))});
+    rows.push({id:'spotlight-new', label:'\uD83C\uDFAC New on Emby', cards:s.new_arrivals.map(m=>moviePoster(m,'new'))});
   }
   if(s.continue_watching && s.continue_watching.length){
-    rows.push({label:'\u25B6\uFE0F Continue Watching', cards:s.continue_watching.map(m=>moviePoster(m,'resume'))});
+    rows.push({id:'spotlight-continue', label:'\u25B6\uFE0F Continue Watching', cards:s.continue_watching.map(m=>moviePoster(m,'resume'))});
   }
   return rows;
 }
@@ -1374,11 +1375,11 @@ function techRows(){
       dot:'<span class="dotlive on"></span>', pill:pill('on','top'),
       body:'<div style="margin-top:8px">'+(top||'<span class="dim">&mdash;</span>')+'</div>',
       detail:'<div class="sesslbl">Top processes &middot; Gaming PC</div>'+top});
-    rows.push({label:'\u26A1 System Vitals', cards:cards});
+    rows.push({id:'vitals', label:'\u26A1 System Vitals', cards:cards});
   }
   var u=uptimeData;
   if(u && u.services && u.services.length){
-    rows.push({label:'\uD83D\uDCCA Uptime', cards:u.services.map(function(s){
+    rows.push({id:'uptime', label:'\uD83D\uDCCA Uptime', cards:u.services.map(function(s){
       var on=!!s.online;
       return {id:'up-'+String(s.name).replace(/[^a-z0-9]+/gi,'-').toLowerCase(),
         cls:'k-act', icon:'check', title:s.name, sub:on?'online now':'DOWN now',
@@ -1389,7 +1390,7 @@ function techRows(){
   }
   var g=ghPulseData;
   if(g && g.pushes && g.pushes.length){
-    rows.push({label:'\uD83D\uDC19 GitHub Pulse', cards:g.pushes.slice(0,8).map(function(p,i){
+    rows.push({id:'gh-pulse', label:'\uD83D\uDC19 GitHub Pulse', cards:g.pushes.slice(0,8).map(function(p,i){
       var cl=(p.commits||[]).map(function(c){
         return '<div class="prow"><b>'+esc(c.sha)+'</b><span>'+esc(c.msg)+'</span></div>';
       }).join('');
@@ -1406,7 +1407,7 @@ function techRows(){
       return '<div class="prow"><b>'+esc(n.name)+'</b><span class="dim">'+esc(n.ip)+'</span><span>'
         +(n.online?'\uD83D\uDFE2':'\uD83D\uDD34')+'</span></div>';
     }).join('');
-    rows.push({label:'\uD83D\uDD78\uFE0F Tailnet Mesh', cards:[{id:'mesh-map', cls:'k-act', icon:'net',
+    rows.push({id:'mesh', label:'\uD83D\uDD78\uFE0F Tailnet Mesh', cards:[{id:'mesh-map', cls:'k-act', icon:'net',
       title:'Mesh Map', sub:on+'/'+m.nodes.length+' nodes online',
       dot:'<span class="dotlive '+(on===m.nodes.length?'on':'off')+'"></span>', pill:pill('on','tailnet'),
       body:meshSVG(m.nodes),
@@ -1415,7 +1416,7 @@ function techRows(){
   }
   var l=logtailData;
   if(l && l.sources && l.sources.length){
-    rows.push({label:'\uD83D\uDCDF Log Tail', cards:l.sources.map(function(s,i){
+    rows.push({id:'logtail', label:'\uD83D\uDCDF Log Tail', cards:l.sources.map(function(s,i){
       return {id:'logtail-'+i, cls:'k-act', icon:'term', title:s.name, sub:'recent log lines',
         dot:'<span class="dotlive on"></span>', pill:pill('na','tail'),
         body:termHTML((s.lines||[]).slice(-8)),
@@ -1426,19 +1427,70 @@ function techRows(){
 }
 
 /* ---------- render ---------- */
-function render(j){
-  // header/footer freshness
-  const s=Math.floor((Date.now()-new Date(j.generated_iso).getTime())/1000);
-  const live = s<420; // 7-min threshold (5-min collector cadence)
-  document.getElementById('updated').innerHTML = live ? `<span class="fresh" style="color:var(--ok)">● LIVE</span> · ${ago(j.generated_iso)}` : `updated ${ago(j.generated_iso)}`;
-  document.getElementById('live-txt').textContent = live ? 'LIVE' : 'STALE';
-  document.getElementById('live-dot').style.color = live ? 'var(--ok)' : 'var(--warn)';
-  document.getElementById('src').innerHTML = '<span class="live-tag">●</span> tv edition · read-only';
-  document.getElementById('collector').textContent = (j.collector||'—').replace(/\s*\(.*\)/,'');
+/* ============================================================
+   Layout engine wiring (Mission Control Editor support)
+   - LAYOUT_BUILDERS: card slot id -> (j,ctx)=>card|null
+   - LAYOUT_GROUPS:   group id -> (j,ctx)=>{label,cards}|null
+   - legacyRows(j,ctx): the ORIGINAL fixed row assembly, kept as a
+     fallback if layout-engine.js ever fails to load.
+   ============================================================ */
+const LAYOUT_BUILDERS = {
+  'fleet-pc':         (j,ctx)=>ctx.pc?pcCard(ctx.pc):null,
+  'fleet-mac':        (j,ctx)=>ctx.mac?macCard(ctx.mac):null,
+  'fleet-iphone':     (j,ctx)=>ctx.iphone?phoneCard(ctx.iphone):null,
+  'fleet-razr':       (j,ctx)=>ctx.razr?phoneCard(ctx.razr):null,
+  'fleet-firetv':     (j,ctx)=>fireTvCard(ctx.pc && ctx.pc.firetv, ctx.pc),
+  'media-emby':       (j,ctx)=>embyCard(j.emby_library, ctx.pc && ctx.pc.emby_sessions),
+  'media-terabox':    (j,ctx)=>teraboxCard(j.terabox, ctx.pc && ctx.pc.terabox_uploaders),
+  'media-biglybt':    (j,ctx)=>biglybtCard(j.biglybt),
+  'media-applemusic': (j,ctx)=>appleMusicCard(),
+  'media-artist':     (j,ctx)=>artistCard(),
+  'ops-briefing':     (j,ctx)=>briefingCard(),
+  'ops-muse':         (j,ctx)=>museCard(),
+  'ops-github':       (j,ctx)=>githubCard(j.github),
+  'ops-kaviguard':    (j,ctx)=>kaviguardCard(j.kaviguard),
+  'ops-calendar':     (j,ctx)=>calendarCard(),
+  'ops-hearing':      (j,ctx)=>hearingCard(),
+  'watch-pick':       (j,ctx)=>watchCard(),
+  'stats-wall':       (j,ctx)=>statsWallCard(),
+  'actions-surprise': (j,ctx)=>surpriseCard(),
+  'actions-photos':   (j,ctx)=>actionCards().find(c=>c.id==='act-photos'),
+  'actions-viz':      (j,ctx)=>actionCards().find(c=>c.id==='act-viz'),
+  'actions-iptv':     (j,ctx)=>actionCards().find(c=>c.id==='act-iptv'),
+  'actions-refresh':  (j,ctx)=>actionCards().find(c=>c.id==='act-refresh'),
+  'actions-search':   (j,ctx)=>actionCards().find(c=>c.id==='act-search'),
+  'actions-askkavi':  (j,ctx)=>actionCards().find(c=>c.id==='act-askkavi'),
+};
+const LAYOUT_GROUPS = {
+  'spotlight-new':      (j,ctx)=>spotlightRows().find(r=>r.id==='spotlight-new'),
+  'spotlight-continue': (j,ctx)=>spotlightRows().find(r=>r.id==='spotlight-continue'),
+  'vitals':             (j,ctx)=>techRows().find(r=>r.id==='vitals'),
+  'uptime':             (j,ctx)=>techRows().find(r=>r.id==='uptime'),
+  'gh-pulse':           (j,ctx)=>techRows().find(r=>r.id==='gh-pulse'),
+  'mesh':               (j,ctx)=>techRows().find(r=>r.id==='mesh'),
+  'logtail':            (j,ctx)=>techRows().find(r=>r.id==='logtail'),
+};
 
-  const byId={}; (j.devices||[]).forEach(d=>byId[d.id]=d);
-  const ctx={ pc:byId['seths-pc'], mac:byId['seths-macbook-air'], iphone:byId['iphone-xs-max'], razr:byId['motorola-razr-2023'] };
+/* Latest layout.json from the repo (null = use built-in default). */
+let activeLayout = null;
+let activeRevision = null;
+function applyLayoutDoc(doc){
+  if(typeof MCLayout==='undefined') return;
+  const v = MCLayout.validateLayout(doc);
+  if(!v.ok) return; // keep current layout; engine falls back to default anyway
+  if(activeRevision!==null && doc.revision===activeRevision) return; // unchanged
+  const first = (activeRevision===null);
+  activeRevision = doc.revision;
+  activeLayout = doc;
+  if(!first){
+    showNotif({icon:'\uD83D\uDCD0', title:'Layout updated',
+               message:'New dashboard layout applied from the editor.',
+               severity:'update'});
+  }
+}
 
+/* Original fixed row assembly — fallback if layout-engine.js is missing. */
+function legacyRows(j, ctx){
   const fleet=[];
   if(ctx.pc) fleet.push(pcCard(ctx.pc));
   if(ctx.mac) fleet.push(macCard(ctx.mac));
@@ -1464,7 +1516,7 @@ function render(j){
 
   const acts=actionCards();
   const sc=surpriseCard(); if(sc) acts.unshift(sc);
-  ROWS=[
+  return [
     {label:'My Fleet', cards:fleet},
     {label:'Media', cards:media},
   ].concat(spotlightRows()).concat(techRows()).concat([
@@ -1473,6 +1525,28 @@ function render(j){
     {label:'Operations', cards:ops},
     {label:'Quick Actions', cards:acts},
   ]);
+}
+
+function render(j){
+  // header/footer freshness
+  const s=Math.floor((Date.now()-new Date(j.generated_iso).getTime())/1000);
+  const live = s<420; // 7-min threshold (5-min collector cadence)
+  document.getElementById('updated').innerHTML = live ? `<span class="fresh" style="color:var(--ok)">● LIVE</span> · ${ago(j.generated_iso)}` : `updated ${ago(j.generated_iso)}`;
+  document.getElementById('live-txt').textContent = live ? 'LIVE' : 'STALE';
+  document.getElementById('live-dot').style.color = live ? 'var(--ok)' : 'var(--warn)';
+  document.getElementById('src').innerHTML = '<span class="live-tag">●</span> tv edition · read-only';
+  document.getElementById('collector').textContent = (j.collector||'—').replace(/\s*\(.*\)/,'');
+
+  const byId={}; (j.devices||[]).forEach(d=>byId[d.id]=d);
+  const ctx={ pc:byId['seths-pc'], mac:byId['seths-macbook-air'], iphone:byId['iphone-xs-max'], razr:byId['motorola-razr-2023'] };
+
+  // Rows come from layout.json via the layout engine; the original fixed
+  // assembly survives as legacyRows() if layout-engine.js failed to load.
+  if(typeof MCLayout!=='undefined' && typeof LAYOUT_BUILDERS!=='undefined'){
+    ROWS = MCLayout.buildRows(activeLayout, j, ctx, LAYOUT_BUILDERS, LAYOUT_GROUPS);
+  } else {
+    ROWS = legacyRows(j, ctx);
+  }
 
   renderHero(j, ctx);
   processAlerts(j.alerts);
@@ -2298,7 +2372,7 @@ function showInboxBanner(url){
 
 async function load(){
   try{
-    const [r,b,h,p,ib,np,sp,ei,ii,pk,st,vi,up,gp,me,lt]=await Promise.all([
+    const [r,b,h,p,ib,np,sp,ei,ii,pk,st,vi,up,gp,me,lt,ly]=await Promise.all([
       fetch(STATUS_URL+'?t='+Date.now(),{cache:'no-store'}), // cache-bust GitHub Pages CDN
       fetch('briefing.json',{cache:'no-store'}).catch(()=>null),
       fetch('hearing.json',{cache:'no-store'}).catch(()=>null),
@@ -2315,6 +2389,7 @@ async function load(){
       fetch('github-pulse.json',{cache:'no-store'}).catch(()=>null),
       fetch('mesh.json',{cache:'no-store'}).catch(()=>null),
       fetch('logtail.json',{cache:'no-store'}).catch(()=>null),
+      fetch('layout.json?t='+Date.now(),{cache:'no-store'}).catch(()=>null), // layout editor
     ]);
     const j=await r.json();
     try{ if(b&&b.ok) briefingData=await b.json(); }catch(e){}
@@ -2332,6 +2407,7 @@ async function load(){
     try{ if(gp&&gp.ok) ghPulseData=await gp.json(); }catch(e){}
     try{ if(me&&me.ok) meshData=await me.json(); }catch(e){}
     try{ if(lt&&lt.ok) logtailData=await lt.json(); }catch(e){}
+    try{ if(ly&&ly.ok) applyLayoutDoc(await ly.json()); }catch(e){}
     checkKaviAnswers();
     render(j);
     checkForUpdate();

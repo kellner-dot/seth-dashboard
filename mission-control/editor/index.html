@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>📐 Mission Control Editor</title>
+<meta name="theme-color" content="#04060c">
+<style>
+  :root{
+    --bg:#04060c; --panel:#0d1424; --panel2:#131c31;
+    --txt:#f2f6fc; --dim:#a9b4c8; --faint:#5f6b85;
+    --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6;
+    --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+    --radius:16px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0; padding:0;}
+  body{
+    background:var(--bg); color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,sans-serif;
+    font-size:16px; min-height:100vh; padding-bottom:120px;
+  }
+  /* ---------- header ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:linear-gradient(180deg, rgba(4,6,12,.98), rgba(4,6,12,.9));
+    backdrop-filter:blur(8px);
+    padding:12px 14px 10px; border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  .hrow{display:flex; align-items:center; gap:10px;}
+  .htitle{font-size:19px; font-weight:800; letter-spacing:.3px; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .pill{font-size:12px; font-weight:700; padding:5px 12px; border-radius:99px; border:1.5px solid; white-space:nowrap;}
+  .pill.saved{color:var(--ok); border-color:rgba(52,211,153,.5); background:rgba(52,211,153,.08);}
+  .pill.dirty{color:var(--warn); border-color:rgba(251,191,36,.55); background:rgba(251,191,36,.08); animation:pulse 1.6s ease-in-out infinite;}
+  .pill.loading{color:var(--dim); border-color:rgba(255,255,255,.2);}
+  @keyframes pulse{50%{opacity:.55;}}
+  .btn{
+    border:2px solid rgba(110,231,255,.4); background:rgba(110,231,255,.1); color:var(--txt);
+    border-radius:12px; padding:9px 14px; font-size:14px; font-weight:700; cursor:pointer;
+  }
+  .btn:active{transform:scale(.96);}
+  .btn.primary{background:linear-gradient(120deg,#0ea5e9,#8b5cf6); border-color:transparent;}
+  .btn.ghost{border-color:rgba(255,255,255,.16); background:rgba(255,255,255,.04);}
+  .btn.danger{border-color:rgba(248,113,113,.5); background:rgba(248,113,113,.08);}
+  .btn:disabled{opacity:.4;}
+  .tabs{display:flex; gap:8px; margin-top:10px;}
+  .tab{flex:1; text-align:center; padding:9px; border-radius:12px; font-weight:700; font-size:14px;
+       background:rgba(255,255,255,.04); border:1.5px solid rgba(255,255,255,.1); color:var(--dim); cursor:pointer;}
+  .tab.on{background:rgba(110,231,255,.12); border-color:rgba(110,231,255,.45); color:var(--txt);}
+  main{max-width:760px; margin:0 auto; padding:14px;}
+  .hint{color:var(--faint); font-size:13px; margin:4px 2px 14px; line-height:1.5;}
+  /* ---------- rows ---------- */
+  .rowblk{background:var(--panel); border:1.5px solid rgba(255,255,255,.09); border-radius:var(--radius); margin-bottom:14px; overflow:hidden;}
+  .rowblk.hiddenrow{opacity:.62; border-style:dashed;}
+  .rowblk.drop-target{outline:3px dashed var(--acc1); outline-offset:-3px;}
+  .rhead{display:flex; align-items:center; gap:6px; padding:10px 10px; background:rgba(255,255,255,.03); border-bottom:1px solid rgba(255,255,255,.07);}
+  .grip{cursor:grab; color:var(--faint); font-size:18px; padding:6px 4px; touch-action:none; user-select:none; -webkit-user-select:none;}
+  .rlabel{flex:1; font-weight:800; font-size:15px; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .rlabel .tag{font-size:11px; font-weight:700; color:var(--faint); border:1px solid rgba(255,255,255,.15); border-radius:8px; padding:2px 7px; margin-left:8px; vertical-align:2px;}
+  .rlabel .tag.group{color:var(--acc2); border-color:rgba(167,139,250,.4);}
+  .icobtn{border:1.5px solid rgba(255,255,255,.14); background:rgba(255,255,255,.05); color:var(--txt);
+          border-radius:10px; min-width:36px; height:36px; font-size:16px; cursor:pointer; padding:0 8px;}
+  .icobtn:active{transform:scale(.93);}
+  .icobtn.off{opacity:.45;}
+  .cards{display:flex; flex-wrap:wrap; gap:8px; padding:12px 10px;}
+  .cards:empty{padding:6px 10px;}
+  .chip{
+    display:flex; align-items:center; gap:8px;
+    background:var(--panel2); border:1.5px solid rgba(255,255,255,.12);
+    border-radius:12px; padding:9px 10px; font-size:14px; font-weight:600;
+    cursor:pointer; user-select:none; -webkit-user-select:none; position:relative;
+  }
+  .chip .cgrip{color:var(--faint); font-size:15px; touch-action:none; padding:2px 0;}
+  .chip .cem{font-size:19px;}
+  .chip.hiddenchip{opacity:.45; border-style:dashed;}
+  .chip.selected{border-color:var(--acc1); box-shadow:0 0 0 2px rgba(110,231,255,.35);}
+  .chip.dragging{opacity:.3;}
+  .chip.drop-before{box-shadow:-4px 0 0 0 var(--acc1);}
+  .rfoot{padding:0 10px 12px; display:flex; gap:8px;}
+  .addbtn{flex:1; border:1.5px dashed rgba(110,231,255,.4); background:rgba(110,231,255,.05); color:var(--acc1);
+          border-radius:12px; padding:10px; font-size:14px; font-weight:700; cursor:pointer;}
+  /* chip action bar */
+  .chipactions{display:flex; gap:6px; padding:0 10px 12px; flex-wrap:wrap; align-items:center;}
+  .chipactions .lbl{font-size:13px; color:var(--dim); font-weight:700; margin-right:2px;}
+  /* ---------- palette sheet ---------- */
+  .sheet{position:fixed; left:0; right:0; bottom:0; z-index:100; max-height:78vh;
+         background:#0a0f1d; border-top:2px solid rgba(110,231,255,.3); border-radius:20px 20px 0 0;
+         display:none; flex-direction:column; box-shadow:0 -20px 60px rgba(0,0,0,.7);}
+  .sheet.open{display:flex;}
+  .sheethead{display:flex; align-items:center; gap:10px; padding:14px 16px 10px;}
+  .sheethead b{flex:1; font-size:16px;}
+  .sheetbody{overflow-y:auto; padding:0 16px 30px;}
+  .catlabel{font-size:12px; font-weight:800; letter-spacing:1.5px; color:var(--faint); margin:16px 0 8px; text-transform:uppercase;}
+  .palrow{display:flex; align-items:center; gap:10px; background:var(--panel); border:1px solid rgba(255,255,255,.09);
+          border-radius:12px; padding:10px 12px; margin-bottom:8px;}
+  .palrow .pem{font-size:22px;}
+  .palrow .pt{flex:1; min-width:0;}
+  .palrow .pt .t{font-weight:700; font-size:14px;}
+  .palrow .pt .s{color:var(--faint); font-size:12px;}
+  .palrow .inuse{font-size:12px; color:var(--faint); font-weight:700;}
+  .scrim{position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:90; display:none;}
+  .scrim.open{display:block;}
+  /* ---------- modal ---------- */
+  .modal{position:fixed; inset:0; z-index:110; display:none; align-items:center; justify-content:center; padding:20px;
+         background:rgba(0,0,0,.6);}
+  .modal.open{display:flex;}
+  .mbox{background:#0d1424; border:1.5px solid rgba(255,255,255,.12); border-radius:18px; padding:20px; width:100%; max-width:420px;}
+  .mbox h3{margin:0 0 10px; font-size:17px;}
+  .mbox p{color:var(--dim); font-size:13px; line-height:1.55;}
+  .mbox input[type=password], .mbox input[type=text]{width:100%; background:#070c16; border:1.5px solid rgba(255,255,255,.15);
+      border-radius:10px; color:var(--txt); padding:11px 12px; font-size:15px; margin:6px 0 12px;}
+  .mrow{display:flex; gap:8px; margin-top:6px;}
+  .mrow .btn{flex:1;}
+  /* ---------- preview ---------- */
+  .pvrow{background:#070c16; border:1px solid rgba(255,255,255,.1); border-radius:14px; margin-bottom:12px; overflow:hidden;}
+  .pvrow.hiddenrow{opacity:.5;}
+  .pvlabel{padding:10px 14px; font-weight:800; font-size:15px; display:flex; align-items:center; gap:8px;}
+  .pvlabel .cnt{font-size:11px; color:var(--faint); font-weight:700;}
+  .pvtrack{display:flex; gap:10px; overflow-x:auto; padding:4px 14px 16px;}
+  .pvcard{flex:none; width:132px; height:96px; border-radius:12px; padding:10px;
+          background:linear-gradient(150deg,#16203a,#0c1224); border:1px solid rgba(255,255,255,.12);
+          display:flex; flex-direction:column; justify-content:center; gap:4px;}
+  .pvcard .e{font-size:26px;}
+  .pvcard .t{font-size:12px; font-weight:700; line-height:1.25;}
+  .pvcard.off{opacity:.4; border-style:dashed;}
+  /* ---------- toast ---------- */
+  #toast{position:fixed; bottom:26px; left:50%; transform:translateX(-50%) translateY(20px); z-index:200;
+         background:#101827; border:1.5px solid rgba(110,231,255,.45); color:var(--txt);
+         padding:12px 20px; border-radius:14px; font-size:14px; font-weight:700;
+         opacity:0; pointer-events:none; transition:all .25s; max-width:92vw; text-align:center;}
+  #toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
+  #toast.err{border-color:rgba(248,113,113,.6);}
+  .drag-ghost{position:fixed; z-index:300; pointer-events:none; opacity:.92; transform:rotate(2deg) scale(1.04);
+              box-shadow:0 14px 40px rgba(0,0,0,.6);}
+  .footer-note{color:var(--faint); font-size:12px; text-align:center; margin-top:26px; line-height:1.6;}
+  .footer-note code{background:rgba(255,255,255,.06); padding:2px 7px; border-radius:6px; font-size:11px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hrow">
+    <div class="htitle">📐 Mission Control Editor</div>
+    <span id="statuspill" class="pill loading">loading…</span>
+  </div>
+  <div class="hrow" style="margin-top:10px;">
+    <button class="btn ghost" id="btn-settings" title="Token &amp; options">⚙️</button>
+    <button class="btn primary" id="btn-save" disabled style="flex:1;">💾 Save to TV</button>
+  </div>
+  <div class="tabs">
+    <div class="tab on" id="tab-layout">🧩 Layout</div>
+    <div class="tab" id="tab-preview">📺 Preview</div>
+  </div>
+</header>
+
+<main>
+  <div id="view-layout">
+    <div class="hint" id="loadhint">Tap a widget to select it, then tap where it should go — or drag the <b>⋮⋮</b> handle. 👁 hides without deleting. Saves publish to the TV within ~30&nbsp;s.</div>
+    <div id="rows"></div>
+    <button class="addbtn" id="btn-addrow" style="margin-bottom:10px;">＋ Add row</button>
+    <div class="footer-note">
+      Layout edits only reorder / show / hide widgets.<br>
+      Widget internals still need a dashboard rebuild.<br>
+      <code>mission-control/layout.json</code> · rev <span id="revnote">–</span>
+    </div>
+  </div>
+  <div id="view-preview" style="display:none;">
+    <div class="hint">Simplified preview of how rows will stack on the TV. Live data fills in on the television itself.</div>
+    <div id="preview"></div>
+  </div>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet">
+  <div class="sheethead"><b id="sheettitle">Add widget</b><button class="icobtn" id="sheetclose">✕</button></div>
+  <div class="sheetbody" id="sheetbody"></div>
+</div>
+
+<div class="modal" id="modal-settings">
+  <div class="mbox">
+    <h3>⚙️ Editor settings</h3>
+    <p><b>GitHub token</b> — needed once so the editor can save <code>layout.json</code> to the repo.
+    Paste a fine-grained token with <b>Contents: read &amp; write</b> on <code>kellner-dot/seth-dashboard</code>.
+    It stays in <b>this browser's localStorage only</b> — never in the repo.</p>
+    <input type="password" id="pat" placeholder="github_pat_…" autocomplete="off">
+    <div class="mrow">
+      <button class="btn ghost" id="btn-pat-clear">Clear</button>
+      <button class="btn primary" id="btn-pat-save">Save token</button>
+    </div>
+    <hr style="border:none;border-top:1px solid rgba(255,255,255,.1);margin:16px 0;">
+    <div class="mrow">
+      <button class="btn ghost" id="btn-export">⬇️ Export JSON</button>
+      <button class="btn ghost" id="btn-import">⬆️ Import JSON</button>
+      <input type="file" id="fileimport" accept="application/json" style="display:none;">
+    </div>
+    <div class="mrow" style="margin-top:8px;">
+      <button class="btn danger" id="btn-reset">↩️ Reset to default layout</button>
+    </div>
+    <div class="mrow" style="margin-top:8px;">
+      <button class="btn ghost" id="btn-settings-close">Done</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script src="../layout-engine.js"></script>
+<script>
+'use strict';
+/* ================= state ================= */
+var MC = window.MCLayout;
+var working = null;        // mutable layout doc being edited
+var dirty = false;
+var selected = null;       // {rowIdx, cardIdx} of selected chip
+var paletteRowIdx = -1;    // row the palette is adding into
+var activeTab = 'layout';
+
+var $ = function(id){ return document.getElementById(id); };
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+function toast(msg, isErr){
+  var t=$('toast'); t.textContent=msg; t.className=isErr?'err show':'show';
+  clearTimeout(t._h); t._h=setTimeout(function(){ t.className=''; }, 3200);
+}
+
+/* ================= load ================= */
+function setStatus(state, text){
+  var p=$('statuspill');
+  p.className='pill '+state; p.textContent=text;
+}
+function markDirty(){
+  if(!dirty){ dirty=true; }
+  setStatus('dirty','● unsaved changes');
+  $('btn-save').disabled=false;
+  $('revnote').textContent=(working?working.revision:'–')+' (unsaved)';
+}
+function markClean(){
+  dirty=false;
+  setStatus('saved','✓ saved · rev '+working.revision);
+  $('btn-save').disabled=true;
+  $('revnote').textContent=working.revision;
+}
+function clone(o){ return JSON.parse(JSON.stringify(o)); }
+
+async function loadLayout(){
+  setStatus('loading','loading…');
+  var doc=null;
+  try{
+    var r=await fetch('../layout.json?t='+Date.now(),{cache:'no-store'});
+    if(r.ok){
+      var j=await r.json();
+      var v=MC.validateLayout(j);
+      if(v.ok){ doc=j; }
+      else { toast('layout.json invalid — starting from default', true); }
+    }
+  }catch(e){ /* offline or missing -> default */ }
+  if(!doc){
+    doc=MC.defaultLayout();
+    $('loadhint').innerHTML='⚠️ <b>layout.json</b> not found or invalid — showing the built-in default. Hit <b>Save to TV</b> to publish it.';
+  }
+  working=clone(doc);
+  selected=null;
+  renderAll();
+  markClean();
+  // after a clean load the save button should still allow publishing the default
+  if(!dirty){ setStatus('saved','✓ rev '+working.revision); }
+}
+
+/* ================= serialization =================
+   Visible cards serialize as bare id strings (readable);
+   hidden cards as {id, visible:false}. */
+function serialize(){
+  var doc=clone(working);
+  doc.rows.forEach(function(rs){
+    if(rs.cards){
+      rs.cards=rs.cards.map(function(cs){
+        if(cs.visible===false) return {id:cs.id, visible:false};
+        return cs.id;
+      });
+    }
+  });
+  return doc;
+}
+function normalize(doc){
+  // working model always uses {id, visible} card objects
+  doc.rows.forEach(function(rs){
+    if(rs.cards){
+      rs.cards=rs.cards.map(function(cs){
+        if(typeof cs==='string') return {id:cs, visible:true};
+        return {id:cs.id, visible:cs.visible!==false};
+      });
+    }
+    if(rs.visible===undefined) rs.visible=true;
+  });
+  return doc;
+}
+function placedCardIds(){
+  var s={};
+  working.rows.forEach(function(rs){ (rs.cards||[]).forEach(function(c){ s[c.id]=true; }); });
+  return s;
+}
+
+/* ================= render: layout tab ================= */
+function renderAll(){
+  normalize(working);
+  renderRows();
+  renderPreview();
+}
+function cardMeta(id){ return MC.cardById(id)||{id:id,title:id,sub:'unknown widget',emoji:'❓',cat:'Other'}; }
+function groupMeta(id){ return MC.groupById(id)||{id:id,title:id,emoji:'❓',cat:'Other'}; }
+
+function renderRows(){
+  var host=$('rows'); host.innerHTML='';
+  working.rows.forEach(function(rs, ri){
+    var blk=document.createElement('div');
+    blk.className='rowblk'+(rs.visible===false?' hiddenrow':'');
+    blk.dataset.row=ri;
+
+    var head=document.createElement('div'); head.className='rhead';
+    var title = rs.group ? groupMeta(rs.group).title : (rs.label||'Untitled row');
+    head.innerHTML =
+      '<span class="grip" data-rdrag="'+ri+'" title="drag to reorder row">⋮⋮</span>'+
+      '<span class="rlabel">'+esc(rs.label||title)+
+        (rs.group?'<span class="tag group">auto</span>':'')+
+        (rs.visible===false?'<span class="tag">hidden</span>':'')+'</span>'+
+      '<button class="icobtn" data-ract="up" data-r="'+ri+'" title="move row up">↑</button>'+
+      '<button class="icobtn" data-ract="down" data-r="'+ri+'" title="move row down">↓</button>'+
+      '<button class="icobtn'+(rs.visible===false?' off':'')+'" data-ract="vis" data-r="'+ri+'" title="show/hide row">'+(rs.visible===false?'🚫':'👁')+'</button>'+
+      (rs.group?'':'<button class="icobtn" data-ract="rename" data-r="'+ri+'" title="rename row">✏️</button>')+
+      '<button class="icobtn" data-ract="del" data-r="'+ri+'" title="delete row">🗑</button>';
+    blk.appendChild(head);
+
+    if(rs.group){
+      var gnote=document.createElement('div');
+      gnote.style.cssText='padding:10px 12px;color:var(--faint);font-size:13px;';
+      gnote.textContent='Auto row — fills from live data ('+groupMeta(rs.group).title+'). Reorder or hide it; contents are automatic.';
+      blk.appendChild(gnote);
+    } else {
+      var cards=document.createElement('div'); cards.className='cards'; cards.dataset.row=ri;
+      (rs.cards||[]).forEach(function(cs, ci){
+        var m=cardMeta(cs.id);
+        var chip=document.createElement('div');
+        chip.className='chip'+(cs.visible===false?' hiddenchip':'')+((selected&&selected.rowIdx===ri&&selected.cardIdx===ci)?' selected':'');
+        chip.dataset.row=ri; chip.dataset.card=ci;
+        chip.innerHTML='<span class="cgrip" data-cdrag="'+ri+':'+ci+'" title="drag to move">⋮⋮</span>'+
+          '<span class="cem">'+m.emoji+'</span><span>'+esc(m.title)+'</span>'+
+          (cs.visible===false?'<span style="font-size:13px;">🚫</span>':'');
+        chip.addEventListener('click', function(e){
+          if(e.target.closest('[data-cdrag]')) return; // handle = drag, not select
+          selectChip(ri, ci);
+        });
+        cards.appendChild(chip);
+      });
+      blk.appendChild(cards);
+
+      // selected chip action bar
+      if(selected && selected.rowIdx===ri){
+        var bar=document.createElement('div'); bar.className='chipactions';
+        var sm=cardMeta(rs.cards[selected.cardIdx].id);
+        bar.innerHTML='<span class="lbl">'+esc(sm.title)+':</span>'+
+          '<button class="icobtn" data-cact="left" title="move left">◀</button>'+
+          '<button class="icobtn" data-cact="right" title="move right">▶</button>'+
+          '<button class="icobtn" data-cact="vis" title="show/hide">'+(rs.cards[selected.cardIdx].visible===false?'🚫':'👁')+'</button>'+
+          '<button class="icobtn" data-cact="del" title="remove from layout">🗑</button>'+
+          '<button class="icobtn" data-cact="cancel" title="deselect">✕</button>';
+        bar.addEventListener('click', function(e){
+          var b=e.target.closest('[data-cact]'); if(!b) return;
+          chipAction(b.getAttribute('data-cact'));
+        });
+        blk.appendChild(bar);
+      }
+
+      var foot=document.createElement('div'); foot.className='rfoot';
+      foot.innerHTML='<button class="addbtn" data-addcard="'+ri+'">＋ Add widget</button>';
+      blk.appendChild(foot);
+    }
+    host.appendChild(blk);
+  });
+
+  // wire row buttons
+  host.querySelectorAll('[data-ract]').forEach(function(b){
+    b.addEventListener('click', function(){ rowAction(b.getAttribute('data-ract'), parseInt(b.getAttribute('data-r'),10)); });
+  });
+  host.querySelectorAll('[data-addcard]').forEach(function(b){
+    b.addEventListener('click', function(){ openPalette(parseInt(b.getAttribute('data-addcard'),10)); });
+  });
+  // tap-to-place: tapping a chip or card-area while a chip is selected moves it
+  host.querySelectorAll('.chip').forEach(function(ch){
+    ch.addEventListener('click', function(e){
+      if(e.target.closest('[data-cdrag]')) return;
+      var ri=parseInt(ch.dataset.row,10), ci=parseInt(ch.dataset.card,10);
+      if(selected && !(selected.rowIdx===ri && selected.cardIdx===ci)){
+        moveChip(selected.rowIdx, selected.cardIdx, ri, ci);
+      }
+    });
+  });
+  host.querySelectorAll('.cards').forEach(function(ca){
+    ca.addEventListener('click', function(e){
+      if(e.target.closest('.chip')||!selected) return;
+      var ri=parseInt(ca.dataset.row,10);
+      moveChip(selected.rowIdx, selected.cardIdx, ri, -1);
+    });
+  });
+  wireDragHandles(host);
+}
+
+/* ================= actions ================= */
+function selectChip(ri, ci){ selected={rowIdx:ri, cardIdx:ci}; renderRows(); }
+function chipAction(act){
+  if(!selected) return;
+  var ri=selected.rowIdx, ci=selected.cardIdx, rs=working.rows[ri];
+  if(!rs||!rs.cards||!rs.cards[ci]){ selected=null; renderRows(); return; }
+  if(act==='cancel'){ selected=null; }
+  else if(act==='left' && ci>0){ var t=rs.cards[ci-1]; rs.cards[ci-1]=rs.cards[ci]; rs.cards[ci]=t; selected.cardIdx=ci-1; markDirty(); }
+  else if(act==='right' && ci<rs.cards.length-1){ var t2=rs.cards[ci+1]; rs.cards[ci+1]=rs.cards[ci]; rs.cards[ci]=t2; selected.cardIdx=ci+1; markDirty(); }
+  else if(act==='vis'){ rs.cards[ci].visible=!rs.cards[ci].visible; markDirty(); }
+  else if(act==='del'){
+    if(confirm('Remove "'+cardMeta(rs.cards[ci].id).title+'" from the layout?')){ rs.cards.splice(ci,1); selected=null; markDirty(); }
+    else { selected=null; }
+  }
+  renderAll();
+}
+/* move chip from (fri,fci) to before (tri,tci); tci=-1 => end of row */
+function moveChip(fri, fci, tri, tci){
+  var fr=working.rows[fri], tr=working.rows[tri];
+  if(!fr||!tr||!fr.cards||!tr.cards) return;
+  var chip=fr.cards.splice(fci,1)[0];
+  var at=(tci<0)?tr.cards.length:tci;
+  if(fri===tri && fci<at) at--;
+  tr.cards.splice(at,0,chip);
+  selected=null; markDirty(); renderAll();
+  toast('Moved "'+cardMeta(chip.id).title+'"');
+}
+function rowAction(act, ri){
+  var rs=working.rows[ri]; if(!rs) return;
+  if(act==='up' && ri>0){ working.rows.splice(ri,1); working.rows.splice(ri-1,0,rs); markDirty(); }
+  else if(act==='down' && ri<working.rows.length-1){ working.rows.splice(ri,1); working.rows.splice(ri+1,0,rs); markDirty(); }
+  else if(act==='vis'){ rs.visible=!rs.visible; markDirty(); }
+  else if(act==='rename'){
+    var name=prompt('Row name:', rs.label||'');
+    if(name!==null){ rs.label=name.trim()||'Untitled row'; markDirty(); }
+  }
+  else if(act==='del'){
+    if(confirm('Delete row "'+(rs.label||rs.id)+'"? Its widgets return to the palette.')){ working.rows.splice(ri,1); markDirty(); }
+    else return;
+  }
+  selected=null; renderAll();
+}
+
+/* ================= drag & drop (pointer-based, touch friendly) ================= */
+function wireDragHandles(host){
+  host.querySelectorAll('[data-cdrag]').forEach(function(h){
+    h.addEventListener('pointerdown', function(e){ startDrag(e,'chip',h.getAttribute('data-cdrag')); });
+  });
+  host.querySelectorAll('[data-rdrag]').forEach(function(h){
+    h.addEventListener('pointerdown', function(e){ startDrag(e,'row',h.getAttribute('data-rdrag')); });
+  });
+}
+var drag=null;
+function startDrag(e, kind, ref){
+  e.preventDefault();
+  var sx=e.clientX, sy=e.clientY, pid=e.pointerId, started=false, ghost=null, srcEl=null;
+  if(kind==='chip'){
+    var parts=ref.split(':'), ri=+parts[0], ci=+parts[1];
+    srcEl=document.querySelector('.chip[data-row="'+ri+'"][data-card="'+ci+'"]');
+  } else {
+    srcEl=document.querySelector('.rowblk[data-row="'+ref+'"]');
+  }
+  function onMove(ev){
+    if(ev.pointerId!==pid) return;
+    if(!started && Math.hypot(ev.clientX-sx, ev.clientY-sy)>10){
+      started=true;
+      ghost=srcEl.cloneNode(true); ghost.className+=' drag-ghost';
+      ghost.style.width=srcEl.offsetWidth+'px';
+      document.body.appendChild(ghost); srcEl.classList.add('dragging');
+      document.querySelectorAll('.chip.selected').forEach(function(c){c.classList.remove('selected');});
+      selected=null;
+    }
+    if(!started) return;
+    ghost.style.left=(ev.clientX-ghost.offsetWidth/2)+'px';
+    ghost.style.top=(ev.clientY-24)+'px';
+    document.querySelectorAll('.drop-before,.drop-target').forEach(function(x){x.classList.remove('drop-before','drop-target');});
+    var el=document.elementFromPoint(ev.clientX,ev.clientY);
+    if(kind==='chip'){
+      var chip=el&&el.closest?el.closest('.chip'):null;
+      var area=el&&el.closest?el.closest('.cards'):null;
+      if(chip&&chip!==srcEl){ chip.classList.add('drop-before'); drag={kind:kind,ref:ref,target:'chip',tri:+chip.dataset.row,tci:+chip.dataset.card}; }
+      else if(area){ drag={kind:kind,ref:ref,target:'end',tri:+area.dataset.row,tci:-1}; area.closest('.rowblk').classList.add('drop-target'); }
+      else drag=null;
+    } else {
+      var blk=el&&el.closest?el.closest('.rowblk'):null;
+      if(blk&&blk!==srcEl){ blk.classList.add('drop-target'); drag={kind:kind,ref:ref,target:'row',tri:+blk.dataset.row}; }
+      else drag=null;
+    }
+  }
+  function onUp(ev){
+    if(ev.pointerId!==pid) return;
+    window.removeEventListener('pointermove',onMove); window.removeEventListener('pointerup',onUp); window.removeEventListener('pointercancel',onUp);
+    if(ghost) ghost.remove();
+    if(srcEl) srcEl.classList.remove('dragging');
+    document.querySelectorAll('.drop-before,.drop-target').forEach(function(x){x.classList.remove('drop-before','drop-target');});
+    if(started&&drag){ commitDrag(drag); }
+    drag=null;
+  }
+  window.addEventListener('pointermove',onMove);
+  window.addEventListener('pointerup',onUp);
+  window.addEventListener('pointercancel',onUp);
+}
+function commitDrag(d){
+  if(d.kind==='chip'){
+    var parts=d.ref.split(':');
+    moveChip(+parts[0],+parts[1],d.tri,d.tci);
+  } else {
+    var fri=+d.ref, tri=d.tri;
+    if(fri===tri) return;
+    var rs=working.rows.splice(fri,1)[0];
+    var at=tri; if(fri<tri) at--;
+    working.rows.splice(at,0,rs);
+    markDirty(); renderAll(); toast('Row moved');
+  }
+}
+
+/* ================= palette ================= */
+function openPalette(rowIdx){
+  paletteRowIdx=rowIdx;
+  var placed=placedCardIds();
+  var body=$('sheetbody'); body.innerHTML='';
+  $('sheettitle').textContent='Add widget → '+(working.rows[rowIdx].label||working.rows[rowIdx].id);
+  var cats={};
+  MC.CARD_CATALOG.forEach(function(c){
+    (cats[c.cat]=cats[c.cat]||[]).push(c);
+  });
+  Object.keys(cats).sort().forEach(function(cat){
+    var h=document.createElement('div'); h.className='catlabel'; h.textContent=cat; body.appendChild(h);
+    cats[cat].forEach(function(c){
+      var r=document.createElement('div'); r.className='palrow';
+      var inLayout=!!placed[c.id];
+      r.innerHTML='<span class="pem">'+c.emoji+'</span><span class="pt"><span class="t">'+esc(c.title)+'</span><br><span class="s">'+esc(c.sub)+'</span></span>'+
+        (inLayout?'<span class="inuse">✓ in layout</span>':'<button class="btn" data-add="'+c.id+'">＋ Add</button>');
+      body.appendChild(r);
+    });
+  });
+  // groups as rows
+  var gh=document.createElement('div'); gh.className='catlabel'; gh.textContent='Auto rows (live data)'; body.appendChild(gh);
+  MC.GROUP_CATALOG.forEach(function(g){
+    var r=document.createElement('div'); r.className='palrow';
+    var used=working.rows.some(function(rs){return rs.group===g.id;});
+    r.innerHTML='<span class="pem">'+g.emoji+'</span><span class="pt"><span class="t">'+esc(g.title)+'</span><br><span class="s">auto row from live data</span></span>'+
+      (used?'<span class="inuse">✓ in layout</span>':'<button class="btn" data-addgroup="'+g.id+'">＋ Add row</button>');
+    body.appendChild(r);
+  });
+  body.querySelectorAll('[data-add]').forEach(function(b){
+    b.addEventListener('click', function(){
+      var id=b.getAttribute('data-add');
+      working.rows[paletteRowIdx].cards.push({id:id, visible:true});
+      markDirty(); renderAll(); openPalette(paletteRowIdx);
+      toast('Added "'+cardMeta(id).title+'"');
+    });
+  });
+  body.querySelectorAll('[data-addgroup]').forEach(function(b){
+    b.addEventListener('click', function(){
+      var id=b.getAttribute('data-addgroup');
+      var nid='row-'+Date.now().toString(36);
+      working.rows.push({id:nid, visible:true, group:id});
+      markDirty(); renderAll(); openPalette(paletteRowIdx);
+      toast('Added row "'+groupMeta(id).title+'"');
+    });
+  });
+  $('scrim').classList.add('open'); $('sheet').classList.add('open');
+}
+function closePalette(){ $('scrim').classList.remove('open'); $('sheet').classList.remove('open'); }
+
+/* ================= preview ================= */
+function renderPreview(){
+  var host=$('preview'); host.innerHTML='';
+  working.rows.forEach(function(rs){
+    var blk=document.createElement('div');
+    blk.className='pvrow'+(rs.visible===false?' hiddenrow':'');
+    var label, cards;
+    if(rs.group){
+      var g=groupMeta(rs.group);
+      label=(rs.label||g.title);
+      cards=[{id:'__auto', title:'auto: '+g.title, emoji:g.emoji, off:false}];
+    } else {
+      label=rs.label||'Untitled row';
+      cards=(rs.cards||[]).map(function(cs){ var m=cardMeta(cs.id); return {title:m.title, emoji:m.emoji, off:cs.visible===false}; });
+    }
+    var vis=cards.filter(function(c){return !c.off;}).length;
+    blk.innerHTML='<div class="pvlabel">'+esc(label)+
+      (rs.visible===false?'<span class="cnt">🚫 hidden</span>':'<span class="cnt">'+vis+' widget'+(vis===1?'':'s')+'</span>')+'</div>';
+    var track=document.createElement('div'); track.className='pvtrack';
+    cards.forEach(function(c){
+      var d=document.createElement('div'); d.className='pvcard'+(c.off?' off':'');
+      d.innerHTML='<span class="e">'+c.emoji+'</span><span class="t">'+esc(c.title)+(c.off?' 🚫':'')+'</span>';
+      track.appendChild(d);
+    });
+    blk.appendChild(track);
+    host.appendChild(blk);
+  });
+}
+
+/* ================= save (GitHub Contents API) ================= */
+var REPO='kellner-dot/seth-dashboard', PATH='mission-control/layout.json';
+function getPat(){ return localStorage.getItem('mc_editor_pat')||''; }
+function authHeaders(pat){ return {'Authorization':'Bearer '+pat,'Accept':'application/vnd.github+json'}; }
+
+async function saveLayout(){
+  var pat=getPat();
+  if(!pat){
+    openSettings();
+    toast('Paste your GitHub token first', true);
+    return;
+  }
+  var btn=$('btn-save'); btn.disabled=true; btn.textContent='💾 Saving…';
+  setStatus('loading','saving…');
+  try{
+    working.revision=(working.revision||0)+1;
+    working.updated=new Date().toISOString();
+    var body=JSON.stringify(serialize(),null,2);
+    var b64=btoa(unescape(encodeURIComponent(body)));
+    var url='https://api.github.com/repos/'+REPO+'/contents/'+PATH;
+    // current sha (needed for update)
+    var sha=null;
+    try{
+      var g=await fetch(url+'?ref=main',{headers:authHeaders(pat)});
+      if(g.status===401) throw {auth:true};
+      if(g.ok){ sha=(await g.json()).sha; }
+    }catch(e){ if(e&&e.auth) throw e; /* 404 = create */ }
+    async function put(trySha){
+      var payload={message:'Mission Control layout rev '+working.revision+' (editor)', content:b64, branch:'main'};
+      if(trySha) payload.sha=trySha;
+      return fetch(url,{method:'PUT',headers:Object.assign(authHeaders(pat),{'Content-Type':'application/json'}),body:JSON.stringify(payload)});
+    }
+    var r=await put(sha);
+    if(r.status===409||r.status===422){ // sha changed underneath — refetch once
+      var g2=await fetch(url+'?ref=main',{headers:authHeaders(pat)});
+      sha=g2.ok?(await g2.json()).sha:null;
+      r=await put(sha);
+    }
+    if(r.status===401){ localStorage.removeItem('mc_editor_pat'); openSettings(); throw new Error('token rejected (401) — paste a fresh one'); }
+    if(!r.ok){ var t=await r.text(); throw new Error('GitHub API '+r.status+': '+t.slice(0,120)); }
+    markClean();
+    toast('✅ Saved — TV picks it up within ~30s');
+  }catch(e){
+    setStatus('dirty','● unsaved changes');
+    btn.disabled=false;
+    toast('Save failed: '+(e.message||e), true);
+  }finally{
+    btn.textContent='💾 Save to TV';
+    if(!dirty) btn.disabled=true;
+  }
+}
+
+/* ================= settings / import / export / reset ================= */
+function openSettings(){ $('pat').value=getPat(); $('modal-settings').classList.add('open'); }
+function closeSettings(){ $('modal-settings').classList.remove('open'); }
+
+function download(name, text){
+  var a=document.createElement('a');
+  a.href='data:application/json;charset=utf-8,'+encodeURIComponent(text);
+  a.download=name; document.body.appendChild(a); a.click(); a.remove();
+}
+
+/* ================= wire up ================= */
+$('btn-save').addEventListener('click', saveLayout);
+$('btn-settings').addEventListener('click', openSettings);
+$('btn-settings-close').addEventListener('click', closeSettings);
+$('sheetclose').addEventListener('click', closePalette);
+$('scrim').addEventListener('click', closePalette);
+$('tab-layout').addEventListener('click', function(){ activeTab='layout'; $('tab-layout').classList.add('on'); $('tab-preview').classList.remove('on'); $('view-layout').style.display=''; $('view-preview').style.display='none'; });
+$('tab-preview').addEventListener('click', function(){ activeTab='preview'; $('tab-preview').classList.add('on'); $('tab-layout').classList.remove('on'); $('view-layout').style.display='none'; $('view-preview').style.display=''; renderPreview(); });
+$('btn-addrow').addEventListener('click', function(){
+  var n=1; while(working.rows.some(function(r){return r.id==='row-'+n;})) n++;
+  working.rows.push({id:'row-'+n, label:'New row '+n, visible:true, cards:[]});
+  markDirty(); renderAll();
+  openPalette(working.rows.length-1);
+});
+$('btn-pat-save').addEventListener('click', function(){
+  var v=$('pat').value.trim();
+  if(v){ localStorage.setItem('mc_editor_pat', v); toast('Token saved in this browser'); }
+  closeSettings();
+});
+$('btn-pat-clear').addEventListener('click', function(){ localStorage.removeItem('mc_editor_pat'); $('pat').value=''; toast('Token cleared'); });
+$('btn-export').addEventListener('click', function(){ download('layout.json', JSON.stringify(serialize(),null,2)); toast('Exported layout.json'); });
+$('btn-import').addEventListener('click', function(){ $('fileimport').click(); });
+$('fileimport').addEventListener('change', function(e){
+  var f=e.target.files[0]; if(!f) return;
+  var rd=new FileReader();
+  rd.onload=function(){
+    try{
+      var doc=JSON.parse(rd.result);
+      var v=MC.validateLayout(doc);
+      if(!v.ok) throw new Error(v.errors.join('; '));
+      working=normalize(clone(doc)); selected=null; markDirty(); renderAll();
+      toast('Imported layout rev '+doc.revision);
+    }catch(err){ toast('Import failed: '+err.message, true); }
+  };
+  rd.readAsText(f); e.target.value='';
+});
+$('btn-reset').addEventListener('click', function(){
+  if(confirm('Reset to the built-in default layout? Your current edits will be lost unless saved.')){
+    working=normalize(MC.defaultLayout()); selected=null; markDirty(); renderAll(); closeSettings();
+    toast('Reset to default — save to publish');
+  }
+});
+window.addEventListener('beforeunload', function(e){ if(dirty){ e.preventDefault(); e.returnValue=''; } });
+
+if(!MC){ document.body.innerHTML='<p style="padding:40px">layout-engine.js failed to load.</p>'; }
+else { loadLayout(); }
+</script>
+</body>
+</html>
