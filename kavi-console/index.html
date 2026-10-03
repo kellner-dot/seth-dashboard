@@ -190,8 +190,14 @@
 const OUTBOX_URL = 'outbox.json';
 const POLL_MS = 30000;
 
-let lastUpdated = null;
+let lastSig = null;
 let firstLoad = true;
+
+function hashStr(s){
+  let h = 5381;
+  for(let i=0;i<s.length;i++){ h = ((h<<5) + h + s.charCodeAt(i)) | 0; }
+  return h;
+}
 
 function esc(s){
   return String(s==null?'':s)
@@ -278,15 +284,16 @@ async function poll(){
     const r = await fetch(OUTBOX_URL + '?_=' + Date.now(), {cache:'no-store'});
     if(r.status === 404){
       setLive(true, 'ready');
+      lastSig = null;
       renderOutbox({messages:[], updated:null});
-      lastUpdated = null;
       return;
     }
     if(!r.ok) throw new Error('http ' + r.status);
     const data = await r.json();
     setLive(true, 'live');
-    if(data && data.updated !== lastUpdated){
-      lastUpdated = data.updated;
+    const sig = hashStr(JSON.stringify(data));
+    if(sig !== lastSig){
+      lastSig = sig;
       renderOutbox(data);
     }
   }catch(err){
