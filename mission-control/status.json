@@ -1,46 +1,8 @@
 {
- "generated_at": 1791047931,
- "generated_iso": "2026-10-03T17:18:51+0000",
- "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
+ "generated_at": 1791048011,
+ "generated_iso": "2026-10-03T17:20:11+0000",
+ "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "github": {
-  "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 9,
-  "pages": [
-   {
-    "name": "seth-dashboard",
-    "url": "https://kellner-dot.github.io/seth-dashboard/"
-   },
-   {
-    "name": "theartfuldodger-site",
-    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
-   }
-  ]
- },
- "emby_library": {
-  "movies": 5527,
-  "series": 33,
-  "episodes": 59,
-  "recent": [
-   "On the Silver Globe",
-   "Das Profil: Walter Gropius aka Walter Gropius in profile",
-   "Films: Music for Millions (1977) Kawasaki Cut (1985) and The Plaza",
-   "Berlin: Die Sinfonie der Grosstadt",
-   "Melodie der Welt aka Melody of the World",
-   "Aka Mrs George Gilbert"
-  ]
- },
- "terabox": {
-  "total": null,
-  "used": null,
-  "free": null
- },
- "kaviguard": {},
- "biglybt": {
-  "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
- },
  "devices": [
   {
    "id": "seths-pc",
@@ -49,18 +11,38 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 60072,
+   "uptime_s": 59468,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
     "version": "4.10.1.0"
    },
-   "emby_sessions": [],
+   "emby_sessions": [
+    {
+     "device": "VM",
+     "client": "Muse",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "Fire TV on VegaOS (AFTCA002)",
+     "client": "Emby for Fire TV",
+     "user": "Seth",
+     "playing": null
+    }
+   ],
    "terabox_uploaders": 1,
    "firetv": {
-    "seen_in_emby": false,
-    "sessions": [],
-    "adb": "unreachable (subnet route not approved or stick offline)"
+    "seen_in_emby": true,
+    "sessions": [
+     {
+      "device": "Fire TV on VegaOS (AFTCA002)",
+      "client": "Emby for Fire TV",
+      "user": "Seth",
+      "playing": null
+     }
+    ],
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
    }
   },
   {
@@ -69,7 +51,7 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": 0,
+    "http": null,
     "up": false
    },
    "rvg_agent": {
@@ -82,15 +64,14 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": false,
-   "ping_ms": null
+   "online": false
   },
   {
    "id": "motorola-razr-2023",
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": false,
+   "online": true,
    "rvg_agent": {
     "up": true,
     "authed": false
