@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1.0">
+<title>Ambient Frame Pro</title>
+<style>
+  :root{
+    --wall:#141311; --txt:#f2efe6; --dim:#b9b2a3; --faint:#6f6a5e;
+    --acc:#e8b04b;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{
+    margin:0; color:var(--txt); overflow:hidden;
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,sans-serif;
+    background:var(--wall); font-size:26px;
+  }
+  /* gallery wall */
+  #wall{position:fixed; inset:0; z-index:0;
+    background:
+      radial-gradient(1200px 700px at 50% 0%, rgba(232,176,75,.05), transparent 60%),
+      radial-gradient(900px 600px at 50% 110%, rgba(0,0,0,.5), transparent 70%),
+      linear-gradient(180deg,#191713 0%, #141311 60%, #100f0d 100%);
+  }
+  #wall-grain{position:fixed; inset:0; z-index:0; opacity:.05; pointer-events:none;
+    background-image:repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(255,255,255,.4) 4px);}
+
+  /* picture light glow above frame — tinted by ambient engine */
+  #glow{position:fixed; left:50%; top:2%; transform:translateX(-50%); z-index:1;
+    width:70vw; height:22vh; pointer-events:none; opacity:.55;
+    background:radial-gradient(closest-side, rgba(255,214,150,.35), transparent 70%);
+    filter:blur(10px); transition:opacity 2s, background 2s;}
+
+  /* ===== museum frame ===== */
+  #stage{position:fixed; inset:0; z-index:2; display:grid; place-items:center;}
+  #frame{
+    padding:34px; /* frame wood */
+    background:linear-gradient(135deg,#2b2119 0%, #1a140e 40%, #241b12 70%, #141009 100%);
+    border-radius:6px;
+    box-shadow:0 40px 120px rgba(0,0,0,.75), 0 6px 24px rgba(0,0,0,.6),
+      inset 0 0 0 2px rgba(210,170,110,.18), inset 0 0 24px rgba(0,0,0,.55);
+  }
+  #mat{
+    padding:5.5vh 5.5vw; /* museum mat */
+    background:linear-gradient(180deg,#efe9da 0%, #e7dfcc 50%, #ded5bd 100%);
+    box-shadow:inset 0 2px 18px rgba(0,0,0,.35), inset 0 0 0 1px rgba(120,100,70,.35);
+  }
+  #artwrap{position:relative; overflow:hidden; background:#0a0a0a;
+    box-shadow:0 0 0 1px rgba(0,0,0,.5), inset 0 0 60px rgba(0,0,0,.4);
+    width:min(1180px, 68vw); height:min(740px, 62vh);}
+  .slide{position:absolute; inset:0; opacity:0; transition:opacity 1.6s ease;}
+  .slide.on{opacity:1;}
+  .slide img{position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#000;
+    transition:filter 2.5s ease;}
+  /* warmth tint overlay (driven by ambient engine) */
+  #tint{position:absolute; inset:0; z-index:3; pointer-events:none; opacity:0; transition:opacity 2.5s, background 2.5s;}
+
+  /* ===== brand plate (museum label) ===== */
+  #plate{position:fixed; z-index:4; right:4vw; bottom:6vh; width:340px; padding:22px 26px;
+    background:linear-gradient(180deg,#e9e2d1,#d9cfb6); color:#2a2419; border-radius:2px;
+    box-shadow:0 12px 40px rgba(0,0,0,.6), inset 0 0 0 1px rgba(90,75,50,.4);
+    font-size:21px; line-height:1.45;}
+  #plate .t{font-weight:800; font-size:24px; letter-spacing:.5px;}
+  #plate .m{color:#5c5340; font-size:19px;}
+  #plate .amb{margin-top:10px; padding-top:10px; border-top:1px solid rgba(90,75,50,.35);
+    font-size:18px; color:#6a5f47; display:flex; justify-content:space-between;}
+  #plate .amb b{color:#3d3524;}
+
+  /* ===== sensor pill ===== */
+  #sensor{position:fixed; z-index:4; left:4vw; top:4vh; display:flex; align-items:center; gap:14px;
+    padding:10px 22px; border-radius:99px; font-size:20px; letter-spacing:1px;
+    background:rgba(10,10,10,.62); border:1px solid rgba(255,255,255,.12); color:var(--dim);}
+  #sensor .dot{width:14px; height:14px; border-radius:50%; background:#8a8a8a; box-shadow:0 0 10px currentColor;}
+  #sensor.live .dot{background:#34d399; color:#34d399;}
+  #sensor.mock .dot{background:#e8b04b; color:#e8b04b;}
+
+  /* ===== paused badge ===== */
+  #paused{position:fixed; z-index:4; left:4vw; bottom:6vh; display:none; padding:10px 26px;
+    border-radius:99px; font-size:22px; letter-spacing:2px; font-weight:700;
+    background:rgba(10,10,10,.7); border:1px solid rgba(232,176,75,.5); color:var(--acc);}
+  body.is-paused #paused{display:block;}
+
+  /* ===== overlays (info / settings) ===== */
+  .overlay{position:fixed; inset:0; z-index:20; display:none; place-items:center;
+    background:rgba(8,8,8,.72); backdrop-filter:blur(6px);}
+  .overlay.open{display:grid;}
+  .card{width:860px; max-height:84vh; overflow:auto; border-radius:18px; padding:44px 52px;
+    background:linear-gradient(180deg,#1d1c19,#141312);
+    border:1px solid rgba(232,176,75,.25); box-shadow:0 40px 120px rgba(0,0,0,.7);}
+  .card h2{margin:0 0 6px; font-size:36px; letter-spacing:2px; color:var(--acc);}
+  .card .sub{color:var(--faint); font-size:20px; margin-bottom:24px;}
+  .row{display:flex; justify-content:space-between; align-items:center; padding:14px 0;
+    border-bottom:1px solid rgba(255,255,255,.07); font-size:23px;}
+  .row .k{color:var(--dim);} .row .v{font-weight:700;}
+  .hint{margin-top:22px; color:var(--faint); font-size:20px; line-height:1.7;}
+  .hint b{color:var(--txt);}
+
+  .srow{margin:20px 0;}
+  .srow label{display:flex; justify-content:space-between; font-size:23px; margin-bottom:10px;}
+  .srow label b{color:var(--acc);}
+  input[type=range]{width:100%; height:44px; accent-color:var(--acc);}
+  select{font-size:23px; padding:12px 18px; border-radius:10px; background:#0c0c0c; color:var(--txt);
+    border:1px solid rgba(255,255,255,.2);}
+  .btnrow{display:flex; gap:18px; margin-top:28px;}
+  .btn{flex:1; text-align:center; padding:18px; border-radius:12px; font-size:24px; font-weight:800;
+    letter-spacing:1px; border:2px solid rgba(232,176,75,.6); color:var(--acc); background:transparent;}
+  .btn.focus{outline:4px solid var(--acc); background:rgba(232,176,75,.12);}
+  .prof-note{margin-top:18px; font-size:19px; color:var(--faint); line-height:1.6;}
+  .prof-note b{color:var(--acc);}
+
+  /* ===== sleep screen ===== */
+  #sleep{position:fixed; inset:0; z-index:30; display:none; place-items:center; background:#000;}
+  #sleep.on{display:grid;}
+  #sleep .inner{text-align:center; color:#3a382f;}
+  #sleep .clock{font-size:110px; font-weight:200; letter-spacing:8px; color:#55524a;}
+  #sleep .msg{font-size:26px; margin-top:18px; letter-spacing:3px;}
+  #sleep .env{font-size:20px; margin-top:10px; color:#2e2c25;}
+
+  #toast{position:fixed; z-index:40; left:50%; bottom:12vh; transform:translateX(-50%);
+    padding:14px 34px; border-radius:99px; background:rgba(20,20,20,.9); color:var(--txt);
+    border:1px solid rgba(232,176,75,.4); font-size:22px; display:none;}
+  .helpshade{position:fixed; z-index:3; left:50%; bottom:2.5vh; transform:translateX(-50%);
+    color:var(--faint); font-size:18px; letter-spacing:1px; opacity:.7;}
+  .helpshade b{color:var(--dim);}
+</style>
+</head>
+<body>
+  <div id="wall"></div><div id="wall-grain"></div>
+  <div id="glow"></div>
+  <div id="stage">
+    <div id="frame"><div id="mat"><div id="artwrap">
+      <div class="slide on" id="s0"><img id="i0" alt=""></div>
+      <div class="slide" id="s1"><img id="i1" alt=""></div>
+      <div id="tint"></div>
+    </div></div></div>
+  </div>
+  <div id="sensor"><span class="dot"></span><span id="sensor-txt">—</span></div>
+  <div id="paused">&#10073;&#10073; PAUSED</div>
+  <div id="plate">
+    <div class="t" id="plate-title">Ambient Frame Pro</div>
+    <div class="m" id="plate-meta">Loading photographs…</div>
+    <div class="amb"><span>Light <b id="plate-lux">—</b></span><span>Temp <b id="plate-temp">—</b></span><span>Frame <b id="plate-bright">—</b></span></div>
+  </div>
+
+  <div class="overlay" id="infoOv"><div class="card">
+    <h2 id="info-title">—</h2><div class="sub" id="info-sub">—</div>
+    <div class="row"><span class="k">Room light</span><span class="v" id="info-lux">—</span></div>
+    <div class="row"><span class="k">Color temperature</span><span class="v" id="info-temp">—</span></div>
+    <div class="row"><span class="k">Motion</span><span class="v" id="info-motion">—</span></div>
+    <div class="row"><span class="k">Light profile</span><span class="v" id="info-bucket">—</span></div>
+    <div class="row"><span class="k">Picture brightness</span><span class="v" id="info-bright">—</span></div>
+    <div class="row"><span class="k">Warmth</span><span class="v" id="info-warm">—</span></div>
+    <div class="row"><span class="k">Learned for this light</span><span class="v" id="info-learned">No</span></div>
+    <div class="hint"><b>OK / Back</b> close &middot; <b>&#8592; &#8594;</b> previous / next photo</div>
+  </div></div>
+
+  <div class="overlay" id="setOv"><div class="card">
+    <h2>FRAME SETTINGS</h2>
+    <div class="sub">Adjustments are remembered per lighting condition — teach it once in evening lamplight and it recalls that profile every future evening.</div>
+    <div class="srow"><label>Slideshow interval <b id="v-interval">20s</b></label>
+      <input type="range" id="r-interval" min="5" max="120" step="5" value="20"></div>
+    <div class="srow"><label>Sleep after no motion <b id="v-blank">15 min</b></label>
+      <input type="range" id="r-blank" min="1" max="60" step="1" value="15"></div>
+    <div class="srow"><label>Brightness trim <b id="v-btrim">+0</b></label>
+      <input type="range" id="r-btrim" min="-30" max="30" step="1" value="0"></div>
+    <div class="srow"><label>Warmth trim <b id="v-wtrim">+0</b></label>
+      <input type="range" id="r-wtrim" min="-200" max="200" step="10" value="0"></div>
+    <div class="srow"><label>Sensor source</label>
+      <select id="sel-source"><option value="auto">Auto (sensor.json)</option>
+        <option value="mock">Simulated sensor</option></select></div>
+    <div class="btnrow">
+      <div class="btn focus" id="btn-save">SAVE</div>
+      <div class="btn" id="btn-reset">RESET LEARNED</div>
+    </div>
+    <div class="prof-note" id="prof-note"></div>
+    <div class="hint"><b>Up/Down</b> move between controls &middot; <b>Left/Right</b> adjust &middot; <b>OK</b> activate &middot; <b>Back</b> close</div>
+  </div></div>
+
+  <div id="sleep"><div class="inner">
+    <div class="clock" id="sleep-clock">--:--</div>
+    <div class="msg">FRAME ASLEEP — NO MOTION</div>
+    <div class="env" id="sleep-env"></div>
+  </div></div>
+  <div id="toast"></div>
+  <div class="helpshade"><b>&#8592; &#8594;</b> photos &nbsp;&middot;&nbsp; <b>&#8593;</b> pause &nbsp;&middot;&nbsp; <b>OK</b> info &nbsp;&middot;&nbsp; <b>Back</b> settings</div>
+
+<script>
+"use strict";
+/* =====================================================================
+   AMBIENT FRAME PRO — museum-grade photo frame, ambient-light aware
+   Architecture:
+     TV web app (this file)  → polls sensor.json (GitHub Pages)
+     sensor-bridge (VM)      → polls ESP32 /api/status or runs mock,
+                               publishes sensor.json
+     ESP32 firmware          → BH1750 lux + PIR motion → /api/status JSON
+   Reuses photo source: mission-control/photos.json (Light Leaks feed).
+   ===================================================================== */
+
+/* ---------- settings ---------- */
+var SET_KEY = "af_settings_v1";
+var settings = Object.assign({
+  interval: 20, blankMin: 15, bTrim: 0, wTrim: 0, source: "auto", shuffle: true
+}, JSON.parse(localStorage.getItem(SET_KEY) || "{}"));
+function saveSettings(){ localStorage.setItem(SET_KEY, JSON.stringify(settings)); }
+
+/* ---------- ambient profile engine (ported from blofstedt/ambiance profile.ts) ---------- */
+var LUX_BUCKET = 20, TEMP_BUCKET = 500, HYST = 0.25;
+function Ema(alpha){ this.a = alpha; this.v = null; }
+Ema.prototype.push = function(s){
+  if(!isFinite(s)) return this.v || 0;
+  this.v = (this.v === null) ? s : this.a * s + (1 - this.a) * this.v;
+  return this.v;
+};
+var emaLux = new Ema(0.35), emaTemp = new Ema(0.35);
+var luxBucket = null, tempBucket = null;
+
+function bucketIdx(v, size){ return Math.floor(Math.max(0, v) / size); }
+function bucketHyst(v, size, prev){
+  var raw = bucketIdx(v, size);
+  if(prev === null || raw === prev) return raw;
+  var m = size * HYST;
+  if(raw > prev && v < (prev + 1) * size + m) return prev;
+  if(raw < prev && v > prev * size - m) return prev;
+  return raw;
+}
+function clamp(n, lo, hi){ return Math.min(hi, Math.max(lo, n)); }
+
+/* innate curve: dim warm room -> warm dim art; bright daylight -> bright cool art */
+function innateProfile(lux, kelvin){
+  var luminance = 60, warmth = 200;
+  if(lux < 5){ luminance = 25; warmth = 450; }
+  else if(lux < 20){ luminance = 40; warmth = 350; }
+  else if(lux > 150){ luminance = 90; warmth = 50; }
+  if(kelvin > 0 && kelvin < 2500) warmth += 100;
+  if(kelvin > 4000) warmth -= 100;
+  return { luminance: clamp(Math.round(luminance), 0, 100),
+           warmth: clamp(Math.round(warmth), -500, 500) };
+}
+function bucketKey(lx, tp){ return "afp_" + lx + "_" + tp; }
+function learnedProfile(lx, tp){
+  try{ return JSON.parse(localStorage.getItem(bucketKey(lx, tp)) || "null"); }
+  catch(e){ return null; }
+}
+function saveLearned(lx, tp, prof){
+  localStorage.setItem(bucketKey(lx, tp), JSON.stringify(prof));
+}
+
+var current = { lux: null, temp: null, motion: false, source: "?", learned: false };
+
+function applyAmbient(){
+  if(current.lux === null) return;
+  var luxS = emaLux.push(current.lux), tempS = emaTemp.push(current.temp || 0);
+  luxBucket = bucketHyst(luxS, LUX_BUCKET, luxBucket);
+  tempBucket = bucketHyst(tempS, TEMP_BUCKET, tempBucket);
+  var prof = innateProfile(luxS, tempS);
+  var learned = learnedProfile(luxBucket, tempBucket);
+  current.learned = !!learned;
+  if(learned){ prof = learned; }
+  prof.luminance = clamp(prof.luminance + settings.bTrim, 0, 100);
+  prof.warmth = clamp(prof.warmth + settings.wTrim, -500, 500);
+
+  /* luminance 0..100 -> CSS brightness (museum floor so dim rooms don't go black) */
+  var bright = 0.55 + (prof.luminance / 100) * 0.60;
+  var imgs = document.querySelectorAll(".slide img");
+  for(var i = 0; i < imgs.length; i++)
+    imgs[i].style.filter = "brightness(" + bright.toFixed(3) + ")";
+
+  /* warmth -500..500 -> amber overlay (positive) or cool-blue overlay (negative) */
+  var tint = document.getElementById("tint"), glow = document.getElementById("glow");
+  if(prof.warmth >= 0){
+    var a = (prof.warmth / 500) * 0.26;
+    tint.style.background = "rgba(255,158,64," + a.toFixed(3) + ")";
+    tint.style.opacity = "1";
+    glow.style.background = "radial-gradient(closest-side, rgba(255,190,120," +
+      (0.25 + a).toFixed(3) + "), transparent 70%)";
+  } else {
+    var b = (-prof.warmth / 500) * 0.20;
+    tint.style.background = "rgba(140,180,255," + b.toFixed(3) + ")";
+    tint.style.opacity = "1";
+    glow.style.background = "radial-gradient(closest-side, rgba(190,210,255," +
+      (0.25 + b).toFixed(3) + "), transparent 70%)";
+  }
+  document.getElementById("plate-lux").textContent = Math.round(luxS) + " lx";
+  document.getElementById("plate-temp").textContent =
+    (current.temp && current.temp > 0) ? Math.round(current.temp) + "K" : "—";
+  document.getElementById("plate-bright").textContent = Math.round(bright * 100) + "%";
+  document.getElementById("info-lux").textContent = Math.round(current.lux) + " lx";
+  document.getElementById("info-temp").textContent =
+    (current.temp && current.temp > 0) ? Math.round(current.temp) + " K" : "too dark to measure";
+  document.getElementById("info-motion").textContent = current.motion ? "Yes — room occupied" : "No";
+  document.getElementById("info-bucket").textContent =
+    (luxBucket * LUX_BUCKET) + "–" + ((luxBucket + 1) * LUX_BUCKET) + " lx / " +
+    (tempBucket * TEMP_BUCKET) + "–" + ((tempBucket + 1) * TEMP_BUCKET) + " K";
+  document.getElementById("info-bright").textContent = prof.luminance + "%";
+  document.getElementById("info-warm").textContent =
+    (prof.warmth >= 0 ? "+" : "") + prof.warmth + " (" + (current.learned ? "learned" : "innate") + ")";
+  document.getElementById("info-learned").textContent = current.learned ? "Yes — this lighting" : "No";
+}
+</script>
+<script>
+"use strict";
+/* ---------- part 2: sensor input, motion blanking, slideshow, remote ---------- */
+
+/* ----- simulated sensor (mock): day/night lux curve + random motion ----- */
+var mock = { t0: Date.now() };
+function mockRead(){
+  var now = new Date();
+  var h = now.getHours() + now.getMinutes() / 60;
+  /* lux: night ~2, dawn ramp, midday ~400, dusk fall */
+  var lux;
+  if(h < 6 || h > 20) lux = 2 + Math.random() * 2;
+  else if(h < 8) lux = 10 + (h - 6) * 60 + Math.random() * 8;
+  else if(h < 17) lux = 180 + Math.random() * 220;
+  else lux = Math.max(6, 180 - (h - 17) * 55) + Math.random() * 10;
+  var temp = lux < 10 ? 2200 + Math.random() * 300
+           : lux < 100 ? 3000 + Math.random() * 800
+           : 5200 + Math.random() * 1300;
+  /* motion: occupied most of the time, occasional gaps */
+  mock.motion = mock.motion === undefined ? true : mock.motion;
+  if(Math.random() < 0.06) mock.motion = !mock.motion;
+  return { lux: Math.round(lux), temp: Math.round(temp), motion: mock.motion,
+           source: "mock", ts: Date.now() };
+}
+
+/* ----- sensor polling ----- */
+var SENSOR_URL = "sensor.json";
+var POLL_MS = 15000;
+var lastMotionAt = Date.now();
+
+function pollSensor(){
+  var useMock = settings.source === "mock";
+  if(useMock){
+    ingest(mockRead());
+    schedulePoll();
+    return;
+  }
+  fetch(SENSOR_URL, { cache: "no-store" })
+    .then(function(r){ if(!r.ok) throw new Error("http " + r.status); return r.json(); })
+    .then(function(d){
+      if(d.mode === "mock" || d.lux === undefined) ingest(mockRead());
+      else ingest({ lux: d.lux, temp: d.temp || 0, motion: !!d.motion,
+                    source: "esp32", ts: d.ts || Date.now() });
+    })
+    .catch(function(){ ingest(mockRead()); }) /* sensor.json missing/stale -> simulate */
+    .finally(schedulePoll);
+}
+function schedulePoll(){ setTimeout(pollSensor, POLL_MS); }
+
+function ingest(r){
+  current.lux = r.lux; current.temp = r.temp; current.motion = r.motion; current.source = r.source;
+  if(r.motion) lastMotionAt = Date.now();
+  var pill = document.getElementById("sensor");
+  var txt = (r.source === "mock" ? "SIM " : "ESP32 ") +
+            Math.round(r.lux) + " lx · " +
+            (r.temp > 0 ? Math.round(r.temp) + "K · " : "") +
+            (r.motion ? "motion" : "still");
+  document.getElementById("sensor-txt").textContent = txt;
+  pill.className = r.source === "mock" ? "mock" : "live";
+  applyAmbient();
+  checkBlanking();
+}
+
+/* ----- motion blanking ----- */
+function checkBlanking(){
+  var idleMin = (Date.now() - lastMotionAt) / 60000;
+  var sleep = document.getElementById("sleep");
+  if(idleMin >= settings.blankMin && !sleep.classList.contains("on")){
+    sleep.classList.add("on");
+    var n = new Date();
+    document.getElementById("sleep-clock").textContent =
+      ("0" + n.getHours()).slice(-2) + ":" + ("0" + n.getMinutes()).slice(-2);
+    document.getElementById("sleep-env").textContent =
+      Math.round(current.lux || 0) + " lx · " + (current.source === "mock" ? "simulated" : "sensor");
+  } else if(sleep.classList.contains("on") && idleMin < settings.blankMin){
+    sleep.classList.remove("on");
+  }
+}
+setInterval(checkBlanking, 10000);
+
+/* ----- slideshow ----- */
+var photos = [], order = [], oi = 0, cur = 0, front = 0, timer = null, paused = false;
+
+function shuffle(a){ a = a.slice();
+  for(var i = a.length - 1; i > 0; i--){ var j = Math.floor(Math.random() * (i + 1));
+    var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+
+function loadPhotos(){
+  fetch("../mission-control/photos.json", { cache: "no-store" })
+    .then(function(r){ if(!r.ok) throw new Error("http " + r.status); return r.json(); })
+    .then(function(d){
+      photos = Array.isArray(d) ? d : (d.photos || []);
+      if(photos.length === 0) throw new Error("empty");
+      order = settings.shuffle ? shuffle(photos.map(function(_, i){ return i; }))
+                               : photos.map(function(_, i){ return i; });
+      show(0);
+      startTimer();
+    })
+    .catch(function(){
+      document.getElementById("plate-meta").textContent = "No photos in mission-control/photos.json";
+    });
+}
+function photoUrl(p){ return p.url || p.src || ""; }
+
+function show(i){
+  cur = ((i % photos.length) + photos.length) % photos.length;
+  oi = order.indexOf(cur);
+  var next = front === 0 ? 1 : 0;
+  var img = document.getElementById("i" + next);
+  img.onload = function(){
+    document.getElementById("s" + next).classList.add("on");
+    document.getElementById("s" + front).classList.remove("on");
+    front = next;
+    var p = photos[cur];
+    document.getElementById("plate-title").textContent = p.title || "Untitled";
+    document.getElementById("plate-meta").textContent =
+      (p.location || "Vermont") + " · " + (cur + 1) + " / " + photos.length;
+    document.getElementById("info-title").textContent = p.title || "Untitled";
+    document.getElementById("info-sub").textContent = (p.location || "") + " · " + (cur + 1) + " of " + photos.length;
+    preload(order[(oi + 1) % order.length]);
+  };
+  img.onerror = function(){ step(1); };
+  img.src = photoUrl(photos[cur]);
+}
+function preload(i){
+  var im = new Image(); im.src = photoUrl(photos[i]);
+}
+function step(d){ show(order[((oi + d) % order.length + order.length) % order.length]); }
+function startTimer(){
+  stopTimer();
+  timer = setInterval(function(){ if(!paused) step(1); }, settings.interval * 1000);
+}
+function stopTimer(){ if(timer){ clearInterval(timer); timer = null; } }
+function setPaused(p){
+  paused = p;
+  document.body.classList.toggle("is-paused", p);
+  toast(p ? "Slideshow paused" : "Slideshow resumed");
+}
+
+/* ----- toast ----- */
+var toastT = null;
+function toast(msg){
+  var t = document.getElementById("toast");
+  t.textContent = msg; t.style.display = "block";
+  clearTimeout(toastT); toastT = setTimeout(function(){ t.style.display = "none"; }, 1800);
+}
+
+/* ----- info / settings overlays ----- */
+function openInfo(){ applyAmbient(); document.getElementById("infoOv").classList.add("open"); }
+function closeOverlays(){
+  document.getElementById("infoOv").classList.remove("open");
+  document.getElementById("setOv").classList.remove("open");
+}
+function anyOpen(){
+  return document.querySelector(".overlay.open") !== null;
+}
+function openSettings(){
+  document.getElementById("r-interval").value = settings.interval;
+  document.getElementById("r-blank").value = settings.blankMin;
+  document.getElementById("r-btrim").value = settings.bTrim;
+  document.getElementById("r-wtrim").value = settings.wTrim;
+  document.getElementById("sel-source").value = settings.source;
+  syncLabels();
+  var prof = innateProfile(emaLux.v || 50, emaTemp.v || 3000);
+  var learned = luxBucket !== null && learnedProfile(luxBucket, tempBucket);
+  document.getElementById("prof-note").innerHTML =
+    "Current light bucket: <b>" + (luxBucket === null ? "—" : (luxBucket * LUX_BUCKET) + "–" + ((luxBucket + 1) * LUX_BUCKET) + " lx") +
+    "</b> · " + (learned ? "you have <b>taught</b> this light a profile — it will be used automatically."
+                         : "no taught profile for this light yet — adjust trims and Save to teach it.");
+  document.getElementById("setOv").classList.add("open");
+}
+function syncLabels(){
+  document.getElementById("v-interval").textContent = document.getElementById("r-interval").value + "s";
+  document.getElementById("v-blank").textContent = document.getElementById("r-blank").value + " min";
+  document.getElementById("v-btrim").textContent = (document.getElementById("r-btrim").value >= 0 ? "+" : "") + document.getElementById("r-btrim").value;
+  document.getElementById("v-wtrim").textContent = (document.getElementById("r-wtrim").value >= 0 ? "+" : "") + document.getElementById("r-wtrim").value;
+}
+["r-interval","r-blank","r-btrim","r-wtrim"].forEach(function(id){
+  document.getElementById(id).addEventListener("input", syncLabels);
+});
+function settingsFocusables(){
+  return Array.prototype.slice.call(document.querySelectorAll("#setOv input, #setOv select, #setOv .btn"));
+}
+var setFocus = 0;
+function moveSetFocus(d){
+  var els = settingsFocusables();
+  els[setFocus].classList.remove("focus");
+  setFocus = (setFocus + els.length + d) % els.length;
+  els[setFocus].classList.add("focus");
+  els[setFocus].scrollIntoView({ block: "nearest" });
+}
+function activateSetFocus(){
+  var els = settingsFocusables(), el = els[setFocus];
+  if(el.id === "btn-save"){
+    settings.interval = +document.getElementById("r-interval").value;
+    settings.blankMin = +document.getElementById("r-blank").value;
+    settings.bTrim = +document.getElementById("r-btrim").value;
+    settings.wTrim = +document.getElementById("r-wtrim").value;
+    settings.source = document.getElementById("sel-source").value;
+    saveSettings();
+    /* teach this lighting bucket: snapshot current trims into a learned profile */
+    if(luxBucket !== null){
+      var prof = innateProfile(emaLux.v || 50, emaTemp.v || 3000);
+      prof.luminance = clamp(prof.luminance + settings.bTrim, 0, 100);
+      prof.warmth = clamp(prof.warmth + settings.wTrim, -500, 500);
+      saveLearned(luxBucket, tempBucket, prof);
+      toast("Saved — profile taught for this light");
+    } else toast("Settings saved");
+    closeOverlays(); startTimer(); applyAmbient();
+  } else if(el.id === "btn-reset"){
+    var keys = [];
+    for(var i = 0; i < localStorage.length; i++){
+      var k = localStorage.key(i);
+      if(k && k.indexOf("afp_") === 0) keys.push(k);
+    }
+    keys.forEach(function(k){ localStorage.removeItem(k); });
+    toast("Learned profiles cleared");
+  } else if(el.tagName === "SELECT"){
+    el.selectedIndex = (el.selectedIndex + 1) % el.options.length;
+  } else {
+    el.focus();
+  }
+}
+function adjustFocused(d){
+  var els = settingsFocusables(), el = els[setFocus];
+  if(el.type === "range"){
+    el.value = clamp(+el.value + d * (+el.step || 1), +el.min, +el.max);
+    el.dispatchEvent(new Event("input"));
+  } else if(el.tagName === "SELECT"){
+    el.selectedIndex = clamp(el.selectedIndex + d, 0, el.options.length - 1);
+  }
+}
+
+/* ----- remote control ----- */
+function isBack(e){
+  return e.key === "Escape" || e.key === "Backspace" || e.key === "GoBack" ||
+         e.keyCode === 10009 || e.keyCode === 461;
+}
+function wakeIfAsleep(){
+  var sleep = document.getElementById("sleep");
+  if(sleep.classList.contains("on")){
+    lastMotionAt = Date.now();
+    sleep.classList.remove("on");
+    toast("Welcome back");
+    return true;
+  }
+  return false;
+}
+document.addEventListener("keydown", function(e){
+  var sleepWasOn = wakeIfAsleep();
+  if(sleepWasOn){ e.preventDefault(); return; }
+  var setOpen = document.getElementById("setOv").classList.contains("open");
+  var infoOpen = document.getElementById("infoOv").classList.contains("open");
+
+  if(setOpen){
+    if(isBack(e)){ closeOverlays(); e.preventDefault(); return; }
+    if(e.key === "ArrowUp"){ moveSetFocus(-1); e.preventDefault(); return; }
+    if(e.key === "ArrowDown"){ moveSetFocus(1); e.preventDefault(); return; }
+    if(e.key === "ArrowLeft"){ adjustFocused(-1); e.preventDefault(); return; }
+    if(e.key === "ArrowRight"){ adjustFocused(1); e.preventDefault(); return; }
+    if(e.key === "Enter"){ activateSetFocus(); e.preventDefault(); return; }
+    return;
+  }
+  if(infoOpen){
+    if(isBack(e) || e.key === "Enter"){ closeOverlays(); e.preventDefault(); }
+    return;
+  }
+  if(isBack(e)){ openSettings(); e.preventDefault(); return; }
+  switch(e.key){
+    case "ArrowLeft": step(-1); e.preventDefault(); break;
+    case "ArrowRight": step(1); e.preventDefault(); break;
+    case "ArrowUp":
+    case "MediaPlayPause":
+    case "Play": case "Pause":
+      setPaused(!paused); e.preventDefault(); break;
+    case "ArrowDown": setPaused(!paused); e.preventDefault(); break;
+    case "Enter": openInfo(); e.preventDefault(); break;
+    case "m": case "M": openSettings(); e.preventDefault(); break;
+  }
+});
+
+/* ----- boot ----- */
+document.getElementById("btn-save").addEventListener("click", function(){
+  setFocus = settingsFocusables().indexOf(document.getElementById("btn-save"));
+  activateSetFocus();
+});
+document.getElementById("btn-reset").addEventListener("click", function(){
+  setFocus = settingsFocusables().indexOf(document.getElementById("btn-reset"));
+  activateSetFocus();
+});
+loadPhotos();
+pollSensor();
+</script>
+
+</body>
+</html>
