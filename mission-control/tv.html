@@ -859,16 +859,18 @@ document.addEventListener('keydown', e=>{
 /* ---------- data ---------- */
 async function load(){
   try{
-    const [r, b, h, p] = await Promise.all([
+    const [r, b, h, p, ib] = await Promise.all([
       fetch(STATUS_URL, {cache:'no-store'}),
       fetch('briefing.json', {cache:'no-store'}).catch(()=>null),
       fetch('hearing.json', {cache:'no-store'}).catch(()=>null),
       fetch('photos.json', {cache:'no-store'}).catch(()=>null),
+      fetch('../tv-inbox/inbox.json', {cache:'no-store'}).catch(()=>null),
     ]);
     const j = await r.json();
     try{ if(b && b.ok) briefingData = await b.json(); }catch(e){}
     try{ if(h && h.ok) hearingData = await h.json(); }catch(e){}
     try{ if(p && p.ok) photosData = await p.json(); }catch(e){}
+    try{ if(ib && ib.ok) checkInbox(await ib.json()); }catch(e){}
     render(j);
   }catch(e){
     document.getElementById('rows').innerHTML =
@@ -876,6 +878,33 @@ async function load(){
        <h2 style="margin:0 0 6px;font-size:40px">collector offline</h2>
        <div class="sub" style="font-size:24px">status.json unreachable — check the 5-min cron</div></div></div>`;
   }
+}
+
+// Send to TV: poll inbox, open new URLs
+function checkInbox(inbox){
+  if(!inbox || !Array.isArray(inbox.items)) return;
+  let seen = [];
+  try{ seen = JSON.parse(localStorage.getItem('tv_seen_inbox') || '[]'); }catch(e){}
+  const fresh = inbox.items.filter(it => it && it.id && it.url && !seen.includes(it.id));
+  if(fresh.length === 0) return;
+  // mark seen
+  seen = seen.concat(fresh.map(it => it.id)).slice(-50);
+  try{ localStorage.setItem('tv_seen_inbox', JSON.stringify(seen)); }catch(e){}
+  // open the most recent
+  const item = fresh[fresh.length - 1];
+  showInboxBanner(item.url);
+  setTimeout(()=>{ window.location.href = item.url; }, 3000);
+}
+function showInboxBanner(url){
+  let el = document.getElementById('inbox-banner');
+  if(!el){
+    el = document.createElement('div');
+    el.id = 'inbox-banner';
+    el.style.cssText = 'position:fixed;top:20px;left:50%;transform:translateX(-50%);background:#6c3ce0;color:#fff;padding:20px 32px;border-radius:12px;font-size:28px;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,0.5);';
+    document.body.appendChild(el);
+  }
+  el.textContent = '📲 Opening: ' + (url.length > 60 ? url.slice(0,60) + '...' : url);
+  el.style.display = 'block';
 }
 
 function tick(){
