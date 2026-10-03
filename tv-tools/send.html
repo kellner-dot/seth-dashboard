@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Send to TV</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; font-family: -apple-system, system-ui, sans-serif; background: #0f0f1a; color: #fff; min-height: 100vh; padding: 24px 16px; display: flex; flex-direction: column; align-items: center; }
+  h1 { font-size: 1.5em; margin: 16px 0 8px; }
+  p.sub { color: #888; text-align: center; max-width: 400px; margin: 0 0 24px; font-size: 15px; }
+  .card { background: #1a1a2e; border-radius: 12px; padding: 20px; width: 100%; max-width: 480px; margin-bottom: 16px; }
+  input { width: 100%; padding: 16px; border-radius: 10px; border: 1px solid #3d3d5c; background: #0f0f1a; color: #fff; font-size: 16px; margin-bottom: 12px; }
+  input:focus { outline: none; border-color: #6c3ce0; }
+  .btn { background: #6c3ce0; border: none; border-radius: 10px; color: #fff; padding: 16px; font-size: 17px; font-weight: bold; cursor: pointer; width: 100%; touch-action: manipulation; }
+  .btn:active { background: #7d4ff0; transform: scale(0.98); }
+  .btn:disabled { background: #3d3d5c; }
+  #status { text-align: center; padding: 12px; font-size: 15px; min-height: 48px; }
+  #status.ok { color: #4ade80; }
+  #status.err { color: #f87171; }
+  .settings { font-size: 13px; }
+  .settings input { padding: 10px; font-size: 13px; }
+  details { width: 100%; max-width: 480px; color: #888; font-size: 13px; }
+  summary { cursor: pointer; padding: 8px 0; }
+</style>
+</head>
+<body>
+<h1>📲➡️📺 Send to TV</h1>
+<p class="sub">Paste any video link — it'll open on your Fire Stick within a minute.</p>
+
+<div class="card">
+  <input type="url" id="url" placeholder="https://www.youtube.com/watch?v=..." autocomplete="off" autocapitalize="off">
+  <button class="btn" id="send">Send to TV</button>
+</div>
+<div id="status"></div>
+
+<details>
+  <summary>⚙️ Connection settings</summary>
+  <div class="card settings" style="margin-top:8px">
+    <input type="text" id="bridgeurl" placeholder="Bridge URL">
+    <input type="text" id="token" placeholder="Bridge token" autocomplete="off">
+    <button class="btn" id="save" style="padding:12px; font-size:14px">Save</button>
+  </div>
+</details>
+
+<script>
+const $ = id => document.getElementById(id);
+const status = $('status');
+function setStatus(m, c) { status.textContent = m; status.className = c || ''; }
+
+$('save').addEventListener('click', () => {
+  localStorage.setItem('rvg_base', $('bridgeurl').value.trim().replace(/\/$/, ''));
+  localStorage.setItem('rvg_token', $('token').value.trim());
+  setStatus('Saved ✓', 'ok');
+});
+
+$('send').addEventListener('click', async () => {
+  const url = $('url').value.trim();
+  const base = (localStorage.getItem('rvg_base') || '').replace(/\/$/, '');
+  const token = localStorage.getItem('rvg_token') || '';
+  if (!url) { setStatus('Paste a URL first', 'err'); return; }
+  if (!/^https?:\/\//i.test(url)) { setStatus('URL must start with http:// or https://', 'err'); return; }
+  if (!base || !token) { setStatus('Set bridge URL and token in settings first', 'err'); return; }
+  setStatus('Sending...', '');
+  $('send').disabled = true;
+  try {
+    const r = await fetch(base + '/rvd/send', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json', 'X-RVD-Token': token},
+      body: JSON.stringify({url, from: 'send-page'}),
+    });
+    const j = await r.json();
+    if (j.ok) {
+      setStatus('✓ Queued! Opening on your Fire Stick shortly.', 'ok');
+      $('url').value = '';
+    } else {
+      setStatus('✗ ' + (j.error || j.detail || 'failed'), 'err');
+    }
+  } catch(e) {
+    setStatus('✗ Connection failed. Are you on the tailnet?', 'err');
+  }
+  $('send').disabled = false;
+});
+
+// Pre-fill from query param (for iOS Shortcut integration)
+const q = new URLSearchParams(location.search);
+if (q.get('url')) $('url').value = q.get('url');
+
+// Load saved
+$('bridgeurl').value = localStorage.getItem('rvg_base') || 'http://100.88.106.125:8898';
+$('token').value = localStorage.getItem('rvg_token') || '';
+</script>
+</body>
+</html>
