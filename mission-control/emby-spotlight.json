@@ -1,0 +1,161 @@
+{
+ "generated": "emby-spotlight poller",
+ "movies": 5412,
+ "series": 33,
+ "episodes": 59,
+ "played": 13,
+ "unwatched": 5399,
+ "new_arrivals": [
+  {
+   "name": "Possessor",
+   "year": 2020,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 104,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Megalopolis",
+   "year": 2024,
+   "genres": [
+    "Science Fiction",
+    "Drama"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Inland Empire",
+   "year": 2006,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Cowboys & Aliens",
+   "year": 2011,
+   "genres": [
+    "Science Fiction",
+    "Western"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Big Fish",
+   "year": 2003,
+   "genres": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "The Invisible Man",
+   "year": 2020,
+   "genres": [
+    "Thriller",
+    "Science Fiction"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Bringing Out the Dead",
+   "year": 1999,
+   "genres": [
+    "Drama"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Okja",
+   "year": 2017,
+   "genres": [
+    "Adventure",
+    "Drama"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  }
+ ],
+ "continue_watching": [
+  {
+   "name": "The 'Burbs",
+   "year": 1989,
+   "genres": [
+    "Comedy",
+    "Horror"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 1434267937000,
+   "type": "Movie"
+  },
+  {
+   "name": "Baby Doll",
+   "year": 1982,
+   "genres": [
+    "Documentary"
+   ],
+   "runtime_min": 3,
+   "progress_pct": 40,
+   "type": "Movie"
+  },
+  {
+   "name": "AmateurAllure - Cute Blonde Gia OhMy Is A Fun Time",
+   "year": null,
+   "genres": [],
+   "runtime_min": 6,
+   "progress_pct": 87,
+   "type": "Movie"
+  },
+  {
+   "name": "AmateurAllure - Vic Marie Visits Amateur Allure For A Girl Suck and Fuck",
+   "year": null,
+   "genres": [],
+   "runtime_min": 5,
+   "progress_pct": 82,
+   "type": "Movie"
+  },
+  {
+   "name": "AmateurAllure - Sweet Lola Valentine Attends The Swallow Academy",
+   "year": null,
+   "genres": [],
+   "runtime_min": 6,
+   "progress_pct": 72,
+   "type": "Movie"
+  },
+  {
+   "name": "AmateurAllure - Horny Bartender Ally Berry Causes A Stir",
+   "year": null,
+   "genres": [],
+   "runtime_min": 6,
+   "progress_pct": 29,
+   "type": "Movie"
+  }
+ ],
+ "surprise_pick": {
+  "name": "Elke Allowing the Floor to Rise Up Over Her, Face Up (1973)",
+  "year": 1973,
+  "genres": [],
+  "runtime_min": 0,
+  "progress_pct": 0,
+  "type": "Movie",
+  "overview": "An avant-garde work by Bruce Nauman (1973), preserved in the UbuWeb archive of experimental film, video, and performance art."
+ }
+}
