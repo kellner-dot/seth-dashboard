@@ -1,6 +1,6 @@
 {
- "generated_at": 1791057530,
- "generated_iso": "2026-10-03T19:58:50+0000",
+ "generated_at": 1791057838,
+ "generated_iso": "2026-10-03T20:03:58+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [
@@ -9,14 +9,14 @@
    "icon": "\ud83d\udcf1",
    "title": "iPhone offline",
    "message": "iPhone not reachable on Tailnet.",
-   "at": "2026-10-03T19:58:50+0000"
+   "at": "2026-10-03T20:03:58+0000"
   },
   {
    "severity": "warn",
    "icon": "\ud83d\udcf1",
    "title": "Razr+ offline",
    "message": "Razr+ not reachable on Tailnet.",
-   "at": "2026-10-03T19:58:50+0000"
+   "at": "2026-10-03T20:03:58+0000"
   }
  ],
  "github": {
@@ -65,7 +65,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 69671,
+   "uptime_s": 69980,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
