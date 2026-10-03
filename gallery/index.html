@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1.0">
+<title>Light Leaks Gallery</title>
+<meta name="theme-color" content="#04060c">
+<style>
+  :root{
+    --bg:#04060c;
+    --txt:#f2f6fc; --dim:#a9b4c8; --faint:#5f6b85;
+    --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6;
+    --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+    --focus:#6ee7ff;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{min-height:100%;}
+  body{
+    margin:0; color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,sans-serif;
+    background:var(--bg); font-size:26px; overflow-x:hidden;
+  }
+  body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(1400px 700px at 12% -5%, rgba(110,231,255,.07), transparent 60%),
+      radial-gradient(1200px 800px at 92% 8%, rgba(167,139,250,.08), transparent 60%),
+      radial-gradient(1000px 900px at 50% 110%, rgba(244,114,182,.05), transparent 60%);}
+  .wrap{position:relative; z-index:1; padding-bottom:120px;}
+
+  /* ============ top bar ============ */
+  .topbar{position:sticky; top:0; z-index:40; display:flex; align-items:center; justify-content:space-between;
+    padding:16px 64px 14px;
+    background:linear-gradient(180deg, rgba(4,6,12,.96) 0%, rgba(4,6,12,.82) 65%, transparent 100%);}
+  .brand{display:flex; align-items:center; gap:20px;}
+  .logo{width:64px; height:64px; border-radius:18px; display:grid; place-items:center; flex:none;
+    background:conic-gradient(from 200deg,#f472b6,#a78bfa,#6ee7ff,#f472b6);
+    box-shadow:0 0 28px rgba(244,114,182,.45), inset 0 0 0 2px rgba(255,255,255,.25);}
+  .logo svg{width:36px;height:36px;}
+  .brand h1{margin:0; font-size:38px; letter-spacing:6px; font-weight:800;
+    background:linear-gradient(92deg,#fff 10%,var(--acc3) 45%,var(--acc2) 75%,var(--acc1));
+    -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .brand .sub{font-size:20px; color:var(--faint); letter-spacing:3px; font-weight:600;}
+  .top-right{display:flex; align-items:center; gap:26px;}
+  #clock{font-size:44px; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:2px; line-height:1;
+    background:linear-gradient(180deg,#fff,#9db4d0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  #slideshow-badge{display:none; font-size:22px; font-weight:800; letter-spacing:2px; color:var(--acc1);
+    border:2px solid rgba(110,231,255,.45); border-radius:99px; padding:8px 22px;
+    background:rgba(110,231,255,.08);}
+
+  /* ============ hero strip ============ */
+  .hero{margin:6px 64px 0; border-radius:30px; overflow:hidden; position:relative;
+    border:1px solid rgba(255,255,255,.09); box-shadow:0 30px 80px rgba(0,0,0,.55);
+    background:linear-gradient(115deg,#14090f 0%, #0a0f1e 55%, #160b16 100%);
+    min-height:300px; display:flex; align-items:center;}
+  .hero .bg{position:absolute; inset:0;
+    background:
+      radial-gradient(900px 420px at 78% 20%, rgba(244,114,182,.18), transparent 65%),
+      radial-gradient(700px 380px at 15% 85%, rgba(110,231,255,.14), transparent 65%);}
+  .hero .content{position:relative; z-index:2; padding:48px 60px;}
+  .hero .kicker{font-size:24px; font-weight:800; letter-spacing:6px; color:var(--acc3); margin-bottom:12px; text-transform:uppercase;}
+  .hero h2{margin:0 0 10px; font-size:72px; font-weight:800; letter-spacing:1px; line-height:1.05;
+    background:linear-gradient(180deg,#fff 30%,#b9c7de); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .hero .sub{font-size:30px; color:var(--dim); font-weight:600;}
+  .hero .hints{margin-top:18px; font-size:24px; color:var(--faint);}
+  .hero .hints b{color:var(--dim);}
+
+  /* ============ album grid ============ */
+  .album-sec{margin-top:38px;}
+  .row-label{display:flex; align-items:center; gap:16px; padding:0 64px; margin-bottom:14px;}
+  .row-label span{font-size:30px; font-weight:800; letter-spacing:5px; color:#cdd6e6; text-transform:uppercase; white-space:nowrap;}
+  .row-label .cnt{font-size:22px; color:var(--faint); letter-spacing:2px; font-weight:600;}
+  .grid{padding:10px 64px 40px; display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(400px,1fr)); gap:34px;}
+
+  .poster{position:relative; border-radius:22px; overflow:hidden; background:#0b101d;
+    border:3px solid transparent; transition:transform .22s ease, border-color .22s ease;
+    outline:none; cursor:pointer;}
+  .poster .art{position:relative; aspect-ratio:16/9; display:grid; place-items:center; overflow:hidden;}
+  .poster .art img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;}
+  .poster .art .ph{position:absolute; inset:0; z-index:0;
+    background:linear-gradient(135deg,#3b1f5e,#141021 60%,#0b101d);
+    display:grid; place-items:center;}
+  .poster .art .ph::after{content:""; position:absolute; inset:0;
+    background:radial-gradient(420px 260px at 30% 20%, rgba(244,114,182,.22), transparent 60%),
+               radial-gradient(420px 260px at 75% 80%, rgba(110,231,255,.18), transparent 60%);}
+  .poster .art::after{content:""; position:absolute; inset:auto 0 0 0; height:44%; z-index:1;
+    background:linear-gradient(180deg, transparent, rgba(2,4,8,.78)); pointer-events:none;}
+  .poster .pinfo{padding:20px 24px 22px; position:relative; z-index:2;}
+  .poster .pt{font-size:31px; font-weight:800; letter-spacing:.3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .poster .ps{font-size:23px; color:var(--dim); margin-top:8px;}
+  .poster .idx{position:absolute; top:14px; right:16px; z-index:3; font-size:20px; font-weight:700;
+    color:#fff; background:rgba(0,0,0,.5); padding:6px 14px; border-radius:99px; letter-spacing:1px;}
+  .poster.focused{transform:scale(1.05); border-color:var(--focus); z-index:5;
+    box-shadow:0 18px 60px rgba(110,231,255,.25);}
+
+  /* ============ fullscreen viewer ============ */
+  #viewer{display:none; position:fixed; inset:0; z-index:100; background:#000;}
+  #viewer.open{display:block;}
+  #viewer .slide{position:absolute; inset:0; opacity:0; transition:opacity 1.1s ease;}
+  #viewer .slide.on{opacity:1;}
+  #viewer .slide img{position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#000;}
+  #viewer .slide .ph{position:absolute; inset:0;
+    background:linear-gradient(135deg,#3b1f5e,#141021 60%,#000);
+    display:grid; place-items:center;}
+  #viewer .slide .ph .big{font-size:64px; font-weight:800; color:rgba(255,255,255,.85); letter-spacing:2px; text-align:center; padding:0 120px;}
+  #caption{position:absolute; left:0; right:0; bottom:0; z-index:5; padding:70px 80px 54px;
+    background:linear-gradient(180deg, transparent, rgba(2,4,8,.9));
+    transition:opacity .4s ease, transform .4s ease;}
+  #caption.hidden{opacity:0; transform:translateY(30px); pointer-events:none;}
+  #caption .c-title{font-size:56px; font-weight:800; letter-spacing:1px; margin-bottom:8px;
+    background:linear-gradient(180deg,#fff 30%,#b9c7de); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  #caption .c-loc{font-size:32px; color:var(--acc1); font-weight:600; letter-spacing:2px; margin-bottom:14px;}
+  #caption .c-exif{display:flex; gap:34px; flex-wrap:wrap; font-size:27px; color:var(--dim);}
+  #caption .c-exif b{color:var(--txt); font-weight:700;}
+  #caption .c-exif .dash{color:var(--faint);}
+  #ambient-tag{display:none; position:absolute; top:44px; right:60px; z-index:6;
+    font-size:24px; font-weight:800; letter-spacing:3px; color:var(--acc1);
+    border:2px solid rgba(110,231,255,.5); border-radius:99px; padding:10px 26px; background:rgba(0,0,0,.55);}
+  #ambient-tag.on{display:block;}
+  #shuffle-tag{display:none; position:absolute; top:44px; right:400px; z-index:6;
+    font-size:24px; font-weight:800; letter-spacing:3px; color:var(--acc3);
+    border:2px solid rgba(244,114,182,.5); border-radius:99px; padding:10px 26px; background:rgba(0,0,0,.55);}
+  #shuffle-tag.on{display:block;}
+  .empty-note{padding:40px 64px; font-size:30px; color:var(--faint);}
+
+  /* ============ help footer ============ */
+  .help{position:fixed; bottom:0; left:0; right:0; z-index:40; padding:14px 64px;
+    background:linear-gradient(0deg, rgba(4,6,12,.94), rgba(4,6,12,.75));
+    font-size:23px; color:var(--faint); display:flex; gap:36px; letter-spacing:1px;}
+  .help b{color:var(--dim);}
+  #viewer.open ~ .help{display:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
+      <div>
+        <h1>LIGHT LEAKS</h1>
+        <div class="sub">SETH KELLNER &middot; PHOTOGRAPHY</div>
+      </div>
+    </div>
+    <div class="top-right">
+      <div id="slideshow-badge">&#9654; AMBIENT</div>
+      <div id="clock">--:--</div>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="bg"></div>
+    <div class="content">
+      <div class="kicker">Portfolio</div>
+      <h2>Light Leaks Gallery</h2>
+      <div class="sub">Seth's photography, on the big screen.</div>
+      <div class="hints"><b>Arrows</b> move &middot; <b>OK</b> open photo &middot; <b>P</b> ambient slideshow &middot; <b>Back</b> exit</div>
+    </div>
+  </div>
+
+  <div class="album-sec">
+    <div class="row-label"><span>The Collection</span><span class="cnt" id="count"></span></div>
+    <div class="grid" id="grid"></div>
+  </div>
+</div>
+
+<div id="viewer">
+  <div class="slide" id="slideA"></div>
+  <div class="slide" id="slideB"></div>
+  <div id="ambient-tag">&#9654; AMBIENT SLIDESHOW</div>
+  <div id="shuffle-tag">&#8646; SHUFFLE ON</div>
+  <div id="caption">
+    <div class="c-title" id="c-title"></div>
+    <div class="c-loc" id="c-loc"></div>
+    <div class="c-exif" id="c-exif"></div>
+  </div>
+</div>
+
+<div class="help">
+  <span><b>Arrows</b> navigate</span>
+  <span><b>OK</b> open photo / caption on-off</span>
+  <span><b>P</b> ambient slideshow</span>
+  <span><b>S</b> shuffle (ambient)</span>
+  <span><b>Back</b> exit</span>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var DATA_URL = "../mission-control/photos.json";
+  var photos = [];
+  var focusIdx = 0;
+  var viewerOpen = false;
+  var ambient = false;
+  var shuffle = false;
+  var cur = 0;
+  var timer = null;
+  var activeSlide = "A";
+
+  /* ---------- clock ---------- */
+  function tickClock(){
+    var d = new Date();
+    var h = d.getHours(), m = d.getMinutes();
+    var ap = h >= 12 ? "PM" : "AM"; h = h % 12; if(h === 0) h = 12;
+    document.getElementById("clock").textContent = h + ":" + (m < 10 ? "0"+m : m) + " " + ap;
+  }
+  tickClock(); setInterval(tickClock, 15000);
+
+  /* ---------- data ---------- */
+  function exifOf(p){
+    var e = p.exif || p.meta || {};
+    var parts = [
+      ["Camera", e.camera || p.camera || ""],
+      ["Lens", e.lens || p.lens || ""],
+      ["Aperture", e.aperture || p.aperture || ""],
+      ["Shutter", e.shutter || p.shutter || ""],
+      ["ISO", e.iso || p.iso || ""]
+    ];
+    var html = "";
+    for(var i = 0; i < parts.length; i++){
+      var v = parts[i][1];
+      html += "<span>" + parts[i][0] + " <b>" + (v ? escapeHtml(String(v)) : "<span class='dash'>&mdash;</span>") + "</b></span>";
+    }
+    return html;
+  }
+  function escapeHtml(s){
+    return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+  function srcOf(p){ return p.url || p.src || ""; }
+
+  function buildGrid(){
+    var grid = document.getElementById("grid");
+    grid.innerHTML = "";
+    document.getElementById("count").textContent = photos.length + (photos.length === 1 ? " photo" : " photos");
+    if(photos.length === 0){
+      grid.innerHTML = "<div class='empty-note'>No photos yet. Add entries to mission-control/photos.json to see them here.</div>";
+      return;
+    }
+    photos.forEach(function(p, i){
+      var card = document.createElement("div");
+      card.className = "poster";
+      card.setAttribute("data-i", i);
+      var src = srcOf(p);
+      var art = src
+        ? "<img src='" + src + "' alt='' loading='lazy'>"
+        : "<div class='ph'></div>";
+      card.innerHTML =
+        "<div class='art'>" + art + "<span class='idx'>" + (i+1) + " / " + photos.length + "</span></div>" +
+        "<div class='pinfo'><div class='pt'>" + escapeHtml(p.title || ("Photo " + (i+1))) + "</div>" +
+        "<div class='ps'>" + escapeHtml(p.location || "") + "</div></div>";
+      grid.appendChild(card);
+    });
+    applyFocus();
+  }
+
+  function cardAt(i){
+    return document.querySelector(".poster[data-i='" + i + "']");
+  }
+  function applyFocus(){
+    var cards = document.querySelectorAll(".poster");
+    for(var j = 0; j < cards.length; j++) cards[j].classList.remove("focused");
+    var c = cardAt(focusIdx);
+    if(c){ c.classList.add("focused"); c.scrollIntoView({block:"nearest", behavior:"smooth"}); }
+  }
+  function columns(){
+    if(photos.length === 0) return 1;
+    var first = cardAt(0);
+    if(!first) return 1;
+    var top = first.offsetTop, n = 0;
+    for(var i = 0; i < photos.length; i++){
+      var c = cardAt(i);
+      if(!c || c.offsetTop !== top) break;
+      n++;
+    }
+    return Math.max(1, n);
+  }
+  function move(dr, dc){
+    if(photos.length === 0) return;
+    var cols = columns();
+    var rows = Math.ceil(photos.length / cols);
+    var row = Math.floor(focusIdx / cols), col = focusIdx % cols;
+    if(dc !== 0){
+      var i = focusIdx + dc;
+      if(i < 0) i = 0;
+      if(i >= photos.length) i = photos.length - 1;
+      if(i !== focusIdx){ focusIdx = i; applyFocus(); }
+      return;
+    }
+    var r2 = row + dr;
+    if(r2 < 0 || r2 >= rows) return;
+    var t = Math.min(r2 * cols + col, photos.length - 1);
+    if(t !== focusIdx){ focusIdx = t; applyFocus(); }
+  }
+
+  /* ---------- viewer ---------- */
+  function slideEl(name){ return document.getElementById("slide" + name); }
+  function renderSlide(name, p, i){
+    var el = slideEl(name);
+    var src = srcOf(p);
+    el.innerHTML = src
+      ? "<img src='" + src + "' alt=''>"
+      : "<div class='ph'><div class='big'>" + escapeHtml(p.title || ("Photo " + (i+1))) + "</div></div>";
+  }
+  function updateCaption(){
+    var p = photos[cur];
+    if(!p) return;
+    document.getElementById("c-title").textContent = p.title || ("Photo " + (cur+1));
+    document.getElementById("c-loc").textContent = p.location || "";
+    document.getElementById("c-exif").innerHTML = exifOf(p);
+  }
+  function showPhoto(i){
+    if(photos.length === 0) return;
+    cur = ((i % photos.length) + photos.length) % photos.length;
+    var next = activeSlide === "A" ? "B" : "A";
+    renderSlide(next, photos[cur], cur);
+    slideEl(next).classList.add("on");
+    slideEl(activeSlide).classList.remove("on");
+    activeSlide = next;
+    updateCaption();
+  }
+  function openViewer(i){
+    if(photos.length === 0) return;
+    viewerOpen = true;
+    document.getElementById("viewer").classList.add("open");
+    document.getElementById("caption").classList.remove("hidden");
+    showPhoto(i);
+  }
+  function closeViewer(){
+    viewerOpen = false;
+    stopAmbient();
+    document.getElementById("viewer").classList.remove("open");
+    applyFocus();
+  }
+  function toggleCaption(){
+    document.getElementById("caption").classList.toggle("hidden");
+  }
+
+  /* ---------- ambient autoplay ---------- */
+  function shuffleOrder(){
+    var idx = [];
+    for(var i = 0; i < photos.length; i++) idx.push(i);
+    for(var j = idx.length - 1; j > 0; j--){
+      var k = Math.floor(Math.random() * (j + 1));
+      var t = idx[j]; idx[j] = idx[k]; idx[k] = idx[j];
+    }
+    if(idx.length > 1 && idx[0] === cur){ var t2 = idx[0]; idx[0] = idx[1]; idx[1] = t2; }
+    return idx;
+  }
+  var order = [], oi = 0;
+  function ambientStep(){
+    if(order.length === 0){ order = shuffle ? shuffleOrder() : photos.map(function(_,x){return x;}); oi = 0; }
+    showPhoto(order[oi % order.length]);
+    oi++;
+    if(oi >= order.length) order = [];
+  }
+  function startAmbient(){
+    if(photos.length === 0) return;
+    ambient = true;
+    if(!viewerOpen){ viewerOpen = true; document.getElementById("viewer").classList.add("open"); }
+    document.getElementById("ambient-tag").classList.add("on");
+    document.getElementById("slideshow-badge").style.display = "block";
+    document.getElementById("shuffle-tag").classList.toggle("on", shuffle);
+    order = shuffle ? shuffleOrder() : photos.map(function(_,x){return x;});
+    oi = 0;
+    showPhoto(order[0]); oi = 1;
+    if(timer) clearInterval(timer);
+    timer = setInterval(ambientStep, 8000);
+  }
+  function stopAmbient(){
+    ambient = false;
+    order = []; oi = 0;
+    if(timer){ clearInterval(timer); timer = null; }
+    document.getElementById("ambient-tag").classList.remove("on");
+    document.getElementById("slideshow-badge").style.display = "none";
+    document.getElementById("shuffle-tag").classList.remove("on");
+  }
+  function toggleAmbient(){
+    if(ambient){ stopAmbient(); }
+    else { startAmbient(); }
+  }
+  function toggleShuffle(){
+    shuffle = !shuffle;
+    document.getElementById("shuffle-tag").classList.toggle("on", shuffle && ambient);
+  }
+
+  /* ---------- keyboard (DPAD) ---------- */
+  function isBack(e){
+    return e.key === "Escape" || e.key === "Backspace" || e.key === "GoBack" ||
+           e.keyCode === 10009 || e.keyCode === 461;
+  }
+  document.addEventListener("keydown", function(e){
+    var k = e.key;
+    if(viewerOpen){
+      if(k === "ArrowRight" && !ambient){ showPhoto(cur + 1); e.preventDefault(); return; }
+      if(k === "ArrowLeft" && !ambient){ showPhoto(cur - 1); e.preventDefault(); return; }
+      if(k === "ArrowRight" || k === "ArrowLeft"){ e.preventDefault(); return; }
+      if(k === "Enter"){ toggleCaption(); e.preventDefault(); return; }
+      if(k === "p" || k === "P"){ toggleAmbient(); e.preventDefault(); return; }
+      if(k === "s" || k === "S"){ toggleShuffle(); e.preventDefault(); return; }
+      if(isBack(e)){ closeViewer(); e.preventDefault(); return; }
+      return;
+    }
+    switch(k){
+      case "ArrowLeft": move(0, -1); e.preventDefault(); break;
+      case "ArrowRight": move(0, 1); e.preventDefault(); break;
+      case "ArrowUp": move(-1, 0); e.preventDefault(); break;
+      case "ArrowDown": move(1, 0); e.preventDefault(); break;
+      case "Enter":
+        if(photos.length > 0){ focusIdx = Math.max(0, Math.min(focusIdx, photos.length - 1)); openViewer(focusIdx); }
+        e.preventDefault(); break;
+      case "p": case "P":
+        if(photos.length > 0) startAmbient();
+        e.preventDefault(); break;
+    }
+  });
+
+  /* ---------- load ---------- */
+  fetch(DATA_URL, {cache: "no-cache"})
+    .then(function(r){ if(!r.ok) throw new Error("http " + r.status); return r.json(); })
+    .then(function(d){
+      var list = Array.isArray(d) ? d : (d.photos || []);
+      photos = list.filter(function(p){ return p && (p.url || p.src || p.title); });
+      buildGrid();
+    })
+    .catch(function(){ photos = []; buildGrid(); });
+})();
+</script>
+</body>
+</html>
