@@ -277,6 +277,15 @@
   footer .live-tag{color:var(--ok);}
   .err-hero{text-align:center; padding:80px 40px;}
   .err-hero .big{font-size:80px; margin-bottom:16px;}
+
+  .poster{cursor:pointer;}
+  .ov-x{margin-left:auto; font-size:34px; color:var(--dim); cursor:pointer; padding:8px 14px; border-radius:12px; border:2px solid transparent;}
+  .ov-x:hover{color:#fff; border-color:rgba(110,231,255,.4); background:rgba(255,255,255,.06);}
+  .ov-actions{display:flex; gap:18px; margin-top:30px;}
+  .ov-btn{font-size:28px; font-weight:700; padding:18px 40px; border-radius:16px; border:none; cursor:pointer;
+    background:linear-gradient(135deg,#22d3ee,#3b82f6); color:#04121a;}
+  .ov-btn:active{transform:scale(.96);}
+  .ov-btn.ghost{background:rgba(255,255,255,.08); color:#fff; border:2px solid rgba(255,255,255,.2);}
 </style>
 </head>
 <body>
@@ -457,7 +466,7 @@ function embyCard(lib, sessions){
     + rowline('🎞️ Episodes', `<b>${lib.episodes!=null?lib.episodes:'—'}</b>`)
     + rowline('▶️ Streams', nSess?`<span class="ok">● ${nSess}</span>`:'<span class="dim">none</span>')
     + (recent?`<div class="sesslbl">🆕 Recently added</div>${recent}`:'');
-  return {id:'emby', cls:'k-emby', icon:'film', title:'Emby Library', sub:'movies & tv',
+  return {id:'emby', cls:'k-emby', icon:'film', title:'Emby Library', sub:'movies & tv', url:'http://sethserver.freeddns.org:8096',
     dot, pill:pill(lib.movies!=null?'on':'na', lib.movies!=null?'indexed':'syncing'), body, detail:body};
 }
 
@@ -474,7 +483,7 @@ function teraboxCard(tb, uploaders){
       + rowline('⬆️ Uploaders', `<b>${uploaders||0}</b>`)
     : rowline('💾 Storage', '<span class="dim">unavailable</span>')
       + rowline('⬆️ Uploaders', `<b>${uploaders||0}</b>`);
-  return {id:'terabox', cls:'k-tb', icon:'cloud', title:'TeraBox', sub:'cloud · tb-direct',
+  return {id:'terabox', cls:'k-tb', icon:'cloud', title:'TeraBox', sub:'cloud · tb-direct', url:'https://www.terabox.com',
     dot, pill:pill(has?'on':'na', has?Math.round(pct)+'% used':'syncing'), body, detail:body};
 }
 
@@ -490,10 +499,10 @@ function biglybtCard(bb){
 
 function appleMusicCard(){
   const body =
-      rowline('🎧 Player', `<a class="ext">music.apple.com ↗</a>`)
-    + rowline('🎤 Artist', `<a class="ext">The Artful Dodger ↗</a>`)
+      rowline('🎧 Player', `<a class="ext" href="https://music.apple.com" target="_self">music.apple.com ↗</a>`)
+    + rowline('🎤 Artist', `<a class="ext" href="https://suno.com" target="_self">The Artful Dodger ↗</a>`)
     + `<div class="stub">🎵 RouteNote activated 2026-10-03 — releases land here on delivery.</div>`;
-  return {id:'applemusic', cls:'k-am', icon:'applemusic', title:'Apple Music', sub:'The Artful Dodger',
+  return {id:'applemusic', cls:'k-am', icon:'applemusic', title:'Apple Music', sub:'The Artful Dodger', url:'https://music.apple.com',
     dot:`<span class="dotlive na"></span>`, pill:pill('na','web player'), body, detail:body};
 }
 
@@ -518,7 +527,7 @@ function githubCard(g){
     + `<div class="sesslbl">🌍 Live Pages</div>`
     + `<div class="sess"><b>seth-dashboard</b> ↗</div>`
     + `<div class="sess"><b>theartfuldodger-site</b> ↗</div>`;
-  return {id:'github', cls:'k-gh', icon:'github', title:'GitHub', sub:'kellner-dot',
+  return {id:'github', cls:'k-gh', icon:'github', title:'GitHub', sub:'kellner-dot', url:'https://github.com/kellner-dot',
     dot, pill:pill(total>0, total>0?total+' repos':'syncing'), body, detail:body};
 }
 
@@ -548,7 +557,7 @@ function calendarCard(){
     const label=dt.toLocaleDateString('en-US',{month:'short',day:'numeric'});
     return `<div class="sess"><b>${label}</b> · ${it.t}${it.d===tstr?'<span class="cal-today">TODAY</span>':''}${it.s?`<br><span class="dim">${it.s}</span>`:''}</div>`;
   }).join('');
-  return {id:'calendar', cls:'k-cal', icon:'calendar', title:'Calendar', sub:'upcoming dates',
+  return {id:'calendar', cls:'k-cal', icon:'calendar', title:'Calendar', sub:'upcoming dates', url:'https://calendar.google.com',
     dot:`<span class="dotlive on"></span>`, pill:pill('on','5 events'), body, detail:body};
 }
 
@@ -970,10 +979,10 @@ function move(dr, dc){
 
 /* ---------- overlay ---------- */
 function openOverlay(){
-  let icon='bolt', title='', sub='', dot='', pillHtml='', detail='';
+  let icon='bolt', title='', sub='', dot='', pillHtml='', detail='', url='';
   if(focus.zone==='hero'){
     const s=heroSubject; if(!s) return;
-    if(s.type==='device'&&s.card){ ({icon,title,sub,dot}=s.card); pillHtml=s.card.pill; detail=s.card.detail; }
+    if(s.type==='device'&&s.card){ ({icon,title,sub,dot}=s.card); pillHtml=s.card.pill; detail=s.card.detail; url=s.card.url||''; }
     else if(s.type==='briefing'){
       const b=briefingData||{headline:'Kavi Briefing',greeting:'',bullets:[],one_thing:''};
       icon='bolt'; title=b.headline||'Kavi Briefing'; sub='morning digest'; dot='<span class="dotlive on"></span>';
@@ -989,14 +998,22 @@ function openOverlay(){
     }
   } else {
     const c=currentCard(); if(!c||c.isAction) return;
-    ({icon,title,sub,dot}=c); pillHtml=c.pill; detail=c.detail;
+    ({icon,title,sub,dot}=c); pillHtml=c.pill; detail=c.detail; url=c.url||'';
   }
   document.getElementById('ov-card').innerHTML=
     `<div class="ov-head"><div class="ov-icon">${ICONS[icon]||''}</div>
      <div><h2>${title}</h2><div class="osub">${sub||''}</div></div>
-     <div style="flex:1"></div>${dot}</div>
+     <div class="ov-x" id="ov-x" title="Close">✕</div></div>
+     ${dot}
      <div>${pillHtml}</div>${detail}
-     <div class="hint">Press <b>Back</b> to close</div>`;
+     <div class="ov-actions">`+
+       (url?`<button class="ov-btn" id="ov-open">Open →</button>`:'')+
+       `<button class="ov-btn ghost" id="ov-close-btn">Close</button></div>
+     <div class="hint"><b>OK</b> open &nbsp;&middot;&nbsp; <b>Back</b> close</div>`;
+  document.getElementById('ov-x').onclick=closeOverlay;
+  document.getElementById('ov-close-btn').onclick=closeOverlay;
+  const ob=document.getElementById('ov-open');
+  if(ob) ob.onclick=()=>{ if(url) window.location.href=url; };
   document.getElementById('overlay').classList.add('open');
 }
 function closeOverlay(){ document.getElementById('overlay').classList.remove('open'); }
@@ -1038,6 +1055,28 @@ async function checkForUpdate(){
   }catch(e){}
 }
 
+
+/* ---------- mouse / touch clicks (event delegation) ---------- */
+document.getElementById('rows').addEventListener('click', e=>{
+  const p=e.target.closest('.poster'); if(!p) return;
+  const sec=p.closest('.row-sec'); if(!sec||!ROWS.length) return;
+  const ri=+sec.dataset.sec, ci=ROWS[ri].cards.findIndex(c=>c.id===p.dataset.id);
+  if(ci<0) return;
+  focus={zone:'rows',r:ri,c:ci}; applyFocus();
+  const c=ROWS[ri].cards[ci];
+  if(c.isAction) runCardAction(c); else openOverlay();
+});
+document.getElementById('hero-actions').addEventListener('click', e=>{
+  const b=e.target.closest('[data-ha]'); if(!b) return;
+  focus={zone:'hero',r:0,c:+b.dataset.ha}; applyFocus(); runHeroAction(+b.dataset.ha);
+});
+document.getElementById('overlay').addEventListener('click', e=>{
+  if(e.target.id==='overlay') closeOverlay();
+});
+document.getElementById('photoframe').addEventListener('click', e=>{
+  if(e.target.id==='photoframe') closePhotoFrame();
+});
+
 /* ---------- DPAD / keyboard ---------- */
 document.addEventListener('keydown', e=>{
   const k=e.key;
@@ -1048,6 +1087,7 @@ document.addEventListener('keydown', e=>{
     return;
   }
   if(overlayOpen()){
+    if(k==='Enter'){ const ob=document.getElementById('ov-open'); if(ob){ ob.click(); e.preventDefault(); } return; }
     if(k==='Escape'||k==='Backspace'||k==='GoBack'){ closeOverlay(); e.preventDefault(); }
     return;
   }
