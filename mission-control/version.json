@@ -1,0 +1,14 @@
+{
+  "missioncontrol": {
+    "build": 3,
+    "version": "0.1.0",
+    "updated": "2026-10-03",
+    "notes": "TV dashboard with fancy gradient icons, DPAD navigation"
+  },
+  "iptvplayer": {
+    "build": 1,
+    "version": "0.1.0",
+    "updated": "2026-10-03",
+    "notes": "Initial release - TV Navigator IPTV web player wrapper"
+  }
+}
