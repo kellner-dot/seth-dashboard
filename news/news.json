@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-04T03:27:49+0000",
- "updated_ts": 1791084469,
+ "updated": "2026-10-04T03:57:49+0000",
+ "updated_ts": 1791086269,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Inside Anthropic's Quest to Instill Morality into Its A.I. Models",
+     "summary": "Comments",
+     "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+     "time": "Sun, 04 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "We're going to need default hard budget caps on pretty much everything",
      "summary": "Comments",
@@ -27,13 +34,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Hole Punch: Sling your spaceship around gravitational fields",
-     "summary": "Comments",
-     "url": "https://notoriousbfg.com/hole-punch/",
-     "time": "Sat, 03 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "The work by Valve's Timur Krist\u00f3f on improving old AMD GPUs on Linux",
      "summary": "Comments",
      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Reasons I didn't become an EMT, ranked",
+     "title": "Hole Punch: Sling your spaceship around gravitational fields",
      "summary": "Comments",
-     "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+     "url": "https://notoriousbfg.com/hole-punch/",
      "time": "Sat, 03 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,7 +137,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Coast Guard searching for missing medical plane carrying 6 people",
+     "title": "Coast Guard finds debris from medical plane carrying 6 people",
      "summary": "Flight data shows the jet dropped at least 9,000 feet over two minutes, then leveled off for several more minutes, before disappearing.",
      "url": "https://www.npr.org/2026/10/03/g-s1-146338/plane-missing-coast-guard-search-massachusetts",
      "time": "Sat, 03 Oct 2026",
