@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T15:27:45+0000",
+ "generated_iso": "2026-10-04T15:37:44+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -26,7 +26,7 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] GET /",
      "c": "ok"
     },
     {
