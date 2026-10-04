@@ -1,10 +1,19 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T20:16:38+0000",
+ "generated_iso": "2026-10-04T20:46:44+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "2026-10-04 16:44:54.467 Warn VideoService-0HNP0T5I41AED:00000001: AUTH-ERROR: 127.0.0.1 - Access token is invalid or expired.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 16:44:54.467 Error VideoService-0HNP0T5I41AED:00000001: Access token is invalid or expired.",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,18 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T15:01:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04 19:09 relay redeployed: reverted to 302 redirect (playlist-serving broke segments, ffmpeg 400 on empty PlaySessionId). Single listener pid ",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T15:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T15:31:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
@@ -56,6 +53,18 @@
     {
      "t": "[supervision.lo] 2026-10-04T16:01:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T16:16:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T16:31:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T16:46:42-04:00 [relay-supervisor] WARN: relay health check failed; attempting restart",
+     "c": "err"
     }
    ]
   }
