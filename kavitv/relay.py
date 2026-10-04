@@ -5,13 +5,11 @@ Why it exists: the M3U playlist (kavitv.m3u on GitHub Pages) is public and
 credential-free. Each channel entry points here; the relay resolves the
 channel's CURRENT program and serves Emby's HLS media playlist for it.
 
-v0.3.0: full server-side HLS resolution. The relay mints a PlaySessionId,
-fetches Emby's master playlist, follows to the media playlist, and returns
-it with absolute segment URLs. Emby echoes the client-supplied PlaySessionId
-into every segment URL — without it, segments come back with a blank
-PlaySessionId and Emby 400s them, so playback can never start. (v0.2.0
-proxied only the master playlist; the media playlist it pointed at still
-carried a blank session.)
+v0.3.2: playlist caching. Emby's M3U tuner runs ffmpeg with
+  -stream_loop -1, which re-fetches the relay URL. Without caching, every
+  fetch mints a new PlaySessionId and new segment URLs, confusing the loop
+  into generating garbage. Now each channel's resolved playlist is cached
+  for 90 seconds so refetches are stable.
 
 Endpoints:
   GET /kavitv/live/<id>.m3u8   -> 200 with the current program's HLS media
@@ -31,6 +29,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 import uuid
@@ -43,9 +42,13 @@ KEY_FILE = os.path.join(CONFIG_DIR, "emby.key")
 SCHEDULE_FILE = os.path.join(CONFIG_DIR, "schedules.json")
 EMBY_HOST = "http://127.0.0.1:8096"  # relay runs ON the Emby box
 LAN_HOST = "10.0.0.98"               # this box's LAN address for players
-VERSION = "0.3.1"
+VERSION = "0.3.2"
+CACHE_TTL = 90  # seconds; keeps refetches stable for -stream_loop clients
 
 CHANNELS = {"horror": "30", "experimental": "31", "independent": "32"}
+
+# channel -> (expires_at, playlist_body)
+_playlist_cache = {}
 
 
 def load_key():
@@ -211,14 +214,23 @@ class Handler(BaseHTTPRequestHandler):
                     return self._json(404, {"error": "nothing scheduled"})
                 ref = item.get("ref", "")
                 item_id = ref.split(":")[-1]  # ref = "emby:movie:<itemId>"
-                session_id = uuid.uuid4().hex
-                master_url = emby_master_url(item_id, offset_ms,
-                                             load_key(), session_id)
-                try:
-                    body = resolve_media_playlist(master_url, session_id)
-                except Exception as e:
-                    return self._json(502, {"error": "emby fetch failed",
-                                           "detail": str(e)[:200]})
+                # Stable output for -stream_loop refetches: same channel +
+                # same program within the TTL returns the identical playlist.
+                cache_key = (cid, item_id)
+                now = time.time()
+                hit = _playlist_cache.get(cache_key)
+                if hit and hit[0] > now:
+                    body = hit[1]
+                else:
+                    session_id = uuid.uuid4().hex
+                    master_url = emby_master_url(item_id, offset_ms,
+                                                 load_key(), session_id)
+                    try:
+                        body = resolve_media_playlist(master_url, session_id)
+                    except Exception as e:
+                        return self._json(502, {"error": "emby fetch failed",
+                                               "detail": str(e)[:200]})
+                    _playlist_cache[cache_key] = (now + CACHE_TTL, body)
                 data = body.encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type",
