@@ -1,0 +1,68 @@
+{
+ "updated": "2026-10-04T17:23:00+0000",
+ "apps": [
+  {
+   "app_id": "com.kellner.radio.main",
+   "name": "Main",
+   "pid": 26492,
+   "inst": "1561",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.kellner.emby_theater.main",
+   "name": "Main",
+   "pid": 27137,
+   "inst": "1575",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.kellner.weather.main",
+   "name": "Main",
+   "pid": 27602,
+   "inst": "1580",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.kellner.planner.main",
+   "name": "Main",
+   "pid": 28205,
+   "inst": "1597",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.kellner.kavi_console.main",
+   "name": "Main",
+   "pid": 28896,
+   "inst": "1613",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.kellner.news.main",
+   "name": "Main",
+   "pid": 29343,
+   "inst": "1618",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.kellner.podcasts.main",
+   "name": "Main",
+   "pid": 30043,
+   "inst": "1638",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.kellner.pulse.main",
+   "name": "Main",
+   "pid": 30384,
+   "inst": "1640",
+   "state": "STOPPED"
+  },
+  {
+   "app_id": "com.netflix.kepler.background_launch.service",
+   "name": "Service",
+   "pid": 24265,
+   "inst": "1816",
+   "state": "READY"
+  }
+ ]
+}
