@@ -2,15 +2,15 @@
 <tv generator-info-name="kavitv-scheduler">
   <channel id="kavitv.horror">
     <display-name>KaviTV Horror</display-name>
-    <icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-horror.jpg?v=3"/>
+    <icon src="https://drive.google.com/uc?export=download&amp;id=1aWEppOGMcTa95RGZ-XygtfraGGJc4xvr"/>
   </channel>
   <channel id="kavitv.experimental">
     <display-name>KaviTV Experimental</display-name>
-    <icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-experimental.jpg?v=3"/>
+    <icon src="https://drive.google.com/uc?export=download&amp;id=1TuXs0gLLa-F9rsxUNpZsi7VxUR25mB5R"/>
   </channel>
   <channel id="kavitv.independent">
     <display-name>KaviTV Independent</display-name>
-    <icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-independent.jpg?v=3"/>
+    <icon src="https://drive.google.com/uc?export=download&amp;id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U"/>
   </channel>
   <programme start="20261004000000 +0000" stop="20261004013000 +0000" channel="kavitv.horror">
     <title>10/65: Self-Mutilation</title>
