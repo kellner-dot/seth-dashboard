@@ -366,11 +366,8 @@ function autoFill() {
     const nextPin = pinTimes.slice(pinIdx).find((p) => p.min > t % 1440 || (p.min + 1440) > t);
     let deadline = null, pinMovie = null;
     if (nextPin) {
-      let pt = nextPin.min;
-      if (pt * 1 < 360) pt += 1440;
-      const ptAbs = 0; // pin on broadcast day
-      // convert pin clock time to broadcast-absolute
-      const abs = pt < 360 ? pt + 1440 : pt;
+      // pin clock time -> broadcast-absolute minutes
+      const abs = nextPin.min < 360 ? nextPin.min + 1440 : nextPin.min;
       if (abs > t && abs < end) { deadline = abs; pinMovie = nextPin.m; }
     }
     let cands = pool.filter((m) => !used.has(m.ref) && m.runtime_min);
