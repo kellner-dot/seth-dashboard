@@ -102,8 +102,8 @@
     "Comedy",
     "Horror"
    ],
-   "runtime_min": 0,
-   "progress_pct": 100,
+   "runtime_min": 101,
+   "progress_pct": 24,
    "type": "Movie"
   },
   {
@@ -118,15 +118,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "Antlers",
-  "year": 2021,
+  "name": "Sshtoorrty",
+  "year": 2005,
   "genres": [
-   "Drama",
-   "Horror"
+   "Drama"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A small-town Oregon teacher and her brother, the local sheriff, discover a young student is harbouring a dangerous secret that could have frightening consequences."
+  "overview": "A loop of two parts of a film, superimposed on top of one another, that concern a man who has arrived at the house of his lover and her husband to hang a painting on their wall."
  }
 }
