@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T01:17:20+0000",
+ "generated_iso": "2026-10-04T01:27:20+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-03 19:46:15.964 Error DefaultAuthenticationProvider: Invalid username or password. Password not correct.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 19:46:15.965 Error UserManager: Error authenticating with provider Default",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
     {
      "t": "\tSystem.Exception: System.Exception: Invalid username or password..",
      "c": "err"
@@ -55,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[reboot-watch.l] 2026-10-04T00:07:09Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; device unreachable (was_reachable=false); no reboot detected, no",
-     "c": "ok"
-    },
-    {
-     "t": "[reboot-watch.l] 2026-10-04T00:11:17Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; device unreachable (was already recorded unreachable); no reboot",
-     "c": "ok"
-    },
-    {
      "t": "[reboot-watch.l] 00:45 reboot-watch: Fire Stick reachable, no transition, no reboot (state was_reachable=true)",
      "c": "ok"
     },
@@ -76,6 +56,14 @@
     },
     {
      "t": "[reboot-watch.l] 2026-10-04T01:09:09Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; direct VDA check reachable (echo ok OK); state was_reachable=tru",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03 21:17:30 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03 21:18:57 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
      "c": "ok"
     },
     {
