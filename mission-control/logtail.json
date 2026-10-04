@@ -1,16 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T20:46:44+0000",
+ "generated_iso": "2026-10-04T21:16:59+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 16:44:54.467 Warn VideoService-0HNP0T5I41AED:00000001: AUTH-ERROR: 127.0.0.1 - Access token is invalid or expired.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 16:44:54.467 Error VideoService-0HNP0T5I41AED:00000001: Access token is invalid or expired.",
+     "t": "2026-10-04 16:56:28.478 Info SqliteItemRepository: Saving 29 programs for channel 94686 FailArmy",
      "c": "err"
     }
    ]
@@ -43,28 +39,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T15:31:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T15:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T16:01:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T16:16:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T16:31:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T16:46:42-04:00 [relay-supervisor] WARN: relay health check failed; attempting restart",
+     "t": "[supervision.lo] 2026-10-04T16:47:01-04:00 [relay-supervisor] ERROR: relay DOWN after restart attempt (consecutive failures: 1)",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T17:01:50-04:00 [relay-supervisor] WARN: relay health check failed; attempting restart",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T17:02:08-04:00 [relay-supervisor] ERROR: relay DOWN after restart attempt (consecutive failures: 2)",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T17:08:37-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T17:08:37-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T17:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
     }
    ]
   }
