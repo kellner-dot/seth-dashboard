@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T01:07:26+0000",
+ "generated_iso": "2026-10-04T01:17:20+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -55,10 +55,6 @@
      "c": "ok"
     },
     {
-     "t": "[reboot-watch.l] 2026-10-04T00:05:34Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; VDA direct check 'device not found' (127.0.0.1:15555); state sti",
-     "c": "ok"
-    },
-    {
      "t": "[reboot-watch.l] 2026-10-04T00:07:09Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; device unreachable (was_reachable=false); no reboot detected, no",
      "c": "ok"
     },
@@ -76,6 +72,10 @@
     },
     {
      "t": "[reboot-watch.l] 2026-10-03 20:56:57 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-04T01:09:09Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; direct VDA check reachable (echo ok OK); state was_reachable=tru",
      "c": "ok"
     },
     {
