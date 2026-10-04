@@ -1,9 +1,17 @@
 {
- "generated_at": 1791082659,
- "generated_iso": "2026-10-04T02:57:39+0000",
+ "generated_at": 1791083256,
+ "generated_iso": "2026-10-04T03:07:36+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
+ "alerts": [
+  {
+   "severity": "info",
+   "icon": "\ud83e\uddf2",
+   "title": "BiglyBT started",
+   "message": "Torrent client is now running.",
+   "at": "2026-10-04T03:07:36+0000"
+  }
+ ],
  "github": {
   "profile": "https://github.com/kellner-dot",
   "public_repos": 10,
@@ -20,7 +28,7 @@
   ]
  },
  "emby_library": {
-  "movies": 5412,
+  "movies": 5441,
   "series": 33,
   "episodes": 59,
   "recent": [
@@ -39,8 +47,8 @@
  },
  "kaviguard": {},
  "biglybt": {
-  "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
+  "running": true,
+  "scheduler": "night \u00b7 unlimited"
  },
  "devices": [
   {
@@ -50,7 +58,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 94803,
+   "uptime_s": 95399,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
