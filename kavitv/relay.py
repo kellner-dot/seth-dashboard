@@ -1,51 +1,62 @@
 #!/usr/bin/env python3
-"""KaviTV relay — LAN-side HTTP service on SETHS-PC (stdlib only).
+"""KaviTV relay v1.0 — clean rewrite, no duct tape.
 
-Why it exists: the M3U playlist (kavitv.m3u on GitHub Pages) is public and
-credential-free. Each channel entry points here; the relay resolves the
-channel's CURRENT program and streams it as raw MPEG-TS.
+Architecture (validated against dizquetv / ErsatzTV / Tunarr, 2026-10-04):
+  The relay OWNS ffmpeg. Emby is a dumb byte source via
+  /emby/Videos/<id>/stream?static=true (original file, Range-capable,
+  no transcode, no session). Per tune-in the relay spawns Emby's bundled
+  ffmpeg with a SINGLE input -ss (plain seconds), stream-copy to MPEG-TS,
+  and pipes stdout to the tuner as video/mp2t.
 
-v0.4.0: TS proxy mode. Handing Emby an HLS playlist failed: Emby's M3U tuner
-  runs ffmpeg with -stream_loop -1, which loops our finite VOD playlist
-  forever, exploding the transcode (30k+ segments) and choking the player.
-  Now the relay fetches Emby's HLS segments server-side and streams them
-  concatenated as a continuous video/mp2t response — the native IPTV tuner
-  format. No playlist, no loop, no session juggling.
+  Why not Emby HLS: Emby's variant playlist is gated on its transcode job
+  producing segment 0; a seek (StartTimeTicks) restarts the transcode and
+  the playlist request hangs FOREVER if ffmpeg wedges. Owning ffmpeg
+  removes the HLS session machinery, PlaySessionId juggling, playlist
+  parsing, double transcode, and unbounded waits in one move.
 
 Endpoints:
-  GET /kavitv/live/<id>        -> 200 with the current program as MPEG-TS
-                                  (id = horror | experimental | independent)
-                                  (.m3u8 suffix also accepted)
-  GET /api/health              -> {ok, version, date, channels}
+  GET /kavitv/live/<id>  -> 200 video/mp2t, live MPEG-TS of current program
+                             (id = horror | experimental | independent;
+                              .m3u8 suffix accepted for M3U compat)
+  GET /api/health        -> {ok, version, ffmpeg, date, channels, now}
 
-Config: C:\\Users\\sethr\\kavitv\\config\\emby.key      (API key, written once by
-        the VM via RVG; file ACL restricted to Seth; never logged)
-        C:\\Users\\sethr\\kavitv\\config\\schedules.json (pushed by the VM via
-        RVG; {"date": "YYYY-MM-DD", "channels": {"30": {"items": [...]}, ...}})
+Config (C:\\Users\\sethr\\kavitv\\config\\):
+  emby.key       API key (written once via RVG; never logged)
+  schedules.json {"date": "YYYY-MM-DD",
+                  "channels": {"30": {"items": [{"ref": "emby:movie:<id>",
+                    "title": ..., "start": "HH:MM", "end": "HH:MM"}, ...]}}}
 
-Run: python relay.py [--port 8100]
-Persist: Task Scheduler at logon, or `pythonw relay.py` (see DEPLOY.md).
+Run: pythonw relay.py  (port 8100)
 """
 import json
 import os
-import re
+import queue
+import subprocess
 import sys
+import threading
+import time
 import urllib.parse
-import urllib.request
-import uuid
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 BASE_DIR = r"C:\Users\sethr\kavitv"
 CONFIG_DIR = os.path.join(BASE_DIR, "config")
 KEY_FILE = os.path.join(CONFIG_DIR, "emby.key")
-SCHEDULE_FILE = os.path.join(CONFIG_DIR, "schedules.json")
-EMBY_HOST = "http://127.0.0.1:8096"  # relay runs ON the Emby box
-LAN_HOST = "10.0.0.98"               # this box's LAN address for players
-EMBY_HOST = "127.0.0.1"             # loopback for relay->Emby backend (faster)
-VERSION = "0.4.3"
+TIMELINE_FILE = os.path.join(CONFIG_DIR, "timeline.json")
+FFMPEG = (r"C:\Users\sethr\AppData\Roaming\Emby-Server\system\ffmpeg.exe")
+EMBY = "http://127.0.0.1:8096"          # relay runs ON the Emby box
+VERSION = "1.2.0"
 
-CHANNELS = {"horror": "30", "experimental": "31", "independent": "32"}
+# slug -> timeline channel id
+CHANNELS = {
+    "horror": "kavitv.horror",
+    "experimental": "kavitv.experimental",
+    "independent": "kavitv.independent",
+}
+
+# Watchdog: if ffmpeg emits no bytes within this long, the tune is dead.
+FIRST_BYTE_TIMEOUT = 12
+CHUNK = 65536
 
 
 def load_key():
@@ -53,164 +64,71 @@ def load_key():
         return f.read().strip()
 
 
-def load_schedule():
-    with open(SCHEDULE_FILE) as f:
+def load_timeline():
+    with open(TIMELINE_FILE) as f:
         return json.load(f)
 
 
-def now_local():
-    return datetime.now()
+def current_program(timeline, cid):
+    """(slot, offset_sec) for what's airing now on timeline channel `cid`.
 
-
-def item_abs(date_str, hhmm):
-    """Broadcast-day HH:MM (day runs 06:00 -> 06:00) -> local datetime."""
-    h, m = (int(x) for x in hhmm.split(":"))
-    d = datetime.strptime(date_str, "%Y-%m-%d")
-    if h < 6:
-        d += timedelta(days=1)
-    return d.replace(hour=h, minute=m, second=0, microsecond=0)
-
-
-def current_program(sched, key):
-    """(item, offset_ms) for what's airing now on schedule channel `key`."""
-    date_str = sched["date"]
-    items = sched["channels"][key]["items"]
-    now = now_local()
-    for it in items:
-        s = item_abs(date_str, it["start"])
-        e = item_abs(date_str, it["end"])
-        if e <= s:
-            e += timedelta(days=1)
-        if s <= now < e:
-            offset_ms = int((now - s).total_seconds() * 1000)
-            return it, offset_ms
-    return None, 0
-
-
-def with_query_param(url, name, value):
-    parts = urllib.parse.urlsplit(url)
-    q = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
-    q = [(k, v) for (k, v) in q if k.lower() != name.lower()]
-    q.append((name, value))
-    return urllib.parse.urlunsplit(
-        (parts.scheme, parts.netloc, parts.path,
-         urllib.parse.urlencode(q), parts.fragment))
-
-
-def emby_master_url(item_id, offset_ms, key, session_id):
-    ticks = int(offset_ms * 10000)
-    q = urllib.parse.urlencode({
-        "api_key": key,
-        "PlaySessionId": session_id,
-        "StartTimeTicks": ticks,
-        "VideoCodec": "h264",
-        "AudioCodec": "aac",
-        "MaxStreamingBitrate": 12000000,
-    })
-    return f"http://{EMBY_HOST}:8096/emby/Videos/{item_id}/master.m3u8?{q}"
-
-
-def fetch_text(url, timeout=25):
-    req = urllib.request.Request(
-        url, headers={"User-Agent": "KaviTV-relay/" + VERSION})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", errors="replace")
-
-
-def absolutize(url, base):
-    if "://" in url:
-        return url
-    if url.startswith("/"):
-        parts = urllib.parse.urlsplit(base)
-        return f"{parts.scheme}://{parts.netloc}{url}"
-    return base + url
-
-
-def get_segment_urls(master_url, session_id):
-    """Follow master -> media playlist; return list of absolute segment URLs.
-
-    Raises on any fetch/parse failure. If the seeked media playlist hangs
-    (Emby transcoder stuck on seek), falls back to start-from-beginning.
+    Half-open: start <= now < end. SLACK=10s at boundaries: if within
+    10s of a slot's end, advance to the next slot at offset 0.
     """
-    master = fetch_text(master_url)
-    variant = None
-    for line in master.splitlines():
-        s = line.strip()
-        if s and not s.startswith("#"):
-            variant = s
-            break
-    if not variant:
-        raise ValueError("master playlist has no variant")
-    vurl = absolutize(variant, master_url.rsplit("/", 1)[0] + "/")
-    vurl = with_query_param(vurl, "PlaySessionId", session_id)
+    slots = timeline["channels"][cid]["slots"]
+    now = datetime.now(timezone.utc)
+    lo, hi = 0, len(slots) - 1
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        s = datetime.fromisoformat(slots[mid]["start"])
+        e = datetime.fromisoformat(slots[mid]["end"])
+        if e <= now:
+            lo = mid + 1
+        elif s > now:
+            hi = mid - 1
+        else:
+            if (e - now).total_seconds() < 10 and mid + 1 < len(slots):
+                return slots[mid + 1], 0.0
+            dur = (e - s).total_seconds()
+            offset = max(0.0, min((now - s).total_seconds(), dur - 10.0))
+            return slots[mid], offset
+    return None, 0.0
+
+
+def static_url(item_id, api_key):
+    q = urllib.parse.urlencode({"static": "true", "api_key": api_key})
+    return f"{EMBY}/emby/Videos/{item_id}/stream?{q}"
+
+
+def spawn_ffmpeg(src_url, offset_sec):
+    """Start ffmpeg: input-seek, stream-copy, MPEG-TS to stdout pipe."""
+    cmd = [
+        FFMPEG,
+        "-hide_banner", "-nostats", "-loglevel", "error",
+        "-fflags", "+genpts+discardcorrupt+igndts",
+        "-ss", f"{offset_sec:.1f}",
+        "-i", src_url,
+        "-map", "0:v:0", "-map", "0:a:0",
+        "-c:v", "copy", "-c:a", "copy",
+        "-f", "mpegts",
+        "-mpegts_flags", "resend_headers",
+        "-flush_packets", "1",
+        "pipe:1",
+    ]
+    return subprocess.Popen(
+        cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
+        stdin=subprocess.DEVNULL)
+
+
+def stop_ffmpeg(proc):
     try:
-        media = fetch_text(vurl, timeout=12)
+        proc.terminate()
+        proc.wait(timeout=5)
     except Exception:
-        # Seeked transcode hung; retry from beginning (no StartTimeTicks).
-        import re as _re
-        no_seek = _re.sub(r"[?&]StartTimeTicks=\d+", "", master_url)
-        no_seek = no_seek.replace("?&", "?").replace("&&", "&")
-        master2 = fetch_text(no_seek, timeout=12)
-        variant2 = None
-        for line in master2.splitlines():
-            s = line.strip()
-            if s and not s.startswith("#"):
-                variant2 = s
-                break
-        if not variant2:
-            raise ValueError("fallback master has no variant")
-        vurl = absolutize(variant2, no_seek.rsplit("/", 1)[0] + "/")
-        vurl = with_query_param(vurl, "PlaySessionId", session_id)
-        media = fetch_text(vurl, timeout=20)
-    base = vurl.rsplit("/", 1)[0] + "/"
-    segs = []
-    for line in media.splitlines():
-        s = line.strip()
-        if s and not s.startswith("#"):
-            segs.append(absolutize(s, base))
-    if not segs:
-        raise ValueError("media playlist has no segments")
-    return segs
-
-
-def stream_segments(seg_urls, wfile, chunk_size=65536):
-    """Fetch each TS segment and write bytes to wfile as they arrive.
-
-    Segments are transcoded on-demand by Emby; if one isn't ready yet
-    (404), wait and retry rather than killing the stream.
-    """
-    for url in seg_urls:
-        data = fetch_segment_with_retry(url)
-        if data is None:
-            break  # unrecoverable; end stream
-        wfile.write(data)
-        wfile.flush()
-
-
-def fetch_segment_with_retry(url, max_wait=120):
-    """Return segment bytes, waiting up to max_wait seconds for Emby to
-    transcode it. Returns None if truly unrecoverable."""
-    import time as _time
-    deadline = _time.time() + max_wait
-    attempt = 0
-    while True:
         try:
-            req = urllib.request.Request(
-                url, headers={"User-Agent": "KaviTV-relay/" + VERSION})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                return resp.read()
-        except urllib.error.HTTPError as e:
-            if e.code == 404 and _time.time() < deadline:
-                attempt += 1
-                _time.sleep(min(2 * attempt, 10))
-                continue
-            return None
+            proc.kill()
         except Exception:
-            if _time.time() < deadline:
-                attempt += 1
-                _time.sleep(min(2 * attempt, 10))
-                continue
-            return None
+            pass
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -225,53 +143,115 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _now_map(self, tl):
+        out = {}
+        for slug, cid in CHANNELS.items():
+            try:
+                slot, off = current_program(tl, cid)
+            except Exception:
+                slot, off = None, 0.0
+            out[slug] = {"title": slot["title"] if slot else None,
+                         "offset_sec": round(off, 1)}
+        return out
+
+    def _serve_ffmpeg(self, src, offset_sec):
+        """Stream ffmpeg's MPEG-TS output to the client.
+
+        Raises TimeoutError if no bytes arrive promptly, RuntimeError
+        if ffmpeg exits early. Caller decides whether to retry.
+        """
+        proc = spawn_ffmpeg(src, offset_sec)
+        # Pump stdout through a queue so the watchdog can time out on
+        # Windows (select() doesn't work on pipes there).
+        q: "queue.Queue" = queue.Queue()
+
+        def _pump():
+            try:
+                while True:
+                    chunk = proc.stdout.read(CHUNK)
+                    q.put(chunk if chunk else None)
+                    if not chunk:
+                        break
+            except Exception as e:  # noqa: BLE001
+                q.put(e)
+
+        threading.Thread(target=_pump, daemon=True).start()
+        try:
+            try:
+                first = q.get(timeout=FIRST_BYTE_TIMEOUT)
+            except queue.Empty:
+                raise TimeoutError("ffmpeg produced no output")
+            if first is None or isinstance(first, Exception):
+                raise RuntimeError("ffmpeg exited early")
+            self.send_response(200)
+            self.send_header("Content-Type", "video/mp2t")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(first)
+            self.wfile.flush()
+            while True:
+                chunk = q.get()
+                if chunk is None or isinstance(chunk, Exception):
+                    break
+                self.wfile.write(chunk)
+                self.wfile.flush()
+        except (BrokenPipeError, ConnectionResetError):
+            pass  # tuner went away; normal
+        finally:
+            stop_ffmpeg(proc)
+
     def do_GET(self):
         try:
             path = urllib.parse.urlsplit(self.path).path
             if path == "/api/health":
                 try:
-                    sched = load_schedule()
-                    chs = list(sched["channels"].keys())
-                    ds = sched["date"]
+                    tl = load_timeline()
+                    now = self._now_map(tl)
+                    gen = tl.get("generated_at")
+                    chs = sorted(tl["channels"].keys())
                 except FileNotFoundError:
-                    chs, ds = [], None
-                return self._json(200, {"ok": True, "version": VERSION,
-                                       "date": ds, "channels": chs})
+                    now, gen, chs = {}, None, []
+                return self._json(200, {
+                    "ok": True, "version": VERSION,
+                    "ffmpeg": os.path.exists(FFMPEG),
+                    "generated_at": gen, "channels": chs, "now": now,
+                })
             if path.startswith("/kavitv/live/"):
-                # Accept both /kavitv/live/horror and /kavitv/live/horror.m3u8
-                cid = path.split("/")[3].split(".")[0]
-                key = CHANNELS.get(cid)
-                if not key:
+                slug = path.split("/")[3].split(".")[0]
+                cid = CHANNELS.get(slug)
+                if not cid:
                     return self._json(400, {"error": "bad channel"})
-                sched = load_schedule()
-                item, offset_ms = current_program(sched, key)
-                if not item:
+                tl = load_timeline()
+                slot, offset_sec = current_program(tl, cid)
+                if not slot:
                     return self._json(404, {"error": "nothing scheduled"})
-                ref = item.get("ref", "")
-                item_id = ref.split(":")[-1]  # ref = "emby:movie:<itemId>"
-                session_id = uuid.uuid4().hex
+                item_id = slot["emby_id"]
                 api_key = load_key()
-                master_url = emby_master_url(item_id, offset_ms,
-                                             api_key, session_id)
-                try:
-                    seg_urls = get_segment_urls(master_url, session_id)
-                except Exception as e:
-                    return self._json(502, {"error": "emby fetch failed",
-                                           "detail": str(e)[:200]})
-                # Stream concatenated TS segments — native tuner format.
-                self.send_response(200)
-                self.send_header("Content-Type", "video/mp2t")
-                self.send_header("Cache-Control", "no-cache")
-                self.end_headers()
-                try:
-                    stream_segments(seg_urls, self.wfile)
-                except (BrokenPipeError, ConnectionResetError):
-                    pass  # client went away; fine
-                return
+                src = static_url(item_id, api_key)
+
+                # Try at the computed offset; if ffmpeg fails (bad seek,
+                # duration mismatch), retry once from the beginning.
+                # Never serve a 502 if offset 0 works.
+                last_err = None
+                for attempt, off in enumerate([offset_sec, 0.0]):
+                    if attempt == 1 and offset_sec == 0.0:
+                        break
+                    try:
+                        self._serve_ffmpeg(src, off)
+                        return
+                    except (TimeoutError, RuntimeError) as e:
+                        last_err = e
+                        if attempt == 0 and offset_sec > 1.0:
+                            continue
+                        raise
+                raise last_err if last_err else RuntimeError("no attempts")
             return self._json(404, {"error": "not found"})
         except FileNotFoundError as e:
             return self._json(503, {"error": "not configured",
                                     "detail": str(e)})
+        except (TimeoutError, RuntimeError) as e:
+            return self._json(502, {"error": "transcode failed",
+                                    "detail": str(e)[:200]})
         except Exception as e:  # relay must never die on a bad request
             return self._json(500, {"error": "internal",
                                     "detail": str(e)[:200]})
@@ -281,6 +261,9 @@ def main():
     port = 8100
     if "--port" in sys.argv:
         port = int(sys.argv[sys.argv.index("--port") + 1])
+    if not os.path.exists(FFMPEG):
+        print(f"FATAL: ffmpeg not found at {FFMPEG}", flush=True)
+        sys.exit(2)
     srv = ThreadingHTTPServer(("0.0.0.0", port), Handler)
     print(f"KaviTV relay {VERSION} on :{port}", flush=True)
     srv.serve_forever()
