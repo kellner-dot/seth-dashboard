@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04 14:55",
+ "updated": "2026-10-04 14:57",
  "biglybtRunning": true,
  "torrents": [
   {
@@ -45,7 +45,7 @@
    "uploadedEver": 0
   },
   {
-   "rateUpload": 102115,
+   "rateUpload": 0,
    "status.biglybt": 60,
    "downloadedEver": 440815895,
    "totalSize": 440560535,
@@ -56,7 +56,7 @@
    "eta": -1,
    "status": 6,
    "id": 5,
-   "uploadedEver": 1555508558
+   "uploadedEver": 1555623340
   },
   {
    "rateUpload": 0,
@@ -115,8 +115,8 @@
    "uploadedEver": 0
   }
  ],
- "downSpeed": 118,
- "upSpeed": 102146,
- "activeCount": 1,
+ "downSpeed": 0,
+ "upSpeed": 0,
+ "activeCount": 0,
  "ratio": 0.75
 }
