@@ -1,13 +1,41 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T21:46:39+0000",
+ "generated_iso": "2026-10-04T22:16:36+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 16:56:28.478 Info SqliteItemRepository: Saving 29 programs for channel 94686 FailArmy",
+     "t": "2026-10-04 17:52:49.996 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-04 17:52:50.188 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-04 17:52:50.208 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
      "c": "err"
+    },
+    {
+     "t": "2026-10-04 17:52:50.266 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-04 17:52:59.398 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-04 17:52:59.573 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-04 17:52:59.591 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 17:52:59.651 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
+     "c": "ok"
     }
    ]
   },
@@ -39,14 +67,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T17:02:08-04:00 [relay-supervisor] ERROR: relay DOWN after restart attempt (consecutive failures: 2)",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T17:08:37-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T17:08:37-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     },
@@ -60,6 +80,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T17:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T18:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T18:16:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     }
    ]
