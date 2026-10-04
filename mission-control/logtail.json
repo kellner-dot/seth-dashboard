@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T18:46:40+0000",
+ "generated_iso": "2026-10-04T19:16:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 14:45:05.136 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\American Pop\\American.Pop.1981.1080p.WEBRip.x264-[YT",
+     "t": "2026-10-04 15:14:16.066 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 14:45:15.637 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 15:14:16.066 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 14:45:15.637 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 14:45:15.637 Error App: Error in ffprobe",
+     "t": "2026-10-04 15:14:16.066 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -30,19 +26,19 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 14:46:16.619 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Bad Taste\\Bad.Taste.1987.1080p.BluRay.x264.AAC.mp4\" ",
+     "t": "2026-10-04 15:15:16.770 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Inland Empire\\Inland.Empire.mp4\" -threads 0 -v info ",
      "c": "err"
     },
     {
-     "t": "2026-10-04 14:46:20.395 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 15:15:34.669 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 14:46:20.395 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 15:15:34.669 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 14:46:20.395 Error App: Error in ffprobe",
+     "t": "2026-10-04 15:15:34.669 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -51,6 +47,10 @@
     },
     {
      "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 15:16:35.318 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\John Carter\\John.Carter.2012.1080p.Bluray.x264.YIFY.",
      "c": "err"
     }
    ]
@@ -83,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T13:46:57-04:00 [relay-supervisor] WARN: relay restarted successfully",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T13:46:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T14:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T14:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
@@ -104,6 +92,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T14:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T15:01:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04 19:09 relay redeployed: reverted to 302 redirect (playlist-serving broke segments, ffmpeg 400 on empty PlaySessionId). Single listener pid ",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T15:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     }
    ]
