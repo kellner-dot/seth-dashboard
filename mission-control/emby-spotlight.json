@@ -3,8 +3,8 @@
  "movies": 5441,
  "series": 33,
  "episodes": 59,
- "played": 13,
- "unwatched": 5428,
+ "played": 14,
+ "unwatched": 5427,
  "new_arrivals": [
   {
    "name": "Possessor",
@@ -118,15 +118,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "The Trial",
-  "year": 1962,
+  "name": "Artype",
+  "year": 1966,
   "genres": [
-   "Crime",
-   "Drama"
+   "Animation"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Arrested for an unnamed crime, Josef K. is trapped in a surreal bureaucratic maze where justice is unknowable and guilt is assumed."
+  "overview": "Artype patterns, intended for loops. Benday dot patterns. Dots, lines. Screens, wavy lines, parallel lines, etc. on clear film. No camera."
  }
 }
