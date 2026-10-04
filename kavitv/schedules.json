@@ -757,25 +757,9 @@
    "30": {
     "channel": 30,
     "date": "2026-10-05",
-    "generated_at": "2026-10-04T00:28:20.193917Z",
+    "generated_at": "2026-10-04T00:33:24.242977Z",
     "generated_by": "auto-smart",
     "items": [
-     {
-      "ref": "emby:movie:373065",
-      "title": "The Frighteners",
-      "year": 1996,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 7.1,
-      "genres": [
-       "Horror",
-       "Comedy"
-      ],
-      "start": "06:00",
-      "end": "07:35",
-      "slot": "early_morning",
-      "pinned": false
-     },
      {
       "ref": "emby:movie:215068",
       "title": "Spectres of the Spectrum",
@@ -787,41 +771,9 @@
        "Horror",
        "Comedy"
       ],
-      "start": "07:38",
-      "end": "09:13",
+      "start": "06:00",
+      "end": "07:35",
       "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217215",
-      "title": "Suspiria",
-      "year": 2018,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.7,
-      "genres": [
-       "Horror",
-       "Mystery"
-      ],
-      "start": "09:16",
-      "end": "10:51",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372857",
-      "title": "PG: Psycho Goreman",
-      "year": 2020,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.3,
-      "genres": [
-       "Science Fiction",
-       "Comedy"
-      ],
-      "start": "10:54",
-      "end": "12:29",
-      "slot": "daytime",
       "pinned": false
      },
      {
@@ -835,40 +787,72 @@
        "Horror",
        "Comedy"
       ],
+      "start": "07:38",
+      "end": "09:13",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373071",
+      "title": "The Last Wave",
+      "year": 1977,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.9,
+      "genres": [
+       "Drama",
+       "Mystery"
+      ],
+      "start": "09:16",
+      "end": "10:51",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372995",
+      "title": "Bad Taste",
+      "year": 1987,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.4,
+      "genres": [
+       "Action",
+       "Comedy"
+      ],
+      "start": "10:54",
+      "end": "12:29",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:217215",
+      "title": "Suspiria",
+      "year": 2018,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.7,
+      "genres": [
+       "Horror",
+       "Mystery"
+      ],
       "start": "12:32",
       "end": "14:07",
       "slot": "daytime",
       "pinned": false
      },
      {
-      "ref": "emby:movie:372838",
-      "title": "Emotion",
-      "year": 1966,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.6,
-      "genres": [
-       "Drama",
-       "Fantasy"
-      ],
-      "start": "14:10",
-      "end": "15:45",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373003",
-      "title": "Braindead",
+      "ref": "emby:movie:216996",
+      "title": "Twin Peaks: Fire Walk with Me",
       "year": 1992,
       "runtime_min": 95,
       "runtime_estimated": true,
-      "rating": 7.5,
+      "rating": 7.3,
       "genres": [
-       "Horror",
-       "Comedy"
+       "Drama",
+       "Mystery"
       ],
-      "start": "15:48",
-      "end": "17:23",
+      "start": "14:10",
+      "end": "15:45",
       "slot": "daytime",
       "pinned": false
      },
@@ -883,9 +867,105 @@
        "Drama",
        "Fantasy"
       ],
+      "start": "15:48",
+      "end": "17:23",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:217408",
+      "title": "Phantom of the Paradise",
+      "year": 1974,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 7.3,
+      "genres": [
+       "Comedy",
+       "Drama"
+      ],
       "start": "17:26",
       "end": "19:01",
       "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373065",
+      "title": "The Frighteners",
+      "year": 1996,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 7.1,
+      "genres": [
+       "Horror",
+       "Comedy"
+      ],
+      "start": "19:04",
+      "end": "20:39",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373020",
+      "title": "Hokum",
+      "year": 2026,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 7.3,
+      "genres": [
+       "Horror",
+       "Thriller"
+      ],
+      "start": "20:42",
+      "end": "22:17",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215530",
+      "title": "Autumnal Equinox",
+      "year": 1974,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 7,
+      "genres": [
+       "Horror",
+       "Documentary"
+      ],
+      "start": "22:20",
+      "end": "23:55",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373058",
+      "title": "Tetsuo: The Iron Man",
+      "year": 1989,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.9,
+      "genres": [
+       "Horror",
+       "Science Fiction"
+      ],
+      "start": "23:58",
+      "end": "01:33",
+      "slot": "late_night",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215642",
+      "title": "Flaming Creatures",
+      "year": 1963,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 4.6,
+      "genres": [
+       "Horror",
+       "Comedy"
+      ],
+      "start": "01:36",
+      "end": "03:11",
+      "slot": "graveyard",
       "pinned": false
      },
      {
@@ -899,101 +979,21 @@
        "Drama",
        "Horror"
       ],
-      "start": "19:04",
-      "end": "20:39",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373017",
-      "title": "Green Room",
-      "year": 2016,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 7,
-      "genres": [
-       "Horror",
-       "Crime"
-      ],
-      "start": "20:42",
-      "end": "22:17",
-      "slot": "prime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373070",
-      "title": "The Invisible Man",
-      "year": 2020,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 7.1,
-      "genres": [
-       "Thriller",
-       "Science Fiction"
-      ],
-      "start": "22:20",
-      "end": "23:55",
-      "slot": "prime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215996",
-      "title": "The Inauguration of the Pleasure Dome",
-      "year": 1954,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 7,
-      "genres": [
-       "Fantasy",
-       "Horror"
-      ],
-      "start": "23:58",
-      "end": "01:33",
-      "slot": "late_night",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216959",
-      "title": "Deafman Glance",
-      "year": 1981,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "01:36",
-      "end": "03:11",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215134",
-      "title": "You Killed Me First",
-      "year": 1985,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 5.8,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
       "start": "03:14",
       "end": "04:49",
       "slot": "graveyard",
       "pinned": false
      },
      {
-      "ref": "emby:movie:373071",
-      "title": "The Last Wave",
-      "year": 1977,
+      "ref": "emby:movie:216293",
+      "title": "Transplantation, Consumption and Death of Franco Brocani",
+      "year": 1969,
       "runtime_min": 95,
       "runtime_estimated": true,
-      "rating": 6.9,
+      "rating": 5.9,
       "genres": [
        "Drama",
-       "Mystery"
+       "Horror"
       ],
       "start": "04:52",
       "end": "06:27",
