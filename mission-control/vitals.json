@@ -1,37 +1,37 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-04T09:27:48+0000",
- "cpu_pct": 1.9,
- "mem_pct": 71.4,
+ "generated_iso": "2026-10-04T09:37:45+0000",
+ "cpu_pct": 8.3,
+ "mem_pct": 71.1,
  "mem_total_gb": 15.2,
  "disk_pct": 71.7,
  "disk_free_gb": 263.6,
- "uptime_h": 32.8,
+ "uptime_h": 33,
  "top": [
   {
-   "cpu": 11059.5,
+   "cpu": 11080.1,
    "name": "System",
-   "memMB": 13.7
+   "memMB": 13.8
   },
   {
-   "cpu": 10262.7,
+   "cpu": 10324.3,
    "name": "DuckDuckGo.WebView",
-   "memMB": 293.9
+   "memMB": 290.3
   },
   {
-   "cpu": 6870.1,
+   "cpu": 6897.7,
    "name": "MsMpEng",
-   "memMB": 502.9
+   "memMB": 504
   },
   {
-   "cpu": 4844.2,
+   "cpu": 4870.7,
    "name": "DuckDuckGo.WebView",
-   "memMB": 226
+   "memMB": 225.6
   },
   {
-   "cpu": 2609.7,
+   "cpu": 2626.9,
    "name": "dwm",
-   "memMB": 131.3
+   "memMB": 131.1
   }
  ],
  "history": {
@@ -203,6 +203,10 @@
    [
     1791106068,
     1.9
+   ],
+   [
+    1791106665,
+    8.3
    ]
   ],
   "mem": [
@@ -373,6 +377,10 @@
    [
     1791106068,
     71.4
+   ],
+   [
+    1791106665,
+    71.1
    ]
   ],
   "disk": [
@@ -542,6 +550,10 @@
    ],
    [
     1791106068,
+    71.7
+   ],
+   [
+    1791106665,
     71.7
    ]
   ]
