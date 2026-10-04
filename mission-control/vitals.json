@@ -1,37 +1,37 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-04T01:17:30+0000",
- "cpu_pct": 3.2,
- "mem_pct": 62.9,
+ "generated_iso": "2026-10-04T01:27:23+0000",
+ "cpu_pct": 2.9,
+ "mem_pct": 63.1,
  "mem_total_gb": 15.2,
  "disk_pct": 71.3,
  "disk_free_gb": 267,
- "uptime_h": 24.7,
+ "uptime_h": 24.8,
  "top": [
   {
-   "cpu": 9957.2,
+   "cpu": 9983.2,
    "name": "System",
    "memMB": 9.7
   },
   {
-   "cpu": 7173.8,
+   "cpu": 7232.4,
    "name": "DuckDuckGo.WebView",
-   "memMB": 269
+   "memMB": 268.4
   },
   {
-   "cpu": 3495.1,
+   "cpu": 3521.3,
    "name": "DuckDuckGo.WebView",
    "memMB": 206.1
   },
   {
-   "cpu": 1739.5,
+   "cpu": 1755.4,
    "name": "dwm",
    "memMB": 130.4
   },
   {
-   "cpu": 1133.4,
+   "cpu": 1166,
    "name": "EmbyServer",
-   "memMB": 522.7
+   "memMB": 517.6
   }
  ],
  "history": {
@@ -83,6 +83,10 @@
    [
     1791076650,
     3.2
+   ],
+   [
+    1791077243,
+    2.9
    ]
   ],
   "mem": [
@@ -133,6 +137,10 @@
    [
     1791076650,
     62.9
+   ],
+   [
+    1791077243,
+    63.1
    ]
   ],
   "disk": [
@@ -182,6 +190,10 @@
    ],
    [
     1791076650,
+    71.3
+   ],
+   [
+    1791077243,
     71.3
    ]
   ]
