@@ -1,44 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T05:27:45+0000",
+ "generated_iso": "2026-10-04T05:37:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 01:25:24.595 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 01:35:58.013 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Us\\Us.2019.1080p.BluRay.x264-[YTS.LT].mp4\" -threads ",
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:25:24.596 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 01:36:17.385 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:25:24.596 Error App: Error in ffprobe",
+     "t": "2026-10-04 01:36:17.385 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 01:26:25.084 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Holy Mountain\\The.Holy.Mountain.1973.1080p.BluRa",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 01:26:44.573 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 01:26:44.573 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 01:26:44.573 Error App: Error in ffprobe",
+     "t": "2026-10-04 01:36:17.385 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -50,7 +30,27 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:27:45.696 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The House Was Not Hungry Then\\The.House.Was.Not.Hung",
+     "t": "2026-10-04 01:37:17.789 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Waking Life\\Waking.Life.2001.1080p.BluRay.x264-[YTS.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 01:37:25.723 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 01:37:25.723 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 01:37:25.724 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     }
    ]
