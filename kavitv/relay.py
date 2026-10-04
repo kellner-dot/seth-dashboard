@@ -3,13 +3,20 @@
 
 Why it exists: the M3U playlist (kavitv.m3u on GitHub Pages) is public and
 credential-free. Each channel entry points here; the relay resolves the
-channel's CURRENT program and 302-redirects the player to Emby's HLS stream
-with the API key + live-edge StartTimeTicks added server-side. The key never
-leaves this box.
+channel's CURRENT program and serves Emby's HLS media playlist for it.
+
+v0.3.0: full server-side HLS resolution. The relay mints a PlaySessionId,
+fetches Emby's master playlist, follows to the media playlist, and returns
+it with absolute segment URLs. Emby echoes the client-supplied PlaySessionId
+into every segment URL — without it, segments come back with a blank
+PlaySessionId and Emby 400s them, so playback can never start. (v0.2.0
+proxied only the master playlist; the media playlist it pointed at still
+carried a blank session.)
 
 Endpoints:
-  GET /kavitv/live/<id>.m3u8   -> 302 to current program's Emby HLS URL
-                                  (id = horror | experimental | independent)
+  GET /kavitv/live/<id>.m3u8   -> 200 with the current program's HLS media
+                                  playlist (id = horror | experimental |
+                                  independent)
   GET /api/health              -> {ok, version, date, channels}
 
 Config: C:\\Users\\sethr\\kavitv\\config\\emby.key      (API key, written once by
@@ -22,8 +29,11 @@ Persist: Task Scheduler at logon, or `pythonw relay.py` (see DEPLOY.md).
 """
 import json
 import os
+import re
 import sys
 import urllib.parse
+import urllib.request
+import uuid
 from datetime import datetime, timedelta
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -33,7 +43,7 @@ KEY_FILE = os.path.join(CONFIG_DIR, "emby.key")
 SCHEDULE_FILE = os.path.join(CONFIG_DIR, "schedules.json")
 EMBY_HOST = "http://127.0.0.1:8096"  # relay runs ON the Emby box
 LAN_HOST = "10.0.0.98"               # this box's LAN address for players
-VERSION = "0.1.0"
+VERSION = "0.3.0"
 
 CHANNELS = {"horror": "30", "experimental": "31", "independent": "32"}
 
@@ -77,16 +87,86 @@ def current_program(sched, key):
     return None, 0
 
 
-def emby_hls_url(item_id, offset_ms, key):
+def with_query_param(url, name, value):
+    parts = urllib.parse.urlsplit(url)
+    q = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
+    q = [(k, v) for (k, v) in q if k.lower() != name.lower()]
+    q.append((name, value))
+    return urllib.parse.urlunsplit(
+        (parts.scheme, parts.netloc, parts.path,
+         urllib.parse.urlencode(q), parts.fragment))
+
+
+def emby_master_url(item_id, offset_ms, key, session_id):
     ticks = int(offset_ms * 10000)
     q = urllib.parse.urlencode({
         "api_key": key,
+        "PlaySessionId": session_id,
         "StartTimeTicks": ticks,
         "VideoCodec": "h264",
         "AudioCodec": "aac",
         "MaxStreamingBitrate": 12000000,
     })
     return f"http://{LAN_HOST}:8096/emby/Videos/{item_id}/master.m3u8?{q}"
+
+
+def fetch_text(url):
+    req = urllib.request.Request(
+        url, headers={"User-Agent": "KaviTV-relay/" + VERSION})
+    with urllib.request.urlopen(req, timeout=25) as resp:
+        return resp.read().decode("utf-8", errors="replace")
+
+
+def absolutize(url, base):
+    if "://" in url:
+        return url
+    if url.startswith("/"):
+        parts = urllib.parse.urlsplit(base)
+        return f"{parts.scheme}://{parts.netloc}{url}"
+    return base + url
+
+
+def rewrite_playlist(body, base):
+    """Make every segment/key/map URI absolute against `base`."""
+    out = []
+    for line in body.splitlines():
+        s = line.strip()
+        if not s:
+            out.append(line)
+            continue
+        if s.startswith("#"):
+            s = re.sub(r'URI="([^"]+)"',
+                       lambda m: 'URI="' + absolutize(m.group(1), base) + '"',
+                       s)
+            out.append(s)
+        else:
+            out.append(absolutize(s, base))
+    return "\n".join(out) + "\n"
+
+
+def resolve_media_playlist(master_url, session_id):
+    """Follow master -> media playlist; return rewritten media playlist text.
+
+    Raises on any fetch/parse failure.
+    """
+    master = fetch_text(master_url)
+    variant = None
+    for line in master.splitlines():
+        s = line.strip()
+        if s and not s.startswith("#"):
+            variant = s
+            break
+    if not variant:
+        raise ValueError("master playlist has no variant")
+    vurl = absolutize(variant, master_url.rsplit("/", 1)[0] + "/")
+    vurl = with_query_param(vurl, "PlaySessionId", session_id)
+    media = fetch_text(vurl)
+    if "#EXT-X-STREAM-INF" in media:
+        # Unexpected second master level; hand it back with session attached.
+        return rewrite_playlist(
+            media, vurl.rsplit("/", 1)[0] + "/")
+    base = vurl.rsplit("/", 1)[0] + "/"
+    return rewrite_playlist(media, base)
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -123,13 +203,23 @@ class Handler(BaseHTTPRequestHandler):
                 if not item:
                     return self._json(404, {"error": "nothing scheduled"})
                 ref = item.get("ref", "")
-                # ref = "emby:movie:<itemId>"
-                item_id = ref.split(":")[-1]
-                hls = emby_hls_url(item_id, offset_ms, load_key())
-                self.send_response(302)
-                self.send_header("Location", hls)
+                item_id = ref.split(":")[-1]  # ref = "emby:movie:<itemId>"
+                session_id = uuid.uuid4().hex
+                master_url = emby_master_url(item_id, offset_ms,
+                                             load_key(), session_id)
+                try:
+                    body = resolve_media_playlist(master_url, session_id)
+                except Exception as e:
+                    return self._json(502, {"error": "emby fetch failed",
+                                           "detail": str(e)[:200]})
+                data = body.encode("utf-8")
+                self.send_response(200)
+                self.send_header("Content-Type",
+                                 "application/vnd.apple.mpegurl")
+                self.send_header("Content-Length", str(len(data)))
                 self.send_header("Cache-Control", "no-cache")
                 self.end_headers()
+                self.wfile.write(data)
                 return
             return self._json(404, {"error": "not found"})
         except FileNotFoundError as e:
