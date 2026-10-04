@@ -1,6 +1,6 @@
 {
- "generated_at": 1791081210,
- "generated_iso": "2026-10-04T02:33:30+0000",
+ "generated_at": 1791081242,
+ "generated_iso": "2026-10-04T02:34:02+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [
@@ -9,7 +9,7 @@
    "icon": "\ud83d\udda5\ufe0f",
    "title": "Gaming PC offline",
    "message": "SETHS-PC not reachable. Emby, TeraBox, and BiglyBT data may be stale.",
-   "at": "2026-10-04T02:33:30+0000"
+   "at": "2026-10-04T02:34:02+0000"
   }
  ],
  "github": {
