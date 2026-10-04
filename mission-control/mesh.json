@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-10-04T18:46:32+0000",
+ "generated_iso": "2026-10-04T19:46:32+0000",
  "nodes": [
   {
    "name": "muse",
@@ -47,6 +47,12 @@
    "ip": "100.79.81.67",
    "online": true,
    "rvg": true
+  },
+  {
+   "name": "muse-4",
+   "role": "Tailnet node",
+   "ip": "100.98.158.16",
+   "online": true
   },
   {
    "name": "iphone",
