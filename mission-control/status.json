@@ -1,6 +1,6 @@
 {
- "generated_at": 1791077629,
- "generated_iso": "2026-10-04T01:33:49+0000",
+ "generated_at": 1791077929,
+ "generated_iso": "2026-10-04T01:38:49+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [],
@@ -50,14 +50,14 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 89771,
+   "uptime_s": 90070,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
     "version": "4.10.1.0"
    },
    "emby_sessions": [],
-   "terabox_uploaders": 2,
+   "terabox_uploaders": 1,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
