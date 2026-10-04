@@ -1,13 +1,49 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T00:09:41+0000",
+ "generated_iso": "2026-10-04T00:12:03+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "(emby log unavailable: Invalid control character at: line 2 column 1999 (char 2000))",
+     "t": "2026-10-03 19:42:37.311 Info DynamicHlsService-0HNP0T5I40Q18:00000001: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dsethserver.freeddns.org\u00e2\u20ac\u0152:8096/videos/372868/mast",
      "c": "ok"
+    },
+    {
+     "t": "2026-10-03 19:42:37.314 Info DynamicHlsService-0HNP0T5I40Q18:00000001: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d87.81.233.101\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-03 19:43:11.615 Info DynamicHlsService-0HNP0T5I40Q1E:00000001: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dsethserver.freeddns.org\u00e2\u20ac\u0152:8096/videos/372868/main",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-03 19:43:11.618 Info DynamicHlsService-0HNP0T5I40Q1E:00000001: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d87.81.243.8\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-03 19:46:15.964 Error DefaultAuthenticationProvider: Invalid username or password. Password not correct.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 19:46:15.965 Error UserManager: Error authenticating with provider Default",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.Exception: System.Exception: Invalid username or password..",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 19:46:16.334 Warn UserService-0HNP0T5I40Q2V:00000001: AUTH-ERROR: 87.81.238.94 - Invalid username or password entered.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 19:46:16.334 Error UserService-0HNP0T5I40Q2V:00000001: Invalid username or password entered.",
+     "c": "err"
     }
    ]
   },
@@ -20,10 +56,6 @@
     },
     {
      "t": "[nowplaying-pol] 2026-10-03 19:14 EDT - now-playing-poller: pushed nowplaying.json d238c20 (0 playing)",
-     "c": "ok"
-    },
-    {
-     "t": "[reboot-watch.l] 2026-10-03T23:46:05Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; VDA direct check confirms device still unreachable (state alread",
      "c": "ok"
     },
     {
@@ -44,6 +76,10 @@
     },
     {
      "t": "[reboot-watch.l] 2026-10-04T00:07:09Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; device unreachable (was_reachable=false); no reboot detected, no",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-04T00:11:17Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; device unreachable (was already recorded unreachable); no reboot",
      "c": "ok"
     },
     {
