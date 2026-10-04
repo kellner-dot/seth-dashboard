@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T05:17:44+0000",
+ "generated_iso": "2026-10-04T05:27:45+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 01:15:30.740 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Tetsuo, the Iron Man\\Tetsuo.1989.1080p.BluRay.x264.A",
+     "t": "2026-10-04 01:25:24.595 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:15:48.646 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 01:25:24.596 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:15:48.646 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 01:15:48.646 Error App: Error in ffprobe",
+     "t": "2026-10-04 01:25:24.596 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -30,19 +26,19 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:16:49.062 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Boxer's Omen\\The.Boxers.Omen.1983.1080p.BluRay.x",
+     "t": "2026-10-04 01:26:25.084 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Holy Mountain\\The.Holy.Mountain.1973.1080p.BluRa",
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:17:11.159 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 01:26:44.573 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:17:11.159 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 01:26:44.573 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 01:17:11.159 Error App: Error in ffprobe",
+     "t": "2026-10-04 01:26:44.573 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -51,6 +47,10 @@
     },
     {
      "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 01:27:45.696 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The House Was Not Hungry Then\\The.House.Was.Not.Hung",
      "c": "err"
     }
    ]
