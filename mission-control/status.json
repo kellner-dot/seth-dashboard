@@ -1,6 +1,6 @@
 {
- "generated_at": 1791145212,
- "generated_iso": "2026-10-04T20:20:12+0000",
+ "generated_at": 1791145525,
+ "generated_iso": "2026-10-04T20:25:25+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -11,17 +11,43 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 156673,
+   "uptime_s": 156986,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
     "version": "4.10.1.0"
    },
-   "emby_sessions": [],
+   "emby_sessions": [
+    {
+     "device": "VM",
+     "client": "Muse",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "Fire TV on VegaOS (AFTCA002)",
+     "client": "Emby for Fire TV",
+     "user": "Seth",
+     "playing": "KaviTV Independent"
+    },
+    {
+     "device": "vm",
+     "client": "probe",
+     "user": "",
+     "playing": null
+    }
+   ],
    "terabox_uploaders": 1,
    "firetv": {
-    "seen_in_emby": false,
-    "sessions": [],
+    "seen_in_emby": true,
+    "sessions": [
+     {
+      "device": "Fire TV on VegaOS (AFTCA002)",
+      "client": "Emby for Fire TV",
+      "user": "Seth",
+      "playing": "KaviTV Independent"
+     }
+    ],
     "adb": "unreachable (port 5555 closed 2026-10-02)"
    }
   },
