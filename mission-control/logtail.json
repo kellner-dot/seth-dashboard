@@ -1,44 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T17:46:46+0000",
+ "generated_iso": "2026-10-04T18:16:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 13:44:13.873 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 14:14:32.880 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Requiem.for.a.Dream.2000.Explicit.1080p.BluRay.x265-",
      "c": "err"
     },
     {
-     "t": "2026-10-04 13:44:13.873 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 14:14:42.746 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 13:44:13.873 Error App: Error in ffprobe",
+     "t": "2026-10-04 14:14:42.746 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 13:45:14.523 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Barking.Dogs.Never.Bite.2000.1080p.BluRay.x264.Korea",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 13:45:18.501 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 13:45:18.501 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 13:45:18.502 Error App: Error in ffprobe",
+     "t": "2026-10-04 14:14:42.746 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -50,7 +30,27 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 13:46:18.845 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Begotten.1991.avi\" -threads 0 -v info -print_format ",
+     "t": "2026-10-04 14:15:43.460 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Sans Soleil (1983) CRITERION 720p BRRiP x264 AAC [Te",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 14:16:01.711 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 14:16:01.711 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 14:16:01.711 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     }
    ]
@@ -83,28 +83,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T12:36:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T12:41:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T13:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T13:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T13:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-04T13:46:37-04:00 [relay-supervisor] WARN: relay health check failed; attempting restart",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T13:46:57-04:00 [relay-supervisor] WARN: relay restarted successfully",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T13:46:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T14:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T14:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
     }
    ]
   }
