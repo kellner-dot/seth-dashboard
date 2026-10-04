@@ -1,12 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T17:16:37+0000",
+ "generated_iso": "2026-10-04T17:46:46+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 12:48:10.549 Error ImageService-0HNP0T5I40UHA:00000001: Error processing request",
+     "t": "2026-10-04 13:44:13.873 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 13:44:13.873 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 13:44:13.873 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -14,11 +22,23 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     },
     {
-     "t": "2026-10-04 12:48:13.129 Error ImageService-0HNP0T5I40UHE:00000001: Error processing request",
+     "t": "2026-10-04 13:45:14.523 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Barking.Dogs.Never.Bite.2000.1080p.BluRay.x264.Korea",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 13:45:18.501 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 13:45:18.501 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 13:45:18.502 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -26,19 +46,11 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     },
     {
-     "t": "2026-10-04 12:48:13.586 Error ImageService-0HNP0T5I40UHF:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "t": "2026-10-04 13:46:18.845 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Begotten.1991.avi\" -threads 0 -v info -print_format ",
      "c": "err"
     }
    ]
@@ -71,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T12:26:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T12:32:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T12:36:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
@@ -93,6 +97,14 @@
     {
      "t": "[supervision.lo] 2026-10-04T13:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T13:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T13:46:37-04:00 [relay-supervisor] WARN: relay health check failed; attempting restart",
+     "c": "err"
     }
    ]
   }
