@@ -43,7 +43,7 @@ KEY_FILE = os.path.join(CONFIG_DIR, "emby.key")
 SCHEDULE_FILE = os.path.join(CONFIG_DIR, "schedules.json")
 EMBY_HOST = "http://127.0.0.1:8096"  # relay runs ON the Emby box
 LAN_HOST = "10.0.0.98"               # this box's LAN address for players
-VERSION = "0.3.0"
+VERSION = "0.3.1"
 
 CHANNELS = {"horror": "30", "experimental": "31", "independent": "32"}
 
@@ -127,12 +127,19 @@ def absolutize(url, base):
 
 
 def rewrite_playlist(body, base):
-    """Make every segment/key/map URI absolute against `base`."""
+    """Make every segment/key/map URI absolute against `base`.
+
+    Also strips #EXT-X-START: Emby emits TIME-OFFSET relative to the full
+    movie, but the playlist we serve starts AT the offset already — a player
+    honoring the hint seeks past the end of the playlist and shows nothing.
+    """
     out = []
     for line in body.splitlines():
         s = line.strip()
         if not s:
             out.append(line)
+            continue
+        if s.startswith("#EXT-X-START"):
             continue
         if s.startswith("#"):
             s = re.sub(r'URI="([^"]+)"',
