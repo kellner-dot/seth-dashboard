@@ -1,41 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T22:46:45+0000",
+ "generated_iso": "2026-10-04T23:16:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 17:52:49.996 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-04 17:52:50.188 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-04 17:52:50.208 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-04 17:52:50.266 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-04 17:52:59.398 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-04 17:52:59.573 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-04 17:52:59.591 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadGateway",
      "c": "err"
     },
     {
-     "t": "2026-10-04 17:52:59.651 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
+     "t": "2026-10-04 19:16:20.326 Error ImageProcessor: Error getting size from libvips for C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\metadata\\live",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tNetVips.VipsException: NetVips.VipsException: unable to load from file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\metadata\\livetv\\27527aa",
+     "c": "err"
+    },
+    {
+     "t": "\t   at NetVips.Image.NewFromFile(String vipsFilename, Nullable`1 memory, Nullable`1 access, Nullable`1 failOn, VOption kwargs)",
+     "c": "err"
+    },
+    {
+     "t": "\t   at Emby.Drawing.ImageProcessor.GetImageSizeFromImageEncoders(String path, String format, Boolean logException)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: NetVips.Image NewFromFile(System.String, System.Nullable`1[System.Boolean], System.Nullable`1[NetVips.Enums+Access], System.Nullable`1[Ne",
      "c": "ok"
+    },
+    {
+     "t": "2026-10-04 19:16:20.326 Error ImageProcessor: Error getting size from Skia for C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\metadata\\livetv\\",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.Exception: System.Exception: SKCodec had an error reading C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\metadata\\livetv\\27527aa5908d1",
+     "c": "err"
+    },
+    {
+     "t": "\t   at Emby.Drawing.ImageProcessor.GetImageSizeFromImageEncoders(String path, String format, Boolean logException)",
+     "c": "err"
     }
    ]
   },
@@ -67,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T17:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T17:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T18:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
@@ -88,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T18:46:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T19:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T19:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     }
    ]
