@@ -158,7 +158,7 @@ function progEl(it) {
   d.innerHTML =
     `<div class="time">${esc(it.start)}–${esc(it.end)}</div>` +
     `<div class="info"><div class="title">${esc(it.title)}${it.pinned ? ' <span class="pin-badge">📌</span>' : ""}</div>` +
-    `<div class="sub">${esc(it.year || "")} · ${esc((it.genres || []).join(" / "))} · ★${it.rating == null ? "–" : it.rating} · ${it.runtime_min} min</div></div>` +
+    `<div class="sub">${esc(it.year || "")} · ${esc((it.genres || []).join(" / "))} · ★${it.rating == null ? "–" : it.rating} · ${(it.runtime_estimated ? "~" : "") + it.runtime_min} min</div></div>` +
     `<span class="slot">${esc(it.slot || "")}</span>`;
   d.onclick = () => openDrawer(it);
   return d;
@@ -182,7 +182,14 @@ function gapEl(fromMin, toMin, wrap) {
 /* ---------- movie pool ---------- */
 function getPool() {
   const ch = getChannel();
-  return (ch.programs || []).filter((m) => m.runtime_min);
+  // Curated channels keep movies without runtime data; the scheduler
+  // estimates 95 min (Emby lacks RunTimeTicks for most of the library).
+  return (ch.programs || []).map((m) =>
+    m.runtime_min ? m : { ...m, runtime_min: 95, runtime_estimated: true }
+  );
+}
+function rtLabel(m) {
+  return (m.runtime_estimated ? "~" : "") + m.runtime_min + "m";
 }
 function renderPool() {
   const q = $("poolSearch").value.trim().toLowerCase();
@@ -198,7 +205,7 @@ function renderPool() {
     const d = document.createElement("div");
     d.className = "movie" + (state.selectedMovie === m.ref ? " selected" : "");
     d.innerHTML = `<div class="t">${esc(m.title)}</div>` +
-      `<div class="m">${esc(m.year || "")} · ${esc((m.genres || []).join("/"))} · ★${m.rating == null ? "–" : m.rating} · ${m.runtime_min}m</div>`;
+      `<div class="m">${esc(m.year || "")} · ${esc((m.genres || []).join("/"))} · ★${m.rating == null ? "–" : m.rating} · ${rtLabel(m)}</div>`;
     d.onclick = () => {
       state.selectedMovie = state.selectedMovie === m.ref ? null : m.ref;
       renderPool();
@@ -339,6 +346,7 @@ function autoFill() {
     const f = (x) => `${String(Math.floor(x / 60) % 24).padStart(2, "0")}:${String(x % 60).padStart(2, "0")}`;
     items.push({
       ref: m.ref, title: m.title, year: m.year, runtime_min: dur,
+      runtime_estimated: !!m.runtime_estimated,
       rating: m.rating, genres: (m.genres || []).slice(0, 2),
       start: f(startMin), end: f(startMin + dur), slot: part, pinned,
     });
