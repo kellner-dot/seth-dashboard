@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T01:57:21+0000",
+ "generated_iso": "2026-10-04T02:07:20+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -39,14 +39,6 @@
      "c": "ok"
     },
     {
-     "t": "[reboot-watch.l] 00:45 reboot-watch: Fire Stick reachable, no transition, no reboot (state was_reachable=true)",
-     "c": "ok"
-    },
-    {
-     "t": "[reboot-watch.l] 2026-10-04T00:46:19Z fire-stick-reboot-watch: device unreachable 23:19->00:11 UTC; reachable again by 00:44 (direct VDA 'echo ok' OK); state flipped f",
-     "c": "ok"
-    },
-    {
      "t": "[reboot-watch.l] 2026-10-03 20:56:57 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
      "c": "ok"
     },
@@ -60,6 +52,14 @@
     },
     {
      "t": "[reboot-watch.l] 2026-10-03 21:18:57 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-04T02:03:00Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; direct VDA check reachable (echo ok OK); state was_reachable=tru",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03 22:03:18 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
      "c": "ok"
     },
     {
