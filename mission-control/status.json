@@ -1,47 +1,8 @@
 {
- "generated_at": 1791095256,
- "generated_iso": "2026-10-04T06:27:36+0000",
- "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
+ "generated_at": 1791095409,
+ "generated_iso": "2026-10-04T06:30:09+0000",
+ "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
- "github": {
-  "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 9,
-  "pages": [
-   {
-    "name": "seth-dashboard",
-    "url": "https://kellner-dot.github.io/seth-dashboard/"
-   },
-   {
-    "name": "theartfuldodger-site",
-    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
-   }
-  ]
- },
- "emby_library": {
-  "movies": 5441,
-  "series": 33,
-  "episodes": 59,
-  "recent": [
-   "Possessor",
-   "Megalopolis",
-   "Inland Empire",
-   "Poor Things",
-   "Cowboys & Aliens",
-   "Big Fish"
-  ]
- },
- "terabox": {
-  "total": null,
-  "used": null,
-  "free": null
- },
- "kaviguard": {},
- "biglybt": {
-  "running": true,
-  "scheduler": "night \u00b7 unlimited"
- },
  "devices": [
   {
    "id": "seths-pc",
@@ -50,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 107401,
+   "uptime_s": 106867,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -58,17 +19,36 @@
    },
    "emby_sessions": [
     {
-     "device": "",
-     "client": "",
+     "device": "VM",
+     "client": "Muse",
      "user": "",
+     "playing": null
+    },
+    {
+     "device": "vm",
+     "client": "probe",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "Fire TV on VegaOS (AFTCA002)",
+     "client": "Emby for Fire TV",
+     "user": "Seth",
      "playing": null
     }
    ],
    "terabox_uploaders": 1,
    "firetv": {
-    "seen_in_emby": false,
-    "sessions": [],
-    "adb": "unreachable (subnet route not approved or stick offline)"
+    "seen_in_emby": true,
+    "sessions": [
+     {
+      "device": "Fire TV on VegaOS (AFTCA002)",
+      "client": "Emby for Fire TV",
+      "user": "Seth",
+      "playing": null
+     }
+    ],
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
    }
   },
   {
@@ -90,8 +70,7 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": true,
-   "ping_ms": null
+   "online": false
   },
   {
    "id": "motorola-razr-2023",
