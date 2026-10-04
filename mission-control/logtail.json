@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T11:07:50+0000",
+ "generated_iso": "2026-10-04T11:09:10+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -8,7 +8,52 @@
   },
   {
    "name": "Fleet Pollers",
-   "lines": []
+   "lines": [
+    {
+     "t": "[supervision.lo] GET /rvd/status",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] GET /rvd/status",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] GET /rvd/status",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] GET /rvd/status",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] GET /rvd/status",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] GET /rvd/status",
+     "c": "ok"
+    },
+    {
+     "t": "[refresh.log] Everything up-to-date",
+     "c": "ok"
+    },
+    {
+     "t": "[refresh.log] [2026-10-04T10:45:07+00:00] waiting for Pages deploy...",
+     "c": "ok"
+    },
+    {
+     "t": "[refresh.log] PARSE FAIL: Expecting value: line 1 column 1 (char 0)",
+     "c": "err"
+    },
+    {
+     "t": "[refresh.log] [2026-10-04T10:47:07+00:00] PC refresh failed (non-fatal)",
+     "c": "err"
+    },
+    {
+     "t": "[refresh.log] [2026-10-04T10:47:07+00:00] daily refresh done",
+     "c": "ok"
+    }
+   ]
   }
  ]
 }
