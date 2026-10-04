@@ -161,9 +161,9 @@ def m3u_from_library(lib):
     for cid, ch in lib["channels"].items():
         out.append(
             f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{ch["name"]}" '
-            f'tvg-chno="{ch["number"]}" tvg-logo="{ch["logo"]}" '
+            f'tvg-logo="{ch["logo"]}" '
             f'group-title="KaviTV",{ch["name"]}')
-        out.append(f"{RELAY_BASE}/kavitv/live/{ch['slug']}")
+        out.append(f"{RELAY_BASE}/kavitv/live/{ch['slug']}.ts")
     return "\n".join(out) + "\n"
 
 
