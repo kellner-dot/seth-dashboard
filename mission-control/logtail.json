@@ -1,12 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T02:58:03+0000",
+ "generated_iso": "2026-10-04T03:07:22+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-03 20:31:03.315 Error UserLibraryService-0HNP0T5I40QDM:00000001: Error processing request",
+     "t": "2026-10-03 23:05:48.512 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Body.Melt.1993.720p.BluRay.x264.AAC-[YTS.MX].mp4\" -t",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:06:10.767 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:06:10.767 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:06:10.767 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -14,14 +26,75 @@
      "c": "err"
     },
     {
-     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Resource not found. Type: Library",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:07:11.705 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Boyhood.2014.1080p.BluRay.x264.YIFY.mp4\" -threads 0 ",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:07:18.036 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:07:18.036 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:07:18.036 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     }
    ]
   },
   {
    "name": "Fleet Pollers",
-   "lines": []
+   "lines": [
+    {
+     "t": "[nowplaying-pol] 2026-10-03 20:50:56 UTC now-playing-poller: PASS \u2014 pushed nowplaying.json (commit 3747dae), 0 items playing",
+     "c": "ok"
+    },
+    {
+     "t": "[nowplaying-pol] 2026-10-03 19:14 EDT - now-playing-poller: pushed nowplaying.json d238c20 (0 playing)",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-04T02:03:00Z fire-stick-reboot-watch: ran reboot-watch.py, exit 0, no output; direct VDA check reachable (echo ok OK); state was_reachable=tru",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03 22:03:18 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03 22:33:08 EDT | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-04 02:45:14 UTC | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-04 02:47:00 UTC | reboot-watch run OK, no transition, state was_reachable=true -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[reboot-watch.l] 2026-10-03 22:59:10 EDT | reboot-watch run OK, exit 0, no output, no reboot detected -> no relaunch",
+     "c": "ok"
+    },
+    {
+     "t": "[collector-runs] 2026-10-03 10:38:47 EDT mission-control collector: success, pushed status.json (commit 618fe0f)",
+     "c": "ok"
+    }
+   ]
   }
  ]
 }
