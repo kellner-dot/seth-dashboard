@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="kavitv.horror" tvg-name="KaviTV Horror" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-horror.jpg?v=2" group-title="KaviTV",KaviTV Horror
+#EXTINF:-1 tvg-id="kavitv.horror" tvg-name="KaviTV Horror" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-horror.jpg?v=3" group-title="KaviTV",KaviTV Horror
 http://10.0.0.98:8100/kavitv/live/horror.ts
-#EXTINF:-1 tvg-id="kavitv.experimental" tvg-name="KaviTV Experimental" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-experimental.jpg?v=2" group-title="KaviTV",KaviTV Experimental
+#EXTINF:-1 tvg-id="kavitv.experimental" tvg-name="KaviTV Experimental" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-experimental.jpg?v=3" group-title="KaviTV",KaviTV Experimental
 http://10.0.0.98:8100/kavitv/live/experimental.ts
-#EXTINF:-1 tvg-id="kavitv.independent" tvg-name="KaviTV Independent" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-independent.jpg?v=2" group-title="KaviTV",KaviTV Independent
+#EXTINF:-1 tvg-id="kavitv.independent" tvg-name="KaviTV Independent" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-independent.jpg?v=3" group-title="KaviTV",KaviTV Independent
 http://10.0.0.98:8100/kavitv/live/independent.ts
