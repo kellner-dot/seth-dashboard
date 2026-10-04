@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-04T11:27:50+0000",
- "updated_ts": 1791113270,
+ "updated": "2026-10-04T11:57:51+0000",
+ "updated_ts": 1791115071,
  "topics": [
   {
    "name": "Tech",
@@ -27,13 +27,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "So you think you could be an electrician?",
-     "summary": "Comments",
-     "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
-     "time": "Wed, 30 Sep 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "The work by Valve's Timur Krist\u00f3f on improving old AMD GPUs on Linux",
      "summary": "Comments",
      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
@@ -41,10 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Treachery in the Rodin Museum 3D scan verdict",
+     "title": "So you think you could be an electrician?",
      "summary": "Comments",
-     "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
-     "time": "Sat, 03 Oct 2026",
+     "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
+     "time": "Wed, 30 Sep 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "gpuvis: GPU Trace Visualizer",
+     "summary": "Comments",
+     "url": "https://github.com/mikesart/gpuvis",
+     "time": "Fri, 02 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Vermont officials and advocates tackle voting accessibility concerns ahead of November election",
+     "summary": "A voter carries ballots past a booth in Shelburne on Primary Day, Tuesday, August 11, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/08/primary-day-1-20260810-1200x798.jpg\" /> Data shows low voter turnout for disabled in Verm",
+     "url": "https://vtdigger.org/2026/10/04/vermont-officials-and-advocates-tackle-voting-accessibility-concerns-ahead-of-november-election/",
+     "time": "Sun, 04 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "An Essex County officials\u2019 parking fight puts taxpayers in a tight spot",
      "summary": "The Essex County Courthouse in Guildhall, center, sits between the Meeting House (left) and the Essex County Sheriff&#8217;s Department on Wednesday, September 30, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/essex-cou",
      "url": "https://vtdigger.org/2026/10/04/an-essex-county-officials-parking-fight-puts-taxpayers-in-a-tight-spot/",
@@ -215,13 +222,6 @@
      "title": "Hackers demand ransom from Slate Valley school district after compromising teachers\u2019 personal data",
      "summary": "Fair Haven Grade School. Photo Courtesy of Slate Valley Unified Union School District Communications Coordinator Lisa Cacciatore \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/01/FHGS-1200x800.jpg\" /> Teachers\u2019 personal information was compromised after hackers i",
      "url": "https://vtdigger.org/2026/10/02/hackers-demand-ransom-from-slate-valley-school-district-after-compromising-teachers-personal-data/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Anti-ICE activists plan week of community engagement, learning and protest",
-     "summary": "Musicians from across the state play at a protest against ICE and CBP in St. Albans on May 8, 2026. Photo by Emma Green/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/05/ICE-protest-02-20260508-1200x800.jpg\" /> The events aim to focus attention on the ro",
-     "url": "https://vtdigger.org/2026/10/02/anti-ice-activists-plan-week-of-community-engagement-learning-and-protest/",
      "time": "Fri, 02 Oct 2026",
      "source": "VT Digger"
     }
