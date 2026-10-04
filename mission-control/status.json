@@ -1,8 +1,47 @@
 {
- "generated_at": 1791108308,
- "generated_iso": "2026-10-04T10:05:08+0000",
- "collector": "mission-control v1 (hatch VM, 5-min cron)",
+ "generated_at": 1791108456,
+ "generated_iso": "2026-10-04T10:07:36+0000",
+ "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
+ "alerts": [],
+ "github": {
+  "profile": "https://github.com/kellner-dot",
+  "public_repos": 10,
+  "private_repos": 9,
+  "pages": [
+   {
+    "name": "seth-dashboard",
+    "url": "https://kellner-dot.github.io/seth-dashboard/"
+   },
+   {
+    "name": "theartfuldodger-site",
+    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
+   }
+  ]
+ },
+ "emby_library": {
+  "movies": 5441,
+  "series": 33,
+  "episodes": 59,
+  "recent": [
+   "Possessor",
+   "Megalopolis",
+   "Inland Empire",
+   "Poor Things",
+   "Cowboys & Aliens",
+   "Big Fish"
+  ]
+ },
+ "terabox": {
+  "total": null,
+  "used": null,
+  "free": null
+ },
+ "kaviguard": {},
+ "biglybt": {
+  "running": true,
+  "scheduler": "night \u00b7 unlimited"
+ },
  "devices": [
   {
    "id": "seths-pc",
@@ -11,7 +50,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 119767,
+   "uptime_s": 120600,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -19,36 +58,17 @@
    },
    "emby_sessions": [
     {
-     "device": "VM",
-     "client": "Muse",
+     "device": "",
+     "client": "",
      "user": "",
-     "playing": null
-    },
-    {
-     "device": "vm",
-     "client": "probe",
-     "user": "",
-     "playing": null
-    },
-    {
-     "device": "Fire TV on VegaOS (AFTCA002)",
-     "client": "Emby for Fire TV",
-     "user": "Seth",
      "playing": null
     }
    ],
    "terabox_uploaders": 1,
    "firetv": {
-    "seen_in_emby": true,
-    "sessions": [
-     {
-      "device": "Fire TV on VegaOS (AFTCA002)",
-      "client": "Emby for Fire TV",
-      "user": "Seth",
-      "playing": null
-     }
-    ],
-    "adb": "unreachable (port 5555 closed 2026-10-02)"
+    "seen_in_emby": false,
+    "sessions": [],
+    "adb": "unreachable (subnet route not approved or stick offline)"
    }
   },
   {
@@ -70,7 +90,8 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": false
+   "online": true,
+   "ping_ms": null
   },
   {
    "id": "motorola-razr-2023",
