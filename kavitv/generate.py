@@ -126,6 +126,16 @@ def _fill_gap(slots, t, gap_s, bumpers, rng):
 
 def xmltv_from_timeline(timeline, lib):
     """Pure transform: timeline slots -> XMLTV."""
+    # Build poster lookup: emby_id -> poster URL
+    posters = {}
+    for ch in lib["channels"].values():
+        for m in ch["movies"]:
+            if m.get("poster"):
+                posters[m["emby_id"]] = m["poster"]
+        for b in ch.get("bumpers", []):
+            if b.get("poster"):
+                posters[b["emby_id"]] = b["poster"]
+
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<tv generator-info-name="kavitv-scheduler">']
     for cid, ch in lib["channels"].items():
@@ -146,6 +156,10 @@ def xmltv_from_timeline(timeline, lib):
                 out.append(f'    <desc>{xml_escape(s["overview"][:400])}</desc>')
             for g in s.get("genres", []):
                 out.append(f'    <category>{xml_escape(g)}</category>')
+            # Program poster (fixes missing posters in Emby guide)
+            poster = posters.get(s.get("emby_id"))
+            if poster:
+                out.append(f'    <icon src="{xml_escape(poster)}"/>')
             out.append('  </programme>')
     out.append('</tv>')
     return "\n".join(out) + "\n"
@@ -175,6 +189,31 @@ def atomic_write(path, data):
     os.replace(tmp, path)
 
 
+
+def validate_m3u(m3u_text, lib):
+    """CI check: enforce tuner config invariants on generated M3U."""
+    errors = []
+    lines = m3u_text.strip().split("\n")
+    if not lines[0].startswith("#EXTM3U"):
+        errors.append("missing #EXTM3U header")
+    # Check each channel has .ts URL (required for SharedHttpStream)
+    for cid, ch in lib["channels"].items():
+        slug = ch["slug"]
+        expected = f"/kavitv/live/{slug}.ts"
+        if expected not in m3u_text:
+            errors.append(f"{cid}: missing .ts URL {expected}")
+        # tvg-id must match channel id exactly
+        if f'tvg-id="{cid}"' not in m3u_text:
+            errors.append(f"{cid}: tvg-id mismatch")
+        # No tvg-chno (Seth wants no channel numbers)
+        if "tvg-chno" in m3u_text:
+            errors.append("tvg-chno found (should be absent)")
+            break
+    if errors:
+        raise ValueError("M3U validation failed: " + "; ".join(errors))
+    return True
+
+
 def main():
     lib_path = sys.argv[1] if len(sys.argv) > 1 else "library.json"
     out_dir = sys.argv[2] if len(sys.argv) > 2 else "."
@@ -197,8 +236,9 @@ def main():
                  json.dumps(timeline, indent=1))
     atomic_write(os.path.join(out_dir, "kavitv.xml"),
                  xmltv_from_timeline(timeline, lib))
-    atomic_write(os.path.join(out_dir, "kavitv.m3u"),
-                 m3u_from_library(lib))
+    m3u_text = m3u_from_library(lib)
+    validate_m3u(m3u_text, lib)
+    atomic_write(os.path.join(out_dir, "kavitv.m3u"), m3u_text)
 
     n_slots = sum(len(c["slots"]) for c in timeline["channels"].values())
     print(json.dumps({"channels": len(lib["channels"]), "slots": n_slots,
