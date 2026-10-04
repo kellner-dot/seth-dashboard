@@ -209,12 +209,19 @@ class Handler(BaseHTTPRequestHandler):
                     now = self._now_map(tl)
                     gen = tl.get("generated_at")
                     chs = sorted(tl["channels"].keys())
+                    # date for backward compat (kavi2 supervisor expects YYYY-MM-DD)
+                    try:
+                        date_str = gen[:10] if gen else None
+                    except Exception:
+                        date_str = None
                 except FileNotFoundError:
-                    now, gen, chs = {}, None, []
+                    now, gen, chs, date_str = {}, None, [], None
                 return self._json(200, {
                     "ok": True, "version": VERSION,
                     "ffmpeg": os.path.exists(FFMPEG),
-                    "generated_at": gen, "channels": chs, "now": now,
+                    "generated_at": gen,
+                    "date": date_str,  # backward compat for supervisors
+                    "channels": chs, "now": now,
                 })
             if path.startswith("/kavitv/live/"):
                 slug = path.split("/")[3].split(".")[0]
