@@ -1743,6 +1743,10 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372888" />
   </programme>
+  <programme start="20261010042626 +0000" stop="20261010042756 +0000" channel="sethtv-1">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
   <programme start="20261003040000 +0000" stop="20261003041625 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
@@ -1940,18 +1944,22 @@
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261003233926 +0000" stop="20261004005606 +0000" channel="sethtv-2">
-    <title lang="en">The Nightmare Before Christmas</title>
-    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Family</category>
-    <date>1993</date>
-    <star-rating><value>7.9/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373073" />
+  <programme start="20261003233926 +0000" stop="20261004000000 +0000" channel="sethtv-2">
+    <title lang="en">Coming up next</title>
+    <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004005606 +0000" stop="20261004025649 +0000" channel="sethtv-2">
+  <programme start="20261004000000 +0000" stop="20261004013648 +0000" channel="sethtv-2">
+    <title lang="en">Schizopolis</title>
+    <desc lang="en">A man works for the unpleasant guru of a Scientology-like movement.</desc>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Mystery</category>
+    <date>1997</date>
+    <star-rating><value>6.7/10</value></star-rating>
+    <rating system="MPAA"><value>NR</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372862" />
+  </programme>
+  <programme start="20261004013648 +0000" stop="20261004033732 +0000" channel="sethtv-2">
     <title lang="en">I Swear</title>
     <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
     <category lang="en">Drama</category>
@@ -1961,11 +1969,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372844" />
   </programme>
-  <programme start="20261004025649 +0000" stop="20261004025819 +0000" channel="sethtv-2">
+  <programme start="20261004033732 +0000" stop="20261004033902 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004025819 +0000" stop="20261004051956 +0000" channel="sethtv-2">
+  <programme start="20261004033902 +0000" stop="20261004060039 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -1976,11 +1984,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261004051956 +0000" stop="20261004052126 +0000" channel="sethtv-2">
+  <programme start="20261004060039 +0000" stop="20261004060209 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004052126 +0000" stop="20261004065139 +0000" channel="sethtv-2">
+  <programme start="20261004060209 +0000" stop="20261004073221 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -1993,11 +2001,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261004065139 +0000" stop="20261004065309 +0000" channel="sethtv-2">
+  <programme start="20261004073221 +0000" stop="20261004073351 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004065309 +0000" stop="20261004080948 +0000" channel="sethtv-2">
+  <programme start="20261004073351 +0000" stop="20261004085031 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -2008,11 +2016,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261004080948 +0000" stop="20261004081118 +0000" channel="sethtv-2">
+  <programme start="20261004085031 +0000" stop="20261004085201 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004081118 +0000" stop="20261004103255 +0000" channel="sethtv-2">
+  <programme start="20261004085201 +0000" stop="20261004111337 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2023,11 +2031,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261004103255 +0000" stop="20261004103425 +0000" channel="sethtv-2">
+  <programme start="20261004111337 +0000" stop="20261004111507 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004103425 +0000" stop="20261004105051 +0000" channel="sethtv-2">
+  <programme start="20261004111507 +0000" stop="20261004113133 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -2037,11 +2045,11 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261004105051 +0000" stop="20261004105221 +0000" channel="sethtv-2">
+  <programme start="20261004113133 +0000" stop="20261004113303 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004105221 +0000" stop="20261004122135 +0000" channel="sethtv-2">
+  <programme start="20261004113303 +0000" stop="20261004130217 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -2052,11 +2060,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261004122135 +0000" stop="20261004122305 +0000" channel="sethtv-2">
+  <programme start="20261004130217 +0000" stop="20261004130347 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004122305 +0000" stop="20261004142349 +0000" channel="sethtv-2">
+  <programme start="20261004130347 +0000" stop="20261004150431 +0000" channel="sethtv-2">
     <title lang="en">I Swear</title>
     <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
     <category lang="en">Drama</category>
@@ -2066,11 +2074,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372844" />
   </programme>
-  <programme start="20261004142349 +0000" stop="20261004142519 +0000" channel="sethtv-2">
+  <programme start="20261004150431 +0000" stop="20261004150601 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004142519 +0000" stop="20261004155433 +0000" channel="sethtv-2">
+  <programme start="20261004150601 +0000" stop="20261004163515 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -2081,11 +2089,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261004155433 +0000" stop="20261004155603 +0000" channel="sethtv-2">
+  <programme start="20261004163515 +0000" stop="20261004163645 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004155603 +0000" stop="20261004171242 +0000" channel="sethtv-2">
+  <programme start="20261004163645 +0000" stop="20261004175325 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -2096,11 +2104,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261004171242 +0000" stop="20261004171412 +0000" channel="sethtv-2">
+  <programme start="20261004175325 +0000" stop="20261004175455 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004171412 +0000" stop="20261004173038 +0000" channel="sethtv-2">
+  <programme start="20261004175455 +0000" stop="20261004181120 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -2110,11 +2118,11 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261004173038 +0000" stop="20261004173208 +0000" channel="sethtv-2">
+  <programme start="20261004181120 +0000" stop="20261004181250 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004173208 +0000" stop="20261004190220 +0000" channel="sethtv-2">
+  <programme start="20261004181250 +0000" stop="20261004194303 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2127,11 +2135,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261004190220 +0000" stop="20261004190350 +0000" channel="sethtv-2">
+  <programme start="20261004194303 +0000" stop="20261004194433 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004190350 +0000" stop="20261004212527 +0000" channel="sethtv-2">
+  <programme start="20261004194433 +0000" stop="20261004220610 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2142,25 +2150,26 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261004212527 +0000" stop="20261004212657 +0000" channel="sethtv-2">
+  <programme start="20261004220610 +0000" stop="20261004220740 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004212657 +0000" stop="20261004232741 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261004232741 +0000" stop="20261004232911 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
+  <programme start="20261004220740 +0000" stop="20261005000000 +0000" channel="sethtv-2">
+    <title lang="en">Coming up next</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261004232911 +0000" stop="20261005005825 +0000" channel="sethtv-2">
+  <programme start="20261005000000 +0000" stop="20261005013648 +0000" channel="sethtv-2">
+    <title lang="en">Schizopolis</title>
+    <desc lang="en">A man works for the unpleasant guru of a Scientology-like movement.</desc>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Mystery</category>
+    <date>1997</date>
+    <star-rating><value>6.7/10</value></star-rating>
+    <rating system="MPAA"><value>NR</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372862" />
+  </programme>
+  <programme start="20261005013648 +0000" stop="20261005030603 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -2171,7 +2180,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261005005825 +0000" stop="20261005021505 +0000" channel="sethtv-2">
+  <programme start="20261005030603 +0000" stop="20261005030733 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005030733 +0000" stop="20261005042412 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -2182,11 +2195,55 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261005021505 +0000" stop="20261005021635 +0000" channel="sethtv-2">
+  <programme start="20261005042412 +0000" stop="20261005042542 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005021635 +0000" stop="20261005023300 +0000" channel="sethtv-2">
+  <programme start="20261005042542 +0000" stop="20261005062626 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261005062626 +0000" stop="20261005062756 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005062756 +0000" stop="20261005075710 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261005075710 +0000" stop="20261005075840 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005075840 +0000" stop="20261005102017 +0000" channel="sethtv-2">
+    <title lang="en">Poor Things</title>
+    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
+    <category lang="en">Science Fiction</category>
+    <category lang="en">Romance</category>
+    <category lang="en">Comedy</category>
+    <date>2023</date>
+    <star-rating><value>7.7/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372856" />
+  </programme>
+  <programme start="20261005102017 +0000" stop="20261005102147 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005102147 +0000" stop="20261005103812 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -2196,11 +2253,26 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261005023300 +0000" stop="20261005023430 +0000" channel="sethtv-2">
+  <programme start="20261005103812 +0000" stop="20261005103942 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005023430 +0000" stop="20261005040443 +0000" channel="sethtv-2">
+  <programme start="20261005103942 +0000" stop="20261005115622 +0000" channel="sethtv-2">
+    <title lang="en">The Nightmare Before Christmas</title>
+    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Family</category>
+    <date>1993</date>
+    <star-rating><value>7.9/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/373073" />
+  </programme>
+  <programme start="20261005115622 +0000" stop="20261005115752 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005115752 +0000" stop="20261005132804 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2213,69 +2285,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261005040443 +0000" stop="20261005040613 +0000" channel="sethtv-2">
+  <programme start="20261005132804 +0000" stop="20261005132934 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005040613 +0000" stop="20261005060656 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261005060656 +0000" stop="20261005060826 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261005060826 +0000" stop="20261005073740 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261005073740 +0000" stop="20261005073910 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261005073910 +0000" stop="20261005100047 +0000" channel="sethtv-2">
-    <title lang="en">Poor Things</title>
-    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Romance</category>
-    <category lang="en">Comedy</category>
-    <date>2023</date>
-    <star-rating><value>7.7/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372856" />
-  </programme>
-  <programme start="20261005100047 +0000" stop="20261005100217 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261005100217 +0000" stop="20261005101843 +0000" channel="sethtv-2">
-    <title lang="en">Un Chien Andalou</title>
-    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Thriller</category>
-    <date>1929</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>Not Rated</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372884" />
-  </programme>
-  <programme start="20261005101843 +0000" stop="20261005102013 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261005102013 +0000" stop="20261005113652 +0000" channel="sethtv-2">
+  <programme start="20261005132934 +0000" stop="20261005144614 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -2286,11 +2300,69 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261005113652 +0000" stop="20261005113822 +0000" channel="sethtv-2">
+  <programme start="20261005144614 +0000" stop="20261005144744 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005113822 +0000" stop="20261005130835 +0000" channel="sethtv-2">
+  <programme start="20261005144744 +0000" stop="20261005161658 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261005161658 +0000" stop="20261005161828 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005161828 +0000" stop="20261005184005 +0000" channel="sethtv-2">
+    <title lang="en">Poor Things</title>
+    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
+    <category lang="en">Science Fiction</category>
+    <category lang="en">Romance</category>
+    <category lang="en">Comedy</category>
+    <date>2023</date>
+    <star-rating><value>7.7/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372856" />
+  </programme>
+  <programme start="20261005184005 +0000" stop="20261005184135 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005184135 +0000" stop="20261005185801 +0000" channel="sethtv-2">
+    <title lang="en">Un Chien Andalou</title>
+    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Thriller</category>
+    <date>1929</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>Not Rated</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372884" />
+  </programme>
+  <programme start="20261005185801 +0000" stop="20261005185931 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005185931 +0000" stop="20261005210014 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261005210014 +0000" stop="20261005210144 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261005210144 +0000" stop="20261005223157 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2303,11 +2375,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261005130835 +0000" stop="20261005131005 +0000" channel="sethtv-2">
+  <programme start="20261005223157 +0000" stop="20261005223327 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005131005 +0000" stop="20261005142644 +0000" channel="sethtv-2">
+  <programme start="20261005223327 +0000" stop="20261005235006 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -2318,26 +2390,26 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261005142644 +0000" stop="20261005142814 +0000" channel="sethtv-2">
+  <programme start="20261005235006 +0000" stop="20261005235136 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005142814 +0000" stop="20261005155729 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261005155729 +0000" stop="20261005155859 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
+  <programme start="20261005235136 +0000" stop="20261006000000 +0000" channel="sethtv-2">
+    <title lang="en">Coming up next</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005155859 +0000" stop="20261005182036 +0000" channel="sethtv-2">
+  <programme start="20261006000000 +0000" stop="20261006013648 +0000" channel="sethtv-2">
+    <title lang="en">Schizopolis</title>
+    <desc lang="en">A man works for the unpleasant guru of a Scientology-like movement.</desc>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Mystery</category>
+    <date>1997</date>
+    <star-rating><value>6.7/10</value></star-rating>
+    <rating system="MPAA"><value>NR</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372862" />
+  </programme>
+  <programme start="20261006013648 +0000" stop="20261006035825 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2348,11 +2420,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261005182036 +0000" stop="20261005182206 +0000" channel="sethtv-2">
+  <programme start="20261006035825 +0000" stop="20261006035955 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005182206 +0000" stop="20261005183831 +0000" channel="sethtv-2">
+  <programme start="20261006035955 +0000" stop="20261006041621 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -2362,11 +2434,11 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261005183831 +0000" stop="20261005184001 +0000" channel="sethtv-2">
+  <programme start="20261006041621 +0000" stop="20261006041751 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005184001 +0000" stop="20261005204045 +0000" channel="sethtv-2">
+  <programme start="20261006041751 +0000" stop="20261006061834 +0000" channel="sethtv-2">
     <title lang="en">I Swear</title>
     <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
     <category lang="en">Drama</category>
@@ -2376,11 +2448,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372844" />
   </programme>
-  <programme start="20261005204045 +0000" stop="20261005204215 +0000" channel="sethtv-2">
+  <programme start="20261006061834 +0000" stop="20261006062004 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005204215 +0000" stop="20261005221227 +0000" channel="sethtv-2">
+  <programme start="20261006062004 +0000" stop="20261006075017 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2393,11 +2465,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261005221227 +0000" stop="20261005221357 +0000" channel="sethtv-2">
+  <programme start="20261006075017 +0000" stop="20261006075147 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005221357 +0000" stop="20261005233037 +0000" channel="sethtv-2">
+  <programme start="20261006075147 +0000" stop="20261006090826 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -2408,22 +2480,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261005233037 +0000" stop="20261005233207 +0000" channel="sethtv-2">
+  <programme start="20261006090826 +0000" stop="20261006090956 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261005233207 +0000" stop="20261006010121 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261006010121 +0000" stop="20261006032258 +0000" channel="sethtv-2">
+  <programme start="20261006090956 +0000" stop="20261006113133 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2434,11 +2495,26 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261006032258 +0000" stop="20261006032428 +0000" channel="sethtv-2">
+  <programme start="20261006113133 +0000" stop="20261006113303 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006032428 +0000" stop="20261006034053 +0000" channel="sethtv-2">
+  <programme start="20261006113303 +0000" stop="20261006130217 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261006130217 +0000" stop="20261006130347 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261006130347 +0000" stop="20261006132013 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -2448,39 +2524,40 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261006034053 +0000" stop="20261006034223 +0000" channel="sethtv-2">
+  <programme start="20261006132013 +0000" stop="20261006132143 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006034223 +0000" stop="20261006054307 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  <programme start="20261006132143 +0000" stop="20261006145057 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261006054307 +0000" stop="20261006054437 +0000" channel="sethtv-2">
+  <programme start="20261006145057 +0000" stop="20261006145227 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006054437 +0000" stop="20261006074520 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  <programme start="20261006145227 +0000" stop="20261006150853 +0000" channel="sethtv-2">
+    <title lang="en">Un Chien Andalou</title>
+    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Thriller</category>
+    <date>1929</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>Not Rated</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261006074520 +0000" stop="20261006074650 +0000" channel="sethtv-2">
+  <programme start="20261006150853 +0000" stop="20261006151023 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006074650 +0000" stop="20261006091703 +0000" channel="sethtv-2">
+  <programme start="20261006151023 +0000" stop="20261006164036 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2493,26 +2570,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261006091703 +0000" stop="20261006091833 +0000" channel="sethtv-2">
+  <programme start="20261006164036 +0000" stop="20261006164206 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006091833 +0000" stop="20261006103512 +0000" channel="sethtv-2">
-    <title lang="en">The Nightmare Before Christmas</title>
-    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Family</category>
-    <date>1993</date>
-    <star-rating><value>7.9/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373073" />
-  </programme>
-  <programme start="20261006103512 +0000" stop="20261006103642 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261006103642 +0000" stop="20261006125819 +0000" channel="sethtv-2">
+  <programme start="20261006164206 +0000" stop="20261006190343 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2523,11 +2585,40 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261006125819 +0000" stop="20261006125949 +0000" channel="sethtv-2">
+  <programme start="20261006190343 +0000" stop="20261006190513 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006125949 +0000" stop="20261006142904 +0000" channel="sethtv-2">
+  <programme start="20261006190513 +0000" stop="20261006202152 +0000" channel="sethtv-2">
+    <title lang="en">The Nightmare Before Christmas</title>
+    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Family</category>
+    <date>1993</date>
+    <star-rating><value>7.9/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/373073" />
+  </programme>
+  <programme start="20261006202152 +0000" stop="20261006202322 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261006202322 +0000" stop="20261006222405 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261006222405 +0000" stop="20261006222535 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261006222535 +0000" stop="20261006235450 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -2538,54 +2629,26 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261006142904 +0000" stop="20261006143034 +0000" channel="sethtv-2">
+  <programme start="20261006235450 +0000" stop="20261006235620 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006143034 +0000" stop="20261006144659 +0000" channel="sethtv-2">
-    <title lang="en">Un Chien Andalou</title>
-    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
+  <programme start="20261006235620 +0000" stop="20261007000000 +0000" channel="sethtv-2">
+    <title lang="en">Coming up next</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261007000000 +0000" stop="20261007013648 +0000" channel="sethtv-2">
+    <title lang="en">Schizopolis</title>
+    <desc lang="en">A man works for the unpleasant guru of a Scientology-like movement.</desc>
+    <category lang="en">Comedy</category>
     <category lang="en">Fantasy</category>
-    <category lang="en">Thriller</category>
-    <date>1929</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>Not Rated</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372884" />
+    <category lang="en">Mystery</category>
+    <date>1997</date>
+    <star-rating><value>6.7/10</value></star-rating>
+    <rating system="MPAA"><value>NR</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372862" />
   </programme>
-  <programme start="20261006144659 +0000" stop="20261006144829 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261006144829 +0000" stop="20261006161744 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261006161744 +0000" stop="20261006161914 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261006161914 +0000" stop="20261006163539 +0000" channel="sethtv-2">
-    <title lang="en">Un Chien Andalou</title>
-    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Thriller</category>
-    <date>1929</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>Not Rated</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372884" />
-  </programme>
-  <programme start="20261006163539 +0000" stop="20261006163709 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261006163709 +0000" stop="20261006180722 +0000" channel="sethtv-2">
+  <programme start="20261007013648 +0000" stop="20261007030701 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2598,11 +2661,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261006180722 +0000" stop="20261006180852 +0000" channel="sethtv-2">
+  <programme start="20261007030701 +0000" stop="20261007030831 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006180852 +0000" stop="20261006203029 +0000" channel="sethtv-2">
+  <programme start="20261007030831 +0000" stop="20261007053008 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2613,40 +2676,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261006203029 +0000" stop="20261006203159 +0000" channel="sethtv-2">
+  <programme start="20261007053008 +0000" stop="20261007053138 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261006203159 +0000" stop="20261006214838 +0000" channel="sethtv-2">
-    <title lang="en">The Nightmare Before Christmas</title>
-    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Family</category>
-    <date>1993</date>
-    <star-rating><value>7.9/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373073" />
-  </programme>
-  <programme start="20261006214838 +0000" stop="20261006215008 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261006215008 +0000" stop="20261006235051 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261006235051 +0000" stop="20261006235221 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261006235221 +0000" stop="20261007012136 +0000" channel="sethtv-2">
+  <programme start="20261007053138 +0000" stop="20261007070052 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -2657,7 +2691,26 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261007012136 +0000" stop="20261007013801 +0000" channel="sethtv-2">
+  <programme start="20261007070052 +0000" stop="20261007070222 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261007070222 +0000" stop="20261007081901 +0000" channel="sethtv-2">
+    <title lang="en">The Nightmare Before Christmas</title>
+    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Family</category>
+    <date>1993</date>
+    <star-rating><value>7.9/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/373073" />
+  </programme>
+  <programme start="20261007081901 +0000" stop="20261007082031 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261007082031 +0000" stop="20261007083657 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -2667,11 +2720,26 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261007013801 +0000" stop="20261007013931 +0000" channel="sethtv-2">
+  <programme start="20261007083657 +0000" stop="20261007083827 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007013931 +0000" stop="20261007030944 +0000" channel="sethtv-2">
+  <programme start="20261007083827 +0000" stop="20261007110004 +0000" channel="sethtv-2">
+    <title lang="en">Poor Things</title>
+    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
+    <category lang="en">Science Fiction</category>
+    <category lang="en">Romance</category>
+    <category lang="en">Comedy</category>
+    <date>2023</date>
+    <star-rating><value>7.7/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372856" />
+  </programme>
+  <programme start="20261007110004 +0000" stop="20261007110134 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261007110134 +0000" stop="20261007123146 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2684,11 +2752,25 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261007030944 +0000" stop="20261007031114 +0000" channel="sethtv-2">
+  <programme start="20261007123146 +0000" stop="20261007123316 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007031114 +0000" stop="20261007053251 +0000" channel="sethtv-2">
+  <programme start="20261007123316 +0000" stop="20261007143400 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261007143400 +0000" stop="20261007143530 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261007143530 +0000" stop="20261007165707 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2699,11 +2781,25 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261007053251 +0000" stop="20261007053421 +0000" channel="sethtv-2">
+  <programme start="20261007165707 +0000" stop="20261007165837 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007053421 +0000" stop="20261007070335 +0000" channel="sethtv-2">
+  <programme start="20261007165837 +0000" stop="20261007185920 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261007185920 +0000" stop="20261007190050 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261007190050 +0000" stop="20261007203005 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -2714,11 +2810,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261007070335 +0000" stop="20261007070505 +0000" channel="sethtv-2">
+  <programme start="20261007203005 +0000" stop="20261007203135 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007070505 +0000" stop="20261007082145 +0000" channel="sethtv-2">
+  <programme start="20261007203135 +0000" stop="20261007214814 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -2729,11 +2825,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261007082145 +0000" stop="20261007082315 +0000" channel="sethtv-2">
+  <programme start="20261007214814 +0000" stop="20261007214944 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007082315 +0000" stop="20261007083940 +0000" channel="sethtv-2">
+  <programme start="20261007214944 +0000" stop="20261007220610 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -2743,26 +2839,11 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261007083940 +0000" stop="20261007084110 +0000" channel="sethtv-2">
+  <programme start="20261007220610 +0000" stop="20261007220740 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007084110 +0000" stop="20261007110247 +0000" channel="sethtv-2">
-    <title lang="en">Poor Things</title>
-    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Romance</category>
-    <category lang="en">Comedy</category>
-    <date>2023</date>
-    <star-rating><value>7.7/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372856" />
-  </programme>
-  <programme start="20261007110247 +0000" stop="20261007110417 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261007110417 +0000" stop="20261007123430 +0000" channel="sethtv-2">
+  <programme start="20261007220740 +0000" stop="20261007233752 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2775,40 +2856,26 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261007123430 +0000" stop="20261007123600 +0000" channel="sethtv-2">
+  <programme start="20261007233752 +0000" stop="20261007233922 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007123600 +0000" stop="20261007143643 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261007143643 +0000" stop="20261007143813 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
+  <programme start="20261007233922 +0000" stop="20261008000000 +0000" channel="sethtv-2">
+    <title lang="en">Coming up next</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007143813 +0000" stop="20261007165950 +0000" channel="sethtv-2">
-    <title lang="en">Poor Things</title>
-    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Romance</category>
+  <programme start="20261008000000 +0000" stop="20261008013648 +0000" channel="sethtv-2">
+    <title lang="en">Schizopolis</title>
+    <desc lang="en">A man works for the unpleasant guru of a Scientology-like movement.</desc>
     <category lang="en">Comedy</category>
-    <date>2023</date>
-    <star-rating><value>7.7/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372856" />
+    <category lang="en">Fantasy</category>
+    <category lang="en">Mystery</category>
+    <date>1997</date>
+    <star-rating><value>6.7/10</value></star-rating>
+    <rating system="MPAA"><value>NR</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372862" />
   </programme>
-  <programme start="20261007165950 +0000" stop="20261007170120 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261007170120 +0000" stop="20261007190203 +0000" channel="sethtv-2">
+  <programme start="20261008013648 +0000" stop="20261008033732 +0000" channel="sethtv-2">
     <title lang="en">I Swear</title>
     <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
     <category lang="en">Drama</category>
@@ -2818,11 +2885,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372844" />
   </programme>
-  <programme start="20261007190203 +0000" stop="20261007190333 +0000" channel="sethtv-2">
+  <programme start="20261008033732 +0000" stop="20261008033902 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007190333 +0000" stop="20261007203248 +0000" channel="sethtv-2">
+  <programme start="20261008033902 +0000" stop="20261008050816 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -2833,40 +2900,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
   </programme>
-  <programme start="20261007203248 +0000" stop="20261007203418 +0000" channel="sethtv-2">
+  <programme start="20261008050816 +0000" stop="20261008050946 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007203418 +0000" stop="20261007215057 +0000" channel="sethtv-2">
-    <title lang="en">The Nightmare Before Christmas</title>
-    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Family</category>
-    <date>1993</date>
-    <star-rating><value>7.9/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373073" />
-  </programme>
-  <programme start="20261007215057 +0000" stop="20261007215227 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261007215227 +0000" stop="20261007220853 +0000" channel="sethtv-2">
-    <title lang="en">Un Chien Andalou</title>
-    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Thriller</category>
-    <date>1929</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>Not Rated</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372884" />
-  </programme>
-  <programme start="20261007220853 +0000" stop="20261007221023 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261007221023 +0000" stop="20261007234035 +0000" channel="sethtv-2">
+  <programme start="20261008050946 +0000" stop="20261008063959 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2879,11 +2917,39 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261007234035 +0000" stop="20261007234205 +0000" channel="sethtv-2">
+  <programme start="20261008063959 +0000" stop="20261008064129 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261007234205 +0000" stop="20261008020342 +0000" channel="sethtv-2">
+  <programme start="20261008064129 +0000" stop="20261008065754 +0000" channel="sethtv-2">
+    <title lang="en">Un Chien Andalou</title>
+    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Thriller</category>
+    <date>1929</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>Not Rated</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372884" />
+  </programme>
+  <programme start="20261008065754 +0000" stop="20261008065924 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261008065924 +0000" stop="20261008090008 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261008090008 +0000" stop="20261008090138 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261008090138 +0000" stop="20261008112315 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2894,21 +2960,85 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261008020342 +0000" stop="20261008040426 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261008040426 +0000" stop="20261008040556 +0000" channel="sethtv-2">
+  <programme start="20261008112315 +0000" stop="20261008112445 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008040556 +0000" stop="20261008053608 +0000" channel="sethtv-2">
+  <programme start="20261008112445 +0000" stop="20261008125359 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261008125359 +0000" stop="20261008125529 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261008125529 +0000" stop="20261008141208 +0000" channel="sethtv-2">
+    <title lang="en">The Nightmare Before Christmas</title>
+    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Family</category>
+    <date>1993</date>
+    <star-rating><value>7.9/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/373073" />
+  </programme>
+  <programme start="20261008141208 +0000" stop="20261008141338 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261008141338 +0000" stop="20261008143004 +0000" channel="sethtv-2">
+    <title lang="en">Un Chien Andalou</title>
+    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Thriller</category>
+    <date>1929</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>Not Rated</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372884" />
+  </programme>
+  <programme start="20261008143004 +0000" stop="20261008143134 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261008143134 +0000" stop="20261008160048 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261008160048 +0000" stop="20261008160218 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261008160218 +0000" stop="20261008171858 +0000" channel="sethtv-2">
+    <title lang="en">The Nightmare Before Christmas</title>
+    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Family</category>
+    <date>1993</date>
+    <star-rating><value>7.9/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/373073" />
+  </programme>
+  <programme start="20261008171858 +0000" stop="20261008172028 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261008172028 +0000" stop="20261008185040 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -2921,39 +3051,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261008053608 +0000" stop="20261008053738 +0000" channel="sethtv-2">
+  <programme start="20261008185040 +0000" stop="20261008185210 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008053738 +0000" stop="20261008055404 +0000" channel="sethtv-2">
-    <title lang="en">Un Chien Andalou</title>
-    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Thriller</category>
-    <date>1929</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>Not Rated</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372884" />
-  </programme>
-  <programme start="20261008055404 +0000" stop="20261008055534 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261008055534 +0000" stop="20261008075617 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261008075617 +0000" stop="20261008075747 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261008075747 +0000" stop="20261008101924 +0000" channel="sethtv-2">
+  <programme start="20261008185210 +0000" stop="20261008211347 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -2964,41 +3066,25 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261008101924 +0000" stop="20261008102054 +0000" channel="sethtv-2">
+  <programme start="20261008211347 +0000" stop="20261008211517 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008102054 +0000" stop="20261008115009 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  <programme start="20261008211517 +0000" stop="20261008231601 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
   </programme>
-  <programme start="20261008115009 +0000" stop="20261008115139 +0000" channel="sethtv-2">
+  <programme start="20261008231601 +0000" stop="20261008231731 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008115139 +0000" stop="20261008130818 +0000" channel="sethtv-2">
-    <title lang="en">The Nightmare Before Christmas</title>
-    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Family</category>
-    <date>1993</date>
-    <star-rating><value>7.9/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373073" />
-  </programme>
-  <programme start="20261008130818 +0000" stop="20261008130948 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261008130948 +0000" stop="20261008132614 +0000" channel="sethtv-2">
+  <programme start="20261008231731 +0000" stop="20261008233356 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -3008,26 +3094,26 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261008132614 +0000" stop="20261008132744 +0000" channel="sethtv-2">
+  <programme start="20261008233356 +0000" stop="20261008233526 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008132744 +0000" stop="20261008145658 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261008145658 +0000" stop="20261008145828 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
+  <programme start="20261008233526 +0000" stop="20261009000000 +0000" channel="sethtv-2">
+    <title lang="en">Coming up next</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008145828 +0000" stop="20261008161507 +0000" channel="sethtv-2">
+  <programme start="20261009000000 +0000" stop="20261009013648 +0000" channel="sethtv-2">
+    <title lang="en">Schizopolis</title>
+    <desc lang="en">A man works for the unpleasant guru of a Scientology-like movement.</desc>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Mystery</category>
+    <date>1997</date>
+    <star-rating><value>6.7/10</value></star-rating>
+    <rating system="MPAA"><value>NR</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372862" />
+  </programme>
+  <programme start="20261009013648 +0000" stop="20261009025328 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -3038,11 +3124,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261008161507 +0000" stop="20261008161637 +0000" channel="sethtv-2">
+  <programme start="20261009025328 +0000" stop="20261009025458 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008161637 +0000" stop="20261008174650 +0000" channel="sethtv-2">
+  <programme start="20261009025458 +0000" stop="20261009042510 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -3055,80 +3141,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261008174650 +0000" stop="20261008174820 +0000" channel="sethtv-2">
+  <programme start="20261009042510 +0000" stop="20261009042640 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261008174820 +0000" stop="20261008200957 +0000" channel="sethtv-2">
-    <title lang="en">Poor Things</title>
-    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Romance</category>
-    <category lang="en">Comedy</category>
-    <date>2023</date>
-    <star-rating><value>7.7/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372856" />
-  </programme>
-  <programme start="20261008200957 +0000" stop="20261008201127 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261008201127 +0000" stop="20261008221210 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261008221210 +0000" stop="20261008221340 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261008221340 +0000" stop="20261008223006 +0000" channel="sethtv-2">
-    <title lang="en">Un Chien Andalou</title>
-    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Thriller</category>
-    <date>1929</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>Not Rated</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372884" />
-  </programme>
-  <programme start="20261008223006 +0000" stop="20261008223136 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261008223136 +0000" stop="20261009000050 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261009000050 +0000" stop="20261009011730 +0000" channel="sethtv-2">
-    <title lang="en">The Nightmare Before Christmas</title>
-    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Family</category>
-    <date>1993</date>
-    <star-rating><value>7.9/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373073" />
-  </programme>
-  <programme start="20261009011730 +0000" stop="20261009011900 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009011900 +0000" stop="20261009024912 +0000" channel="sethtv-2">
+  <programme start="20261009042640 +0000" stop="20261009055653 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -3141,11 +3158,55 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261009024912 +0000" stop="20261009025042 +0000" channel="sethtv-2">
+  <programme start="20261009055653 +0000" stop="20261009055823 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261009025042 +0000" stop="20261009051219 +0000" channel="sethtv-2">
+  <programme start="20261009055823 +0000" stop="20261009061448 +0000" channel="sethtv-2">
+    <title lang="en">Un Chien Andalou</title>
+    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Thriller</category>
+    <date>1929</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>Not Rated</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372884" />
+  </programme>
+  <programme start="20261009061448 +0000" stop="20261009061618 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261009061618 +0000" stop="20261009074533 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261009074533 +0000" stop="20261009074703 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261009074703 +0000" stop="20261009090342 +0000" channel="sethtv-2">
+    <title lang="en">The Nightmare Before Christmas</title>
+    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Family</category>
+    <date>1993</date>
+    <star-rating><value>7.9/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/373073" />
+  </programme>
+  <programme start="20261009090342 +0000" stop="20261009090512 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261009090512 +0000" stop="20261009112649 +0000" channel="sethtv-2">
     <title lang="en">Poor Things</title>
     <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
     <category lang="en">Science Fiction</category>
@@ -3156,11 +3217,69 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372856" />
   </programme>
-  <programme start="20261009051219 +0000" stop="20261009051349 +0000" channel="sethtv-2">
+  <programme start="20261009112649 +0000" stop="20261009112819 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261009051349 +0000" stop="20261009064401 +0000" channel="sethtv-2">
+  <programme start="20261009112819 +0000" stop="20261009132902 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261009132902 +0000" stop="20261009133032 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261009133032 +0000" stop="20261009155209 +0000" channel="sethtv-2">
+    <title lang="en">Poor Things</title>
+    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
+    <category lang="en">Science Fiction</category>
+    <category lang="en">Romance</category>
+    <category lang="en">Comedy</category>
+    <date>2023</date>
+    <star-rating><value>7.7/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372856" />
+  </programme>
+  <programme start="20261009155209 +0000" stop="20261009155339 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261009155339 +0000" stop="20261009175423 +0000" channel="sethtv-2">
+    <title lang="en">I Swear</title>
+    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">History</category>
+    <date>2025</date>
+    <star-rating><value>8.4/10</value></star-rating>
+    <rating system="MPAA"><value>R</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372844" />
+  </programme>
+  <programme start="20261009175423 +0000" stop="20261009175553 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261009175553 +0000" stop="20261009192507 +0000" channel="sethtv-2">
+    <title lang="en">Duel</title>
+    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
+    <category lang="en">Action</category>
+    <category lang="en">Thriller</category>
+    <category lang="en">TV Movie</category>
+    <date>1971</date>
+    <star-rating><value>7.6/10</value></star-rating>
+    <rating system="MPAA"><value>PG</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261009192507 +0000" stop="20261009192637 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
+  </programme>
+  <programme start="20261009192637 +0000" stop="20261009205650 +0000" channel="sethtv-2">
     <title lang="en">Marcel the Shell with Shoes On</title>
     <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
     <category lang="en">Animation</category>
@@ -3173,40 +3292,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373032" />
   </programme>
-  <programme start="20261009064401 +0000" stop="20261009064531 +0000" channel="sethtv-2">
+  <programme start="20261009205650 +0000" stop="20261009205820 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261009064531 +0000" stop="20261009070157 +0000" channel="sethtv-2">
-    <title lang="en">Un Chien Andalou</title>
-    <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Thriller</category>
-    <date>1929</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>Not Rated</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372884" />
-  </programme>
-  <programme start="20261009070157 +0000" stop="20261009070327 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009070327 +0000" stop="20261009083241 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261009083241 +0000" stop="20261009083411 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009083411 +0000" stop="20261009095051 +0000" channel="sethtv-2">
+  <programme start="20261009205820 +0000" stop="20261009221459 +0000" channel="sethtv-2">
     <title lang="en">The Nightmare Before Christmas</title>
     <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
     <category lang="en">Fantasy</category>
@@ -3217,116 +3307,11 @@
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/373073" />
   </programme>
-  <programme start="20261009095051 +0000" stop="20261009095221 +0000" channel="sethtv-2">
+  <programme start="20261009221459 +0000" stop="20261009221629 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261009095221 +0000" stop="20261009121358 +0000" channel="sethtv-2">
-    <title lang="en">Poor Things</title>
-    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Romance</category>
-    <category lang="en">Comedy</category>
-    <date>2023</date>
-    <star-rating><value>7.7/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372856" />
-  </programme>
-  <programme start="20261009121358 +0000" stop="20261009121528 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009121528 +0000" stop="20261009141611 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261009141611 +0000" stop="20261009141741 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009141741 +0000" stop="20261009163918 +0000" channel="sethtv-2">
-    <title lang="en">Poor Things</title>
-    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Romance</category>
-    <category lang="en">Comedy</category>
-    <date>2023</date>
-    <star-rating><value>7.7/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372856" />
-  </programme>
-  <programme start="20261009163918 +0000" stop="20261009164048 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009164048 +0000" stop="20261009184132 +0000" channel="sethtv-2">
-    <title lang="en">I Swear</title>
-    <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
-    <category lang="en">Drama</category>
-    <category lang="en">History</category>
-    <date>2025</date>
-    <star-rating><value>8.4/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372844" />
-  </programme>
-  <programme start="20261009184132 +0000" stop="20261009184302 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009184302 +0000" stop="20261009201216 +0000" channel="sethtv-2">
-    <title lang="en">Duel</title>
-    <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
-    <category lang="en">Action</category>
-    <category lang="en">Thriller</category>
-    <category lang="en">TV Movie</category>
-    <date>1971</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372836" />
-  </programme>
-  <programme start="20261009201216 +0000" stop="20261009201346 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009201346 +0000" stop="20261009214358 +0000" channel="sethtv-2">
-    <title lang="en">Marcel the Shell with Shoes On</title>
-    <desc lang="en">Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter of his Airbnb, his resulting short film brings Marcel millions of passionate fans, as well as unprecedented dangers and a new hope at finding his long-lost family.</desc>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Family</category>
-    <category lang="en">Fantasy</category>
-    <date>2022</date>
-    <star-rating><value>7.6/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373032" />
-  </programme>
-  <programme start="20261009214358 +0000" stop="20261009214528 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009214528 +0000" stop="20261009230208 +0000" channel="sethtv-2">
-    <title lang="en">The Nightmare Before Christmas</title>
-    <desc lang="en">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</desc>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Family</category>
-    <date>1993</date>
-    <star-rating><value>7.9/10</value></star-rating>
-    <rating system="MPAA"><value>PG</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/373073" />
-  </programme>
-  <programme start="20261009230208 +0000" stop="20261009230338 +0000" channel="sethtv-2">
-    <title lang="en">SethTV Bumper</title>
-    <category lang="en">Interstitial</category>
-  </programme>
-  <programme start="20261009230338 +0000" stop="20261009232003 +0000" channel="sethtv-2">
+  <programme start="20261009221629 +0000" stop="20261009223255 +0000" channel="sethtv-2">
     <title lang="en">Un Chien Andalou</title>
     <desc lang="en">Un Chien Andalou is an European avant-garde surrealist film, a collaboration between director Luis Buñuel and Salvador Dali.</desc>
     <category lang="en">Fantasy</category>
@@ -3336,22 +3321,26 @@
     <rating system="MPAA"><value>Not Rated</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372884" />
   </programme>
-  <programme start="20261009232003 +0000" stop="20261009232133 +0000" channel="sethtv-2">
+  <programme start="20261009223255 +0000" stop="20261009223425 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261009232133 +0000" stop="20261010014310 +0000" channel="sethtv-2">
-    <title lang="en">Poor Things</title>
-    <desc lang="en">Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.</desc>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Romance</category>
-    <category lang="en">Comedy</category>
-    <date>2023</date>
-    <star-rating><value>7.7/10</value></star-rating>
-    <rating system="MPAA"><value>R</value></rating>
-    <icon src="http://10.0.0.98:8099/api/img/372856" />
+  <programme start="20261009223425 +0000" stop="20261010000000 +0000" channel="sethtv-2">
+    <title lang="en">Coming up next</title>
+    <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261010014310 +0000" stop="20261010034354 +0000" channel="sethtv-2">
+  <programme start="20261010000000 +0000" stop="20261010013648 +0000" channel="sethtv-2">
+    <title lang="en">Schizopolis</title>
+    <desc lang="en">A man works for the unpleasant guru of a Scientology-like movement.</desc>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Mystery</category>
+    <date>1997</date>
+    <star-rating><value>6.7/10</value></star-rating>
+    <rating system="MPAA"><value>NR</value></rating>
+    <icon src="http://10.0.0.98:8099/api/img/372862" />
+  </programme>
+  <programme start="20261010013648 +0000" stop="20261010033732 +0000" channel="sethtv-2">
     <title lang="en">I Swear</title>
     <desc lang="en">Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.</desc>
     <category lang="en">Drama</category>
@@ -3361,11 +3350,11 @@
     <rating system="MPAA"><value>R</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372844" />
   </programme>
-  <programme start="20261010034354 +0000" stop="20261010034524 +0000" channel="sethtv-2">
+  <programme start="20261010033732 +0000" stop="20261010033902 +0000" channel="sethtv-2">
     <title lang="en">SethTV Bumper</title>
     <category lang="en">Interstitial</category>
   </programme>
-  <programme start="20261010034524 +0000" stop="20261010051438 +0000" channel="sethtv-2">
+  <programme start="20261010033902 +0000" stop="20261010050816 +0000" channel="sethtv-2">
     <title lang="en">Duel</title>
     <desc lang="en">Traveling businessman David Mann angers the driver of a rusty tanker while crossing the California desert. A simple trip turns deadly, as Mann struggles to stay on the road while the tanker plays cat and mouse with his life.</desc>
     <category lang="en">Action</category>
@@ -3375,6 +3364,10 @@
     <star-rating><value>7.6/10</value></star-rating>
     <rating system="MPAA"><value>PG</value></rating>
     <icon src="http://10.0.0.98:8099/api/img/372836" />
+  </programme>
+  <programme start="20261010050816 +0000" stop="20261010050946 +0000" channel="sethtv-2">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
   </programme>
   <programme start="20261003040000 +0000" stop="20261003061025 +0000" channel="sethtv-3">
     <title lang="en">Big</title>
@@ -4911,6 +4904,10 @@
     <date>2024</date>
     <star-rating><value>5.3/10</value></star-rating>
     <icon src="http://10.0.0.98:8099/api/img/373008" />
+  </programme>
+  <programme start="20261010044515 +0000" stop="20261010044645 +0000" channel="sethtv-3">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
   </programme>
   <programme start="20261003040000 +0000" stop="20261003043000 +0000" channel="sethtv-4">
     <title lang="en">SethTV Intermission</title>
@@ -7787,5 +7784,9 @@
     <title lang="en">Felix the Cat</title>
     <date>2023</date>
     <icon src="http://10.0.0.98:8099/api/img/373014" />
+  </programme>
+  <programme start="20261010043837 +0000" stop="20261010044007 +0000" channel="sethtv-5">
+    <title lang="en">SethTV Bumper</title>
+    <category lang="en">Interstitial</category>
   </programme>
 </tv>
