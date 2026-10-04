@@ -1,26 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T00:27:19+0000",
+ "generated_iso": "2026-10-04T00:37:23+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-03 19:42:37.311 Info DynamicHlsService-0HNP0T5I40Q18:00000001: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dsethserver.freeddns.org\u00e2\u20ac\u0152:8096/videos/372868/mast",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-03 19:42:37.314 Info DynamicHlsService-0HNP0T5I40Q18:00000001: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d87.81.233.101\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-03 19:43:11.615 Info DynamicHlsService-0HNP0T5I40Q1E:00000001: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dsethserver.freeddns.org\u00e2\u20ac\u0152:8096/videos/372868/main",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-03 19:43:11.618 Info DynamicHlsService-0HNP0T5I40Q1E:00000001: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d87.81.243.8\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2",
-     "c": "ok"
-    },
     {
      "t": "2026-10-03 19:46:15.964 Error DefaultAuthenticationProvider: Invalid username or password. Password not correct.",
      "c": "err"
@@ -43,6 +27,18 @@
     },
     {
      "t": "2026-10-03 19:46:16.334 Error UserService-0HNP0T5I40Q2V:00000001: Invalid username or password entered.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 20:31:03.315 Error UserLibraryService-0HNP0T5I40QDM:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Resource not found. Type: Library",
      "c": "err"
     }
    ]
