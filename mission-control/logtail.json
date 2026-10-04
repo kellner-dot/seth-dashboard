@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T04:47:42+0000",
+ "generated_iso": "2026-10-04T04:57:45+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 00:46:17.512 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\I Heart Huckabees\\I.Heart.Huckabees.2004.1080p.WEBRi",
+     "t": "2026-10-04 00:55:37.477 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:46:21.324 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 00:55:37.477 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:46:21.324 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 00:46:21.324 Error App: Error in ffprobe",
+     "t": "2026-10-04 00:55:37.477 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -30,19 +26,19 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:47:21.631 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Inland Empire\\Inland.Empire.mp4\" -threads 0 -v info ",
+     "t": "2026-10-04 00:56:37.827 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Nausicaa Of The Valley Of The Wind\\Nausicaa.Of.The.V",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:47:22.926 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 00:56:39.348 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:47:22.926 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 00:56:39.348 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:47:22.926 Error App: Error in ffprobe",
+     "t": "2026-10-04 00:56:39.349 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -51,6 +47,10 @@
     },
     {
      "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 00:57:39.716 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Nebraska\\Nebraska.2013.1080p.BluRay.x264.YIFY.mp4\" -",
      "c": "err"
     }
    ]
