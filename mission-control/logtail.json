@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T15:57:47+0000",
+ "generated_iso": "2026-10-04T16:07:44+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -30,7 +30,7 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] POST /rvd/launch",
      "c": "ok"
     },
     {
@@ -51,6 +51,10 @@
     },
     {
      "t": "[refresh.log] [2026-10-04T10:47:07+00:00] daily refresh done",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T12:04:29-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     }
    ]
