@@ -1,9 +1,17 @@
 {
- "generated_at": 1791081229,
- "generated_iso": "2026-10-04T02:33:49+0000",
+ "generated_at": 1791081482,
+ "generated_iso": "2026-10-04T02:38:02+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
+ "alerts": [
+  {
+   "severity": "critical",
+   "icon": "\ud83d\udda5\ufe0f",
+   "title": "Gaming PC offline",
+   "message": "SETHS-PC not reachable. Emby, TeraBox, and BiglyBT data may be stale.",
+   "at": "2026-10-04T02:38:02+0000"
+  }
+ ],
  "github": {
   "profile": "https://github.com/kellner-dot",
   "public_repos": 10,
@@ -20,17 +28,10 @@
   ]
  },
  "emby_library": {
-  "movies": 5412,
-  "series": 33,
-  "episodes": 59,
-  "recent": [
-   "Possessor",
-   "Megalopolis",
-   "Inland Empire",
-   "Poor Things",
-   "Cowboys & Aliens",
-   "Big Fish"
-  ]
+  "movies": null,
+  "series": null,
+  "episodes": null,
+  "recent": []
  },
  "terabox": {
   "total": null,
@@ -40,7 +41,7 @@
  "kaviguard": {},
  "biglybt": {
   "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
+  "scheduler": ""
  },
  "devices": [
   {
@@ -48,16 +49,16 @@
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": true,
-   "rvg_version": "1.20.0",
-   "uptime_s": 93371,
+   "online": false,
+   "rvg_version": "",
+   "uptime_s": null,
    "hostname": "SETHS-PC",
    "emby": {
-    "running": true,
-    "version": "4.10.1.0"
+    "running": false,
+    "version": ""
    },
    "emby_sessions": [],
-   "terabox_uploaders": 1,
+   "terabox_uploaders": 0,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
