@@ -3,18 +3,19 @@
 
 Why it exists: the M3U playlist (kavitv.m3u on GitHub Pages) is public and
 credential-free. Each channel entry points here; the relay resolves the
-channel's CURRENT program and redirects to Emby's HLS for it.
+channel's CURRENT program and streams it as raw MPEG-TS.
 
-v0.5.0: 302 redirect with pre-established session. The relay mints a
-  PlaySessionId, hits Emby's master.m3u8 once to establish the session,
-  then 302-redirects the tuner to the same URL. The tuner's ffmpeg reads
-  HLS directly from Emby — no relay in the data path, no double transcode,
-  no loop explosion. (v0.4.x proxied TS segments through the relay, which
-  added latency; v0.1 302 failed only because the session was blank.)
+v0.4.0: TS proxy mode. Handing Emby an HLS playlist failed: Emby's M3U tuner
+  runs ffmpeg with -stream_loop -1, which loops our finite VOD playlist
+  forever, exploding the transcode (30k+ segments) and choking the player.
+  Now the relay fetches Emby's HLS segments server-side and streams them
+  concatenated as a continuous video/mp2t response — the native IPTV tuner
+  format. No playlist, no loop, no session juggling.
 
 Endpoints:
-  GET /kavitv/live/<id>        -> 302 to Emby HLS for the current program
+  GET /kavitv/live/<id>        -> 200 with the current program as MPEG-TS
                                   (id = horror | experimental | independent)
+                                  (.m3u8 suffix also accepted)
   GET /api/health              -> {ok, version, date, channels}
 
 Config: C:\\Users\\sethr\\kavitv\\config\\emby.key      (API key, written once by
@@ -41,7 +42,7 @@ KEY_FILE = os.path.join(CONFIG_DIR, "emby.key")
 SCHEDULE_FILE = os.path.join(CONFIG_DIR, "schedules.json")
 EMBY_HOST = "http://127.0.0.1:8096"  # relay runs ON the Emby box
 LAN_HOST = "10.0.0.98"               # this box's LAN address for players
-VERSION = "0.5.0"
+VERSION = "0.4.1"
 
 CHANNELS = {"horror": "30", "experimental": "31", "independent": "32"}
 
@@ -124,6 +125,74 @@ def absolutize(url, base):
     return base + url
 
 
+def get_segment_urls(master_url, session_id):
+    """Follow master -> media playlist; return list of absolute segment URLs.
+
+    Raises on any fetch/parse failure.
+    """
+    master = fetch_text(master_url)
+    variant = None
+    for line in master.splitlines():
+        s = line.strip()
+        if s and not s.startswith("#"):
+            variant = s
+            break
+    if not variant:
+        raise ValueError("master playlist has no variant")
+    vurl = absolutize(variant, master_url.rsplit("/", 1)[0] + "/")
+    vurl = with_query_param(vurl, "PlaySessionId", session_id)
+    media = fetch_text(vurl)
+    base = vurl.rsplit("/", 1)[0] + "/"
+    segs = []
+    for line in media.splitlines():
+        s = line.strip()
+        if s and not s.startswith("#"):
+            segs.append(absolutize(s, base))
+    if not segs:
+        raise ValueError("media playlist has no segments")
+    return segs
+
+
+def stream_segments(seg_urls, wfile, chunk_size=65536):
+    """Fetch each TS segment and write bytes to wfile as they arrive.
+
+    Segments are transcoded on-demand by Emby; if one isn't ready yet
+    (404), wait and retry rather than killing the stream.
+    """
+    for url in seg_urls:
+        data = fetch_segment_with_retry(url)
+        if data is None:
+            break  # unrecoverable; end stream
+        wfile.write(data)
+        wfile.flush()
+
+
+def fetch_segment_with_retry(url, max_wait=120):
+    """Return segment bytes, waiting up to max_wait seconds for Emby to
+    transcode it. Returns None if truly unrecoverable."""
+    import time as _time
+    deadline = _time.time() + max_wait
+    attempt = 0
+    while True:
+        try:
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "KaviTV-relay/" + VERSION})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 404 and _time.time() < deadline:
+                attempt += 1
+                _time.sleep(min(2 * attempt, 10))
+                continue
+            return None
+        except Exception:
+            if _time.time() < deadline:
+                attempt += 1
+                _time.sleep(min(2 * attempt, 10))
+                continue
+            return None
+
+
 class Handler(BaseHTTPRequestHandler):
     def log_message(self, *a):
         pass
@@ -164,18 +233,20 @@ class Handler(BaseHTTPRequestHandler):
                 api_key = load_key()
                 master_url = emby_master_url(item_id, offset_ms,
                                              api_key, session_id)
-                # Establish the HLS session server-side so the redirect
-                # carries a valid PlaySessionId.
                 try:
-                    fetch_text(master_url)
+                    seg_urls = get_segment_urls(master_url, session_id)
                 except Exception as e:
                     return self._json(502, {"error": "emby fetch failed",
                                            "detail": str(e)[:200]})
-                # 302 to Emby's HLS; tuner's ffmpeg reads directly.
-                self.send_response(302)
-                self.send_header("Location", master_url)
+                # Stream concatenated TS segments — native tuner format.
+                self.send_response(200)
+                self.send_header("Content-Type", "video/mp2t")
                 self.send_header("Cache-Control", "no-cache")
                 self.end_headers()
+                try:
+                    stream_segments(seg_urls, self.wfile)
+                except (BrokenPipeError, ConnectionResetError):
+                    pass  # client went away; fine
                 return
             return self._json(404, {"error": "not found"})
         except FileNotFoundError as e:
