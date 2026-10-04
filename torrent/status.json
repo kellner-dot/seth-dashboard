@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04 15:03",
+ "updated": "2026-10-04 15:05",
  "biglybtRunning": true,
  "torrents": [
   {
@@ -46,7 +46,7 @@
   },
   {
    "rateUpload": 0,
-   "status.biglybt": 60,
+   "status.biglybt": 75,
    "downloadedEver": 440815895,
    "totalSize": 440560535,
    "percentDone": 1.0,
@@ -54,7 +54,7 @@
    "uploadRatio": 3.545,
    "name": "AmateurAllure - Ellie Murphy - Amateur Allure Welcomes Ellie Murphy, Beautiful Redhead's First Audition rq.mp4",
    "eta": -1,
-   "status": 6,
+   "status": 5,
    "id": 5,
    "uploadedEver": 1562849574
   },
@@ -115,8 +115,8 @@
    "uploadedEver": 0
   }
  ],
- "downSpeed": 5,
- "upSpeed": 22,
+ "downSpeed": 0,
+ "upSpeed": 0,
  "activeCount": 0,
  "ratio": 0.75
 }
