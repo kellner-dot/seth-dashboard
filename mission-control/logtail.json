@@ -1,44 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T03:17:42+0000",
+ "generated_iso": "2026-10-04T03:27:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-03 23:15:16.403 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-03 23:25:51.947 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Memoria.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4\" ",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:15:16.403 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-03 23:26:09.541 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:15:16.404 Error App: Error in ffprobe",
+     "t": "2026-10-03 23:26:09.541 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:16:27.989 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Ghost.In.The.Shell.2017.1080p.BluRay.x264-[YTS.AG].m",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:16:37.954 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:16:37.954 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:16:37.955 Error App: Error in ffprobe",
+     "t": "2026-10-03 23:26:09.541 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -50,7 +30,27 @@
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:17:38.321 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Gladiator.II.2024.1080p.WEBRip.x264.AAC5.1-[YTS.MX].",
+     "t": "2026-10-03 23:27:18.605 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Mister.Lonely.2007.1080p.BluRay.x264.AAC-[YTS.MX].mp",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:27:31.491 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:27:31.491 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-03 23:27:31.491 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     }
    ]
