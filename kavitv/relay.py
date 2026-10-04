@@ -110,6 +110,9 @@ def spawn_ffmpeg(src_url, offset_sec):
         "-i", src_url,
         "-map", "0:v:0", "-map", "0:a:0",
         "-c:v", "copy", "-c:a", "copy",
+        # Reset timestamps to start at zero after seek (prevents player
+        # confusion from non-zero start timestamps in stream-copy mode)
+        "-copyts", "-start_at_zero",
         "-f", "mpegts",
         "-mpegts_flags", "resend_headers",
         "-flush_packets", "1",
