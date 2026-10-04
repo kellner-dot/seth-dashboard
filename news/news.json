@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-04T16:27:50+0000",
- "updated_ts": 1791131270,
+ "updated": "2026-10-04T18:46:45+0000",
+ "updated_ts": 1791139605,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Car is a smartphone on wheels. Here's who's listening",
-     "summary": "Comments",
-     "url": "https://automatictransmission.khoury.northeastern.edu/",
-     "time": "Sun, 04 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
      "summary": "Comments",
@@ -27,25 +20,39 @@
      "source": "Hacker News"
     },
     {
-     "title": "Glash\u00fctte Trash Clock \u2013 A 30-minute pendulum clock made from trash",
+     "title": "Software Engineering Is Dead. Long Live Product Engineering",
      "summary": "Comments",
-     "url": "https://niklasroy.com/gtc/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Tell HN: Bob Cringely has died",
-     "summary": "Comments",
-     "url": "https://news.ycombinator.com/item?id=49949438",
+     "url": "https://newsletter.chainofthought.show/p/software-engineering-is-dead-long",
      "time": "Sun, 04 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: AI search for every photo and every frame of video on macOS",
+     "title": "Car is a smartphone on wheels. Here's who's listening",
      "summary": "Comments",
-     "url": "https://github.com/allenv0/SCM",
+     "url": "https://automatictransmission.khoury.northeastern.edu/",
      "time": "Sun, 04 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "The CISA Alert: Security Beyond Solitary Confinement",
+     "summary": "Comments",
+     "url": "https://jnior.com/blog/the-cisa-alert-security-beyond-solitary-confinement/",
+     "time": "Sun, 04 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Dataviz, ranked daily from GitHub, NPM, PyPI and CRAN",
+     "summary": "Comments",
+     "url": "https://awesomedataviz.com/",
+     "time": "Sun, 04 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
+     "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home",
+     "url": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
+     "time": "Sun, 04 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "All hail electrification. But let\u2019s talk about the hard part.",
@@ -81,13 +88,6 @@
      "url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
      "time": "Fri, 02 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Amazon\u2019s $1B plan to combat data center backlash draws more backlash",
-     "summary": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -109,7 +109,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Yemen announces military campaign to reclaim land from Iran-backed Houthis",
+     "title": "Yemen's government announces all-out war to reclaim land from Houthis",
      "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
      "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 04 Oct 2026",
@@ -123,6 +123,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
+     "summary": "Pike's lawyer says doctors are still trying to clear two lethal doses of pentobarbital from her body.",
+     "url": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 04 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "US Marine arrested over murder of woman in Okinawa, Japan",
      "summary": "Japan's government lodged a formal protest with the US, demanding that military officials take action.",
      "url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss",
@@ -130,11 +137,11 @@
      "source": "BBC World"
     },
     {
-     "title": "Australia investigating Flydubai co-pilot's links to country",
-     "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-     "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+     "title": "Trump names national intelligence chief Jay Clayton as new AI czar",
+     "summary": "Trump said Clayton will lead the White House's new \"Super Intelligence Force,\" which will coordinate government engagement with artificial intelligence.",
+     "url": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
      "time": "Sun, 04 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
      "title": "Cornell president calls gang rape allegations 'deeply disturbing'",
@@ -169,13 +176,6 @@
      "summary": "Arizona Republican candidate for Congress Mark Lamb has been accused of sexual misconduct while sheriff. His controversy is turning many voters away as Democrats see an opportunity in the red seat.",
      "url": "https://www.npr.org/2026/10/04/nx-s1-5950536/arizona-house-race-mark-lamb-lds-church",
      "time": "Sun, 04 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Coast Guard finds debris from medical plane carrying 6 people",
-     "summary": "Flight data shows the jet dropped at least 9,000 feet over two minutes, then leveled off for several more minutes, before disappearing.",
-     "url": "https://www.npr.org/2026/10/03/g-s1-146338/plane-missing-coast-guard-search-massachusetts",
-     "time": "Sat, 03 Oct 2026",
      "source": "NPR News"
     }
    ]
