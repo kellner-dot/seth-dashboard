@@ -136,7 +136,18 @@
   .play-hint{display:inline-flex; align-items:center; gap:12px; font-size:26px; font-weight:800; color:var(--teal-bright);
     border:2px solid var(--teal); border-radius:99px; padding:12px 30px; background:rgba(45,212,191,.08);
     animation:livepulse 2.4s ease-in-out infinite;}
+  /* ---------- fullscreen player ---------- */
+  #player{position:fixed; inset:0; z-index:200; display:none; background:#000;}
+  #player.open{display:block;}
+  #player video{width:100%; height:100%; background:#000;}
+  #player .p-hint{position:absolute; left:32px; bottom:28px; color:#fff; font-size:22px;
+    background:rgba(0,0,0,.55); padding:10px 22px; border-radius:99px;}
+  #player .p-title{position:absolute; left:32px; top:28px; color:#fff; font-size:28px; font-weight:700;
+    background:rgba(0,0,0,.55); padding:10px 22px; border-radius:14px;}
+  #player .p-err{position:absolute; inset:0; display:none; align-items:center; justify-content:center;
+    color:#fff; font-size:30px; text-align:center; padding:40px;}
 </style>
+<script src="hls.min.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -170,6 +181,13 @@
 
 <div id="overlay" role="dialog" aria-modal="true" aria-label="Tuned channel">
   <div class="ov-card" id="ovCard"></div>
+</div>
+
+<div id="player" role="dialog" aria-label="Now playing">
+  <video id="vid" playsinline></video>
+  <div class="p-title" id="pTitle"></div>
+  <div class="p-hint"><span class="key">BACK</span> Stop</div>
+  <div class="p-err" id="pErr"></div>
 </div>
 
 <script>
@@ -394,21 +412,70 @@
         '</div></div>'
       : '<div class="ov-next offair">—</div>') +
       '<div class="ov-hints">' +
-        '<span class="play-hint">\u25B6&nbsp; Play <span style="font-weight:400;font-size:20px;">(coming soon)</span></span>' +
+        '<span class="play-hint">\u25B6&nbsp; Play</span>' +
+        '<span><span class="key">OK</span> Play</span>' +
         '<span><span class="key">BACK</span> Guide</span>' +
       '</div>';
     ovCardEl.innerHTML = html;
   }
 
+  /* ---------- fullscreen player (HLS via bundled hls.js) ---------- */
+  var STREAM_BASE = 'http://10.0.0.98:8100/kavitv/live/';
+  var playerOpen = false, hls = null;
+  var playerEl = document.getElementById('player');
+  var vidEl = document.getElementById('vid');
+  var pTitleEl = document.getElementById('pTitle');
+  var pErrEl = document.getElementById('pErr');
+  function stopPlayer(){
+    try{ if (hls){ hls.destroy(); hls = null; } }catch(e){}
+    try{ vidEl.pause(); vidEl.removeAttribute('src'); vidEl.load(); }catch(e){}
+    pErrEl.style.display = 'none';
+    playerEl.classList.remove('open');
+    playerOpen = false;
+  }
+  function playChannel(ch){
+    if (!ch) return;
+    var url = STREAM_BASE + encodeURIComponent(ch.id) + '.m3u8';
+    closeOverlay();
+    pTitleEl.textContent = ch.name;
+    pErrEl.style.display = 'none';
+    playerEl.classList.add('open');
+    playerOpen = true;
+    var onErr = function(msg){
+      pErrEl.textContent = msg;
+      pErrEl.style.display = 'flex';
+    };
+    if (window.Hls && Hls.isSupported()){
+      hls = new Hls({maxBufferLength: 30});
+      hls.on(Hls.Events.ERROR, function(ev, data){
+        if (data && data.fatal) onErr('Stream error \u2014 press BACK and try again.');
+      });
+      hls.loadSource(url);
+      hls.attachMedia(vidEl);
+      vidEl.play().catch(function(){ onErr('Playback blocked \u2014 press BACK and try again.'); });
+    } else if (vidEl.canPlayType('application/vnd.apple.mpegurl')){
+      vidEl.src = url;
+      vidEl.play().catch(function(){ onErr('Playback blocked \u2014 press BACK and try again.'); });
+      vidEl.addEventListener('error', function(){ onErr('Stream error \u2014 press BACK and try again.'); }, {once:true});
+    } else {
+      onErr('This TV cannot play live streams.');
+    }
+  }
+
   /* ---------- remote keys ---------- */
   document.addEventListener('keydown', function(e){
     var k = e.keyCode || e.which;
-    if (overlayOpen){
-      // OK/Enter, Back, Escape all exit the overlay
+    if (playerOpen){
+      // OK / Back / Escape all stop playback
       if (k === 13 || k === 27 || k === 8 || k === 10009 || k === 461){
-        closeOverlay();
+        stopPlayer();
         e.preventDefault();
       }
+      return;
+    }
+    if (overlayOpen){
+      if (k === 13){ playChannel(overlayChannel); e.preventDefault(); }   // OK / Enter: play
+      else if (k === 27 || k === 8 || k === 10009 || k === 461){ closeOverlay(); e.preventDefault(); }  // Back: guide
       return;
     }
     if (k === 427 || k === 38){ moveFocus(-1); e.preventDefault(); }        // Channel Up / Up
