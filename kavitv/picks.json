@@ -1,0 +1,338 @@
+{
+ "generated_at": "2026-10-04T11:52:41.508774-04:00",
+ "slot": "daytime",
+ "surprise": [
+  {
+   "ref": "emby:movie:373088",
+   "title": "Fear and Loathing in Las Vegas",
+   "year": 1998,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Comedy"
+   ],
+   "runtime_min": 118,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:372844",
+   "title": "I Swear",
+   "year": 2025,
+   "genres": [
+    "Drama",
+    "History"
+   ],
+   "runtime_min": 121,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:373032",
+   "title": "Marcel the Shell with Shoes On",
+   "year": 2022,
+   "genres": [
+    "Animation",
+    "Comedy",
+    "Drama"
+   ],
+   "runtime_min": 90,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:373073",
+   "title": "The Nightmare Before Christmas",
+   "year": 1993,
+   "genres": [
+    "Fantasy",
+    "Animation",
+    "Family"
+   ],
+   "runtime_min": 77,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:372836",
+   "title": "Duel",
+   "year": 1971,
+   "genres": [
+    "Action",
+    "Thriller",
+    "TV Movie"
+   ],
+   "runtime_min": 89,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:57284",
+   "title": "American Fiction",
+   "year": 2023,
+   "genres": [
+    "Comedy",
+    "Movie"
+   ],
+   "runtime_min": 16,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:373040",
+   "title": "On the Silver Globe",
+   "year": 1988,
+   "genres": [
+    "Science Fiction",
+    "Drama"
+   ],
+   "runtime_min": 165,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:372853",
+   "title": "Nomadland",
+   "year": 2021,
+   "genres": [
+    "Drama"
+   ],
+   "runtime_min": 108,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:373115",
+   "title": "The Wolf House",
+   "year": 2018,
+   "genres": [
+    "Animation",
+    "Horror",
+    "Drama"
+   ],
+   "runtime_min": 74,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:373099",
+   "title": "Nosferatu",
+   "year": 2024,
+   "genres": [
+    "Horror",
+    "Fantasy"
+   ],
+   "runtime_min": 133,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:372879",
+   "title": "The Shape of Water",
+   "year": 2017,
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Romance"
+   ],
+   "runtime_min": 123,
+   "reason": "Unwatched gem - daytime pick"
+  },
+  {
+   "ref": "emby:movie:372827",
+   "title": "Big",
+   "year": 1988,
+   "genres": [
+    "Fantasy",
+    "Drama",
+    "Comedy"
+   ],
+   "runtime_min": 130,
+   "reason": "Unwatched gem - daytime pick"
+  }
+ ],
+ "themed": {
+  "director": [
+   {
+    "ref": "emby:movie:373009",
+    "title": "The Elephant Man",
+    "year": 1980,
+    "genres": [
+     "Drama",
+     "History"
+    ],
+    "runtime_min": null,
+    "reason": "David Lynch marathon"
+   },
+   {
+    "ref": "emby:movie:216996",
+    "title": "Twin Peaks: Fire Walk with Me",
+    "year": 1992,
+    "genres": [
+     "Drama",
+     "Mystery",
+     "Horror"
+    ],
+    "runtime_min": null,
+    "reason": "David Lynch marathon"
+   },
+   {
+    "ref": "emby:movie:373109",
+    "title": "The Straight Story",
+    "year": 1999,
+    "genres": [
+     "Drama",
+     "Adventure"
+    ],
+    "runtime_min": null,
+    "reason": "David Lynch marathon"
+   },
+   {
+    "ref": "emby:movie:373074",
+    "title": "The Short Films of David Lynch",
+    "year": 2002,
+    "genres": [
+     "Documentary",
+     "Animation",
+     "Drama"
+    ],
+    "runtime_min": 65,
+    "reason": "David Lynch marathon"
+   },
+   {
+    "ref": "emby:movie:373026",
+    "title": "Inland Empire",
+    "year": 2006,
+    "genres": [
+     "Horror",
+     "Thriller",
+     "Mystery"
+    ],
+    "runtime_min": null,
+    "reason": "David Lynch marathon"
+   }
+  ],
+  "decade": [
+   {
+    "ref": "emby:movie:216183",
+    "title": "In Bildern leben - Die filmischen Reflexionen des Wim Wenders",
+    "year": 1995,
+    "genres": [
+     "Documentary"
+    ],
+    "runtime_min": null,
+    "reason": "1990s night"
+   },
+   {
+    "ref": "emby:movie:216605",
+    "title": "Melons (At A Loss)",
+    "year": 1998,
+    "genres": [
+     "Documentary"
+    ],
+    "runtime_min": null,
+    "reason": "1990s night"
+   },
+   {
+    "ref": "emby:movie:216623",
+    "title": "Painter",
+    "year": 1995,
+    "genres": [
+     "Comedy",
+     "Drama"
+    ],
+    "runtime_min": null,
+    "reason": "1990s night"
+   },
+   {
+    "ref": "emby:movie:216148",
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": [
+     "Drama",
+     "Thriller"
+    ],
+    "runtime_min": null,
+    "reason": "1990s night"
+   },
+   {
+    "ref": "emby:movie:216094",
+    "title": "Laurie Anderson",
+    "year": 1990,
+    "genres": [
+     "Comedy",
+     "Music"
+    ],
+    "runtime_min": null,
+    "reason": "1990s night"
+   },
+   {
+    "ref": "emby:movie:216095",
+    "title": "Laurie Anderson: The Collected Videos",
+    "year": 1991,
+    "genres": [
+     "Comedy",
+     "Music"
+    ],
+    "runtime_min": null,
+    "reason": "1990s night"
+   }
+  ],
+  "genre": [
+   {
+    "ref": "emby:movie:216886",
+    "title": "Frame",
+    "year": 1969,
+    "genres": [
+     "Drama"
+    ],
+    "runtime_min": null,
+    "reason": "Drama deep-dive"
+   },
+   {
+    "ref": "emby:movie:216623",
+    "title": "Painter",
+    "year": 1995,
+    "genres": [
+     "Comedy",
+     "Drama"
+    ],
+    "runtime_min": null,
+    "reason": "Drama deep-dive"
+   },
+   {
+    "ref": "emby:movie:215320",
+    "title": "Four Sisters",
+    "year": 1967,
+    "genres": [
+     "Drama"
+    ],
+    "runtime_min": null,
+    "reason": "Drama deep-dive"
+   },
+   {
+    "ref": "emby:movie:217504",
+    "title": "Nothings Going to Change My World",
+    "year": 1973,
+    "genres": [
+     "Drama",
+     "Fantasy"
+    ],
+    "runtime_min": null,
+    "reason": "Drama deep-dive"
+   },
+   {
+    "ref": "emby:movie:216148",
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": [
+     "Drama",
+     "Thriller"
+    ],
+    "runtime_min": null,
+    "reason": "Drama deep-dive"
+   },
+   {
+    "ref": "emby:movie:217090",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": 1975,
+    "genres": [
+     "Drama"
+    ],
+    "runtime_min": null,
+    "reason": "Drama deep-dive"
+   }
+  ]
+ },
+ "count": 29
+}
