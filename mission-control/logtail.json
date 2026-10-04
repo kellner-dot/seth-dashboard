@@ -1,48 +1,28 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T03:37:43+0000",
+ "generated_iso": "2026-10-04T03:47:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-03 23:35:44.116 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Rabid.1977.1080p.BluRay.x264.YIFY.mp4\" -threads 0 -v",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:36:03.433 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:36:03.433 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:36:03.434 Error App: Error in ffprobe",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
      "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:37:03.955 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Requiem.for.a.Dream.2000.Explicit.1080p.BluRay.x265-",
+     "t": "2026-10-03 23:46:59.115 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The.Fast.Runner.2001.iNT.DVDRip.XviD.AC3.CD2-SCHWEiK",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:37:10.691 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-03 23:47:09.272 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:37:10.691 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-03 23:47:09.272 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:37:10.691 Error App: Error in ffprobe",
+     "t": "2026-10-03 23:47:09.273 Error App: Error in ffprobe",
      "c": "err"
     },
     {
