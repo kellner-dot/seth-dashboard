@@ -1,24 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T04:17:42+0000",
+ "generated_iso": "2026-10-04T04:27:46+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 00:15:28.700 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\American Pop\\American.Pop.1981.1080p.WEBRip.x264-[YT",
+     "t": "2026-10-04 00:25:55.515 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Bringing Out The Dead\\Bringing.Out.The.Dead.1999.108",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:15:39.127 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 00:26:10.023 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:15:39.127 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 00:26:10.023 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:15:39.127 Error App: Error in ffprobe",
+     "t": "2026-10-04 00:26:10.023 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -30,19 +30,19 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:17:35.057 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Bad Taste\\Bad.Taste.1987.1080p.BluRay.x264.AAC.mp4\" ",
+     "t": "2026-10-04 00:27:10.423 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Cemetery of Splendour\\Rak Ti Khon Kaen.avi\" -threads",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:17:35.806 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 00:27:21.738 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:17:35.806 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 00:27:21.738 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 00:17:35.806 Error App: Error in ffprobe",
+     "t": "2026-10-04 00:27:21.738 Error App: Error in ffprobe",
      "c": "err"
     },
     {
