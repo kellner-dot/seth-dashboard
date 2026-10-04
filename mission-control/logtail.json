@@ -1,44 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T19:16:39+0000",
+ "generated_iso": "2026-10-04T19:46:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 15:14:16.066 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 15:44:21.537 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-04 15:14:16.066 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-04 15:44:21.537 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-04 15:14:16.066 Error App: Error in ffprobe",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 15:15:16.770 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Inland Empire\\Inland.Empire.mp4\" -threads 0 -v info ",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 15:15:34.669 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 15:15:34.669 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 15:15:34.669 Error App: Error in ffprobe",
+     "t": "2026-10-04 15:44:21.537 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -50,7 +26,31 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 15:16:35.318 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\John Carter\\John.Carter.2012.1080p.Bluray.x264.YIFY.",
+     "t": "2026-10-04 15:45:21.913 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Cave\\The.Cave.2005.1080p.BluRay.x264-[YTS.AM].mp",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 15:45:23.183 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 15:45:23.183 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 15:45:23.183 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 15:46:23.583 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Cell\\The.Cell.2000.1080p.BluRay.x264-[YTS.AM].mp",
      "c": "err"
     }
    ]
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Secret Service running (fixed)",
      "c": "ok"
     },
     {
@@ -83,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T14:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T14:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T14:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
@@ -104,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T15:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T15:31:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T15:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     }
    ]
