@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-04T08:27:50+0000",
- "updated_ts": 1791102470,
+ "updated": "2026-10-04T08:57:50+0000",
+ "updated_ts": 1791104270,
  "topics": [
   {
    "name": "Tech",
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "We're going to need default hard budget caps on pretty much everything",
+     "title": "Agents don't need memory, they need documentation",
      "summary": "Comments",
-     "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-     "time": "Sun, 04 Oct 2026",
+     "url": "https://liao.gg/blog/agents-dont-need-memory",
+     "time": "Sat, 03 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,6 +95,13 @@
    "name": "World",
    "articles": [
     {
+     "title": "Kyiv bridge hit in further drone attack as German chancellor makes surprise visit",
+     "summary": "Unverified video shows a drone hitting the Northern Bridge as vehicles move across it.",
+     "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 04 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Australia investigating Flydubai co-pilot's links to country",
      "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
      "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
@@ -113,13 +120,6 @@
      "summary": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
      "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 04 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
-     "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
-     "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 03 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -165,16 +165,16 @@
      "source": "NPR News"
     },
     {
-     "title": "All's fair in love and 'War' \u2014 a well-cast, classy-trashy divorce drama",
-     "summary": "HBO's War is intended to be an anthology series about two dueling London law firms. The first season stars Dominic West and Sienna Miller as a high-profile couple in the midst of a very nasty divorce.",
-     "url": "https://www.npr.org/2026/10/03/nx-s1-5983443/war-hbo-divorce-dominic-west-sienna-miller",
+     "title": "Just short of its 200th birthday, a landmark natural history museum shuts down",
+     "summary": "Beloved for its dinosaurs, Philadelphia's storied Academy of Natural Sciences closed down this week, amid an intense fight by local residents, politicians and scientists to save it.",
+     "url": "https://www.npr.org/2026/10/03/nx-s1-5989716/philadelphia-academy-natural-sciences-museum-closure",
      "time": "Sat, 03 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Just short of its 200th birthday, a landmark natural history museum shuts down",
-     "summary": "Beloved for its dinosaurs, Philadelphia's storied Academy of Natural Sciences closed down this week, amid an intense fight by local residents, politicians and scientists to save it.",
-     "url": "https://www.npr.org/2026/10/03/nx-s1-5989716/philadelphia-academy-natural-sciences-museum-closure",
+     "title": "All's fair in love and 'War' \u2014 a well-cast, classy-trashy divorce drama",
+     "summary": "HBO's War is intended to be an anthology series about two dueling London law firms. The first season stars Dominic West and Sienna Miller as a high-profile couple in the midst of a very nasty divorce.",
+     "url": "https://www.npr.org/2026/10/03/nx-s1-5983443/war-hbo-divorce-dominic-west-sienna-miller",
      "time": "Sat, 03 Oct 2026",
      "source": "NPR News"
     }
