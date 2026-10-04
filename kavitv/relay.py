@@ -3,18 +3,19 @@
 
 Why it exists: the M3U playlist (kavitv.m3u on GitHub Pages) is public and
 credential-free. Each channel entry points here; the relay resolves the
-channel's CURRENT program and serves Emby's HLS media playlist for it.
+channel's CURRENT program and streams it as raw MPEG-TS.
 
-v0.3.2: playlist caching. Emby's M3U tuner runs ffmpeg with
-  -stream_loop -1, which re-fetches the relay URL. Without caching, every
-  fetch mints a new PlaySessionId and new segment URLs, confusing the loop
-  into generating garbage. Now each channel's resolved playlist is cached
-  for 90 seconds so refetches are stable.
+v0.4.0: TS proxy mode. Handing Emby an HLS playlist failed: Emby's M3U tuner
+  runs ffmpeg with -stream_loop -1, which loops our finite VOD playlist
+  forever, exploding the transcode (30k+ segments) and choking the player.
+  Now the relay fetches Emby's HLS segments server-side and streams them
+  concatenated as a continuous video/mp2t response — the native IPTV tuner
+  format. No playlist, no loop, no session juggling.
 
 Endpoints:
-  GET /kavitv/live/<id>.m3u8   -> 200 with the current program's HLS media
-                                  playlist (id = horror | experimental |
-                                  independent)
+  GET /kavitv/live/<id>        -> 200 with the current program as MPEG-TS
+                                  (id = horror | experimental | independent)
+                                  (.m3u8 suffix also accepted)
   GET /api/health              -> {ok, version, date, channels}
 
 Config: C:\\Users\\sethr\\kavitv\\config\\emby.key      (API key, written once by
@@ -29,7 +30,6 @@ import json
 import os
 import re
 import sys
-import time
 import urllib.parse
 import urllib.request
 import uuid
@@ -42,13 +42,9 @@ KEY_FILE = os.path.join(CONFIG_DIR, "emby.key")
 SCHEDULE_FILE = os.path.join(CONFIG_DIR, "schedules.json")
 EMBY_HOST = "http://127.0.0.1:8096"  # relay runs ON the Emby box
 LAN_HOST = "10.0.0.98"               # this box's LAN address for players
-VERSION = "0.3.2"
-CACHE_TTL = 90  # seconds; keeps refetches stable for -stream_loop clients
+VERSION = "0.4.0"
 
 CHANNELS = {"horror": "30", "experimental": "31", "independent": "32"}
-
-# channel -> (expires_at, playlist_body)
-_playlist_cache = {}
 
 
 def load_key():
@@ -129,33 +125,8 @@ def absolutize(url, base):
     return base + url
 
 
-def rewrite_playlist(body, base):
-    """Make every segment/key/map URI absolute against `base`.
-
-    Also strips #EXT-X-START: Emby emits TIME-OFFSET relative to the full
-    movie, but the playlist we serve starts AT the offset already — a player
-    honoring the hint seeks past the end of the playlist and shows nothing.
-    """
-    out = []
-    for line in body.splitlines():
-        s = line.strip()
-        if not s:
-            out.append(line)
-            continue
-        if s.startswith("#EXT-X-START"):
-            continue
-        if s.startswith("#"):
-            s = re.sub(r'URI="([^"]+)"',
-                       lambda m: 'URI="' + absolutize(m.group(1), base) + '"',
-                       s)
-            out.append(s)
-        else:
-            out.append(absolutize(s, base))
-    return "\n".join(out) + "\n"
-
-
-def resolve_media_playlist(master_url, session_id):
-    """Follow master -> media playlist; return rewritten media playlist text.
+def get_segment_urls(master_url, session_id):
+    """Follow master -> media playlist; return list of absolute segment URLs.
 
     Raises on any fetch/parse failure.
     """
@@ -171,12 +142,29 @@ def resolve_media_playlist(master_url, session_id):
     vurl = absolutize(variant, master_url.rsplit("/", 1)[0] + "/")
     vurl = with_query_param(vurl, "PlaySessionId", session_id)
     media = fetch_text(vurl)
-    if "#EXT-X-STREAM-INF" in media:
-        # Unexpected second master level; hand it back with session attached.
-        return rewrite_playlist(
-            media, vurl.rsplit("/", 1)[0] + "/")
     base = vurl.rsplit("/", 1)[0] + "/"
-    return rewrite_playlist(media, base)
+    segs = []
+    for line in media.splitlines():
+        s = line.strip()
+        if s and not s.startswith("#"):
+            segs.append(absolutize(s, base))
+    if not segs:
+        raise ValueError("media playlist has no segments")
+    return segs
+
+
+def stream_segments(seg_urls, wfile, chunk_size=65536):
+    """Fetch each TS segment and write bytes to wfile as they arrive."""
+    for url in seg_urls:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "KaviTV-relay/" + VERSION})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            while True:
+                chunk = resp.read(chunk_size)
+                if not chunk:
+                    break
+                wfile.write(chunk)
+        wfile.flush()
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -203,7 +191,8 @@ class Handler(BaseHTTPRequestHandler):
                     chs, ds = [], None
                 return self._json(200, {"ok": True, "version": VERSION,
                                        "date": ds, "channels": chs})
-            if path.startswith("/kavitv/live/") and path.endswith(".m3u8"):
+            if path.startswith("/kavitv/live/"):
+                # Accept both /kavitv/live/horror and /kavitv/live/horror.m3u8
                 cid = path.split("/")[3].split(".")[0]
                 key = CHANNELS.get(cid)
                 if not key:
@@ -214,31 +203,24 @@ class Handler(BaseHTTPRequestHandler):
                     return self._json(404, {"error": "nothing scheduled"})
                 ref = item.get("ref", "")
                 item_id = ref.split(":")[-1]  # ref = "emby:movie:<itemId>"
-                # Stable output for -stream_loop refetches: same channel +
-                # same program within the TTL returns the identical playlist.
-                cache_key = (cid, item_id)
-                now = time.time()
-                hit = _playlist_cache.get(cache_key)
-                if hit and hit[0] > now:
-                    body = hit[1]
-                else:
-                    session_id = uuid.uuid4().hex
-                    master_url = emby_master_url(item_id, offset_ms,
-                                                 load_key(), session_id)
-                    try:
-                        body = resolve_media_playlist(master_url, session_id)
-                    except Exception as e:
-                        return self._json(502, {"error": "emby fetch failed",
-                                               "detail": str(e)[:200]})
-                    _playlist_cache[cache_key] = (now + CACHE_TTL, body)
-                data = body.encode("utf-8")
+                session_id = uuid.uuid4().hex
+                api_key = load_key()
+                master_url = emby_master_url(item_id, offset_ms,
+                                             api_key, session_id)
+                try:
+                    seg_urls = get_segment_urls(master_url, session_id)
+                except Exception as e:
+                    return self._json(502, {"error": "emby fetch failed",
+                                           "detail": str(e)[:200]})
+                # Stream concatenated TS segments — native tuner format.
                 self.send_response(200)
-                self.send_header("Content-Type",
-                                 "application/vnd.apple.mpegurl")
-                self.send_header("Content-Length", str(len(data)))
+                self.send_header("Content-Type", "video/mp2t")
                 self.send_header("Cache-Control", "no-cache")
                 self.end_headers()
-                self.wfile.write(data)
+                try:
+                    stream_segments(seg_urls, self.wfile)
+                except (BrokenPipeError, ConnectionResetError):
+                    pass  # client went away; fine
                 return
             return self._json(404, {"error": "not found"})
         except FileNotFoundError as e:
