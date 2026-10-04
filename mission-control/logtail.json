@@ -1,28 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T03:47:43+0000",
+ "generated_iso": "2026-10-04T03:57:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "t": "2026-10-03 23:57:09.423 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The.Straight.Story.1999.1080p.BluRay.x264-[YTS.AM].m",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:46:59.115 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The.Fast.Runner.2001.iNT.DVDRip.XviD.AC3.CD2-SCHWEiK",
+     "t": "2026-10-03 23:57:15.729 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:47:09.272 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-03 23:57:15.729 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-03 23:47:09.272 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-03 23:47:09.273 Error App: Error in ffprobe",
+     "t": "2026-10-03 23:57:15.729 Error App: Error in ffprobe",
      "c": "err"
     },
     {
