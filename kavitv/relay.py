@@ -42,7 +42,8 @@ KEY_FILE = os.path.join(CONFIG_DIR, "emby.key")
 SCHEDULE_FILE = os.path.join(CONFIG_DIR, "schedules.json")
 EMBY_HOST = "http://127.0.0.1:8096"  # relay runs ON the Emby box
 LAN_HOST = "10.0.0.98"               # this box's LAN address for players
-VERSION = "0.4.1"
+EMBY_HOST = "127.0.0.1"             # loopback for relay->Emby backend (faster)
+VERSION = "0.4.3"
 
 CHANNELS = {"horror": "30", "experimental": "31", "independent": "32"}
 
@@ -106,13 +107,13 @@ def emby_master_url(item_id, offset_ms, key, session_id):
         "AudioCodec": "aac",
         "MaxStreamingBitrate": 12000000,
     })
-    return f"http://{LAN_HOST}:8096/emby/Videos/{item_id}/master.m3u8?{q}"
+    return f"http://{EMBY_HOST}:8096/emby/Videos/{item_id}/master.m3u8?{q}"
 
 
-def fetch_text(url):
+def fetch_text(url, timeout=25):
     req = urllib.request.Request(
         url, headers={"User-Agent": "KaviTV-relay/" + VERSION})
-    with urllib.request.urlopen(req, timeout=25) as resp:
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
 
@@ -128,7 +129,8 @@ def absolutize(url, base):
 def get_segment_urls(master_url, session_id):
     """Follow master -> media playlist; return list of absolute segment URLs.
 
-    Raises on any fetch/parse failure.
+    Raises on any fetch/parse failure. If the seeked media playlist hangs
+    (Emby transcoder stuck on seek), falls back to start-from-beginning.
     """
     master = fetch_text(master_url)
     variant = None
@@ -141,7 +143,25 @@ def get_segment_urls(master_url, session_id):
         raise ValueError("master playlist has no variant")
     vurl = absolutize(variant, master_url.rsplit("/", 1)[0] + "/")
     vurl = with_query_param(vurl, "PlaySessionId", session_id)
-    media = fetch_text(vurl)
+    try:
+        media = fetch_text(vurl, timeout=12)
+    except Exception:
+        # Seeked transcode hung; retry from beginning (no StartTimeTicks).
+        import re as _re
+        no_seek = _re.sub(r"[?&]StartTimeTicks=\d+", "", master_url)
+        no_seek = no_seek.replace("?&", "?").replace("&&", "&")
+        master2 = fetch_text(no_seek, timeout=12)
+        variant2 = None
+        for line in master2.splitlines():
+            s = line.strip()
+            if s and not s.startswith("#"):
+                variant2 = s
+                break
+        if not variant2:
+            raise ValueError("fallback master has no variant")
+        vurl = absolutize(variant2, no_seek.rsplit("/", 1)[0] + "/")
+        vurl = with_query_param(vurl, "PlaySessionId", session_id)
+        media = fetch_text(vurl, timeout=20)
     base = vurl.rsplit("/", 1)[0] + "/"
     segs = []
     for line in media.splitlines():
