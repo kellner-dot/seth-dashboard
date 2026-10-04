@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KaviTV — 24/7 broadcast channels</title>
+<meta name="description" content="KaviTV: three 24/7 broadcast channels — Horror, Experimental, Independent — curated from Seth Kellner's film library. Add the M3U playlist to your player.">
+<meta name="theme-color" content="#04070d">
+<style>
+  :root{
+    --bg:#04070d; --panel:#071019; --panel2:#0a1622;
+    --txt:#eef8f5; --dim:#9db8b0; --faint:#546a64;
+    --teal:#2dd4bf; --teal-bright:#5eead4; --teal-deep:#0d9488;
+    --line:rgba(45,212,191,.16);
+    --bad:#f87171;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;
+    background:var(--bg); line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(1000px 500px at 50% -5%, rgba(45,212,191,.10), transparent 60%),
+      radial-gradient(800px 600px at 95% 40%, rgba(13,148,136,.08), transparent 60%);}
+  .wrap{position:relative; z-index:1; max-width:1080px; margin:0 auto; padding:0 24px 80px;}
+
+  /* ============ hero ============ */
+  .hero{text-align:center; padding:72px 0 40px;}
+  .hero img{width:120px; height:120px; border-radius:30px;
+    box-shadow:0 0 44px rgba(45,212,191,.45);
+    background:linear-gradient(140deg,#0d9488,#2dd4bf);}
+  .hero h1{margin:22px 0 8px; font-size:56px; letter-spacing:6px; font-weight:800;
+    background:linear-gradient(92deg,#fff 15%,var(--teal-bright) 55%,var(--teal-deep));
+    -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .hero p.tag{margin:0; font-size:21px; color:var(--dim); max-width:640px; margin:0 auto;}
+  .hero .cta{margin-top:28px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
+  .btn{display:inline-block; padding:12px 30px; border-radius:99px; font-weight:800; font-size:17px;
+    text-decoration:none; letter-spacing:.5px; transition:transform .12s ease, box-shadow .12s ease;}
+  .btn:hover{transform:translateY(-2px);}
+  .btn.primary{background:linear-gradient(92deg,var(--teal-deep),var(--teal)); color:#04211d;
+    box-shadow:0 4px 26px rgba(45,212,191,.35);}
+  .btn.ghost{border:2px solid var(--line); color:var(--teal-bright); background:rgba(45,212,191,.06);}
+  .live-row{margin-top:26px; display:inline-flex; align-items:center; gap:10px;
+    font-size:15px; font-weight:800; letter-spacing:3px; color:var(--teal-bright);
+    border:2px solid rgba(45,212,191,.45); border-radius:99px; padding:8px 22px;
+    background:rgba(45,212,191,.07);}
+  .live-dot{width:10px; height:10px; border-radius:50%; background:var(--teal-bright);
+    box-shadow:0 0 10px var(--teal-bright); animation:pulse 2.2s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+
+  /* ============ sections ============ */
+  section.block{margin-top:64px;}
+  h2.sec{font-size:30px; margin:0 0 6px; letter-spacing:1px;}
+  p.lede{color:var(--dim); margin:0 0 26px; font-size:17px;}
+
+  /* ============ lineup ============ */
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px;}
+  .card{background:linear-gradient(180deg,var(--panel2),var(--panel));
+    border:2px solid var(--line); border-radius:20px; padding:26px 26px 22px;
+    transition:border-color .15s ease, transform .15s ease;}
+  .card:hover{border-color:rgba(45,212,191,.45); transform:translateY(-3px);}
+  .card-top{display:flex; align-items:center; gap:16px; margin-bottom:12px;}
+  .card-logo{width:56px; height:56px; border-radius:16px; flex:none;
+    background:linear-gradient(140deg,#0d9488,#2dd4bf 60%,#5eead4);
+    box-shadow:0 0 18px rgba(45,212,191,.35);}
+  .card h3{margin:0; font-size:22px; letter-spacing:.5px;}
+  .card .tagline{color:var(--dim); font-size:15px; margin:0 0 16px;}
+  .meta-row{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px;}
+  .meta{font-size:13px; font-weight:700; letter-spacing:.5px; color:var(--faint);
+    border:1px solid rgba(255,255,255,.12); border-radius:99px; padding:4px 14px; background:rgba(255,255,255,.03);}
+  .nownext{display:grid; gap:12px;}
+  .slot{border-left:3px solid var(--teal); padding-left:14px;}
+  .slot.next{border-left-color:rgba(255,255,255,.18);}
+  .kicker{font-size:12px; font-weight:800; letter-spacing:3px; text-transform:uppercase; color:var(--teal); margin-bottom:2px;}
+  .slot.next .kicker{color:var(--faint);}
+  .title{font-size:19px; font-weight:800; line-height:1.3;}
+  .sub{font-size:14px; color:var(--dim); font-variant-numeric:tabular-nums;}
+  .offair{color:var(--faint); font-style:italic;}
+  .empty-note{grid-column:1/-1; text-align:center; color:var(--dim); border:2px dashed var(--line);
+    border-radius:20px; padding:44px 20px; font-size:17px;}
+
+  /* ============ copy boxes ============ */
+  .copybox{display:flex; gap:12px; align-items:stretch; margin-bottom:14px;
+    background:#050b12; border:2px solid var(--line); border-radius:14px; padding:8px 8px 8px 18px;}
+  .copybox code{flex:1; align-self:center; font-size:14px; color:var(--teal-bright);
+    word-break:break-all; font-family:ui-monospace,SFMono-Regular,Menlo,monospace;}
+  .copy-btn{flex:none; border:0; cursor:pointer; border-radius:10px; padding:10px 22px;
+    font-weight:800; font-size:15px; color:#04211d;
+    background:linear-gradient(92deg,var(--teal-deep),var(--teal));}
+  .copy-btn:active{transform:scale(.96);}
+  .url-label{font-size:13px; font-weight:800; letter-spacing:2px; text-transform:uppercase;
+    color:var(--faint); margin:22px 0 8px;}
+  .url-label:first-child{margin-top:0;}
+
+  /* ============ setup ============ */
+  .setup-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px;}
+  .setup{background:linear-gradient(180deg,var(--panel2),var(--panel));
+    border:2px solid var(--line); border-radius:16px; padding:20px 22px;}
+  .setup h4{margin:0 0 10px; font-size:17px; color:var(--teal-bright);}
+  .setup ol{margin:0; padding-left:20px; font-size:15px; color:var(--dim);}
+  .setup ol li{margin-bottom:6px;}
+  .note{margin-top:24px; border:2px solid rgba(251,191,36,.35); background:rgba(251,191,36,.06);
+    border-radius:16px; padding:18px 22px; font-size:15px; color:#fde9b8;}
+  .note strong{color:#fbbf24;}
+  footer{margin-top:72px; text-align:center; color:var(--faint); font-size:14px;}
+  footer a{color:var(--teal); text-decoration:none;}
+  @media (max-width:600px){
+    .hero h1{font-size:40px; letter-spacing:3px;}
+    .copybox{flex-direction:column;} .copy-btn{width:100%;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <img src="logo.png" alt="KaviTV logo" width="120" height="120">
+    <h1>KaviTV</h1>
+    <p class="tag">24/7 broadcast channels, curated from a 5,400-film library.</p>
+    <div class="cta">
+      <a class="btn primary" href="kavitv.m3u" download>Add to your player (M3U)</a>
+      <a class="btn ghost" href="guide.html">TV Guide (10-foot)</a>
+    </div>
+    <div><span class="live-row"><span class="live-dot"></span>ON AIR NOW</span></div>
+  </header>
+
+  <section class="block" aria-label="Channel lineup">
+    <h2 class="sec">The lineup</h2>
+    <p class="lede">Three always-on channels. Pick one, settle in, let it roll.</p>
+    <div class="cards" id="lineup">
+      <div class="empty-note">Loading channels…</div>
+    </div>
+  </section>
+
+  <section class="block" aria-label="Add to your player">
+    <h2 class="sec">Add to your player</h2>
+    <p class="lede">Paste these URLs into your IPTV app of choice. No account, no login — they just work.</p>
+
+    <div class="url-label">Playlist (M3U)</div>
+    <div class="copybox">
+      <code id="m3u-url">https://kellner-dot.github.io/seth-dashboard/kavitv/kavitv.m3u</code>
+      <button class="copy-btn" data-copy="m3u-url">Copy</button>
+    </div>
+
+    <div class="url-label">Program guide (XMLTV)</div>
+    <div class="copybox">
+      <code id="xml-url">https://kellner-dot.github.io/seth-dashboard/kavitv/kavitv.xml</code>
+      <button class="copy-btn" data-copy="xml-url">Copy</button>
+    </div>
+  </section>
+
+  <section class="block" aria-label="Setup instructions">
+    <h2 class="sec">Setup</h2>
+    <p class="lede">Short version, per app. The playlist URL is all you need; the guide URL adds what's on.</p>
+    <div class="setup-grid">
+      <div class="setup">
+        <h4>Flix Pro Player</h4>
+        <ol>
+          <li>Open the Flix Pro portal or app.</li>
+          <li>Add a new playlist and paste the M3U URL.</li>
+          <li>Add the XMLTV URL as the EPG source.</li>
+        </ol>
+      </div>
+      <div class="setup">
+        <h4>TiviMate</h4>
+        <ol>
+          <li>Settings → Playlists → Add playlist → M3U playlist.</li>
+          <li>Paste the M3U URL, name it KaviTV.</li>
+          <li>Add the XMLTV URL as the EPG source for the playlist.</li>
+        </ol>
+      </div>
+      <div class="setup">
+        <h4>IPTV Smarters</h4>
+        <ol>
+          <li>Choose "Login with M3U URL" (not Xtream).</li>
+          <li>Paste the M3U URL and name the playlist KaviTV.</li>
+          <li>The app pulls the guide from the M3U's tvg-url automatically.</li>
+        </ol>
+      </div>
+      <div class="setup">
+        <h4>Emby Live TV</h4>
+        <ol>
+          <li>Dashboard → Live TV → Add tuner device → M3U.</li>
+          <li>Paste the M3U URL.</li>
+          <li>Add a guide provider → XMLTV, paste the XMLTV URL.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="note">
+      <strong>One honest note:</strong> KaviTV plays what's currently airing — you tune in, not on demand.
+      Streams resolve through Seth's home server, so the channels work when you're on Seth's network.
+    </div>
+  </section>
+
+  <footer>
+    KaviTV · curated by <a href="https://kellner-dot.github.io/seth-dashboard/">Seth Kellner</a> ·
+    <a href="guide.html">10-foot guide</a>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var lineup = document.getElementById('lineup');
+
+  function esc(s){
+    return String(s == null ? '' : s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function loadData(){
+    return Promise.all([
+      fetch('channels.json', {cache:'no-store'}).then(function(r){
+        if (!r.ok) throw new Error('channels.json HTTP ' + r.status); return r.json(); }),
+      fetch('epg.json', {cache:'no-store'}).then(function(r){
+        if (!r.ok) throw new Error('epg.json HTTP ' + r.status); return r.json(); })
+    ]).then(function(pair){
+      var meta = pair[0], epg = pair[1];
+      var epgById = {};
+      (epg.channels || []).forEach(function(c){ epgById[c.id] = c; });
+      return (meta.channels || []).map(function(c){
+        var e = epgById[c.id] || {};
+        return {
+          id: c.id, name: c.name, tagline: c.tagline || '',
+          film_count: c.film_count, program_count: c.program_count,
+          now: e.now || null, next: e.next || null
+        };
+      });
+    });
+  }
+
+  function slotHTML(label, prog, isNext){
+    if (!prog){
+      return '<div class="slot' + (isNext ? ' next' : '') + '">' +
+        '<div class="kicker">' + label + '</div>' +
+        '<div class="title offair">Off air</div></div>';
+    }
+    return '<div class="slot' + (isNext ? ' next' : '') + '">' +
+      '<div class="kicker">' + label + '</div>' +
+      '<div class="title">' + esc(prog.title) + '</div>' +
+      '<div class="sub">' + (prog.year ? esc(prog.year) : '') + '</div></div>';
+  }
+
+  function render(channels){
+    if (!channels.length){
+      lineup.innerHTML = '<div class="empty-note">No channels found yet — check back soon.</div>';
+      return;
+    }
+    var html = '';
+    channels.forEach(function(ch){
+      html += '<article class="card">' +
+        '<div class="card-top">' +
+          '<div class="card-logo" aria-hidden="true"></div>' +
+          '<h3>' + esc(ch.name) + '</h3>' +
+        '</div>' +
+        '<p class="tagline">' + esc(ch.tagline) + '</p>' +
+        '<div class="meta-row">' +
+          (ch.film_count != null ? '<span class="meta">' + ch.film_count + ' films</span>' : '') +
+          (ch.program_count != null ? '<span class="meta">' + ch.program_count + ' programs</span>' : '') +
+        '</div>' +
+        '<div class="nownext">' +
+          slotHTML('Now', ch.now, false) +
+          slotHTML('Next', ch.next, true) +
+        '</div>' +
+      '</article>';
+    });
+    lineup.innerHTML = html;
+  }
+
+  function fallback(){
+    lineup.innerHTML = '<div class="empty-note">Couldn\u2019t load the live lineup right now. ' +
+      'The channels are still there — grab the M3U above and tune in directly.</div>';
+  }
+
+  loadData().then(render, fallback);
+
+  /* ---------- copy buttons ---------- */
+  document.querySelectorAll('.copy-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var el = document.getElementById(btn.getAttribute('data-copy'));
+      var text = el.textContent.trim();
+      function done(ok){
+        btn.textContent = ok ? 'Copied ✓' : 'Select + copy';
+        setTimeout(function(){ btn.textContent = 'Copy'; }, 1600);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){ done(true); }, function(){
+          selectFallback();
+        });
+      } else {
+        selectFallback();
+      }
+      function selectFallback(){
+        var range = document.createRange();
+        range.selectNodeContents(el);
+        var sel = window.getSelection();
+        sel.removeAllRanges(); sel.addRange(range);
+        try { document.execCommand('copy'); done(true); }
+        catch (e) { done(false); }
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>

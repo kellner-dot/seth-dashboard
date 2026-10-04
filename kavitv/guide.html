@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1.0">
+<title>KaviTV — Channel Guide</title>
+<meta name="theme-color" content="#04070d">
+<style>
+  :root{
+    --bg:#04070d;
+    --panel:#071019;
+    --panel2:#0a1622;
+    --txt:#eef8f5; --dim:#9db8b0; --faint:#546a64;
+    --teal:#2dd4bf; --teal-bright:#5eead4; --teal-deep:#0d9488;
+    --line:rgba(45,212,191,.16);
+    --focus:#5eead4;
+    --bad:#f87171; --warn:#fbbf24;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{min-height:100%;}
+  body{
+    margin:0; color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,"Amazon Ember",sans-serif;
+    background:var(--bg);
+    font-size:26px;
+    overflow-x:hidden;
+  }
+  body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(1300px 650px at 10% -5%, rgba(45,212,191,.10), transparent 60%),
+      radial-gradient(1100px 700px at 95% 10%, rgba(13,148,136,.12), transparent 60%),
+      radial-gradient(900px 800px at 50% 115%, rgba(45,212,191,.05), transparent 60%);}
+  .wrap{position:relative; z-index:1; padding-bottom:70px;}
+
+  /* ============ top bar ============ */
+  .topbar{position:sticky; top:0; z-index:40; display:flex; align-items:center; justify-content:space-between;
+    padding:18px 64px 16px;
+    background:linear-gradient(180deg, rgba(4,7,13,.97) 0%, rgba(4,7,13,.85) 65%, transparent 100%);}
+  .brand{display:flex; align-items:center; gap:20px;}
+  .logo{width:66px; height:66px; border-radius:18px; display:grid; place-items:center; flex:none;
+        background:linear-gradient(140deg,#0d9488,#2dd4bf 60%,#5eead4);
+        box-shadow:0 0 30px rgba(45,212,191,.5), inset 0 0 0 2px rgba(255,255,255,.28);}
+  .logo svg{width:38px;height:38px;}
+  .brand h1{margin:0; font-size:42px; letter-spacing:7px; font-weight:800;
+    background:linear-gradient(92deg,#fff 15%,var(--teal-bright) 55%,var(--teal-deep));
+    -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .brand .sub{font-size:20px; letter-spacing:4px; color:var(--faint); font-weight:700; margin-top:2px;}
+  .top-right{display:flex; align-items:center; gap:26px;}
+  .live-badge{font-size:22px; font-weight:800; letter-spacing:3px; color:var(--faint);
+    border:2px solid rgba(255,255,255,.18); border-radius:99px; padding:8px 24px;
+    background:rgba(255,255,255,.04);}
+  .live-badge.on{color:var(--teal-bright); border-color:rgba(45,212,191,.5); background:rgba(45,212,191,.08);
+    animation:livepulse 2.4s ease-in-out infinite;}
+  @keyframes livepulse{0%,100%{box-shadow:0 0 0 rgba(45,212,191,0);}50%{box-shadow:0 0 24px rgba(45,212,191,.4);}}
+  #clock{font-size:44px; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:2px; line-height:1;
+         background:linear-gradient(180deg,#fff,#9db8b0); -webkit-background-clip:text; background-clip:text; color:transparent;}
+
+  /* ============ guide list ============ */
+  .guide{margin:14px 64px 0; display:flex; flex-direction:column; gap:26px;}
+  .ch{position:relative; display:grid; grid-template-columns:150px 1fr 1.5fr 1.1fr; gap:34px;
+    align-items:stretch; padding:30px 36px; border-radius:26px;
+    background:linear-gradient(180deg, rgba(10,22,34,.92), rgba(7,16,25,.92));
+    border:2px solid var(--line);
+    transition:border-color .15s ease, box-shadow .15s ease, transform .15s ease;}
+  .ch .num{align-self:center; justify-self:center; width:112px; height:112px; border-radius:24px;
+    display:grid; place-items:center; font-size:52px; font-weight:800;
+    background:rgba(45,212,191,.08); border:2px solid var(--line); color:var(--teal-bright);}
+  .ch.focused{border-color:var(--focus); transform:scale(1.012);
+    box-shadow:0 0 0 3px rgba(94,234,212,.35), 0 0 44px rgba(45,212,191,.35);}
+  .ch.focused .num{background:var(--teal); color:#04211d; border-color:var(--teal-bright);
+    box-shadow:0 0 26px rgba(45,212,191,.6);}
+  .ch-name{font-size:40px; font-weight:800; letter-spacing:1px; margin:2px 0 8px;}
+  .ch.focused .ch-name{color:var(--teal-bright);}
+  .ch-tag{font-size:23px; color:var(--dim); line-height:1.35; margin-bottom:14px;}
+  .ch-meta{display:flex; gap:10px; flex-wrap:wrap;}
+  .meta{font-size:20px; font-weight:700; letter-spacing:1px; color:var(--faint);
+    border:2px solid rgba(255,255,255,.12); border-radius:99px; padding:6px 18px; background:rgba(255,255,255,.03);}
+  .kicker{font-size:20px; font-weight:800; letter-spacing:4px; color:var(--teal); text-transform:uppercase; margin-bottom:8px;}
+  .kicker.next{color:var(--faint);}
+  .prog-title{font-size:34px; font-weight:800; line-height:1.15; margin-bottom:6px;}
+  .prog-sub{font-size:23px; color:var(--dim); margin-bottom:14px; font-variant-numeric:tabular-nums;}
+  .bar{height:14px; border-radius:99px; background:rgba(255,255,255,.09); overflow:hidden; margin-top:6px;}
+  .bar > i{display:block; height:100%; width:0%; border-radius:99px;
+    background:linear-gradient(90deg,var(--teal-deep),var(--teal-bright));
+    box-shadow:0 0 12px rgba(45,212,191,.55); transition:width .6s linear;}
+  .pct{font-size:20px; color:var(--faint); margin-top:8px; font-variant-numeric:tabular-nums;}
+  .next-title{font-size:28px; font-weight:700; line-height:1.25; margin-bottom:6px;}
+  .next-sub{font-size:22px; color:var(--dim); font-variant-numeric:tabular-nums;}
+  .offair{color:var(--faint); font-style:italic;}
+
+  /* ============ hint bar / status ============ */
+  .hints{margin:34px 64px 0; display:flex; gap:18px; align-items:center; flex-wrap:wrap; color:var(--faint); font-size:22px;}
+  .key{display:inline-grid; place-items:center; min-width:52px; height:52px; padding:0 14px; border-radius:14px;
+    border:2px solid rgba(255,255,255,.18); background:rgba(255,255,255,.05);
+    color:var(--teal-bright); font-weight:800; font-size:24px;}
+  .status{margin:22px 64px 0; font-size:22px; color:var(--faint);}
+  .status.err{color:var(--bad);}
+  .empty{margin:60px 64px; padding:70px 40px; text-align:center; border-radius:26px;
+    border:2px dashed var(--line); color:var(--dim); font-size:30px;}
+
+  /* ============ tune-in overlay ============ */
+  #overlay{position:fixed; inset:0; z-index:100; display:none; align-items:center; justify-content:center;
+    background:radial-gradient(1200px 700px at 50% 20%, rgba(13,60,55,.92), rgba(2,5,8,.97));
+    backdrop-filter:blur(6px);}
+  #overlay.open{display:flex;}
+  .ov-card{width:min(1240px,88vw); border-radius:32px; padding:64px 72px;
+    background:linear-gradient(180deg,#0a1622,#060d15);
+    border:3px solid var(--teal);
+    box-shadow:0 0 80px rgba(45,212,191,.35);}
+  .ov-chnum{font-size:24px; font-weight:800; letter-spacing:5px; color:var(--teal); margin-bottom:10px;}
+  .ov-chname{font-size:52px; font-weight:800; letter-spacing:2px; margin-bottom:30px;}
+  .ov-kicker{font-size:22px; font-weight:800; letter-spacing:5px; color:var(--teal); text-transform:uppercase; margin:26px 0 10px;}
+  .ov-kicker.next{color:var(--faint);}
+  .ov-title{font-size:64px; font-weight:800; line-height:1.05; margin-bottom:8px;}
+  .ov-sub{font-size:28px; color:var(--dim); margin-bottom:16px; font-variant-numeric:tabular-nums;}
+  .ov-overview{font-size:25px; color:var(--dim); line-height:1.5; max-width:1050px; margin:14px 0 6px;}
+  .ov-genres{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px;}
+  .ov-next{font-size:34px; font-weight:700;}
+  .ov-bar{height:18px;}
+  .ov-hints{margin-top:44px; padding-top:26px; border-top:2px solid var(--line);
+    display:flex; gap:16px; align-items:center; color:var(--dim); font-size:24px; flex-wrap:wrap;}
+  .play-hint{display:inline-flex; align-items:center; gap:12px; font-size:26px; font-weight:800; color:var(--teal-bright);
+    border:2px solid var(--teal); border-radius:99px; padding:12px 30px; background:rgba(45,212,191,.08);
+    animation:livepulse 2.4s ease-in-out infinite;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#04211d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 9.5l5 2.5-5 2.5z" fill="#04211d"/>
+        </svg>
+      </div>
+      <div>
+        <h1>KaviTV</h1>
+        <div class="sub">CHANNEL GUIDE</div>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="live-badge on" id="liveBadge">&#9679; LIVE</div>
+      <div id="clock" aria-label="current time">--:--</div>
+    </div>
+  </header>
+
+  <main class="guide" id="guide" aria-label="Channel guide"></main>
+
+  <div class="hints" id="hints" hidden>
+    <span><span class="key">&#9650;</span><span class="key">&#9660;</span> Channel</span>
+    <span><span class="key">OK</span> Tune in</span>
+    <span><span class="key">1</span>&ndash;<span class="key">9</span> Jump</span>
+  </div>
+  <div class="status" id="status" role="status"></div>
+</div>
+
+<div id="overlay" role="dialog" aria-modal="true" aria-label="Tuned channel">
+  <div class="ov-card" id="ovCard"></div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var guideEl = document.getElementById('guide');
+  var statusEl = document.getElementById('status');
+  var hintsEl = document.getElementById('hints');
+  var clockEl = document.getElementById('clock');
+  var overlayEl = document.getElementById('overlay');
+  var ovCardEl = document.getElementById('ovCard');
+
+  var channels = [];      // merged channel + epg rows
+  var focusIdx = 0;
+  var overlayOpen = false;
+  var overlayChannel = null;
+  var EPG_MS = 60000;
+
+  /* ---------- helpers ---------- */
+  function esc(s){
+    return String(s == null ? '' : s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function fmtTime(iso){
+    var d = new Date(iso);
+    var h = d.getHours(), m = d.getMinutes();
+    var ap = h >= 12 ? 'PM' : 'AM';
+    h = h % 12; if (h === 0) h = 12;
+    return h + ':' + (m < 10 ? '0' : '') + m + ' ' + ap;
+  }
+  function fmtRange(p){
+    return fmtTime(p.start) + ' – ' + fmtTime(p.end);
+  }
+  function progress(p, nowMs){
+    var s = new Date(p.start).getTime(), e = new Date(p.end).getTime();
+    if (!(e > s)) return 0;
+    var pct = (nowMs - s) / (e - s) * 100;
+    return Math.max(0, Math.min(100, pct));
+  }
+  function currentFromPrograms(programs, nowMs){
+    if (!programs || !programs.length) return null;
+    for (var i = 0; i < programs.length; i++){
+      var s = new Date(programs[i].start).getTime();
+      var e = new Date(programs[i].end).getTime();
+      if (nowMs >= s && nowMs < e){
+        return { now: programs[i], next: programs[i+1] || null };
+      }
+    }
+    return null;
+  }
+  function tickClock(){
+    var d = new Date();
+    var h = d.getHours(), m = d.getMinutes(), s = d.getSeconds();
+    var ap = h >= 12 ? 'PM' : 'AM';
+    h = h % 12; if (h === 0) h = 12;
+    clockEl.textContent = h + ':' + (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s + ' ' + ap;
+  }
+
+  /* ---------- data ---------- */
+  function loadData(){
+    return Promise.all([
+      fetch('channels.json', {cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error('channels.json HTTP '+r.status); return r.json(); }),
+      fetch('epg.json', {cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error('epg.json HTTP '+r.status); return r.json(); })
+    ]).then(function(pair){
+      var meta = pair[0], epg = pair[1];
+      var epgById = {};
+      (epg.channels || []).forEach(function(c){ epgById[c.id] = c; });
+      channels = (meta.channels || []).map(function(c){
+        var e = epgById[c.id] || {};
+        var nowMs = Date.now();
+        var live = currentFromPrograms(e.programs, nowMs);
+        var nowP = live ? live.now : (e.now || null);
+        var nextP = live ? live.next : (e.next || null);
+        return {
+          id: c.id, name: c.name, tagline: c.tagline || '',
+          film_count: c.film_count, total_runtime_h: c.total_runtime_h,
+          program_count: c.program_count,
+          now: nowP, next: nextP,
+          fullNow: live ? live.now : null   // rich program object (overview/genres) when available
+        };
+      });
+      if (focusIdx >= channels.length) focusIdx = Math.max(0, channels.length - 1);
+      render();
+      setStatus('Guide updated ' + fmtTime(new Date().toISOString()) + ' · ' + channels.length + ' channels');
+    }).catch(function(err){
+      if (!channels.length){
+        guideEl.innerHTML = '<div class="empty">Couldn\u2019t load the guide.<br>Check the network connection and press any channel key to retry.</div>';
+      }
+      setStatus('Guide load failed: ' + err.message + ' — retrying…', true);
+    });
+  }
+  function setStatus(msg, isErr){
+    statusEl.textContent = msg;
+    statusEl.className = 'status' + (isErr ? ' err' : '');
+  }
+
+  /* ---------- render ---------- */
+  function nowBlock(ch, nowMs){
+    if (!ch.now) return '<div class="kicker">Now</div><div class="prog-title offair">Off air</div>';
+    var pct = progress(ch.now, nowMs).toFixed(1);
+    return '<div class="kicker">Now</div>' +
+      '<div class="prog-title">' + esc(ch.now.title) + '</div>' +
+      '<div class="prog-sub">' + (ch.now.year ? esc(ch.now.year) + ' · ' : '') + esc(fmtRange(ch.now)) + '</div>' +
+      '<div class="bar" aria-hidden="true"><i data-bar style="width:' + pct + '%"></i></div>' +
+      '<div class="pct" data-pct>' + pct + '% elapsed</div>';
+  }
+  function nextBlock(ch){
+    if (!ch.next) return '<div class="kicker next">Next</div><div class="next-title offair">—</div>';
+    return '<div class="kicker next">Next</div>' +
+      '<div class="next-title">' + esc(ch.next.title) + '</div>' +
+      '<div class="next-sub">' + (ch.next.year ? esc(ch.next.year) + ' · ' : '') + 'Starts ' + esc(fmtTime(ch.next.start)) + '</div>';
+  }
+  function render(){
+    var nowMs = Date.now();
+    if (!channels.length){
+      guideEl.innerHTML = '<div class="empty">No channels in the guide yet.</div>';
+      hintsEl.hidden = true;
+      return;
+    }
+    hintsEl.hidden = false;
+    var html = '';
+    channels.forEach(function(ch, i){
+      html += '<section class="ch' + (i === focusIdx ? ' focused' : '') + '" data-idx="' + i + '" aria-label="' + esc(ch.name) + '">' +
+        '<div class="num">' + (i + 1) + '</div>' +
+        '<div><div class="ch-name">' + esc(ch.name) + '</div>' +
+        '<div class="ch-tag">' + esc(ch.tagline) + '</div>' +
+        '<div class="ch-meta">' +
+          (ch.film_count != null ? '<span class="meta">' + ch.film_count + ' films</span>' : '') +
+          (ch.program_count != null ? '<span class="meta">' + ch.program_count + ' programs</span>' : '') +
+        '</div></div>' +
+        '<div>' + nowBlock(ch, nowMs) + '</div>' +
+        '<div>' + nextBlock(ch) + '</div>' +
+      '</section>';
+    });
+    guideEl.innerHTML = html;
+    applyFocus();
+  }
+  function applyFocus(){
+    var rows = guideEl.querySelectorAll('.ch');
+    for (var i = 0; i < rows.length; i++){
+      if (i === focusIdx){
+        rows[i].classList.add('focused');
+        if (rows[i].scrollIntoView) rows[i].scrollIntoView({block:'nearest', behavior:'smooth'});
+      } else {
+        rows[i].classList.remove('focused');
+      }
+    }
+  }
+  function moveFocus(d){
+    if (!channels.length) return;
+    focusIdx = (focusIdx + d + channels.length) % channels.length;
+    applyFocus();
+  }
+  function refreshDynamic(){
+    // lightweight per-second update: progress bars + pct text only
+    var nowMs = Date.now();
+    var rows = guideEl.querySelectorAll('.ch');
+    for (var i = 0; i < rows.length && i < channels.length; i++){
+      var ch = channels[i];
+      if (!ch.now) continue;
+      var pct = progress(ch.now, nowMs);
+      var bar = rows[i].querySelector('[data-bar]');
+      var pctEl = rows[i].querySelector('[data-pct]');
+      if (bar) bar.style.width = pct.toFixed(1) + '%';
+      if (pctEl) pctEl.textContent = pct.toFixed(1) + '% elapsed';
+    }
+  }
+
+  /* ---------- tune-in overlay ---------- */
+  function openOverlay(){
+    if (!channels.length) return;
+    overlayChannel = channels[focusIdx];
+    renderOverlay();
+    overlayEl.classList.add('open');
+    overlayOpen = true;
+  }
+  function closeOverlay(){
+    overlayEl.classList.remove('open');
+    overlayOpen = false;
+    overlayChannel = null;
+  }
+  function renderOverlay(){
+    var ch = overlayChannel;
+    if (!ch) return;
+    var nowMs = Date.now();
+    var p = ch.fullNow || ch.now;   // prefer rich program object
+    var pct = p ? progress(p, nowMs).toFixed(1) : 0;
+    var html = '<div class="ov-chnum">CHANNEL ' + (focusIdx + 1) + '</div>' +
+      '<div class="ov-chname">' + esc(ch.name) + '</div>' +
+      '<div class="ov-kicker">Now Playing</div>' +
+      (p ?
+        '<div class="ov-title">' + esc(p.title) + '</div>' +
+        '<div class="ov-sub">' + (p.year ? esc(p.year) + ' · ' : '') + esc(fmtRange(p)) + '</div>' +
+        '<div class="bar ov-bar" aria-hidden="true"><i style="width:' + pct + '%"></i></div>' +
+        '<div class="pct">' + pct + '% elapsed</div>' +
+        (p.overview ? '<div class="ov-overview">' + esc(p.overview) + '</div>' : '') +
+        (p.genres && p.genres.length ? '<div class="ov-genres">' + p.genres.map(function(g){ return '<span class="meta">' + esc(g) + '</span>'; }).join('') + '</div>' : '')
+      : '<div class="ov-title offair">Off air</div>') +
+      '<div class="ov-kicker next">Up Next</div>' +
+      (ch.next ?
+        '<div class="ov-next">' + esc(ch.next.title) + '</div>' +
+        '<div class="ov-sub">' + (ch.next.year ? esc(ch.next.year) + ' · ' : '') + 'Starts ' + esc(fmtTime(ch.next.start)) + '</div>'
+      : '<div class="ov-next offair">—</div>') +
+      '<div class="ov-hints">' +
+        '<span class="play-hint">\u25B6&nbsp; Play <span style="font-weight:400;font-size:20px;">(coming soon)</span></span>' +
+        '<span><span class="key">BACK</span> Guide</span>' +
+      '</div>';
+    ovCardEl.innerHTML = html;
+  }
+
+  /* ---------- remote keys ---------- */
+  document.addEventListener('keydown', function(e){
+    var k = e.keyCode || e.which;
+    if (overlayOpen){
+      // OK/Enter, Back, Escape all exit the overlay
+      if (k === 13 || k === 27 || k === 8 || k === 10009 || k === 461){
+        closeOverlay();
+        e.preventDefault();
+      }
+      return;
+    }
+    if (k === 427 || k === 38){ moveFocus(-1); e.preventDefault(); }        // Channel Up / Up
+    else if (k === 428 || k === 40){ moveFocus(1); e.preventDefault(); }   // Channel Down / Down
+    else if (k === 13){ openOverlay(); e.preventDefault(); }               // OK / Enter
+    else if (k >= 49 && k <= 57){                                          // 1..9 jump
+      var idx = k - 49;
+      if (idx < channels.length){ focusIdx = idx; applyFocus(); }
+      e.preventDefault();
+    }
+    else if (k === 27 || k === 10009 || k === 461){ e.preventDefault(); }   // Back on guide: stay
+  });
+
+  /* ---------- boot ---------- */
+  tickClock();
+  setInterval(tickClock, 1000);
+  setInterval(refreshDynamic, 1000);
+  loadData();
+  setInterval(loadData, EPG_MS);
+})();
+</script>
+</body>
+</html>
