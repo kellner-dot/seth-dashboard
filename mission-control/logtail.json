@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T16:27:48+0000",
+ "generated_iso": "2026-10-04T16:37:46+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -9,10 +9,6 @@
   {
    "name": "Fleet Pollers",
    "lines": [
-    {
-     "t": "[supervision.lo] GET /rvd/status",
-     "c": "ok"
-    },
     {
      "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
@@ -38,10 +34,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T12:04:29-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T12:11:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
@@ -55,6 +47,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T12:26:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T12:32:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T12:36:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     }
    ]
