@@ -1,15 +1,29 @@
 {
- "updated": "2026-10-04T20:46:47+0000",
- "updated_ts": 1791146807,
+ "updated": "2026-10-04T22:46:41+0000",
+ "updated_ts": 1791154001,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Remove and Disable Apple Macos27 AI Models Tool",
+     "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+     "summary": "Comments",
+     "url": "https://github.com/Niko1221/Strata",
+     "time": "Sun, 04 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
      "summary": "Comments",
      "url": "https://github.com/omlahore/RemoveMacAI",
      "time": "Sun, 04 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Infidel Goes Wild",
+     "summary": "Comments",
+     "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+     "time": "Sat, 03 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -20,28 +34,14 @@
      "source": "Hacker News"
     },
     {
-     "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+     "title": "All I wanted was a custom domain email",
      "summary": "Comments",
-     "url": "https://github.com/Niko1221/Strata",
+     "url": "https://jacobg.co/emails-at-jacobg-co/",
      "time": "Sun, 04 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "A map of every lighthouse",
-     "summary": "Comments",
-     "url": "https://mapped.earth/lighthouses/world",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "'Neanderthals Among Us' review",
-     "summary": "Comments",
-     "url": "https://www.historytoday.com/archive/review/neanderthals-among-us-peter-sahlins-review",
-     "time": "Sat, 03 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Homa: The End of TCP for AI Clusters [video]",
+     "title": "Homa: The end of TCP for AI clusters [video]",
      "summary": "Comments",
      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
      "time": "Sun, 04 Oct 2026",
@@ -116,6 +116,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Polls close in Brazil as Lula and Fl\u00e1vio Bolsonaro remain neck and neck",
+     "summary": "If no candidate gets more than 50% of the vote, the election will go to a run-off on 25 October.",
+     "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 04 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
      "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
      "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
@@ -126,13 +133,6 @@
      "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
      "summary": "Pike's lawyer says doctors are still trying to clear two lethal doses of pentobarbital from her body.",
      "url": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 04 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "US Marine arrested over murder of woman in Okinawa, Japan",
-     "summary": "Japan's government lodged a formal protest with the US, demanding that military officials take action.",
-     "url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 04 Oct 2026",
      "source": "BBC World"
     },
