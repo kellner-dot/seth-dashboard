@@ -88,6 +88,20 @@
   .next-sub{font-size:22px; color:var(--dim); font-variant-numeric:tabular-nums;}
   .offair{color:var(--faint); font-style:italic;}
 
+  /* ============ posters ============ */
+  .prog-wrap{display:flex; gap:20px; align-items:flex-start;}
+  .prog-wrap .prog-body{flex:1; min-width:0;}
+  .poster{width:92px; height:138px; object-fit:cover; border-radius:12px; flex:none;
+    border:2px solid var(--line); background:#0a1622;}
+  .ov-hero{display:flex; gap:30px; align-items:flex-start; margin:4px 0 20px;}
+  .ov-poster{width:210px; height:315px; object-fit:cover; border-radius:18px; flex:none;
+    border:2px solid rgba(94,234,212,.45); box-shadow:0 0 34px rgba(45,212,191,.28); background:#0a1622;}
+  .ov-hero .ov-body{flex:1; min-width:0;}
+  .ov-nextrow{display:flex; gap:20px; align-items:center; margin-top:4px;}
+  .ov-nextposter{width:80px; height:120px; object-fit:cover; border-radius:10px; flex:none;
+    border:2px solid var(--line); background:#0a1622;}
+  .ov-nextrow .ov-nextbody{flex:1; min-width:0;}
+
   /* ============ hint bar / status ============ */
   .hints{margin:34px 64px 0; display:flex; gap:18px; align-items:center; flex-wrap:wrap; color:var(--faint); font-size:22px;}
   .key{display:inline-grid; place-items:center; min-width:52px; height:52px; padding:0 14px; border-radius:14px;
@@ -253,21 +267,34 @@
     statusEl.className = 'status' + (isErr ? ' err' : '');
   }
 
+  /* ---------- posters (kavitv/posters/<item_id>.jpg, cached daily) ---------- */
+  function posterFor(p, cls){
+    if (!p || !p.item_id) return '';
+    return '<img class="' + cls + '" loading="lazy" alt="" src="posters/' +
+      esc(String(p.item_id)) + '.jpg" onerror="this.style.display=\'none\'">';
+  }
+
   /* ---------- render ---------- */
   function nowBlock(ch, nowMs){
     if (!ch.now) return '<div class="kicker">Now</div><div class="prog-title offair">Off air</div>';
     var pct = progress(ch.now, nowMs).toFixed(1);
     return '<div class="kicker">Now</div>' +
+      '<div class="prog-wrap">' + posterFor(ch.now, 'poster') +
+      '<div class="prog-body">' +
       '<div class="prog-title">' + esc(ch.now.title) + '</div>' +
       '<div class="prog-sub">' + (ch.now.year ? esc(ch.now.year) + ' · ' : '') + esc(fmtRange(ch.now)) + '</div>' +
       '<div class="bar" aria-hidden="true"><i data-bar style="width:' + pct + '%"></i></div>' +
-      '<div class="pct" data-pct>' + pct + '% elapsed</div>';
+      '<div class="pct" data-pct>' + pct + '% elapsed</div>' +
+      '</div></div>';
   }
   function nextBlock(ch){
     if (!ch.next) return '<div class="kicker next">Next</div><div class="next-title offair">—</div>';
     return '<div class="kicker next">Next</div>' +
+      '<div class="prog-wrap">' + posterFor(ch.next, 'poster') +
+      '<div class="prog-body">' +
       '<div class="next-title">' + esc(ch.next.title) + '</div>' +
-      '<div class="next-sub">' + (ch.next.year ? esc(ch.next.year) + ' · ' : '') + 'Starts ' + esc(fmtTime(ch.next.start)) + '</div>';
+      '<div class="next-sub">' + (ch.next.year ? esc(ch.next.year) + ' · ' : '') + 'Starts ' + esc(fmtTime(ch.next.start)) + '</div>' +
+      '</div></div>';
   }
   function render(){
     var nowMs = Date.now();
@@ -348,17 +375,23 @@
       '<div class="ov-chname">' + esc(ch.name) + '</div>' +
       '<div class="ov-kicker">Now Playing</div>' +
       (p ?
+        '<div class="ov-hero">' + posterFor(p, 'ov-poster') +
+        '<div class="ov-body">' +
         '<div class="ov-title">' + esc(p.title) + '</div>' +
         '<div class="ov-sub">' + (p.year ? esc(p.year) + ' · ' : '') + esc(fmtRange(p)) + '</div>' +
         '<div class="bar ov-bar" aria-hidden="true"><i style="width:' + pct + '%"></i></div>' +
         '<div class="pct">' + pct + '% elapsed</div>' +
         (p.overview ? '<div class="ov-overview">' + esc(p.overview) + '</div>' : '') +
-        (p.genres && p.genres.length ? '<div class="ov-genres">' + p.genres.map(function(g){ return '<span class="meta">' + esc(g) + '</span>'; }).join('') + '</div>' : '')
+        (p.genres && p.genres.length ? '<div class="ov-genres">' + p.genres.map(function(g){ return '<span class="meta">' + esc(g) + '</span>'; }).join('') + '</div>' : '') +
+        '</div></div>'
       : '<div class="ov-title offair">Off air</div>') +
       '<div class="ov-kicker next">Up Next</div>' +
       (ch.next ?
+        '<div class="ov-nextrow">' + posterFor(ch.next, 'ov-nextposter') +
+        '<div class="ov-nextbody">' +
         '<div class="ov-next">' + esc(ch.next.title) + '</div>' +
-        '<div class="ov-sub">' + (ch.next.year ? esc(ch.next.year) + ' · ' : '') + 'Starts ' + esc(fmtTime(ch.next.start)) + '</div>'
+        '<div class="ov-sub">' + (ch.next.year ? esc(ch.next.year) + ' · ' : '') + 'Starts ' + esc(fmtTime(ch.next.start)) + '</div>' +
+        '</div></div>'
       : '<div class="ov-next offair">—</div>') +
       '<div class="ov-hints">' +
         '<span class="play-hint">\u25B6&nbsp; Play <span style="font-weight:400;font-size:20px;">(coming soon)</span></span>' +
