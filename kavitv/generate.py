@@ -30,7 +30,7 @@ def day_seed(cid, day):
     return int.from_bytes(h[:8], "big")
 
 
-def build_day(cid, day, movies, bumpers, bumper_every=4):
+def build_day(cid, day, movies, bumpers, bumper_every=1):
     """Gapless 24h tiling. Movies never cut. Returns list of slots."""
     rng = random.Random(day_seed(cid, day))
     pool = movies[:]
