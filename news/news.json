@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-05T10:46:38+0000",
- "updated_ts": 1791197198,
+ "updated": "2026-10-05T12:46:41+0000",
+ "updated_ts": 1791204401,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+     "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
      "summary": "Comments",
-     "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+     "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+     "title": "Web Search API",
      "summary": "Comments",
-     "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+     "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,25 +27,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+     "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
      "summary": "Comments",
-     "url": "https://github.com/Niko1221/Strata",
-     "time": "Sun, 04 Oct 2026",
+     "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+     "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "In the wake of Tippett Studios\u2019 closure, a digital archive appears online",
+     "title": "Press Release: Nobel Prize in Physiology or Medicine 2026",
      "summary": "Comments",
-     "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
-     "time": "Sun, 04 Oct 2026",
+     "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+     "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "We ported the original Doom to SQL",
+     "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
      "summary": "Comments",
-     "url": "https://cedardb.com/blog/sqldoom/",
-     "time": "Sat, 03 Oct 2026",
+     "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+     "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Explaining Hall-effect, TMR, and other new types of \"mechanical\" switches",
+     "summary": "Ars Technica's guide to new keyboard sensing technologies.",
+     "url": "https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
@@ -81,19 +88,47 @@
      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
      "time": "Sat, 03 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-     "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-     "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
   {
    "name": "World",
    "articles": [
+    {
+     "title": "Spanish PM S\u00e1nchez calls early election after housing protests",
+     "summary": "S\u00e1nchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
+     "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
+     "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
+     "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Teenager's hand blown off during confrontation between France school protesters and police",
+     "summary": "The prefect of Pas-de-Calais says the teenager's life is \"not in danger\" after the \"very serious\" incident on Monday.",
+     "url": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Nobel Prize awarded for showing inner workings of the brain",
+     "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
+     "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
+     "summary": "US media reported a new threat led to the bombers being removed on Sunday, following an incident near the base last week.",
+     "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
     {
      "title": "Right-wing Fl\u00e1vio Bolsonaro wins first round of Brazil election",
      "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
@@ -102,39 +137,32 @@
      "source": "BBC World"
     },
     {
-     "title": "Nobel Prize awarded for showing how nerve cells shape feelings",
-     "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
-     "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+     "title": "Drones buzz overhead, troops hunker underground in Ukraine's hellish Kill Zone",
+     "summary": "The frontline in the Russia-Ukraine war stretches more than 700 miles and has barely moved in four years. Yet straddling this line is the Kill Zone, dominated by constantly evolving drone technology.",
+     "url": "https://www.npr.org/2026/10/05/nx-s1-5925803/drones-buzz-overhead-troops-hunker-underground-in-ukraines-hellish-kill-zone",
      "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
-     "title": "US air force removes all bombers from British military base RAF Fairford",
-     "summary": "No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to \"suspicious vehicles\" near the airbase.",
-     "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+     "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
+     "summary": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
+     "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
      "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
-     "title": "'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa",
-     "summary": "For many locals on this island, the arrest has brought decades of frustration back to the fore.",
-     "url": "https://www.bbc.co.uk/news/articles/cwgkv70gg1j3o?at_medium=RSS&at_campaign=rss",
+     "title": "Imran Khan supporters march in Pakistan to demand his release after talks failed",
+     "summary": "Talks between Khan's party and the government failed two days ago. Besides Khan's release, protesters demand his transfer to a hospital and family visits.",
+     "url": "https://www.npr.org/2026/10/05/g-s1-146408/imran-khan-supporters-march-in-pakistan-to-demand-his-release-after-talks-failed",
      "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
-     "title": "France closes up to 500 schools Monday over student protests",
-     "summary": "Lessons will be \"totally or partly suspended\" in some high schools after clashes between riot police and student protesters, France's education minister says.",
-     "url": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o?at_medium=RSS&at_campaign=rss",
+     "title": "SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff",
+     "summary": "The Supreme Court is set to hear a blockbuster climate change case that could affect more than just climate issues. And, Brazil's presidential race is too close to call.",
+     "url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
      "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "All six passengers presumed dead after plane went missing off US coast",
-     "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
-     "url": "https://www.bbc.co.uk/news/articles/cmze4g8r6nr9o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
      "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
@@ -149,40 +177,19 @@
      "url": "https://www.npr.org/2026/10/05/g-s1-146396/former-prince-andrew-legal-action",
      "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Spain's prime minister calls early elections as pressure mounts over housing crisis",
-     "summary": "Spanish Prime Minister Pedro S\u00e1nchez announced early elections Monday after his government suffered a bruising legislative defeat last week on emergency measures related to the country's housing crisis.",
-     "url": "https://www.npr.org/2026/10/05/nx-s1-5991404/spain-snap-elections",
-     "time": "Mon, 05 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Republicans and Democrats find a unifying target: Pharmacy benefit managers",
-     "summary": "Republicans and Democrats, both patients and politicians, seem united in their disdain for the healthcare companies known as pharmacy benefit managers. Tennessee and Arkansas are regulating them now.",
-     "url": "https://www.npr.org/2026/10/05/nx-s1-5943563/pharmacy-benefit-managers-pbms-tennessee-arkansas-regulation",
-     "time": "Mon, 05 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Voters are increasingly using AI chatbots to fact-check and compare candidates",
-     "summary": "Voters are already voting in the midterms. This year, some voters are trying something new to get ready for the election: asking AI to help research their ballot and even decide who to vote for.",
-     "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
-     "time": "Mon, 05 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Super El Ni\u00f1o is here. What's so super about it?",
-     "summary": "This year, federal forecasters say the planet could see the strongest El Ni\u00f1o event on record. Here's what you need to know.",
-     "url": "https://www.npr.org/2026/10/05/nx-s1-5981261/super-el-nino-floods-droughts",
-     "time": "Mon, 05 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "The first to finish: Carter Smith\u2019s Curtis Fund story",
+     "summary": "Affordability shaped Carter Smith\u2019s college search. A Curtis Fund scholarship made Norwich University possible, breaking a family pattern in which money had cut education short. Now studying accounting, Carter hopes to build his career in Vermont, close to family and the communit",
+     "url": "https://vtdigger.org/2026/10/05/the-first-to-finish-carter-smiths-curtis-fund-story/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Vermont needs fewer small towns and some taller buildings",
      "summary": "Rural life is holding Vermont back, and the fix is closing the countryside. Read the story on VTDigger here: Vermont needs fewer small towns and some taller buildings.",
@@ -217,13 +224,6 @@
      "url": "https://vtdigger.org/2026/10/04/an-essex-county-officials-parking-fight-puts-taxpayers-in-a-tight-spot/",
      "time": "Sun, 04 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "Jeffrey Mullins sentenced for role in fatal Hartford shooting",
-     "summary": "Jessica Lemay (left on Webex screen) gives her victim impact statement during the sentencing of Jeffrey Mullins (center) for his involvement in a fatal shooting last August. Photo by Alex Ebrahimi/Valley News \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/jeff",
-     "url": "https://vtdigger.org/2026/10/03/jeffrey-mullins-sentenced-for-role-in-fatal-hartford-shooting/",
-     "time": "Sat, 03 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
@@ -232,7 +232,7 @@
    "articles": [
     {
      "title": "Phoebe Bridgers, Massive Attack, Caroline Polachek to Headline Primavera 2027",
-     "summary": "Robyn, Turnstile, Skrillex, Doechii, Fontaines D.C., FKA twigs, and Hayley Williams are also among the headliners",
+     "summary": "Pavement, Robyn, Turnstile, Skrillex, Doechii, Fontaines D.C., FKA twigs, and Hayley Williams are also among the acts",
      "url": "https://pitchfork.com/story/phoebe-bridgers-massive-attack-caroline-polachek-to-headline-primavera-2027/",
      "time": "Mon, 05 Oct 2026",
      "source": "Pitchfork"
