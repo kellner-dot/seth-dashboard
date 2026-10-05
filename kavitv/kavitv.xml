@@ -1,78 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="kavitv-scheduler">
   <channel id="kavitv.horror">
-    <display-name>KaviTV Horror</display-name>
+    <display-name>!KaviTV Horror</display-name>
     <icon src="https://drive.google.com/uc?export=download&amp;id=1aWEppOGMcTa95RGZ-XygtfraGGJc4xvr"/>
   </channel>
   <channel id="kavitv.experimental">
-    <display-name>KaviTV Experimental</display-name>
+    <display-name>!KaviTV Experimental</display-name>
     <icon src="https://drive.google.com/uc?export=download&amp;id=1TuXs0gLLa-F9rsxUNpZsi7VxUR25mB5R"/>
   </channel>
   <channel id="kavitv.independent">
-    <display-name>KaviTV Independent</display-name>
+    <display-name>!KaviTV Independent</display-name>
     <icon src="https://drive.google.com/uc?export=download&amp;id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U"/>
   </channel>
   <programme start="20261004000000 +0000" stop="20261004013000 +0000" channel="kavitv.horror">
-    <title>10/65: Self-Mutilation</title>
-    <date>1965</date>
-    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
-    <category>Drama</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261004013000 +0000" stop="20261004014540 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004014540 +0000" stop="20261004031640 +0000" channel="kavitv.horror">
-    <title>Neon Maniacs</title>
-    <date>1986</date>
-    <desc>A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.</desc>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373097/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261004031640 +0000" stop="20261004033220 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004033220 +0000" stop="20261004041020 +0000" channel="kavitv.horror">
-    <title>The Inauguration of the Pleasure Dome</title>
-    <date>1954</date>
-    <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
-    <category>Fantasy</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373025/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261004041020 +0000" stop="20261004042600 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004042600 +0000" stop="20261004061600 +0000" channel="kavitv.horror">
-    <title>Backrooms</title>
-    <date>2026</date>
-    <desc>A strange doorway appears in the basement of a furniture showroom.</desc>
-    <category>Horror</category>
-    <category>Mystery</category>
-    <category>Science Fiction</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372823/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261004061600 +0000" stop="20261004063140 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004063140 +0000" stop="20261004080140 +0000" channel="kavitv.horror">
     <title>Deep Water</title>
     <date>2026</date>
     <desc>A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences </desc>
@@ -81,29 +21,24 @@
     <category>Adventure</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372833/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004080140 +0000" stop="20261004081720 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004081720 +0000" stop="20261004094720 +0000" channel="kavitv.horror">
-    <title>Nocturne</title>
-    <date>1998</date>
-    <desc>Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo</desc>
-    <category>Drama</category>
+  <programme start="20261004013000 +0000" stop="20261004020800 +0000" channel="kavitv.horror">
+    <title>The Inauguration of the Pleasure Dome</title>
+    <date>1954</date>
+    <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
+    <category>Fantasy</category>
     <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216661/Images/Primary?maxWidth=400"/>
+    <icon src="http://10.0.0.98:8096/emby/Items/373025/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004094720 +0000" stop="20261004100300 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004020800 +0000" stop="20261004033800 +0000" channel="kavitv.horror">
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998). Experimental film.</desc>
+    <category>Drama</category>
+    <category>Mystery</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004100300 +0000" stop="20261004113300 +0000" channel="kavitv.horror">
+  <programme start="20261004033800 +0000" stop="20261004050800 +0000" channel="kavitv.horror">
     <title>Office Killer</title>
     <date>1997</date>
     <desc>When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco</desc>
@@ -112,14 +47,14 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004113300 +0000" stop="20261004114840 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004050800 +0000" stop="20261004063900 +0000" channel="kavitv.horror">
+    <title>Neon Maniacs</title>
+    <date>1986</date>
+    <desc>A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373097/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004114840 +0000" stop="20261004131840 +0000" channel="kavitv.horror">
+  <programme start="20261004063900 +0000" stop="20261004080900 +0000" channel="kavitv.horror">
     <title>Love Reinvented</title>
     <date>1979</date>
     <desc>For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists</desc>
@@ -127,60 +62,39 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216365/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004131840 +0000" stop="20261004133420 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004133420 +0000" stop="20261004150420 +0000" channel="kavitv.horror">
-    <title>Blind Alley</title>
-    <date>2011</date>
-    <desc>A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley.</desc>
-    <category>Action</category>
+  <programme start="20261004080900 +0000" stop="20261004093900 +0000" channel="kavitv.horror">
+    <title>Nocturne</title>
+    <date>1998</date>
+    <desc>Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo</desc>
+    <category>Drama</category>
     <category>Horror</category>
-    <category>Thriller</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216430/Images/Primary?maxWidth=400"/>
+    <icon src="http://10.0.0.98:8096/emby/Items/216661/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004150420 +0000" stop="20261004152000 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004093900 +0000" stop="20261004110900 +0000" channel="kavitv.horror">
+    <title>10/65: Self-Mutilation</title>
+    <date>1965</date>
+    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <category>Drama</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004152000 +0000" stop="20261004165000 +0000" channel="kavitv.horror">
-    <title>Phantom of the Paradise</title>
-    <date>1974</date>
-    <desc>Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise.</desc>
+  <programme start="20261004110900 +0000" stop="20261004123900 +0000" channel="kavitv.horror">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental short film.</desc>
     <category>Comedy</category>
     <category>Drama</category>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/217408/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004165000 +0000" stop="20261004170540 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004170540 +0000" stop="20261004183540 +0000" channel="kavitv.horror">
+  <programme start="20261004123900 +0000" stop="20261004140900 +0000" channel="kavitv.horror">
     <title>Stille Nacht</title>
     <date>1969</date>
     <desc>A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.</desc>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004183540 +0000" stop="20261004185120 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004185120 +0000" stop="20261004202620 +0000" channel="kavitv.horror">
+  <programme start="20261004140900 +0000" stop="20261004154400 +0000" channel="kavitv.horror">
     <title>We Bury the Dead</title>
     <date>2026</date>
     <desc>After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.</desc>
@@ -188,82 +102,73 @@
     <category>Thriller</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372888/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004202620 +0000" stop="20261004204200 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004154400 +0000" stop="20261004173400 +0000" channel="kavitv.horror">
+    <title>Backrooms</title>
+    <date>2026</date>
+    <desc>A strange doorway appears in the basement of a furniture showroom.</desc>
+    <category>Horror</category>
+    <category>Mystery</category>
+    <category>Science Fiction</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372823/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004204200 +0000" stop="20261004221200 +0000" channel="kavitv.horror">
-    <title>Twin Peaks: Fire Walk with Me</title>
-    <date>1992</date>
-    <desc>In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and</desc>
+  <programme start="20261004173400 +0000" stop="20261004190400 +0000" channel="kavitv.horror">
+    <title>Deep Water</title>
+    <date>2026</date>
+    <desc>A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences </desc>
+    <category>Horror</category>
+    <category>Thriller</category>
+    <category>Adventure</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372833/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261004190400 +0000" stop="20261004194200 +0000" channel="kavitv.horror">
+    <title>The Inauguration of the Pleasure Dome</title>
+    <date>1954</date>
+    <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
+    <category>Fantasy</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373025/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261004194200 +0000" stop="20261004211200 +0000" channel="kavitv.horror">
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998). Experimental film.</desc>
     <category>Drama</category>
     <category>Mystery</category>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004221200 +0000" stop="20261004222740 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004222740 +0000" stop="20261005000000 +0000" channel="kavitv.horror">
-    <title>10/65: Self-Mutilation</title>
-    <date>1965</date>
-    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
-    <category>Drama</category>
+  <programme start="20261004211200 +0000" stop="20261005000000 +0000" channel="kavitv.horror">
+    <title>Office Killer</title>
+    <date>1997</date>
+    <desc>When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco</desc>
     <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
+    <category>Thriller</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261005000000 +0000" stop="20261005013000 +0000" channel="kavitv.horror">
-    <title>Blind Alley</title>
-    <date>2011</date>
-    <desc>A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley.</desc>
-    <category>Action</category>
+    <title>10/65: Self-Mutilation</title>
+    <date>1965</date>
+    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <category>Drama</category>
     <category>Horror</category>
-    <category>Thriller</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216430/Images/Primary?maxWidth=400"/>
+    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005013000 +0000" stop="20261005014540 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005014540 +0000" stop="20261005031640 +0000" channel="kavitv.horror">
+  <programme start="20261005013000 +0000" stop="20261005030100 +0000" channel="kavitv.horror">
     <title>Neon Maniacs</title>
     <date>1986</date>
     <desc>A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.</desc>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373097/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005031640 +0000" stop="20261005033220 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005033220 +0000" stop="20261005050220 +0000" channel="kavitv.horror">
+  <programme start="20261005030100 +0000" stop="20261005043100 +0000" channel="kavitv.horror">
     <title>Stille Nacht</title>
     <date>1969</date>
     <desc>A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.</desc>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005050220 +0000" stop="20261005051800 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005051800 +0000" stop="20261005065300 +0000" channel="kavitv.horror">
+  <programme start="20261005043100 +0000" stop="20261005060600 +0000" channel="kavitv.horror">
     <title>We Bury the Dead</title>
     <date>2026</date>
     <desc>After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.</desc>
@@ -271,30 +176,16 @@
     <category>Thriller</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372888/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005065300 +0000" stop="20261005070840 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005070840 +0000" stop="20261005085840 +0000" channel="kavitv.horror">
-    <title>Backrooms</title>
-    <date>2026</date>
-    <desc>A strange doorway appears in the basement of a furniture showroom.</desc>
-    <category>Horror</category>
+  <programme start="20261005060600 +0000" stop="20261005073600 +0000" channel="kavitv.horror">
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998). Experimental film.</desc>
+    <category>Drama</category>
     <category>Mystery</category>
-    <category>Science Fiction</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372823/Images/Primary?maxWidth=400"/>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005085840 +0000" stop="20261005091420 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005091420 +0000" stop="20261005104420 +0000" channel="kavitv.horror">
+  <programme start="20261005073600 +0000" stop="20261005090600 +0000" channel="kavitv.horror">
     <title>Love Reinvented</title>
     <date>1979</date>
     <desc>For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists</desc>
@@ -302,14 +193,7 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216365/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005104420 +0000" stop="20261005110000 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005110000 +0000" stop="20261005123000 +0000" channel="kavitv.horror">
+  <programme start="20261005090600 +0000" stop="20261005103600 +0000" channel="kavitv.horror">
     <title>Deep Water</title>
     <date>2026</date>
     <desc>A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences </desc>
@@ -318,14 +202,7 @@
     <category>Adventure</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372833/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005123000 +0000" stop="20261005124540 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005124540 +0000" stop="20261005141540 +0000" channel="kavitv.horror">
+  <programme start="20261005103600 +0000" stop="20261005120600 +0000" channel="kavitv.horror">
     <title>Nocturne</title>
     <date>1998</date>
     <desc>Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo</desc>
@@ -333,29 +210,7 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216661/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005141540 +0000" stop="20261005143120 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005143120 +0000" stop="20261005160120 +0000" channel="kavitv.horror">
-    <title>10/65: Self-Mutilation</title>
-    <date>1965</date>
-    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
-    <category>Drama</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261005160120 +0000" stop="20261005161700 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005161700 +0000" stop="20261005165500 +0000" channel="kavitv.horror">
+  <programme start="20261005120600 +0000" stop="20261005124400 +0000" channel="kavitv.horror">
     <title>The Inauguration of the Pleasure Dome</title>
     <date>1954</date>
     <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
@@ -363,163 +218,7 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373025/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005165500 +0000" stop="20261005171040 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005171040 +0000" stop="20261005184040 +0000" channel="kavitv.horror">
-    <title>Twin Peaks: Fire Walk with Me</title>
-    <date>1992</date>
-    <desc>In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and</desc>
-    <category>Drama</category>
-    <category>Mystery</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261005184040 +0000" stop="20261005185620 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005185620 +0000" stop="20261005202620 +0000" channel="kavitv.horror">
-    <title>Office Killer</title>
-    <date>1997</date>
-    <desc>When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco</desc>
-    <category>Horror</category>
-    <category>Thriller</category>
-    <category>Comedy</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261005202620 +0000" stop="20261005204200 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005204200 +0000" stop="20261005221200 +0000" channel="kavitv.horror">
-    <title>Phantom of the Paradise</title>
-    <date>1974</date>
-    <desc>Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise.</desc>
-    <category>Comedy</category>
-    <category>Drama</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/217408/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261005221200 +0000" stop="20261005222740 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005222740 +0000" stop="20261006000000 +0000" channel="kavitv.horror">
-    <title>Blind Alley</title>
-    <date>2011</date>
-    <desc>A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley.</desc>
-    <category>Action</category>
-    <category>Horror</category>
-    <category>Thriller</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216430/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006000000 +0000" stop="20261006013500 +0000" channel="kavitv.horror">
-    <title>We Bury the Dead</title>
-    <date>2026</date>
-    <desc>After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.</desc>
-    <category>Horror</category>
-    <category>Thriller</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372888/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006013500 +0000" stop="20261006015040 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006015040 +0000" stop="20261006032040 +0000" channel="kavitv.horror">
-    <title>Twin Peaks: Fire Walk with Me</title>
-    <date>1992</date>
-    <desc>In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and</desc>
-    <category>Drama</category>
-    <category>Mystery</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006032040 +0000" stop="20261006033620 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006033620 +0000" stop="20261006050620 +0000" channel="kavitv.horror">
-    <title>10/65: Self-Mutilation</title>
-    <date>1965</date>
-    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
-    <category>Drama</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006050620 +0000" stop="20261006052200 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006052200 +0000" stop="20261006065200 +0000" channel="kavitv.horror">
-    <title>Office Killer</title>
-    <date>1997</date>
-    <desc>When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco</desc>
-    <category>Horror</category>
-    <category>Thriller</category>
-    <category>Comedy</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006065200 +0000" stop="20261006070740 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006070740 +0000" stop="20261006083740 +0000" channel="kavitv.horror">
-    <title>Blind Alley</title>
-    <date>2011</date>
-    <desc>A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley.</desc>
-    <category>Action</category>
-    <category>Horror</category>
-    <category>Thriller</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216430/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006083740 +0000" stop="20261006085320 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006085320 +0000" stop="20261006102420 +0000" channel="kavitv.horror">
-    <title>Neon Maniacs</title>
-    <date>1986</date>
-    <desc>A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.</desc>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373097/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006102420 +0000" stop="20261006104000 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006104000 +0000" stop="20261006123000 +0000" channel="kavitv.horror">
+  <programme start="20261005124400 +0000" stop="20261005143400 +0000" channel="kavitv.horror">
     <title>Backrooms</title>
     <date>2026</date>
     <desc>A strange doorway appears in the basement of a furniture showroom.</desc>
@@ -528,29 +227,113 @@
     <category>Science Fiction</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372823/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006123000 +0000" stop="20261006124540 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261005143400 +0000" stop="20261005160400 +0000" channel="kavitv.horror">
+    <title>Office Killer</title>
+    <date>1997</date>
+    <desc>When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco</desc>
+    <category>Horror</category>
+    <category>Thriller</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006124540 +0000" stop="20261006141540 +0000" channel="kavitv.horror">
-    <title>Nocturne</title>
-    <date>1998</date>
-    <desc>Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo</desc>
+  <programme start="20261005160400 +0000" stop="20261005173400 +0000" channel="kavitv.horror">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental short film.</desc>
+    <category>Comedy</category>
     <category>Drama</category>
     <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/216661/Images/Primary?maxWidth=400"/>
+    <icon src="http://10.0.0.98:8096/emby/Items/217408/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006141540 +0000" stop="20261006143120 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261005173400 +0000" stop="20261005190400 +0000" channel="kavitv.horror">
+    <title>10/65: Self-Mutilation</title>
+    <date>1965</date>
+    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <category>Drama</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006143120 +0000" stop="20261006150920 +0000" channel="kavitv.horror">
+  <programme start="20261005190400 +0000" stop="20261005203500 +0000" channel="kavitv.horror">
+    <title>Neon Maniacs</title>
+    <date>1986</date>
+    <desc>A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373097/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005203500 +0000" stop="20261005220500 +0000" channel="kavitv.horror">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005220500 +0000" stop="20261006000000 +0000" channel="kavitv.horror">
+    <title>We Bury the Dead</title>
+    <date>2026</date>
+    <desc>After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.</desc>
+    <category>Horror</category>
+    <category>Thriller</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372888/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006000000 +0000" stop="20261006015000 +0000" channel="kavitv.horror">
+    <title>Backrooms</title>
+    <date>2026</date>
+    <desc>A strange doorway appears in the basement of a furniture showroom.</desc>
+    <category>Horror</category>
+    <category>Mystery</category>
+    <category>Science Fiction</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372823/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006015000 +0000" stop="20261006032000 +0000" channel="kavitv.horror">
+    <title>10/65: Self-Mutilation</title>
+    <date>1965</date>
+    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <category>Drama</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006032000 +0000" stop="20261006045000 +0000" channel="kavitv.horror">
+    <title>Office Killer</title>
+    <date>1997</date>
+    <desc>When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco</desc>
+    <category>Horror</category>
+    <category>Thriller</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006045000 +0000" stop="20261006062000 +0000" channel="kavitv.horror">
+    <title>Love Reinvented</title>
+    <date>1979</date>
+    <desc>For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists</desc>
+    <category>Horror</category>
+    <category>Drama</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216365/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006062000 +0000" stop="20261006075100 +0000" channel="kavitv.horror">
+    <title>Neon Maniacs</title>
+    <date>1986</date>
+    <desc>A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373097/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006075100 +0000" stop="20261006092100 +0000" channel="kavitv.horror">
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998). Experimental film.</desc>
+    <category>Drama</category>
+    <category>Mystery</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006092100 +0000" stop="20261006105600 +0000" channel="kavitv.horror">
+    <title>We Bury the Dead</title>
+    <date>2026</date>
+    <desc>After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.</desc>
+    <category>Horror</category>
+    <category>Thriller</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372888/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006105600 +0000" stop="20261006113400 +0000" channel="kavitv.horror">
     <title>The Inauguration of the Pleasure Dome</title>
     <date>1954</date>
     <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
@@ -558,44 +341,23 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373025/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006150920 +0000" stop="20261006152500 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006152500 +0000" stop="20261006165500 +0000" channel="kavitv.horror">
-    <title>Phantom of the Paradise</title>
-    <date>1974</date>
-    <desc>Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise.</desc>
+  <programme start="20261006113400 +0000" stop="20261006130400 +0000" channel="kavitv.horror">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental short film.</desc>
     <category>Comedy</category>
     <category>Drama</category>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/217408/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006165500 +0000" stop="20261006171040 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006171040 +0000" stop="20261006184040 +0000" channel="kavitv.horror">
+  <programme start="20261006130400 +0000" stop="20261006143400 +0000" channel="kavitv.horror">
     <title>Stille Nacht</title>
     <date>1969</date>
     <desc>A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.</desc>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006184040 +0000" stop="20261006185620 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006185620 +0000" stop="20261006202620 +0000" channel="kavitv.horror">
+  <programme start="20261006143400 +0000" stop="20261006160400 +0000" channel="kavitv.horror">
     <title>Deep Water</title>
     <date>2026</date>
     <desc>A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences </desc>
@@ -604,147 +366,90 @@
     <category>Adventure</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372833/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006202620 +0000" stop="20261006204200 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006160400 +0000" stop="20261006173400 +0000" channel="kavitv.horror">
+    <title>Nocturne</title>
+    <date>1998</date>
+    <desc>Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo</desc>
+    <category>Drama</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216661/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006204200 +0000" stop="20261006221200 +0000" channel="kavitv.horror">
+  <programme start="20261006173400 +0000" stop="20261006192400 +0000" channel="kavitv.horror">
+    <title>Backrooms</title>
+    <date>2026</date>
+    <desc>A strange doorway appears in the basement of a furniture showroom.</desc>
+    <category>Horror</category>
+    <category>Mystery</category>
+    <category>Science Fiction</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372823/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006192400 +0000" stop="20261006205400 +0000" channel="kavitv.horror">
+    <title>10/65: Self-Mutilation</title>
+    <date>1965</date>
+    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <category>Drama</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006205400 +0000" stop="20261006222400 +0000" channel="kavitv.horror">
+    <title>Office Killer</title>
+    <date>1997</date>
+    <desc>When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco</desc>
+    <category>Horror</category>
+    <category>Thriller</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006222400 +0000" stop="20261007000000 +0000" channel="kavitv.horror">
     <title>Love Reinvented</title>
     <date>1979</date>
     <desc>For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists</desc>
     <category>Horror</category>
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216365/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006221200 +0000" stop="20261006222740 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006222740 +0000" stop="20261006224320 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006224320 +0000" stop="20261006225900 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006225900 +0000" stop="20261006231440 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006231440 +0000" stop="20261006233020 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006233020 +0000" stop="20261007000000 +0000" channel="kavitv.horror">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
   </programme>
   <programme start="20261004000000 +0000" stop="20261004013000 +0000" channel="kavitv.experimental">
-    <title>Montparnasse</title>
-    <date>1929</date>
-    <desc>Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam</desc>
+    <title>Letter to Jane: An Investigation About a Still</title>
+    <date>1972</date>
+    <desc>The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation</desc>
     <category>Documentary</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215270/Images/Primary?maxWidth=400"/>
+    <icon src="http://10.0.0.98:8096/emby/Items/215188/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004013000 +0000" stop="20261004014540 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004013000 +0000" stop="20261004030000 +0000" channel="kavitv.experimental">
+    <title>Vladimir and Rosa</title>
+    <date>1971</date>
+    <desc>Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi</desc>
+    <category>Drama</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215192/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004014540 +0000" stop="20261004031540 +0000" channel="kavitv.experimental">
-    <title>British Sounds</title>
-    <date>1970</date>
-    <desc>Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th</desc>
-    <category>Documentary</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215730/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261004031540 +0000" stop="20261004033120 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004033120 +0000" stop="20261004050120 +0000" channel="kavitv.experimental">
+  <programme start="20261004030000 +0000" stop="20261004043000 +0000" channel="kavitv.experimental">
     <title>France Tour Detour Mouvement 2 Lumiere Physique</title>
     <date>1977</date>
     <desc>An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
     <icon src="http://10.0.0.98:8096/emby/Items/248430/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004050120 +0000" stop="20261004051700 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004051700 +0000" stop="20261004064700 +0000" channel="kavitv.experimental">
+  <programme start="20261004043000 +0000" stop="20261004060000 +0000" channel="kavitv.experimental">
     <title>Schick Commerical</title>
     <date>1971</date>
     <desc>An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h</desc>
     <icon src="http://10.0.0.98:8096/emby/Items/215739/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004064700 +0000" stop="20261004070240 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004070240 +0000" stop="20261004083240 +0000" channel="kavitv.experimental">
+  <programme start="20261004060000 +0000" stop="20261004073000 +0000" channel="kavitv.experimental">
     <title>The Private Life of a Cat</title>
     <date>1946</date>
     <desc>An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow.</desc>
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216384/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004083240 +0000" stop="20261004084820 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004084820 +0000" stop="20261004101820 +0000" channel="kavitv.experimental">
-    <title>The Elephant Man</title>
-    <date>1980</date>
-    <desc>A Victorian surgeon rescues a heavily disfigured man being mistreated by his "owner" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity.</desc>
+  <programme start="20261004073000 +0000" stop="20261004090000 +0000" channel="kavitv.experimental">
+    <title>Elephant</title>
+    <date>2003</date>
+    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
     <category>Drama</category>
     <category>History</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004101820 +0000" stop="20261004103400 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004103400 +0000" stop="20261004120400 +0000" channel="kavitv.experimental">
+  <programme start="20261004090000 +0000" stop="20261004103000 +0000" channel="kavitv.experimental">
     <title>The Inauguration of the Pleasure Dome</title>
     <date>1954</date>
     <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
@@ -752,111 +457,67 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215996/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004120400 +0000" stop="20261004121940 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004121940 +0000" stop="20261004134940 +0000" channel="kavitv.experimental">
+  <programme start="20261004103000 +0000" stop="20261004120000 +0000" channel="kavitv.experimental">
     <title>Eaux d'Artifice</title>
     <date>1953</date>
     <desc>A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat</desc>
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215995/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004134940 +0000" stop="20261004140520 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004120000 +0000" stop="20261004122021 +0000" channel="kavitv.experimental">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261004140520 +0000" stop="20261004153520 +0000" channel="kavitv.experimental">
-    <title>Vladimir and Rosa</title>
-    <date>1971</date>
-    <desc>Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi</desc>
-    <category>Drama</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215192/Images/Primary?maxWidth=400"/>
+  <programme start="20261004122021 +0000" stop="20261004135021 +0000" channel="kavitv.experimental">
+    <title>Montparnasse</title>
+    <date>1929</date>
+    <desc>Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam</desc>
+    <category>Documentary</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215270/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004153520 +0000" stop="20261004155100 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004135021 +0000" stop="20261004152021 +0000" channel="kavitv.experimental">
+    <title>British Sounds</title>
+    <date>1970</date>
+    <desc>Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th</desc>
+    <category>Documentary</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215730/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004155100 +0000" stop="20261004172800 +0000" channel="kavitv.experimental">
+  <programme start="20261004152021 +0000" stop="20261004165021 +0000" channel="kavitv.experimental">
+    <title>Legendary Epics Yarns and Fables Part 2: Stan Brakhage</title>
+    <date>1969</date>
+    <desc>This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/217209/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261004165021 +0000" stop="20261004182721 +0000" channel="kavitv.experimental">
     <title>Schizopolis</title>
-    <date>1997</date>
+    <date>1996</date>
     <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
     <category>Comedy</category>
     <category>Fantasy</category>
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004172800 +0000" stop="20261004174340 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004182721 +0000" stop="20261004195721 +0000" channel="kavitv.experimental">
+    <title>Inauguration of the Pleasure Dome</title>
+    <date>1954</date>
+    <desc>An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/248561/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004174340 +0000" stop="20261004191340 +0000" channel="kavitv.experimental">
-    <title>Legendary Epics Yarns and Fables Part 2: Stan Brakhage</title>
-    <date>1969</date>
-    <desc>This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B</desc>
-    <icon src="http://10.0.0.98:8096/emby/Items/217209/Images/Primary?maxWidth=400"/>
+  <programme start="20261004195721 +0000" stop="20261004212721 +0000" channel="kavitv.experimental">
+    <title>France/tour/détour/deux/enfants, Mouvement 5: Impression/Dictée (Impression/Dictation)</title>
+    <date>1978</date>
+    <desc>An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/248434/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004191340 +0000" stop="20261004192920 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004192920 +0000" stop="20261004211220 +0000" channel="kavitv.experimental">
+  <programme start="20261004212721 +0000" stop="20261005000000 +0000" channel="kavitv.experimental">
     <title>Scanners</title>
     <date>1981</date>
     <desc>A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners.</desc>
     <category>Science Fiction</category>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372861/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261004211220 +0000" stop="20261004212800 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004212800 +0000" stop="20261004225800 +0000" channel="kavitv.experimental">
-    <title>Inauguration of the Pleasure Dome</title>
-    <date>1954</date>
-    <desc>An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
-    <icon src="http://10.0.0.98:8096/emby/Items/248561/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261004225800 +0000" stop="20261004231340 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004231340 +0000" stop="20261004232920 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004232920 +0000" stop="20261005000000 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
   </programme>
   <programme start="20261005000000 +0000" stop="20261005013000 +0000" channel="kavitv.experimental">
     <title>1 P.M.</title>
@@ -865,140 +526,70 @@
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215737/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005013000 +0000" stop="20261005014540 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005014540 +0000" stop="20261005031540 +0000" channel="kavitv.experimental">
+  <programme start="20261005013000 +0000" stop="20261005030000 +0000" channel="kavitv.experimental">
     <title>Eaux d'Artifice</title>
     <date>1953</date>
     <desc>A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat</desc>
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215995/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005031540 +0000" stop="20261005033120 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005033120 +0000" stop="20261005050120 +0000" channel="kavitv.experimental">
-    <title>The Elephant Man</title>
-    <date>1980</date>
-    <desc>A Victorian surgeon rescues a heavily disfigured man being mistreated by his "owner" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity.</desc>
+  <programme start="20261005030000 +0000" stop="20261005043000 +0000" channel="kavitv.experimental">
+    <title>Elephant</title>
+    <date>2003</date>
+    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
     <category>Drama</category>
     <category>History</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005050120 +0000" stop="20261005051700 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005051700 +0000" stop="20261005064700 +0000" channel="kavitv.experimental">
+  <programme start="20261005043000 +0000" stop="20261005060000 +0000" channel="kavitv.experimental">
     <title>France Tour Detour Mouvement 2 Lumiere Physique</title>
     <date>1977</date>
     <desc>An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
     <icon src="http://10.0.0.98:8096/emby/Items/248430/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005064700 +0000" stop="20261005070240 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005070240 +0000" stop="20261005083240 +0000" channel="kavitv.experimental">
+  <programme start="20261005060000 +0000" stop="20261005073000 +0000" channel="kavitv.experimental">
     <title>Legendary Epics Yarns and Fables Part 2: Stan Brakhage</title>
     <date>1969</date>
     <desc>This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B</desc>
     <icon src="http://10.0.0.98:8096/emby/Items/217209/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005083240 +0000" stop="20261005084820 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005084820 +0000" stop="20261005101820 +0000" channel="kavitv.experimental">
+  <programme start="20261005073000 +0000" stop="20261005090000 +0000" channel="kavitv.experimental">
     <title>Inauguration of the Pleasure Dome</title>
     <date>1954</date>
     <desc>An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
     <icon src="http://10.0.0.98:8096/emby/Items/248561/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005101820 +0000" stop="20261005103400 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005103400 +0000" stop="20261005120400 +0000" channel="kavitv.experimental">
+  <programme start="20261005090000 +0000" stop="20261005103000 +0000" channel="kavitv.experimental">
     <title>Montparnasse</title>
     <date>1929</date>
     <desc>Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam</desc>
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215270/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005120400 +0000" stop="20261005121940 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005121940 +0000" stop="20261005135640 +0000" channel="kavitv.experimental">
+  <programme start="20261005103000 +0000" stop="20261005120700 +0000" channel="kavitv.experimental">
     <title>Schizopolis</title>
-    <date>1997</date>
+    <date>1996</date>
     <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
     <category>Comedy</category>
     <category>Fantasy</category>
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005135640 +0000" stop="20261005141220 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005141220 +0000" stop="20261005154220 +0000" channel="kavitv.experimental">
+  <programme start="20261005120700 +0000" stop="20261005133700 +0000" channel="kavitv.experimental">
     <title>Vladimir and Rosa</title>
     <date>1971</date>
     <desc>Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi</desc>
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215192/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005154220 +0000" stop="20261005155800 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005155800 +0000" stop="20261005172800 +0000" channel="kavitv.experimental">
+  <programme start="20261005133700 +0000" stop="20261005150700 +0000" channel="kavitv.experimental">
     <title>British Sounds</title>
     <date>1970</date>
     <desc>Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th</desc>
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215730/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005172800 +0000" stop="20261005174340 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005174340 +0000" stop="20261005191340 +0000" channel="kavitv.experimental">
+  <programme start="20261005150700 +0000" stop="20261005163700 +0000" channel="kavitv.experimental">
     <title>The Inauguration of the Pleasure Dome</title>
     <date>1954</date>
     <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
@@ -1006,162 +597,27 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215996/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005191340 +0000" stop="20261005192920 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005192920 +0000" stop="20261005205920 +0000" channel="kavitv.experimental">
+  <programme start="20261005163700 +0000" stop="20261005180700 +0000" channel="kavitv.experimental">
     <title>Schick Commerical</title>
     <date>1971</date>
     <desc>An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h</desc>
     <icon src="http://10.0.0.98:8096/emby/Items/215739/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005205920 +0000" stop="20261005211500 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005211500 +0000" stop="20261005224500 +0000" channel="kavitv.experimental">
+  <programme start="20261005180700 +0000" stop="20261005193700 +0000" channel="kavitv.experimental">
     <title>Letter to Jane: An Investigation About a Still</title>
-    <date>1974</date>
+    <date>1972</date>
     <desc>The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation</desc>
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215188/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005224500 +0000" stop="20261005230040 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005230040 +0000" stop="20261005231620 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005231620 +0000" stop="20261005233200 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005233200 +0000" stop="20261006000000 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006000000 +0000" stop="20261006013700 +0000" channel="kavitv.experimental">
-    <title>Schizopolis</title>
-    <date>1997</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006013700 +0000" stop="20261006015240 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006015240 +0000" stop="20261006032240 +0000" channel="kavitv.experimental">
-    <title>Vladimir and Rosa</title>
-    <date>1971</date>
-    <desc>Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi</desc>
-    <category>Drama</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215192/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006032240 +0000" stop="20261006033820 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006033820 +0000" stop="20261006050820 +0000" channel="kavitv.experimental">
-    <title>Schick Commerical</title>
-    <date>1971</date>
-    <desc>An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h</desc>
-    <icon src="http://10.0.0.98:8096/emby/Items/215739/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006050820 +0000" stop="20261006052400 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006052400 +0000" stop="20261006065400 +0000" channel="kavitv.experimental">
+  <programme start="20261005193700 +0000" stop="20261005210700 +0000" channel="kavitv.experimental">
     <title>The Private Life of a Cat</title>
     <date>1946</date>
     <desc>An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow.</desc>
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216384/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006065400 +0000" stop="20261006070940 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006070940 +0000" stop="20261006083940 +0000" channel="kavitv.experimental">
-    <title>Eaux d'Artifice</title>
-    <date>1953</date>
-    <desc>A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat</desc>
-    <category>Drama</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215995/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006083940 +0000" stop="20261006085520 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006085520 +0000" stop="20261006102520 +0000" channel="kavitv.experimental">
-    <title>Letter to Jane: An Investigation About a Still</title>
-    <date>1974</date>
-    <desc>The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation</desc>
-    <category>Documentary</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215188/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006102520 +0000" stop="20261006104100 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006104100 +0000" stop="20261006121100 +0000" channel="kavitv.experimental">
-    <title>The Inauguration of the Pleasure Dome</title>
-    <date>1954</date>
-    <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
-    <category>Fantasy</category>
-    <category>Horror</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/215996/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261006121100 +0000" stop="20261006122640 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006122640 +0000" stop="20261006140940 +0000" channel="kavitv.experimental">
+  <programme start="20261005210700 +0000" stop="20261006000000 +0000" channel="kavitv.experimental">
     <title>Scanners</title>
     <date>1981</date>
     <desc>A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners.</desc>
@@ -1169,95 +625,116 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372861/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006140940 +0000" stop="20261006142520 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006000000 +0000" stop="20261006013000 +0000" channel="kavitv.experimental">
+    <title>Legendary Epics Yarns and Fables Part 2: Stan Brakhage</title>
+    <date>1969</date>
+    <desc>This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/217209/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006142520 +0000" stop="20261006155520 +0000" channel="kavitv.experimental">
-    <title>Inauguration of the Pleasure Dome</title>
-    <date>1954</date>
-    <desc>An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
-    <icon src="http://10.0.0.98:8096/emby/Items/248561/Images/Primary?maxWidth=400"/>
+  <programme start="20261006013000 +0000" stop="20261006030000 +0000" channel="kavitv.experimental">
+    <title>Schick Commerical</title>
+    <date>1971</date>
+    <desc>An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/215739/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006155520 +0000" stop="20261006161100 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006030000 +0000" stop="20261006043000 +0000" channel="kavitv.experimental">
+    <title>Eaux d'Artifice</title>
+    <date>1953</date>
+    <desc>A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat</desc>
+    <category>Drama</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215995/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006161100 +0000" stop="20261006174100 +0000" channel="kavitv.experimental">
-    <title>France/tour/détour/deux/enfants, Mouvement 5: Impression/Dictée (Impression/Dictation)</title>
-    <date>1978</date>
-    <desc>An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
-    <icon src="http://10.0.0.98:8096/emby/Items/248434/Images/Primary?maxWidth=400"/>
+  <programme start="20261006043000 +0000" stop="20261006060000 +0000" channel="kavitv.experimental">
+    <title>France Tour Detour Mouvement 2 Lumiere Physique</title>
+    <date>1977</date>
+    <desc>An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/248430/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006174100 +0000" stop="20261006175640 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006175640 +0000" stop="20261006192640 +0000" channel="kavitv.experimental">
+  <programme start="20261006060000 +0000" stop="20261006073000 +0000" channel="kavitv.experimental">
     <title>1 P.M.</title>
     <date>1971</date>
     <desc>Lighter and livelier than the films Jean-Luc Godard had made in France, his U.S. collaboration with Direct Cinema documentarian D. A. Pennebaker was meant to be One A.M., as in “one American movie”; but Godard quit the p</desc>
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215737/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006192640 +0000" stop="20261006194220 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006073000 +0000" stop="20261006090000 +0000" channel="kavitv.experimental">
+    <title>The Private Life of a Cat</title>
+    <date>1946</date>
+    <desc>An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow.</desc>
+    <category>Documentary</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216384/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006194220 +0000" stop="20261006211220 +0000" channel="kavitv.experimental">
+  <programme start="20261006090000 +0000" stop="20261006103000 +0000" channel="kavitv.experimental">
+    <title>The Inauguration of the Pleasure Dome</title>
+    <date>1954</date>
+    <desc>Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a</desc>
+    <category>Fantasy</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215996/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006103000 +0000" stop="20261006120000 +0000" channel="kavitv.experimental">
+    <title>Letter to Jane: An Investigation About a Still</title>
+    <date>1972</date>
+    <desc>The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation</desc>
+    <category>Documentary</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215188/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006120000 +0000" stop="20261006133000 +0000" channel="kavitv.experimental">
     <title>British Sounds</title>
     <date>1970</date>
     <desc>Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th</desc>
     <category>Documentary</category>
     <icon src="http://10.0.0.98:8096/emby/Items/215730/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006211220 +0000" stop="20261006212800 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006133000 +0000" stop="20261006151300 +0000" channel="kavitv.experimental">
+    <title>Scanners</title>
+    <date>1981</date>
+    <desc>A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners.</desc>
+    <category>Science Fiction</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372861/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006212800 +0000" stop="20261006225800 +0000" channel="kavitv.experimental">
-    <title>The Elephant Man</title>
-    <date>1980</date>
-    <desc>A Victorian surgeon rescues a heavily disfigured man being mistreated by his "owner" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity.</desc>
+  <programme start="20261006151300 +0000" stop="20261006164300 +0000" channel="kavitv.experimental">
+    <title>Inauguration of the Pleasure Dome</title>
+    <date>1954</date>
+    <desc>An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/248561/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006164300 +0000" stop="20261006181300 +0000" channel="kavitv.experimental">
+    <title>France/tour/détour/deux/enfants, Mouvement 5: Impression/Dictée (Impression/Dictation)</title>
+    <date>1978</date>
+    <desc>An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art.</desc>
+    <icon src="http://10.0.0.98:8096/emby/Items/248434/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006181300 +0000" stop="20261006194300 +0000" channel="kavitv.experimental">
+    <title>Vladimir and Rosa</title>
+    <date>1971</date>
+    <desc>Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi</desc>
+    <category>Drama</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/215192/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006194300 +0000" stop="20261006200321 +0000" channel="kavitv.experimental">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb.</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261006200321 +0000" stop="20261006213321 +0000" channel="kavitv.experimental">
+    <title>Elephant</title>
+    <date>2003</date>
+    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
     <category>Drama</category>
     <category>History</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006225800 +0000" stop="20261006231340 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006231340 +0000" stop="20261006232920 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006232920 +0000" stop="20261007000000 +0000" channel="kavitv.experimental">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006213321 +0000" stop="20261007000000 +0000" channel="kavitv.experimental">
+    <title>Schizopolis</title>
+    <date>1996</date>
+    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
+    <category>Comedy</category>
+    <category>Fantasy</category>
+    <category>Mystery</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261004000000 +0000" stop="20261004013000 +0000" channel="kavitv.independent">
     <title>Slacker</title>
@@ -1267,14 +744,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373053/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004013000 +0000" stop="20261004014540 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004014540 +0000" stop="20261004015740 +0000" channel="kavitv.independent">
+  <programme start="20261004013000 +0000" stop="20261004014200 +0000" channel="kavitv.independent">
     <title>From Dusk Till Dawn</title>
     <date>1996</date>
     <desc>In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo</desc>
@@ -1283,30 +753,16 @@
     <category>Movie</category>
     <icon src="http://10.0.0.98:8096/emby/Items/36220/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004015740 +0000" stop="20261004021320 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004021320 +0000" stop="20261004034320 +0000" channel="kavitv.independent">
-    <title>Jackie Brown</title>
-    <date>1997</date>
-    <desc>Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan — with help from a bail b</desc>
+  <programme start="20261004014200 +0000" stop="20261004031200 +0000" channel="kavitv.independent">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007). Experimental short.</desc>
     <category>Crime</category>
     <category>Drama</category>
     <category>Thriller</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004034320 +0000" stop="20261004035900 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004035900 +0000" stop="20261004052900 +0000" channel="kavitv.independent">
+  <programme start="20261004031200 +0000" stop="20261004044200 +0000" channel="kavitv.independent">
     <title>Marcel the Shell with Shoes On</title>
     <date>2022</date>
     <desc>Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of</desc>
@@ -1315,14 +771,7 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373032/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004052900 +0000" stop="20261004054440 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004054440 +0000" stop="20261004071440 +0000" channel="kavitv.independent">
+  <programme start="20261004044200 +0000" stop="20261004061200 +0000" channel="kavitv.independent">
     <title>The Fountain</title>
     <date>2006</date>
     <desc>Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world.</desc>
@@ -1331,14 +780,7 @@
     <category>Science Fiction</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373064/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004071440 +0000" stop="20261004073020 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004073020 +0000" stop="20261004090020 +0000" channel="kavitv.independent">
+  <programme start="20261004061200 +0000" stop="20261004074200 +0000" channel="kavitv.independent">
     <title>The Killing of a Sacred Deer</title>
     <date>2017</date>
     <desc>Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi</desc>
@@ -1347,14 +789,7 @@
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372873/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004090020 +0000" stop="20261004091600 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004091600 +0000" stop="20261004105600 +0000" channel="kavitv.independent">
+  <programme start="20261004074200 +0000" stop="20261004092200 +0000" channel="kavitv.independent">
     <title>I Saw the TV Glow</title>
     <date>2024</date>
     <desc>In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show — a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg</desc>
@@ -1362,14 +797,7 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373091/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004105600 +0000" stop="20261004111140 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004111140 +0000" stop="20261004124140 +0000" channel="kavitv.independent">
+  <programme start="20261004092200 +0000" stop="20261004105200 +0000" channel="kavitv.independent">
     <title>Kill Bill: Vol. 1</title>
     <date>2003</date>
     <desc>An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.</desc>
@@ -1377,14 +805,7 @@
     <category>Crime</category>
     <icon src="http://10.0.0.98:8096/emby/Items/217320/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004124140 +0000" stop="20261004125720 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004125720 +0000" stop="20261004142720 +0000" channel="kavitv.independent">
+  <programme start="20261004105200 +0000" stop="20261004122200 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
     <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
@@ -1392,14 +813,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004142720 +0000" stop="20261004144300 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004144300 +0000" stop="20261004161300 +0000" channel="kavitv.independent">
+  <programme start="20261004122200 +0000" stop="20261004135200 +0000" channel="kavitv.independent">
     <title>Mister Lonely</title>
     <date>2008</date>
     <desc>In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple.</desc>
@@ -1407,30 +821,16 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372850/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004161300 +0000" stop="20261004162840 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004162840 +0000" stop="20261004175840 +0000" channel="kavitv.independent">
-    <title>Mississippi Burning</title>
-    <date>1988</date>
-    <desc>Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI</desc>
+  <programme start="20261004135200 +0000" stop="20261004152200 +0000" channel="kavitv.independent">
+    <title>Burning</title>
+    <date>1999</date>
+    <desc>People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage.</desc>
     <category>Drama</category>
     <category>Crime</category>
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216673/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004175840 +0000" stop="20261004181420 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004181420 +0000" stop="20261004203620 +0000" channel="kavitv.independent">
+  <programme start="20261004152200 +0000" stop="20261004174400 +0000" channel="kavitv.independent">
     <title>Poor Things</title>
     <date>2023</date>
     <desc>Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for</desc>
@@ -1439,14 +839,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372856/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004203620 +0000" stop="20261004205200 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004205200 +0000" stop="20261004222200 +0000" channel="kavitv.independent">
+  <programme start="20261004174400 +0000" stop="20261004191400 +0000" channel="kavitv.independent">
     <title>Requiem for a Dream</title>
     <date>2000</date>
     <desc>The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.</desc>
@@ -1454,47 +847,40 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372859/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004222200 +0000" stop="20261004223740 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004191400 +0000" stop="20261004204400 +0000" channel="kavitv.independent">
+    <title>Slacker</title>
+    <date>1990</date>
+    <desc>Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The</desc>
+    <category>Drama</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373053/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004223740 +0000" stop="20261004225320 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004204400 +0000" stop="20261004205600 +0000" channel="kavitv.independent">
+    <title>From Dusk Till Dawn</title>
+    <date>1996</date>
+    <desc>In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo</desc>
+    <category>Horror</category>
+    <category>Vampires</category>
+    <category>Movie</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/36220/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004225320 +0000" stop="20261004230900 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004205600 +0000" stop="20261004222600 +0000" channel="kavitv.independent">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007). Experimental short.</desc>
+    <category>Crime</category>
+    <category>Drama</category>
+    <category>Thriller</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261004230900 +0000" stop="20261004232440 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004232440 +0000" stop="20261004234020 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261004234020 +0000" stop="20261005000000 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261004222600 +0000" stop="20261005000000 +0000" channel="kavitv.independent">
+    <title>Marcel the Shell with Shoes On</title>
+    <date>2022</date>
+    <desc>Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of</desc>
+    <category>Animation</category>
+    <category>Comedy</category>
+    <category>Drama</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373032/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261005000000 +0000" stop="20261005013000 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
@@ -1504,14 +890,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005013000 +0000" stop="20261005014540 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005014540 +0000" stop="20261005031540 +0000" channel="kavitv.independent">
+  <programme start="20261005013000 +0000" stop="20261005030000 +0000" channel="kavitv.independent">
     <title>Slacker</title>
     <date>1990</date>
     <desc>Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The</desc>
@@ -1519,14 +898,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373053/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005031540 +0000" stop="20261005033120 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005033120 +0000" stop="20261005050120 +0000" channel="kavitv.independent">
+  <programme start="20261005030000 +0000" stop="20261005043000 +0000" channel="kavitv.independent">
     <title>The Killing of a Sacred Deer</title>
     <date>2017</date>
     <desc>Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi</desc>
@@ -1535,30 +907,16 @@
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372873/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005050120 +0000" stop="20261005051700 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005051700 +0000" stop="20261005064700 +0000" channel="kavitv.independent">
-    <title>Jackie Brown</title>
-    <date>1997</date>
-    <desc>Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan — with help from a bail b</desc>
+  <programme start="20261005043000 +0000" stop="20261005060000 +0000" channel="kavitv.independent">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007). Experimental short.</desc>
     <category>Crime</category>
     <category>Drama</category>
     <category>Thriller</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005064700 +0000" stop="20261005070240 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005070240 +0000" stop="20261005083240 +0000" channel="kavitv.independent">
+  <programme start="20261005060000 +0000" stop="20261005073000 +0000" channel="kavitv.independent">
     <title>Mister Lonely</title>
     <date>2008</date>
     <desc>In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple.</desc>
@@ -1566,14 +924,7 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372850/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005083240 +0000" stop="20261005084820 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005084820 +0000" stop="20261005101820 +0000" channel="kavitv.independent">
+  <programme start="20261005073000 +0000" stop="20261005090000 +0000" channel="kavitv.independent">
     <title>Requiem for a Dream</title>
     <date>2000</date>
     <desc>The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.</desc>
@@ -1581,30 +932,16 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372859/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005101820 +0000" stop="20261005103400 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005103400 +0000" stop="20261005120400 +0000" channel="kavitv.independent">
-    <title>Mississippi Burning</title>
-    <date>1988</date>
-    <desc>Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI</desc>
+  <programme start="20261005090000 +0000" stop="20261005103000 +0000" channel="kavitv.independent">
+    <title>Burning</title>
+    <date>1999</date>
+    <desc>People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage.</desc>
     <category>Drama</category>
     <category>Crime</category>
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216673/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005120400 +0000" stop="20261005121940 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005121940 +0000" stop="20261005144140 +0000" channel="kavitv.independent">
+  <programme start="20261005103000 +0000" stop="20261005125200 +0000" channel="kavitv.independent">
     <title>Poor Things</title>
     <date>2023</date>
     <desc>Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for</desc>
@@ -1613,14 +950,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372856/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005144140 +0000" stop="20261005145720 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005145720 +0000" stop="20261005163720 +0000" channel="kavitv.independent">
+  <programme start="20261005125200 +0000" stop="20261005143200 +0000" channel="kavitv.independent">
     <title>I Saw the TV Glow</title>
     <date>2024</date>
     <desc>In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show — a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg</desc>
@@ -1628,14 +958,7 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373091/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005163720 +0000" stop="20261005165300 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005165300 +0000" stop="20261005182300 +0000" channel="kavitv.independent">
+  <programme start="20261005143200 +0000" stop="20261005160200 +0000" channel="kavitv.independent">
     <title>Marcel the Shell with Shoes On</title>
     <date>2022</date>
     <desc>Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of</desc>
@@ -1644,14 +967,7 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373032/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005182300 +0000" stop="20261005183840 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005183840 +0000" stop="20261005200840 +0000" channel="kavitv.independent">
+  <programme start="20261005160200 +0000" stop="20261005173200 +0000" channel="kavitv.independent">
     <title>The Fountain</title>
     <date>2006</date>
     <desc>Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world.</desc>
@@ -1660,14 +976,7 @@
     <category>Science Fiction</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373064/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005200840 +0000" stop="20261005202420 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005202420 +0000" stop="20261005203620 +0000" channel="kavitv.independent">
+  <programme start="20261005173200 +0000" stop="20261005174400 +0000" channel="kavitv.independent">
     <title>From Dusk Till Dawn</title>
     <date>1996</date>
     <desc>In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo</desc>
@@ -1676,14 +985,7 @@
     <category>Movie</category>
     <icon src="http://10.0.0.98:8096/emby/Items/36220/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005203620 +0000" stop="20261005205200 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005205200 +0000" stop="20261005222200 +0000" channel="kavitv.independent">
+  <programme start="20261005174400 +0000" stop="20261005191400 +0000" channel="kavitv.independent">
     <title>Kill Bill: Vol. 1</title>
     <date>2003</date>
     <desc>An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.</desc>
@@ -1691,47 +993,30 @@
     <category>Crime</category>
     <icon src="http://10.0.0.98:8096/emby/Items/217320/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005222200 +0000" stop="20261005223740 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261005191400 +0000" stop="20261005204400 +0000" channel="kavitv.independent">
+    <title>The Monkey</title>
+    <date>2025</date>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <category>Horror</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005223740 +0000" stop="20261005225320 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261005204400 +0000" stop="20261005221400 +0000" channel="kavitv.independent">
+    <title>Slacker</title>
+    <date>1990</date>
+    <desc>Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The</desc>
+    <category>Drama</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373053/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005225320 +0000" stop="20261005230900 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005230900 +0000" stop="20261005232440 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005232440 +0000" stop="20261005234020 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261005234020 +0000" stop="20261006000000 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261005221400 +0000" stop="20261006000000 +0000" channel="kavitv.independent">
+    <title>The Killing of a Sacred Deer</title>
+    <date>2017</date>
+    <desc>Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi</desc>
+    <category>Drama</category>
+    <category>Thriller</category>
+    <category>Mystery</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372873/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261006000000 +0000" stop="20261006014000 +0000" channel="kavitv.independent">
     <title>I Saw the TV Glow</title>
@@ -1741,14 +1026,7 @@
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373091/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006014000 +0000" stop="20261006015540 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006015540 +0000" stop="20261006032540 +0000" channel="kavitv.independent">
+  <programme start="20261006014000 +0000" stop="20261006031000 +0000" channel="kavitv.independent">
     <title>Requiem for a Dream</title>
     <date>2000</date>
     <desc>The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.</desc>
@@ -1756,30 +1034,16 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372859/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006032540 +0000" stop="20261006034120 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006034120 +0000" stop="20261006051120 +0000" channel="kavitv.independent">
-    <title>Jackie Brown</title>
-    <date>1997</date>
-    <desc>Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan — with help from a bail b</desc>
+  <programme start="20261006031000 +0000" stop="20261006044000 +0000" channel="kavitv.independent">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007). Experimental short.</desc>
     <category>Crime</category>
     <category>Drama</category>
     <category>Thriller</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006051120 +0000" stop="20261006052700 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006052700 +0000" stop="20261006065700 +0000" channel="kavitv.independent">
+  <programme start="20261006044000 +0000" stop="20261006061000 +0000" channel="kavitv.independent">
     <title>Slacker</title>
     <date>1990</date>
     <desc>Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The</desc>
@@ -1787,14 +1051,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373053/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006065700 +0000" stop="20261006071240 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006071240 +0000" stop="20261006084240 +0000" channel="kavitv.independent">
+  <programme start="20261006061000 +0000" stop="20261006074000 +0000" channel="kavitv.independent">
     <title>The Fountain</title>
     <date>2006</date>
     <desc>Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world.</desc>
@@ -1803,30 +1060,16 @@
     <category>Science Fiction</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373064/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006084240 +0000" stop="20261006085820 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006085820 +0000" stop="20261006102820 +0000" channel="kavitv.independent">
-    <title>Mississippi Burning</title>
-    <date>1988</date>
-    <desc>Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI</desc>
+  <programme start="20261006074000 +0000" stop="20261006091000 +0000" channel="kavitv.independent">
+    <title>Burning</title>
+    <date>1999</date>
+    <desc>People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage.</desc>
     <category>Drama</category>
     <category>Crime</category>
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216673/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006102820 +0000" stop="20261006104400 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006104400 +0000" stop="20261006130600 +0000" channel="kavitv.independent">
+  <programme start="20261006091000 +0000" stop="20261006113200 +0000" channel="kavitv.independent">
     <title>Poor Things</title>
     <date>2023</date>
     <desc>Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for</desc>
@@ -1835,14 +1078,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372856/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006130600 +0000" stop="20261006132140 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006132140 +0000" stop="20261006145140 +0000" channel="kavitv.independent">
+  <programme start="20261006113200 +0000" stop="20261006130200 +0000" channel="kavitv.independent">
     <title>Marcel the Shell with Shoes On</title>
     <date>2022</date>
     <desc>Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of</desc>
@@ -1851,14 +1087,7 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373032/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006145140 +0000" stop="20261006150720 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006150720 +0000" stop="20261006151920 +0000" channel="kavitv.independent">
+  <programme start="20261006130200 +0000" stop="20261006131400 +0000" channel="kavitv.independent">
     <title>From Dusk Till Dawn</title>
     <date>1996</date>
     <desc>In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo</desc>
@@ -1867,14 +1096,7 @@
     <category>Movie</category>
     <icon src="http://10.0.0.98:8096/emby/Items/36220/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006151920 +0000" stop="20261006153500 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006153500 +0000" stop="20261006170500 +0000" channel="kavitv.independent">
+  <programme start="20261006131400 +0000" stop="20261006144400 +0000" channel="kavitv.independent">
     <title>Kill Bill: Vol. 1</title>
     <date>2003</date>
     <desc>An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.</desc>
@@ -1882,14 +1104,7 @@
     <category>Crime</category>
     <icon src="http://10.0.0.98:8096/emby/Items/217320/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006170500 +0000" stop="20261006172040 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006172040 +0000" stop="20261006185040 +0000" channel="kavitv.independent">
+  <programme start="20261006144400 +0000" stop="20261006161400 +0000" channel="kavitv.independent">
     <title>Mister Lonely</title>
     <date>2008</date>
     <desc>In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple.</desc>
@@ -1897,14 +1112,7 @@
     <category>Drama</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372850/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006185040 +0000" stop="20261006190620 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006190620 +0000" stop="20261006203620 +0000" channel="kavitv.independent">
+  <programme start="20261006161400 +0000" stop="20261006174400 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
     <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
@@ -1912,14 +1120,7 @@
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006203620 +0000" stop="20261006205200 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006205200 +0000" stop="20261006222200 +0000" channel="kavitv.independent">
+  <programme start="20261006174400 +0000" stop="20261006191400 +0000" channel="kavitv.independent">
     <title>The Killing of a Sacred Deer</title>
     <date>2017</date>
     <desc>Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi</desc>
@@ -1928,46 +1129,29 @@
     <category>Mystery</category>
     <icon src="http://10.0.0.98:8096/emby/Items/372873/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006222200 +0000" stop="20261006223740 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006191400 +0000" stop="20261006205400 +0000" channel="kavitv.independent">
+    <title>I Saw the TV Glow</title>
+    <date>2024</date>
+    <desc>In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show — a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg</desc>
+    <category>Drama</category>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373091/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006223740 +0000" stop="20261006225320 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006205400 +0000" stop="20261006222400 +0000" channel="kavitv.independent">
+    <title>Requiem for a Dream</title>
+    <date>2000</date>
+    <desc>The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.</desc>
+    <category>Crime</category>
+    <category>Drama</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/372859/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006225320 +0000" stop="20261006230900 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006230900 +0000" stop="20261006232440 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006232440 +0000" stop="20261006234020 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
-  </programme>
-  <programme start="20261006234020 +0000" stop="20261007000000 +0000" channel="kavitv.independent">
-    <title>80s Commercials 1982</title>
-    <date>1982</date>
-    <desc>Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.</desc>
-    <category>Commercial</category>
-    <category>Retro</category>
+  <programme start="20261006222400 +0000" stop="20261007000000 +0000" channel="kavitv.independent">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007). Experimental short.</desc>
+    <category>Crime</category>
+    <category>Drama</category>
+    <category>Thriller</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"/>
   </programme>
 </tv>
