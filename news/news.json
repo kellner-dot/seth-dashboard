@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-05T20:46:38+0000",
- "updated_ts": 1791233198,
+ "updated": "2026-10-05T22:46:40+0000",
+ "updated_ts": 1791240400,
  "topics": [
   {
    "name": "Tech",
@@ -13,23 +13,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Why Plain Text Is Still One of the Best Technologies We Have",
+     "title": "Dust: Pretraining Transformers Without Backpropagation",
      "summary": "Comments",
-     "url": "https://deadparrotbbs.com/why-plain-text-is-still-one-of-the-best-technologies-we-have/",
+     "url": "https://qlabs.sh/research/dust",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "GitHub Actions Has Problems",
+     "title": "Find the flattest route between any two points in SF",
      "summary": "Comments",
-     "url": "https://www.githubstatus.com/incidents/3q1yb5m7ltvb",
+     "url": "https://flattensf.com/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "The future of independence is interdependence",
+     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
      "summary": "Comments",
-     "url": "https://onlys.ky/independence-is-interdependence/",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -46,6 +46,20 @@
      "url": "https://cses.fi/book/book.pdf",
      "time": "Sat, 03 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
+     "summary": "Cable industry to sue, says FCC can't repeal TV ownership limit set by Congress.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Texas city demands $2M for public records on Flock usage",
+     "summary": "Prices of public records tracking cops' use of Flock go up as backlash swells.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
@@ -74,20 +88,6 @@
      "url": "https://arstechnica.com/cars/2026/10/f1-in-bahrain-in-malaysia-the-race-needed-a-software-update-to-start/",
      "time": "Mon, 05 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Mass quarantine issued in Russia after unexplained death of plague researcher",
-     "summary": "Unconfirmed reports have suggested there was a laboratory accident.",
-     "url": "https://arstechnica.com/health/2026/10/researchers-death-from-undisclosed-illness-sparks-mass-quarantine-in-russia/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "AI glasses face their first major government crackdown",
-     "summary": "Norway wants time to write permanent rules for glasses that can record bystanders.",
-     "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -102,16 +102,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
-     "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
-     "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+     "title": "France braces for national day of school protests after injuries and mass arrests",
+     "summary": "France prepares for a day of protests in support of students who\u2019ve been demanding more investment in education.",
+     "url": "https://www.bbc.co.uk/news/articles/cr4g1q1elxnjo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Teenager's hand blown off during confrontation between France school protesters and police",
-     "summary": "The prefect of Pas-de-Calais says the 15-year-old's life is \"not in danger\" after the \"very serious\" incident.",
-     "url": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o?at_medium=RSS&at_campaign=rss",
+     "title": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
+     "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
+     "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
@@ -130,8 +130,8 @@
      "source": "BBC World"
     },
     {
-     "title": "US 'watching closely' after plague researcher dies in Russia, Rubio says",
-     "summary": "The US says it is monitoring the case of a lab technician who died at a plague research centre in Siberia.",
+     "title": "US 'watching closely' after plague researcher dies in Russia",
+     "summary": "Donald Trump says the US was looking \"very strongly\" at the case of a lab technician who died at a research centre in Siberia.",
      "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
@@ -184,45 +184,45 @@
    "name": "Vermont",
    "articles": [
     {
-     "title": "First to finish",
-     "summary": "Affordability shaped Carter Smith\u2019s college search. A Curtis Fund scholarship made Norwich University possible, breaking a family pattern in which money had cut education short. Now studying accounting, Carter hopes to build his career in Vermont, close to family and the communit",
-     "url": "https://vtdigger.org/2026/10/05/the-first-to-finish-carter-smiths-curtis-fund-story/",
+     "title": "Brattleboro fire chief deploys for 13 months",
+     "summary": "First responders and town officials gathered at Centra Fire Station in Brattleboro to say goodbye to Fire Chief Jay Symonds before he leaves for approdimately 13 months of military service with the New York Army National Guard on Friday, Oct. 2, 2026. Photo by Kristopher Radder/B",
+     "url": "https://vtdigger.org/2026/10/05/brattleboro-fire-chief-deploys-for-13-months/",
      "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "Vermont needs fewer small towns and some taller buildings",
-     "summary": "Rural life is holding Vermont back, and the fix is closing the countryside. Read the story on VTDigger here: Vermont needs fewer small towns and some taller buildings.",
-     "url": "https://vtdigger.org/2026/10/04/opinion-vermont-needs-fewer-small-towns-and-some-taller-buildings/",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Attorney for man charged in a deadly police chase seeks to quiz potential jurors before seeking change of venue",
+     "summary": "Tate Rheaume appears in Rutland County Superior criminal court on Tuesday April 9, 2024. Rheaume is charged in the crash that killed Rutland City police officer Jessica Ebbighausen in 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads",
+     "url": "https://vtdigger.org/2026/10/05/attorney-for-man-charged-in-a-deadly-police-chase-seeks-to-quiz-potential-jurors-before-seeking-change-of-venue/",
+     "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "Wood banks prep for long winter months",
-     "summary": "Students help load wood onto a truck to be delivered to families in need in the area. Photo by Gordon Miller/News &#038; Citizen \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/united-way-lamoille-county-wood-bank-students.jpg\" /> The United Way of Lamoille Cou",
-     "url": "https://vtdigger.org/2026/10/04/wood-banks-prep-for-long-winter-months/",
-     "time": "Sun, 04 Oct 2026",
+     "title": "New report finds low reconviction rates for teens in first years of Vermont\u2019s \u2018Raise the Age\u2019 law",
+     "summary": "The McCaffrey Courthouse in Rutland on Thursday, September 10, 2026. The building houses Vermont Superior Court. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/rutland-state-courthouse-1-20260910-1200x798.jpg\" /> \u201cMy hope is tha",
+     "url": "https://vtdigger.org/2026/10/05/new-report-finds-low-reconviction-rates-for-teens-in-first-years-of-vermonts-raise-the-age-law/",
+     "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "After a costly dry spell, a wetter outlook",
-     "summary": "People walk along the beach at St. Albans Bay on Thursday, September 18, 2025. The drought has brought water levels on Lake Champlain to near record lows. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/09/drought-11-20250918-1200x7",
-     "url": "https://vtdigger.org/2026/10/04/after-a-costly-dry-spell-a-wetter-outlook/",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Not every job needs to be done in the office",
+     "summary": "The return-to-office order could drive out workers Vermont can't afford to lose. Read the story on VTDigger here: Not every job needs to be done in the office.",
+     "url": "https://vtdigger.org/2026/10/05/opinion-not-every-job-needs-to-be-done-in-the-office/",
+     "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "Vermont officials and advocates tackle voting accessibility concerns ahead of November election",
-     "summary": "A voter carries ballots past a booth in Shelburne on Primary Day, Tuesday, August 11, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/08/primary-day-1-20260810-1200x798.jpg\" /> Data shows low voter turnout for disabled in Verm",
-     "url": "https://vtdigger.org/2026/10/04/vermont-officials-and-advocates-tackle-voting-accessibility-concerns-ahead-of-november-election/",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Despite some overall progress, Vermont test scores show a widening achievement gap",
+     "summary": "A classroom. Photo via Adobe Stock \" data-image-caption=\"A classroom. Photo via Adobe Stock \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2023/04/Classroom-School-Teachers-Education-1200x800.jpeg\" /> The state\u2019s initial evaluation of its annual standardized test scor",
+     "url": "https://vtdigger.org/2026/10/05/despite-some-overall-progress-vermont-test-scores-show-a-widening-achievement-gap/",
+     "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "An Essex County officials\u2019 parking fight puts taxpayers in a tight spot",
-     "summary": "The Essex County Courthouse in Guildhall, center, sits between the Meeting House (left) and the Essex County Sheriff&#8217;s Department on Wednesday, September 30, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/essex-cou",
-     "url": "https://vtdigger.org/2026/10/04/an-essex-county-officials-parking-fight-puts-taxpayers-in-a-tight-spot/",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Vermont can help keep Canada close",
+     "summary": "As tariffs push Canadian businesses toward other markets, Vermont can use its ties to Quebec to its own advantage. Read the story on VTDigger here: Vermont can help keep Canada close.",
+     "url": "https://vtdigger.org/2026/10/05/opinion-vermont-can-help-keep-canada-close/",
+     "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
     }
    ]
