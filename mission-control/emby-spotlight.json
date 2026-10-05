@@ -1,11 +1,19 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5441,
+ "movies": 5442,
  "series": 33,
  "episodes": 59,
  "played": 14,
- "unwatched": 5427,
+ "unwatched": 5428,
  "new_arrivals": [
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
   {
    "name": "Possessor",
    "year": 2020,
@@ -81,17 +89,6 @@
    "runtime_min": 0,
    "progress_pct": 0,
    "type": "Movie"
-  },
-  {
-   "name": "Okja",
-   "year": 2017,
-   "genres": [
-    "Adventure",
-    "Drama"
-   ],
-   "runtime_min": 0,
-   "progress_pct": 0,
-   "type": "Movie"
   }
  ],
  "continue_watching": [
@@ -118,14 +115,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Nargis: When Time Stopped Breathing",
-  "year": 2010,
+  "name": "Us",
+  "year": 2019,
   "genres": [
-   "Documentary"
+   "Horror",
+   "Mystery"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "In May 2008, Cyclone Nargis hit Myanmar's Ayeyarwaddy Delta, claiming 140,000 lives. Despite a filming ban, young Burmese filmmakers clandestinely visited devastated villages after the storm, capturing surreal scenes of "
+  "overview": "Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arr"
  }
 }
