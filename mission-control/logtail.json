@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T19:16:44+0000",
+ "generated_iso": "2026-10-05T19:46:36+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-05 15:12:02.607 Error ImageService-0HNP2JA11TDQJ:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
-     "c": "err"
-    },
     {
      "t": "2026-10-05 15:12:13.271 Error ImageService-0HNP2JA11TDQK:00000001: Error processing request",
      "c": "err"
@@ -59,7 +47,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] 2026-10-05 19:46:36 app-switcher-srv: listening on :8899",
      "c": "ok"
     },
     {
@@ -83,27 +71,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T14:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T14:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T15:01:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T15:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T15:16:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T15:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:31:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:31:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:46:33-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:46:33-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
