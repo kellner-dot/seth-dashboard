@@ -1,56 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T22:16:39+0000",
+ "generated_iso": "2026-10-05T22:46:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tSystem.IO.IOException: System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the re",
+     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 5 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\t ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.",
+     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 6 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\tTargetSite: Void ThrowException(System.Net.Sockets.SocketError, System.Threading.CancellationToken)",
+     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\tInnerException: System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.",
+     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 7 of playlist 0",
      "c": "err"
     },
     {
-     "t": "2026-10-05 16:33:08.548 Error MediaInfoService-0HNP33BGQD7MG:00000007: Error processing request",
+     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 8 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.IOException: System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the re",
+     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\t ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.",
+     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 9 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\tTargetSite: Void ThrowException(System.Net.Sockets.SocketError, System.Threading.CancellationToken)",
+     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 10 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\tInnerException: System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.",
+     "t": "\t[hls @ 0000022d77ca6bc0] Error when loading first segment 'http://10.0.0.98:8096/emby/Videos/215127/hls1/main/0.ts?PlaySessionId='",
      "c": "err"
     }
    ]
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Mon Oct  5 22:16:37 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -83,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T16:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T17:01:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T17:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T17:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +92,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T18:01:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T18:16:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T18:31:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T18:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
