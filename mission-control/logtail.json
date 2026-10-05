@@ -1,59 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T08:46:47+0000",
+ "generated_iso": "2026-10-05T09:16:40+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": [
-    {
-     "t": "2026-10-05 04:42:09.563 Info DynamicHlsService-0HNP2JA11TAQC:00000019: ProcessRun 'StreamTranscode 737f01' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 04:42:12.628 Error GraphRunner: 2576980447026: Error setting PCR. Expected: 2576980447026 Actual: 69426",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 04:43:19.785 Error HttpClient: Connection to http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8100/\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008dkavitv\u00e2\u20ac\u0152/\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008dlive\u00e2\u20ac\u0152/\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008d",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 04:43:19.786 Error LiveTV: Error in GetChannelStreamWithDirectStreamProvider",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 04:43:19.787 Error MediaSourceManager: Error opening live stream",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 04:43:19.787 Error MediaInfoService-0HNP2JA11TAQ9:0000000C: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
-     "c": "err"
-    }
-   ]
+   "lines": []
   },
   {
    "name": "Fleet Pollers",
@@ -83,27 +34,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T04:16:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T04:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T04:31:33-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T04:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T04:46:41-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T04:46:41-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:01:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:16:36-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
