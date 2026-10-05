@@ -1,57 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T03:46:40+0000",
+ "generated_iso": "2026-10-05T04:16:38+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 23:43:20.112 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 23:43:36.165 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 23:43:36.177 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 23:43:36.186 Error UserLibraryService-0HNP0T5I41CO9:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Resource not found. Type: Library",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 23:43:36.186 Error UserLibraryService-0HNP0T5I41COA:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Resource not found. Type: Library",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 23:43:36.186 Info DynamicHlsService-0HNP0T5I41CO1:00000001: http/1.1 Response completed after client disconnected to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152",
+     "t": "2026-10-05 00:12:23.645 Info DynamicHlsService-0HNP0T5I41CVS:0000003F: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
      "c": "ok"
     },
     {
-     "t": "2026-10-04 23:43:36.413 Info DynamicHlsService-0HNP0T5I41CO1:00000001: ProcessRun 'StreamTranscode 815a5a' Process exited with code 69 - Failed",
-     "c": "err"
+     "t": "2026-10-05 00:12:23.648 Info DynamicHlsService-0HNP0T5I41CVS:0000003F: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "c": "ok"
     },
     {
-     "t": "2026-10-04 23:43:36.680 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
-     "c": "err"
+     "t": "2026-10-05 00:12:27.644 Info DynamicHlsService-0HNP0T5I41CVS:00000040: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:27.647 Info DynamicHlsService-0HNP0T5I41CVS:00000040: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:31.665 Info DynamicHlsService-0HNP0T5I41CVS:00000041: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:31.667 Info DynamicHlsService-0HNP0T5I41CVS:00000041: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:35.643 Info DynamicHlsService-0HNP0T5I41CVS:00000042: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:35.645 Info DynamicHlsService-0HNP0T5I41CVS:00000042: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:39.643 Info DynamicHlsService-0HNP0T5I41CVS:00000043: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:39.646 Info DynamicHlsService-0HNP0T5I41CVS:00000043: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:43.666 Info DynamicHlsService-0HNP0T5I41CVS:00000044: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 00:12:43.668 Info DynamicHlsService-0HNP0T5I41CVS:00000044: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "c": "ok"
     }
    ]
   },
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] GET /health",
      "c": "ok"
     },
     {
@@ -83,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T22:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T23:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T23:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T23:31:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T23:46:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-04T23:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:01:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:16:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
