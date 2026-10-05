@@ -1,48 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T06:16:38+0000",
+ "generated_iso": "2026-10-05T06:46:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 01:19:26.865 Info DynamicHlsService-0HNP2JA11TA65:00000001: ProcessRun 'StreamTranscode 17e749' Process exited with code -1 - Failed",
+     "t": "2026-10-05 02:18:46.820 Error SessionsService-0HNP2JA11TABP:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:19:36.819 Warn DynamicHlsService-0HNP2JA11TA67:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-05 01:19:36.819 Info DynamicHlsService-0HNP2JA11TA67:00000001: ProcessRun 'StreamTranscode f2534c' Process exited with code -1 - Failed",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:19:46.912 Warn DynamicHlsService-0HNP2JA11TA6A:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-05 01:19:46.913 Info DynamicHlsService-0HNP2JA11TA6A:00000001: ProcessRun 'StreamTranscode f162d3' Process exited with code -1 - Failed",
+     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Session bogus not found.",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:19:56.805 Warn DynamicHlsService-0HNP2JA11TA6C:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-05 01:19:56.805 Info DynamicHlsService-0HNP2JA11TA6C:00000001: ProcessRun 'StreamTranscode 3800fb' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 01:20:04.773 Warn DynamicHlsService-0HNP2JA11TA6E:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-05 01:20:04.774 Info DynamicHlsService-0HNP2JA11TA6E:00000001: ProcessRun 'StreamTranscode 5e59e1' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 02:11:15.903 Error SessionsService-0HNP2JA11TAAS:00000001: Error processing request",
+     "t": "2026-10-05 02:21:12.522 Error SessionsService-0HNP2JA11TAC7:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -83,27 +59,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T01:46:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T01:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T02:01:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T02:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T02:16:36-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T02:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:31:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:46:43-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:46:43-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
