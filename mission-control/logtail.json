@@ -1,57 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T04:46:44+0000",
+ "generated_iso": "2026-10-05T05:16:36+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 00:44:35.181 Info DynamicHlsService-0HNP2JA11T9MN:00000007: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/master.m3u8?D",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:44:35.182 Info DynamicHlsService-0HNP2JA11T9MN:00000007: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 1ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:44:35.183 Info DynamicHlsService-0HNP2JA11T9MN:00000008: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/live.m3u8?Dev",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:44:45.298 Warn DynamicHlsService-0HNP2JA11T9MN:00000008: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "t": "2026-10-05 01:15:46.679 Warn DynamicHlsService-0HNP2JA11TA4C:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
      "c": "warn"
     },
     {
-     "t": "2026-10-05 00:44:45.298 Info DynamicHlsService-0HNP2JA11T9MN:00000008: ProcessRun 'StreamTranscode d9ea1f' Process exited with code -1 - Failed",
+     "t": "2026-10-05 01:15:46.679 Info DynamicHlsService-0HNP2JA11TA4C:00000001: ProcessRun 'StreamTranscode fe6680' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 00:44:45.299 Info DynamicHlsService-0HNP2JA11T9MN:00000008: http/1.1 Response completed after client disconnected to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time:",
-     "c": "ok"
+     "t": "2026-10-05 01:15:56.709 Warn DynamicHlsService-0HNP2JA11TA4E:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
     },
     {
-     "t": "2026-10-05 00:44:45.301 Info DynamicHlsService-0HNP2JA11T9MK:00000005: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/master.m3u8?D",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:44:45.302 Info DynamicHlsService-0HNP2JA11T9MK:00000005: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 1ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:44:45.303 Info DynamicHlsService-0HNP2JA11T9MK:00000006: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/live.m3u8?Dev",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:44:46.798 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4F",
+     "t": "2026-10-05 01:15:56.709 Info DynamicHlsService-0HNP2JA11TA4E:00000001: ProcessRun 'StreamTranscode 05b5dd' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 00:44:55.384 Info DynamicHlsService-0HNP2JA11T9MK:00000006: ProcessRun 'StreamTranscode 8e2d2b' Process exited with code 1 - Failed",
+     "t": "2026-10-05 01:16:06.679 Warn DynamicHlsService-0HNP2JA11TA4G:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-05 01:16:06.679 Info DynamicHlsService-0HNP2JA11TA4G:00000001: ProcessRun 'StreamTranscode 44bb0c' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 00:44:55.385 Info DynamicHlsService-0HNP2JA11T9MK:00000006: http/1.1 Response completed after client disconnected to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time:",
-     "c": "ok"
+     "t": "2026-10-05 01:16:16.787 Warn DynamicHlsService-0HNP2JA11TA4I:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-05 01:16:16.787 Info DynamicHlsService-0HNP2JA11TA4I:00000001: ProcessRun 'StreamTranscode 7342ba' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 01:16:26.740 Warn DynamicHlsService-0HNP2JA11TA4K:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-05 01:16:26.740 Info DynamicHlsService-0HNP2JA11TA4K:00000001: ProcessRun 'StreamTranscode dd8aa2' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 01:16:36.692 Warn DynamicHlsService-0HNP2JA11TA4M:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-05 01:16:36.693 Info DynamicHlsService-0HNP2JA11TA4M:00000001: ProcessRun 'StreamTranscode e5cad1' Process exited with code -1 - Failed",
+     "c": "err"
     }
    ]
   },
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] POST /rvd/launch",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -83,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T00:16:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T00:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T00:31:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T00:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T00:46:42-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T00:46:42-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:01:30-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:01:30-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:16:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
