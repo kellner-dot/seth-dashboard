@@ -1,11 +1,22 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5442,
- "series": 33,
- "episodes": 59,
+ "movies": 5443,
+ "series": 34,
+ "episodes": 60,
  "played": 14,
- "unwatched": 5428,
+ "unwatched": 5429,
  "new_arrivals": [
+  {
+   "name": "The Monkey",
+   "year": 2025,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
   {
    "name": "80s-commercials",
    "year": 1982,
@@ -79,16 +90,6 @@
    "runtime_min": 0,
    "progress_pct": 0,
    "type": "Movie"
-  },
-  {
-   "name": "Bringing Out the Dead",
-   "year": 1999,
-   "genres": [
-    "Drama"
-   ],
-   "runtime_min": 0,
-   "progress_pct": 0,
-   "type": "Movie"
   }
  ],
  "continue_watching": [
@@ -115,14 +116,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "Complexe",
-  "year": 1964,
+  "name": "The Hearts of Age",
+  "year": 1997,
   "genres": [
-   "Comedy"
+   "Horror"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Nobuhiko Obayashi's short experimental film shows off persistence in film editing in the early 60s."
+  "overview": "A shot-for-shot remake of Orson Welles first effort at cinema, filmed entirely on New Year's Eve 1996 in downtown Providence, Rhode Island."
  }
 }
