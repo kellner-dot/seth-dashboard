@@ -1,24 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T15:46:40+0000",
+ "generated_iso": "2026-10-05T16:16:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 11:43:26.285 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Monkey.mp4\" -threads 0 -v info -print_format jso",
+     "t": "2026-10-05 12:14:40.600 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\House of the Dead\\House.Of.The.Dead.2003.1080p.BluRa",
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:43:26.512 Error MediaProbeManager: ProcessRun 'ffprobe' Output:",
+     "t": "2026-10-05 12:15:00.196 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:43:26.512 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-05 12:15:00.196 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:43:26.512 Error App: Error in ffprobe",
+     "t": "2026-10-05 12:15:00.196 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -30,19 +30,19 @@
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:45:29.100 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The.Green.Knight.2021.1080p.WEBRip.x264.AAC-[YTS.MX]",
+     "t": "2026-10-05 12:16:00.910 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Hype\\Hype.1996.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4",
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:45:48.030 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-05 12:16:13.888 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:45:48.030 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-05 12:16:13.888 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:45:48.031 Error App: Error in ffprobe",
+     "t": "2026-10-05 12:16:13.888 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -83,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T10:31:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T10:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T11:01:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T11:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T12:01:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T12:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
