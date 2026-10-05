@@ -1,10 +1,10 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5443,
+ "movies": 5445,
  "series": 34,
  "episodes": 60,
  "played": 14,
- "unwatched": 5429,
+ "unwatched": 5431,
  "new_arrivals": [
   {
    "name": "The Monkey",
@@ -14,6 +14,14 @@
     "Comedy"
    ],
    "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
    "progress_pct": 0,
    "type": "Movie"
   },
@@ -79,17 +87,6 @@
    "runtime_min": 0,
    "progress_pct": 0,
    "type": "Movie"
-  },
-  {
-   "name": "The Invisible Man",
-   "year": 2020,
-   "genres": [
-    "Thriller",
-    "Science Fiction"
-   ],
-   "runtime_min": 0,
-   "progress_pct": 0,
-   "type": "Movie"
   }
  ],
  "continue_watching": [
@@ -116,14 +113,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "Positive",
-  "year": 1990,
+  "name": "The Crown Jewels of Iran",
+  "year": 1965,
   "genres": [
    "Documentary"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "This film powerfully documents New York City's gay community's response to the AIDS crisis as they are forced to organize themselves after the government's failure to stem the epidemic. Activists who are interviewed incl"
+  "overview": "The Crown Jewels of Iran is a 1965 film commissioned and then banned by the Shah\u2019s cultural ministry, featuring dazzling edits and camera movements and a charged narration assaulting economic disparities."
  }
 }
