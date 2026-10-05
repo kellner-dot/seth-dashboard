@@ -13,253 +13,328 @@
     <icon src="https://drive.google.com/uc?export=download&amp;id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U"/>
   </channel>
   <programme start="20261005000000 +0000" stop="20261005013000 +0000" channel="kavitv.horror">
-    <title>Antiviral</title>
-    <date>2012</date>
-    <desc>Antiviral (2012)</desc>
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969).</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261005013000 +0000" stop="20261005030000 +0000" channel="kavitv.horror">
-    <title>Antlers</title>
-    <date>2021</date>
-    <desc>Antlers (2021)</desc>
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975).</desc>
+    <category>Horror</category>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261005030000 +0000" stop="20261005043000 +0000" channel="kavitv.horror">
     <title>The Act of Seeing with One's Own Eyes</title>
     <date>1971</date>
-    <desc>The Act of Seeing with One's Own Eyes (1971)</desc>
+    <desc>Stan Brakhage's autopsy film.</desc>
+    <category>Horror</category>
   </programme>
   <programme start="20261005043000 +0000" stop="20261005060000 +0000" channel="kavitv.horror">
     <title>Atman</title>
     <date>1975</date>
-    <desc>Atman (1975)</desc>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261005060000 +0000" stop="20261005073000 +0000" channel="kavitv.horror">
-    <title>Annihilation</title>
-    <date>2018</date>
-    <desc>Annihilation (2018)</desc>
+  <programme start="20261005060000 +0000" stop="20261005062021 +0000" channel="kavitv.horror">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Mike Kelley - Blind Country (1989).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261005073000 +0000" stop="20261005090000 +0000" channel="kavitv.horror">
+  <programme start="20261005062021 +0000" stop="20261005075021 +0000" channel="kavitv.horror">
     <title>Black Hearts Bleed Red</title>
     <date>1992</date>
-    <desc>Black Hearts Bleed Red (1992)</desc>
+    <desc>Black Hearts Bleed Red (1992).</desc>
+    <category>Horror</category>
   </programme>
-  <programme start="20261005090000 +0000" stop="20261005103000 +0000" channel="kavitv.horror">
-    <title>As Above, So Below</title>
-    <date>2014</date>
-    <desc>As Above, So Below (2014)</desc>
+  <programme start="20261005075021 +0000" stop="20261005092021 +0000" channel="kavitv.horror">
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249058/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005103000 +0000" stop="20261005120000 +0000" channel="kavitv.horror">
+  <programme start="20261005092021 +0000" stop="20261005105021 +0000" channel="kavitv.horror">
     <title>Antithese</title>
     <date>2017</date>
-    <desc>Antithese (2017)</desc>
+    <desc>Antithese (2017).</desc>
+    <category>Horror</category>
   </programme>
-  <programme start="20261005120000 +0000" stop="20261005133000 +0000" channel="kavitv.horror">
-    <title>Bad Taste</title>
-    <date>1987</date>
-    <desc>Bad Taste (1987)</desc>
-  </programme>
-  <programme start="20261005133000 +0000" stop="20261005150000 +0000" channel="kavitv.horror">
-    <title>Basket Case</title>
-    <date>1982</date>
-    <desc>Basket Case (1982)</desc>
-  </programme>
-  <programme start="20261005150000 +0000" stop="20261005163000 +0000" channel="kavitv.horror">
-    <title>Autumnal Equinox</title>
-    <date>1974</date>
-    <desc>Autumnal Equinox (1974)</desc>
-  </programme>
-  <programme start="20261005163000 +0000" stop="20261005180000 +0000" channel="kavitv.horror">
-    <title>Begotten</title>
-    <date>1991</date>
-    <desc>Begotten (1991)</desc>
-  </programme>
-  <programme start="20261005180000 +0000" stop="20261005193000 +0000" channel="kavitv.horror">
+  <programme start="20261005105021 +0000" stop="20261005122021 +0000" channel="kavitv.horror">
     <title>Apparatus Sum</title>
     <date>1972</date>
-    <desc>Apparatus Sum (1972)</desc>
+    <desc>Hollis Frampton (1972). Duplicate for scheduling variety.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261005193000 +0000" stop="20261005210000 +0000" channel="kavitv.horror">
+  <programme start="20261005122021 +0000" stop="20261005135021 +0000" channel="kavitv.horror">
+    <title>Burning</title>
+    <date>1999</date>
+    <desc>People Like Us - Burning (1999).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248883/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005135021 +0000" stop="20261005152021 +0000" channel="kavitv.horror">
+    <title>Autumnal Equinox</title>
+    <date>1974</date>
+    <desc>Hollis Frampton's Autumnal Equinox (1974).</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261005152021 +0000" stop="20261005165021 +0000" channel="kavitv.horror">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248643/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005165021 +0000" stop="20261005182021 +0000" channel="kavitv.horror">
+    <title>Apparatus Sum</title>
+    <date>1972</date>
+    <desc>Hollis Frampton's Apparatus Sum (1972).</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261005182021 +0000" stop="20261005195021 +0000" channel="kavitv.horror">
     <title>10/65: Self-Mutilation</title>
     <date>1965</date>
-    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <desc>Kurt Kren's 10/65 Selfmutilation.</desc>
     <category>Drama</category>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005210000 +0000" stop="20261005223000 +0000" channel="kavitv.horror">
-    <title>Antiviral</title>
-    <date>2012</date>
-    <desc>Antiviral (2012)</desc>
+  <programme start="20261005195021 +0000" stop="20261005212021 +0000" channel="kavitv.horror">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969).</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005223000 +0000" stop="20261006000000 +0000" channel="kavitv.horror">
-    <title>Antlers</title>
-    <date>2021</date>
-    <desc>Antlers (2021)</desc>
+  <programme start="20261005212021 +0000" stop="20261006000000 +0000" channel="kavitv.horror">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975).</desc>
+    <category>Horror</category>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261006000000 +0000" stop="20261006013000 +0000" channel="kavitv.horror">
     <title>Atman</title>
     <date>1975</date>
-    <desc>Atman (1975)</desc>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006013000 +0000" stop="20261006030000 +0000" channel="kavitv.horror">
-    <title>Annihilation</title>
-    <date>2018</date>
-    <desc>Annihilation (2018)</desc>
+  <programme start="20261006013000 +0000" stop="20261006015021 +0000" channel="kavitv.horror">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Mike Kelley - Blind Country (1989).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006030000 +0000" stop="20261006043000 +0000" channel="kavitv.horror">
-    <title>Begotten</title>
-    <date>1991</date>
-    <desc>Begotten (1991)</desc>
+  <programme start="20261006015021 +0000" stop="20261006032021 +0000" channel="kavitv.horror">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248643/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006043000 +0000" stop="20261006060000 +0000" channel="kavitv.horror">
+  <programme start="20261006032021 +0000" stop="20261006045021 +0000" channel="kavitv.horror">
     <title>Apparatus Sum</title>
     <date>1972</date>
-    <desc>Apparatus Sum (1972)</desc>
+    <desc>Hollis Frampton's Apparatus Sum (1972).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006060000 +0000" stop="20261006073000 +0000" channel="kavitv.horror">
-    <title>Antlers</title>
-    <date>2021</date>
-    <desc>Antlers (2021)</desc>
+  <programme start="20261006045021 +0000" stop="20261006062021 +0000" channel="kavitv.horror">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975).</desc>
+    <category>Horror</category>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006073000 +0000" stop="20261006090000 +0000" channel="kavitv.horror">
+  <programme start="20261006062021 +0000" stop="20261006075021 +0000" channel="kavitv.horror">
     <title>Antithese</title>
     <date>2017</date>
-    <desc>Antithese (2017)</desc>
+    <desc>Antithese (2017).</desc>
+    <category>Horror</category>
   </programme>
-  <programme start="20261006090000 +0000" stop="20261006103000 +0000" channel="kavitv.horror">
-    <title>Bad Taste</title>
-    <date>1987</date>
-    <desc>Bad Taste (1987)</desc>
+  <programme start="20261006075021 +0000" stop="20261006092021 +0000" channel="kavitv.horror">
+    <title>Apparatus Sum</title>
+    <date>1972</date>
+    <desc>Hollis Frampton (1972). Duplicate for scheduling variety.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006103000 +0000" stop="20261006120000 +0000" channel="kavitv.horror">
-    <title>As Above, So Below</title>
-    <date>2014</date>
-    <desc>As Above, So Below (2014)</desc>
+  <programme start="20261006092021 +0000" stop="20261006105021 +0000" channel="kavitv.horror">
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249058/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006120000 +0000" stop="20261006133000 +0000" channel="kavitv.horror">
-    <title>Basket Case</title>
-    <date>1982</date>
-    <desc>Basket Case (1982)</desc>
+  <programme start="20261006105021 +0000" stop="20261006122021 +0000" channel="kavitv.horror">
+    <title>Burning</title>
+    <date>1999</date>
+    <desc>People Like Us - Burning (1999).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248883/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006133000 +0000" stop="20261006150000 +0000" channel="kavitv.horror">
+  <programme start="20261006122021 +0000" stop="20261006135021 +0000" channel="kavitv.horror">
     <title>Autumnal Equinox</title>
     <date>1974</date>
-    <desc>Autumnal Equinox (1974)</desc>
+    <desc>Hollis Frampton's Autumnal Equinox (1974).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006150000 +0000" stop="20261006163000 +0000" channel="kavitv.horror">
+  <programme start="20261006135021 +0000" stop="20261006152021 +0000" channel="kavitv.horror">
     <title>10/65: Self-Mutilation</title>
     <date>1965</date>
-    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <desc>Kurt Kren's 10/65 Selfmutilation.</desc>
     <category>Drama</category>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006163000 +0000" stop="20261006180000 +0000" channel="kavitv.horror">
+  <programme start="20261006152021 +0000" stop="20261006165021 +0000" channel="kavitv.horror">
     <title>Black Hearts Bleed Red</title>
     <date>1992</date>
-    <desc>Black Hearts Bleed Red (1992)</desc>
+    <desc>Black Hearts Bleed Red (1992).</desc>
+    <category>Horror</category>
   </programme>
-  <programme start="20261006180000 +0000" stop="20261006193000 +0000" channel="kavitv.horror">
+  <programme start="20261006165021 +0000" stop="20261006182021 +0000" channel="kavitv.horror">
     <title>The Act of Seeing with One's Own Eyes</title>
     <date>1971</date>
-    <desc>The Act of Seeing with One's Own Eyes (1971)</desc>
+    <desc>Stan Brakhage's autopsy film.</desc>
+    <category>Horror</category>
   </programme>
-  <programme start="20261006193000 +0000" stop="20261006210000 +0000" channel="kavitv.horror">
-    <title>Antiviral</title>
-    <date>2012</date>
-    <desc>Antiviral (2012)</desc>
+  <programme start="20261006182021 +0000" stop="20261006195021 +0000" channel="kavitv.horror">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969).</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006210000 +0000" stop="20261006223000 +0000" channel="kavitv.horror">
+  <programme start="20261006195021 +0000" stop="20261006212021 +0000" channel="kavitv.horror">
     <title>Atman</title>
     <date>1975</date>
-    <desc>Atman (1975)</desc>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006223000 +0000" stop="20261007000000 +0000" channel="kavitv.horror">
-    <title>Annihilation</title>
-    <date>2018</date>
-    <desc>Annihilation (2018)</desc>
+  <programme start="20261006212021 +0000" stop="20261006214042 +0000" channel="kavitv.horror">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Mike Kelley - Blind Country (1989).</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261006214042 +0000" stop="20261007000000 +0000" channel="kavitv.horror">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248643/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261007000000 +0000" stop="20261007013000 +0000" channel="kavitv.horror">
-    <title>Basket Case</title>
-    <date>1982</date>
-    <desc>Basket Case (1982)</desc>
+    <title>Burning</title>
+    <date>1999</date>
+    <desc>People Like Us - Burning (1999).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248883/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261007013000 +0000" stop="20261007030000 +0000" channel="kavitv.horror">
-    <title>As Above, So Below</title>
-    <date>2014</date>
-    <desc>As Above, So Below (2014)</desc>
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249058/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261007030000 +0000" stop="20261007043000 +0000" channel="kavitv.horror">
     <title>The Act of Seeing with One's Own Eyes</title>
     <date>1971</date>
-    <desc>The Act of Seeing with One's Own Eyes (1971)</desc>
+    <desc>Stan Brakhage's autopsy film.</desc>
+    <category>Horror</category>
   </programme>
   <programme start="20261007043000 +0000" stop="20261007060000 +0000" channel="kavitv.horror">
     <title>Autumnal Equinox</title>
     <date>1974</date>
-    <desc>Autumnal Equinox (1974)</desc>
+    <desc>Hollis Frampton's Autumnal Equinox (1974).</desc>
+    <category>Experimental</category>
   </programme>
   <programme start="20261007060000 +0000" stop="20261007073000 +0000" channel="kavitv.horror">
     <title>Atman</title>
     <date>1975</date>
-    <desc>Atman (1975)</desc>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
   <programme start="20261007073000 +0000" stop="20261007090000 +0000" channel="kavitv.horror">
     <title>Black Hearts Bleed Red</title>
     <date>1992</date>
-    <desc>Black Hearts Bleed Red (1992)</desc>
+    <desc>Black Hearts Bleed Red (1992).</desc>
+    <category>Horror</category>
   </programme>
   <programme start="20261007090000 +0000" stop="20261007103000 +0000" channel="kavitv.horror">
     <title>10/65: Self-Mutilation</title>
     <date>1965</date>
-    <desc>Kren’s 10/65 Selfmutilation is developed from a Gunter Brus “action”. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus’ action, pacing out each gesture so that on</desc>
+    <desc>Kurt Kren's 10/65 Selfmutilation.</desc>
     <category>Drama</category>
     <category>Horror</category>
     <icon src="http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261007103000 +0000" stop="20261007120000 +0000" channel="kavitv.horror">
-    <title>Antiviral</title>
-    <date>2012</date>
-    <desc>Antiviral (2012)</desc>
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969).</desc>
+    <category>Horror</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007120000 +0000" stop="20261007133000 +0000" channel="kavitv.horror">
-    <title>Annihilation</title>
-    <date>2018</date>
-    <desc>Annihilation (2018)</desc>
+  <programme start="20261007120000 +0000" stop="20261007122021 +0000" channel="kavitv.horror">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Mike Kelley - Blind Country (1989).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007133000 +0000" stop="20261007150000 +0000" channel="kavitv.horror">
+  <programme start="20261007122021 +0000" stop="20261007135021 +0000" channel="kavitv.horror">
     <title>Apparatus Sum</title>
     <date>1972</date>
-    <desc>Apparatus Sum (1972)</desc>
+    <desc>Hollis Frampton's Apparatus Sum (1972).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007150000 +0000" stop="20261007163000 +0000" channel="kavitv.horror">
-    <title>Antlers</title>
-    <date>2021</date>
-    <desc>Antlers (2021)</desc>
+  <programme start="20261007135021 +0000" stop="20261007152021 +0000" channel="kavitv.horror">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975).</desc>
+    <category>Horror</category>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007163000 +0000" stop="20261007180000 +0000" channel="kavitv.horror">
+  <programme start="20261007152021 +0000" stop="20261007165021 +0000" channel="kavitv.horror">
     <title>Antithese</title>
     <date>2017</date>
-    <desc>Antithese (2017)</desc>
+    <desc>Antithese (2017).</desc>
+    <category>Horror</category>
   </programme>
-  <programme start="20261007180000 +0000" stop="20261007193000 +0000" channel="kavitv.horror">
-    <title>Bad Taste</title>
-    <date>1987</date>
-    <desc>Bad Taste (1987)</desc>
+  <programme start="20261007165021 +0000" stop="20261007182021 +0000" channel="kavitv.horror">
+    <title>Apparatus Sum</title>
+    <date>1972</date>
+    <desc>Hollis Frampton (1972). Duplicate for scheduling variety.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007193000 +0000" stop="20261007210000 +0000" channel="kavitv.horror">
-    <title>Begotten</title>
-    <date>1991</date>
-    <desc>Begotten (1991)</desc>
+  <programme start="20261007182021 +0000" stop="20261007195021 +0000" channel="kavitv.horror">
+    <title>Jackie</title>
+    <date>2007</date>
+    <desc>Lorna Simpson's Jackie (2007).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248643/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007210000 +0000" stop="20261007223000 +0000" channel="kavitv.horror">
-    <title>Basket Case</title>
-    <date>1982</date>
-    <desc>Basket Case (1982)</desc>
+  <programme start="20261007195021 +0000" stop="20261007212021 +0000" channel="kavitv.horror">
+    <title>Burning</title>
+    <date>1999</date>
+    <desc>People Like Us - Burning (1999).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/248883/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007223000 +0000" stop="20261008000000 +0000" channel="kavitv.horror">
-    <title>As Above, So Below</title>
-    <date>2014</date>
-    <desc>As Above, So Below (2014)</desc>
+  <programme start="20261007212021 +0000" stop="20261008000000 +0000" channel="kavitv.horror">
+    <title>Walk With Me</title>
+    <date>1998</date>
+    <desc>Rosemary Trockel's Walk With Me (1998).</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249058/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261005000000 +0000" stop="20261005013000 +0000" channel="kavitv.experimental">
     <title>Jackie</title>
