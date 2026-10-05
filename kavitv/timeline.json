@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T04:56:36.041492+00:00",
+ "generated_at": "2026-10-05T04:57:55.065582+00:00",
  "window_days": 3,
  "channels": {
   "kavitv.horror": {
@@ -7,6 +7,19 @@
     {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-05T01:30:00+00:00",
+     "end": "2026-10-05T03:00:00+00:00",
      "emby_id": "249231",
      "kind": "movie",
      "title": "Phantom",
@@ -19,30 +32,17 @@
      "overview": "Toshio Matsumoto's Phantom (1975)."
     },
     {
-     "start": "2026-10-05T01:30:00+00:00",
-     "end": "2026-10-05T03:00:00+00:00",
-     "emby_id": "216369",
-     "kind": "movie",
-     "title": "Antithese",
-     "year": 2017,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "Antithese (2017)."
-    },
-    {
      "start": "2026-10-05T03:00:00+00:00",
      "end": "2026-10-05T04:30:00+00:00",
-     "emby_id": "217333",
+     "emby_id": "217211",
      "kind": "movie",
-     "title": "Black Hearts Bleed Red",
-     "year": 1992,
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
      "duration_s": 5400,
      "genres": [
       "Horror"
      ],
-     "overview": "Black Hearts Bleed Red (1992)."
+     "overview": "Stan Brakhage's autopsy film."
     },
     {
      "start": "2026-10-05T04:30:00+00:00",
@@ -73,32 +73,19 @@
     {
      "start": "2026-10-05T07:30:00+00:00",
      "end": "2026-10-05T09:00:00+00:00",
-     "emby_id": "249058",
+     "emby_id": "217333",
      "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998)."
-    },
-    {
-     "start": "2026-10-05T09:00:00+00:00",
-     "end": "2026-10-05T10:30:00+00:00",
-     "emby_id": "217211",
-     "kind": "movie",
-     "title": "The Act of Seeing with One's Own Eyes",
-     "year": 1971,
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
      "duration_s": 5400,
      "genres": [
       "Horror"
      ],
-     "overview": "Stan Brakhage's autopsy film."
+     "overview": "Black Hearts Bleed Red (1992)."
     },
     {
-     "start": "2026-10-05T10:30:00+00:00",
-     "end": "2026-10-05T12:00:00+00:00",
+     "start": "2026-10-05T09:00:00+00:00",
+     "end": "2026-10-05T10:30:00+00:00",
      "emby_id": "215528",
      "kind": "movie",
      "title": "Apparatus Sum",
@@ -110,8 +97,34 @@
      "overview": "Hollis Frampton (1972). Duplicate for scheduling variety."
     },
     {
+     "start": "2026-10-05T10:30:00+00:00",
+     "end": "2026-10-05T12:00:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
+    },
+    {
      "start": "2026-10-05T12:00:00+00:00",
      "end": "2026-10-05T13:30:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-05T13:30:00+00:00",
+     "end": "2026-10-05T15:00:00+00:00",
      "emby_id": "248643",
      "kind": "movie",
      "title": "Jackie",
@@ -123,8 +136,8 @@
      "overview": "Lorna Simpson's Jackie (2007)."
     },
     {
-     "start": "2026-10-05T13:30:00+00:00",
-     "end": "2026-10-05T15:00:00+00:00",
+     "start": "2026-10-05T15:00:00+00:00",
+     "end": "2026-10-05T16:30:00+00:00",
      "emby_id": "215530",
      "kind": "movie",
      "title": "Autumnal Equinox",
@@ -136,8 +149,8 @@
      "overview": "Hollis Frampton's Autumnal Equinox (1974)."
     },
     {
-     "start": "2026-10-05T15:00:00+00:00",
-     "end": "2026-10-05T15:20:21+00:00",
+     "start": "2026-10-05T16:30:00+00:00",
+     "end": "2026-10-05T16:50:21+00:00",
      "emby_id": "248769",
      "kind": "movie",
      "title": "Blind Country",
@@ -149,8 +162,8 @@
      "overview": "Mike Kelley - Blind Country (1989)."
     },
     {
-     "start": "2026-10-05T15:20:21+00:00",
-     "end": "2026-10-05T16:50:21+00:00",
+     "start": "2026-10-05T16:50:21+00:00",
+     "end": "2026-10-05T18:20:21+00:00",
      "emby_id": "215528",
      "kind": "movie",
      "title": "Apparatus Sum",
@@ -162,8 +175,8 @@
      "overview": "Hollis Frampton's Apparatus Sum (1972)."
     },
     {
-     "start": "2026-10-05T16:50:21+00:00",
-     "end": "2026-10-05T18:20:21+00:00",
+     "start": "2026-10-05T18:20:21+00:00",
+     "end": "2026-10-05T19:50:21+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -176,44 +189,31 @@
      "overview": "Kurt Kren's 10/65 Selfmutilation."
     },
     {
-     "start": "2026-10-05T18:20:21+00:00",
-     "end": "2026-10-05T19:50:21+00:00",
+     "start": "2026-10-05T19:50:21+00:00",
+     "end": "2026-10-05T21:20:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-05T21:20:21+00:00",
+     "end": "2026-10-06T00:00:00+00:00",
      "emby_id": "249231",
      "kind": "movie",
      "title": "Phantom",
      "year": 1975,
-     "duration_s": 5400,
+     "duration_s": 9579,
      "genres": [
       "Horror",
       "Experimental"
      ],
      "overview": "Toshio Matsumoto's Phantom (1975)."
-    },
-    {
-     "start": "2026-10-05T19:50:21+00:00",
-     "end": "2026-10-05T21:20:21+00:00",
-     "emby_id": "216369",
-     "kind": "movie",
-     "title": "Antithese",
-     "year": 2017,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "Antithese (2017)."
-    },
-    {
-     "start": "2026-10-05T21:20:21+00:00",
-     "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "217333",
-     "kind": "movie",
-     "title": "Black Hearts Bleed Red",
-     "year": 1992,
-     "duration_s": 9579,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "Black Hearts Bleed Red (1992)."
     },
     {
      "start": "2026-10-06T00:00:00+00:00",
@@ -230,7 +230,20 @@
     },
     {
      "start": "2026-10-06T01:30:00+00:00",
-     "end": "2026-10-06T01:50:21+00:00",
+     "end": "2026-10-06T03:00:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
+    },
+    {
+     "start": "2026-10-06T03:00:00+00:00",
+     "end": "2026-10-06T03:20:21+00:00",
      "emby_id": "248769",
      "kind": "movie",
      "title": "Blind Country",
@@ -240,19 +253,6 @@
       "Experimental"
      ],
      "overview": "Mike Kelley - Blind Country (1989)."
-    },
-    {
-     "start": "2026-10-06T01:50:21+00:00",
-     "end": "2026-10-06T03:20:21+00:00",
-     "emby_id": "248643",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007)."
     },
     {
      "start": "2026-10-06T03:20:21+00:00",
@@ -297,15 +297,15 @@
     {
      "start": "2026-10-06T07:50:21+00:00",
      "end": "2026-10-06T09:20:21+00:00",
-     "emby_id": "216571",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
-      "Horror"
+      "Experimental"
      ],
-     "overview": "Otto Muehl's Stille Nacht (1969)."
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
     },
     {
      "start": "2026-10-06T09:20:21+00:00",
@@ -323,6 +323,19 @@
     {
      "start": "2026-10-06T10:50:21+00:00",
      "end": "2026-10-06T12:20:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
+    },
+    {
+     "start": "2026-10-06T12:20:21+00:00",
+     "end": "2026-10-06T13:50:21+00:00",
      "emby_id": "215530",
      "kind": "movie",
      "title": "Autumnal Equinox",
@@ -334,8 +347,8 @@
      "overview": "Hollis Frampton's Autumnal Equinox (1974)."
     },
     {
-     "start": "2026-10-06T12:20:21+00:00",
-     "end": "2026-10-06T13:50:21+00:00",
+     "start": "2026-10-06T13:50:21+00:00",
+     "end": "2026-10-06T15:20:21+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -348,8 +361,8 @@
      "overview": "Kurt Kren's 10/65 Selfmutilation."
     },
     {
-     "start": "2026-10-06T13:50:21+00:00",
-     "end": "2026-10-06T15:20:21+00:00",
+     "start": "2026-10-06T15:20:21+00:00",
+     "end": "2026-10-06T16:50:21+00:00",
      "emby_id": "217333",
      "kind": "movie",
      "title": "Black Hearts Bleed Red",
@@ -361,8 +374,8 @@
      "overview": "Black Hearts Bleed Red (1992)."
     },
     {
-     "start": "2026-10-06T15:20:21+00:00",
-     "end": "2026-10-06T16:50:21+00:00",
+     "start": "2026-10-06T16:50:21+00:00",
+     "end": "2026-10-06T18:20:21+00:00",
      "emby_id": "217211",
      "kind": "movie",
      "title": "The Act of Seeing with One's Own Eyes",
@@ -374,8 +387,8 @@
      "overview": "Stan Brakhage's autopsy film."
     },
     {
-     "start": "2026-10-06T16:50:21+00:00",
-     "end": "2026-10-06T18:20:21+00:00",
+     "start": "2026-10-06T18:20:21+00:00",
+     "end": "2026-10-06T19:50:21+00:00",
      "emby_id": "249058",
      "kind": "movie",
      "title": "Walk With Me",
@@ -387,8 +400,8 @@
      "overview": "Rosemary Trockel's Walk With Me (1998)."
     },
     {
-     "start": "2026-10-06T18:20:21+00:00",
-     "end": "2026-10-06T19:50:21+00:00",
+     "start": "2026-10-06T19:50:21+00:00",
+     "end": "2026-10-06T21:20:21+00:00",
      "emby_id": "217395",
      "kind": "movie",
      "title": "Atman",
@@ -400,47 +413,8 @@
      "overview": "Toshio Matsumoto's Atman (1975)."
     },
     {
-     "start": "2026-10-06T19:50:21+00:00",
-     "end": "2026-10-06T20:10:42+00:00",
-     "emby_id": "248769",
-     "kind": "movie",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Mike Kelley - Blind Country (1989)."
-    },
-    {
-     "start": "2026-10-06T20:10:42+00:00",
-     "end": "2026-10-06T21:40:42+00:00",
-     "emby_id": "248643",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007)."
-    },
-    {
-     "start": "2026-10-06T21:40:42+00:00",
-     "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "215528",
-     "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
-     "duration_s": 8358,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Hollis Frampton's Apparatus Sum (1972)."
-    },
-    {
-     "start": "2026-10-07T00:00:00+00:00",
-     "end": "2026-10-07T01:30:00+00:00",
+     "start": "2026-10-06T21:20:21+00:00",
+     "end": "2026-10-06T22:50:21+00:00",
      "emby_id": "216571",
      "kind": "movie",
      "title": "Stille Nacht",
@@ -452,8 +426,21 @@
      "overview": "Otto Muehl's Stille Nacht (1969)."
     },
     {
-     "start": "2026-10-07T01:30:00+00:00",
-     "end": "2026-10-07T03:00:00+00:00",
+     "start": "2026-10-06T22:50:21+00:00",
+     "end": "2026-10-07T00:00:00+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 4179,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
+    },
+    {
+     "start": "2026-10-07T00:00:00+00:00",
+     "end": "2026-10-07T01:30:00+00:00",
      "emby_id": "248643",
      "kind": "movie",
      "title": "Jackie",
@@ -465,34 +452,34 @@
      "overview": "Lorna Simpson's Jackie (2007)."
     },
     {
-     "start": "2026-10-07T03:00:00+00:00",
-     "end": "2026-10-07T04:30:00+00:00",
-     "emby_id": "217333",
+     "start": "2026-10-07T01:30:00+00:00",
+     "end": "2026-10-07T03:00:00+00:00",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Black Hearts Bleed Red",
-     "year": 1992,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "Black Hearts Bleed Red (1992)."
-    },
-    {
-     "start": "2026-10-07T04:30:00+00:00",
-     "end": "2026-10-07T06:00:00+00:00",
-     "emby_id": "217395",
-     "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
+     "title": "Apparatus Sum",
+     "year": 1972,
      "duration_s": 5400,
      "genres": [
       "Experimental"
      ],
-     "overview": "Toshio Matsumoto's Atman (1975)."
+     "overview": "Hollis Frampton (1972). Duplicate for scheduling variety."
     },
     {
-     "start": "2026-10-07T06:00:00+00:00",
-     "end": "2026-10-07T07:30:00+00:00",
+     "start": "2026-10-07T03:00:00+00:00",
+     "end": "2026-10-07T04:30:00+00:00",
+     "emby_id": "217211",
+     "kind": "movie",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
+    },
+    {
+     "start": "2026-10-07T04:30:00+00:00",
+     "end": "2026-10-07T06:00:00+00:00",
      "emby_id": "215530",
      "kind": "movie",
      "title": "Autumnal Equinox",
@@ -504,8 +491,34 @@
      "overview": "Hollis Frampton's Autumnal Equinox (1974)."
     },
     {
+     "start": "2026-10-07T06:00:00+00:00",
+     "end": "2026-10-07T07:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
      "start": "2026-10-07T07:30:00+00:00",
      "end": "2026-10-07T09:00:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
+    },
+    {
+     "start": "2026-10-07T09:00:00+00:00",
+     "end": "2026-10-07T10:30:00+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -516,19 +529,6 @@
       "Horror"
      ],
      "overview": "Kurt Kren's 10/65 Selfmutilation."
-    },
-    {
-     "start": "2026-10-07T09:00:00+00:00",
-     "end": "2026-10-07T10:30:00+00:00",
-     "emby_id": "217211",
-     "kind": "movie",
-     "title": "The Act of Seeing with One's Own Eyes",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "Stan Brakhage's autopsy film."
     },
     {
      "start": "2026-10-07T10:30:00+00:00",
@@ -546,6 +546,19 @@
     {
      "start": "2026-10-07T12:00:00+00:00",
      "end": "2026-10-07T13:30:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
+    },
+    {
+     "start": "2026-10-07T13:30:00+00:00",
+     "end": "2026-10-07T15:00:00+00:00",
      "emby_id": "215528",
      "kind": "movie",
      "title": "Apparatus Sum",
@@ -557,8 +570,8 @@
      "overview": "Hollis Frampton's Apparatus Sum (1972)."
     },
     {
-     "start": "2026-10-07T13:30:00+00:00",
-     "end": "2026-10-07T15:00:00+00:00",
+     "start": "2026-10-07T15:00:00+00:00",
+     "end": "2026-10-07T16:30:00+00:00",
      "emby_id": "249231",
      "kind": "movie",
      "title": "Phantom",
@@ -571,8 +584,8 @@
      "overview": "Toshio Matsumoto's Phantom (1975)."
     },
     {
-     "start": "2026-10-07T15:00:00+00:00",
-     "end": "2026-10-07T16:30:00+00:00",
+     "start": "2026-10-07T16:30:00+00:00",
+     "end": "2026-10-07T18:00:00+00:00",
      "emby_id": "216369",
      "kind": "movie",
      "title": "Antithese",
@@ -584,21 +597,21 @@
      "overview": "Antithese (2017)."
     },
     {
-     "start": "2026-10-07T16:30:00+00:00",
-     "end": "2026-10-07T18:00:00+00:00",
-     "emby_id": "215528",
+     "start": "2026-10-07T18:00:00+00:00",
+     "end": "2026-10-07T19:30:00+00:00",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
       "Experimental"
      ],
-     "overview": "Hollis Frampton (1972). Duplicate for scheduling variety."
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
     },
     {
-     "start": "2026-10-07T18:00:00+00:00",
-     "end": "2026-10-07T18:20:21+00:00",
+     "start": "2026-10-07T19:30:00+00:00",
+     "end": "2026-10-07T19:50:21+00:00",
      "emby_id": "248769",
      "kind": "movie",
      "title": "Blind Country",
@@ -608,19 +621,6 @@
       "Experimental"
      ],
      "overview": "Mike Kelley - Blind Country (1989)."
-    },
-    {
-     "start": "2026-10-07T18:20:21+00:00",
-     "end": "2026-10-07T19:50:21+00:00",
-     "emby_id": "216571",
-     "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "Otto Muehl's Stille Nacht (1969)."
     },
     {
      "start": "2026-10-07T19:50:21+00:00",
@@ -638,15 +638,15 @@
     {
      "start": "2026-10-07T21:20:21+00:00",
      "end": "2026-10-08T00:00:00+00:00",
-     "emby_id": "217333",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Black Hearts Bleed Red",
-     "year": 1992,
+     "title": "Apparatus Sum",
+     "year": 1972,
      "duration_s": 9579,
      "genres": [
-      "Horror"
+      "Experimental"
      ],
-     "overview": "Black Hearts Bleed Red (1992)."
+     "overview": "Hollis Frampton (1972). Duplicate for scheduling variety."
     }
    ]
   },
@@ -758,7 +758,20 @@
     },
     {
      "start": "2026-10-05T10:50:21+00:00",
-     "end": "2026-10-05T11:10:42+00:00",
+     "end": "2026-10-05T12:20:21+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-05T12:20:21+00:00",
+     "end": "2026-10-05T12:40:42+00:00",
      "emby_id": "248769",
      "kind": "movie",
      "title": "Blind Country",
@@ -770,8 +783,8 @@
      "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
     },
     {
-     "start": "2026-10-05T11:10:42+00:00",
-     "end": "2026-10-05T12:40:42+00:00",
+     "start": "2026-10-05T12:40:42+00:00",
+     "end": "2026-10-05T14:10:42+00:00",
      "emby_id": "217395",
      "kind": "movie",
      "title": "Atman",
@@ -781,8 +794,8 @@
      "overview": "Atman (1975) directed by Toshio Matsumoto"
     },
     {
-     "start": "2026-10-05T12:40:42+00:00",
-     "end": "2026-10-05T14:10:42+00:00",
+     "start": "2026-10-05T14:10:42+00:00",
+     "end": "2026-10-05T15:40:42+00:00",
      "emby_id": "215528",
      "kind": "movie",
      "title": "Apparatus Sum",
@@ -792,8 +805,8 @@
      "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
     },
     {
-     "start": "2026-10-05T14:10:42+00:00",
-     "end": "2026-10-05T15:40:42+00:00",
+     "start": "2026-10-05T15:40:42+00:00",
+     "end": "2026-10-05T17:10:42+00:00",
      "emby_id": "248643",
      "kind": "movie",
      "title": "Jackie",
@@ -807,8 +820,8 @@
      "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
-     "start": "2026-10-05T15:40:42+00:00",
-     "end": "2026-10-05T17:10:42+00:00",
+     "start": "2026-10-05T17:10:42+00:00",
+     "end": "2026-10-05T18:40:42+00:00",
      "emby_id": "249231",
      "kind": "movie",
      "title": "Phantom",
@@ -822,8 +835,8 @@
      "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
     },
     {
-     "start": "2026-10-05T17:10:42+00:00",
-     "end": "2026-10-05T18:40:42+00:00",
+     "start": "2026-10-05T18:40:42+00:00",
+     "end": "2026-10-05T20:10:42+00:00",
      "emby_id": "215530",
      "kind": "movie",
      "title": "Autumnal Equinox",
@@ -833,8 +846,8 @@
      "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
     },
     {
-     "start": "2026-10-05T18:40:42+00:00",
-     "end": "2026-10-05T20:10:42+00:00",
+     "start": "2026-10-05T20:10:42+00:00",
+     "end": "2026-10-05T21:40:42+00:00",
      "emby_id": "249058",
      "kind": "movie",
      "title": "Walk With Me",
@@ -848,8 +861,21 @@
      "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
     },
     {
-     "start": "2026-10-05T20:10:42+00:00",
-     "end": "2026-10-05T21:40:42+00:00",
+     "start": "2026-10-05T21:40:42+00:00",
+     "end": "2026-10-06T00:00:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 8358,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-06T00:00:00+00:00",
+     "end": "2026-10-06T01:30:00+00:00",
      "emby_id": "216571",
      "kind": "movie",
      "title": "Stille Nacht",
@@ -859,41 +885,6 @@
       "Horror"
      ],
      "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
-    },
-    {
-     "start": "2026-10-05T21:40:42+00:00",
-     "end": "2026-10-05T22:01:03+00:00",
-     "emby_id": "248769",
-     "kind": "movie",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
-    },
-    {
-     "start": "2026-10-05T22:01:03+00:00",
-     "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "217395",
-     "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
-     "duration_s": 7137,
-     "genres": [],
-     "overview": "Atman (1975) directed by Toshio Matsumoto"
-    },
-    {
-     "start": "2026-10-06T00:00:00+00:00",
-     "end": "2026-10-06T01:30:00+00:00",
-     "emby_id": "215528",
-     "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
     },
     {
      "start": "2026-10-06T01:30:00+00:00",
@@ -912,7 +903,20 @@
     },
     {
      "start": "2026-10-06T03:00:00+00:00",
-     "end": "2026-10-06T04:30:00+00:00",
+     "end": "2026-10-06T03:20:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-06T03:20:21+00:00",
+     "end": "2026-10-06T04:50:21+00:00",
      "emby_id": "249231",
      "kind": "movie",
      "title": "Phantom",
@@ -926,97 +930,110 @@
      "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
     },
     {
-     "start": "2026-10-06T04:30:00+00:00",
-     "end": "2026-10-06T06:00:00+00:00",
-     "emby_id": "216571",
+     "start": "2026-10-06T04:50:21+00:00",
+     "end": "2026-10-06T06:20:21+00:00",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
+     "title": "Atman",
+     "year": 1975,
      "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
     },
     {
-     "start": "2026-10-06T06:00:00+00:00",
-     "end": "2026-10-06T07:30:00+00:00",
-     "emby_id": "249058",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
-    },
-    {
-     "start": "2026-10-06T07:30:00+00:00",
+     "start": "2026-10-06T06:20:21+00:00",
      "end": "2026-10-06T07:50:21+00:00",
-     "emby_id": "248769",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
     },
     {
      "start": "2026-10-06T07:50:21+00:00",
      "end": "2026-10-06T09:20:21+00:00",
-     "emby_id": "217395",
+     "emby_id": "249058",
      "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
+     "title": "Walk With Me",
+     "year": 1998,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975) directed by Toshio Matsumoto"
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
     },
     {
      "start": "2026-10-06T09:20:21+00:00",
      "end": "2026-10-06T10:50:21+00:00",
-     "emby_id": "215530",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Autumnal Equinox",
-     "year": 1974,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
     },
     {
      "start": "2026-10-06T10:50:21+00:00",
      "end": "2026-10-06T12:20:21+00:00",
-     "emby_id": "215528",
+     "emby_id": "215530",
      "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
+     "title": "Autumnal Equinox",
+     "year": 1974,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
     },
     {
      "start": "2026-10-06T12:20:21+00:00",
      "end": "2026-10-06T13:50:21+00:00",
-     "emby_id": "248643",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
      "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
+      "Horror"
      ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
     },
     {
      "start": "2026-10-06T13:50:21+00:00",
      "end": "2026-10-06T15:20:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+    },
+    {
+     "start": "2026-10-06T15:20:21+00:00",
+     "end": "2026-10-06T15:40:42+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-06T15:40:42+00:00",
+     "end": "2026-10-06T17:10:42+00:00",
      "emby_id": "249231",
      "kind": "movie",
      "title": "Phantom",
@@ -1030,171 +1047,30 @@
      "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
     },
     {
-     "start": "2026-10-06T15:20:21+00:00",
-     "end": "2026-10-06T16:50:21+00:00",
-     "emby_id": "216571",
-     "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
-    },
-    {
-     "start": "2026-10-06T16:50:21+00:00",
-     "end": "2026-10-06T18:20:21+00:00",
-     "emby_id": "249058",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
-    },
-    {
-     "start": "2026-10-06T18:20:21+00:00",
+     "start": "2026-10-06T17:10:42+00:00",
      "end": "2026-10-06T18:40:42+00:00",
-     "emby_id": "248769",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
     },
     {
      "start": "2026-10-06T18:40:42+00:00",
      "end": "2026-10-06T20:10:42+00:00",
-     "emby_id": "217395",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
+     "title": "Apparatus Sum",
+     "year": 1972,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Atman (1975) directed by Toshio Matsumoto"
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
     },
     {
      "start": "2026-10-06T20:10:42+00:00",
      "end": "2026-10-06T21:40:42+00:00",
-     "emby_id": "215530",
-     "kind": "movie",
-     "title": "Autumnal Equinox",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-06T21:40:42+00:00",
-     "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "215528",
-     "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
-     "duration_s": 8358,
-     "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-07T00:00:00+00:00",
-     "end": "2026-10-07T01:30:00+00:00",
-     "emby_id": "248643",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
-    },
-    {
-     "start": "2026-10-07T01:30:00+00:00",
-     "end": "2026-10-07T03:00:00+00:00",
-     "emby_id": "217395",
-     "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975) directed by Toshio Matsumoto"
-    },
-    {
-     "start": "2026-10-07T03:00:00+00:00",
-     "end": "2026-10-07T04:30:00+00:00",
-     "emby_id": "215528",
-     "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-07T04:30:00+00:00",
-     "end": "2026-10-07T06:00:00+00:00",
-     "emby_id": "216571",
-     "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
-    },
-    {
-     "start": "2026-10-07T06:00:00+00:00",
-     "end": "2026-10-07T06:20:21+00:00",
-     "emby_id": "248769",
-     "kind": "movie",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
-    },
-    {
-     "start": "2026-10-07T06:20:21+00:00",
-     "end": "2026-10-07T07:50:21+00:00",
-     "emby_id": "215530",
-     "kind": "movie",
-     "title": "Autumnal Equinox",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-07T07:50:21+00:00",
-     "end": "2026-10-07T09:20:21+00:00",
-     "emby_id": "249231",
-     "kind": "movie",
-     "title": "Phantom",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
-    },
-    {
-     "start": "2026-10-07T09:20:21+00:00",
-     "end": "2026-10-07T10:50:21+00:00",
      "emby_id": "249058",
      "kind": "movie",
      "title": "Walk With Me",
@@ -1208,8 +1084,36 @@
      "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
     },
     {
-     "start": "2026-10-07T10:50:21+00:00",
-     "end": "2026-10-07T12:20:21+00:00",
+     "start": "2026-10-06T21:40:42+00:00",
+     "end": "2026-10-07T00:00:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 8358,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-07T00:00:00+00:00",
+     "end": "2026-10-07T01:30:00+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-07T01:30:00+00:00",
+     "end": "2026-10-07T03:00:00+00:00",
      "emby_id": "248643",
      "kind": "movie",
      "title": "Jackie",
@@ -1223,8 +1127,32 @@
      "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
-     "start": "2026-10-07T12:20:21+00:00",
-     "end": "2026-10-07T13:50:21+00:00",
+     "start": "2026-10-07T03:00:00+00:00",
+     "end": "2026-10-07T04:30:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-07T04:30:00+00:00",
+     "end": "2026-10-07T06:00:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-07T06:00:00+00:00",
+     "end": "2026-10-07T07:30:00+00:00",
      "emby_id": "217395",
      "kind": "movie",
      "title": "Atman",
@@ -1234,15 +1162,86 @@
      "overview": "Atman (1975) directed by Toshio Matsumoto"
     },
     {
-     "start": "2026-10-07T13:50:21+00:00",
-     "end": "2026-10-07T15:20:21+00:00",
-     "emby_id": "215528",
+     "start": "2026-10-07T07:30:00+00:00",
+     "end": "2026-10-07T07:50:21+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-07T07:50:21+00:00",
+     "end": "2026-10-07T09:20:21+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-07T09:20:21+00:00",
+     "end": "2026-10-07T10:50:21+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-07T10:50:21+00:00",
+     "end": "2026-10-07T12:20:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-07T12:20:21+00:00",
+     "end": "2026-10-07T13:50:21+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-07T13:50:21+00:00",
+     "end": "2026-10-07T15:20:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
      "start": "2026-10-07T15:20:21+00:00",
@@ -1259,7 +1258,29 @@
     },
     {
      "start": "2026-10-07T16:50:21+00:00",
-     "end": "2026-10-07T17:10:42+00:00",
+     "end": "2026-10-07T18:20:21+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-07T18:20:21+00:00",
+     "end": "2026-10-07T19:50:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
+    },
+    {
+     "start": "2026-10-07T19:50:21+00:00",
+     "end": "2026-10-07T20:10:42+00:00",
      "emby_id": "248769",
      "kind": "movie",
      "title": "Blind Country",
@@ -1271,8 +1292,8 @@
      "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
     },
     {
-     "start": "2026-10-07T17:10:42+00:00",
-     "end": "2026-10-07T18:40:42+00:00",
+     "start": "2026-10-07T20:10:42+00:00",
+     "end": "2026-10-07T21:40:42+00:00",
      "emby_id": "215530",
      "kind": "movie",
      "title": "Autumnal Equinox",
@@ -1282,49 +1303,17 @@
      "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
     },
     {
-     "start": "2026-10-07T18:40:42+00:00",
-     "end": "2026-10-07T20:10:42+00:00",
-     "emby_id": "249231",
-     "kind": "movie",
-     "title": "Phantom",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
-    },
-    {
-     "start": "2026-10-07T20:10:42+00:00",
-     "end": "2026-10-07T21:40:42+00:00",
-     "emby_id": "249058",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
-    },
-    {
      "start": "2026-10-07T21:40:42+00:00",
      "end": "2026-10-08T00:00:00+00:00",
-     "emby_id": "248643",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 8358,
      "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
+      "Experimental"
      ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
     }
    ]
   },
