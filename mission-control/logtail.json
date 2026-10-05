@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T16:21:12+0000",
+ "generated_iso": "2026-10-05T16:46:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 12:19:22.177 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\John Carter\\John.Carter.2012.1080p.Bluray.x264.YIFY.",
+     "t": "2026-10-05 12:44:34.076 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 12:19:35.615 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-05 12:44:34.076 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-05 12:19:35.615 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 12:19:35.616 Error App: Error in ffprobe",
+     "t": "2026-10-05 12:44:34.076 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -30,19 +26,19 @@
      "c": "err"
     },
     {
-     "t": "2026-10-05 12:20:36.518 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Kpop Demon Hunters\\KPop.Demon.Hunters.2025.1080p.WEB",
+     "t": "2026-10-05 12:45:35.020 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Boxer's Omen\\The.Boxers.Omen.1983.1080p.BluRay.x",
      "c": "err"
     },
     {
-     "t": "2026-10-05 12:20:42.891 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-05 12:45:37.954 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 12:20:42.891 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "2026-10-05 12:45:37.954 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "2026-10-05 12:20:42.891 Error App: Error in ffprobe",
+     "t": "2026-10-05 12:45:37.955 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -51,6 +47,10 @@
     },
     {
      "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 12:46:38.567 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Cave\\The.Cave.2005.1080p.BluRay.x264-[YTS.AM].mp",
      "c": "err"
     }
    ]
@@ -83,10 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T11:01:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T11:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +100,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T12:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T12:31:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
