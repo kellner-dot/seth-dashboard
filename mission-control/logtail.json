@@ -1,36 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T10:16:39+0000",
+ "generated_iso": "2026-10-05T10:46:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tTargetSite: Void ThrowArgumentOutOfRangeException(System.IO.Pipelines.ExceptionArgument)",
+     "t": "2026-10-05 06:25:47.690 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Naked Lunch\\Naked.Lunch.1991.1080p.BluRay.x264-[YTS.",
      "c": "err"
     },
     {
-     "t": "2026-10-05 05:45:34.356 Error SharedHttpPipelineSource: Error copying live stream.",
+     "t": "2026-10-05 06:26:08.097 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "2026-10-05 06:26:08.098 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "\tSystem.ArgumentOutOfRangeException: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'bytes')",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.IO.Pipelines.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument)",
-     "c": "err"
-    },
-    {
-     "t": "\tTargetSite: Void ThrowArgumentOutOfRangeException(System.IO.Pipelines.ExceptionArgument)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 05:45:34.373 Error DynamicHlsService-0HNP2JA11TAI0:00000008: Error during AppendExtraLogData",
+     "t": "2026-10-05 06:26:08.100 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -38,11 +26,7 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.IOException: System.IO.IOException: There is not enough space on the disk. : 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\logs\\f",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 05:45:34.373 Info DynamicHlsService-0HNP2JA11TAI0:00000008: ProcessRun 'StreamTranscode bb80e3' Process exited with code 1 - Failed",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     }
    ]
@@ -51,39 +35,27 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[refresh.log] pulling movies from Movies ...",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] Everything up-to-date",
+     "t": "[refresh.log]   3: 191/191",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] [2026-10-04T10:45:07+00:00] waiting for Pages deploy...",
+     "t": "[refresh.log] pulling movies from UbuWeb ...",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] PARSE FAIL: Expecting value: line 1 column 1 (char 0)",
-     "c": "err"
-    },
-    {
-     "t": "[refresh.log] [2026-10-04T10:47:07+00:00] PC refresh failed (non-fatal)",
-     "c": "err"
-    },
-    {
-     "t": "[refresh.log] [2026-10-04T10:47:07+00:00] daily refresh done",
+     "t": "[refresh.log]   213455: 500/4625",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T05:46:41-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "t": "[refresh.log]   213455: 1000/4625",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T05:46:41-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T06:01:33-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "t": "[refresh.log]   213455: 1500/4625",
      "c": "ok"
     },
     {
@@ -96,6 +68,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T06:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05 06:30 EDT RELAY RESTORE: watchdog showed all 3 channels FAIL (Kavi 6.0 v2.1.0 stream endpoints wedged, /api/health false-OK). Restored prov",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T06:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T06:46:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
