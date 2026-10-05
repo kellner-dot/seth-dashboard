@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T10:46:42+0000",
+ "generated_iso": "2026-10-05T11:16:36+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -35,35 +35,27 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[refresh.log] pulling movies from Movies ...",
+     "t": "[supervision.lo] Secret Service running (fixed)",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]   3: 191/191",
+     "t": "[refresh.log] --- STDERR ---",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] pulling movies from UbuWeb ...",
+     "t": "[refresh.log] #< CLIXML",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]   213455: 500/4625",
+     "t": "[refresh.log] <Objs Version=\"1.1.0.1\" xmlns=\"http://schemas.microsoft.com/powershell/2004/04\"><Obj S=\"progress\" RefId=\"0\"><TN RefId=\"0\"><T>System.Management.Automat",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]   213455: 1000/4625",
+     "t": "[refresh.log] --- EXIT: 0",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]   213455: 1500/4625",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T06:01:33-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T06:16:36-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "t": "[refresh.log] [2026-10-05T10:50:17+00:00] daily refresh done",
      "c": "ok"
     },
     {
@@ -80,6 +72,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T06:46:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T07:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T07:16:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
