@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T04:23:47.311672+00:00",
+ "generated_at": "2026-10-05T04:24:58.912956+00:00",
  "window_days": 3,
  "channels": {
   "kavitv.horror": {
@@ -7,24 +7,29 @@
     {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
-     "emby_id": "372821",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "Antiviral",
-     "year": 2012,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antiviral (2012)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
     },
     {
      "start": "2026-10-05T01:30:00+00:00",
      "end": "2026-10-05T03:00:00+00:00",
-     "emby_id": "372822",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "Antlers",
-     "year": 2021,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antlers (2021)"
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
     },
     {
      "start": "2026-10-05T03:00:00+00:00",
@@ -34,8 +39,10 @@
      "title": "The Act of Seeing with One's Own Eyes",
      "year": 1971,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "The Act of Seeing with One's Own Eyes (1971)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
     },
     {
      "start": "2026-10-05T04:30:00+00:00",
@@ -45,111 +52,131 @@
      "title": "Atman",
      "year": 1975,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
     },
     {
      "start": "2026-10-05T06:00:00+00:00",
-     "end": "2026-10-05T07:30:00+00:00",
-     "emby_id": "372820",
+     "end": "2026-10-05T06:20:21+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "Annihilation",
-     "year": 2018,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Annihilation (2018)"
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
     },
     {
-     "start": "2026-10-05T07:30:00+00:00",
-     "end": "2026-10-05T09:00:00+00:00",
+     "start": "2026-10-05T06:20:21+00:00",
+     "end": "2026-10-05T07:50:21+00:00",
      "emby_id": "217333",
      "kind": "movie",
      "title": "Black Hearts Bleed Red",
      "year": 1992,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Black Hearts Bleed Red (1992)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
     },
     {
-     "start": "2026-10-05T09:00:00+00:00",
-     "end": "2026-10-05T10:30:00+00:00",
-     "emby_id": "372994",
+     "start": "2026-10-05T07:50:21+00:00",
+     "end": "2026-10-05T09:20:21+00:00",
+     "emby_id": "249058",
      "kind": "movie",
-     "title": "As Above, So Below",
-     "year": 2014,
+     "title": "Walk With Me",
+     "year": 1998,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "As Above, So Below (2014)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
     },
     {
-     "start": "2026-10-05T10:30:00+00:00",
-     "end": "2026-10-05T12:00:00+00:00",
+     "start": "2026-10-05T09:20:21+00:00",
+     "end": "2026-10-05T10:50:21+00:00",
      "emby_id": "216369",
      "kind": "movie",
      "title": "Antithese",
      "year": 2017,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antithese (2017)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
     },
     {
-     "start": "2026-10-05T12:00:00+00:00",
-     "end": "2026-10-05T13:30:00+00:00",
-     "emby_id": "372995",
-     "kind": "movie",
-     "title": "Bad Taste",
-     "year": 1987,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Bad Taste (1987)"
-    },
-    {
-     "start": "2026-10-05T13:30:00+00:00",
-     "end": "2026-10-05T15:00:00+00:00",
-     "emby_id": "372997",
-     "kind": "movie",
-     "title": "Basket Case",
-     "year": 1982,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Basket Case (1982)"
-    },
-    {
-     "start": "2026-10-05T15:00:00+00:00",
-     "end": "2026-10-05T16:30:00+00:00",
-     "emby_id": "215530",
-     "kind": "movie",
-     "title": "Autumnal Equinox",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974)"
-    },
-    {
-     "start": "2026-10-05T16:30:00+00:00",
-     "end": "2026-10-05T18:00:00+00:00",
-     "emby_id": "372826",
-     "kind": "movie",
-     "title": "Begotten",
-     "year": 1991,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Begotten (1991)"
-    },
-    {
-     "start": "2026-10-05T18:00:00+00:00",
-     "end": "2026-10-05T19:30:00+00:00",
+     "start": "2026-10-05T10:50:21+00:00",
+     "end": "2026-10-05T12:20:21+00:00",
      "emby_id": "215528",
      "kind": "movie",
      "title": "Apparatus Sum",
      "year": 1972,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton (1972). Duplicate for scheduling variety."
     },
     {
-     "start": "2026-10-05T19:30:00+00:00",
-     "end": "2026-10-05T21:00:00+00:00",
+     "start": "2026-10-05T12:20:21+00:00",
+     "end": "2026-10-05T13:50:21+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999)."
+    },
+    {
+     "start": "2026-10-05T13:50:21+00:00",
+     "end": "2026-10-05T15:20:21+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
+    },
+    {
+     "start": "2026-10-05T15:20:21+00:00",
+     "end": "2026-10-05T16:50:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
+    },
+    {
+     "start": "2026-10-05T16:50:21+00:00",
+     "end": "2026-10-05T18:20:21+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972)."
+    },
+    {
+     "start": "2026-10-05T18:20:21+00:00",
+     "end": "2026-10-05T19:50:21+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -159,29 +186,34 @@
       "Drama",
       "Horror"
      ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+     "overview": "Kurt Kren's 10/65 Selfmutilation."
     },
     {
-     "start": "2026-10-05T21:00:00+00:00",
-     "end": "2026-10-05T22:30:00+00:00",
-     "emby_id": "372821",
+     "start": "2026-10-05T19:50:21+00:00",
+     "end": "2026-10-05T21:20:21+00:00",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "Antiviral",
-     "year": 2012,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antiviral (2012)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
     },
     {
-     "start": "2026-10-05T22:30:00+00:00",
+     "start": "2026-10-05T21:20:21+00:00",
      "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "372822",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "Antlers",
-     "year": 2021,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Antlers (2021)"
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 9579,
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
     },
     {
      "start": "2026-10-06T00:00:00+00:00",
@@ -191,111 +223,132 @@
      "title": "Atman",
      "year": 1975,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
     },
     {
      "start": "2026-10-06T01:30:00+00:00",
-     "end": "2026-10-06T03:00:00+00:00",
-     "emby_id": "372820",
+     "end": "2026-10-06T01:50:21+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "Annihilation",
-     "year": 2018,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Annihilation (2018)"
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
     },
     {
-     "start": "2026-10-06T03:00:00+00:00",
-     "end": "2026-10-06T04:30:00+00:00",
-     "emby_id": "372826",
+     "start": "2026-10-06T01:50:21+00:00",
+     "end": "2026-10-06T03:20:21+00:00",
+     "emby_id": "248643",
      "kind": "movie",
-     "title": "Begotten",
-     "year": 1991,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Begotten (1991)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
     },
     {
-     "start": "2026-10-06T04:30:00+00:00",
-     "end": "2026-10-06T06:00:00+00:00",
+     "start": "2026-10-06T03:20:21+00:00",
+     "end": "2026-10-06T04:50:21+00:00",
      "emby_id": "215528",
      "kind": "movie",
      "title": "Apparatus Sum",
      "year": 1972,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972)."
     },
     {
-     "start": "2026-10-06T06:00:00+00:00",
-     "end": "2026-10-06T07:30:00+00:00",
-     "emby_id": "372822",
+     "start": "2026-10-06T04:50:21+00:00",
+     "end": "2026-10-06T06:20:21+00:00",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "Antlers",
-     "year": 2021,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antlers (2021)"
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
     },
     {
-     "start": "2026-10-06T07:30:00+00:00",
-     "end": "2026-10-06T09:00:00+00:00",
+     "start": "2026-10-06T06:20:21+00:00",
+     "end": "2026-10-06T07:50:21+00:00",
      "emby_id": "216369",
      "kind": "movie",
      "title": "Antithese",
      "year": 2017,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antithese (2017)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
     },
     {
-     "start": "2026-10-06T09:00:00+00:00",
-     "end": "2026-10-06T10:30:00+00:00",
-     "emby_id": "372995",
+     "start": "2026-10-06T07:50:21+00:00",
+     "end": "2026-10-06T09:20:21+00:00",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Bad Taste",
-     "year": 1987,
+     "title": "Apparatus Sum",
+     "year": 1972,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Bad Taste (1987)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton (1972). Duplicate for scheduling variety."
     },
     {
-     "start": "2026-10-06T10:30:00+00:00",
-     "end": "2026-10-06T12:00:00+00:00",
-     "emby_id": "372994",
+     "start": "2026-10-06T09:20:21+00:00",
+     "end": "2026-10-06T10:50:21+00:00",
+     "emby_id": "249058",
      "kind": "movie",
-     "title": "As Above, So Below",
-     "year": 2014,
+     "title": "Walk With Me",
+     "year": 1998,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "As Above, So Below (2014)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
     },
     {
-     "start": "2026-10-06T12:00:00+00:00",
-     "end": "2026-10-06T13:30:00+00:00",
-     "emby_id": "372997",
+     "start": "2026-10-06T10:50:21+00:00",
+     "end": "2026-10-06T12:20:21+00:00",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Basket Case",
-     "year": 1982,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Basket Case (1982)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999)."
     },
     {
-     "start": "2026-10-06T13:30:00+00:00",
-     "end": "2026-10-06T15:00:00+00:00",
+     "start": "2026-10-06T12:20:21+00:00",
+     "end": "2026-10-06T13:50:21+00:00",
      "emby_id": "215530",
      "kind": "movie",
      "title": "Autumnal Equinox",
      "year": 1974,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
     },
     {
-     "start": "2026-10-06T15:00:00+00:00",
-     "end": "2026-10-06T16:30:00+00:00",
+     "start": "2026-10-06T13:50:21+00:00",
+     "end": "2026-10-06T15:20:21+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -305,84 +358,111 @@
       "Drama",
       "Horror"
      ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+     "overview": "Kurt Kren's 10/65 Selfmutilation."
     },
     {
-     "start": "2026-10-06T16:30:00+00:00",
-     "end": "2026-10-06T18:00:00+00:00",
+     "start": "2026-10-06T15:20:21+00:00",
+     "end": "2026-10-06T16:50:21+00:00",
      "emby_id": "217333",
      "kind": "movie",
      "title": "Black Hearts Bleed Red",
      "year": 1992,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Black Hearts Bleed Red (1992)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
     },
     {
-     "start": "2026-10-06T18:00:00+00:00",
-     "end": "2026-10-06T19:30:00+00:00",
+     "start": "2026-10-06T16:50:21+00:00",
+     "end": "2026-10-06T18:20:21+00:00",
      "emby_id": "217211",
      "kind": "movie",
      "title": "The Act of Seeing with One's Own Eyes",
      "year": 1971,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "The Act of Seeing with One's Own Eyes (1971)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
     },
     {
-     "start": "2026-10-06T19:30:00+00:00",
-     "end": "2026-10-06T21:00:00+00:00",
-     "emby_id": "372821",
+     "start": "2026-10-06T18:20:21+00:00",
+     "end": "2026-10-06T19:50:21+00:00",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "Antiviral",
-     "year": 2012,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antiviral (2012)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
     },
     {
-     "start": "2026-10-06T21:00:00+00:00",
-     "end": "2026-10-06T22:30:00+00:00",
+     "start": "2026-10-06T19:50:21+00:00",
+     "end": "2026-10-06T21:20:21+00:00",
      "emby_id": "217395",
      "kind": "movie",
      "title": "Atman",
      "year": 1975,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
     },
     {
-     "start": "2026-10-06T22:30:00+00:00",
-     "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "372820",
+     "start": "2026-10-06T21:20:21+00:00",
+     "end": "2026-10-06T21:40:42+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "Annihilation",
-     "year": 2018,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Annihilation (2018)"
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
+    },
+    {
+     "start": "2026-10-06T21:40:42+00:00",
+     "end": "2026-10-07T00:00:00+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 8358,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
     },
     {
      "start": "2026-10-07T00:00:00+00:00",
      "end": "2026-10-07T01:30:00+00:00",
-     "emby_id": "372997",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Basket Case",
-     "year": 1982,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Basket Case (1982)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999)."
     },
     {
      "start": "2026-10-07T01:30:00+00:00",
      "end": "2026-10-07T03:00:00+00:00",
-     "emby_id": "372994",
+     "emby_id": "249058",
      "kind": "movie",
-     "title": "As Above, So Below",
-     "year": 2014,
+     "title": "Walk With Me",
+     "year": 1998,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "As Above, So Below (2014)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
     },
     {
      "start": "2026-10-07T03:00:00+00:00",
@@ -392,8 +472,10 @@
      "title": "The Act of Seeing with One's Own Eyes",
      "year": 1971,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "The Act of Seeing with One's Own Eyes (1971)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
     },
     {
      "start": "2026-10-07T04:30:00+00:00",
@@ -403,8 +485,10 @@
      "title": "Autumnal Equinox",
      "year": 1974,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
     },
     {
      "start": "2026-10-07T06:00:00+00:00",
@@ -414,8 +498,10 @@
      "title": "Atman",
      "year": 1975,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
     },
     {
      "start": "2026-10-07T07:30:00+00:00",
@@ -425,8 +511,10 @@
      "title": "Black Hearts Bleed Red",
      "year": 1992,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Black Hearts Bleed Red (1992)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
     },
     {
      "start": "2026-10-07T09:00:00+00:00",
@@ -440,106 +528,125 @@
       "Drama",
       "Horror"
      ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+     "overview": "Kurt Kren's 10/65 Selfmutilation."
     },
     {
      "start": "2026-10-07T10:30:00+00:00",
      "end": "2026-10-07T12:00:00+00:00",
-     "emby_id": "372821",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "Antiviral",
-     "year": 2012,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antiviral (2012)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
     },
     {
      "start": "2026-10-07T12:00:00+00:00",
-     "end": "2026-10-07T13:30:00+00:00",
-     "emby_id": "372820",
+     "end": "2026-10-07T12:20:21+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "Annihilation",
-     "year": 2018,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Annihilation (2018)"
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
     },
     {
-     "start": "2026-10-07T13:30:00+00:00",
-     "end": "2026-10-07T15:00:00+00:00",
+     "start": "2026-10-07T12:20:21+00:00",
+     "end": "2026-10-07T13:50:21+00:00",
      "emby_id": "215528",
      "kind": "movie",
      "title": "Apparatus Sum",
      "year": 1972,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972)."
     },
     {
-     "start": "2026-10-07T15:00:00+00:00",
-     "end": "2026-10-07T16:30:00+00:00",
-     "emby_id": "372822",
+     "start": "2026-10-07T13:50:21+00:00",
+     "end": "2026-10-07T15:20:21+00:00",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "Antlers",
-     "year": 2021,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antlers (2021)"
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
     },
     {
-     "start": "2026-10-07T16:30:00+00:00",
-     "end": "2026-10-07T18:00:00+00:00",
+     "start": "2026-10-07T15:20:21+00:00",
+     "end": "2026-10-07T16:50:21+00:00",
      "emby_id": "216369",
      "kind": "movie",
      "title": "Antithese",
      "year": 2017,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Antithese (2017)"
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
     },
     {
-     "start": "2026-10-07T18:00:00+00:00",
-     "end": "2026-10-07T19:30:00+00:00",
-     "emby_id": "372995",
+     "start": "2026-10-07T16:50:21+00:00",
+     "end": "2026-10-07T18:20:21+00:00",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Bad Taste",
-     "year": 1987,
+     "title": "Apparatus Sum",
+     "year": 1972,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Bad Taste (1987)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton (1972). Duplicate for scheduling variety."
     },
     {
-     "start": "2026-10-07T19:30:00+00:00",
-     "end": "2026-10-07T21:00:00+00:00",
-     "emby_id": "372826",
+     "start": "2026-10-07T18:20:21+00:00",
+     "end": "2026-10-07T19:50:21+00:00",
+     "emby_id": "248643",
      "kind": "movie",
-     "title": "Begotten",
-     "year": 1991,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Begotten (1991)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
     },
     {
-     "start": "2026-10-07T21:00:00+00:00",
-     "end": "2026-10-07T22:30:00+00:00",
-     "emby_id": "372997",
+     "start": "2026-10-07T19:50:21+00:00",
+     "end": "2026-10-07T21:20:21+00:00",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Basket Case",
-     "year": 1982,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Basket Case (1982)"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999)."
     },
     {
-     "start": "2026-10-07T22:30:00+00:00",
+     "start": "2026-10-07T21:20:21+00:00",
      "end": "2026-10-08T00:00:00+00:00",
-     "emby_id": "372994",
+     "emby_id": "249058",
      "kind": "movie",
-     "title": "As Above, So Below",
-     "year": 2014,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "As Above, So Below (2014)"
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 9579,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
     }
    ]
   },
