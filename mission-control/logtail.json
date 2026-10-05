@@ -1,10 +1,59 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T09:16:40+0000",
+ "generated_iso": "2026-10-05T09:46:43+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "\tSystem.ArgumentOutOfRangeException: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'bytes')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.IO.Pipelines.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentOutOfRangeException(System.IO.Pipelines.ExceptionArgument)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 05:45:34.356 Error SharedHttpPipelineSource: Error copying live stream.",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ArgumentOutOfRangeException: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'bytes')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.IO.Pipelines.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentOutOfRangeException(System.IO.Pipelines.ExceptionArgument)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 05:45:34.373 Error DynamicHlsService-0HNP2JA11TAI0:00000008: Error during AppendExtraLogData",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.IOException: System.IO.IOException: There is not enough space on the disk. : 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\logs\\f",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 05:45:34.373 Info DynamicHlsService-0HNP2JA11TAI0:00000008: ProcessRun 'StreamTranscode bb80e3' Process exited with code 1 - Failed",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T04:46:41-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T04:46:41-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T05:01:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T05:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T05:16:36-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T05:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:31:33-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:46:41-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T05:46:41-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
