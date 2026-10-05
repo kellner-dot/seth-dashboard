@@ -1,12 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T01:16:36+0000",
+ "generated_iso": "2026-10-05T01:46:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 21:16:06.419 Error App: Error in ffprobe",
+     "t": "2026-10-04 21:43:01.430 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\964 Pinocchio\\964.Pinocchio.1991.1080p.BluRay.x264.A",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:43:13.493 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:43:13.493 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:43:13.493 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -18,7 +30,19 @@
      "c": "err"
     },
     {
-     "t": "2026-10-04 21:16:07.424 Error MediaSourceManager: Error probing live tv stream",
+     "t": "2026-10-04 21:45:48.468 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Bad Taste\\Bad.Taste.1987.1080p.BluRay.x264.AAC.mp4\" ",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:46:09.796 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:46:09.796 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:46:09.797 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -26,31 +50,7 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 21:16:17.804 Warn DynamicHlsService-0HNP0T5I41C1D:0000003B: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-04 21:16:17.805 Info DynamicHlsService-0HNP0T5I41C1D:0000003B: ProcessRun 'StreamTranscode 08ec88' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 21:16:27.806 Warn DynamicHlsService-0HNP0T5I41C1C:00000015: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-04 21:16:27.807 Info DynamicHlsService-0HNP0T5I41C1C:00000015: ProcessRun 'StreamTranscode 188f73' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 21:16:37.835 Warn DynamicHlsService-0HNP0T5I41C1H:00000037: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-04 21:16:37.835 Info DynamicHlsService-0HNP0T5I41C1H:00000037: ProcessRun 'StreamTranscode 05ae1e' Process exited with code -1 - Failed",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     }
    ]
@@ -83,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T20:01:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T20:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T20:31:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T21:16:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T21:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T21:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
