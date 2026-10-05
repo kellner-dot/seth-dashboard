@@ -1,14 +1,28 @@
 {
- "updated": "2026-10-05T08:46:43+0000",
- "updated_ts": 1791190003,
+ "updated": "2026-10-05T10:46:38+0000",
+ "updated_ts": 1791197198,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+     "summary": "Comments",
+     "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
      "summary": "Comments",
      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Apple and a Hacker's Future",
+     "summary": "Comments",
+     "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,24 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Sales of sub-\u20ac25,000 electric car models set to rise sevenfold",
+     "title": "We ported the original Doom to SQL",
      "summary": "Comments",
-     "url": "https://www.transportenvironment.org/articles/wave-of-affordable-electric-cars-is-boosting-consumers-choice-sales-of-sub-eur25-000-models-set-to-rise-sevenfold",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "A browser-native classic Visual Basic VB6 IDE",
-     "summary": "Comments",
-     "url": "https://wieslawsoltes.github.io/VB6/",
-     "time": "Sun, 04 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Gods in the Classroom: Religion and Education in First Millennium BCE Babylonia",
-     "summary": "Comments",
-     "url": "https://www.cambridge.org/core/journals/iraq/article/gods-in-the-classroom-religion-and-education-in-1st-millennium-bce-babylonia/EB059EE81804DCBC1848CACBD6298E0B",
-     "time": "Thu, 01 Oct 2026",
+     "url": "https://cedardb.com/blog/sqldoom/",
+     "time": "Sat, 03 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -102,9 +102,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Watch: How Brazil's dramatic election unfolded",
-     "summary": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
-     "url": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo?at_medium=RSS&at_campaign=rss",
+     "title": "Nobel Prize awarded for showing how nerve cells shape feelings",
+     "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
+     "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
@@ -116,9 +116,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
-     "summary": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
-     "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+     "title": "'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa",
+     "summary": "For many locals on this island, the arrest has brought decades of frustration back to the fore.",
+     "url": "https://www.bbc.co.uk/news/articles/cwgkv70gg1j3o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
@@ -137,45 +137,45 @@
      "source": "BBC World"
     },
     {
-     "title": "Brazil's presidential race heads to Lula\u2013Bolsonaro run-off as right gains ground",
-     "summary": "Now there are two: Brazil heads into a runoff after a first round that failed to fully energize voters, setting the stage for a more polarized contest that Washington is watching very closely.",
-     "url": "https://www.npr.org/2026/10/04/nx-s1-5981181/brazil-presidential-lula-bolsonaro",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
+     "summary": "The Nobel Prize in medicine was awarded Monday to three scientists working on the mechanisms the brain uses to switch on, or off, the activity of individual nerve cells.",
+     "url": "https://www.npr.org/2026/10/05/g-s1-146400/nobel-medicine-prize",
+     "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Brazil votes, with Lula facing Bolsonaro's son",
-     "summary": "In Brazil, President Lula da Silva faces Fl\u00e1vio Bolsonaro, son of the jailed former president, in a tight race. If neither wins more than half the votes they'll face each other again on Oct. 25.",
-     "url": "https://www.npr.org/2026/10/04/nx-s1-5981107/brazil-votes-with-lula-facing-bolsonaros-son",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Former Prince Andrew files legal action to quash warrants that led to residence searches",
+     "summary": "A judicial spokesperson confirmed that Andrew Mountbatten-Windsor had filed a claim with the High Court in London and a hearing would take place Thursday.",
+     "url": "https://www.npr.org/2026/10/05/g-s1-146396/former-prince-andrew-legal-action",
+     "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Trump names national intelligence chief Jay Clayton as new AI czar",
-     "summary": "Trump said Clayton will lead the White House's new \"Super Intelligence Force,\" which will coordinate government engagement with artificial intelligence.",
-     "url": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Spain's prime minister calls early elections as pressure mounts over housing crisis",
+     "summary": "Spanish Prime Minister Pedro S\u00e1nchez announced early elections Monday after his government suffered a bruising legislative defeat last week on emergency measures related to the country's housing crisis.",
+     "url": "https://www.npr.org/2026/10/05/nx-s1-5991404/spain-snap-elections",
+     "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Cornell president calls gang rape allegations 'deeply disturbing'",
-     "summary": "Cornell president Michael I. Kotlikoff said his university \"must do better\" in a video statement. \"This is a defining moment in Cornell's history,\" he added.",
-     "url": "https://www.npr.org/2026/10/04/nx-s1-5990789/cornell-president-calls-gang-rape-allegations-deeply-disturbing",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Republicans and Democrats find a unifying target: Pharmacy benefit managers",
+     "summary": "Republicans and Democrats, both patients and politicians, seem united in their disdain for the healthcare companies known as pharmacy benefit managers. Tennessee and Arkansas are regulating them now.",
+     "url": "https://www.npr.org/2026/10/05/nx-s1-5943563/pharmacy-benefit-managers-pbms-tennessee-arkansas-regulation",
+     "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan",
-     "summary": "Japanese police arrested a U.S. Marine in the alleged robbery and murder of a woman on Okinawa, officials said Sunday.",
-     "url": "https://www.npr.org/2026/10/04/nx-s1-5990790/us-marine-arrested-for-alleged-murder-woman-on-okinawa",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Voters are increasingly using AI chatbots to fact-check and compare candidates",
+     "summary": "Voters are already voting in the midterms. This year, some voters are trying something new to get ready for the election: asking AI to help research their ballot and even decide who to vote for.",
+     "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
+     "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "How the Cornell case is affecting women who have experienced sexual assault",
-     "summary": "The rape allegations that have emerged from a Cornell University frat house are leading many women to remember their own experiences \u2014 and call for a wider reckoning over sexual violence.",
-     "url": "https://www.npr.org/2026/10/04/nx-s1-5990232/how-the-cornell-case-is-affecting-women-who-have-experienced-sexual-assault",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Super El Ni\u00f1o is here. What's so super about it?",
+     "summary": "This year, federal forecasters say the planet could see the strongest El Ni\u00f1o event on record. Here's what you need to know.",
+     "url": "https://www.npr.org/2026/10/05/nx-s1-5981261/super-el-nino-floods-droughts",
+     "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     }
    ]
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Phoebe Bridgers, Massive Attack, Caroline Polachek to Headline Primavera 2027",
+     "summary": "Robyn, Turnstile, Skrillex, Doechii, Fontaines D.C., FKA twigs, and Hayley Williams are also among the headliners",
+     "url": "https://pitchfork.com/story/phoebe-bridgers-massive-attack-caroline-polachek-to-headline-primavera-2027/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Turnstile and Taylor Swift Shared the SNL Stage Last Night",
      "summary": "The Baltimore hardcore band were last night\u2019s musical guest, and Swift made a surprise appearance during host Dakota Johnson\u2019s monologue",
      "url": "https://pitchfork.com/story/turnstile-and-taylor-swift-both-dropped-by-snl-last-night/",
@@ -263,13 +270,6 @@
      "summary": "\u201dSolar Eclipse\u201d arrives alongside other FOMO tracks \u201cQuebec,\u201d \u201cClassic PT2,\u201d and \u201cCold Shoulder\u201d",
      "url": "https://pitchfork.com/story/drake-and-don-tolivers-choosin-texas-remix-is-officially-here/",
      "time": "Fri, 02 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Talking Heads Set Fear of Music Super Deluxe Edition",
-     "summary": "The set will compile a remaster of the 1979 album, unearthed live recordings, studio outtakes, and more",
-     "url": "https://pitchfork.com/story/talking-heads-set-fear-of-music-super-deluxe-edition/",
-     "time": "Thu, 01 Oct 2026",
      "source": "Pitchfork"
     }
    ]
