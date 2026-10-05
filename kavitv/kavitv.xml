@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="kavitv.horror"><display-name>KaviTV Horror</display-name><icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo.png"/></channel>
-  <channel id="kavitv.experimental"><display-name>KaviTV Experimental</display-name><icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo.png"/></channel>
-  <channel id="kavitv.independent"><display-name>KaviTV Independent</display-name><icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo.png"/></channel>
+  <channel id="kavitv.horror"><display-name>KaviTV Horror</display-name><icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-horror.jpg"/></channel>
+  <channel id="kavitv.experimental"><display-name>KaviTV Experimental</display-name><icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-experimental.jpg"/></channel>
+  <channel id="kavitv.independent"><display-name>KaviTV Independent</display-name><icon src="https://kellner-dot.github.io/seth-dashboard/kavitv/logo-independent.jpg"/></channel>
   <programme start="20261004200000 -0400" stop="20261004213000 -0400" channel="kavitv.horror"><title>Stille Nacht</title><desc>1969 - Horror. Otto Muehl's Stille Nacht (1969).</desc></programme>
   <programme start="20261004213000 -0400" stop="20261004230000 -0400" channel="kavitv.horror"><title>Phantom</title><desc>1975 - Horror, Experimental. Toshio Matsumoto's Phantom (1975).</desc></programme>
   <programme start="20261004230000 -0400" stop="20261005003000 -0400" channel="kavitv.horror"><title>The Act of Seeing with One's Own Eyes</title><desc>1971 - Horror. Stan Brakhage's autopsy film.</desc></programme>
