@@ -1,7 +1,7 @@
 {
  "channels": {
   "kavitv.horror": {
-   "name": "!KaviTV Horror",
+   "name": "KaviTV Horror",
    "number": 30,
    "slug": "horror",
    "tvg_id": "kavitv-horror",
@@ -171,7 +171,7 @@
    ]
   },
   "kavitv.experimental": {
-   "name": "!KaviTV Experimental",
+   "name": "KaviTV Experimental",
    "number": 31,
    "slug": "experimental",
    "tvg_id": "kavitv-experimental",
@@ -375,7 +375,7 @@
    ]
   },
   "kavitv.independent": {
-   "name": "!KaviTV Independent",
+   "name": "KaviTV Independent",
    "number": 32,
    "slug": "independent",
    "tvg_id": "kavitv-independent",
