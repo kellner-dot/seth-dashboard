@@ -93,19 +93,6 @@
      "poster": "http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"
     },
     {
-     "emby_id": "216430",
-     "title": "Blind Alley",
-     "year": 2011,
-     "duration_s": 5400,
-     "genres": [
-      "Action",
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216430/Images/Primary?maxWidth=400"
-    },
-    {
      "emby_id": "216043",
      "title": "10/65: Self-Mutilation",
      "year": 1965,
@@ -171,14 +158,15 @@
    "bumpers": [
     {
      "emby_id": "445992",
-     "title": "80s Commercials 1982",
+     "title": "Intermission",
      "year": 1982,
      "duration_s": 600,
      "genres": [
       "Commercial",
       "Retro"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.",
+     "poster": "https://drive.google.com/uc?export=download&id=1VIjyjYzoq9ZTnwXP7CvC8f9qLhz7vSjb"
     }
    ]
   },
@@ -359,19 +347,30 @@
      ],
      "overview": "A man works for the unpleasant guru of a Scientology-like movement.",
      "poster": "http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"
+    },
+    {
+     "emby_id": "248769",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
     }
    ],
    "bumpers": [
     {
      "emby_id": "445992",
-     "title": "80s Commercials 1982",
+     "title": "Intermission",
      "year": 1982,
      "duration_s": 600,
      "genres": [
       "Commercial",
       "Retro"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.",
+     "poster": "https://drive.google.com/uc?export=download&id=1VIjyjYzoq9ZTnwXP7CvC8f9qLhz7vSjb"
     }
    ]
   },
@@ -549,14 +548,15 @@
    "bumpers": [
     {
      "emby_id": "445992",
-     "title": "80s Commercials 1982",
+     "title": "Intermission",
      "year": 1982,
      "duration_s": 600,
      "genres": [
       "Commercial",
       "Retro"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more.",
+     "poster": "https://drive.google.com/uc?export=download&id=1VIjyjYzoq9ZTnwXP7CvC8f9qLhz7vSjb"
     }
    ]
   }
