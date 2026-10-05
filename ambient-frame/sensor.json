@@ -1,1 +1,1 @@
-{"lux":42,"mode":"mock","motion":true,"note":"Written by sensor-bridge. mode=mock: simulated day/night sensor; mode=esp32: live BH1750+PIR hardware.","source":"simulated-day-night","temp":3100,"ts":0}
+{"lux": 21, "mode": "simulated", "motion": true, "note": "Time-of-day simulated sensor. No ESP32 hardware connected; values follow the sun. Connect a BH1750+PIR via the ESP32 firmware notes to go live.", "source": "simulated-time-of-day", "temp": 2699, "ts": 1791164211108}
