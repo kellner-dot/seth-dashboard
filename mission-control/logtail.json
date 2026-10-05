@@ -1,33 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T07:16:37+0000",
+ "generated_iso": "2026-10-05T07:46:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 02:18:46.820 Error SessionsService-0HNP2JA11TABP:00000001: Error processing request",
-     "c": "err"
+     "t": "2026-10-05 03:33:20.130 Info DynamicHlsService-0HNP2JA11TAI0:00000039: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
+     "t": "2026-10-05 03:33:20.132 Info DynamicHlsService-0HNP2JA11TAI0:00000039: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 1ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
+     "c": "ok"
     },
     {
-     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Session bogus not found.",
-     "c": "err"
+     "t": "2026-10-05 03:33:24.131 Info DynamicHlsService-0HNP2JA11TAI0:0000003A: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
     },
     {
-     "t": "2026-10-05 02:21:12.522 Error SessionsService-0HNP2JA11TAC7:00000001: Error processing request",
-     "c": "err"
+     "t": "2026-10-05 03:33:24.133 Info DynamicHlsService-0HNP2JA11TAI0:0000003A: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
+     "c": "ok"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
+     "t": "2026-10-05 03:33:28.130 Info DynamicHlsService-0HNP2JA11TAI0:0000003B: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
     },
     {
-     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Session bogus not found.",
-     "c": "err"
+     "t": "2026-10-05 03:33:28.132 Info DynamicHlsService-0HNP2JA11TAI0:0000003B: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 03:33:32.132 Info DynamicHlsService-0HNP2JA11TAI0:0000003C: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 03:33:32.133 Info DynamicHlsService-0HNP2JA11TAI0:0000003C: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 03:33:36.131 Info DynamicHlsService-0HNP2JA11TAI0:0000003D: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 03:33:36.133 Info DynamicHlsService-0HNP2JA11TAI0:0000003D: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 03:33:40.146 Info DynamicHlsService-0HNP2JA11TAI0:0000003E: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-05 03:33:40.147 Info DynamicHlsService-0HNP2JA11TAI0:0000003E: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
+     "c": "ok"
     }
    ]
   },
@@ -35,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -59,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T02:46:43-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T02:46:43-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T03:01:30-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T03:01:30-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T03:16:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T03:16:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T03:31:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T03:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T03:46:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T03:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
