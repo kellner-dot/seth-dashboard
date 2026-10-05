@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-05T05:10:22.451030+00:00",
- "window_days": 3,
+ "generated_at": "2026-10-05T08:10:11.093486+00:00",
+ "window_days": 7,
  "channels": {
   "kavitv.horror": {
    "slots": [
@@ -575,6 +575,773 @@
      "duration_s": 5400,
      "genres": [],
      "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium."
+    },
+    {
+     "start": "2026-10-08T00:00:00+00:00",
+     "end": "2026-10-08T01:30:00+00:00",
+     "emby_id": "216002",
+     "kind": "movie",
+     "title": "Scorpio Rising",
+     "year": 1964,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Scorpio Rising Kenneth Anger `` Biker-occult collage; pop soundtrack over h..."
+    },
+    {
+     "start": "2026-10-08T01:30:00+00:00",
+     "end": "2026-10-08T03:00:00+00:00",
+     "emby_id": "215982",
+     "kind": "movie",
+     "title": "Blonde Cobra",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium."
+    },
+    {
+     "start": "2026-10-08T03:00:00+00:00",
+     "end": "2026-10-08T04:30:00+00:00",
+     "emby_id": "248520",
+     "kind": "movie",
+     "title": "Asylum",
+     "year": 2004,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Asylum \u2014 `` Dark institutional subject matter."
+    },
+    {
+     "start": "2026-10-08T04:30:00+00:00",
+     "end": "2026-10-08T06:00:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-08T06:00:00+00:00",
+     "end": "2026-10-08T07:30:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
+    },
+    {
+     "start": "2026-10-08T07:30:00+00:00",
+     "end": "2026-10-08T09:00:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kurt Kren's 10/65 Selfmutilation."
+    },
+    {
+     "start": "2026-10-08T09:00:00+00:00",
+     "end": "2026-10-08T10:30:00+00:00",
+     "emby_id": "215999",
+     "kind": "movie",
+     "title": "Lucifer Rising",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Lucifer Rising Kenneth Anger `` Anger's Luciferian invocation; dark gods, r..."
+    },
+    {
+     "start": "2026-10-08T10:30:00+00:00",
+     "end": "2026-10-08T12:00:00+00:00",
+     "emby_id": "216385",
+     "kind": "movie",
+     "title": "Witch's Cradle",
+     "year": 1944,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Witch's Cradle Maya Deren `` Unfinished surrealist occult fragment; string-..."
+    },
+    {
+     "start": "2026-10-08T12:00:00+00:00",
+     "end": "2026-10-08T13:30:00+00:00",
+     "emby_id": "215997",
+     "kind": "movie",
+     "title": "Invocation of My Demon Brother",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Invocation of My Demon Brother Kenneth Anger `` Occult ritual film; demonic..."
+    },
+    {
+     "start": "2026-10-08T13:30:00+00:00",
+     "end": "2026-10-08T15:00:00+00:00",
+     "emby_id": "215994",
+     "kind": "movie",
+     "title": "Brush of Baphomet",
+     "year": 2009,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Brush of Baphomet \u2014 `` Occult-themed; Baphomet imagery."
+    },
+    {
+     "start": "2026-10-08T15:00:00+00:00",
+     "end": "2026-10-08T16:30:00+00:00",
+     "emby_id": "215642",
+     "kind": "movie",
+     "title": "Flaming Creatures",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Flaming Creatures Jack Smith `` Transgressive bacchanal; banned obscenity l..."
+    },
+    {
+     "start": "2026-10-08T16:30:00+00:00",
+     "end": "2026-10-08T18:00:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
+    },
+    {
+     "start": "2026-10-08T18:00:00+00:00",
+     "end": "2026-10-08T19:30:00+00:00",
+     "emby_id": "217211",
+     "kind": "movie",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
+    },
+    {
+     "start": "2026-10-08T19:30:00+00:00",
+     "end": "2026-10-08T21:00:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
+    },
+    {
+     "start": "2026-10-08T21:00:00+00:00",
+     "end": "2026-10-08T22:30:00+00:00",
+     "emby_id": "216002",
+     "kind": "movie",
+     "title": "Scorpio Rising",
+     "year": 1964,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Scorpio Rising Kenneth Anger `` Biker-occult collage; pop soundtrack over h..."
+    },
+    {
+     "start": "2026-10-08T22:30:00+00:00",
+     "end": "2026-10-09T00:00:00+00:00",
+     "emby_id": "215982",
+     "kind": "movie",
+     "title": "Blonde Cobra",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium."
+    },
+    {
+     "start": "2026-10-09T00:00:00+00:00",
+     "end": "2026-10-09T01:30:00+00:00",
+     "emby_id": "216002",
+     "kind": "movie",
+     "title": "Scorpio Rising",
+     "year": 1964,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Scorpio Rising Kenneth Anger `` Biker-occult collage; pop soundtrack over h..."
+    },
+    {
+     "start": "2026-10-09T01:30:00+00:00",
+     "end": "2026-10-09T03:00:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-09T03:00:00+00:00",
+     "end": "2026-10-09T04:30:00+00:00",
+     "emby_id": "215994",
+     "kind": "movie",
+     "title": "Brush of Baphomet",
+     "year": 2009,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Brush of Baphomet \u2014 `` Occult-themed; Baphomet imagery."
+    },
+    {
+     "start": "2026-10-09T04:30:00+00:00",
+     "end": "2026-10-09T06:00:00+00:00",
+     "emby_id": "215997",
+     "kind": "movie",
+     "title": "Invocation of My Demon Brother",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Invocation of My Demon Brother Kenneth Anger `` Occult ritual film; demonic..."
+    },
+    {
+     "start": "2026-10-09T06:00:00+00:00",
+     "end": "2026-10-09T07:30:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
+    },
+    {
+     "start": "2026-10-09T07:30:00+00:00",
+     "end": "2026-10-09T09:00:00+00:00",
+     "emby_id": "217211",
+     "kind": "movie",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
+    },
+    {
+     "start": "2026-10-09T09:00:00+00:00",
+     "end": "2026-10-09T10:30:00+00:00",
+     "emby_id": "215642",
+     "kind": "movie",
+     "title": "Flaming Creatures",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Flaming Creatures Jack Smith `` Transgressive bacchanal; banned obscenity l..."
+    },
+    {
+     "start": "2026-10-09T10:30:00+00:00",
+     "end": "2026-10-09T12:00:00+00:00",
+     "emby_id": "215999",
+     "kind": "movie",
+     "title": "Lucifer Rising",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Lucifer Rising Kenneth Anger `` Anger's Luciferian invocation; dark gods, r..."
+    },
+    {
+     "start": "2026-10-09T12:00:00+00:00",
+     "end": "2026-10-09T13:30:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
+    },
+    {
+     "start": "2026-10-09T13:30:00+00:00",
+     "end": "2026-10-09T15:00:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
+    },
+    {
+     "start": "2026-10-09T15:00:00+00:00",
+     "end": "2026-10-09T16:30:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kurt Kren's 10/65 Selfmutilation."
+    },
+    {
+     "start": "2026-10-09T16:30:00+00:00",
+     "end": "2026-10-09T18:00:00+00:00",
+     "emby_id": "215982",
+     "kind": "movie",
+     "title": "Blonde Cobra",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium."
+    },
+    {
+     "start": "2026-10-09T18:00:00+00:00",
+     "end": "2026-10-09T19:30:00+00:00",
+     "emby_id": "248520",
+     "kind": "movie",
+     "title": "Asylum",
+     "year": 2004,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Asylum \u2014 `` Dark institutional subject matter."
+    },
+    {
+     "start": "2026-10-09T19:30:00+00:00",
+     "end": "2026-10-09T21:00:00+00:00",
+     "emby_id": "216385",
+     "kind": "movie",
+     "title": "Witch's Cradle",
+     "year": 1944,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Witch's Cradle Maya Deren `` Unfinished surrealist occult fragment; string-..."
+    },
+    {
+     "start": "2026-10-09T21:00:00+00:00",
+     "end": "2026-10-09T22:30:00+00:00",
+     "emby_id": "216002",
+     "kind": "movie",
+     "title": "Scorpio Rising",
+     "year": 1964,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Scorpio Rising Kenneth Anger `` Biker-occult collage; pop soundtrack over h..."
+    },
+    {
+     "start": "2026-10-09T22:30:00+00:00",
+     "end": "2026-10-10T00:00:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-10T00:00:00+00:00",
+     "end": "2026-10-10T01:30:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
+    },
+    {
+     "start": "2026-10-10T01:30:00+00:00",
+     "end": "2026-10-10T03:00:00+00:00",
+     "emby_id": "215982",
+     "kind": "movie",
+     "title": "Blonde Cobra",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium."
+    },
+    {
+     "start": "2026-10-10T03:00:00+00:00",
+     "end": "2026-10-10T04:30:00+00:00",
+     "emby_id": "215999",
+     "kind": "movie",
+     "title": "Lucifer Rising",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Lucifer Rising Kenneth Anger `` Anger's Luciferian invocation; dark gods, r..."
+    },
+    {
+     "start": "2026-10-10T04:30:00+00:00",
+     "end": "2026-10-10T06:00:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
+    },
+    {
+     "start": "2026-10-10T06:00:00+00:00",
+     "end": "2026-10-10T07:30:00+00:00",
+     "emby_id": "215642",
+     "kind": "movie",
+     "title": "Flaming Creatures",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Flaming Creatures Jack Smith `` Transgressive bacchanal; banned obscenity l..."
+    },
+    {
+     "start": "2026-10-10T07:30:00+00:00",
+     "end": "2026-10-10T09:00:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-10T09:00:00+00:00",
+     "end": "2026-10-10T10:30:00+00:00",
+     "emby_id": "217211",
+     "kind": "movie",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
+    },
+    {
+     "start": "2026-10-10T10:30:00+00:00",
+     "end": "2026-10-10T12:00:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kurt Kren's 10/65 Selfmutilation."
+    },
+    {
+     "start": "2026-10-10T12:00:00+00:00",
+     "end": "2026-10-10T13:30:00+00:00",
+     "emby_id": "248520",
+     "kind": "movie",
+     "title": "Asylum",
+     "year": 2004,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Asylum \u2014 `` Dark institutional subject matter."
+    },
+    {
+     "start": "2026-10-10T13:30:00+00:00",
+     "end": "2026-10-10T15:00:00+00:00",
+     "emby_id": "215994",
+     "kind": "movie",
+     "title": "Brush of Baphomet",
+     "year": 2009,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Brush of Baphomet \u2014 `` Occult-themed; Baphomet imagery."
+    },
+    {
+     "start": "2026-10-10T15:00:00+00:00",
+     "end": "2026-10-10T16:30:00+00:00",
+     "emby_id": "216385",
+     "kind": "movie",
+     "title": "Witch's Cradle",
+     "year": 1944,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Witch's Cradle Maya Deren `` Unfinished surrealist occult fragment; string-..."
+    },
+    {
+     "start": "2026-10-10T16:30:00+00:00",
+     "end": "2026-10-10T18:00:00+00:00",
+     "emby_id": "215997",
+     "kind": "movie",
+     "title": "Invocation of My Demon Brother",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Invocation of My Demon Brother Kenneth Anger `` Occult ritual film; demonic..."
+    },
+    {
+     "start": "2026-10-10T18:00:00+00:00",
+     "end": "2026-10-10T19:30:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
+    },
+    {
+     "start": "2026-10-10T19:30:00+00:00",
+     "end": "2026-10-10T21:00:00+00:00",
+     "emby_id": "216002",
+     "kind": "movie",
+     "title": "Scorpio Rising",
+     "year": 1964,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Scorpio Rising Kenneth Anger `` Biker-occult collage; pop soundtrack over h..."
+    },
+    {
+     "start": "2026-10-10T21:00:00+00:00",
+     "end": "2026-10-10T22:30:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
+    },
+    {
+     "start": "2026-10-10T22:30:00+00:00",
+     "end": "2026-10-11T00:00:00+00:00",
+     "emby_id": "215982",
+     "kind": "movie",
+     "title": "Blonde Cobra",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium."
+    },
+    {
+     "start": "2026-10-11T00:00:00+00:00",
+     "end": "2026-10-11T01:30:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
+    },
+    {
+     "start": "2026-10-11T01:30:00+00:00",
+     "end": "2026-10-11T03:00:00+00:00",
+     "emby_id": "215994",
+     "kind": "movie",
+     "title": "Brush of Baphomet",
+     "year": 2009,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Brush of Baphomet \u2014 `` Occult-themed; Baphomet imagery."
+    },
+    {
+     "start": "2026-10-11T03:00:00+00:00",
+     "end": "2026-10-11T04:30:00+00:00",
+     "emby_id": "248520",
+     "kind": "movie",
+     "title": "Asylum",
+     "year": 2004,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Asylum \u2014 `` Dark institutional subject matter."
+    },
+    {
+     "start": "2026-10-11T04:30:00+00:00",
+     "end": "2026-10-11T06:00:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-11T06:00:00+00:00",
+     "end": "2026-10-11T07:30:00+00:00",
+     "emby_id": "217211",
+     "kind": "movie",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film."
+    },
+    {
+     "start": "2026-10-11T07:30:00+00:00",
+     "end": "2026-10-11T09:00:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992)."
+    },
+    {
+     "start": "2026-10-11T09:00:00+00:00",
+     "end": "2026-10-11T10:30:00+00:00",
+     "emby_id": "216002",
+     "kind": "movie",
+     "title": "Scorpio Rising",
+     "year": 1964,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Scorpio Rising Kenneth Anger `` Biker-occult collage; pop soundtrack over h..."
+    },
+    {
+     "start": "2026-10-11T10:30:00+00:00",
+     "end": "2026-10-11T12:00:00+00:00",
+     "emby_id": "215997",
+     "kind": "movie",
+     "title": "Invocation of My Demon Brother",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Invocation of My Demon Brother Kenneth Anger `` Occult ritual film; demonic..."
+    },
+    {
+     "start": "2026-10-11T12:00:00+00:00",
+     "end": "2026-10-11T13:30:00+00:00",
+     "emby_id": "215642",
+     "kind": "movie",
+     "title": "Flaming Creatures",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Flaming Creatures Jack Smith `` Transgressive bacchanal; banned obscenity l..."
+    },
+    {
+     "start": "2026-10-11T13:30:00+00:00",
+     "end": "2026-10-11T15:00:00+00:00",
+     "emby_id": "215999",
+     "kind": "movie",
+     "title": "Lucifer Rising",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Lucifer Rising Kenneth Anger `` Anger's Luciferian invocation; dark gods, r..."
+    },
+    {
+     "start": "2026-10-11T15:00:00+00:00",
+     "end": "2026-10-11T16:30:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969)."
+    },
+    {
+     "start": "2026-10-11T16:30:00+00:00",
+     "end": "2026-10-11T18:00:00+00:00",
+     "emby_id": "216385",
+     "kind": "movie",
+     "title": "Witch's Cradle",
+     "year": 1944,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Witch's Cradle Maya Deren `` Unfinished surrealist occult fragment; string-..."
+    },
+    {
+     "start": "2026-10-11T18:00:00+00:00",
+     "end": "2026-10-11T19:30:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kurt Kren's 10/65 Selfmutilation."
+    },
+    {
+     "start": "2026-10-11T19:30:00+00:00",
+     "end": "2026-10-11T21:00:00+00:00",
+     "emby_id": "215982",
+     "kind": "movie",
+     "title": "Blonde Cobra",
+     "year": 1963,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium."
+    },
+    {
+     "start": "2026-10-11T21:00:00+00:00",
+     "end": "2026-10-11T22:30:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017)."
+    },
+    {
+     "start": "2026-10-11T22:30:00+00:00",
+     "end": "2026-10-12T00:00:00+00:00",
+     "emby_id": "215994",
+     "kind": "movie",
+     "title": "Brush of Baphomet",
+     "year": 2009,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Brush of Baphomet \u2014 `` Occult-themed; Baphomet imagery."
     }
    ]
   },
@@ -1218,6 +1985,801 @@
      "duration_s": 8358,
      "genres": [],
      "overview": "7 Eaux d'Artifice Kenneth Anger `` Baroque water-garden reverie; lyrical short."
+    },
+    {
+     "start": "2026-10-08T00:00:00+00:00",
+     "end": "2026-10-08T01:30:00+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-08T01:30:00+00:00",
+     "end": "2026-10-08T03:00:00+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
+    },
+    {
+     "start": "2026-10-08T03:00:00+00:00",
+     "end": "2026-10-08T04:30:00+00:00",
+     "emby_id": "215996",
+     "kind": "movie",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 The Inauguration of the Pleasure Dome Kenneth Anger `` Mythic masquerade; g..."
+    },
+    {
+     "start": "2026-10-08T04:30:00+00:00",
+     "end": "2026-10-08T06:00:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
+    },
+    {
+     "start": "2026-10-08T06:00:00+00:00",
+     "end": "2026-10-08T07:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-08T07:30:00+00:00",
+     "end": "2026-10-08T09:00:00+00:00",
+     "emby_id": "215545",
+     "kind": "movie",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film."
+    },
+    {
+     "start": "2026-10-08T09:00:00+00:00",
+     "end": "2026-10-08T10:30:00+00:00",
+     "emby_id": "215995",
+     "kind": "movie",
+     "title": "Eaux d'Artifice",
+     "year": 1953,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Eaux d'Artifice Kenneth Anger `` Baroque water-garden reverie; lyrical short."
+    },
+    {
+     "start": "2026-10-08T10:30:00+00:00",
+     "end": "2026-10-08T12:00:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972)."
+    },
+    {
+     "start": "2026-10-08T12:00:00+00:00",
+     "end": "2026-10-08T13:30:00+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
+    },
+    {
+     "start": "2026-10-08T13:30:00+00:00",
+     "end": "2026-10-08T15:00:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-08T15:00:00+00:00",
+     "end": "2026-10-08T15:20:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
+    },
+    {
+     "start": "2026-10-08T15:20:21+00:00",
+     "end": "2026-10-08T16:50:21+00:00",
+     "emby_id": "215309",
+     "kind": "movie",
+     "title": "Word Movie",
+     "year": 1966,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Word Movie Paul Sharits `` Stroboscopic word-flux; flicker masterwork."
+    },
+    {
+     "start": "2026-10-08T16:50:21+00:00",
+     "end": "2026-10-08T18:20:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-08T18:20:21+00:00",
+     "end": "2026-10-08T19:50:21+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
+    },
+    {
+     "start": "2026-10-08T19:50:21+00:00",
+     "end": "2026-10-08T21:20:21+00:00",
+     "emby_id": "215996",
+     "kind": "movie",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 The Inauguration of the Pleasure Dome Kenneth Anger `` Mythic masquerade; g..."
+    },
+    {
+     "start": "2026-10-08T21:20:21+00:00",
+     "end": "2026-10-09T00:00:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 9579,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
+    },
+    {
+     "start": "2026-10-09T00:00:00+00:00",
+     "end": "2026-10-09T01:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-09T01:30:00+00:00",
+     "end": "2026-10-09T03:00:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-09T03:00:00+00:00",
+     "end": "2026-10-09T04:30:00+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-09T04:30:00+00:00",
+     "end": "2026-10-09T06:00:00+00:00",
+     "emby_id": "215545",
+     "kind": "movie",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film."
+    },
+    {
+     "start": "2026-10-09T06:00:00+00:00",
+     "end": "2026-10-09T07:30:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
+    },
+    {
+     "start": "2026-10-09T07:30:00+00:00",
+     "end": "2026-10-09T07:50:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
+    },
+    {
+     "start": "2026-10-09T07:50:21+00:00",
+     "end": "2026-10-09T09:20:21+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972)."
+    },
+    {
+     "start": "2026-10-09T09:20:21+00:00",
+     "end": "2026-10-09T10:50:21+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
+    },
+    {
+     "start": "2026-10-09T10:50:21+00:00",
+     "end": "2026-10-09T12:20:21+00:00",
+     "emby_id": "215309",
+     "kind": "movie",
+     "title": "Word Movie",
+     "year": 1966,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Word Movie Paul Sharits `` Stroboscopic word-flux; flicker masterwork."
+    },
+    {
+     "start": "2026-10-09T12:20:21+00:00",
+     "end": "2026-10-09T13:50:21+00:00",
+     "emby_id": "215995",
+     "kind": "movie",
+     "title": "Eaux d'Artifice",
+     "year": 1953,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Eaux d'Artifice Kenneth Anger `` Baroque water-garden reverie; lyrical short."
+    },
+    {
+     "start": "2026-10-09T13:50:21+00:00",
+     "end": "2026-10-09T15:20:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
+    },
+    {
+     "start": "2026-10-09T15:20:21+00:00",
+     "end": "2026-10-09T16:50:21+00:00",
+     "emby_id": "215996",
+     "kind": "movie",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 The Inauguration of the Pleasure Dome Kenneth Anger `` Mythic masquerade; g..."
+    },
+    {
+     "start": "2026-10-09T16:50:21+00:00",
+     "end": "2026-10-09T18:20:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-09T18:20:21+00:00",
+     "end": "2026-10-09T19:50:21+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-09T19:50:21+00:00",
+     "end": "2026-10-09T21:20:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-09T21:20:21+00:00",
+     "end": "2026-10-10T00:00:00+00:00",
+     "emby_id": "215545",
+     "kind": "movie",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 9579,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film."
+    },
+    {
+     "start": "2026-10-10T00:00:00+00:00",
+     "end": "2026-10-10T01:30:00+00:00",
+     "emby_id": "215545",
+     "kind": "movie",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film."
+    },
+    {
+     "start": "2026-10-10T01:30:00+00:00",
+     "end": "2026-10-10T03:00:00+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-10T03:00:00+00:00",
+     "end": "2026-10-10T04:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-10T04:30:00+00:00",
+     "end": "2026-10-10T06:00:00+00:00",
+     "emby_id": "215996",
+     "kind": "movie",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 The Inauguration of the Pleasure Dome Kenneth Anger `` Mythic masquerade; g..."
+    },
+    {
+     "start": "2026-10-10T06:00:00+00:00",
+     "end": "2026-10-10T07:30:00+00:00",
+     "emby_id": "215309",
+     "kind": "movie",
+     "title": "Word Movie",
+     "year": 1966,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Word Movie Paul Sharits `` Stroboscopic word-flux; flicker masterwork."
+    },
+    {
+     "start": "2026-10-10T07:30:00+00:00",
+     "end": "2026-10-10T09:00:00+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
+    },
+    {
+     "start": "2026-10-10T09:00:00+00:00",
+     "end": "2026-10-10T10:30:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972)."
+    },
+    {
+     "start": "2026-10-10T10:30:00+00:00",
+     "end": "2026-10-10T12:00:00+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
+    },
+    {
+     "start": "2026-10-10T12:00:00+00:00",
+     "end": "2026-10-10T13:30:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
+    },
+    {
+     "start": "2026-10-10T13:30:00+00:00",
+     "end": "2026-10-10T15:00:00+00:00",
+     "emby_id": "215995",
+     "kind": "movie",
+     "title": "Eaux d'Artifice",
+     "year": 1953,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Eaux d'Artifice Kenneth Anger `` Baroque water-garden reverie; lyrical short."
+    },
+    {
+     "start": "2026-10-10T15:00:00+00:00",
+     "end": "2026-10-10T16:30:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-10T16:30:00+00:00",
+     "end": "2026-10-10T16:50:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
+    },
+    {
+     "start": "2026-10-10T16:50:21+00:00",
+     "end": "2026-10-10T18:20:21+00:00",
+     "emby_id": "215545",
+     "kind": "movie",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film."
+    },
+    {
+     "start": "2026-10-10T18:20:21+00:00",
+     "end": "2026-10-10T19:50:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-10T19:50:21+00:00",
+     "end": "2026-10-10T21:20:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-10T21:20:21+00:00",
+     "end": "2026-10-11T00:00:00+00:00",
+     "emby_id": "215996",
+     "kind": "movie",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 9579,
+     "genres": [],
+     "overview": "4 The Inauguration of the Pleasure Dome Kenneth Anger `` Mythic masquerade; g..."
+    },
+    {
+     "start": "2026-10-11T00:00:00+00:00",
+     "end": "2026-10-11T01:30:00+00:00",
+     "emby_id": "215545",
+     "kind": "movie",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film."
+    },
+    {
+     "start": "2026-10-11T01:30:00+00:00",
+     "end": "2026-10-11T03:00:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-11T03:00:00+00:00",
+     "end": "2026-10-11T04:30:00+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
+    },
+    {
+     "start": "2026-10-11T04:30:00+00:00",
+     "end": "2026-10-11T06:00:00+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
+    },
+    {
+     "start": "2026-10-11T06:00:00+00:00",
+     "end": "2026-10-11T07:30:00+00:00",
+     "emby_id": "215309",
+     "kind": "movie",
+     "title": "Word Movie",
+     "year": 1966,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Word Movie Paul Sharits `` Stroboscopic word-flux; flicker masterwork."
+    },
+    {
+     "start": "2026-10-11T07:30:00+00:00",
+     "end": "2026-10-11T09:00:00+00:00",
+     "emby_id": "215995",
+     "kind": "movie",
+     "title": "Eaux d'Artifice",
+     "year": 1953,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Eaux d'Artifice Kenneth Anger `` Baroque water-garden reverie; lyrical short."
+    },
+    {
+     "start": "2026-10-11T09:00:00+00:00",
+     "end": "2026-10-11T10:30:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "People Like Us - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-11T10:30:00+00:00",
+     "end": "2026-10-11T12:00:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974)."
+    },
+    {
+     "start": "2026-10-11T12:00:00+00:00",
+     "end": "2026-10-11T13:30:00+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975)."
+    },
+    {
+     "start": "2026-10-11T13:30:00+00:00",
+     "end": "2026-10-11T15:00:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972)."
+    },
+    {
+     "start": "2026-10-11T15:00:00+00:00",
+     "end": "2026-10-11T15:20:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989)."
+    },
+    {
+     "start": "2026-10-11T15:20:21+00:00",
+     "end": "2026-10-11T16:50:21+00:00",
+     "emby_id": "215996",
+     "kind": "movie",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 The Inauguration of the Pleasure Dome Kenneth Anger `` Mythic masquerade; g..."
+    },
+    {
+     "start": "2026-10-11T16:50:21+00:00",
+     "end": "2026-10-11T18:20:21+00:00",
+     "emby_id": "215545",
+     "kind": "movie",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film."
+    },
+    {
+     "start": "2026-10-11T18:20:21+00:00",
+     "end": "2026-10-11T19:50:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-11T19:50:21+00:00",
+     "end": "2026-10-11T21:20:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007)."
+    },
+    {
+     "start": "2026-10-11T21:20:21+00:00",
+     "end": "2026-10-12T00:00:00+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 9579,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998)."
     }
    ]
   },
@@ -1743,6 +3305,710 @@
     {
      "start": "2026-10-07T22:30:00+00:00",
      "end": "2026-10-08T00:00:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-08T00:00:00+00:00",
+     "end": "2026-10-08T01:30:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-08T01:30:00+00:00",
+     "end": "2026-10-08T03:00:00+00:00",
+     "emby_id": "216383",
+     "kind": "movie",
+     "title": "A Study in Choreography for Camera",
+     "year": 1945,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 A Study in Choreography for Camera Maya Deren `` Dance film; body as camera..."
+    },
+    {
+     "start": "2026-10-08T03:00:00+00:00",
+     "end": "2026-10-08T04:30:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-08T04:30:00+00:00",
+     "end": "2026-10-08T06:00:00+00:00",
+     "emby_id": "215835",
+     "kind": "movie",
+     "title": "The Black Tower",
+     "year": 1985,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 The Black Tower John Smith `` Uncanny tower haunting a London flat; slow-bu..."
+    },
+    {
+     "start": "2026-10-08T06:00:00+00:00",
+     "end": "2026-10-08T07:30:00+00:00",
+     "emby_id": "215484",
+     "kind": "movie",
+     "title": "Early Abstractions",
+     "year": 1939,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Early Abstractions (-) Harry Smith `` Painted-film jazz abstractions; Ameri..."
+    },
+    {
+     "start": "2026-10-08T07:30:00+00:00",
+     "end": "2026-10-08T09:00:00+00:00",
+     "emby_id": "215069",
+     "kind": "movie",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag..."
+    },
+    {
+     "start": "2026-10-08T09:00:00+00:00",
+     "end": "2026-10-08T10:30:00+00:00",
+     "emby_id": "215310",
+     "kind": "movie",
+     "title": "Wrist Trick",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Wrist Trick Paul Sharits `` Flicker diptych; retinal cinema."
+    },
+    {
+     "start": "2026-10-08T10:30:00+00:00",
+     "end": "2026-10-08T12:00:00+00:00",
+     "emby_id": "215306",
+     "kind": "movie",
+     "title": "Dots 1 & 2",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Dots 1 & 2 \u2014 `` Hand-painted/drawn-on-film animation; visual music."
+    },
+    {
+     "start": "2026-10-08T12:00:00+00:00",
+     "end": "2026-10-08T13:30:00+00:00",
+     "emby_id": "215487",
+     "kind": "movie",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc..."
+    },
+    {
+     "start": "2026-10-08T13:30:00+00:00",
+     "end": "2026-10-08T15:00:00+00:00",
+     "emby_id": "216409",
+     "kind": "movie",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min..."
+    },
+    {
+     "start": "2026-10-08T15:00:00+00:00",
+     "end": "2026-10-08T16:30:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-08T16:30:00+00:00",
+     "end": "2026-10-08T18:00:00+00:00",
+     "emby_id": "216383",
+     "kind": "movie",
+     "title": "A Study in Choreography for Camera",
+     "year": 1945,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 A Study in Choreography for Camera Maya Deren `` Dance film; body as camera..."
+    },
+    {
+     "start": "2026-10-08T18:00:00+00:00",
+     "end": "2026-10-08T19:30:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-08T19:30:00+00:00",
+     "end": "2026-10-08T21:00:00+00:00",
+     "emby_id": "215835",
+     "kind": "movie",
+     "title": "The Black Tower",
+     "year": 1985,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 The Black Tower John Smith `` Uncanny tower haunting a London flat; slow-bu..."
+    },
+    {
+     "start": "2026-10-08T21:00:00+00:00",
+     "end": "2026-10-08T22:30:00+00:00",
+     "emby_id": "215484",
+     "kind": "movie",
+     "title": "Early Abstractions",
+     "year": 1939,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Early Abstractions (-) Harry Smith `` Painted-film jazz abstractions; Ameri..."
+    },
+    {
+     "start": "2026-10-08T22:30:00+00:00",
+     "end": "2026-10-09T00:00:00+00:00",
+     "emby_id": "215069",
+     "kind": "movie",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag..."
+    },
+    {
+     "start": "2026-10-09T00:00:00+00:00",
+     "end": "2026-10-09T01:30:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-09T01:30:00+00:00",
+     "end": "2026-10-09T03:00:00+00:00",
+     "emby_id": "215069",
+     "kind": "movie",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag..."
+    },
+    {
+     "start": "2026-10-09T03:00:00+00:00",
+     "end": "2026-10-09T04:30:00+00:00",
+     "emby_id": "216409",
+     "kind": "movie",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min..."
+    },
+    {
+     "start": "2026-10-09T04:30:00+00:00",
+     "end": "2026-10-09T06:00:00+00:00",
+     "emby_id": "215835",
+     "kind": "movie",
+     "title": "The Black Tower",
+     "year": 1985,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 The Black Tower John Smith `` Uncanny tower haunting a London flat; slow-bu..."
+    },
+    {
+     "start": "2026-10-09T06:00:00+00:00",
+     "end": "2026-10-09T07:30:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-09T07:30:00+00:00",
+     "end": "2026-10-09T09:00:00+00:00",
+     "emby_id": "215487",
+     "kind": "movie",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc..."
+    },
+    {
+     "start": "2026-10-09T09:00:00+00:00",
+     "end": "2026-10-09T10:30:00+00:00",
+     "emby_id": "215306",
+     "kind": "movie",
+     "title": "Dots 1 & 2",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Dots 1 & 2 \u2014 `` Hand-painted/drawn-on-film animation; visual music."
+    },
+    {
+     "start": "2026-10-09T10:30:00+00:00",
+     "end": "2026-10-09T12:00:00+00:00",
+     "emby_id": "216383",
+     "kind": "movie",
+     "title": "A Study in Choreography for Camera",
+     "year": 1945,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 A Study in Choreography for Camera Maya Deren `` Dance film; body as camera..."
+    },
+    {
+     "start": "2026-10-09T12:00:00+00:00",
+     "end": "2026-10-09T13:30:00+00:00",
+     "emby_id": "215484",
+     "kind": "movie",
+     "title": "Early Abstractions",
+     "year": 1939,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Early Abstractions (-) Harry Smith `` Painted-film jazz abstractions; Ameri..."
+    },
+    {
+     "start": "2026-10-09T13:30:00+00:00",
+     "end": "2026-10-09T15:00:00+00:00",
+     "emby_id": "215310",
+     "kind": "movie",
+     "title": "Wrist Trick",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Wrist Trick Paul Sharits `` Flicker diptych; retinal cinema."
+    },
+    {
+     "start": "2026-10-09T15:00:00+00:00",
+     "end": "2026-10-09T16:30:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-09T16:30:00+00:00",
+     "end": "2026-10-09T18:00:00+00:00",
+     "emby_id": "215069",
+     "kind": "movie",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag..."
+    },
+    {
+     "start": "2026-10-09T18:00:00+00:00",
+     "end": "2026-10-09T19:30:00+00:00",
+     "emby_id": "216409",
+     "kind": "movie",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min..."
+    },
+    {
+     "start": "2026-10-09T19:30:00+00:00",
+     "end": "2026-10-09T21:00:00+00:00",
+     "emby_id": "215835",
+     "kind": "movie",
+     "title": "The Black Tower",
+     "year": 1985,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 The Black Tower John Smith `` Uncanny tower haunting a London flat; slow-bu..."
+    },
+    {
+     "start": "2026-10-09T21:00:00+00:00",
+     "end": "2026-10-09T22:30:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-09T22:30:00+00:00",
+     "end": "2026-10-10T00:00:00+00:00",
+     "emby_id": "215487",
+     "kind": "movie",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc..."
+    },
+    {
+     "start": "2026-10-10T00:00:00+00:00",
+     "end": "2026-10-10T01:30:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-10T01:30:00+00:00",
+     "end": "2026-10-10T03:00:00+00:00",
+     "emby_id": "215069",
+     "kind": "movie",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag..."
+    },
+    {
+     "start": "2026-10-10T03:00:00+00:00",
+     "end": "2026-10-10T04:30:00+00:00",
+     "emby_id": "216409",
+     "kind": "movie",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min..."
+    },
+    {
+     "start": "2026-10-10T04:30:00+00:00",
+     "end": "2026-10-10T06:00:00+00:00",
+     "emby_id": "215310",
+     "kind": "movie",
+     "title": "Wrist Trick",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Wrist Trick Paul Sharits `` Flicker diptych; retinal cinema."
+    },
+    {
+     "start": "2026-10-10T06:00:00+00:00",
+     "end": "2026-10-10T07:30:00+00:00",
+     "emby_id": "215487",
+     "kind": "movie",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc..."
+    },
+    {
+     "start": "2026-10-10T07:30:00+00:00",
+     "end": "2026-10-10T09:00:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-10T09:00:00+00:00",
+     "end": "2026-10-10T10:30:00+00:00",
+     "emby_id": "215835",
+     "kind": "movie",
+     "title": "The Black Tower",
+     "year": 1985,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 The Black Tower John Smith `` Uncanny tower haunting a London flat; slow-bu..."
+    },
+    {
+     "start": "2026-10-10T10:30:00+00:00",
+     "end": "2026-10-10T12:00:00+00:00",
+     "emby_id": "215306",
+     "kind": "movie",
+     "title": "Dots 1 & 2",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Dots 1 & 2 \u2014 `` Hand-painted/drawn-on-film animation; visual music."
+    },
+    {
+     "start": "2026-10-10T12:00:00+00:00",
+     "end": "2026-10-10T13:30:00+00:00",
+     "emby_id": "216383",
+     "kind": "movie",
+     "title": "A Study in Choreography for Camera",
+     "year": 1945,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 A Study in Choreography for Camera Maya Deren `` Dance film; body as camera..."
+    },
+    {
+     "start": "2026-10-10T13:30:00+00:00",
+     "end": "2026-10-10T15:00:00+00:00",
+     "emby_id": "215484",
+     "kind": "movie",
+     "title": "Early Abstractions",
+     "year": 1939,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Early Abstractions (-) Harry Smith `` Painted-film jazz abstractions; Ameri..."
+    },
+    {
+     "start": "2026-10-10T15:00:00+00:00",
+     "end": "2026-10-10T16:30:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-10T16:30:00+00:00",
+     "end": "2026-10-10T18:00:00+00:00",
+     "emby_id": "215069",
+     "kind": "movie",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag..."
+    },
+    {
+     "start": "2026-10-10T18:00:00+00:00",
+     "end": "2026-10-10T19:30:00+00:00",
+     "emby_id": "216409",
+     "kind": "movie",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min..."
+    },
+    {
+     "start": "2026-10-10T19:30:00+00:00",
+     "end": "2026-10-10T21:00:00+00:00",
+     "emby_id": "215310",
+     "kind": "movie",
+     "title": "Wrist Trick",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Wrist Trick Paul Sharits `` Flicker diptych; retinal cinema."
+    },
+    {
+     "start": "2026-10-10T21:00:00+00:00",
+     "end": "2026-10-10T22:30:00+00:00",
+     "emby_id": "215487",
+     "kind": "movie",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc..."
+    },
+    {
+     "start": "2026-10-10T22:30:00+00:00",
+     "end": "2026-10-11T00:00:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-11T00:00:00+00:00",
+     "end": "2026-10-11T01:30:00+00:00",
+     "emby_id": "216383",
+     "kind": "movie",
+     "title": "A Study in Choreography for Camera",
+     "year": 1945,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 A Study in Choreography for Camera Maya Deren `` Dance film; body as camera..."
+    },
+    {
+     "start": "2026-10-11T01:30:00+00:00",
+     "end": "2026-10-11T03:00:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-11T03:00:00+00:00",
+     "end": "2026-10-11T04:30:00+00:00",
+     "emby_id": "215487",
+     "kind": "movie",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc..."
+    },
+    {
+     "start": "2026-10-11T04:30:00+00:00",
+     "end": "2026-10-11T06:00:00+00:00",
+     "emby_id": "215310",
+     "kind": "movie",
+     "title": "Wrist Trick",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Wrist Trick Paul Sharits `` Flicker diptych; retinal cinema."
+    },
+    {
+     "start": "2026-10-11T06:00:00+00:00",
+     "end": "2026-10-11T07:30:00+00:00",
+     "emby_id": "216409",
+     "kind": "movie",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min..."
+    },
+    {
+     "start": "2026-10-11T07:30:00+00:00",
+     "end": "2026-10-11T09:00:00+00:00",
+     "emby_id": "215538",
+     "kind": "movie",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead..."
+    },
+    {
+     "start": "2026-10-11T09:00:00+00:00",
+     "end": "2026-10-11T10:30:00+00:00",
+     "emby_id": "215069",
+     "kind": "movie",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag..."
+    },
+    {
+     "start": "2026-10-11T10:30:00+00:00",
+     "end": "2026-10-11T12:00:00+00:00",
+     "emby_id": "215484",
+     "kind": "movie",
+     "title": "Early Abstractions",
+     "year": 1939,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Early Abstractions (-) Harry Smith `` Painted-film jazz abstractions; Ameri..."
+    },
+    {
+     "start": "2026-10-11T12:00:00+00:00",
+     "end": "2026-10-11T13:30:00+00:00",
+     "emby_id": "215835",
+     "kind": "movie",
+     "title": "The Black Tower",
+     "year": 1985,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 The Black Tower John Smith `` Uncanny tower haunting a London flat; slow-bu..."
+    },
+    {
+     "start": "2026-10-11T13:30:00+00:00",
+     "end": "2026-10-11T15:00:00+00:00",
+     "emby_id": "215306",
+     "kind": "movie",
+     "title": "Dots 1 & 2",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Dots 1 & 2 \u2014 `` Hand-painted/drawn-on-film animation; visual music."
+    },
+    {
+     "start": "2026-10-11T15:00:00+00:00",
+     "end": "2026-10-11T16:30:00+00:00",
+     "emby_id": "216383",
+     "kind": "movie",
+     "title": "A Study in Choreography for Camera",
+     "year": 1945,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "5 A Study in Choreography for Camera Maya Deren `` Dance film; body as camera..."
+    },
+    {
+     "start": "2026-10-11T16:30:00+00:00",
+     "end": "2026-10-11T18:00:00+00:00",
+     "emby_id": "216815",
+     "kind": "movie",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p..."
+    },
+    {
+     "start": "2026-10-11T18:00:00+00:00",
+     "end": "2026-10-11T19:30:00+00:00",
+     "emby_id": "215487",
+     "kind": "movie",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc..."
+    },
+    {
+     "start": "2026-10-11T19:30:00+00:00",
+     "end": "2026-10-11T21:00:00+00:00",
+     "emby_id": "215310",
+     "kind": "movie",
+     "title": "Wrist Trick",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Wrist Trick Paul Sharits `` Flicker diptych; retinal cinema."
+    },
+    {
+     "start": "2026-10-11T21:00:00+00:00",
+     "end": "2026-10-11T22:30:00+00:00",
+     "emby_id": "216409",
+     "kind": "movie",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min..."
+    },
+    {
+     "start": "2026-10-11T22:30:00+00:00",
+     "end": "2026-10-12T00:00:00+00:00",
      "emby_id": "215538",
      "kind": "movie",
      "title": "Hapax Legomena I: (nostalgia)",
