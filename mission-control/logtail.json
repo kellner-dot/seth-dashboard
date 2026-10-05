@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T21:46:43+0000",
+ "generated_iso": "2026-10-05T22:16:39+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Mon Oct  5 22:16:37 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -83,10 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T16:31:38-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T16:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +100,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T17:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T18:01:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
