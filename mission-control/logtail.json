@@ -1,56 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T05:16:36+0000",
+ "generated_iso": "2026-10-05T05:46:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 01:15:46.679 Warn DynamicHlsService-0HNP2JA11TA4C:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "t": "2026-10-05 01:19:16.803 Warn DynamicHlsService-0HNP2JA11TA63:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
      "c": "warn"
     },
     {
-     "t": "2026-10-05 01:15:46.679 Info DynamicHlsService-0HNP2JA11TA4C:00000001: ProcessRun 'StreamTranscode fe6680' Process exited with code -1 - Failed",
+     "t": "2026-10-05 01:19:16.803 Info DynamicHlsService-0HNP2JA11TA63:00000001: ProcessRun 'StreamTranscode 65502c' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:15:56.709 Warn DynamicHlsService-0HNP2JA11TA4E:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "t": "2026-10-05 01:19:26.864 Warn DynamicHlsService-0HNP2JA11TA65:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
      "c": "warn"
     },
     {
-     "t": "2026-10-05 01:15:56.709 Info DynamicHlsService-0HNP2JA11TA4E:00000001: ProcessRun 'StreamTranscode 05b5dd' Process exited with code -1 - Failed",
+     "t": "2026-10-05 01:19:26.865 Info DynamicHlsService-0HNP2JA11TA65:00000001: ProcessRun 'StreamTranscode 17e749' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:16:06.679 Warn DynamicHlsService-0HNP2JA11TA4G:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "t": "2026-10-05 01:19:36.819 Warn DynamicHlsService-0HNP2JA11TA67:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
      "c": "warn"
     },
     {
-     "t": "2026-10-05 01:16:06.679 Info DynamicHlsService-0HNP2JA11TA4G:00000001: ProcessRun 'StreamTranscode 44bb0c' Process exited with code -1 - Failed",
+     "t": "2026-10-05 01:19:36.819 Info DynamicHlsService-0HNP2JA11TA67:00000001: ProcessRun 'StreamTranscode f2534c' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:16:16.787 Warn DynamicHlsService-0HNP2JA11TA4I:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "t": "2026-10-05 01:19:46.912 Warn DynamicHlsService-0HNP2JA11TA6A:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
      "c": "warn"
     },
     {
-     "t": "2026-10-05 01:16:16.787 Info DynamicHlsService-0HNP2JA11TA4I:00000001: ProcessRun 'StreamTranscode 7342ba' Process exited with code -1 - Failed",
+     "t": "2026-10-05 01:19:46.913 Info DynamicHlsService-0HNP2JA11TA6A:00000001: ProcessRun 'StreamTranscode f162d3' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:16:26.740 Warn DynamicHlsService-0HNP2JA11TA4K:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "t": "2026-10-05 01:19:56.805 Warn DynamicHlsService-0HNP2JA11TA6C:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
      "c": "warn"
     },
     {
-     "t": "2026-10-05 01:16:26.740 Info DynamicHlsService-0HNP2JA11TA4K:00000001: ProcessRun 'StreamTranscode dd8aa2' Process exited with code -1 - Failed",
+     "t": "2026-10-05 01:19:56.805 Info DynamicHlsService-0HNP2JA11TA6C:00000001: ProcessRun 'StreamTranscode 3800fb' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-05 01:16:36.692 Warn DynamicHlsService-0HNP2JA11TA4M:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "t": "2026-10-05 01:20:04.773 Warn DynamicHlsService-0HNP2JA11TA6E:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
      "c": "warn"
     },
     {
-     "t": "2026-10-05 01:16:36.693 Info DynamicHlsService-0HNP2JA11TA4M:00000001: ProcessRun 'StreamTranscode e5cad1' Process exited with code -1 - Failed",
+     "t": "2026-10-05 01:20:04.774 Info DynamicHlsService-0HNP2JA11TA6E:00000001: ProcessRun 'StreamTranscode 5e59e1' Process exited with code -1 - Failed",
      "c": "err"
     }
    ]
@@ -83,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T00:46:42-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T00:46:42-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T01:01:30-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T01:01:30-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T01:16:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T01:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:31:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:46:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T01:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
