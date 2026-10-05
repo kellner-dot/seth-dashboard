@@ -1,16 +1,65 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T02:46:40+0000",
+ "generated_iso": "2026-10-05T03:16:37+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsing.",
+     "c": "err"
+    },
+    {
+     "t": "\t ---> System.TimeoutException: A task was canceled.",
+     "c": "err"
+    },
+    {
+     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.",
+     "c": "err"
+    },
+    {
+     "t": "\t   --- End of inner exception stack trace ---",
+     "c": "err"
+    },
+    {
+     "t": "\t   --- End of inner exception stack trace ---",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
+     "c": "err"
+    },
+    {
+     "t": "\t   --- End of inner exception stack trace ---",
+     "c": "err"
+    },
+    {
+     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsin",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void HandleFailure(System.Exception, Boolean, System.Net.Http.HttpResponseMessage, System.Threading.CancellationTokenSource, System.Threa",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
+     "c": "err"
+    },
+    {
+     "t": "\tInnerException: System.TimeoutException: A task was canceled.",
+     "c": "err"
+    },
+    {
+     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: A task was canceled.",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Secret Service running (fixed)",
      "c": "ok"
     },
     {
@@ -34,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T21:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T21:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T22:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -55,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T22:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T23:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T23:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
