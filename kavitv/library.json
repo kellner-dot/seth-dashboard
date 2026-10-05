@@ -168,7 +168,19 @@
      "poster": "http://10.0.0.98:8096/emby/Items/216661/Images/Primary?maxWidth=400"
     }
    ],
-   "bumpers": []
+   "bumpers": [
+    {
+     "emby_id": "445992",
+     "title": "80s Commercials 1982",
+     "year": 1982,
+     "duration_s": 940,
+     "genres": [
+      "Commercial",
+      "Retro"
+     ],
+     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+    }
+   ]
   },
   "kavitv.experimental": {
    "name": "KaviTV Experimental",
@@ -349,7 +361,19 @@
      "poster": "http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"
     }
    ],
-   "bumpers": []
+   "bumpers": [
+    {
+     "emby_id": "445992",
+     "title": "80s Commercials 1982",
+     "year": 1982,
+     "duration_s": 940,
+     "genres": [
+      "Commercial",
+      "Retro"
+     ],
+     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+    }
+   ]
   },
   "kavitv.independent": {
    "name": "KaviTV Independent",
@@ -522,7 +546,19 @@
      "poster": "http://10.0.0.98:8096/emby/Items/217320/Images/Primary?maxWidth=400"
     }
    ],
-   "bumpers": []
+   "bumpers": [
+    {
+     "emby_id": "445992",
+     "title": "80s Commercials 1982",
+     "year": 1982,
+     "duration_s": 940,
+     "genres": [
+      "Commercial",
+      "Retro"
+     ],
+     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+    }
+   ]
   }
  }
 }
