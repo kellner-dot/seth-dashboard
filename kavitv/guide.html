@@ -283,11 +283,27 @@
     statusEl.className = 'status' + (isErr ? ' err' : '');
   }
 
-  /* ---------- posters (kavitv/posters/<item_id>.jpg, cached daily) ---------- */
+  /* ---------- posters (Drive-hosted place cards, fallback: kavitv/posters/<item_id>.jpg) ---------- */
+  var DRIVE_POSTERS = {
+    "215528": "https://drive.google.com/uc?export=download&id=1hCgNH-pTRXIs0UIwtkajDrtpRcEFiMyS",
+    "215530": "https://drive.google.com/uc?export=download&id=1rFGXPfGhpvEJDlVCX3tu1_6zK13xkHUW",
+    "216369": "https://drive.google.com/uc?export=download&id=1q_lMa5aobBDiAQ1jenEqdAkcfquycpNO",
+    "216571": "https://drive.google.com/uc?export=download&id=1birXzWsOUQWOcEpaETTh3YXlvTxTk8Lf",
+    "217211": "https://drive.google.com/uc?export=download&id=1weZsOskpnTpE0LApVLfsgS6kTeY87s9a",
+    "217333": "https://drive.google.com/uc?export=download&id=1q8fsTNwGGys9ndq8TDkkiVO271qwaWUl",
+    "217395": "https://drive.google.com/uc?export=download&id=16vfES_BRb8ZcC07jY1PpeqVj2s8V-KjT",
+    "248643": "https://drive.google.com/uc?export=download&id=1NpWZ8lcBNLPfNQ_r6lIwRSrqeEz1-2pi",
+    "248769": "https://drive.google.com/uc?export=download&id=1H3bGBvStyNKOSHKNuqjtcgD-R4xYpaYO",
+    "248883": "https://drive.google.com/uc?export=download&id=1FSNc4Gv0_HuiUQOFQHTzGGCpbJF662uA",
+    "249058": "https://drive.google.com/uc?export=download&id=1lvwznCxMPluzOq8LoPIwoy3xXSxbe0HZ",
+    "249231": "https://drive.google.com/uc?export=download&id=106lBLMV2h88TMoo8uHU5sTmlCCLk314n"
+  };
   function posterFor(p, cls){
     if (!p || !p.item_id) return '';
-    return '<img class="' + cls + '" loading="lazy" alt="" src="posters/' +
-      esc(String(p.item_id)) + '.jpg" onerror="this.style.display=\'none\'">';
+    var id = String(p.item_id);
+    var src = DRIVE_POSTERS[id] || ('posters/' + esc(id) + '.jpg');
+    return '<img class="' + cls + '" loading="lazy" alt="" src="' + src +
+      '" onerror="this.style.display=\'none\'">';
   }
 
   /* ---------- render ---------- */
