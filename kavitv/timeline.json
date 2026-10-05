@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T00:13:20.837403+00:00",
+ "generated_at": "2026-10-05T03:27:09.507341+00:00",
  "window_days": 3,
  "channels": {
   "kavitv.horror": {
@@ -7,76 +7,6 @@
     {
      "start": "2026-10-04T00:00:00+00:00",
      "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "216043",
-     "kind": "movie",
-     "title": "10/65: Self-Mutilation",
-     "year": 1965,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
-    },
-    {
-     "start": "2026-10-04T01:30:00+00:00",
-     "end": "2026-10-04T03:01:00+00:00",
-     "emby_id": "373097",
-     "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
-    },
-    {
-     "start": "2026-10-04T03:01:00+00:00",
-     "end": "2026-10-04T03:39:00+00:00",
-     "emby_id": "373025",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 2280,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-04T03:39:00+00:00",
-     "end": "2026-10-04T05:29:00+00:00",
-     "emby_id": "372823",
-     "kind": "movie",
-     "title": "Backrooms",
-     "year": 2026,
-     "duration_s": 6600,
-     "genres": [
-      "Horror",
-      "Mystery",
-      "Science Fiction"
-     ],
-     "overview": "A strange doorway appears in the basement of a furniture showroom."
-    },
-    {
-     "start": "2026-10-04T05:29:00+00:00",
-     "end": "2026-10-04T05:44:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T05:44:40+00:00",
-     "end": "2026-10-04T07:14:40+00:00",
      "emby_id": "372833",
      "kind": "movie",
      "title": "Deep Water",
@@ -90,22 +20,37 @@
      "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
     },
     {
-     "start": "2026-10-04T07:14:40+00:00",
-     "end": "2026-10-04T08:44:40+00:00",
-     "emby_id": "216661",
+     "start": "2026-10-04T01:30:00+00:00",
+     "end": "2026-10-04T02:08:00+00:00",
+     "emby_id": "373025",
      "kind": "movie",
-     "title": "Nocturne",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 2280,
+     "genres": [
+      "Fantasy",
+      "Horror"
+     ],
+     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
+    },
+    {
+     "start": "2026-10-04T02:08:00+00:00",
+     "end": "2026-10-04T03:38:00+00:00",
+     "emby_id": "216996",
+     "kind": "movie",
+     "title": "Walk With Me",
      "year": 1998,
      "duration_s": 5400,
      "genres": [
       "Drama",
+      "Mystery",
       "Horror"
      ],
-     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
     },
     {
-     "start": "2026-10-04T08:44:40+00:00",
-     "end": "2026-10-04T10:14:40+00:00",
+     "start": "2026-10-04T03:38:00+00:00",
+     "end": "2026-10-04T05:08:00+00:00",
      "emby_id": "215013",
      "kind": "movie",
      "title": "Office Killer",
@@ -119,8 +64,21 @@
      "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
     },
     {
-     "start": "2026-10-04T10:14:40+00:00",
-     "end": "2026-10-04T11:44:40+00:00",
+     "start": "2026-10-04T05:08:00+00:00",
+     "end": "2026-10-04T06:39:00+00:00",
+     "emby_id": "373097",
+     "kind": "movie",
+     "title": "Neon Maniacs",
+     "year": 1986,
+     "duration_s": 5460,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
+    },
+    {
+     "start": "2026-10-04T06:39:00+00:00",
+     "end": "2026-10-04T08:09:00+00:00",
      "emby_id": "216365",
      "kind": "movie",
      "title": "Love Reinvented",
@@ -133,108 +91,22 @@
      "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
     },
     {
-     "start": "2026-10-04T11:44:40+00:00",
-     "end": "2026-10-04T12:00:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T12:00:20+00:00",
-     "end": "2026-10-04T13:30:20+00:00",
-     "emby_id": "216430",
+     "start": "2026-10-04T08:09:00+00:00",
+     "end": "2026-10-04T09:39:00+00:00",
+     "emby_id": "216661",
      "kind": "movie",
-     "title": "Blind Alley",
-     "year": 2011,
-     "duration_s": 5400,
-     "genres": [
-      "Action",
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley."
-    },
-    {
-     "start": "2026-10-04T13:30:20+00:00",
-     "end": "2026-10-04T15:00:20+00:00",
-     "emby_id": "217408",
-     "kind": "movie",
-     "title": "Phantom of the Paradise",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise."
-    },
-    {
-     "start": "2026-10-04T15:00:20+00:00",
-     "end": "2026-10-04T16:30:20+00:00",
-     "emby_id": "216571",
-     "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
-    },
-    {
-     "start": "2026-10-04T16:30:20+00:00",
-     "end": "2026-10-04T18:05:20+00:00",
-     "emby_id": "372888",
-     "kind": "movie",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 5700,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
-    },
-    {
-     "start": "2026-10-04T18:05:20+00:00",
-     "end": "2026-10-04T18:21:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T18:21:00+00:00",
-     "end": "2026-10-04T19:51:00+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Twin Peaks: Fire Walk with Me",
-     "year": 1992,
+     "title": "Nocturne",
+     "year": 1998,
      "duration_s": 5400,
      "genres": [
       "Drama",
-      "Mystery",
       "Horror"
      ],
-     "overview": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and"
+     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
     },
     {
-     "start": "2026-10-04T19:51:00+00:00",
-     "end": "2026-10-04T21:21:00+00:00",
+     "start": "2026-10-04T09:39:00+00:00",
+     "end": "2026-10-04T11:09:00+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -247,21 +119,80 @@
      "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
     },
     {
-     "start": "2026-10-04T21:21:00+00:00",
-     "end": "2026-10-04T22:52:00+00:00",
-     "emby_id": "373097",
+     "start": "2026-10-04T11:09:00+00:00",
+     "end": "2026-10-04T12:39:00+00:00",
+     "emby_id": "217408",
      "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-04T12:39:00+00:00",
+     "end": "2026-10-04T14:09:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
      "genres": [
       "Horror"
      ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
     },
     {
-     "start": "2026-10-04T22:52:00+00:00",
-     "end": "2026-10-04T23:30:00+00:00",
+     "start": "2026-10-04T14:09:00+00:00",
+     "end": "2026-10-04T15:44:00+00:00",
+     "emby_id": "372888",
+     "kind": "movie",
+     "title": "We Bury the Dead",
+     "year": 2026,
+     "duration_s": 5700,
+     "genres": [
+      "Horror",
+      "Thriller"
+     ],
+     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
+    },
+    {
+     "start": "2026-10-04T15:44:00+00:00",
+     "end": "2026-10-04T17:34:00+00:00",
+     "emby_id": "372823",
+     "kind": "movie",
+     "title": "Backrooms",
+     "year": 2026,
+     "duration_s": 6600,
+     "genres": [
+      "Horror",
+      "Mystery",
+      "Science Fiction"
+     ],
+     "overview": "A strange doorway appears in the basement of a furniture showroom."
+    },
+    {
+     "start": "2026-10-04T17:34:00+00:00",
+     "end": "2026-10-04T19:04:00+00:00",
+     "emby_id": "372833",
+     "kind": "movie",
+     "title": "Deep Water",
+     "year": 2026,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Adventure"
+     ],
+     "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
+    },
+    {
+     "start": "2026-10-04T19:04:00+00:00",
+     "end": "2026-10-04T19:42:00+00:00",
      "emby_id": "373025",
      "kind": "movie",
      "title": "The Inauguration of the Pleasure Dome",
@@ -274,33 +205,48 @@
      "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
     },
     {
-     "start": "2026-10-04T23:30:00+00:00",
-     "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1800,
+     "start": "2026-10-04T19:42:00+00:00",
+     "end": "2026-10-04T21:12:00+00:00",
+     "emby_id": "216996",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Drama",
+      "Mystery",
+      "Horror"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-04T21:12:00+00:00",
+     "end": "2026-10-05T00:00:00+00:00",
+     "emby_id": "215013",
+     "kind": "movie",
+     "title": "Office Killer",
+     "year": 1997,
+     "duration_s": 10080,
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Comedy"
+     ],
+     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
     },
     {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
-     "emby_id": "216430",
+     "emby_id": "216043",
      "kind": "movie",
-     "title": "Blind Alley",
-     "year": 2011,
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
      "duration_s": 5400,
      "genres": [
-      "Action",
-      "Horror",
-      "Thriller"
+      "Drama",
+      "Horror"
      ],
-     "overview": "A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley."
+     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
     },
     {
      "start": "2026-10-05T01:30:00+00:00",
@@ -344,36 +290,22 @@
     },
     {
      "start": "2026-10-05T06:06:00+00:00",
-     "end": "2026-10-05T06:21:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T06:21:40+00:00",
-     "end": "2026-10-05T08:11:40+00:00",
-     "emby_id": "372823",
+     "end": "2026-10-05T07:36:00+00:00",
+     "emby_id": "216996",
      "kind": "movie",
-     "title": "Backrooms",
-     "year": 2026,
-     "duration_s": 6600,
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
      "genres": [
-      "Horror",
+      "Drama",
       "Mystery",
-      "Science Fiction"
+      "Horror"
      ],
-     "overview": "A strange doorway appears in the basement of a furniture showroom."
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
     },
     {
-     "start": "2026-10-05T08:11:40+00:00",
-     "end": "2026-10-05T09:41:40+00:00",
+     "start": "2026-10-05T07:36:00+00:00",
+     "end": "2026-10-05T09:06:00+00:00",
      "emby_id": "216365",
      "kind": "movie",
      "title": "Love Reinvented",
@@ -386,8 +318,8 @@
      "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
     },
     {
-     "start": "2026-10-05T09:41:40+00:00",
-     "end": "2026-10-05T11:11:40+00:00",
+     "start": "2026-10-05T09:06:00+00:00",
+     "end": "2026-10-05T10:36:00+00:00",
      "emby_id": "372833",
      "kind": "movie",
      "title": "Deep Water",
@@ -401,8 +333,8 @@
      "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
     },
     {
-     "start": "2026-10-05T11:11:40+00:00",
-     "end": "2026-10-05T12:41:40+00:00",
+     "start": "2026-10-05T10:36:00+00:00",
+     "end": "2026-10-05T12:06:00+00:00",
      "emby_id": "216661",
      "kind": "movie",
      "title": "Nocturne",
@@ -415,36 +347,8 @@
      "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
     },
     {
-     "start": "2026-10-05T12:41:40+00:00",
-     "end": "2026-10-05T12:57:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T12:57:20+00:00",
-     "end": "2026-10-05T14:27:20+00:00",
-     "emby_id": "216043",
-     "kind": "movie",
-     "title": "10/65: Self-Mutilation",
-     "year": 1965,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
-    },
-    {
-     "start": "2026-10-05T14:27:20+00:00",
-     "end": "2026-10-05T15:05:20+00:00",
+     "start": "2026-10-05T12:06:00+00:00",
+     "end": "2026-10-05T12:44:00+00:00",
      "emby_id": "373025",
      "kind": "movie",
      "title": "The Inauguration of the Pleasure Dome",
@@ -457,251 +361,8 @@
      "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
     },
     {
-     "start": "2026-10-05T15:05:20+00:00",
-     "end": "2026-10-05T16:35:20+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Twin Peaks: Fire Walk with Me",
-     "year": 1992,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and"
-    },
-    {
-     "start": "2026-10-05T16:35:20+00:00",
-     "end": "2026-10-05T18:05:20+00:00",
-     "emby_id": "215013",
-     "kind": "movie",
-     "title": "Office Killer",
-     "year": 1997,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
-    },
-    {
-     "start": "2026-10-05T18:05:20+00:00",
-     "end": "2026-10-05T18:21:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T18:21:00+00:00",
-     "end": "2026-10-05T19:51:00+00:00",
-     "emby_id": "217408",
-     "kind": "movie",
-     "title": "Phantom of the Paradise",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise."
-    },
-    {
-     "start": "2026-10-05T19:51:00+00:00",
-     "end": "2026-10-05T21:21:00+00:00",
-     "emby_id": "216430",
-     "kind": "movie",
-     "title": "Blind Alley",
-     "year": 2011,
-     "duration_s": 5400,
-     "genres": [
-      "Action",
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley."
-    },
-    {
-     "start": "2026-10-05T21:21:00+00:00",
-     "end": "2026-10-05T22:52:00+00:00",
-     "emby_id": "373097",
-     "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
-    },
-    {
-     "start": "2026-10-05T22:52:00+00:00",
-     "end": "2026-10-05T23:07:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T23:07:40+00:00",
-     "end": "2026-10-05T23:23:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T23:23:20+00:00",
-     "end": "2026-10-05T23:39:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T23:39:00+00:00",
-     "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1260,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T00:00:00+00:00",
-     "end": "2026-10-06T01:35:00+00:00",
-     "emby_id": "372888",
-     "kind": "movie",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 5700,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
-    },
-    {
-     "start": "2026-10-06T01:35:00+00:00",
-     "end": "2026-10-06T03:05:00+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Twin Peaks: Fire Walk with Me",
-     "year": 1992,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and"
-    },
-    {
-     "start": "2026-10-06T03:05:00+00:00",
-     "end": "2026-10-06T04:35:00+00:00",
-     "emby_id": "216043",
-     "kind": "movie",
-     "title": "10/65: Self-Mutilation",
-     "year": 1965,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
-    },
-    {
-     "start": "2026-10-06T04:35:00+00:00",
-     "end": "2026-10-06T06:05:00+00:00",
-     "emby_id": "215013",
-     "kind": "movie",
-     "title": "Office Killer",
-     "year": 1997,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
-    },
-    {
-     "start": "2026-10-06T06:05:00+00:00",
-     "end": "2026-10-06T06:20:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T06:20:40+00:00",
-     "end": "2026-10-06T07:50:40+00:00",
-     "emby_id": "216430",
-     "kind": "movie",
-     "title": "Blind Alley",
-     "year": 2011,
-     "duration_s": 5400,
-     "genres": [
-      "Action",
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley."
-    },
-    {
-     "start": "2026-10-06T07:50:40+00:00",
-     "end": "2026-10-06T09:21:40+00:00",
-     "emby_id": "373097",
-     "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
-    },
-    {
-     "start": "2026-10-06T09:21:40+00:00",
-     "end": "2026-10-06T11:11:40+00:00",
+     "start": "2026-10-05T12:44:00+00:00",
+     "end": "2026-10-05T14:34:00+00:00",
      "emby_id": "372823",
      "kind": "movie",
      "title": "Backrooms",
@@ -715,65 +376,65 @@
      "overview": "A strange doorway appears in the basement of a furniture showroom."
     },
     {
-     "start": "2026-10-06T11:11:40+00:00",
-     "end": "2026-10-06T12:41:40+00:00",
-     "emby_id": "216661",
+     "start": "2026-10-05T14:34:00+00:00",
+     "end": "2026-10-05T16:04:00+00:00",
+     "emby_id": "215013",
      "kind": "movie",
-     "title": "Nocturne",
-     "year": 1998,
+     "title": "Office Killer",
+     "year": 1997,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "Horror"
+      "Horror",
+      "Thriller",
+      "Comedy"
      ],
-     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
+     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
     },
     {
-     "start": "2026-10-06T12:41:40+00:00",
-     "end": "2026-10-06T12:57:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T12:57:20+00:00",
-     "end": "2026-10-06T13:35:20+00:00",
-     "emby_id": "373025",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 2280,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-06T13:35:20+00:00",
-     "end": "2026-10-06T15:05:20+00:00",
+     "start": "2026-10-05T16:04:00+00:00",
+     "end": "2026-10-05T17:34:00+00:00",
      "emby_id": "217408",
      "kind": "movie",
-     "title": "Phantom of the Paradise",
-     "year": 1974,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [
       "Comedy",
       "Drama",
       "Horror"
      ],
-     "overview": "Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise."
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
     },
     {
-     "start": "2026-10-06T15:05:20+00:00",
-     "end": "2026-10-06T16:35:20+00:00",
+     "start": "2026-10-05T17:34:00+00:00",
+     "end": "2026-10-05T19:04:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+    },
+    {
+     "start": "2026-10-05T19:04:00+00:00",
+     "end": "2026-10-05T20:35:00+00:00",
+     "emby_id": "373097",
+     "kind": "movie",
+     "title": "Neon Maniacs",
+     "year": 1986,
+     "duration_s": 5460,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
+    },
+    {
+     "start": "2026-10-05T20:35:00+00:00",
+     "end": "2026-10-05T22:05:00+00:00",
      "emby_id": "216571",
      "kind": "movie",
      "title": "Stille Nacht",
@@ -785,8 +446,164 @@
      "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
     },
     {
-     "start": "2026-10-06T16:35:20+00:00",
-     "end": "2026-10-06T18:05:20+00:00",
+     "start": "2026-10-05T22:05:00+00:00",
+     "end": "2026-10-06T00:00:00+00:00",
+     "emby_id": "372888",
+     "kind": "movie",
+     "title": "We Bury the Dead",
+     "year": 2026,
+     "duration_s": 6900,
+     "genres": [
+      "Horror",
+      "Thriller"
+     ],
+     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
+    },
+    {
+     "start": "2026-10-06T00:00:00+00:00",
+     "end": "2026-10-06T01:50:00+00:00",
+     "emby_id": "372823",
+     "kind": "movie",
+     "title": "Backrooms",
+     "year": 2026,
+     "duration_s": 6600,
+     "genres": [
+      "Horror",
+      "Mystery",
+      "Science Fiction"
+     ],
+     "overview": "A strange doorway appears in the basement of a furniture showroom."
+    },
+    {
+     "start": "2026-10-06T01:50:00+00:00",
+     "end": "2026-10-06T03:20:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+    },
+    {
+     "start": "2026-10-06T03:20:00+00:00",
+     "end": "2026-10-06T04:50:00+00:00",
+     "emby_id": "215013",
+     "kind": "movie",
+     "title": "Office Killer",
+     "year": 1997,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Comedy"
+     ],
+     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
+    },
+    {
+     "start": "2026-10-06T04:50:00+00:00",
+     "end": "2026-10-06T06:20:00+00:00",
+     "emby_id": "216365",
+     "kind": "movie",
+     "title": "Love Reinvented",
+     "year": 1979,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Drama"
+     ],
+     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
+    },
+    {
+     "start": "2026-10-06T06:20:00+00:00",
+     "end": "2026-10-06T07:51:00+00:00",
+     "emby_id": "373097",
+     "kind": "movie",
+     "title": "Neon Maniacs",
+     "year": 1986,
+     "duration_s": 5460,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
+    },
+    {
+     "start": "2026-10-06T07:51:00+00:00",
+     "end": "2026-10-06T09:21:00+00:00",
+     "emby_id": "216996",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-06T09:21:00+00:00",
+     "end": "2026-10-06T10:56:00+00:00",
+     "emby_id": "372888",
+     "kind": "movie",
+     "title": "We Bury the Dead",
+     "year": 2026,
+     "duration_s": 5700,
+     "genres": [
+      "Horror",
+      "Thriller"
+     ],
+     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
+    },
+    {
+     "start": "2026-10-06T10:56:00+00:00",
+     "end": "2026-10-06T11:34:00+00:00",
+     "emby_id": "373025",
+     "kind": "movie",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
+     "duration_s": 2280,
+     "genres": [
+      "Fantasy",
+      "Horror"
+     ],
+     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
+    },
+    {
+     "start": "2026-10-06T11:34:00+00:00",
+     "end": "2026-10-06T13:04:00+00:00",
+     "emby_id": "217408",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-06T13:04:00+00:00",
+     "end": "2026-10-06T14:34:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-06T14:34:00+00:00",
+     "end": "2026-10-06T16:04:00+00:00",
      "emby_id": "372833",
      "kind": "movie",
      "title": "Deep Water",
@@ -800,117 +617,76 @@
      "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
     },
     {
-     "start": "2026-10-06T18:05:20+00:00",
-     "end": "2026-10-06T18:21:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
+     "start": "2026-10-06T16:04:00+00:00",
+     "end": "2026-10-06T17:34:00+00:00",
+     "emby_id": "216661",
+     "kind": "movie",
+     "title": "Nocturne",
+     "year": 1998,
+     "duration_s": 5400,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Drama",
+      "Horror"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
     },
     {
-     "start": "2026-10-06T18:21:00+00:00",
-     "end": "2026-10-06T19:51:00+00:00",
+     "start": "2026-10-06T17:34:00+00:00",
+     "end": "2026-10-06T19:24:00+00:00",
+     "emby_id": "372823",
+     "kind": "movie",
+     "title": "Backrooms",
+     "year": 2026,
+     "duration_s": 6600,
+     "genres": [
+      "Horror",
+      "Mystery",
+      "Science Fiction"
+     ],
+     "overview": "A strange doorway appears in the basement of a furniture showroom."
+    },
+    {
+     "start": "2026-10-06T19:24:00+00:00",
+     "end": "2026-10-06T20:54:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+    },
+    {
+     "start": "2026-10-06T20:54:00+00:00",
+     "end": "2026-10-06T22:24:00+00:00",
+     "emby_id": "215013",
+     "kind": "movie",
+     "title": "Office Killer",
+     "year": 1997,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Comedy"
+     ],
+     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
+    },
+    {
+     "start": "2026-10-06T22:24:00+00:00",
+     "end": "2026-10-07T00:00:00+00:00",
      "emby_id": "216365",
      "kind": "movie",
      "title": "Love Reinvented",
      "year": 1979,
-     "duration_s": 5400,
+     "duration_s": 5760,
      "genres": [
       "Horror",
       "Drama"
      ],
      "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
-    },
-    {
-     "start": "2026-10-06T19:51:00+00:00",
-     "end": "2026-10-06T21:26:00+00:00",
-     "emby_id": "372888",
-     "kind": "movie",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 5700,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
-    },
-    {
-     "start": "2026-10-06T21:26:00+00:00",
-     "end": "2026-10-06T22:56:00+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Twin Peaks: Fire Walk with Me",
-     "year": 1992,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and"
-    },
-    {
-     "start": "2026-10-06T22:56:00+00:00",
-     "end": "2026-10-06T23:11:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T23:11:40+00:00",
-     "end": "2026-10-06T23:27:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T23:27:20+00:00",
-     "end": "2026-10-06T23:43:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T23:43:00+00:00",
-     "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1020,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
     }
    ]
   },
@@ -919,28 +695,28 @@
     {
      "start": "2026-10-04T00:00:00+00:00",
      "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "215270",
+     "emby_id": "215188",
      "kind": "movie",
-     "title": "Montparnasse",
-     "year": 1929,
+     "title": "Letter to Jane: An Investigation About a Still",
+     "year": 1972,
      "duration_s": 5400,
      "genres": [
       "Documentary"
      ],
-     "overview": "Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam"
+     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
     },
     {
      "start": "2026-10-04T01:30:00+00:00",
      "end": "2026-10-04T03:00:00+00:00",
-     "emby_id": "215730",
+     "emby_id": "215192",
      "kind": "movie",
-     "title": "British Sounds",
-     "year": 1970,
+     "title": "Vladimir and Rosa",
+     "year": 1971,
      "duration_s": 5400,
      "genres": [
-      "Documentary"
+      "Drama"
      ],
-     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
+     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
     },
     {
      "start": "2026-10-04T03:00:00+00:00",
@@ -966,21 +742,7 @@
     },
     {
      "start": "2026-10-04T06:00:00+00:00",
-     "end": "2026-10-04T06:15:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T06:15:40+00:00",
-     "end": "2026-10-04T07:45:40+00:00",
+     "end": "2026-10-04T07:30:00+00:00",
      "emby_id": "216384",
      "kind": "movie",
      "title": "The Private Life of a Cat",
@@ -992,22 +754,22 @@
      "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
     },
     {
-     "start": "2026-10-04T07:45:40+00:00",
-     "end": "2026-10-04T09:15:40+00:00",
+     "start": "2026-10-04T07:30:00+00:00",
+     "end": "2026-10-04T09:00:00+00:00",
      "emby_id": "373009",
      "kind": "movie",
-     "title": "The Elephant Man",
-     "year": 1980,
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
       "Drama",
       "History"
      ],
-     "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous fa\u00e7ade, there is revealed a person of great intelligence and sensitivity."
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
-     "start": "2026-10-04T09:15:40+00:00",
-     "end": "2026-10-04T10:45:40+00:00",
+     "start": "2026-10-04T09:00:00+00:00",
+     "end": "2026-10-04T10:30:00+00:00",
      "emby_id": "215996",
      "kind": "movie",
      "title": "The Inauguration of the Pleasure Dome",
@@ -1020,8 +782,8 @@
      "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
     },
     {
-     "start": "2026-10-04T10:45:40+00:00",
-     "end": "2026-10-04T12:15:40+00:00",
+     "start": "2026-10-04T10:30:00+00:00",
+     "end": "2026-10-04T12:00:00+00:00",
      "emby_id": "215995",
      "kind": "movie",
      "title": "Eaux d'Artifice",
@@ -1033,50 +795,47 @@
      "overview": "A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat"
     },
     {
-     "start": "2026-10-04T12:15:40+00:00",
-     "end": "2026-10-04T12:31:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
+     "start": "2026-10-04T12:00:00+00:00",
+     "end": "2026-10-04T12:20:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Experimental"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
     },
     {
-     "start": "2026-10-04T12:31:20+00:00",
-     "end": "2026-10-04T14:01:20+00:00",
-     "emby_id": "215192",
+     "start": "2026-10-04T12:20:21+00:00",
+     "end": "2026-10-04T13:50:21+00:00",
+     "emby_id": "215270",
      "kind": "movie",
-     "title": "Vladimir and Rosa",
-     "year": 1971,
+     "title": "Montparnasse",
+     "year": 1929,
      "duration_s": 5400,
      "genres": [
-      "Drama"
+      "Documentary"
      ],
-     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
+     "overview": "Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam"
     },
     {
-     "start": "2026-10-04T14:01:20+00:00",
-     "end": "2026-10-04T15:38:20+00:00",
-     "emby_id": "372862",
+     "start": "2026-10-04T13:50:21+00:00",
+     "end": "2026-10-04T15:20:21+00:00",
+     "emby_id": "215730",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1997,
-     "duration_s": 5820,
+     "title": "British Sounds",
+     "year": 1970,
+     "duration_s": 5400,
      "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
+      "Documentary"
      ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
     },
     {
-     "start": "2026-10-04T15:38:20+00:00",
-     "end": "2026-10-04T17:08:20+00:00",
+     "start": "2026-10-04T15:20:21+00:00",
+     "end": "2026-10-04T16:50:21+00:00",
      "emby_id": "217209",
      "kind": "movie",
      "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
@@ -1086,36 +845,23 @@
      "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B"
     },
     {
-     "start": "2026-10-04T17:08:20+00:00",
-     "end": "2026-10-04T18:51:20+00:00",
-     "emby_id": "372861",
+     "start": "2026-10-04T16:50:21+00:00",
+     "end": "2026-10-04T18:27:21+00:00",
+     "emby_id": "372862",
      "kind": "movie",
-     "title": "Scanners",
-     "year": 1981,
-     "duration_s": 6180,
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
      "genres": [
-      "Science Fiction",
-      "Horror"
+      "Comedy",
+      "Fantasy",
+      "Mystery"
      ],
-     "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners."
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
     },
     {
-     "start": "2026-10-04T18:51:20+00:00",
-     "end": "2026-10-04T19:07:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T19:07:00+00:00",
-     "end": "2026-10-04T20:37:00+00:00",
+     "start": "2026-10-04T18:27:21+00:00",
+     "end": "2026-10-04T19:57:21+00:00",
      "emby_id": "248561",
      "kind": "movie",
      "title": "Inauguration of the Pleasure Dome",
@@ -1125,8 +871,8 @@
      "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art."
     },
     {
-     "start": "2026-10-04T20:37:00+00:00",
-     "end": "2026-10-04T22:07:00+00:00",
+     "start": "2026-10-04T19:57:21+00:00",
+     "end": "2026-10-04T21:27:21+00:00",
      "emby_id": "248434",
      "kind": "movie",
      "title": "France/tour/d\u00e9tour/deux/enfants, Mouvement 5: Impression/Dict\u00e9e (Impression/Dictation)",
@@ -1136,31 +882,18 @@
      "overview": "An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art."
     },
     {
-     "start": "2026-10-04T22:07:00+00:00",
-     "end": "2026-10-04T23:37:00+00:00",
-     "emby_id": "215188",
-     "kind": "movie",
-     "title": "Letter to Jane: An Investigation About a Still",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
-    },
-    {
-     "start": "2026-10-04T23:37:00+00:00",
+     "start": "2026-10-04T21:27:21+00:00",
      "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1380,
+     "emby_id": "372861",
+     "kind": "movie",
+     "title": "Scanners",
+     "year": 1981,
+     "duration_s": 9159,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Science Fiction",
+      "Horror"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners."
     },
     {
      "start": "2026-10-05T00:00:00+00:00",
@@ -1193,14 +926,14 @@
      "end": "2026-10-05T04:30:00+00:00",
      "emby_id": "373009",
      "kind": "movie",
-     "title": "The Elephant Man",
-     "year": 1980,
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
       "Drama",
       "History"
      ],
-     "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous fa\u00e7ade, there is revealed a person of great intelligence and sensitivity."
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
      "start": "2026-10-05T04:30:00+00:00",
@@ -1215,21 +948,7 @@
     },
     {
      "start": "2026-10-05T06:00:00+00:00",
-     "end": "2026-10-05T06:15:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T06:15:40+00:00",
-     "end": "2026-10-05T07:45:40+00:00",
+     "end": "2026-10-05T07:30:00+00:00",
      "emby_id": "217209",
      "kind": "movie",
      "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
@@ -1239,8 +958,8 @@
      "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B"
     },
     {
-     "start": "2026-10-05T07:45:40+00:00",
-     "end": "2026-10-05T09:15:40+00:00",
+     "start": "2026-10-05T07:30:00+00:00",
+     "end": "2026-10-05T09:00:00+00:00",
      "emby_id": "248561",
      "kind": "movie",
      "title": "Inauguration of the Pleasure Dome",
@@ -1250,8 +969,8 @@
      "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art."
     },
     {
-     "start": "2026-10-05T09:15:40+00:00",
-     "end": "2026-10-05T10:45:40+00:00",
+     "start": "2026-10-05T09:00:00+00:00",
+     "end": "2026-10-05T10:30:00+00:00",
      "emby_id": "215270",
      "kind": "movie",
      "title": "Montparnasse",
@@ -1263,12 +982,12 @@
      "overview": "Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam"
     },
     {
-     "start": "2026-10-05T10:45:40+00:00",
-     "end": "2026-10-05T12:22:40+00:00",
+     "start": "2026-10-05T10:30:00+00:00",
+     "end": "2026-10-05T12:07:00+00:00",
      "emby_id": "372862",
      "kind": "movie",
      "title": "Schizopolis",
-     "year": 1997,
+     "year": 1996,
      "duration_s": 5820,
      "genres": [
       "Comedy",
@@ -1278,22 +997,8 @@
      "overview": "A man works for the unpleasant guru of a Scientology-like movement."
     },
     {
-     "start": "2026-10-05T12:22:40+00:00",
-     "end": "2026-10-05T12:38:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T12:38:20+00:00",
-     "end": "2026-10-05T14:08:20+00:00",
+     "start": "2026-10-05T12:07:00+00:00",
+     "end": "2026-10-05T13:37:00+00:00",
      "emby_id": "215192",
      "kind": "movie",
      "title": "Vladimir and Rosa",
@@ -1305,8 +1010,8 @@
      "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
     },
     {
-     "start": "2026-10-05T14:08:20+00:00",
-     "end": "2026-10-05T15:38:20+00:00",
+     "start": "2026-10-05T13:37:00+00:00",
+     "end": "2026-10-05T15:07:00+00:00",
      "emby_id": "215730",
      "kind": "movie",
      "title": "British Sounds",
@@ -1318,8 +1023,8 @@
      "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
     },
     {
-     "start": "2026-10-05T15:38:20+00:00",
-     "end": "2026-10-05T17:08:20+00:00",
+     "start": "2026-10-05T15:07:00+00:00",
+     "end": "2026-10-05T16:37:00+00:00",
      "emby_id": "215996",
      "kind": "movie",
      "title": "The Inauguration of the Pleasure Dome",
@@ -1332,8 +1037,8 @@
      "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
     },
     {
-     "start": "2026-10-05T17:08:20+00:00",
-     "end": "2026-10-05T18:38:20+00:00",
+     "start": "2026-10-05T16:37:00+00:00",
+     "end": "2026-10-05T18:07:00+00:00",
      "emby_id": "215739",
      "kind": "movie",
      "title": "Schick Commerical",
@@ -1343,26 +1048,12 @@
      "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h"
     },
     {
-     "start": "2026-10-05T18:38:20+00:00",
-     "end": "2026-10-05T18:54:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T18:54:00+00:00",
-     "end": "2026-10-05T20:24:00+00:00",
+     "start": "2026-10-05T18:07:00+00:00",
+     "end": "2026-10-05T19:37:00+00:00",
      "emby_id": "215188",
      "kind": "movie",
      "title": "Letter to Jane: An Investigation About a Still",
-     "year": 1974,
+     "year": 1972,
      "duration_s": 5400,
      "genres": [
       "Documentary"
@@ -1370,8 +1061,8 @@
      "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
     },
     {
-     "start": "2026-10-05T20:24:00+00:00",
-     "end": "2026-10-05T21:54:00+00:00",
+     "start": "2026-10-05T19:37:00+00:00",
+     "end": "2026-10-05T21:07:00+00:00",
      "emby_id": "216384",
      "kind": "movie",
      "title": "The Private Life of a Cat",
@@ -1383,13 +1074,13 @@
      "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
     },
     {
-     "start": "2026-10-05T21:54:00+00:00",
-     "end": "2026-10-05T23:37:00+00:00",
+     "start": "2026-10-05T21:07:00+00:00",
+     "end": "2026-10-06T00:00:00+00:00",
      "emby_id": "372861",
      "kind": "movie",
      "title": "Scanners",
      "year": 1981,
-     "duration_s": 6180,
+     "duration_s": 10380,
      "genres": [
       "Science Fiction",
       "Horror"
@@ -1397,50 +1088,19 @@
      "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners."
     },
     {
-     "start": "2026-10-05T23:37:00+00:00",
-     "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1380,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
      "start": "2026-10-06T00:00:00+00:00",
-     "end": "2026-10-06T01:37:00+00:00",
-     "emby_id": "372862",
+     "end": "2026-10-06T01:30:00+00:00",
+     "emby_id": "217209",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1997,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-06T01:37:00+00:00",
-     "end": "2026-10-06T03:07:00+00:00",
-     "emby_id": "215192",
-     "kind": "movie",
-     "title": "Vladimir and Rosa",
-     "year": 1971,
+     "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
+     "year": 1969,
      "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
+     "genres": [],
+     "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B"
     },
     {
-     "start": "2026-10-06T03:07:00+00:00",
-     "end": "2026-10-06T04:37:00+00:00",
+     "start": "2026-10-06T01:30:00+00:00",
+     "end": "2026-10-06T03:00:00+00:00",
      "emby_id": "215739",
      "kind": "movie",
      "title": "Schick Commerical",
@@ -1450,35 +1110,8 @@
      "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h"
     },
     {
-     "start": "2026-10-06T04:37:00+00:00",
-     "end": "2026-10-06T06:07:00+00:00",
-     "emby_id": "216384",
-     "kind": "movie",
-     "title": "The Private Life of a Cat",
-     "year": 1946,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
-    },
-    {
-     "start": "2026-10-06T06:07:00+00:00",
-     "end": "2026-10-06T06:22:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T06:22:40+00:00",
-     "end": "2026-10-06T07:52:40+00:00",
+     "start": "2026-10-06T03:00:00+00:00",
+     "end": "2026-10-06T04:30:00+00:00",
      "emby_id": "215995",
      "kind": "movie",
      "title": "Eaux d'Artifice",
@@ -1490,21 +1123,45 @@
      "overview": "A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat"
     },
     {
-     "start": "2026-10-06T07:52:40+00:00",
-     "end": "2026-10-06T09:22:40+00:00",
-     "emby_id": "215188",
+     "start": "2026-10-06T04:30:00+00:00",
+     "end": "2026-10-06T06:00:00+00:00",
+     "emby_id": "248430",
      "kind": "movie",
-     "title": "Letter to Jane: An Investigation About a Still",
-     "year": 1974,
+     "title": "France Tour Detour Mouvement 2 Lumiere Physique",
+     "year": 1977,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art."
+    },
+    {
+     "start": "2026-10-06T06:00:00+00:00",
+     "end": "2026-10-06T07:30:00+00:00",
+     "emby_id": "215737",
+     "kind": "movie",
+     "title": "1 P.M.",
+     "year": 1971,
      "duration_s": 5400,
      "genres": [
       "Documentary"
      ],
-     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
+     "overview": "Lighter and livelier than the films Jean-Luc Godard had made in France, his U.S. collaboration with Direct Cinema documentarian D. A. Pennebaker was meant to be One A.M., as in \u201cone American movie\u201d; but Godard quit the p"
     },
     {
-     "start": "2026-10-06T09:22:40+00:00",
-     "end": "2026-10-06T10:52:40+00:00",
+     "start": "2026-10-06T07:30:00+00:00",
+     "end": "2026-10-06T09:00:00+00:00",
+     "emby_id": "216384",
+     "kind": "movie",
+     "title": "The Private Life of a Cat",
+     "year": 1946,
+     "duration_s": 5400,
+     "genres": [
+      "Documentary"
+     ],
+     "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
+    },
+    {
+     "start": "2026-10-06T09:00:00+00:00",
+     "end": "2026-10-06T10:30:00+00:00",
      "emby_id": "215996",
      "kind": "movie",
      "title": "The Inauguration of the Pleasure Dome",
@@ -1517,8 +1174,34 @@
      "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
     },
     {
-     "start": "2026-10-06T10:52:40+00:00",
-     "end": "2026-10-06T12:35:40+00:00",
+     "start": "2026-10-06T10:30:00+00:00",
+     "end": "2026-10-06T12:00:00+00:00",
+     "emby_id": "215188",
+     "kind": "movie",
+     "title": "Letter to Jane: An Investigation About a Still",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [
+      "Documentary"
+     ],
+     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
+    },
+    {
+     "start": "2026-10-06T12:00:00+00:00",
+     "end": "2026-10-06T13:30:00+00:00",
+     "emby_id": "215730",
+     "kind": "movie",
+     "title": "British Sounds",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [
+      "Documentary"
+     ],
+     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
+    },
+    {
+     "start": "2026-10-06T13:30:00+00:00",
+     "end": "2026-10-06T15:13:00+00:00",
      "emby_id": "372861",
      "kind": "movie",
      "title": "Scanners",
@@ -1531,22 +1214,8 @@
      "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners."
     },
     {
-     "start": "2026-10-06T12:35:40+00:00",
-     "end": "2026-10-06T12:51:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T12:51:20+00:00",
-     "end": "2026-10-06T14:21:20+00:00",
+     "start": "2026-10-06T15:13:00+00:00",
+     "end": "2026-10-06T16:43:00+00:00",
      "emby_id": "248561",
      "kind": "movie",
      "title": "Inauguration of the Pleasure Dome",
@@ -1556,8 +1225,8 @@
      "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art."
     },
     {
-     "start": "2026-10-06T14:21:20+00:00",
-     "end": "2026-10-06T15:51:20+00:00",
+     "start": "2026-10-06T16:43:00+00:00",
+     "end": "2026-10-06T18:13:00+00:00",
      "emby_id": "248434",
      "kind": "movie",
      "title": "France/tour/d\u00e9tour/deux/enfants, Mouvement 5: Impression/Dict\u00e9e (Impression/Dictation)",
@@ -1567,94 +1236,59 @@
      "overview": "An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art."
     },
     {
-     "start": "2026-10-06T15:51:20+00:00",
-     "end": "2026-10-06T17:21:20+00:00",
-     "emby_id": "215737",
+     "start": "2026-10-06T18:13:00+00:00",
+     "end": "2026-10-06T19:43:00+00:00",
+     "emby_id": "215192",
      "kind": "movie",
-     "title": "1 P.M.",
+     "title": "Vladimir and Rosa",
      "year": 1971,
      "duration_s": 5400,
      "genres": [
-      "Documentary"
+      "Drama"
      ],
-     "overview": "Lighter and livelier than the films Jean-Luc Godard had made in France, his U.S. collaboration with Direct Cinema documentarian D. A. Pennebaker was meant to be One A.M., as in \u201cone American movie\u201d; but Godard quit the p"
+     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
     },
     {
-     "start": "2026-10-06T17:21:20+00:00",
-     "end": "2026-10-06T18:51:20+00:00",
-     "emby_id": "215730",
+     "start": "2026-10-06T19:43:00+00:00",
+     "end": "2026-10-06T20:03:21+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "British Sounds",
-     "year": 1970,
-     "duration_s": 5400,
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
      "genres": [
-      "Documentary"
+      "Experimental"
      ],
-     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
     },
     {
-     "start": "2026-10-06T18:51:20+00:00",
-     "end": "2026-10-06T19:07:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T19:07:00+00:00",
-     "end": "2026-10-06T20:37:00+00:00",
+     "start": "2026-10-06T20:03:21+00:00",
+     "end": "2026-10-06T21:33:21+00:00",
      "emby_id": "373009",
      "kind": "movie",
-     "title": "The Elephant Man",
-     "year": 1980,
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
       "Drama",
       "History"
      ],
-     "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous fa\u00e7ade, there is revealed a person of great intelligence and sensitivity."
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
-     "start": "2026-10-06T20:37:00+00:00",
-     "end": "2026-10-06T22:07:00+00:00",
-     "emby_id": "248430",
-     "kind": "movie",
-     "title": "France Tour Detour Mouvement 2 Lumiere Physique",
-     "year": 1977,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-06T22:07:00+00:00",
-     "end": "2026-10-06T23:37:00+00:00",
-     "emby_id": "217209",
-     "kind": "movie",
-     "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B"
-    },
-    {
-     "start": "2026-10-06T23:37:00+00:00",
+     "start": "2026-10-06T21:33:21+00:00",
      "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1380,
+     "emby_id": "372862",
+     "kind": "movie",
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 8799,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Comedy",
+      "Fantasy",
+      "Mystery"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
     }
    ]
   },
@@ -1694,15 +1328,15 @@
      "end": "2026-10-04T03:12:00+00:00",
      "emby_id": "216156",
      "kind": "movie",
-     "title": "Jackie Brown",
-     "year": 1997,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
      "genres": [
       "Crime",
       "Drama",
       "Thriller"
      ],
-     "overview": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan \u2014 with help from a bail b"
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
      "start": "2026-10-04T03:12:00+00:00",
@@ -1721,21 +1355,7 @@
     },
     {
      "start": "2026-10-04T04:42:00+00:00",
-     "end": "2026-10-04T04:57:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T04:57:40+00:00",
-     "end": "2026-10-04T06:27:40+00:00",
+     "end": "2026-10-04T06:12:00+00:00",
      "emby_id": "373064",
      "kind": "movie",
      "title": "The Fountain",
@@ -1749,8 +1369,8 @@
      "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world."
     },
     {
-     "start": "2026-10-04T06:27:40+00:00",
-     "end": "2026-10-04T07:57:40+00:00",
+     "start": "2026-10-04T06:12:00+00:00",
+     "end": "2026-10-04T07:42:00+00:00",
      "emby_id": "372873",
      "kind": "movie",
      "title": "The Killing of a Sacred Deer",
@@ -1764,8 +1384,8 @@
      "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi"
     },
     {
-     "start": "2026-10-04T07:57:40+00:00",
-     "end": "2026-10-04T09:37:40+00:00",
+     "start": "2026-10-04T07:42:00+00:00",
+     "end": "2026-10-04T09:22:00+00:00",
      "emby_id": "373091",
      "kind": "movie",
      "title": "I Saw the TV Glow",
@@ -1778,8 +1398,8 @@
      "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg"
     },
     {
-     "start": "2026-10-04T09:37:40+00:00",
-     "end": "2026-10-04T11:07:40+00:00",
+     "start": "2026-10-04T09:22:00+00:00",
+     "end": "2026-10-04T10:52:00+00:00",
      "emby_id": "217320",
      "kind": "movie",
      "title": "Kill Bill: Vol. 1",
@@ -1792,22 +1412,8 @@
      "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance."
     },
     {
-     "start": "2026-10-04T11:07:40+00:00",
-     "end": "2026-10-04T11:23:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T11:23:20+00:00",
-     "end": "2026-10-04T12:53:20+00:00",
+     "start": "2026-10-04T10:52:00+00:00",
+     "end": "2026-10-04T12:22:00+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1820,8 +1426,8 @@
      "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
     },
     {
-     "start": "2026-10-04T12:53:20+00:00",
-     "end": "2026-10-04T14:23:20+00:00",
+     "start": "2026-10-04T12:22:00+00:00",
+     "end": "2026-10-04T13:52:00+00:00",
      "emby_id": "372850",
      "kind": "movie",
      "title": "Mister Lonely",
@@ -1834,23 +1440,23 @@
      "overview": "In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple."
     },
     {
-     "start": "2026-10-04T14:23:20+00:00",
-     "end": "2026-10-04T15:53:20+00:00",
+     "start": "2026-10-04T13:52:00+00:00",
+     "end": "2026-10-04T15:22:00+00:00",
      "emby_id": "216673",
      "kind": "movie",
-     "title": "Mississippi Burning",
-     "year": 1988,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
       "Drama",
       "Crime",
       "Mystery"
      ],
-     "overview": "Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI"
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
     },
     {
-     "start": "2026-10-04T15:53:20+00:00",
-     "end": "2026-10-04T18:15:20+00:00",
+     "start": "2026-10-04T15:22:00+00:00",
+     "end": "2026-10-04T17:44:00+00:00",
      "emby_id": "372856",
      "kind": "movie",
      "title": "Poor Things",
@@ -1864,22 +1470,8 @@
      "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for"
     },
     {
-     "start": "2026-10-04T18:15:20+00:00",
-     "end": "2026-10-04T18:31:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T18:31:00+00:00",
-     "end": "2026-10-04T20:01:00+00:00",
+     "start": "2026-10-04T17:44:00+00:00",
+     "end": "2026-10-04T19:14:00+00:00",
      "emby_id": "372859",
      "kind": "movie",
      "title": "Requiem for a Dream",
@@ -1892,8 +1484,8 @@
      "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep."
     },
     {
-     "start": "2026-10-04T20:01:00+00:00",
-     "end": "2026-10-04T21:31:00+00:00",
+     "start": "2026-10-04T19:14:00+00:00",
+     "end": "2026-10-04T20:44:00+00:00",
      "emby_id": "373053",
      "kind": "movie",
      "title": "Slacker",
@@ -1906,8 +1498,8 @@
      "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
     },
     {
-     "start": "2026-10-04T21:31:00+00:00",
-     "end": "2026-10-04T21:43:00+00:00",
+     "start": "2026-10-04T20:44:00+00:00",
+     "end": "2026-10-04T20:56:00+00:00",
      "emby_id": "36220",
      "kind": "movie",
      "title": "From Dusk Till Dawn",
@@ -1921,61 +1513,34 @@
      "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo"
     },
     {
-     "start": "2026-10-04T21:43:00+00:00",
-     "end": "2026-10-04T23:13:00+00:00",
+     "start": "2026-10-04T20:56:00+00:00",
+     "end": "2026-10-04T22:26:00+00:00",
      "emby_id": "216156",
      "kind": "movie",
-     "title": "Jackie Brown",
-     "year": 1997,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
      "genres": [
       "Crime",
       "Drama",
       "Thriller"
      ],
-     "overview": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan \u2014 with help from a bail b"
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
-     "start": "2026-10-04T23:13:00+00:00",
-     "end": "2026-10-04T23:28:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T23:28:40+00:00",
-     "end": "2026-10-04T23:44:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-04T23:44:20+00:00",
+     "start": "2026-10-04T22:26:00+00:00",
      "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
+     "emby_id": "373032",
+     "kind": "movie",
+     "title": "Marcel the Shell with Shoes On",
+     "year": 2022,
+     "duration_s": 5640,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Animation",
+      "Comedy",
+      "Drama"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of"
     },
     {
      "start": "2026-10-05T00:00:00+00:00",
@@ -2025,33 +1590,19 @@
      "end": "2026-10-05T06:00:00+00:00",
      "emby_id": "216156",
      "kind": "movie",
-     "title": "Jackie Brown",
-     "year": 1997,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
      "genres": [
       "Crime",
       "Drama",
       "Thriller"
      ],
-     "overview": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan \u2014 with help from a bail b"
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
      "start": "2026-10-05T06:00:00+00:00",
-     "end": "2026-10-05T06:15:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T06:15:40+00:00",
-     "end": "2026-10-05T07:45:40+00:00",
+     "end": "2026-10-05T07:30:00+00:00",
      "emby_id": "372850",
      "kind": "movie",
      "title": "Mister Lonely",
@@ -2064,8 +1615,8 @@
      "overview": "In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple."
     },
     {
-     "start": "2026-10-05T07:45:40+00:00",
-     "end": "2026-10-05T09:15:40+00:00",
+     "start": "2026-10-05T07:30:00+00:00",
+     "end": "2026-10-05T09:00:00+00:00",
      "emby_id": "372859",
      "kind": "movie",
      "title": "Requiem for a Dream",
@@ -2078,23 +1629,23 @@
      "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep."
     },
     {
-     "start": "2026-10-05T09:15:40+00:00",
-     "end": "2026-10-05T10:45:40+00:00",
+     "start": "2026-10-05T09:00:00+00:00",
+     "end": "2026-10-05T10:30:00+00:00",
      "emby_id": "216673",
      "kind": "movie",
-     "title": "Mississippi Burning",
-     "year": 1988,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
       "Drama",
       "Crime",
       "Mystery"
      ],
-     "overview": "Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI"
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
     },
     {
-     "start": "2026-10-05T10:45:40+00:00",
-     "end": "2026-10-05T13:07:40+00:00",
+     "start": "2026-10-05T10:30:00+00:00",
+     "end": "2026-10-05T12:52:00+00:00",
      "emby_id": "372856",
      "kind": "movie",
      "title": "Poor Things",
@@ -2108,22 +1659,8 @@
      "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for"
     },
     {
-     "start": "2026-10-05T13:07:40+00:00",
-     "end": "2026-10-05T13:23:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T13:23:20+00:00",
-     "end": "2026-10-05T15:03:20+00:00",
+     "start": "2026-10-05T12:52:00+00:00",
+     "end": "2026-10-05T14:32:00+00:00",
      "emby_id": "373091",
      "kind": "movie",
      "title": "I Saw the TV Glow",
@@ -2136,8 +1673,8 @@
      "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg"
     },
     {
-     "start": "2026-10-05T15:03:20+00:00",
-     "end": "2026-10-05T16:33:20+00:00",
+     "start": "2026-10-05T14:32:00+00:00",
+     "end": "2026-10-05T16:02:00+00:00",
      "emby_id": "373032",
      "kind": "movie",
      "title": "Marcel the Shell with Shoes On",
@@ -2151,8 +1688,8 @@
      "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of"
     },
     {
-     "start": "2026-10-05T16:33:20+00:00",
-     "end": "2026-10-05T18:03:20+00:00",
+     "start": "2026-10-05T16:02:00+00:00",
+     "end": "2026-10-05T17:32:00+00:00",
      "emby_id": "373064",
      "kind": "movie",
      "title": "The Fountain",
@@ -2166,8 +1703,8 @@
      "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world."
     },
     {
-     "start": "2026-10-05T18:03:20+00:00",
-     "end": "2026-10-05T18:15:20+00:00",
+     "start": "2026-10-05T17:32:00+00:00",
+     "end": "2026-10-05T17:44:00+00:00",
      "emby_id": "36220",
      "kind": "movie",
      "title": "From Dusk Till Dawn",
@@ -2181,22 +1718,8 @@
      "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo"
     },
     {
-     "start": "2026-10-05T18:15:20+00:00",
-     "end": "2026-10-05T18:31:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T18:31:00+00:00",
-     "end": "2026-10-05T20:01:00+00:00",
+     "start": "2026-10-05T17:44:00+00:00",
+     "end": "2026-10-05T19:14:00+00:00",
      "emby_id": "217320",
      "kind": "movie",
      "title": "Kill Bill: Vol. 1",
@@ -2209,8 +1732,8 @@
      "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance."
     },
     {
-     "start": "2026-10-05T20:01:00+00:00",
-     "end": "2026-10-05T21:31:00+00:00",
+     "start": "2026-10-05T19:14:00+00:00",
+     "end": "2026-10-05T20:44:00+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -2223,8 +1746,8 @@
      "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
     },
     {
-     "start": "2026-10-05T21:31:00+00:00",
-     "end": "2026-10-05T23:01:00+00:00",
+     "start": "2026-10-05T20:44:00+00:00",
+     "end": "2026-10-05T22:14:00+00:00",
      "emby_id": "373053",
      "kind": "movie",
      "title": "Slacker",
@@ -2237,46 +1760,19 @@
      "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
     },
     {
-     "start": "2026-10-05T23:01:00+00:00",
-     "end": "2026-10-05T23:16:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T23:16:40+00:00",
-     "end": "2026-10-05T23:32:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-05T23:32:20+00:00",
+     "start": "2026-10-05T22:14:00+00:00",
      "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1660,
+     "emby_id": "372873",
+     "kind": "movie",
+     "title": "The Killing of a Sacred Deer",
+     "year": 2017,
+     "duration_s": 6360,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Drama",
+      "Thriller",
+      "Mystery"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi"
     },
     {
      "start": "2026-10-06T00:00:00+00:00",
@@ -2311,15 +1807,15 @@
      "end": "2026-10-06T04:40:00+00:00",
      "emby_id": "216156",
      "kind": "movie",
-     "title": "Jackie Brown",
-     "year": 1997,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
      "genres": [
       "Crime",
       "Drama",
       "Thriller"
      ],
-     "overview": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan \u2014 with help from a bail b"
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
      "start": "2026-10-06T04:40:00+00:00",
@@ -2337,21 +1833,7 @@
     },
     {
      "start": "2026-10-06T06:10:00+00:00",
-     "end": "2026-10-06T06:25:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T06:25:40+00:00",
-     "end": "2026-10-06T07:55:40+00:00",
+     "end": "2026-10-06T07:40:00+00:00",
      "emby_id": "373064",
      "kind": "movie",
      "title": "The Fountain",
@@ -2365,23 +1847,23 @@
      "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world."
     },
     {
-     "start": "2026-10-06T07:55:40+00:00",
-     "end": "2026-10-06T09:25:40+00:00",
+     "start": "2026-10-06T07:40:00+00:00",
+     "end": "2026-10-06T09:10:00+00:00",
      "emby_id": "216673",
      "kind": "movie",
-     "title": "Mississippi Burning",
-     "year": 1988,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
       "Drama",
       "Crime",
       "Mystery"
      ],
-     "overview": "Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI"
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
     },
     {
-     "start": "2026-10-06T09:25:40+00:00",
-     "end": "2026-10-06T11:47:40+00:00",
+     "start": "2026-10-06T09:10:00+00:00",
+     "end": "2026-10-06T11:32:00+00:00",
      "emby_id": "372856",
      "kind": "movie",
      "title": "Poor Things",
@@ -2395,8 +1877,8 @@
      "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for"
     },
     {
-     "start": "2026-10-06T11:47:40+00:00",
-     "end": "2026-10-06T13:17:40+00:00",
+     "start": "2026-10-06T11:32:00+00:00",
+     "end": "2026-10-06T13:02:00+00:00",
      "emby_id": "373032",
      "kind": "movie",
      "title": "Marcel the Shell with Shoes On",
@@ -2410,22 +1892,8 @@
      "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of"
     },
     {
-     "start": "2026-10-06T13:17:40+00:00",
-     "end": "2026-10-06T13:33:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T13:33:20+00:00",
-     "end": "2026-10-06T13:45:20+00:00",
+     "start": "2026-10-06T13:02:00+00:00",
+     "end": "2026-10-06T13:14:00+00:00",
      "emby_id": "36220",
      "kind": "movie",
      "title": "From Dusk Till Dawn",
@@ -2439,8 +1907,8 @@
      "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo"
     },
     {
-     "start": "2026-10-06T13:45:20+00:00",
-     "end": "2026-10-06T15:15:20+00:00",
+     "start": "2026-10-06T13:14:00+00:00",
+     "end": "2026-10-06T14:44:00+00:00",
      "emby_id": "217320",
      "kind": "movie",
      "title": "Kill Bill: Vol. 1",
@@ -2453,8 +1921,8 @@
      "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance."
     },
     {
-     "start": "2026-10-06T15:15:20+00:00",
-     "end": "2026-10-06T16:45:20+00:00",
+     "start": "2026-10-06T14:44:00+00:00",
+     "end": "2026-10-06T16:14:00+00:00",
      "emby_id": "372850",
      "kind": "movie",
      "title": "Mister Lonely",
@@ -2467,8 +1935,8 @@
      "overview": "In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple."
     },
     {
-     "start": "2026-10-06T16:45:20+00:00",
-     "end": "2026-10-06T18:15:20+00:00",
+     "start": "2026-10-06T16:14:00+00:00",
+     "end": "2026-10-06T17:44:00+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -2481,22 +1949,8 @@
      "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
     },
     {
-     "start": "2026-10-06T18:15:20+00:00",
-     "end": "2026-10-06T18:31:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T18:31:00+00:00",
-     "end": "2026-10-06T20:01:00+00:00",
+     "start": "2026-10-06T17:44:00+00:00",
+     "end": "2026-10-06T19:14:00+00:00",
      "emby_id": "372873",
      "kind": "movie",
      "title": "The Killing of a Sacred Deer",
@@ -2510,8 +1964,8 @@
      "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi"
     },
     {
-     "start": "2026-10-06T20:01:00+00:00",
-     "end": "2026-10-06T21:41:00+00:00",
+     "start": "2026-10-06T19:14:00+00:00",
+     "end": "2026-10-06T20:54:00+00:00",
      "emby_id": "373091",
      "kind": "movie",
      "title": "I Saw the TV Glow",
@@ -2524,8 +1978,8 @@
      "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg"
     },
     {
-     "start": "2026-10-06T21:41:00+00:00",
-     "end": "2026-10-06T23:11:00+00:00",
+     "start": "2026-10-06T20:54:00+00:00",
+     "end": "2026-10-06T22:24:00+00:00",
      "emby_id": "372859",
      "kind": "movie",
      "title": "Requiem for a Dream",
@@ -2538,46 +1992,19 @@
      "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep."
     },
     {
-     "start": "2026-10-06T23:11:00+00:00",
-     "end": "2026-10-06T23:26:40+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T23:26:40+00:00",
-     "end": "2026-10-06T23:42:20+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 940,
-     "genres": [
-      "Commercial",
-      "Retro"
-     ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
-    },
-    {
-     "start": "2026-10-06T23:42:20+00:00",
+     "start": "2026-10-06T22:24:00+00:00",
      "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "445992",
-     "kind": "bumper",
-     "title": "80s Commercials 1982",
-     "year": 1982,
-     "duration_s": 1060,
+     "emby_id": "216156",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5760,
      "genres": [
-      "Commercial",
-      "Retro"
+      "Crime",
+      "Drama",
+      "Thriller"
      ],
-     "overview": "Vintage 1980s TV commercials from WKBD Detroit, August 1982. Pizza Hut, Burger King, Intellivision and more."
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     }
    ]
   }
