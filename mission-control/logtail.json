@@ -1,12 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T19:46:36+0000",
+ "generated_iso": "2026-10-05T20:16:36+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 15:12:13.271 Error ImageService-0HNP2JA11TDQK:00000001: Error processing request",
+     "t": "2026-10-05 15:58:53.812 Error VideoService-0HNP33BGQD7MO:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -14,23 +14,11 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
      "c": "err"
     },
     {
-     "t": "2026-10-05 15:12:23.902 Error ImageService-0HNP2JA11TDQL:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 15:12:37.220 Error ImageService-0HNP2JA11TDQO:00000001: Error processing request",
+     "t": "2026-10-05 15:58:56.990 Error VideoService-0HNP33BGQD7MP:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -38,7 +26,31 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 15:59:00.798 Error VideoService-0HNP33BGQD7MR:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 15:59:06.847 Error VideoService-0HNP33BGQD7MS:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
      "c": "err"
     }
    ]
@@ -47,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] 2026-10-05 19:46:36 app-switcher-srv: listening on :8899",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -71,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T15:16:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T15:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T15:31:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T15:31:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T15:46:33-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T15:46:33-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T16:01:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T16:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T16:16:33-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T16:16:33-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
