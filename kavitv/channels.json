@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-04T00:10:04.878130-04:00",
- "date": "2026-10-04",
+ "generated_at": "2026-10-05T00:10:08.732809-04:00",
+ "date": "2026-10-05",
  "channels": [
   {
    "id": "horror",
@@ -8,17 +8,17 @@
    "tagline": "24/7 horror \u2014 slashers, giallo, creature features, dread.",
    "pool": "Genres=Horror across the full movie library.",
    "film_count": 123,
-   "total_runtime_h": 182.1,
-   "program_count": 17
+   "total_runtime_h": 171.5,
+   "program_count": 19
   },
   {
    "id": "experimental",
    "name": "KaviTV Experimental",
    "tagline": "Arthouse, avant-garde and beautiful weirdos \u2014 Lynch to Brakhage.",
    "pool": "12 arthouse directors + Schizopolis (Seth's favorite, pinned).",
-   "film_count": 63,
-   "total_runtime_h": 92.6,
-   "program_count": 17
+   "film_count": 57,
+   "total_runtime_h": 74.6,
+   "program_count": 18
   },
   {
    "id": "independent",
@@ -26,8 +26,8 @@
    "tagline": "Indie distributors and indie auteurs \u2014 A24 to Jarmusch.",
    "pool": "15 indie studios + 7 indie-auteur directors, deduped.",
    "film_count": 43,
-   "total_runtime_h": 64.0,
-   "program_count": 17
+   "total_runtime_h": 61.8,
+   "program_count": 19
   }
  ]
 }
