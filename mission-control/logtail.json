@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T11:16:36+0000",
+ "generated_iso": "2026-10-05T11:46:40+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -35,7 +35,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Secret Service running (fixed)",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -59,10 +59,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T06:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05 06:30 EDT RELAY RESTORE: watchdog showed all 3 channels FAIL (Kavi 6.0 v2.1.0 stream endpoints wedged, /api/health false-OK). Restored prov",
      "c": "err"
     },
@@ -80,6 +76,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T07:16:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T07:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
