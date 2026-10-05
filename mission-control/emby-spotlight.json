@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "The Crown Jewels of Iran",
-  "year": 1965,
+  "name": "Cuadro por cuadro",
+  "year": 2009,
   "genres": [
-   "Documentary"
+   "Documentary",
+   "Short"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "The Crown Jewels of Iran is a 1965 film commissioned and then banned by the Shah\u2019s cultural ministry, featuring dazzling edits and camera movements and a charged narration assaulting economic disparities."
+  "overview": "A documentary of a workshop taught by the filmmaker at the Foundacion D'Arte Contemporaneo, an artist's collective in Montevideo, Uruguay. Workshop participants pore over discarded films, one frame at a time."
  }
 }
