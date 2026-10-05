@@ -1,44 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-04T23:46:37+0000",
+ "generated_iso": "2026-10-05T00:16:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 19:45:14.025 Error ImageService-0HNP0T5I41BBM:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 19:45:26.928 Error ImageService-0HNP0T5I41BBO:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 19:45:31.891 Error ImageService-0HNP0T5I41BBP:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
+     "t": "2026-10-04 20:16:34.961 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Body.Melt.1993.720p.BluRay.x264.AAC-[YTS.MX].mp4\" -t",
      "c": "err"
     }
    ]
@@ -47,7 +15,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Secret Service running (fixed)",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -71,27 +39,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T18:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T18:46:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T19:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T19:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T19:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-04T19:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T20:01:32-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-04 != today 2026-10-05; pushing fresh schedule",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T20:01:52-04:00 [relay-supervisor] WARN: fresh schedule pushed to relay",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T20:01:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T20:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
