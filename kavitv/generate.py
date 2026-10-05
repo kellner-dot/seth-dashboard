@@ -172,9 +172,11 @@ def _xmltv_ts(iso):
 
 def m3u_from_library(lib):
     out = ["#EXTM3U"]
+    chno = 0
     for cid, ch in lib["channels"].items():
+        chno += 1
         out.append(
-            f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{ch["name"]}" '
+            f'#EXTINF:-1 tvg-id="{cid}" tvg-chno="{chno}" tvg-name="{ch["name"]}" '
             f'tvg-logo="{ch["logo"]}" '
             f'group-title="KaviTV",{ch["name"]}')
         out.append(f"{RELAY_BASE}/kavitv/live/{ch['slug']}.ts")
@@ -205,10 +207,7 @@ def validate_m3u(m3u_text, lib):
         # tvg-id must match channel id exactly
         if f'tvg-id="{cid}"' not in m3u_text:
             errors.append(f"{cid}: tvg-id mismatch")
-        # No tvg-chno (Seth wants no channel numbers)
-        if "tvg-chno" in m3u_text:
-            errors.append("tvg-chno found (should be absent)")
-            break
+        # tvg-chno 1-3 for KaviTV channels (top of guide)
     if errors:
         raise ValueError("M3U validation failed: " + "; ".join(errors))
     return True
