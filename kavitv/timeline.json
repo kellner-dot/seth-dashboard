@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T03:27:09.507341+00:00",
+ "generated_at": "2026-10-05T03:54:30.822901+00:00",
  "window_days": 3,
  "channels": {
   "kavitv.horror": {
@@ -7,106 +7,105 @@
     {
      "start": "2026-10-04T00:00:00+00:00",
      "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "372833",
+     "emby_id": "372997",
      "kind": "movie",
-     "title": "Deep Water",
-     "year": 2026,
+     "title": "Basket Case",
+     "year": 1982,
      "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Adventure"
-     ],
-     "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
+     "genres": [],
+     "overview": "Basket Case (1982)"
     },
     {
      "start": "2026-10-04T01:30:00+00:00",
-     "end": "2026-10-04T02:08:00+00:00",
-     "emby_id": "373025",
+     "end": "2026-10-04T03:00:00+00:00",
+     "emby_id": "216369",
      "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 2280,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-04T02:08:00+00:00",
-     "end": "2026-10-04T03:38:00+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
+     "title": "Antithese",
+     "year": 2017,
      "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+     "genres": [],
+     "overview": "Antithese (2017)"
     },
     {
-     "start": "2026-10-04T03:38:00+00:00",
-     "end": "2026-10-04T05:08:00+00:00",
-     "emby_id": "215013",
+     "start": "2026-10-04T03:00:00+00:00",
+     "end": "2026-10-04T04:30:00+00:00",
+     "emby_id": "215530",
      "kind": "movie",
-     "title": "Office Killer",
-     "year": 1997,
+     "title": "Autumnal Equinox",
+     "year": 1974,
      "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
+     "genres": [],
+     "overview": "Autumnal Equinox (1974)"
     },
     {
-     "start": "2026-10-04T05:08:00+00:00",
-     "end": "2026-10-04T06:39:00+00:00",
-     "emby_id": "373097",
+     "start": "2026-10-04T04:30:00+00:00",
+     "end": "2026-10-04T06:00:00+00:00",
+     "emby_id": "372820",
      "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
-    },
-    {
-     "start": "2026-10-04T06:39:00+00:00",
-     "end": "2026-10-04T08:09:00+00:00",
-     "emby_id": "216365",
-     "kind": "movie",
-     "title": "Love Reinvented",
-     "year": 1979,
+     "title": "Annihilation",
+     "year": 2018,
      "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Drama"
-     ],
-     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
+     "genres": [],
+     "overview": "Annihilation (2018)"
     },
     {
-     "start": "2026-10-04T08:09:00+00:00",
-     "end": "2026-10-04T09:39:00+00:00",
-     "emby_id": "216661",
+     "start": "2026-10-04T06:00:00+00:00",
+     "end": "2026-10-04T07:30:00+00:00",
+     "emby_id": "217211",
      "kind": "movie",
-     "title": "Nocturne",
-     "year": 1998,
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
      "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
+     "genres": [],
+     "overview": "The Act of Seeing with One's Own Eyes (1971)"
     },
     {
-     "start": "2026-10-04T09:39:00+00:00",
-     "end": "2026-10-04T11:09:00+00:00",
+     "start": "2026-10-04T07:30:00+00:00",
+     "end": "2026-10-04T09:00:00+00:00",
+     "emby_id": "372995",
+     "kind": "movie",
+     "title": "Bad Taste",
+     "year": 1987,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Bad Taste (1987)"
+    },
+    {
+     "start": "2026-10-04T09:00:00+00:00",
+     "end": "2026-10-04T10:30:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972)"
+    },
+    {
+     "start": "2026-10-04T10:30:00+00:00",
+     "end": "2026-10-04T12:00:00+00:00",
+     "emby_id": "372994",
+     "kind": "movie",
+     "title": "As Above, So Below",
+     "year": 2014,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "As Above, So Below (2014)"
+    },
+    {
+     "start": "2026-10-04T12:00:00+00:00",
+     "end": "2026-10-04T13:30:00+00:00",
+     "emby_id": "372822",
+     "kind": "movie",
+     "title": "Antlers",
+     "year": 2021,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antlers (2021)"
+    },
+    {
+     "start": "2026-10-04T13:30:00+00:00",
+     "end": "2026-10-04T15:00:00+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -119,295 +118,217 @@
      "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
     },
     {
-     "start": "2026-10-04T11:09:00+00:00",
-     "end": "2026-10-04T12:39:00+00:00",
-     "emby_id": "217408",
+     "start": "2026-10-04T15:00:00+00:00",
+     "end": "2026-10-04T16:30:00+00:00",
+     "emby_id": "217333",
      "kind": "movie",
-     "title": "Phantom",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Black Hearts Bleed Red (1992)"
+    },
+    {
+     "start": "2026-10-04T16:30:00+00:00",
+     "end": "2026-10-04T18:00:00+00:00",
+     "emby_id": "372821",
+     "kind": "movie",
+     "title": "Antiviral",
+     "year": 2012,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antiviral (2012)"
+    },
+    {
+     "start": "2026-10-04T18:00:00+00:00",
+     "end": "2026-10-04T19:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
      "year": 1975,
      "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+     "genres": [],
+     "overview": "Atman (1975)"
     },
     {
-     "start": "2026-10-04T12:39:00+00:00",
-     "end": "2026-10-04T14:09:00+00:00",
-     "emby_id": "216571",
+     "start": "2026-10-04T19:30:00+00:00",
+     "end": "2026-10-04T21:00:00+00:00",
+     "emby_id": "372826",
      "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
+     "title": "Begotten",
+     "year": 1991,
      "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+     "genres": [],
+     "overview": "Begotten (1991)"
     },
     {
-     "start": "2026-10-04T14:09:00+00:00",
-     "end": "2026-10-04T15:44:00+00:00",
-     "emby_id": "372888",
+     "start": "2026-10-04T21:00:00+00:00",
+     "end": "2026-10-04T22:30:00+00:00",
+     "emby_id": "372997",
      "kind": "movie",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 5700,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
-    },
-    {
-     "start": "2026-10-04T15:44:00+00:00",
-     "end": "2026-10-04T17:34:00+00:00",
-     "emby_id": "372823",
-     "kind": "movie",
-     "title": "Backrooms",
-     "year": 2026,
-     "duration_s": 6600,
-     "genres": [
-      "Horror",
-      "Mystery",
-      "Science Fiction"
-     ],
-     "overview": "A strange doorway appears in the basement of a furniture showroom."
-    },
-    {
-     "start": "2026-10-04T17:34:00+00:00",
-     "end": "2026-10-04T19:04:00+00:00",
-     "emby_id": "372833",
-     "kind": "movie",
-     "title": "Deep Water",
-     "year": 2026,
+     "title": "Basket Case",
+     "year": 1982,
      "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Adventure"
-     ],
-     "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
+     "genres": [],
+     "overview": "Basket Case (1982)"
     },
     {
-     "start": "2026-10-04T19:04:00+00:00",
-     "end": "2026-10-04T19:42:00+00:00",
-     "emby_id": "373025",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 2280,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-04T19:42:00+00:00",
-     "end": "2026-10-04T21:12:00+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
-    },
-    {
-     "start": "2026-10-04T21:12:00+00:00",
+     "start": "2026-10-04T22:30:00+00:00",
      "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "215013",
+     "emby_id": "216369",
      "kind": "movie",
-     "title": "Office Killer",
-     "year": 1997,
-     "duration_s": 10080,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antithese (2017)"
     },
     {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
-     "emby_id": "216043",
+     "emby_id": "372821",
      "kind": "movie",
-     "title": "10/65: Self-Mutilation",
-     "year": 1965,
+     "title": "Antiviral",
+     "year": 2012,
      "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+     "genres": [],
+     "overview": "Antiviral (2012)"
     },
     {
      "start": "2026-10-05T01:30:00+00:00",
-     "end": "2026-10-05T03:01:00+00:00",
-     "emby_id": "373097",
+     "end": "2026-10-05T03:00:00+00:00",
+     "emby_id": "372822",
      "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
-    },
-    {
-     "start": "2026-10-05T03:01:00+00:00",
-     "end": "2026-10-05T04:31:00+00:00",
-     "emby_id": "216571",
-     "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
+     "title": "Antlers",
+     "year": 2021,
      "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+     "genres": [],
+     "overview": "Antlers (2021)"
     },
     {
-     "start": "2026-10-05T04:31:00+00:00",
-     "end": "2026-10-05T06:06:00+00:00",
-     "emby_id": "372888",
+     "start": "2026-10-05T03:00:00+00:00",
+     "end": "2026-10-05T04:30:00+00:00",
+     "emby_id": "217211",
      "kind": "movie",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 5700,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
-    },
-    {
-     "start": "2026-10-05T06:06:00+00:00",
-     "end": "2026-10-05T07:36:00+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
      "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+     "genres": [],
+     "overview": "The Act of Seeing with One's Own Eyes (1971)"
     },
     {
-     "start": "2026-10-05T07:36:00+00:00",
-     "end": "2026-10-05T09:06:00+00:00",
-     "emby_id": "216365",
+     "start": "2026-10-05T04:30:00+00:00",
+     "end": "2026-10-05T06:00:00+00:00",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Love Reinvented",
-     "year": 1979,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Drama"
-     ],
-     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
-    },
-    {
-     "start": "2026-10-05T09:06:00+00:00",
-     "end": "2026-10-05T10:36:00+00:00",
-     "emby_id": "372833",
-     "kind": "movie",
-     "title": "Deep Water",
-     "year": 2026,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Adventure"
-     ],
-     "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
-    },
-    {
-     "start": "2026-10-05T10:36:00+00:00",
-     "end": "2026-10-05T12:06:00+00:00",
-     "emby_id": "216661",
-     "kind": "movie",
-     "title": "Nocturne",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
-    },
-    {
-     "start": "2026-10-05T12:06:00+00:00",
-     "end": "2026-10-05T12:44:00+00:00",
-     "emby_id": "373025",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 2280,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-05T12:44:00+00:00",
-     "end": "2026-10-05T14:34:00+00:00",
-     "emby_id": "372823",
-     "kind": "movie",
-     "title": "Backrooms",
-     "year": 2026,
-     "duration_s": 6600,
-     "genres": [
-      "Horror",
-      "Mystery",
-      "Science Fiction"
-     ],
-     "overview": "A strange doorway appears in the basement of a furniture showroom."
-    },
-    {
-     "start": "2026-10-05T14:34:00+00:00",
-     "end": "2026-10-05T16:04:00+00:00",
-     "emby_id": "215013",
-     "kind": "movie",
-     "title": "Office Killer",
-     "year": 1997,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
-    },
-    {
-     "start": "2026-10-05T16:04:00+00:00",
-     "end": "2026-10-05T17:34:00+00:00",
-     "emby_id": "217408",
-     "kind": "movie",
-     "title": "Phantom",
+     "title": "Atman",
      "year": 1975,
      "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+     "genres": [],
+     "overview": "Atman (1975)"
     },
     {
-     "start": "2026-10-05T17:34:00+00:00",
-     "end": "2026-10-05T19:04:00+00:00",
+     "start": "2026-10-05T06:00:00+00:00",
+     "end": "2026-10-05T07:30:00+00:00",
+     "emby_id": "372820",
+     "kind": "movie",
+     "title": "Annihilation",
+     "year": 2018,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Annihilation (2018)"
+    },
+    {
+     "start": "2026-10-05T07:30:00+00:00",
+     "end": "2026-10-05T09:00:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Black Hearts Bleed Red (1992)"
+    },
+    {
+     "start": "2026-10-05T09:00:00+00:00",
+     "end": "2026-10-05T10:30:00+00:00",
+     "emby_id": "372994",
+     "kind": "movie",
+     "title": "As Above, So Below",
+     "year": 2014,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "As Above, So Below (2014)"
+    },
+    {
+     "start": "2026-10-05T10:30:00+00:00",
+     "end": "2026-10-05T12:00:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antithese (2017)"
+    },
+    {
+     "start": "2026-10-05T12:00:00+00:00",
+     "end": "2026-10-05T13:30:00+00:00",
+     "emby_id": "372995",
+     "kind": "movie",
+     "title": "Bad Taste",
+     "year": 1987,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Bad Taste (1987)"
+    },
+    {
+     "start": "2026-10-05T13:30:00+00:00",
+     "end": "2026-10-05T15:00:00+00:00",
+     "emby_id": "372997",
+     "kind": "movie",
+     "title": "Basket Case",
+     "year": 1982,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Basket Case (1982)"
+    },
+    {
+     "start": "2026-10-05T15:00:00+00:00",
+     "end": "2026-10-05T16:30:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974)"
+    },
+    {
+     "start": "2026-10-05T16:30:00+00:00",
+     "end": "2026-10-05T18:00:00+00:00",
+     "emby_id": "372826",
+     "kind": "movie",
+     "title": "Begotten",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Begotten (1991)"
+    },
+    {
+     "start": "2026-10-05T18:00:00+00:00",
+     "end": "2026-10-05T19:30:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972)"
+    },
+    {
+     "start": "2026-10-05T19:30:00+00:00",
+     "end": "2026-10-05T21:00:00+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -420,234 +341,140 @@
      "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
     },
     {
-     "start": "2026-10-05T19:04:00+00:00",
-     "end": "2026-10-05T20:35:00+00:00",
-     "emby_id": "373097",
+     "start": "2026-10-05T21:00:00+00:00",
+     "end": "2026-10-05T22:30:00+00:00",
+     "emby_id": "372821",
      "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
-    },
-    {
-     "start": "2026-10-05T20:35:00+00:00",
-     "end": "2026-10-05T22:05:00+00:00",
-     "emby_id": "216571",
-     "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
+     "title": "Antiviral",
+     "year": 2012,
      "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+     "genres": [],
+     "overview": "Antiviral (2012)"
     },
     {
-     "start": "2026-10-05T22:05:00+00:00",
+     "start": "2026-10-05T22:30:00+00:00",
      "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "372888",
+     "emby_id": "372822",
      "kind": "movie",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 6900,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
+     "title": "Antlers",
+     "year": 2021,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antlers (2021)"
     },
     {
      "start": "2026-10-06T00:00:00+00:00",
-     "end": "2026-10-06T01:50:00+00:00",
-     "emby_id": "372823",
+     "end": "2026-10-06T01:30:00+00:00",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Backrooms",
-     "year": 2026,
-     "duration_s": 6600,
-     "genres": [
-      "Horror",
-      "Mystery",
-      "Science Fiction"
-     ],
-     "overview": "A strange doorway appears in the basement of a furniture showroom."
-    },
-    {
-     "start": "2026-10-06T01:50:00+00:00",
-     "end": "2026-10-06T03:20:00+00:00",
-     "emby_id": "216043",
-     "kind": "movie",
-     "title": "10/65: Self-Mutilation",
-     "year": 1965,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
-    },
-    {
-     "start": "2026-10-06T03:20:00+00:00",
-     "end": "2026-10-06T04:50:00+00:00",
-     "emby_id": "215013",
-     "kind": "movie",
-     "title": "Office Killer",
-     "year": 1997,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
-    },
-    {
-     "start": "2026-10-06T04:50:00+00:00",
-     "end": "2026-10-06T06:20:00+00:00",
-     "emby_id": "216365",
-     "kind": "movie",
-     "title": "Love Reinvented",
-     "year": 1979,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Drama"
-     ],
-     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
-    },
-    {
-     "start": "2026-10-06T06:20:00+00:00",
-     "end": "2026-10-06T07:51:00+00:00",
-     "emby_id": "373097",
-     "kind": "movie",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them."
-    },
-    {
-     "start": "2026-10-06T07:51:00+00:00",
-     "end": "2026-10-06T09:21:00+00:00",
-     "emby_id": "216996",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
-    },
-    {
-     "start": "2026-10-06T09:21:00+00:00",
-     "end": "2026-10-06T10:56:00+00:00",
-     "emby_id": "372888",
-     "kind": "movie",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 5700,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
-    },
-    {
-     "start": "2026-10-06T10:56:00+00:00",
-     "end": "2026-10-06T11:34:00+00:00",
-     "emby_id": "373025",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 2280,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-06T11:34:00+00:00",
-     "end": "2026-10-06T13:04:00+00:00",
-     "emby_id": "217408",
-     "kind": "movie",
-     "title": "Phantom",
+     "title": "Atman",
      "year": 1975,
      "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+     "genres": [],
+     "overview": "Atman (1975)"
     },
     {
-     "start": "2026-10-06T13:04:00+00:00",
-     "end": "2026-10-06T14:34:00+00:00",
-     "emby_id": "216571",
+     "start": "2026-10-06T01:30:00+00:00",
+     "end": "2026-10-06T03:00:00+00:00",
+     "emby_id": "372820",
      "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
+     "title": "Annihilation",
+     "year": 2018,
      "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+     "genres": [],
+     "overview": "Annihilation (2018)"
     },
     {
-     "start": "2026-10-06T14:34:00+00:00",
-     "end": "2026-10-06T16:04:00+00:00",
-     "emby_id": "372833",
+     "start": "2026-10-06T03:00:00+00:00",
+     "end": "2026-10-06T04:30:00+00:00",
+     "emby_id": "372826",
      "kind": "movie",
-     "title": "Deep Water",
-     "year": 2026,
+     "title": "Begotten",
+     "year": 1991,
      "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Adventure"
-     ],
-     "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences "
+     "genres": [],
+     "overview": "Begotten (1991)"
     },
     {
-     "start": "2026-10-06T16:04:00+00:00",
-     "end": "2026-10-06T17:34:00+00:00",
-     "emby_id": "216661",
+     "start": "2026-10-06T04:30:00+00:00",
+     "end": "2026-10-06T06:00:00+00:00",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Nocturne",
-     "year": 1998,
+     "title": "Apparatus Sum",
+     "year": 1972,
      "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo"
+     "genres": [],
+     "overview": "Apparatus Sum (1972)"
     },
     {
-     "start": "2026-10-06T17:34:00+00:00",
-     "end": "2026-10-06T19:24:00+00:00",
-     "emby_id": "372823",
+     "start": "2026-10-06T06:00:00+00:00",
+     "end": "2026-10-06T07:30:00+00:00",
+     "emby_id": "372822",
      "kind": "movie",
-     "title": "Backrooms",
-     "year": 2026,
-     "duration_s": 6600,
-     "genres": [
-      "Horror",
-      "Mystery",
-      "Science Fiction"
-     ],
-     "overview": "A strange doorway appears in the basement of a furniture showroom."
+     "title": "Antlers",
+     "year": 2021,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antlers (2021)"
     },
     {
-     "start": "2026-10-06T19:24:00+00:00",
-     "end": "2026-10-06T20:54:00+00:00",
+     "start": "2026-10-06T07:30:00+00:00",
+     "end": "2026-10-06T09:00:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antithese (2017)"
+    },
+    {
+     "start": "2026-10-06T09:00:00+00:00",
+     "end": "2026-10-06T10:30:00+00:00",
+     "emby_id": "372995",
+     "kind": "movie",
+     "title": "Bad Taste",
+     "year": 1987,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Bad Taste (1987)"
+    },
+    {
+     "start": "2026-10-06T10:30:00+00:00",
+     "end": "2026-10-06T12:00:00+00:00",
+     "emby_id": "372994",
+     "kind": "movie",
+     "title": "As Above, So Below",
+     "year": 2014,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "As Above, So Below (2014)"
+    },
+    {
+     "start": "2026-10-06T12:00:00+00:00",
+     "end": "2026-10-06T13:30:00+00:00",
+     "emby_id": "372997",
+     "kind": "movie",
+     "title": "Basket Case",
+     "year": 1982,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Basket Case (1982)"
+    },
+    {
+     "start": "2026-10-06T13:30:00+00:00",
+     "end": "2026-10-06T15:00:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974)"
+    },
+    {
+     "start": "2026-10-06T15:00:00+00:00",
+     "end": "2026-10-06T16:30:00+00:00",
      "emby_id": "216043",
      "kind": "movie",
      "title": "10/65: Self-Mutilation",
@@ -660,33 +487,59 @@
      "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
     },
     {
-     "start": "2026-10-06T20:54:00+00:00",
-     "end": "2026-10-06T22:24:00+00:00",
-     "emby_id": "215013",
+     "start": "2026-10-06T16:30:00+00:00",
+     "end": "2026-10-06T18:00:00+00:00",
+     "emby_id": "217333",
      "kind": "movie",
-     "title": "Office Killer",
-     "year": 1997,
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
      "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco"
+     "genres": [],
+     "overview": "Black Hearts Bleed Red (1992)"
     },
     {
-     "start": "2026-10-06T22:24:00+00:00",
-     "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "216365",
+     "start": "2026-10-06T18:00:00+00:00",
+     "end": "2026-10-06T19:30:00+00:00",
+     "emby_id": "217211",
      "kind": "movie",
-     "title": "Love Reinvented",
-     "year": 1979,
-     "duration_s": 5760,
-     "genres": [
-      "Horror",
-      "Drama"
-     ],
-     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists"
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The Act of Seeing with One's Own Eyes (1971)"
+    },
+    {
+     "start": "2026-10-06T19:30:00+00:00",
+     "end": "2026-10-06T21:00:00+00:00",
+     "emby_id": "372821",
+     "kind": "movie",
+     "title": "Antiviral",
+     "year": 2012,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antiviral (2012)"
+    },
+    {
+     "start": "2026-10-06T21:00:00+00:00",
+     "end": "2026-10-06T22:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975)"
+    },
+    {
+     "start": "2026-10-06T22:30:00+00:00",
+     "end": "2026-10-07T00:00:00+00:00",
+     "emby_id": "372820",
+     "kind": "movie",
+     "title": "Annihilation",
+     "year": 2018,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Annihilation (2018)"
     }
    ]
   },
@@ -695,108 +548,84 @@
     {
      "start": "2026-10-04T00:00:00+00:00",
      "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "215188",
+     "emby_id": "248643",
      "kind": "movie",
-     "title": "Letter to Jane: An Investigation About a Still",
-     "year": 1972,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
      "genres": [
-      "Documentary"
+      "Crime",
+      "Drama",
+      "Thriller"
      ],
-     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
      "start": "2026-10-04T01:30:00+00:00",
      "end": "2026-10-04T03:00:00+00:00",
-     "emby_id": "215192",
+     "emby_id": "215530",
      "kind": "movie",
-     "title": "Vladimir and Rosa",
-     "year": 1971,
+     "title": "Autumnal Equinox",
+     "year": 1974,
      "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
     },
     {
      "start": "2026-10-04T03:00:00+00:00",
      "end": "2026-10-04T04:30:00+00:00",
-     "emby_id": "248430",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "France Tour Detour Mouvement 2 Lumiere Physique",
-     "year": 1977,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art."
+     "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+     ],
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
     },
     {
      "start": "2026-10-04T04:30:00+00:00",
      "end": "2026-10-04T06:00:00+00:00",
-     "emby_id": "215739",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Schick Commerical",
-     "year": 1971,
+     "title": "Atman",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [],
-     "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h"
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
     },
     {
      "start": "2026-10-04T06:00:00+00:00",
      "end": "2026-10-04T07:30:00+00:00",
-     "emby_id": "216384",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "The Private Life of a Cat",
-     "year": 1946,
+     "title": "Apparatus Sum",
+     "year": 1972,
      "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
     },
     {
      "start": "2026-10-04T07:30:00+00:00",
      "end": "2026-10-04T09:00:00+00:00",
-     "emby_id": "373009",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [
+      "Comedy",
       "Drama",
-      "History"
+      "Horror"
      ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
     },
     {
      "start": "2026-10-04T09:00:00+00:00",
-     "end": "2026-10-04T10:30:00+00:00",
-     "emby_id": "215996",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-04T10:30:00+00:00",
-     "end": "2026-10-04T12:00:00+00:00",
-     "emby_id": "215995",
-     "kind": "movie",
-     "title": "Eaux d'Artifice",
-     "year": 1953,
-     "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat"
-    },
-    {
-     "start": "2026-10-04T12:00:00+00:00",
-     "end": "2026-10-04T12:20:21+00:00",
+     "end": "2026-10-04T09:20:21+00:00",
      "emby_id": "248769",
      "kind": "movie",
      "title": "Blind Country",
@@ -806,451 +635,116 @@
       "Experimental"
      ],
      "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-04T09:20:21+00:00",
+     "end": "2026-10-04T10:50:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-04T10:50:21+00:00",
+     "end": "2026-10-04T12:20:21+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
     },
     {
      "start": "2026-10-04T12:20:21+00:00",
      "end": "2026-10-04T13:50:21+00:00",
-     "emby_id": "215270",
+     "emby_id": "248643",
      "kind": "movie",
-     "title": "Montparnasse",
-     "year": 1929,
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
      "genres": [
-      "Documentary"
+      "Crime",
+      "Drama",
+      "Thriller"
      ],
-     "overview": "Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam"
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
     },
     {
      "start": "2026-10-04T13:50:21+00:00",
      "end": "2026-10-04T15:20:21+00:00",
-     "emby_id": "215730",
+     "emby_id": "215530",
      "kind": "movie",
-     "title": "British Sounds",
-     "year": 1970,
+     "title": "Autumnal Equinox",
+     "year": 1974,
      "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
     },
     {
      "start": "2026-10-04T15:20:21+00:00",
      "end": "2026-10-04T16:50:21+00:00",
-     "emby_id": "217209",
+     "emby_id": "248883",
      "kind": "movie",
-     "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B"
-    },
-    {
-     "start": "2026-10-04T16:50:21+00:00",
-     "end": "2026-10-04T18:27:21+00:00",
-     "emby_id": "372862",
-     "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-04T18:27:21+00:00",
-     "end": "2026-10-04T19:57:21+00:00",
-     "emby_id": "248561",
-     "kind": "movie",
-     "title": "Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-04T19:57:21+00:00",
-     "end": "2026-10-04T21:27:21+00:00",
-     "emby_id": "248434",
-     "kind": "movie",
-     "title": "France/tour/d\u00e9tour/deux/enfants, Mouvement 5: Impression/Dict\u00e9e (Impression/Dictation)",
-     "year": 1978,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-04T21:27:21+00:00",
-     "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "372861",
-     "kind": "movie",
-     "title": "Scanners",
-     "year": 1981,
-     "duration_s": 9159,
-     "genres": [
-      "Science Fiction",
-      "Horror"
-     ],
-     "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners."
-    },
-    {
-     "start": "2026-10-05T00:00:00+00:00",
-     "end": "2026-10-05T01:30:00+00:00",
-     "emby_id": "215737",
-     "kind": "movie",
-     "title": "1 P.M.",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Lighter and livelier than the films Jean-Luc Godard had made in France, his U.S. collaboration with Direct Cinema documentarian D. A. Pennebaker was meant to be One A.M., as in \u201cone American movie\u201d; but Godard quit the p"
-    },
-    {
-     "start": "2026-10-05T01:30:00+00:00",
-     "end": "2026-10-05T03:00:00+00:00",
-     "emby_id": "215995",
-     "kind": "movie",
-     "title": "Eaux d'Artifice",
-     "year": 1953,
-     "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat"
-    },
-    {
-     "start": "2026-10-05T03:00:00+00:00",
-     "end": "2026-10-05T04:30:00+00:00",
-     "emby_id": "373009",
-     "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
       "Drama",
-      "History"
-     ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
-    },
-    {
-     "start": "2026-10-05T04:30:00+00:00",
-     "end": "2026-10-05T06:00:00+00:00",
-     "emby_id": "248430",
-     "kind": "movie",
-     "title": "France Tour Detour Mouvement 2 Lumiere Physique",
-     "year": 1977,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-05T06:00:00+00:00",
-     "end": "2026-10-05T07:30:00+00:00",
-     "emby_id": "217209",
-     "kind": "movie",
-     "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B"
-    },
-    {
-     "start": "2026-10-05T07:30:00+00:00",
-     "end": "2026-10-05T09:00:00+00:00",
-     "emby_id": "248561",
-     "kind": "movie",
-     "title": "Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-05T09:00:00+00:00",
-     "end": "2026-10-05T10:30:00+00:00",
-     "emby_id": "215270",
-     "kind": "movie",
-     "title": "Montparnasse",
-     "year": 1929,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam"
-    },
-    {
-     "start": "2026-10-05T10:30:00+00:00",
-     "end": "2026-10-05T12:07:00+00:00",
-     "emby_id": "372862",
-     "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
+      "Crime",
       "Mystery"
      ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
     },
     {
-     "start": "2026-10-05T12:07:00+00:00",
-     "end": "2026-10-05T13:37:00+00:00",
-     "emby_id": "215192",
+     "start": "2026-10-04T16:50:21+00:00",
+     "end": "2026-10-04T18:20:21+00:00",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Vladimir and Rosa",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
-    },
-    {
-     "start": "2026-10-05T13:37:00+00:00",
-     "end": "2026-10-05T15:07:00+00:00",
-     "emby_id": "215730",
-     "kind": "movie",
-     "title": "British Sounds",
-     "year": 1970,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
-    },
-    {
-     "start": "2026-10-05T15:07:00+00:00",
-     "end": "2026-10-05T16:37:00+00:00",
-     "emby_id": "215996",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-05T16:37:00+00:00",
-     "end": "2026-10-05T18:07:00+00:00",
-     "emby_id": "215739",
-     "kind": "movie",
-     "title": "Schick Commerical",
-     "year": 1971,
+     "title": "Atman",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [],
-     "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h"
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
     },
     {
-     "start": "2026-10-05T18:07:00+00:00",
-     "end": "2026-10-05T19:37:00+00:00",
-     "emby_id": "215188",
+     "start": "2026-10-04T18:20:21+00:00",
+     "end": "2026-10-04T19:50:21+00:00",
+     "emby_id": "215528",
      "kind": "movie",
-     "title": "Letter to Jane: An Investigation About a Still",
+     "title": "Apparatus Sum",
      "year": 1972,
      "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
     },
     {
-     "start": "2026-10-05T19:37:00+00:00",
-     "end": "2026-10-05T21:07:00+00:00",
-     "emby_id": "216384",
+     "start": "2026-10-04T19:50:21+00:00",
+     "end": "2026-10-04T21:20:21+00:00",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "The Private Life of a Cat",
-     "year": 1946,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [
-      "Documentary"
-     ],
-     "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
-    },
-    {
-     "start": "2026-10-05T21:07:00+00:00",
-     "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "372861",
-     "kind": "movie",
-     "title": "Scanners",
-     "year": 1981,
-     "duration_s": 10380,
-     "genres": [
-      "Science Fiction",
+      "Comedy",
+      "Drama",
       "Horror"
      ],
-     "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners."
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
     },
     {
-     "start": "2026-10-06T00:00:00+00:00",
-     "end": "2026-10-06T01:30:00+00:00",
-     "emby_id": "217209",
-     "kind": "movie",
-     "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B"
-    },
-    {
-     "start": "2026-10-06T01:30:00+00:00",
-     "end": "2026-10-06T03:00:00+00:00",
-     "emby_id": "215739",
-     "kind": "movie",
-     "title": "Schick Commerical",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h"
-    },
-    {
-     "start": "2026-10-06T03:00:00+00:00",
-     "end": "2026-10-06T04:30:00+00:00",
-     "emby_id": "215995",
-     "kind": "movie",
-     "title": "Eaux d'Artifice",
-     "year": 1953,
-     "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat"
-    },
-    {
-     "start": "2026-10-06T04:30:00+00:00",
-     "end": "2026-10-06T06:00:00+00:00",
-     "emby_id": "248430",
-     "kind": "movie",
-     "title": "France Tour Detour Mouvement 2 Lumiere Physique",
-     "year": 1977,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-06T06:00:00+00:00",
-     "end": "2026-10-06T07:30:00+00:00",
-     "emby_id": "215737",
-     "kind": "movie",
-     "title": "1 P.M.",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Lighter and livelier than the films Jean-Luc Godard had made in France, his U.S. collaboration with Direct Cinema documentarian D. A. Pennebaker was meant to be One A.M., as in \u201cone American movie\u201d; but Godard quit the p"
-    },
-    {
-     "start": "2026-10-06T07:30:00+00:00",
-     "end": "2026-10-06T09:00:00+00:00",
-     "emby_id": "216384",
-     "kind": "movie",
-     "title": "The Private Life of a Cat",
-     "year": 1946,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
-    },
-    {
-     "start": "2026-10-06T09:00:00+00:00",
-     "end": "2026-10-06T10:30:00+00:00",
-     "emby_id": "215996",
-     "kind": "movie",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a"
-    },
-    {
-     "start": "2026-10-06T10:30:00+00:00",
-     "end": "2026-10-06T12:00:00+00:00",
-     "emby_id": "215188",
-     "kind": "movie",
-     "title": "Letter to Jane: An Investigation About a Still",
-     "year": 1972,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation"
-    },
-    {
-     "start": "2026-10-06T12:00:00+00:00",
-     "end": "2026-10-06T13:30:00+00:00",
-     "emby_id": "215730",
-     "kind": "movie",
-     "title": "British Sounds",
-     "year": 1970,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th"
-    },
-    {
-     "start": "2026-10-06T13:30:00+00:00",
-     "end": "2026-10-06T15:13:00+00:00",
-     "emby_id": "372861",
-     "kind": "movie",
-     "title": "Scanners",
-     "year": 1981,
-     "duration_s": 6180,
-     "genres": [
-      "Science Fiction",
-      "Horror"
-     ],
-     "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners."
-    },
-    {
-     "start": "2026-10-06T15:13:00+00:00",
-     "end": "2026-10-06T16:43:00+00:00",
-     "emby_id": "248561",
-     "kind": "movie",
-     "title": "Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-06T16:43:00+00:00",
-     "end": "2026-10-06T18:13:00+00:00",
-     "emby_id": "248434",
-     "kind": "movie",
-     "title": "France/tour/d\u00e9tour/deux/enfants, Mouvement 5: Impression/Dict\u00e9e (Impression/Dictation)",
-     "year": 1978,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art."
-    },
-    {
-     "start": "2026-10-06T18:13:00+00:00",
-     "end": "2026-10-06T19:43:00+00:00",
-     "emby_id": "215192",
-     "kind": "movie",
-     "title": "Vladimir and Rosa",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi"
-    },
-    {
-     "start": "2026-10-06T19:43:00+00:00",
-     "end": "2026-10-06T20:03:21+00:00",
+     "start": "2026-10-04T21:20:21+00:00",
+     "end": "2026-10-04T21:40:42+00:00",
      "emby_id": "248769",
      "kind": "movie",
      "title": "Blind Country",
@@ -1262,33 +756,473 @@
      "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
     },
     {
-     "start": "2026-10-06T20:03:21+00:00",
-     "end": "2026-10-06T21:33:21+00:00",
-     "emby_id": "373009",
+     "start": "2026-10-04T21:40:42+00:00",
+     "end": "2026-10-05T00:00:00+00:00",
+     "emby_id": "249058",
      "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 8358,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-05T00:00:00+00:00",
+     "end": "2026-10-05T01:30:00+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+    },
+    {
+     "start": "2026-10-05T01:30:00+00:00",
+     "end": "2026-10-05T03:00:00+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-05T03:00:00+00:00",
+     "end": "2026-10-05T04:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
+    },
+    {
+     "start": "2026-10-05T04:30:00+00:00",
+     "end": "2026-10-05T06:00:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
       "Drama",
-      "History"
-     ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
-    },
-    {
-     "start": "2026-10-06T21:33:21+00:00",
-     "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "372862",
-     "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 8799,
-     "genres": [
-      "Comedy",
-      "Fantasy",
+      "Crime",
       "Mystery"
      ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-05T06:00:00+00:00",
+     "end": "2026-10-05T07:30:00+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-05T07:30:00+00:00",
+     "end": "2026-10-05T09:00:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-05T09:00:00+00:00",
+     "end": "2026-10-05T10:30:00+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-05T10:30:00+00:00",
+     "end": "2026-10-05T10:50:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-05T10:50:21+00:00",
+     "end": "2026-10-05T12:20:21+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-05T12:20:21+00:00",
+     "end": "2026-10-05T13:50:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+    },
+    {
+     "start": "2026-10-05T13:50:21+00:00",
+     "end": "2026-10-05T15:20:21+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-05T15:20:21+00:00",
+     "end": "2026-10-05T16:50:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
+    },
+    {
+     "start": "2026-10-05T16:50:21+00:00",
+     "end": "2026-10-05T18:20:21+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+     ],
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-05T18:20:21+00:00",
+     "end": "2026-10-05T19:50:21+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-05T19:50:21+00:00",
+     "end": "2026-10-05T21:20:21+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-05T21:20:21+00:00",
+     "end": "2026-10-05T22:50:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-05T22:50:21+00:00",
+     "end": "2026-10-06T00:00:00+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 4179,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-06T00:00:00+00:00",
+     "end": "2026-10-06T00:20:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-06T00:20:21+00:00",
+     "end": "2026-10-06T01:50:21+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+     ],
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-06T01:50:21+00:00",
+     "end": "2026-10-06T03:20:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+    },
+    {
+     "start": "2026-10-06T03:20:21+00:00",
+     "end": "2026-10-06T04:50:21+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-06T04:50:21+00:00",
+     "end": "2026-10-06T06:20:21+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-06T06:20:21+00:00",
+     "end": "2026-10-06T07:50:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
+    },
+    {
+     "start": "2026-10-06T07:50:21+00:00",
+     "end": "2026-10-06T09:20:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-06T09:20:21+00:00",
+     "end": "2026-10-06T10:50:21+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-06T10:50:21+00:00",
+     "end": "2026-10-06T12:20:21+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-06T12:20:21+00:00",
+     "end": "2026-10-06T12:40:42+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-06T12:40:42+00:00",
+     "end": "2026-10-06T14:10:42+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+     ],
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-06T14:10:42+00:00",
+     "end": "2026-10-06T15:40:42+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+    },
+    {
+     "start": "2026-10-06T15:40:42+00:00",
+     "end": "2026-10-06T17:10:42+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-06T17:10:42+00:00",
+     "end": "2026-10-06T18:40:42+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-06T18:40:42+00:00",
+     "end": "2026-10-06T20:10:42+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
+    },
+    {
+     "start": "2026-10-06T20:10:42+00:00",
+     "end": "2026-10-06T21:40:42+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-06T21:40:42+00:00",
+     "end": "2026-10-07T00:00:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 8358,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
     }
    ]
   },
@@ -1297,123 +1231,42 @@
     {
      "start": "2026-10-04T00:00:00+00:00",
      "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "373053",
+     "emby_id": "373049",
      "kind": "movie",
-     "title": "Slacker",
-     "year": 1990,
+     "title": "Koyaanisqatsi",
+     "year": 1983,
      "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Comedy"
-     ],
-     "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
     },
     {
      "start": "2026-10-04T01:30:00+00:00",
-     "end": "2026-10-04T01:42:00+00:00",
-     "emby_id": "36220",
+     "end": "2026-10-04T03:00:00+00:00",
+     "emby_id": "372868",
      "kind": "movie",
-     "title": "From Dusk Till Dawn",
-     "year": 1996,
-     "duration_s": 720,
-     "genres": [
-      "Horror",
-      "Vampires",
-      "Movie"
-     ],
-     "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo"
-    },
-    {
-     "start": "2026-10-04T01:42:00+00:00",
-     "end": "2026-10-04T03:12:00+00:00",
-     "emby_id": "216156",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
+     "title": "The 'Burbs",
+     "year": 1989,
      "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
     },
     {
-     "start": "2026-10-04T03:12:00+00:00",
-     "end": "2026-10-04T04:42:00+00:00",
-     "emby_id": "373032",
+     "start": "2026-10-04T03:00:00+00:00",
+     "end": "2026-10-04T04:30:00+00:00",
+     "emby_id": "373009",
      "kind": "movie",
-     "title": "Marcel the Shell with Shoes On",
-     "year": 2022,
-     "duration_s": 5400,
-     "genres": [
-      "Animation",
-      "Comedy",
-      "Drama"
-     ],
-     "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of"
-    },
-    {
-     "start": "2026-10-04T04:42:00+00:00",
-     "end": "2026-10-04T06:12:00+00:00",
-     "emby_id": "373064",
-     "kind": "movie",
-     "title": "The Fountain",
-     "year": 2006,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Adventure",
-      "Science Fiction"
-     ],
-     "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world."
-    },
-    {
-     "start": "2026-10-04T06:12:00+00:00",
-     "end": "2026-10-04T07:42:00+00:00",
-     "emby_id": "372873",
-     "kind": "movie",
-     "title": "The Killing of a Sacred Deer",
-     "year": 2017,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Thriller",
-      "Mystery"
-     ],
-     "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi"
-    },
-    {
-     "start": "2026-10-04T07:42:00+00:00",
-     "end": "2026-10-04T09:22:00+00:00",
-     "emby_id": "373091",
-     "kind": "movie",
-     "title": "I Saw the TV Glow",
-     "year": 2024,
-     "duration_s": 6000,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg"
-    },
-    {
-     "start": "2026-10-04T09:22:00+00:00",
-     "end": "2026-10-04T10:52:00+00:00",
-     "emby_id": "217320",
-     "kind": "movie",
-     "title": "Kill Bill: Vol. 1",
+     "title": "Elephant",
      "year": 2003,
      "duration_s": 5400,
      "genres": [
-      "Action",
-      "Crime"
+      "Drama",
+      "History"
      ],
-     "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance."
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
-     "start": "2026-10-04T10:52:00+00:00",
-     "end": "2026-10-04T12:22:00+00:00",
+     "start": "2026-10-04T04:30:00+00:00",
+     "end": "2026-10-04T06:00:00+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1426,314 +1279,193 @@
      "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
     },
     {
-     "start": "2026-10-04T12:22:00+00:00",
-     "end": "2026-10-04T13:52:00+00:00",
-     "emby_id": "372850",
+     "start": "2026-10-04T06:00:00+00:00",
+     "end": "2026-10-04T07:37:00+00:00",
+     "emby_id": "372862",
      "kind": "movie",
-     "title": "Mister Lonely",
-     "year": 2008,
-     "duration_s": 5400,
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
      "genres": [
       "Comedy",
-      "Drama"
-     ],
-     "overview": "In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple."
-    },
-    {
-     "start": "2026-10-04T13:52:00+00:00",
-     "end": "2026-10-04T15:22:00+00:00",
-     "emby_id": "216673",
-     "kind": "movie",
-     "title": "Burning",
-     "year": 1999,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Crime",
+      "Fantasy",
       "Mystery"
      ],
-     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
     },
     {
-     "start": "2026-10-04T15:22:00+00:00",
-     "end": "2026-10-04T17:44:00+00:00",
-     "emby_id": "372856",
+     "start": "2026-10-04T07:37:00+00:00",
+     "end": "2026-10-04T09:07:00+00:00",
+     "emby_id": "373049",
      "kind": "movie",
-     "title": "Poor Things",
-     "year": 2023,
-     "duration_s": 8520,
-     "genres": [
-      "Science Fiction",
-      "Romance",
-      "Comedy"
-     ],
-     "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for"
-    },
-    {
-     "start": "2026-10-04T17:44:00+00:00",
-     "end": "2026-10-04T19:14:00+00:00",
-     "emby_id": "372859",
-     "kind": "movie",
-     "title": "Requiem for a Dream",
-     "year": 2000,
+     "title": "Koyaanisqatsi",
+     "year": 1983,
      "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama"
-     ],
-     "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep."
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
     },
     {
-     "start": "2026-10-04T19:14:00+00:00",
-     "end": "2026-10-04T20:44:00+00:00",
-     "emby_id": "373053",
+     "start": "2026-10-04T09:07:00+00:00",
+     "end": "2026-10-04T10:37:00+00:00",
+     "emby_id": "372868",
      "kind": "movie",
-     "title": "Slacker",
-     "year": 1990,
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
+    },
+    {
+     "start": "2026-10-04T10:37:00+00:00",
+     "end": "2026-10-04T12:07:00+00:00",
+     "emby_id": "373009",
+     "kind": "movie",
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
       "Drama",
-      "Comedy"
+      "History"
      ],
-     "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
-     "start": "2026-10-04T20:44:00+00:00",
-     "end": "2026-10-04T20:56:00+00:00",
-     "emby_id": "36220",
+     "start": "2026-10-04T12:07:00+00:00",
+     "end": "2026-10-04T13:37:00+00:00",
+     "emby_id": "373072",
      "kind": "movie",
-     "title": "From Dusk Till Dawn",
-     "year": 1996,
-     "duration_s": 720,
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
      "genres": [
       "Horror",
-      "Vampires",
-      "Movie"
+      "Comedy"
      ],
-     "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo"
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
     },
     {
-     "start": "2026-10-04T20:56:00+00:00",
-     "end": "2026-10-04T22:26:00+00:00",
-     "emby_id": "216156",
+     "start": "2026-10-04T13:37:00+00:00",
+     "end": "2026-10-04T15:14:00+00:00",
+     "emby_id": "372862",
      "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
+     "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mystery"
+     ],
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+    },
+    {
+     "start": "2026-10-04T15:14:00+00:00",
+     "end": "2026-10-04T16:44:00+00:00",
+     "emby_id": "373049",
+     "kind": "movie",
+     "title": "Koyaanisqatsi",
+     "year": 1983,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+    },
+    {
+     "start": "2026-10-04T16:44:00+00:00",
+     "end": "2026-10-04T18:14:00+00:00",
+     "emby_id": "372868",
+     "kind": "movie",
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
+    },
+    {
+     "start": "2026-10-04T18:14:00+00:00",
+     "end": "2026-10-04T19:44:00+00:00",
+     "emby_id": "373009",
+     "kind": "movie",
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
-      "Crime",
       "Drama",
-      "Thriller"
+      "History"
      ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
-     "start": "2026-10-04T22:26:00+00:00",
-     "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "373032",
+     "start": "2026-10-04T19:44:00+00:00",
+     "end": "2026-10-04T21:14:00+00:00",
+     "emby_id": "373072",
      "kind": "movie",
-     "title": "Marcel the Shell with Shoes On",
-     "year": 2022,
-     "duration_s": 5640,
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
      "genres": [
-      "Animation",
-      "Comedy",
-      "Drama"
+      "Horror",
+      "Comedy"
      ],
-     "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of"
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+    },
+    {
+     "start": "2026-10-04T21:14:00+00:00",
+     "end": "2026-10-05T00:00:00+00:00",
+     "emby_id": "372862",
+     "kind": "movie",
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 9960,
+     "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mystery"
+     ],
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
     },
     {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
-     "emby_id": "373072",
+     "emby_id": "373009",
      "kind": "movie",
-     "title": "The Monkey",
-     "year": 2025,
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
-      "Horror",
-      "Comedy"
+      "Drama",
+      "History"
      ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
      "start": "2026-10-05T01:30:00+00:00",
-     "end": "2026-10-05T03:00:00+00:00",
-     "emby_id": "373053",
+     "end": "2026-10-05T03:07:00+00:00",
+     "emby_id": "372862",
      "kind": "movie",
-     "title": "Slacker",
-     "year": 1990,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Comedy"
-     ],
-     "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
-    },
-    {
-     "start": "2026-10-05T03:00:00+00:00",
-     "end": "2026-10-05T04:30:00+00:00",
-     "emby_id": "372873",
-     "kind": "movie",
-     "title": "The Killing of a Sacred Deer",
-     "year": 2017,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Thriller",
-      "Mystery"
-     ],
-     "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi"
-    },
-    {
-     "start": "2026-10-05T04:30:00+00:00",
-     "end": "2026-10-05T06:00:00+00:00",
-     "emby_id": "216156",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
-    },
-    {
-     "start": "2026-10-05T06:00:00+00:00",
-     "end": "2026-10-05T07:30:00+00:00",
-     "emby_id": "372850",
-     "kind": "movie",
-     "title": "Mister Lonely",
-     "year": 2008,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama"
-     ],
-     "overview": "In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple."
-    },
-    {
-     "start": "2026-10-05T07:30:00+00:00",
-     "end": "2026-10-05T09:00:00+00:00",
-     "emby_id": "372859",
-     "kind": "movie",
-     "title": "Requiem for a Dream",
-     "year": 2000,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama"
-     ],
-     "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep."
-    },
-    {
-     "start": "2026-10-05T09:00:00+00:00",
-     "end": "2026-10-05T10:30:00+00:00",
-     "emby_id": "216673",
-     "kind": "movie",
-     "title": "Burning",
-     "year": 1999,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Crime",
-      "Mystery"
-     ],
-     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
-    },
-    {
-     "start": "2026-10-05T10:30:00+00:00",
-     "end": "2026-10-05T12:52:00+00:00",
-     "emby_id": "372856",
-     "kind": "movie",
-     "title": "Poor Things",
-     "year": 2023,
-     "duration_s": 8520,
-     "genres": [
-      "Science Fiction",
-      "Romance",
-      "Comedy"
-     ],
-     "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for"
-    },
-    {
-     "start": "2026-10-05T12:52:00+00:00",
-     "end": "2026-10-05T14:32:00+00:00",
-     "emby_id": "373091",
-     "kind": "movie",
-     "title": "I Saw the TV Glow",
-     "year": 2024,
-     "duration_s": 6000,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg"
-    },
-    {
-     "start": "2026-10-05T14:32:00+00:00",
-     "end": "2026-10-05T16:02:00+00:00",
-     "emby_id": "373032",
-     "kind": "movie",
-     "title": "Marcel the Shell with Shoes On",
-     "year": 2022,
-     "duration_s": 5400,
-     "genres": [
-      "Animation",
-      "Comedy",
-      "Drama"
-     ],
-     "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of"
-    },
-    {
-     "start": "2026-10-05T16:02:00+00:00",
-     "end": "2026-10-05T17:32:00+00:00",
-     "emby_id": "373064",
-     "kind": "movie",
-     "title": "The Fountain",
-     "year": 2006,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Adventure",
-      "Science Fiction"
-     ],
-     "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world."
-    },
-    {
-     "start": "2026-10-05T17:32:00+00:00",
-     "end": "2026-10-05T17:44:00+00:00",
-     "emby_id": "36220",
-     "kind": "movie",
-     "title": "From Dusk Till Dawn",
+     "title": "Schizopolis",
      "year": 1996,
-     "duration_s": 720,
+     "duration_s": 5820,
      "genres": [
-      "Horror",
-      "Vampires",
-      "Movie"
+      "Comedy",
+      "Fantasy",
+      "Mystery"
      ],
-     "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo"
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
     },
     {
-     "start": "2026-10-05T17:44:00+00:00",
-     "end": "2026-10-05T19:14:00+00:00",
-     "emby_id": "217320",
+     "start": "2026-10-05T03:07:00+00:00",
+     "end": "2026-10-05T04:37:00+00:00",
+     "emby_id": "373049",
      "kind": "movie",
-     "title": "Kill Bill: Vol. 1",
-     "year": 2003,
+     "title": "Koyaanisqatsi",
+     "year": 1983,
      "duration_s": 5400,
-     "genres": [
-      "Action",
-      "Crime"
-     ],
-     "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance."
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
     },
     {
-     "start": "2026-10-05T19:14:00+00:00",
-     "end": "2026-10-05T20:44:00+00:00",
+     "start": "2026-10-05T04:37:00+00:00",
+     "end": "2026-10-05T06:07:00+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1746,197 +1478,149 @@
      "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
     },
     {
-     "start": "2026-10-05T20:44:00+00:00",
-     "end": "2026-10-05T22:14:00+00:00",
-     "emby_id": "373053",
+     "start": "2026-10-05T06:07:00+00:00",
+     "end": "2026-10-05T07:37:00+00:00",
+     "emby_id": "372868",
      "kind": "movie",
-     "title": "Slacker",
-     "year": 1990,
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
+    },
+    {
+     "start": "2026-10-05T07:37:00+00:00",
+     "end": "2026-10-05T09:07:00+00:00",
+     "emby_id": "373009",
+     "kind": "movie",
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
       "Drama",
-      "Comedy"
+      "History"
      ],
-     "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
-     "start": "2026-10-05T22:14:00+00:00",
-     "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "372873",
+     "start": "2026-10-05T09:07:00+00:00",
+     "end": "2026-10-05T10:44:00+00:00",
+     "emby_id": "372862",
      "kind": "movie",
-     "title": "The Killing of a Sacred Deer",
-     "year": 2017,
-     "duration_s": 6360,
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
      "genres": [
-      "Drama",
-      "Thriller",
+      "Comedy",
+      "Fantasy",
       "Mystery"
      ],
-     "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi"
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+    },
+    {
+     "start": "2026-10-05T10:44:00+00:00",
+     "end": "2026-10-05T12:14:00+00:00",
+     "emby_id": "373049",
+     "kind": "movie",
+     "title": "Koyaanisqatsi",
+     "year": 1983,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+    },
+    {
+     "start": "2026-10-05T12:14:00+00:00",
+     "end": "2026-10-05T13:44:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+    },
+    {
+     "start": "2026-10-05T13:44:00+00:00",
+     "end": "2026-10-05T15:14:00+00:00",
+     "emby_id": "372868",
+     "kind": "movie",
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
+    },
+    {
+     "start": "2026-10-05T15:14:00+00:00",
+     "end": "2026-10-05T16:44:00+00:00",
+     "emby_id": "373009",
+     "kind": "movie",
+     "title": "Elephant",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "History"
+     ],
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+    },
+    {
+     "start": "2026-10-05T16:44:00+00:00",
+     "end": "2026-10-05T18:21:00+00:00",
+     "emby_id": "372862",
+     "kind": "movie",
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
+     "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mystery"
+     ],
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+    },
+    {
+     "start": "2026-10-05T18:21:00+00:00",
+     "end": "2026-10-05T19:51:00+00:00",
+     "emby_id": "373049",
+     "kind": "movie",
+     "title": "Koyaanisqatsi",
+     "year": 1983,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+    },
+    {
+     "start": "2026-10-05T19:51:00+00:00",
+     "end": "2026-10-05T21:21:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+    },
+    {
+     "start": "2026-10-05T21:21:00+00:00",
+     "end": "2026-10-06T00:00:00+00:00",
+     "emby_id": "372868",
+     "kind": "movie",
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 9540,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
     },
     {
      "start": "2026-10-06T00:00:00+00:00",
-     "end": "2026-10-06T01:40:00+00:00",
-     "emby_id": "373091",
-     "kind": "movie",
-     "title": "I Saw the TV Glow",
-     "year": 2024,
-     "duration_s": 6000,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg"
-    },
-    {
-     "start": "2026-10-06T01:40:00+00:00",
-     "end": "2026-10-06T03:10:00+00:00",
-     "emby_id": "372859",
-     "kind": "movie",
-     "title": "Requiem for a Dream",
-     "year": 2000,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama"
-     ],
-     "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep."
-    },
-    {
-     "start": "2026-10-06T03:10:00+00:00",
-     "end": "2026-10-06T04:40:00+00:00",
-     "emby_id": "216156",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
-    },
-    {
-     "start": "2026-10-06T04:40:00+00:00",
-     "end": "2026-10-06T06:10:00+00:00",
-     "emby_id": "373053",
-     "kind": "movie",
-     "title": "Slacker",
-     "year": 1990,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Comedy"
-     ],
-     "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
-    },
-    {
-     "start": "2026-10-06T06:10:00+00:00",
-     "end": "2026-10-06T07:40:00+00:00",
-     "emby_id": "373064",
-     "kind": "movie",
-     "title": "The Fountain",
-     "year": 2006,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Adventure",
-      "Science Fiction"
-     ],
-     "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world."
-    },
-    {
-     "start": "2026-10-06T07:40:00+00:00",
-     "end": "2026-10-06T09:10:00+00:00",
-     "emby_id": "216673",
-     "kind": "movie",
-     "title": "Burning",
-     "year": 1999,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Crime",
-      "Mystery"
-     ],
-     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
-    },
-    {
-     "start": "2026-10-06T09:10:00+00:00",
-     "end": "2026-10-06T11:32:00+00:00",
-     "emby_id": "372856",
-     "kind": "movie",
-     "title": "Poor Things",
-     "year": 2023,
-     "duration_s": 8520,
-     "genres": [
-      "Science Fiction",
-      "Romance",
-      "Comedy"
-     ],
-     "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for"
-    },
-    {
-     "start": "2026-10-06T11:32:00+00:00",
-     "end": "2026-10-06T13:02:00+00:00",
-     "emby_id": "373032",
-     "kind": "movie",
-     "title": "Marcel the Shell with Shoes On",
-     "year": 2022,
-     "duration_s": 5400,
-     "genres": [
-      "Animation",
-      "Comedy",
-      "Drama"
-     ],
-     "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of"
-    },
-    {
-     "start": "2026-10-06T13:02:00+00:00",
-     "end": "2026-10-06T13:14:00+00:00",
-     "emby_id": "36220",
-     "kind": "movie",
-     "title": "From Dusk Till Dawn",
-     "year": 1996,
-     "duration_s": 720,
-     "genres": [
-      "Horror",
-      "Vampires",
-      "Movie"
-     ],
-     "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo"
-    },
-    {
-     "start": "2026-10-06T13:14:00+00:00",
-     "end": "2026-10-06T14:44:00+00:00",
-     "emby_id": "217320",
-     "kind": "movie",
-     "title": "Kill Bill: Vol. 1",
-     "year": 2003,
-     "duration_s": 5400,
-     "genres": [
-      "Action",
-      "Crime"
-     ],
-     "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance."
-    },
-    {
-     "start": "2026-10-06T14:44:00+00:00",
-     "end": "2026-10-06T16:14:00+00:00",
-     "emby_id": "372850",
-     "kind": "movie",
-     "title": "Mister Lonely",
-     "year": 2008,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama"
-     ],
-     "overview": "In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple."
-    },
-    {
-     "start": "2026-10-06T16:14:00+00:00",
-     "end": "2026-10-06T17:44:00+00:00",
+     "end": "2026-10-06T01:30:00+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1949,62 +1633,185 @@
      "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
     },
     {
-     "start": "2026-10-06T17:44:00+00:00",
-     "end": "2026-10-06T19:14:00+00:00",
-     "emby_id": "372873",
+     "start": "2026-10-06T01:30:00+00:00",
+     "end": "2026-10-06T03:07:00+00:00",
+     "emby_id": "372862",
      "kind": "movie",
-     "title": "The Killing of a Sacred Deer",
-     "year": 2017,
-     "duration_s": 5400,
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
      "genres": [
-      "Drama",
-      "Thriller",
+      "Comedy",
+      "Fantasy",
       "Mystery"
      ],
-     "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi"
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
     },
     {
-     "start": "2026-10-06T19:14:00+00:00",
-     "end": "2026-10-06T20:54:00+00:00",
-     "emby_id": "373091",
+     "start": "2026-10-06T03:07:00+00:00",
+     "end": "2026-10-06T04:37:00+00:00",
+     "emby_id": "373009",
      "kind": "movie",
-     "title": "I Saw the TV Glow",
-     "year": 2024,
-     "duration_s": 6000,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg"
-    },
-    {
-     "start": "2026-10-06T20:54:00+00:00",
-     "end": "2026-10-06T22:24:00+00:00",
-     "emby_id": "372859",
-     "kind": "movie",
-     "title": "Requiem for a Dream",
-     "year": 2000,
+     "title": "Elephant",
+     "year": 2003,
      "duration_s": 5400,
      "genres": [
-      "Crime",
-      "Drama"
+      "Drama",
+      "History"
      ],
-     "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep."
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
     },
     {
-     "start": "2026-10-06T22:24:00+00:00",
-     "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "216156",
+     "start": "2026-10-06T04:37:00+00:00",
+     "end": "2026-10-06T06:07:00+00:00",
+     "emby_id": "372868",
      "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5760,
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
+    },
+    {
+     "start": "2026-10-06T06:07:00+00:00",
+     "end": "2026-10-06T07:37:00+00:00",
+     "emby_id": "373049",
+     "kind": "movie",
+     "title": "Koyaanisqatsi",
+     "year": 1983,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+    },
+    {
+     "start": "2026-10-06T07:37:00+00:00",
+     "end": "2026-10-06T09:07:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
      "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
+      "Horror",
+      "Comedy"
      ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+    },
+    {
+     "start": "2026-10-06T09:07:00+00:00",
+     "end": "2026-10-06T10:44:00+00:00",
+     "emby_id": "372862",
+     "kind": "movie",
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
+     "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mystery"
+     ],
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+    },
+    {
+     "start": "2026-10-06T10:44:00+00:00",
+     "end": "2026-10-06T12:14:00+00:00",
+     "emby_id": "373009",
+     "kind": "movie",
+     "title": "Elephant",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "History"
+     ],
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+    },
+    {
+     "start": "2026-10-06T12:14:00+00:00",
+     "end": "2026-10-06T13:44:00+00:00",
+     "emby_id": "372868",
+     "kind": "movie",
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
+    },
+    {
+     "start": "2026-10-06T13:44:00+00:00",
+     "end": "2026-10-06T15:14:00+00:00",
+     "emby_id": "373049",
+     "kind": "movie",
+     "title": "Koyaanisqatsi",
+     "year": 1983,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+    },
+    {
+     "start": "2026-10-06T15:14:00+00:00",
+     "end": "2026-10-06T16:44:00+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+    },
+    {
+     "start": "2026-10-06T16:44:00+00:00",
+     "end": "2026-10-06T18:21:00+00:00",
+     "emby_id": "372862",
+     "kind": "movie",
+     "title": "Schizopolis",
+     "year": 1996,
+     "duration_s": 5820,
+     "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mystery"
+     ],
+     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
+    },
+    {
+     "start": "2026-10-06T18:21:00+00:00",
+     "end": "2026-10-06T19:51:00+00:00",
+     "emby_id": "373009",
+     "kind": "movie",
+     "title": "Elephant",
+     "year": 2003,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "History"
+     ],
+     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+    },
+    {
+     "start": "2026-10-06T19:51:00+00:00",
+     "end": "2026-10-06T21:21:00+00:00",
+     "emby_id": "372868",
+     "kind": "movie",
+     "title": "The 'Burbs",
+     "year": 1989,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The 'Burbs (1989)"
+    },
+    {
+     "start": "2026-10-06T21:21:00+00:00",
+     "end": "2026-10-07T00:00:00+00:00",
+     "emby_id": "373049",
+     "kind": "movie",
+     "title": "Koyaanisqatsi",
+     "year": 1983,
+     "duration_s": 9540,
+     "genres": [],
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
     }
    ]
   }
