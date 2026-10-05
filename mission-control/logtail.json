@@ -1,56 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T04:16:38+0000",
+ "generated_iso": "2026-10-05T04:46:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 00:12:23.645 Info DynamicHlsService-0HNP0T5I41CVS:0000003F: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "t": "2026-10-05 00:44:35.181 Info DynamicHlsService-0HNP2JA11T9MN:00000007: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/master.m3u8?D",
      "c": "ok"
     },
     {
-     "t": "2026-10-05 00:12:23.648 Info DynamicHlsService-0HNP0T5I41CVS:0000003F: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "t": "2026-10-05 00:44:35.182 Info DynamicHlsService-0HNP2JA11T9MN:00000007: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 1ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
      "c": "ok"
     },
     {
-     "t": "2026-10-05 00:12:27.644 Info DynamicHlsService-0HNP0T5I41CVS:00000040: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "t": "2026-10-05 00:44:35.183 Info DynamicHlsService-0HNP2JA11T9MN:00000008: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/live.m3u8?Dev",
      "c": "ok"
     },
     {
-     "t": "2026-10-05 00:12:27.647 Info DynamicHlsService-0HNP0T5I41CVS:00000040: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "t": "2026-10-05 00:44:45.298 Warn DynamicHlsService-0HNP2JA11T9MN:00000008: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-05 00:44:45.298 Info DynamicHlsService-0HNP2JA11T9MN:00000008: ProcessRun 'StreamTranscode d9ea1f' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 00:44:45.299 Info DynamicHlsService-0HNP2JA11T9MN:00000008: http/1.1 Response completed after client disconnected to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time:",
      "c": "ok"
     },
     {
-     "t": "2026-10-05 00:12:31.665 Info DynamicHlsService-0HNP0T5I41CVS:00000041: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "t": "2026-10-05 00:44:45.301 Info DynamicHlsService-0HNP2JA11T9MK:00000005: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/master.m3u8?D",
      "c": "ok"
     },
     {
-     "t": "2026-10-05 00:12:31.667 Info DynamicHlsService-0HNP0T5I41CVS:00000041: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "t": "2026-10-05 00:44:45.302 Info DynamicHlsService-0HNP2JA11T9MK:00000005: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time: 1ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalh",
      "c": "ok"
     },
     {
-     "t": "2026-10-05 00:12:35.643 Info DynamicHlsService-0HNP0T5I41CVS:00000042: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
+     "t": "2026-10-05 00:44:45.303 Info DynamicHlsService-0HNP2JA11T9MK:00000006: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008dlocalhost\u00e2\u20ac\u0152:8096/emby/videos/454127/live.m3u8?Dev",
      "c": "ok"
     },
     {
-     "t": "2026-10-05 00:12:35.645 Info DynamicHlsService-0HNP0T5I41CVS:00000042: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
-     "c": "ok"
+     "t": "2026-10-05 00:44:46.798 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4F",
+     "c": "err"
     },
     {
-     "t": "2026-10-05 00:12:39.643 Info DynamicHlsService-0HNP0T5I41CVS:00000043: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
-     "c": "ok"
+     "t": "2026-10-05 00:44:55.384 Info DynamicHlsService-0HNP2JA11T9MK:00000006: ProcessRun 'StreamTranscode 8e2d2b' Process exited with code 1 - Failed",
+     "c": "err"
     },
     {
-     "t": "2026-10-05 00:12:39.646 Info DynamicHlsService-0HNP0T5I41CVS:00000043: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 3ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:12:43.666 Info DynamicHlsService-0HNP0T5I41CVS:00000044: http/1.1 GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8096/emby/videos/454128/live.m3u8?Dev",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 00:12:43.668 Info DynamicHlsService-0HNP0T5I41CVS:00000044: http/1.1 Response 200 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 2ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac",
+     "t": "2026-10-05 00:44:55.385 Info DynamicHlsService-0HNP2JA11T9MK:00000006: http/1.1 Response completed after client disconnected to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d::1\u00e2\u20ac\u0152. Time:",
      "c": "ok"
     }
    ]
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /health",
+     "t": "[supervision.lo] POST /rvd/launch",
      "c": "ok"
     },
     {
@@ -83,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T23:46:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T23:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T00:01:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T00:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T00:16:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T00:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:31:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:46:42-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T00:46:42-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
