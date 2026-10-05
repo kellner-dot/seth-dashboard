@@ -627,318 +627,390 @@
     <desc>Autumnal Equinox (1974) directed by Hollis Frampton</desc>
   </programme>
   <programme start="20261005000000 +0000" stop="20261005013000 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261005013000 +0000" stop="20261005030700 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261005030700 +0000" stop="20261005043700 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
-  </programme>
-  <programme start="20261005043700 +0000" stop="20261005060700 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005060700 +0000" stop="20261005073700 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261005013000 +0000" stop="20261005015021 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261005073700 +0000" stop="20261005090700 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
+  <programme start="20261005015021 +0000" stop="20261005032021 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005090700 +0000" stop="20261005104400 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261005032021 +0000" stop="20261005045021 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005104400 +0000" stop="20261005121400 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
+  <programme start="20261005045021 +0000" stop="20261005062021 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261005121400 +0000" stop="20261005134400 +0000" channel="kavitv.independent">
+  <programme start="20261005062021 +0000" stop="20261005075021 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005134400 +0000" stop="20261005151400 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261005075021 +0000" stop="20261005081042 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261005151400 +0000" stop="20261005164400 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
+  <programme start="20261005081042 +0000" stop="20261005094042 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005164400 +0000" stop="20261005182100 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261005094042 +0000" stop="20261005111042 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005182100 +0000" stop="20261005195100 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
+  <programme start="20261005111042 +0000" stop="20261005124042 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261005195100 +0000" stop="20261005212100 +0000" channel="kavitv.independent">
+  <programme start="20261005124042 +0000" stop="20261005141042 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261005212100 +0000" stop="20261006000000 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261005141042 +0000" stop="20261005143103 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261005143103 +0000" stop="20261005160103 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005160103 +0000" stop="20261005173103 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005173103 +0000" stop="20261005190103 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261005190103 +0000" stop="20261005203103 +0000" channel="kavitv.independent">
+    <title>The Monkey</title>
+    <date>2025</date>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
+    <category>Horror</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005203103 +0000" stop="20261005205124 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261005205124 +0000" stop="20261005222124 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261005222124 +0000" stop="20261006000000 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
   <programme start="20261006000000 +0000" stop="20261006013000 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006013000 +0000" stop="20261006015021 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261006015021 +0000" stop="20261006032021 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006013000 +0000" stop="20261006030700 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261006032021 +0000" stop="20261006045021 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006030700 +0000" stop="20261006043700 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
+  <programme start="20261006045021 +0000" stop="20261006062021 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006043700 +0000" stop="20261006060700 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261006062021 +0000" stop="20261006075021 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006075021 +0000" stop="20261006081042 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006060700 +0000" stop="20261006073700 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
-  </programme>
-  <programme start="20261006073700 +0000" stop="20261006090700 +0000" channel="kavitv.independent">
+  <programme start="20261006081042 +0000" stop="20261006094042 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006090700 +0000" stop="20261006104400 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261006094042 +0000" stop="20261006111042 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006104400 +0000" stop="20261006121400 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
+  <programme start="20261006111042 +0000" stop="20261006124042 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006121400 +0000" stop="20261006134400 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261006124042 +0000" stop="20261006141042 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006141042 +0000" stop="20261006143103 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006134400 +0000" stop="20261006151400 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
-  </programme>
-  <programme start="20261006151400 +0000" stop="20261006164400 +0000" channel="kavitv.independent">
+  <programme start="20261006143103 +0000" stop="20261006160103 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006164400 +0000" stop="20261006182100 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261006160103 +0000" stop="20261006173103 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006182100 +0000" stop="20261006195100 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
+  <programme start="20261006173103 +0000" stop="20261006190103 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261006195100 +0000" stop="20261006212100 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261006190103 +0000" stop="20261006203103 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006203103 +0000" stop="20261006205124 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261006212100 +0000" stop="20261007000000 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
+  <programme start="20261006205124 +0000" stop="20261006222124 +0000" channel="kavitv.independent">
+    <title>The Monkey</title>
+    <date>2025</date>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
+    <category>Horror</category>
+    <category>Comedy</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261006222124 +0000" stop="20261007000000 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
   <programme start="20261007000000 +0000" stop="20261007013000 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261007013000 +0000" stop="20261007015021 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007013000 +0000" stop="20261007030700 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261007015021 +0000" stop="20261007032021 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007030700 +0000" stop="20261007043700 +0000" channel="kavitv.independent">
+  <programme start="20261007032021 +0000" stop="20261007045021 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261007045021 +0000" stop="20261007062021 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007043700 +0000" stop="20261007060700 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
+  <programme start="20261007062021 +0000" stop="20261007075021 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007060700 +0000" stop="20261007073700 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261007073700 +0000" stop="20261007090700 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261007075021 +0000" stop="20261007081042 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007090700 +0000" stop="20261007104400 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261007081042 +0000" stop="20261007094042 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007104400 +0000" stop="20261007121400 +0000" channel="kavitv.independent">
+  <programme start="20261007094042 +0000" stop="20261007111042 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261007111042 +0000" stop="20261007124042 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007121400 +0000" stop="20261007134400 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
+  <programme start="20261007124042 +0000" stop="20261007141042 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007134400 +0000" stop="20261007151400 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
-  </programme>
-  <programme start="20261007151400 +0000" stop="20261007164400 +0000" channel="kavitv.independent">
-    <title>The 'Burbs</title>
+  <programme start="20261007141042 +0000" stop="20261007143103 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
     <date>1989</date>
-    <desc>The 'Burbs (1989)</desc>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007164400 +0000" stop="20261007182100 +0000" channel="kavitv.independent">
-    <title>Schizopolis</title>
-    <date>1996</date>
-    <desc>A man works for the unpleasant guru of a Scientology-like movement.</desc>
-    <category>Comedy</category>
-    <category>Fantasy</category>
-    <category>Mystery</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"/>
+  <programme start="20261007143103 +0000" stop="20261007160103 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007182100 +0000" stop="20261007195100 +0000" channel="kavitv.independent">
+  <programme start="20261007160103 +0000" stop="20261007173103 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261007173103 +0000" stop="20261007190103 +0000" channel="kavitv.independent">
     <title>The Monkey</title>
     <date>2025</date>
-    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu</desc>
+    <desc>When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.</desc>
     <category>Horror</category>
     <category>Comedy</category>
     <icon src="http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"/>
   </programme>
-  <programme start="20261007195100 +0000" stop="20261007212100 +0000" channel="kavitv.independent">
-    <title>Koyaanisqatsi</title>
-    <date>1983</date>
-    <desc>Koyaanisqatsi (1983) directed by Godfrey Reggio</desc>
+  <programme start="20261007190103 +0000" stop="20261007203103 +0000" channel="kavitv.independent">
+    <title>Atman</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Atman (1975).</desc>
+    <category>Experimental</category>
   </programme>
-  <programme start="20261007212100 +0000" stop="20261008000000 +0000" channel="kavitv.independent">
-    <title>Elephant</title>
-    <date>2003</date>
-    <desc>Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.</desc>
-    <category>Drama</category>
-    <category>History</category>
-    <icon src="http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"/>
+  <programme start="20261007203103 +0000" stop="20261007205124 +0000" channel="kavitv.independent">
+    <title>Blind Country</title>
+    <date>1989</date>
+    <desc>Mike Kelley - Blind Country (1989). Experimental video work.</desc>
+    <category>Experimental</category>
+  </programme>
+  <programme start="20261007205124 +0000" stop="20261007222124 +0000" channel="kavitv.independent">
+    <title>Stille Nacht</title>
+    <date>1969</date>
+    <desc>Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"/>
+  </programme>
+  <programme start="20261007222124 +0000" stop="20261008000000 +0000" channel="kavitv.independent">
+    <title>Phantom</title>
+    <date>1975</date>
+    <desc>Toshio Matsumoto's Phantom (1975). Experimental film.</desc>
+    <category>Experimental</category>
+    <icon src="http://10.0.0.98:8096/emby/Items/249231/Images/Primary?maxWidth=400"/>
   </programme>
 </tv>
