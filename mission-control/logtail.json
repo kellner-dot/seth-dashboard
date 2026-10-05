@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T11:46:40+0000",
+ "generated_iso": "2026-10-05T12:16:38+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -59,18 +59,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05 06:30 EDT RELAY RESTORE: watchdog showed all 3 channels FAIL (Kavi 6.0 v2.1.0 stream endpoints wedged, /api/health false-OK). Restored prov",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T06:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T06:46:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T07:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -80,6 +68,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T07:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T07:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T08:01:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T08:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
