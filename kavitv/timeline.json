@@ -1,188 +1,9 @@
 {
- "generated_at": "2026-10-05T03:54:30.822901+00:00",
+ "generated_at": "2026-10-05T04:23:47.311672+00:00",
  "window_days": 3,
  "channels": {
   "kavitv.horror": {
    "slots": [
-    {
-     "start": "2026-10-04T00:00:00+00:00",
-     "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "372997",
-     "kind": "movie",
-     "title": "Basket Case",
-     "year": 1982,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Basket Case (1982)"
-    },
-    {
-     "start": "2026-10-04T01:30:00+00:00",
-     "end": "2026-10-04T03:00:00+00:00",
-     "emby_id": "216369",
-     "kind": "movie",
-     "title": "Antithese",
-     "year": 2017,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Antithese (2017)"
-    },
-    {
-     "start": "2026-10-04T03:00:00+00:00",
-     "end": "2026-10-04T04:30:00+00:00",
-     "emby_id": "215530",
-     "kind": "movie",
-     "title": "Autumnal Equinox",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974)"
-    },
-    {
-     "start": "2026-10-04T04:30:00+00:00",
-     "end": "2026-10-04T06:00:00+00:00",
-     "emby_id": "372820",
-     "kind": "movie",
-     "title": "Annihilation",
-     "year": 2018,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Annihilation (2018)"
-    },
-    {
-     "start": "2026-10-04T06:00:00+00:00",
-     "end": "2026-10-04T07:30:00+00:00",
-     "emby_id": "217211",
-     "kind": "movie",
-     "title": "The Act of Seeing with One's Own Eyes",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The Act of Seeing with One's Own Eyes (1971)"
-    },
-    {
-     "start": "2026-10-04T07:30:00+00:00",
-     "end": "2026-10-04T09:00:00+00:00",
-     "emby_id": "372995",
-     "kind": "movie",
-     "title": "Bad Taste",
-     "year": 1987,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Bad Taste (1987)"
-    },
-    {
-     "start": "2026-10-04T09:00:00+00:00",
-     "end": "2026-10-04T10:30:00+00:00",
-     "emby_id": "215528",
-     "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972)"
-    },
-    {
-     "start": "2026-10-04T10:30:00+00:00",
-     "end": "2026-10-04T12:00:00+00:00",
-     "emby_id": "372994",
-     "kind": "movie",
-     "title": "As Above, So Below",
-     "year": 2014,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "As Above, So Below (2014)"
-    },
-    {
-     "start": "2026-10-04T12:00:00+00:00",
-     "end": "2026-10-04T13:30:00+00:00",
-     "emby_id": "372822",
-     "kind": "movie",
-     "title": "Antlers",
-     "year": 2021,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Antlers (2021)"
-    },
-    {
-     "start": "2026-10-04T13:30:00+00:00",
-     "end": "2026-10-04T15:00:00+00:00",
-     "emby_id": "216043",
-     "kind": "movie",
-     "title": "10/65: Self-Mutilation",
-     "year": 1965,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
-    },
-    {
-     "start": "2026-10-04T15:00:00+00:00",
-     "end": "2026-10-04T16:30:00+00:00",
-     "emby_id": "217333",
-     "kind": "movie",
-     "title": "Black Hearts Bleed Red",
-     "year": 1992,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Black Hearts Bleed Red (1992)"
-    },
-    {
-     "start": "2026-10-04T16:30:00+00:00",
-     "end": "2026-10-04T18:00:00+00:00",
-     "emby_id": "372821",
-     "kind": "movie",
-     "title": "Antiviral",
-     "year": 2012,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Antiviral (2012)"
-    },
-    {
-     "start": "2026-10-04T18:00:00+00:00",
-     "end": "2026-10-04T19:30:00+00:00",
-     "emby_id": "217395",
-     "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975)"
-    },
-    {
-     "start": "2026-10-04T19:30:00+00:00",
-     "end": "2026-10-04T21:00:00+00:00",
-     "emby_id": "372826",
-     "kind": "movie",
-     "title": "Begotten",
-     "year": 1991,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Begotten (1991)"
-    },
-    {
-     "start": "2026-10-04T21:00:00+00:00",
-     "end": "2026-10-04T22:30:00+00:00",
-     "emby_id": "372997",
-     "kind": "movie",
-     "title": "Basket Case",
-     "year": 1982,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Basket Case (1982)"
-    },
-    {
-     "start": "2026-10-04T22:30:00+00:00",
-     "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "216369",
-     "kind": "movie",
-     "title": "Antithese",
-     "year": 2017,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Antithese (2017)"
-    },
     {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
@@ -540,236 +361,190 @@
      "duration_s": 5400,
      "genres": [],
      "overview": "Annihilation (2018)"
+    },
+    {
+     "start": "2026-10-07T00:00:00+00:00",
+     "end": "2026-10-07T01:30:00+00:00",
+     "emby_id": "372997",
+     "kind": "movie",
+     "title": "Basket Case",
+     "year": 1982,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Basket Case (1982)"
+    },
+    {
+     "start": "2026-10-07T01:30:00+00:00",
+     "end": "2026-10-07T03:00:00+00:00",
+     "emby_id": "372994",
+     "kind": "movie",
+     "title": "As Above, So Below",
+     "year": 2014,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "As Above, So Below (2014)"
+    },
+    {
+     "start": "2026-10-07T03:00:00+00:00",
+     "end": "2026-10-07T04:30:00+00:00",
+     "emby_id": "217211",
+     "kind": "movie",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The Act of Seeing with One's Own Eyes (1971)"
+    },
+    {
+     "start": "2026-10-07T04:30:00+00:00",
+     "end": "2026-10-07T06:00:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974)"
+    },
+    {
+     "start": "2026-10-07T06:00:00+00:00",
+     "end": "2026-10-07T07:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975)"
+    },
+    {
+     "start": "2026-10-07T07:30:00+00:00",
+     "end": "2026-10-07T09:00:00+00:00",
+     "emby_id": "217333",
+     "kind": "movie",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Black Hearts Bleed Red (1992)"
+    },
+    {
+     "start": "2026-10-07T09:00:00+00:00",
+     "end": "2026-10-07T10:30:00+00:00",
+     "emby_id": "216043",
+     "kind": "movie",
+     "title": "10/65: Self-Mutilation",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on"
+    },
+    {
+     "start": "2026-10-07T10:30:00+00:00",
+     "end": "2026-10-07T12:00:00+00:00",
+     "emby_id": "372821",
+     "kind": "movie",
+     "title": "Antiviral",
+     "year": 2012,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antiviral (2012)"
+    },
+    {
+     "start": "2026-10-07T12:00:00+00:00",
+     "end": "2026-10-07T13:30:00+00:00",
+     "emby_id": "372820",
+     "kind": "movie",
+     "title": "Annihilation",
+     "year": 2018,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Annihilation (2018)"
+    },
+    {
+     "start": "2026-10-07T13:30:00+00:00",
+     "end": "2026-10-07T15:00:00+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972)"
+    },
+    {
+     "start": "2026-10-07T15:00:00+00:00",
+     "end": "2026-10-07T16:30:00+00:00",
+     "emby_id": "372822",
+     "kind": "movie",
+     "title": "Antlers",
+     "year": 2021,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antlers (2021)"
+    },
+    {
+     "start": "2026-10-07T16:30:00+00:00",
+     "end": "2026-10-07T18:00:00+00:00",
+     "emby_id": "216369",
+     "kind": "movie",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antithese (2017)"
+    },
+    {
+     "start": "2026-10-07T18:00:00+00:00",
+     "end": "2026-10-07T19:30:00+00:00",
+     "emby_id": "372995",
+     "kind": "movie",
+     "title": "Bad Taste",
+     "year": 1987,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Bad Taste (1987)"
+    },
+    {
+     "start": "2026-10-07T19:30:00+00:00",
+     "end": "2026-10-07T21:00:00+00:00",
+     "emby_id": "372826",
+     "kind": "movie",
+     "title": "Begotten",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Begotten (1991)"
+    },
+    {
+     "start": "2026-10-07T21:00:00+00:00",
+     "end": "2026-10-07T22:30:00+00:00",
+     "emby_id": "372997",
+     "kind": "movie",
+     "title": "Basket Case",
+     "year": 1982,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Basket Case (1982)"
+    },
+    {
+     "start": "2026-10-07T22:30:00+00:00",
+     "end": "2026-10-08T00:00:00+00:00",
+     "emby_id": "372994",
+     "kind": "movie",
+     "title": "As Above, So Below",
+     "year": 2014,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "As Above, So Below (2014)"
     }
    ]
   },
   "kavitv.experimental": {
    "slots": [
-    {
-     "start": "2026-10-04T00:00:00+00:00",
-     "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "248643",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
-    },
-    {
-     "start": "2026-10-04T01:30:00+00:00",
-     "end": "2026-10-04T03:00:00+00:00",
-     "emby_id": "215530",
-     "kind": "movie",
-     "title": "Autumnal Equinox",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-04T03:00:00+00:00",
-     "end": "2026-10-04T04:30:00+00:00",
-     "emby_id": "248883",
-     "kind": "movie",
-     "title": "Burning",
-     "year": 1999,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Crime",
-      "Mystery"
-     ],
-     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
-    },
-    {
-     "start": "2026-10-04T04:30:00+00:00",
-     "end": "2026-10-04T06:00:00+00:00",
-     "emby_id": "217395",
-     "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975) directed by Toshio Matsumoto"
-    },
-    {
-     "start": "2026-10-04T06:00:00+00:00",
-     "end": "2026-10-04T07:30:00+00:00",
-     "emby_id": "215528",
-     "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-04T07:30:00+00:00",
-     "end": "2026-10-04T09:00:00+00:00",
-     "emby_id": "249231",
-     "kind": "movie",
-     "title": "Phantom",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
-    },
-    {
-     "start": "2026-10-04T09:00:00+00:00",
-     "end": "2026-10-04T09:20:21+00:00",
-     "emby_id": "248769",
-     "kind": "movie",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
-    },
-    {
-     "start": "2026-10-04T09:20:21+00:00",
-     "end": "2026-10-04T10:50:21+00:00",
-     "emby_id": "249058",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
-    },
-    {
-     "start": "2026-10-04T10:50:21+00:00",
-     "end": "2026-10-04T12:20:21+00:00",
-     "emby_id": "216571",
-     "kind": "movie",
-     "title": "Stille Nacht",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
-    },
-    {
-     "start": "2026-10-04T12:20:21+00:00",
-     "end": "2026-10-04T13:50:21+00:00",
-     "emby_id": "248643",
-     "kind": "movie",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
-    },
-    {
-     "start": "2026-10-04T13:50:21+00:00",
-     "end": "2026-10-04T15:20:21+00:00",
-     "emby_id": "215530",
-     "kind": "movie",
-     "title": "Autumnal Equinox",
-     "year": 1974,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-04T15:20:21+00:00",
-     "end": "2026-10-04T16:50:21+00:00",
-     "emby_id": "248883",
-     "kind": "movie",
-     "title": "Burning",
-     "year": 1999,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Crime",
-      "Mystery"
-     ],
-     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
-    },
-    {
-     "start": "2026-10-04T16:50:21+00:00",
-     "end": "2026-10-04T18:20:21+00:00",
-     "emby_id": "217395",
-     "kind": "movie",
-     "title": "Atman",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975) directed by Toshio Matsumoto"
-    },
-    {
-     "start": "2026-10-04T18:20:21+00:00",
-     "end": "2026-10-04T19:50:21+00:00",
-     "emby_id": "215528",
-     "kind": "movie",
-     "title": "Apparatus Sum",
-     "year": 1972,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
-    },
-    {
-     "start": "2026-10-04T19:50:21+00:00",
-     "end": "2026-10-04T21:20:21+00:00",
-     "emby_id": "249231",
-     "kind": "movie",
-     "title": "Phantom",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
-    },
-    {
-     "start": "2026-10-04T21:20:21+00:00",
-     "end": "2026-10-04T21:40:42+00:00",
-     "emby_id": "248769",
-     "kind": "movie",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
-    },
-    {
-     "start": "2026-10-04T21:40:42+00:00",
-     "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "249058",
-     "kind": "movie",
-     "title": "Walk With Me",
-     "year": 1998,
-     "duration_s": 8358,
-     "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
-     ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
-    },
     {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
@@ -1223,314 +998,303 @@
      "duration_s": 8358,
      "genres": [],
      "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-07T00:00:00+00:00",
+     "end": "2026-10-07T01:30:00+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-07T01:30:00+00:00",
+     "end": "2026-10-07T03:00:00+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+     ],
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-07T03:00:00+00:00",
+     "end": "2026-10-07T03:20:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-07T03:20:21+00:00",
+     "end": "2026-10-07T04:50:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
+    },
+    {
+     "start": "2026-10-07T04:50:21+00:00",
+     "end": "2026-10-07T06:20:21+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-07T06:20:21+00:00",
+     "end": "2026-10-07T07:50:21+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+    },
+    {
+     "start": "2026-10-07T07:50:21+00:00",
+     "end": "2026-10-07T09:20:21+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-07T09:20:21+00:00",
+     "end": "2026-10-07T10:50:21+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-07T10:50:21+00:00",
+     "end": "2026-10-07T12:20:21+00:00",
+     "emby_id": "249058",
+     "kind": "movie",
+     "title": "Walk With Me",
+     "year": 1998,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+     ],
+     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film."
+    },
+    {
+     "start": "2026-10-07T12:20:21+00:00",
+     "end": "2026-10-07T13:50:21+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film."
+    },
+    {
+     "start": "2026-10-07T13:50:21+00:00",
+     "end": "2026-10-07T15:20:21+00:00",
+     "emby_id": "248883",
+     "kind": "movie",
+     "title": "Burning",
+     "year": 1999,
+     "duration_s": 5400,
+     "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+     ],
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage."
+    },
+    {
+     "start": "2026-10-07T15:20:21+00:00",
+     "end": "2026-10-07T15:40:42+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
+    },
+    {
+     "start": "2026-10-07T15:40:42+00:00",
+     "end": "2026-10-07T17:10:42+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto"
+    },
+    {
+     "start": "2026-10-07T17:10:42+00:00",
+     "end": "2026-10-07T18:40:42+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+    },
+    {
+     "start": "2026-10-07T18:40:42+00:00",
+     "end": "2026-10-07T20:10:42+00:00",
+     "emby_id": "248643",
+     "kind": "movie",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short."
+    },
+    {
+     "start": "2026-10-07T20:10:42+00:00",
+     "end": "2026-10-07T21:40:42+00:00",
+     "emby_id": "215528",
+     "kind": "movie",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton"
+    },
+    {
+     "start": "2026-10-07T21:40:42+00:00",
+     "end": "2026-10-08T00:00:00+00:00",
+     "emby_id": "215530",
+     "kind": "movie",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 8358,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton"
     }
    ]
   },
   "kavitv.independent": {
    "slots": [
     {
-     "start": "2026-10-04T00:00:00+00:00",
-     "end": "2026-10-04T01:30:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
-    },
-    {
-     "start": "2026-10-04T01:30:00+00:00",
-     "end": "2026-10-04T03:00:00+00:00",
-     "emby_id": "372868",
-     "kind": "movie",
-     "title": "The 'Burbs",
-     "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
-    },
-    {
-     "start": "2026-10-04T03:00:00+00:00",
-     "end": "2026-10-04T04:30:00+00:00",
-     "emby_id": "373009",
-     "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "History"
-     ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
-    },
-    {
-     "start": "2026-10-04T04:30:00+00:00",
-     "end": "2026-10-04T06:00:00+00:00",
-     "emby_id": "373072",
-     "kind": "movie",
-     "title": "The Monkey",
-     "year": 2025,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Comedy"
-     ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
-    },
-    {
-     "start": "2026-10-04T06:00:00+00:00",
-     "end": "2026-10-04T07:37:00+00:00",
-     "emby_id": "372862",
-     "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-04T07:37:00+00:00",
-     "end": "2026-10-04T09:07:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
-    },
-    {
-     "start": "2026-10-04T09:07:00+00:00",
-     "end": "2026-10-04T10:37:00+00:00",
-     "emby_id": "372868",
-     "kind": "movie",
-     "title": "The 'Burbs",
-     "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
-    },
-    {
-     "start": "2026-10-04T10:37:00+00:00",
-     "end": "2026-10-04T12:07:00+00:00",
-     "emby_id": "373009",
-     "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "History"
-     ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
-    },
-    {
-     "start": "2026-10-04T12:07:00+00:00",
-     "end": "2026-10-04T13:37:00+00:00",
-     "emby_id": "373072",
-     "kind": "movie",
-     "title": "The Monkey",
-     "year": 2025,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Comedy"
-     ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
-    },
-    {
-     "start": "2026-10-04T13:37:00+00:00",
-     "end": "2026-10-04T15:14:00+00:00",
-     "emby_id": "372862",
-     "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-04T15:14:00+00:00",
-     "end": "2026-10-04T16:44:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
-    },
-    {
-     "start": "2026-10-04T16:44:00+00:00",
-     "end": "2026-10-04T18:14:00+00:00",
-     "emby_id": "372868",
-     "kind": "movie",
-     "title": "The 'Burbs",
-     "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
-    },
-    {
-     "start": "2026-10-04T18:14:00+00:00",
-     "end": "2026-10-04T19:44:00+00:00",
-     "emby_id": "373009",
-     "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "History"
-     ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
-    },
-    {
-     "start": "2026-10-04T19:44:00+00:00",
-     "end": "2026-10-04T21:14:00+00:00",
-     "emby_id": "373072",
-     "kind": "movie",
-     "title": "The Monkey",
-     "year": 2025,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Comedy"
-     ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
-    },
-    {
-     "start": "2026-10-04T21:14:00+00:00",
-     "end": "2026-10-05T00:00:00+00:00",
-     "emby_id": "372862",
-     "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 9960,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
      "start": "2026-10-05T00:00:00+00:00",
      "end": "2026-10-05T01:30:00+00:00",
-     "emby_id": "373009",
+     "emby_id": "373072",
      "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "The Monkey",
+     "year": 2025,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "History"
+      "Horror",
+      "Comedy"
      ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
     },
     {
      "start": "2026-10-05T01:30:00+00:00",
-     "end": "2026-10-05T03:07:00+00:00",
-     "emby_id": "372862",
+     "end": "2026-10-05T01:50:21+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-05T03:07:00+00:00",
-     "end": "2026-10-05T04:37:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
-    },
-    {
-     "start": "2026-10-05T04:37:00+00:00",
-     "end": "2026-10-05T06:07:00+00:00",
-     "emby_id": "373072",
-     "kind": "movie",
-     "title": "The Monkey",
-     "year": 2025,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Comedy"
-     ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
-    },
-    {
-     "start": "2026-10-05T06:07:00+00:00",
-     "end": "2026-10-05T07:37:00+00:00",
-     "emby_id": "372868",
-     "kind": "movie",
-     "title": "The 'Burbs",
+     "title": "Blind Country",
      "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
     },
     {
-     "start": "2026-10-05T07:37:00+00:00",
-     "end": "2026-10-05T09:07:00+00:00",
-     "emby_id": "373009",
+     "start": "2026-10-05T01:50:21+00:00",
+     "end": "2026-10-05T03:20:21+00:00",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "History"
+      "Experimental"
      ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
     },
     {
-     "start": "2026-10-05T09:07:00+00:00",
-     "end": "2026-10-05T10:44:00+00:00",
-     "emby_id": "372862",
+     "start": "2026-10-05T03:20:21+00:00",
+     "end": "2026-10-05T04:50:21+00:00",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-05T10:44:00+00:00",
-     "end": "2026-10-05T12:14:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
     },
     {
-     "start": "2026-10-05T12:14:00+00:00",
-     "end": "2026-10-05T13:44:00+00:00",
+     "start": "2026-10-05T04:50:21+00:00",
+     "end": "2026-10-05T06:20:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-05T06:20:21+00:00",
+     "end": "2026-10-05T07:50:21+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1540,62 +1304,63 @@
       "Horror",
       "Comedy"
      ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
     },
     {
-     "start": "2026-10-05T13:44:00+00:00",
-     "end": "2026-10-05T15:14:00+00:00",
-     "emby_id": "372868",
+     "start": "2026-10-05T07:50:21+00:00",
+     "end": "2026-10-05T08:10:42+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "The 'Burbs",
+     "title": "Blind Country",
      "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
     },
     {
-     "start": "2026-10-05T15:14:00+00:00",
-     "end": "2026-10-05T16:44:00+00:00",
-     "emby_id": "373009",
+     "start": "2026-10-05T08:10:42+00:00",
+     "end": "2026-10-05T09:40:42+00:00",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "Phantom",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "History"
+      "Experimental"
      ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
     },
     {
-     "start": "2026-10-05T16:44:00+00:00",
-     "end": "2026-10-05T18:21:00+00:00",
-     "emby_id": "372862",
+     "start": "2026-10-05T09:40:42+00:00",
+     "end": "2026-10-05T11:10:42+00:00",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-05T18:21:00+00:00",
-     "end": "2026-10-05T19:51:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
     },
     {
-     "start": "2026-10-05T19:51:00+00:00",
-     "end": "2026-10-05T21:21:00+00:00",
+     "start": "2026-10-05T11:10:42+00:00",
+     "end": "2026-10-05T12:40:42+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-05T12:40:42+00:00",
+     "end": "2026-10-05T14:10:42+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1605,87 +1370,142 @@
       "Horror",
       "Comedy"
      ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
     },
     {
-     "start": "2026-10-05T21:21:00+00:00",
+     "start": "2026-10-05T14:10:42+00:00",
+     "end": "2026-10-05T14:31:03+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
+    },
+    {
+     "start": "2026-10-05T14:31:03+00:00",
+     "end": "2026-10-05T16:01:03+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-05T16:01:03+00:00",
+     "end": "2026-10-05T17:31:03+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-05T17:31:03+00:00",
+     "end": "2026-10-05T19:01:03+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-05T19:01:03+00:00",
+     "end": "2026-10-05T20:31:03+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-05T20:31:03+00:00",
+     "end": "2026-10-05T20:51:24+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
+    },
+    {
+     "start": "2026-10-05T20:51:24+00:00",
+     "end": "2026-10-05T22:21:24+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-05T22:21:24+00:00",
      "end": "2026-10-06T00:00:00+00:00",
-     "emby_id": "372868",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "The 'Burbs",
-     "year": 1989,
-     "duration_s": 9540,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5916,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
     },
     {
      "start": "2026-10-06T00:00:00+00:00",
      "end": "2026-10-06T01:30:00+00:00",
-     "emby_id": "373072",
+     "emby_id": "216571",
      "kind": "movie",
-     "title": "The Monkey",
-     "year": 2025,
+     "title": "Stille Nacht",
+     "year": 1969,
      "duration_s": 5400,
      "genres": [
-      "Horror",
-      "Comedy"
+      "Experimental"
      ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
     },
     {
      "start": "2026-10-06T01:30:00+00:00",
-     "end": "2026-10-06T03:07:00+00:00",
-     "emby_id": "372862",
+     "end": "2026-10-06T01:50:21+00:00",
+     "emby_id": "248769",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-06T03:07:00+00:00",
-     "end": "2026-10-06T04:37:00+00:00",
-     "emby_id": "373009",
-     "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "History"
-     ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
-    },
-    {
-     "start": "2026-10-06T04:37:00+00:00",
-     "end": "2026-10-06T06:07:00+00:00",
-     "emby_id": "372868",
-     "kind": "movie",
-     "title": "The 'Burbs",
+     "title": "Blind Country",
      "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
     },
     {
-     "start": "2026-10-06T06:07:00+00:00",
-     "end": "2026-10-06T07:37:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
-    },
-    {
-     "start": "2026-10-06T07:37:00+00:00",
-     "end": "2026-10-06T09:07:00+00:00",
+     "start": "2026-10-06T01:50:21+00:00",
+     "end": "2026-10-06T03:20:21+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1695,62 +1515,63 @@
       "Horror",
       "Comedy"
      ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
     },
     {
-     "start": "2026-10-06T09:07:00+00:00",
-     "end": "2026-10-06T10:44:00+00:00",
-     "emby_id": "372862",
+     "start": "2026-10-06T03:20:21+00:00",
+     "end": "2026-10-06T04:50:21+00:00",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-06T10:44:00+00:00",
-     "end": "2026-10-06T12:14:00+00:00",
-     "emby_id": "373009",
-     "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "Atman",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "History"
+      "Experimental"
      ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+     "overview": "Toshio Matsumoto's Atman (1975)."
     },
     {
-     "start": "2026-10-06T12:14:00+00:00",
-     "end": "2026-10-06T13:44:00+00:00",
-     "emby_id": "372868",
+     "start": "2026-10-06T04:50:21+00:00",
+     "end": "2026-10-06T06:20:21+00:00",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "The 'Burbs",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-06T06:20:21+00:00",
+     "end": "2026-10-06T07:50:21+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-06T07:50:21+00:00",
+     "end": "2026-10-06T08:10:42+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
      "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
     },
     {
-     "start": "2026-10-06T13:44:00+00:00",
-     "end": "2026-10-06T15:14:00+00:00",
-     "emby_id": "373049",
-     "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
-    },
-    {
-     "start": "2026-10-06T15:14:00+00:00",
-     "end": "2026-10-06T16:44:00+00:00",
+     "start": "2026-10-06T08:10:42+00:00",
+     "end": "2026-10-06T09:40:42+00:00",
      "emby_id": "373072",
      "kind": "movie",
      "title": "The Monkey",
@@ -1760,58 +1581,402 @@
       "Horror",
       "Comedy"
      ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu"
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
     },
     {
-     "start": "2026-10-06T16:44:00+00:00",
-     "end": "2026-10-06T18:21:00+00:00",
-     "emby_id": "372862",
+     "start": "2026-10-06T09:40:42+00:00",
+     "end": "2026-10-06T11:10:42+00:00",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement."
-    },
-    {
-     "start": "2026-10-06T18:21:00+00:00",
-     "end": "2026-10-06T19:51:00+00:00",
-     "emby_id": "373009",
-     "kind": "movie",
-     "title": "Elephant",
-     "year": 2003,
+     "title": "Atman",
+     "year": 1975,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "History"
+      "Experimental"
      ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre."
+     "overview": "Toshio Matsumoto's Atman (1975)."
     },
     {
-     "start": "2026-10-06T19:51:00+00:00",
-     "end": "2026-10-06T21:21:00+00:00",
-     "emby_id": "372868",
+     "start": "2026-10-06T11:10:42+00:00",
+     "end": "2026-10-06T12:40:42+00:00",
+     "emby_id": "249231",
      "kind": "movie",
-     "title": "The 'Burbs",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-06T12:40:42+00:00",
+     "end": "2026-10-06T14:10:42+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-06T14:10:42+00:00",
+     "end": "2026-10-06T14:31:03+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
      "year": 1989,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "The 'Burbs (1989)"
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
     },
     {
-     "start": "2026-10-06T21:21:00+00:00",
+     "start": "2026-10-06T14:31:03+00:00",
+     "end": "2026-10-06T16:01:03+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-06T16:01:03+00:00",
+     "end": "2026-10-06T17:31:03+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-06T17:31:03+00:00",
+     "end": "2026-10-06T19:01:03+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-06T19:01:03+00:00",
+     "end": "2026-10-06T20:31:03+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-06T20:31:03+00:00",
+     "end": "2026-10-06T20:51:24+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
+    },
+    {
+     "start": "2026-10-06T20:51:24+00:00",
+     "end": "2026-10-06T22:21:24+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-06T22:21:24+00:00",
      "end": "2026-10-07T00:00:00+00:00",
-     "emby_id": "373049",
+     "emby_id": "217395",
      "kind": "movie",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "duration_s": 9540,
-     "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio"
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5916,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-07T00:00:00+00:00",
+     "end": "2026-10-07T01:30:00+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-07T01:30:00+00:00",
+     "end": "2026-10-07T01:50:21+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
+    },
+    {
+     "start": "2026-10-07T01:50:21+00:00",
+     "end": "2026-10-07T03:20:21+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-07T03:20:21+00:00",
+     "end": "2026-10-07T04:50:21+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-07T04:50:21+00:00",
+     "end": "2026-10-07T06:20:21+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-07T06:20:21+00:00",
+     "end": "2026-10-07T07:50:21+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-07T07:50:21+00:00",
+     "end": "2026-10-07T08:10:42+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
+    },
+    {
+     "start": "2026-10-07T08:10:42+00:00",
+     "end": "2026-10-07T09:40:42+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-07T09:40:42+00:00",
+     "end": "2026-10-07T11:10:42+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-07T11:10:42+00:00",
+     "end": "2026-10-07T12:40:42+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-07T12:40:42+00:00",
+     "end": "2026-10-07T14:10:42+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-07T14:10:42+00:00",
+     "end": "2026-10-07T14:31:03+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
+    },
+    {
+     "start": "2026-10-07T14:31:03+00:00",
+     "end": "2026-10-07T16:01:03+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-07T16:01:03+00:00",
+     "end": "2026-10-07T17:31:03+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
+    },
+    {
+     "start": "2026-10-07T17:31:03+00:00",
+     "end": "2026-10-07T19:01:03+00:00",
+     "emby_id": "373072",
+     "kind": "movie",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart."
+    },
+    {
+     "start": "2026-10-07T19:01:03+00:00",
+     "end": "2026-10-07T20:31:03+00:00",
+     "emby_id": "217395",
+     "kind": "movie",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975)."
+    },
+    {
+     "start": "2026-10-07T20:31:03+00:00",
+     "end": "2026-10-07T20:51:24+00:00",
+     "emby_id": "248769",
+     "kind": "movie",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Mike Kelley - Blind Country (1989). Experimental video work."
+    },
+    {
+     "start": "2026-10-07T20:51:24+00:00",
+     "end": "2026-10-07T22:21:24+00:00",
+     "emby_id": "216571",
+     "kind": "movie",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969). Viennese Aktionist performance."
+    },
+    {
+     "start": "2026-10-07T22:21:24+00:00",
+     "end": "2026-10-08T00:00:00+00:00",
+     "emby_id": "249231",
+     "kind": "movie",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5916,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental film."
     }
    ]
   }
