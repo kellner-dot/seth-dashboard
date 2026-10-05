@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-05T16:46:37+0000",
- "updated_ts": 1791218797,
+ "updated": "2026-10-05T18:46:36+0000",
+ "updated_ts": 1791225996,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Borland Turbo Basic",
+     "title": "The future of independence is interdependence",
      "summary": "Comments",
-     "url": "https://dosdays.co.uk/topics/Software/borland_turbo_basic.php",
+     "url": "https://onlys.ky/independence-is-interdependence/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,9 +20,23 @@
      "source": "Hacker News"
     },
     {
+     "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
+     "summary": "Comments",
+     "url": "https://www.theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Making a GTK application in Haskell, part 1",
      "summary": "Comments",
      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+     "summary": "Comments",
+     "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,18 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "The future of independence is interdependence",
-     "summary": "Comments",
-     "url": "https://onlys.ky/independence-is-interdependence/",
+     "title": "F1 in Bahrain... in Malaysia: The race needed a software update to start",
+     "summary": "A software bug waylaid half the field and required a race reboot.",
+     "url": "https://arstechnica.com/cars/2026/10/f1-in-bahrain-in-malaysia-the-race-needed-a-software-update-to-start/",
      "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The technology to eradicate mosquito-borne disease exists",
-     "summary": "Comments",
-     "url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice/",
-     "time": "Sun, 04 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "Mass quarantine issued in Russia after unexplained death of plague researcher",
@@ -79,13 +86,6 @@
      "title": "Lions and cheetahs and chimps, oh my: A spotlight on Africa's diverse wildlife",
      "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home.",
      "url": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
-     "time": "Sun, 04 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "All hail electrification. But let\u2019s talk about the hard part.",
-     "summary": "The IEA and climate negotiators want to set a target for shifting the economy to run on electricity.",
-     "url": "https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/",
      "time": "Sun, 04 Oct 2026",
      "source": "Ars Technica"
     }
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "The iconic Arthur Read made his TV debut 30 years ago",
+     "summary": "The animated series \"Arthur\" premiered on PBS Kids on Oct. 7, 1996.",
+     "url": "https://www.npr.org/2026/10/05/g-s1-146052/arthur-read-tv-debut-30-anniversary",
+     "time": "Mon, 05 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
      "summary": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
      "url": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
@@ -170,13 +177,6 @@
      "url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
      "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "FlyDubai attacker intended to crash plane into Tel Aviv airport, investigation finds",
-     "summary": "The ongoing investigation has found the attacker intended to crash the plane into Israel's Ben Gurion International Airport, a person familiar with the matter but not authorized to speak publicly told NPR.",
-     "url": "https://www.npr.org/2026/10/05/nx-s1-5990802/midair-attack-flydubai",
-     "time": "Mon, 05 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
@@ -184,7 +184,7 @@
    "name": "Vermont",
    "articles": [
     {
-     "title": "First to finish: Carter Smith\u2019s Curtis Fund story",
+     "title": "First to finish",
      "summary": "Affordability shaped Carter Smith\u2019s college search. A Curtis Fund scholarship made Norwich University possible, breaking a family pattern in which money had cut education short. Now studying accounting, Carter hopes to build his career in Vermont, close to family and the communit",
      "url": "https://vtdigger.org/2026/10/05/the-first-to-finish-carter-smiths-curtis-fund-story/",
      "time": "Mon, 05 Oct 2026",
@@ -231,6 +231,27 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Slayyyter Reveals Wor$t Man in America",
+     "summary": "The companion to her 2026 standout Wor$t Girl in America",
+     "url": "https://pitchfork.com/story/slayyyter-reveals-worst-man-in-america-album/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Carly Rae Jepsen Unveils Day and Night B-Sides",
+     "summary": "The pop singer continues her love of extended releases this Friday",
+     "url": "https://pitchfork.com/story/carly-rae-jepsen-unveils-day-and-night-b-sides/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "L7 Reunite With Former Bassist on New Song \u201cLoma Linda\u201d",
+     "summary": "Janis Tanaka will replace the late Jennifer Finch on the feminist grunge icons\u2019 imminent Last Hurrah Tour",
+     "url": "https://pitchfork.com/story/l7-reunite-with-former-bassist-on-new-song-loma-linda/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Flo Announce Therapy at the Club North America and Europe Tour",
      "summary": "The British trio will make stops in New York, Los Angeles, Paris, London, and more",
      "url": "https://pitchfork.com/story/flo-announces-therapy-at-the-club-north-america-and-europe-tour/",
@@ -249,27 +270,6 @@
      "summary": "The Baltimore hardcore band were the musical guest, while Swift made a surprise appearance as Dakota Johnson\u2019s \u201cliteral therapist\u201d",
      "url": "https://pitchfork.com/story/turnstile-and-taylor-swift-both-dropped-by-snl-last-night/",
      "time": "Sun, 04 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Fontaines D.C. Plot 2027 North American Tour",
-     "summary": "The Irish band is headed to arenas across the pond with Iceage and Westside Cowboy",
-     "url": "https://pitchfork.com/story/fontaines-dc-plot-2027-north-american-tour/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Watch Metallica Spawn a Monster for Their Sphere Residency Opener",
-     "summary": "An array of ostentatious 3D graphics, including a giant Cthulhu, accompanied the band\u2019s debut at the Las Vegas venue",
-     "url": "https://pitchfork.com/story/watch-metallica-spawn-a-monster-for-their-sphere-residency-opener/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "10 New Albums You Should Listen to Now: Greg Freeman, Quavo, and More",
-     "summary": "Stream new releases from Greg Freeman, Quavo, B0YG1RL, and Victoria Mon\u00e9t",
-     "url": "https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-greg-freeman-quavo-victoria-monet/",
-     "time": "Fri, 02 Oct 2026",
      "source": "Pitchfork"
     }
    ]
