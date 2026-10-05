@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T01:46:41+0000",
+ "generated_iso": "2026-10-05T02:16:36+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-04 21:43:01.430 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\964 Pinocchio\\964.Pinocchio.1991.1080p.BluRay.x264.A",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     },
     {
-     "t": "2026-10-04 21:43:13.493 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "2026-10-04 22:15:53.485 Error HttpClient: Connection to http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.98\u00e2\u20ac\u0152:8100/\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008dkavitv\u00e2\u20ac\u0152/\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008dlive\u00e2\u20ac\u0152/\u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d\u00e2\u20ac\u008d",
      "c": "err"
     },
     {
-     "t": "2026-10-04 21:43:13.493 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 21:43:13.493 Error App: Error in ffprobe",
+     "t": "2026-10-04 22:15:53.485 Error LiveTV: Error in GetChannelStreamWithDirectStreamProvider",
      "c": "err"
     },
     {
@@ -26,23 +22,11 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
      "c": "err"
     },
     {
-     "t": "2026-10-04 21:45:48.468 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Bad Taste\\Bad.Taste.1987.1080p.BluRay.x264.AAC.mp4\" ",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 21:46:09.796 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 21:46:09.796 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-04 21:46:09.797 Error App: Error in ffprobe",
+     "t": "2026-10-04 22:15:53.486 Error MediaSourceManager: Error opening live stream",
      "c": "err"
     },
     {
@@ -50,7 +34,23 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 22:15:53.486 Error MediaInfoService-0HNP0T5I41C9H:0000000E: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 22:16:07.990 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Kpop Demon Hunters\\KPop.Demon.Hunters.2025.1080p.WEB",
      "c": "err"
     }
    ]
@@ -83,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T20:31:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T20:46:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T21:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T21:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T22:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T22:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
