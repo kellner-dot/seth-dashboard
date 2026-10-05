@@ -1,24 +1,574 @@
 {
+ "root": "tb-direct:/",
+ "updated": "2026-10-04",
+ "note": "Full TeraBox library index (90 movie folders). Use 'Send to PC' on any file to queue a download through the phone remote.",
  "folders": [
   {
+   "path": "Movies/",
    "items": [
     {
-     "items": [
-      {
-       "name": "On the Silver Globe (1988).mp4",
-       "note": "Cloud master \u2014 do not delete Mac original",
-       "size": 2443165634,
-       "type": "file"
-      }
-     ],
+     "name": "964 Pinocchio",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "A Ghost Story",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Adaptation",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "American Beauty",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "American Movie",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "American Pop",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "As Above, So Below",
+     "type": "folder",
+     "items": [],
+     "note": "7 files"
+    },
+    {
+     "name": "Bad Taste",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Balloonerism",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Basket Case",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Being John Malkovich",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Big Fish",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Black Bag",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Black Moon",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Bodies Bodies Bodies",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Braindead",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Bringing Out The Dead",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Cemetery of Splendour",
+     "type": "folder",
+     "items": [],
+     "note": "5 files"
+    },
+    {
+     "name": "Cowboys and Aliens",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Destroy All Neighbors",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Elephant",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Falling Down",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Fantastic Four 2015",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Fantastic Four Rise of the Silver Surfer",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Fantastic Planet",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Felix the Cat",
+     "type": "folder",
+     "items": [],
+     "note": "3 files"
+    },
+    {
+     "name": "Fritz the Cat",
+     "type": "folder",
+     "items": [],
+     "note": "7 files"
+    },
+    {
+     "name": "Get Out",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Green Room",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Heart Eyes",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Heavy Traffic",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Hokum",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Holland",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "House of the Dead",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Hype",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "I Heart Huckabees",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Inauguration of the Pleasure Dome",
+     "type": "folder",
+     "items": [],
+     "note": "3 files"
+    },
+    {
+     "name": "Inland Empire",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "John Carter",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Kpop Demon Hunters",
+     "type": "folder",
+     "items": [],
+     "note": "9 files"
+    },
+    {
+     "name": "Life of Pi",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Liquid Sky",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Man Bites Dog",
+     "type": "folder",
+     "items": [],
+     "note": "7 files"
+    },
+    {
+     "name": "Marcel The Shell With Shoes On",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Megalopolis",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Mulholland.Drive.2001.Criterion.1080p.BluRay.x265.10bit.AAC 5.1 #Tigole",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Naked Lunch",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Nausicaa Of The Valley Of The Wind",
+     "type": "folder",
+     "items": [],
+     "note": "9 files"
+    },
+    {
+     "name": "Nebraska",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Never Let Go",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Night Watch",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Okja",
+     "type": "folder",
+     "items": [],
+     "note": "7 files"
+    },
+    {
      "name": "On the Silver Globe (1988)",
-     "type": "folder"
+     "type": "folder",
+     "items": [],
+     "note": "4 files"
+    },
+    {
+     "name": "Only Lovers Left Alive",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Parasite",
+     "type": "folder",
+     "items": [],
+     "note": "7 files"
+    },
+    {
+     "name": "Police State",
+     "type": "folder",
+     "items": [],
+     "note": "3 files"
+    },
+    {
+     "name": "Poly Styrene I am a Cliche",
+     "type": "folder",
+     "items": [],
+     "note": "5 files"
+    },
+    {
+     "name": "Poor Things",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Scanners",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Slacker",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Slaxx",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Spider",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Street Trash 2024",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Tank Girl",
+     "type": "folder",
+     "items": [],
+     "note": "7 files"
+    },
+    {
+     "name": "Tetsuo, the Iron Man",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Boxer's Omen",
+     "type": "folder",
+     "items": [],
+     "note": "7 files"
+    },
+    {
+     "name": "The Cave",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Cell",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The City of Lost Children",
+     "type": "folder",
+     "items": [],
+     "note": "8 files"
+    },
+    {
+     "name": "The Fall",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Fountain",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Frighteners",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Happy time Murders",
+     "type": "folder",
+     "items": [],
+     "note": "3 files"
+    },
+    {
+     "name": "The Holy Mountain",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The House Was Not Hungry Then",
+     "type": "folder",
+     "items": [],
+     "note": "4 files"
+    },
+    {
+     "name": "The Illusionist",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Invisible Man",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Last Wave",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Monkey",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "The Nightmare Before Christmas",
+     "type": "folder",
+     "items": [],
+     "note": "5 files"
+    },
+    {
+     "name": "The Short Films of David Lynch",
+     "type": "folder",
+     "items": [],
+     "note": "4 files"
+    },
+    {
+     "name": "They Live",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Three Kings",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "UHF",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Us",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Visitors",
+     "type": "folder",
+     "items": [],
+     "note": "5 files"
+    },
+    {
+     "name": "Waking Life",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Walkabout",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Wizards",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
+    },
+    {
+     "name": "Wolf Man",
+     "type": "folder",
+     "items": [],
+     "note": "6 files"
     }
-   ],
-   "path": "Movies/"
+   ]
+  },
+  {
+   "path": "TV Shows/",
+   "items": [
+    {
+     "name": "TV Shows",
+     "type": "folder",
+     "items": [],
+     "note": "2 series folders"
+    }
+   ]
+  },
+  {
+   "path": "Scan/",
+   "items": [
+    {
+     "name": "Scan",
+     "type": "folder",
+     "items": [],
+     "note": "2 files"
+    }
+   ]
   }
- ],
- "note": "Starter index (2026-10-03). Full library scan via VM poller coming. Use 'Send to PC' on any file to queue a download through the phone remote.",
- "root": "tb-direct:/",
- "updated": "2026-10-03"
+ ]
 }
