@@ -1,65 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T22:46:39+0000",
+ "generated_iso": "2026-10-05T23:16:36+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": [
-    {
-     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 5 of playlist 0",
-     "c": "err"
-    },
-    {
-     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
-     "c": "err"
-    },
-    {
-     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 6 of playlist 0",
-     "c": "err"
-    },
-    {
-     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
-     "c": "err"
-    },
-    {
-     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 7 of playlist 0",
-     "c": "err"
-    },
-    {
-     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
-     "c": "err"
-    },
-    {
-     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 8 of playlist 0",
-     "c": "err"
-    },
-    {
-     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
-     "c": "err"
-    },
-    {
-     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 9 of playlist 0",
-     "c": "err"
-    },
-    {
-     "t": "\t[http @ 0000022d77cb4cc0] HTTP error 400 Bad Request",
-     "c": "err"
-    },
-    {
-     "t": "\t[hls @ 0000022d77ca6bc0] Failed to open segment 10 of playlist 0",
-     "c": "err"
-    },
-    {
-     "t": "\t[hls @ 0000022d77ca6bc0] Error when loading first segment 'http://10.0.0.98:8096/emby/Videos/215127/hls1/main/0.ts?PlaySessionId='",
-     "c": "err"
-    }
-   ]
+   "lines": []
   },
   {
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Mon Oct  5 23:16:31 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -83,14 +34,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T17:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T17:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T18:01:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +47,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T18:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T19:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T19:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
