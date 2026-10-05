@@ -1,18 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T17:46:43+0000",
+ "generated_iso": "2026-10-05T18:16:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "\t13:11:10.896 [http @ 00000235e026b500] HTTP error 400 Bad Request",
-     "c": "err"
-    },
-    {
-     "t": "\t13:11:10.896 [hls @ 00000235de8acc00] Failed to open segment 45 of playlist 0",
-     "c": "err"
-    },
     {
      "t": "\t13:11:10.911 [http @ 00000235e026b500] HTTP error 400 Bad Request",
      "c": "err"
@@ -52,6 +44,14 @@
     {
      "t": "2026-10-05 13:11:10.941 Info DynamicHlsService-0HNP2JA11TCNC:0000001E: http/1.1 Response 500 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 629ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d",
      "c": "ok"
+    },
+    {
+     "t": "2026-10-05 13:48:58.535 Warn UserService-0HNP2JA11TDJ7:00000001: AUTH-ERROR: 100.123.184.31 - Access token is invalid or expired.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 13:48:58.535 Error UserService-0HNP2JA11TDJ7:00000001: Access token is invalid or expired.",
+     "c": "err"
     }
    ]
   },
@@ -83,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T12:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T12:31:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T12:46:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T13:01:44-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +92,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T13:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T13:46:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T14:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T14:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
