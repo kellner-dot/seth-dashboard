@@ -1,8 +1,55 @@
 {
- "generated_at": 1791175210,
- "generated_iso": "2026-10-05T04:40:10+0000",
- "collector": "mission-control v1 (hatch VM, 5-min cron)",
+ "generated_at": 1791175592,
+ "generated_iso": "2026-10-05T04:46:32+0000",
+ "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
+ "alerts": [
+  {
+   "severity": "info",
+   "icon": "\ud83c\udf89",
+   "title": "BiglyBT stopped",
+   "message": "Torrent client stopped. Downloads may have finished!",
+   "at": "2026-10-05T04:46:32+0000"
+  }
+ ],
+ "github": {
+  "profile": "https://github.com/kellner-dot",
+  "public_repos": 10,
+  "private_repos": 9,
+  "pages": [
+   {
+    "name": "seth-dashboard",
+    "url": "https://kellner-dot.github.io/seth-dashboard/"
+   },
+   {
+    "name": "theartfuldodger-site",
+    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
+   }
+  ]
+ },
+ "emby_library": {
+  "movies": 5443,
+  "series": 34,
+  "episodes": 60,
+  "recent": [
+   "Come Over, My Parents Aren't Home",
+   "The Monkey",
+   "80s-commercials",
+   "Possessor",
+   "Megalopolis",
+   "Inland Empire"
+  ]
+ },
+ "terabox": {
+  "total": null,
+  "used": null,
+  "free": null
+ },
+ "kaviguard": {},
+ "biglybt": {
+  "running": false,
+  "scheduler": "night \u00b7 unlimited"
+ },
  "devices": [
   {
    "id": "seths-pc",
@@ -11,7 +58,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 284,
+   "uptime_s": 693,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -19,15 +66,9 @@
    },
    "emby_sessions": [
     {
-     "device": "VM",
-     "client": "Muse",
+     "device": "",
+     "client": "",
      "user": "",
-     "playing": null
-    },
-    {
-     "device": "Microsoft Edge Windows",
-     "client": "Emby Web",
-     "user": "Seth",
      "playing": null
     }
    ],
@@ -35,7 +76,7 @@
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
-    "adb": "unreachable (port 5555 closed 2026-10-02)"
+    "adb": "unreachable (subnet route not approved or stick offline)"
    }
   },
   {
@@ -57,7 +98,8 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": false
+   "online": true,
+   "ping_ms": null
   },
   {
    "id": "motorola-razr-2023",
