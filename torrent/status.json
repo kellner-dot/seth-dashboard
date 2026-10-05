@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05 01:46",
+ "updated": "2026-10-05 01:56",
  "biglybtRunning": true,
  "torrents": [
   {
@@ -115,8 +115,8 @@
    "uploadedEver": 0
   }
  ],
- "downSpeed": 0,
- "upSpeed": 0,
+ "downSpeed": 12,
+ "upSpeed": 29,
  "activeCount": 0,
  "ratio": 0.75
 }
