@@ -1,35 +1,14 @@
 {
- "updated": "2026-10-05T14:46:35+0000",
- "updated_ts": 1791211595,
+ "updated": "2026-10-05T16:46:37+0000",
+ "updated_ts": 1791218797,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+     "title": "Borland Turbo Basic",
      "summary": "Comments",
-     "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
-     "summary": "Comments",
-     "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
-     "summary": "Comments",
-     "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Press Release: Nobel Prize in Physiology or Medicine 2026",
-     "summary": "Comments",
-     "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+     "url": "https://dosdays.co.uk/topics/Software/borland_turbo_basic.php",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +20,46 @@
      "source": "Hacker News"
     },
     {
-     "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+     "title": "Making a GTK application in Haskell, part 1",
      "summary": "Comments",
-     "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+     "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+     "summary": "Comments",
+     "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The future of independence is interdependence",
+     "summary": "Comments",
+     "url": "https://onlys.ky/independence-is-interdependence/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The technology to eradicate mosquito-borne disease exists",
+     "summary": "Comments",
+     "url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice/",
+     "time": "Sun, 04 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Mass quarantine issued in Russia after unexplained death of plague researcher",
+     "summary": "Unconfirmed reports have suggested there was a laboratory accident.",
+     "url": "https://arstechnica.com/health/2026/10/researchers-death-from-undisclosed-illness-sparks-mass-quarantine-in-russia/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "AI glasses face their first major government crackdown",
+     "summary": "Norway wants time to write permanent rules for glasses that can record bystanders.",
+     "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Explaining Hall-effect, TMR, and other new types of \"mechanical\" switches",
@@ -56,14 +70,14 @@
     },
     {
      "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
-     "summary": "Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls",
+     "summary": "Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls.",
      "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
      "time": "Mon, 05 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
-     "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home",
+     "title": "Lions and cheetahs and chimps, oh my: A spotlight on Africa's diverse wildlife",
+     "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home.",
      "url": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
      "time": "Sun, 04 Oct 2026",
      "source": "Ars Technica"
@@ -73,20 +87,6 @@
      "summary": "The IEA and climate negotiators want to set a target for shifting the economy to run on electricity.",
      "url": "https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/",
      "time": "Sun, 04 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
-     "summary": "\"...we were making history.\"",
-     "url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
-     "time": "Sat, 03 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "The dawn of the age of the exoskeleton",
-     "summary": "The devices continue to show noticeable benefits for users in various real-world tasks.",
-     "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
-     "time": "Sat, 03 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -98,13 +98,6 @@
      "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
      "summary": "US media reported a new threat led to the bombers being removed on Sunday, following an incident near the base last week.",
      "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Spanish PM S\u00e1nchez calls early election after housing protests",
-     "summary": "S\u00e1nchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
-     "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
@@ -123,16 +116,23 @@
      "source": "BBC World"
     },
     {
-     "title": "Nobel Prize awarded for revealing inner workings of the brain",
-     "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
-     "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+     "title": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
+     "summary": "The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says.",
+     "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa",
-     "summary": "For many locals on this island, the arrest has brought decades of frustration back to the fore.",
-     "url": "https://www.bbc.co.uk/news/articles/cwgkv70gg1j3o?at_medium=RSS&at_campaign=rss",
+     "title": "Spanish PM S\u00e1nchez calls early election after housing protests",
+     "summary": "S\u00e1nchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
+     "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Nobel Prize awarded for revealing inner workings of the brain",
+     "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
+     "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Flo Announce Therapy at the Club North America and Europe Tour",
+     "summary": "The British trio will make stops in New York, Los Angeles, Paris, London, and more",
+     "url": "https://pitchfork.com/story/flo-announces-therapy-at-the-club-north-america-and-europe-tour/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Phoebe Bridgers, Massive Attack, Caroline Polachek to Headline Primavera 2027",
      "summary": "Pavement, Robyn, Turnstile, Skrillex, Doechii, Fontaines D.C., FKA twigs, and Hayley Williams are also among the acts",
      "url": "https://pitchfork.com/story/phoebe-bridgers-massive-attack-caroline-polachek-to-headline-primavera-2027/",
@@ -262,13 +269,6 @@
      "title": "10 New Albums You Should Listen to Now: Greg Freeman, Quavo, and More",
      "summary": "Stream new releases from Greg Freeman, Quavo, B0YG1RL, and Victoria Mon\u00e9t",
      "url": "https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-greg-freeman-quavo-victoria-monet/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Drake and Don Toliver\u2019s \u201cChoosin\u2019 Texas\u201d Remix Is Officially Here",
-     "summary": "\u201dSolar Eclipse\u201d arrives alongside other FOMO tracks \u201cQuebec,\u201d \u201cClassic PT2,\u201d and \u201cCold Shoulder\u201d",
-     "url": "https://pitchfork.com/story/drake-and-don-tolivers-choosin-texas-remix-is-officially-here/",
      "time": "Fri, 02 Oct 2026",
      "source": "Pitchfork"
     }
