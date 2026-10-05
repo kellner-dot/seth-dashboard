@@ -1,57 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T15:16:40+0000",
+ "generated_iso": "2026-10-05T15:46:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\t11:16:18.663 [http @ 000002c08168b500] HTTP error 400 Bad Request",
+     "t": "2026-10-05 11:43:26.285 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The Monkey.mp4\" -threads 0 -v info -print_format jso",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.663 [hls @ 000002c0ffdbcc00] Failed to open segment 47 of playlist 0",
+     "t": "2026-10-05 11:43:26.512 Error MediaProbeManager: ProcessRun 'ffprobe' Output:",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.663 [http @ 000002c08168b500] HTTP error 400 Bad Request",
+     "t": "2026-10-05 11:43:26.512 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.663 [hls @ 000002c0ffdbcc00] Failed to open segment 48 of playlist 0",
+     "t": "2026-10-05 11:43:26.512 Error App: Error in ffprobe",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.664 [http @ 000002c08168b500] HTTP error 400 Bad Request",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.664 [hls @ 000002c0ffdbcc00] Failed to open segment 49 of playlist 0",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.677 [http @ 000002c08168b500] HTTP error 400 Bad Request",
+     "t": "2026-10-05 11:45:29.100 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\The.Green.Knight.2021.1080p.WEBRip.x264.AAC-[YTS.MX]",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.678 [hls @ 000002c0ffdbcc00] Failed to open segment 50 of playlist 0",
+     "t": "2026-10-05 11:45:48.030 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.678 [http @ 000002c08168b500] HTTP error 400 Bad Request",
+     "t": "2026-10-05 11:45:48.030 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.678 [hls @ 000002c0ffdbcc00] Failed to open segment 51 of playlist 0",
+     "t": "2026-10-05 11:45:48.031 Error App: Error in ffprobe",
      "c": "err"
     },
     {
-     "t": "\t11:16:18.679 [hls @ 000002c0ffdbcc00] Error when loading first segment 'http://10.0.0.98:8096/emby/Videos/214945/hls1/main/0.ts?PlaySessionId='",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-05 11:16:18.693 Info DynamicHlsService-0HNP2JA11TC0S:0000001A: http/1.1 Response 500 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 463ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d",
-     "c": "ok"
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
     }
    ]
   },
@@ -83,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T10:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T10:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T10:31:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T11:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T11:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T11:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
