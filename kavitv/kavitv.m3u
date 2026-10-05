@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="kavitv.horror" tvg-name="!KaviTV Horror" tvg-logo="https://drive.google.com/uc?export=download&id=1aWEppOGMcTa95RGZ-XygtfraGGJc4xvr" group-title="KaviTV",!KaviTV Horror
+#EXTINF:-1 tvg-id="kavitv.horror" tvg-name="!KaviTV Horror" tvg-logo="https://drive.google.com/uc?export=download&id=1aWEppOGMcTa95RGZ-XygtfraGGJc4xvr" group-title="!KaviTV",!KaviTV Horror
 http://10.0.0.98:8100/kavitv/live/horror.ts
-#EXTINF:-1 tvg-id="kavitv.experimental" tvg-name="!KaviTV Experimental" tvg-logo="https://drive.google.com/uc?export=download&id=1TuXs0gLLa-F9rsxUNpZsi7VxUR25mB5R" group-title="KaviTV",!KaviTV Experimental
+#EXTINF:-1 tvg-id="kavitv.experimental" tvg-name="!KaviTV Experimental" tvg-logo="https://drive.google.com/uc?export=download&id=1TuXs0gLLa-F9rsxUNpZsi7VxUR25mB5R" group-title="!KaviTV",!KaviTV Experimental
 http://10.0.0.98:8100/kavitv/live/experimental.ts
-#EXTINF:-1 tvg-id="kavitv.independent" tvg-name="!KaviTV Independent" tvg-logo="https://drive.google.com/uc?export=download&id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U" group-title="KaviTV",!KaviTV Independent
+#EXTINF:-1 tvg-id="kavitv.independent" tvg-name="!KaviTV Independent" tvg-logo="https://drive.google.com/uc?export=download&id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U" group-title="!KaviTV",!KaviTV Independent
 http://10.0.0.98:8100/kavitv/live/independent.ts

@@ -176,7 +176,7 @@ def m3u_from_library(lib):
         out.append(
             f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{ch["name"]}" '
             f'tvg-logo="{ch["logo"]}" '
-            f'group-title="KaviTV",{ch["name"]}')
+            f'group-title="!KaviTV",{ch["name"]}')
         out.append(f"{RELAY_BASE}/kavitv/live/{ch['slug']}.ts")
     return "\n".join(out) + "\n"
 
