@@ -7,6 +7,62 @@
    "logo": "https://drive.google.com/uc?export=download&id=1aWEppOGMcTa95RGZ-XygtfraGGJc4xvr",
    "movies": [
     {
+     "emby_id": "373072",
+     "title": "The Monkey",
+     "year": 2025,
+     "duration_s": 5400,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/373072.jpg"
+    },
+    {
+     "emby_id": "217333",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Black Hearts Bleed Red (1992).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/217333.jpg"
+    },
+    {
+     "emby_id": "217211",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Stan Brakhage's autopsy film.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/217211.jpg"
+    },
+    {
+     "emby_id": "216571",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Otto Muehl's Stille Nacht (1969).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216571.jpg"
+    },
+    {
+     "emby_id": "216369",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [
+      "Horror"
+     ],
+     "overview": "Antithese (2017).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216369.jpg"
+    },
+    {
      "emby_id": "216043",
      "title": "10/65: Self-Mutilation",
      "year": 1965,
@@ -15,125 +71,80 @@
       "Drama",
       "Horror"
      ],
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on",
-     "poster": "http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"
+     "overview": "Kurt Kren's 10/65 Selfmutilation.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216043.jpg"
     },
     {
-     "emby_id": "217211",
-     "title": "The Act of Seeing with One's Own Eyes",
-     "year": 1971,
+     "emby_id": "215642",
+     "title": "Flaming Creatures",
+     "year": 1963,
      "duration_s": 5400,
      "genres": [],
-     "overview": "The Act of Seeing with One's Own Eyes (1971)",
-     "poster": ""
+     "overview": "8 Flaming Creatures Jack Smith `` Transgressive bacchanal; banned obscenity l...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215642.jpg"
     },
     {
-     "emby_id": "216369",
-     "title": "Antithese",
-     "year": 2017,
+     "emby_id": "248520",
+     "title": "Asylum",
+     "year": 2004,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Antithese (2017)",
-     "poster": ""
+     "overview": "10 Asylum \u2014 `` Dark institutional subject matter.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/248520.jpg"
     },
     {
-     "emby_id": "215528",
-     "title": "Apparatus Sum",
-     "year": 1972,
+     "emby_id": "216385",
+     "title": "Witch's Cradle",
+     "year": 1944,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Apparatus Sum (1972)",
-     "poster": ""
+     "overview": "6 Witch's Cradle Maya Deren `` Unfinished surrealist occult fragment; string-...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216385.jpg"
     },
     {
-     "emby_id": "217395",
-     "title": "Atman",
-     "year": 1975,
+     "emby_id": "215999",
+     "title": "Lucifer Rising",
+     "year": 1970,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Atman (1975)",
-     "poster": ""
+     "overview": "2 Lucifer Rising Kenneth Anger `` Anger's Luciferian invocation; dark gods, r...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215999.jpg"
     },
     {
-     "emby_id": "215530",
-     "title": "Autumnal Equinox",
-     "year": 1974,
+     "emby_id": "215997",
+     "title": "Invocation of My Demon Brother",
+     "year": 1969,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Autumnal Equinox (1974)",
-     "poster": ""
+     "overview": "1 Invocation of My Demon Brother Kenneth Anger `` Occult ritual film; demonic...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215997.jpg"
     },
     {
-     "emby_id": "217333",
-     "title": "Black Hearts Bleed Red",
-     "year": 1992,
+     "emby_id": "215994",
+     "title": "Brush of Baphomet",
+     "year": 2009,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Black Hearts Bleed Red (1992)",
-     "poster": ""
+     "overview": "7 Brush of Baphomet \u2014 `` Occult-themed; Baphomet imagery.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215994.jpg"
     },
     {
-     "emby_id": "372822",
-     "title": "Antlers",
-     "year": 2021,
+     "emby_id": "215982",
+     "title": "Blonde Cobra",
+     "year": 1963,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Antlers (2021)",
-     "poster": ""
+     "overview": "9 Blonde Cobra Jack Smith `` Dark camp- monologue; death-obsessed drag delirium.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215982.jpg"
     },
     {
-     "emby_id": "372997",
-     "title": "Basket Case",
-     "year": 1982,
+     "emby_id": "216002",
+     "title": "Scorpio Rising",
+     "year": 1964,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Basket Case (1982)",
-     "poster": ""
-    },
-    {
-     "emby_id": "372826",
-     "title": "Begotten",
-     "year": 1991,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Begotten (1991)",
-     "poster": ""
-    },
-    {
-     "emby_id": "372820",
-     "title": "Annihilation",
-     "year": 2018,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Annihilation (2018)",
-     "poster": ""
-    },
-    {
-     "emby_id": "372821",
-     "title": "Antiviral",
-     "year": 2012,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Antiviral (2012)",
-     "poster": ""
-    },
-    {
-     "emby_id": "372994",
-     "title": "As Above, So Below",
-     "year": 2014,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "As Above, So Below (2014)",
-     "poster": ""
-    },
-    {
-     "emby_id": "372995",
-     "title": "Bad Taste",
-     "year": 1987,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Bad Taste (1987)",
-     "poster": ""
+     "overview": "3 Scorpio Rising Kenneth Anger `` Biker-occult collage; pop soundtrack over h...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216002.jpg"
     }
    ]
   },
@@ -149,12 +160,33 @@
      "year": 1975,
      "duration_s": 5400,
      "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
+      "Horror",
+      "Experimental"
      ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film.",
-     "poster": "http://10.0.0.98:8096/emby/Items/217408/Images/Primary?maxWidth=400"
+     "overview": "Toshio Matsumoto's Phantom (1975).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/249231.jpg"
+    },
+    {
+     "emby_id": "217395",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Toshio Matsumoto's Atman (1975).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/217395.jpg"
+    },
+    {
+     "emby_id": "215530",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Autumnal Equinox (1974).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215530.jpg"
     },
     {
      "emby_id": "249058",
@@ -162,12 +194,10 @@
      "year": 1998,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "Mystery",
-      "Horror"
+      "Experimental"
      ],
-     "overview": "Rosemary Trockel's Walk With Me (1998). Experimental film.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"
+     "overview": "Rosemary Trockel's Walk With Me (1998).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/249058.jpg"
     },
     {
      "emby_id": "248883",
@@ -175,25 +205,10 @@
      "year": 1999,
      "duration_s": 5400,
      "genres": [
-      "Drama",
-      "Crime",
-      "Mystery"
+      "Experimental"
      ],
-     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216673/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "248643",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"
+     "overview": "People Like Us - Burning (1999). Audiovisual collage.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/248883.jpg"
     },
     {
      "emby_id": "248769",
@@ -203,46 +218,66 @@
      "genres": [
       "Experimental"
      ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb.",
-     "poster": ""
+     "overview": "Mike Kelley - Blind Country (1989).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/248769.jpg"
     },
     {
-     "emby_id": "216571",
-     "title": "Stille Nacht",
-     "year": 1969,
+     "emby_id": "248643",
+     "title": "Jackie",
+     "year": 2007,
      "duration_s": 5400,
      "genres": [
-      "Horror"
+      "Experimental"
      ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "217395",
-     "title": "Atman",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "Atman (1975) directed by Toshio Matsumoto",
-     "poster": ""
+     "overview": "Lorna Simpson's Jackie (2007).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/248643.jpg"
     },
     {
      "emby_id": "215528",
      "title": "Apparatus Sum",
      "year": 1972,
      "duration_s": 5400,
-     "genres": [],
-     "overview": "Apparatus Sum (1972) directed by Hollis Frampton",
-     "poster": ""
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Hollis Frampton's Apparatus Sum (1972).",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215528.jpg"
     },
     {
-     "emby_id": "215530",
-     "title": "Autumnal Equinox",
-     "year": 1974,
+     "emby_id": "215996",
+     "title": "The Inauguration of the Pleasure Dome",
+     "year": 1954,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton",
-     "poster": ""
+     "overview": "4 The Inauguration of the Pleasure Dome Kenneth Anger `` Mythic masquerade; g...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215996.jpg"
+    },
+    {
+     "emby_id": "215995",
+     "title": "Eaux d'Artifice",
+     "year": 1953,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Eaux d'Artifice Kenneth Anger `` Baroque water-garden reverie; lyrical short.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215995.jpg"
+    },
+    {
+     "emby_id": "215545",
+     "title": "Zorns Lemma",
+     "year": 1970,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "2 Zorns Lemma Hollis Frampton `` Alphabet-city symphony; *the* structural film.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215545.jpg"
+    },
+    {
+     "emby_id": "215309",
+     "title": "Word Movie",
+     "year": 1966,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "6 Word Movie Paul Sharits `` Stroboscopic word-flux; flicker masterwork.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215309.jpg"
     }
    ]
   },
@@ -253,59 +288,94 @@
    "logo": "https://drive.google.com/uc?export=download&id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U",
    "movies": [
     {
-     "emby_id": "373009",
-     "title": "Elephant",
+     "emby_id": "216815",
+     "title": "Berlin: Symphony of a Great City",
+     "year": 1927,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Berlin: Symphony of a Great City Walter Ruttmann `` Weimar city symphony; p...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216815.jpg"
+    },
+    {
+     "emby_id": "216409",
+     "title": "WVLNT (Wavelength For Those Who Don't Have The Time)",
      "year": 2003,
      "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "History"
-     ],
-     "overview": "Gus Van Sant's Elephant (2003). A fictionalized account of a high school shooting, inspired by the Columbine massacre.",
-     "poster": "http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"
+     "genres": [],
+     "overview": "9 WVLNT (Wavelength For Those Who Don't Have The Time) Michael Snow `` 45-min...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216409.jpg"
     },
     {
-     "emby_id": "373049",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
+     "emby_id": "216383",
+     "title": "A Study in Choreography for Camera",
+     "year": 1945,
      "duration_s": 5400,
      "genres": [],
-     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio",
-     "poster": ""
+     "overview": "5 A Study in Choreography for Camera Maya Deren `` Dance film; body as camera...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/216383.jpg"
     },
     {
-     "emby_id": "372862",
-     "title": "Schizopolis",
-     "year": 1996,
-     "duration_s": 5820,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement.",
-     "poster": "http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "373072",
-     "title": "The Monkey",
-     "year": 2025,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Comedy"
-     ],
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu",
-     "poster": "http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "372868",
-     "title": "The 'Burbs",
-     "year": 1989,
+     "emby_id": "215835",
+     "title": "The Black Tower",
+     "year": 1985,
      "duration_s": 5400,
      "genres": [],
-     "overview": "The 'Burbs (1989)",
-     "poster": ""
+     "overview": "5 The Black Tower John Smith `` Uncanny tower haunting a London flat; slow-bu...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215835.jpg"
+    },
+    {
+     "emby_id": "215538",
+     "title": "Hapax Legomena I: (nostalgia)",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "1 Hapax Legomena I: (nostalgia) Hollis Frampton `` Burning photographs + dead...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215538.jpg"
+    },
+    {
+     "emby_id": "215487",
+     "title": "Heaven and Earth Magic",
+     "year": 1962,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "4 Heaven and Earth Magic Harry Smith `` Feature-length cut-out animation; alc...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215487.jpg"
+    },
+    {
+     "emby_id": "215484",
+     "title": "Early Abstractions",
+     "year": 1939,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "8 Early Abstractions (-) Harry Smith `` Painted-film jazz abstractions; Ameri...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215484.jpg"
+    },
+    {
+     "emby_id": "215310",
+     "title": "Wrist Trick",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "7 Wrist Trick Paul Sharits `` Flicker diptych; retinal cinema.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215310.jpg"
+    },
+    {
+     "emby_id": "215306",
+     "title": "Dots 1 & 2",
+     "year": 1965,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "10 Dots 1 & 2 \u2014 `` Hand-painted/drawn-on-film animation; visual music.",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215306.jpg"
+    },
+    {
+     "emby_id": "215069",
+     "title": "Tribulation 99: Alien Anomalies Under America",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "3 Tribulation 99: Alien Anomalies Under America Craig Baldwin `` Found-footag...",
+     "poster": "https://kellner-dot.github.io/seth-dashboard/kavitv/posters/215069.jpg"
     }
    ]
   }

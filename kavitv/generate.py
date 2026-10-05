@@ -21,7 +21,7 @@ from datetime import date, datetime, timedelta, timezone
 from xml.sax.saxutils import escape as xml_escape
 
 UTC = timezone.utc
-WINDOW_DAYS = 3
+WINDOW_DAYS = 7
 RELAY_BASE = "http://10.0.0.98:8100"
 
 
