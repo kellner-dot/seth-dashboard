@@ -2,96 +2,10 @@
  "channels": {
   "kavitv.horror": {
    "name": "!KaviTV Horror",
-   "number": 30,
    "slug": "horror",
-   "tvg_id": "kavitv-horror",
+   "tvg_id": "kavitv.horror",
    "logo": "https://drive.google.com/uc?export=download&id=1aWEppOGMcTa95RGZ-XygtfraGGJc4xvr",
    "movies": [
-    {
-     "emby_id": "217408",
-     "title": "Phantom",
-     "year": 1975,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
-     ],
-     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film.",
-     "poster": "http://10.0.0.98:8096/emby/Items/217408/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "372833",
-     "title": "Deep Water",
-     "year": 2026,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Adventure"
-     ],
-     "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences ",
-     "poster": "http://10.0.0.98:8096/emby/Items/372833/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "373097",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "duration_s": 5460,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.",
-     "poster": "http://10.0.0.98:8096/emby/Items/373097/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215013",
-     "title": "Office Killer",
-     "year": 1997,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco",
-     "poster": "http://10.0.0.98:8096/emby/Items/215013/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "372888",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "duration_s": 5700,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
-     "poster": "http://10.0.0.98:8096/emby/Items/372888/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "373025",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 2280,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a",
-     "poster": "http://10.0.0.98:8096/emby/Items/373025/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "216571",
-     "title": "Stille Nacht",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [
-      "Horror"
-     ],
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"
-    },
     {
      "emby_id": "216043",
      "title": "10/65: Self-Mutilation",
@@ -105,7 +19,145 @@
      "poster": "http://10.0.0.98:8096/emby/Items/216043/Images/Primary?maxWidth=400"
     },
     {
-     "emby_id": "216996",
+     "emby_id": "217211",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "The Act of Seeing with One's Own Eyes (1971)",
+     "poster": ""
+    },
+    {
+     "emby_id": "216369",
+     "title": "Antithese",
+     "year": 2017,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antithese (2017)",
+     "poster": ""
+    },
+    {
+     "emby_id": "215528",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972)",
+     "poster": ""
+    },
+    {
+     "emby_id": "217395",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975)",
+     "poster": ""
+    },
+    {
+     "emby_id": "215530",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974)",
+     "poster": ""
+    },
+    {
+     "emby_id": "217333",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Black Hearts Bleed Red (1992)",
+     "poster": ""
+    },
+    {
+     "emby_id": "372822",
+     "title": "Antlers",
+     "year": 2021,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antlers (2021)",
+     "poster": ""
+    },
+    {
+     "emby_id": "372997",
+     "title": "Basket Case",
+     "year": 1982,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Basket Case (1982)",
+     "poster": ""
+    },
+    {
+     "emby_id": "372826",
+     "title": "Begotten",
+     "year": 1991,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Begotten (1991)",
+     "poster": ""
+    },
+    {
+     "emby_id": "372820",
+     "title": "Annihilation",
+     "year": 2018,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Annihilation (2018)",
+     "poster": ""
+    },
+    {
+     "emby_id": "372821",
+     "title": "Antiviral",
+     "year": 2012,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Antiviral (2012)",
+     "poster": ""
+    },
+    {
+     "emby_id": "372994",
+     "title": "As Above, So Below",
+     "year": 2014,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "As Above, So Below (2014)",
+     "poster": ""
+    },
+    {
+     "emby_id": "372995",
+     "title": "Bad Taste",
+     "year": 1987,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Bad Taste (1987)",
+     "poster": ""
+    }
+   ]
+  },
+  "kavitv.experimental": {
+   "name": "!KaviTV Experimental",
+   "slug": "experimental",
+   "tvg_id": "kavitv.experimental",
+   "logo": "https://drive.google.com/uc?export=download&id=1TuXs0gLLa-F9rsxUNpZsi7VxUR25mB5R",
+   "movies": [
+    {
+     "emby_id": "249231",
+     "title": "Phantom",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Horror"
+     ],
+     "overview": "Toshio Matsumoto's Phantom (1975). Experimental short film.",
+     "poster": "http://10.0.0.98:8096/emby/Items/217408/Images/Primary?maxWidth=400"
+    },
+    {
+     "emby_id": "249058",
      "title": "Walk With Me",
      "year": 1998,
      "duration_s": 5400,
@@ -118,83 +170,88 @@
      "poster": "http://10.0.0.98:8096/emby/Items/216996/Images/Primary?maxWidth=400"
     },
     {
-     "emby_id": "372823",
-     "title": "Backrooms",
-     "year": 2026,
-     "duration_s": 6600,
-     "genres": [
-      "Horror",
-      "Mystery",
-      "Science Fiction"
-     ],
-     "overview": "A strange doorway appears in the basement of a furniture showroom.",
-     "poster": "http://10.0.0.98:8096/emby/Items/372823/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "216365",
-     "title": "Love Reinvented",
-     "year": 1979,
-     "duration_s": 5400,
-     "genres": [
-      "Horror",
-      "Drama"
-     ],
-     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists",
-     "poster": "http://10.0.0.98:8096/emby/Items/216365/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "216661",
-     "title": "Nocturne",
-     "year": 1998,
+     "emby_id": "248883",
+     "title": "Burning",
+     "year": 1999,
      "duration_s": 5400,
      "genres": [
       "Drama",
+      "Crime",
+      "Mystery"
+     ],
+     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage.",
+     "poster": "http://10.0.0.98:8096/emby/Items/216673/Images/Primary?maxWidth=400"
+    },
+    {
+     "emby_id": "248643",
+     "title": "Jackie",
+     "year": 2007,
+     "duration_s": 5400,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "overview": "Lorna Simpson's Jackie (2007). Experimental short.",
+     "poster": "http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"
+    },
+    {
+     "emby_id": "248769",
+     "title": "Blind Country",
+     "year": 1989,
+     "duration_s": 1221,
+     "genres": [
+      "Experimental"
+     ],
+     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb.",
+     "poster": ""
+    },
+    {
+     "emby_id": "216571",
+     "title": "Stille Nacht",
+     "year": 1969,
+     "duration_s": 5400,
+     "genres": [
       "Horror"
      ],
-     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo",
-     "poster": "http://10.0.0.98:8096/emby/Items/216661/Images/Primary?maxWidth=400"
+     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.",
+     "poster": "http://10.0.0.98:8096/emby/Items/216571/Images/Primary?maxWidth=400"
+    },
+    {
+     "emby_id": "217395",
+     "title": "Atman",
+     "year": 1975,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Atman (1975) directed by Toshio Matsumoto",
+     "poster": ""
+    },
+    {
+     "emby_id": "215528",
+     "title": "Apparatus Sum",
+     "year": 1972,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Apparatus Sum (1972) directed by Hollis Frampton",
+     "poster": ""
+    },
+    {
+     "emby_id": "215530",
+     "title": "Autumnal Equinox",
+     "year": 1974,
+     "duration_s": 5400,
+     "genres": [],
+     "overview": "Autumnal Equinox (1974) directed by Hollis Frampton",
+     "poster": ""
     }
    ]
   },
-  "kavitv.experimental": {
-   "name": "!KaviTV Experimental",
-   "number": 31,
-   "slug": "experimental",
-   "tvg_id": "kavitv-experimental",
-   "logo": "https://drive.google.com/uc?export=download&id=1TuXs0gLLa-F9rsxUNpZsi7VxUR25mB5R",
+  "kavitv.independent": {
+   "name": "!KaviTV Independent",
+   "slug": "independent",
+   "tvg_id": "kavitv.independent",
+   "logo": "https://drive.google.com/uc?export=download&id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U",
    "movies": [
-    {
-     "emby_id": "248561",
-     "title": "Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art.",
-     "poster": "http://10.0.0.98:8096/emby/Items/248561/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215188",
-     "title": "Letter to Jane: An Investigation About a Still",
-     "year": 1972,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation",
-     "poster": "http://10.0.0.98:8096/emby/Items/215188/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "372861",
-     "title": "Scanners",
-     "year": 1981,
-     "duration_s": 6180,
-     "genres": [
-      "Science Fiction",
-      "Horror"
-     ],
-     "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners.",
-     "poster": "http://10.0.0.98:8096/emby/Items/372861/Images/Primary?maxWidth=400"
-    },
     {
      "emby_id": "373009",
      "title": "Elephant",
@@ -208,118 +265,13 @@
      "poster": "http://10.0.0.98:8096/emby/Items/373009/Images/Primary?maxWidth=400"
     },
     {
-     "emby_id": "215995",
-     "title": "Eaux d'Artifice",
-     "year": 1953,
-     "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat",
-     "poster": "http://10.0.0.98:8096/emby/Items/215995/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215739",
-     "title": "Schick Commerical",
-     "year": 1971,
+     "emby_id": "373049",
+     "title": "Koyaanisqatsi",
+     "year": 1983,
      "duration_s": 5400,
      "genres": [],
-     "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h",
-     "poster": "http://10.0.0.98:8096/emby/Items/215739/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215996",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "duration_s": 5400,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a",
-     "poster": "http://10.0.0.98:8096/emby/Items/215996/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "248430",
-     "title": "France Tour Detour Mouvement 2 Lumiere Physique",
-     "year": 1977,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art.",
-     "poster": "http://10.0.0.98:8096/emby/Items/248430/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "216384",
-     "title": "The Private Life of a Cat",
-     "year": 1946,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216384/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "248434",
-     "title": "France/tour/d\u00e9tour/deux/enfants, Mouvement 5: Impression/Dict\u00e9e (Impression/Dictation)",
-     "year": 1978,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art.",
-     "poster": "http://10.0.0.98:8096/emby/Items/248434/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "217209",
-     "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
-     "year": 1969,
-     "duration_s": 5400,
-     "genres": [],
-     "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B",
-     "poster": "http://10.0.0.98:8096/emby/Items/217209/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215737",
-     "title": "1 P.M.",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Lighter and livelier than the films Jean-Luc Godard had made in France, his U.S. collaboration with Direct Cinema documentarian D. A. Pennebaker was meant to be One A.M., as in \u201cone American movie\u201d; but Godard quit the p",
-     "poster": "http://10.0.0.98:8096/emby/Items/215737/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215730",
-     "title": "British Sounds",
-     "year": 1970,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th",
-     "poster": "http://10.0.0.98:8096/emby/Items/215730/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215192",
-     "title": "Vladimir and Rosa",
-     "year": 1971,
-     "duration_s": 5400,
-     "genres": [
-      "Drama"
-     ],
-     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi",
-     "poster": "http://10.0.0.98:8096/emby/Items/215192/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "215270",
-     "title": "Montparnasse",
-     "year": 1929,
-     "duration_s": 5400,
-     "genres": [
-      "Documentary"
-     ],
-     "overview": "Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam",
-     "poster": "http://10.0.0.98:8096/emby/Items/215270/Images/Primary?maxWidth=400"
+     "overview": "Koyaanisqatsi (1983) directed by Godfrey Reggio",
+     "poster": ""
     },
     {
      "emby_id": "372862",
@@ -335,63 +287,6 @@
      "poster": "http://10.0.0.98:8096/emby/Items/372862/Images/Primary?maxWidth=400"
     },
     {
-     "emby_id": "248769",
-     "title": "Blind Country",
-     "year": 1989,
-     "duration_s": 1221,
-     "genres": [
-      "Experimental"
-     ],
-     "overview": "Ericka Beckman and Mike Kelley - Blind Country (1989). Experimental video work from UbuWeb."
-    }
-   ]
-  },
-  "kavitv.independent": {
-   "name": "!KaviTV Independent",
-   "number": 32,
-   "slug": "independent",
-   "tvg_id": "kavitv-independent",
-   "logo": "https://drive.google.com/uc?export=download&id=1A2PHtXaooJEKA27YZ_l2qZmRc2QR0k0U",
-   "movies": [
-    {
-     "emby_id": "372850",
-     "title": "Mister Lonely",
-     "year": 2008,
-     "duration_s": 5400,
-     "genres": [
-      "Comedy",
-      "Drama"
-     ],
-     "overview": "In Paris, a young American working as a Michael Jackson lookalike meets Marilyn Monroe, who invites him to her commune in Scotland, where she lives with Charlie Chaplin and her daughter, Shirley Temple.",
-     "poster": "http://10.0.0.98:8096/emby/Items/372850/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "216673",
-     "title": "Burning",
-     "year": 1999,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Crime",
-      "Mystery"
-     ],
-     "overview": "People Like Us (Vicki Bennett) - Burning (1999). Audiovisual collage.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216673/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "372873",
-     "title": "The Killing of a Sacred Deer",
-     "year": 2017,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Thriller",
-      "Mystery"
-     ],
-     "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi",
-     "poster": "http://10.0.0.98:8096/emby/Items/372873/Images/Primary?maxWidth=400"
-    },
-    {
      "emby_id": "373072",
      "title": "The Monkey",
      "year": 2025,
@@ -404,117 +299,13 @@
      "poster": "http://10.0.0.98:8096/emby/Items/373072/Images/Primary?maxWidth=400"
     },
     {
-     "emby_id": "372859",
-     "title": "Requiem for a Dream",
-     "year": 2000,
+     "emby_id": "372868",
+     "title": "The 'Burbs",
+     "year": 1989,
      "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama"
-     ],
-     "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.",
-     "poster": "http://10.0.0.98:8096/emby/Items/372859/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "373053",
-     "title": "Slacker",
-     "year": 1990,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Comedy"
-     ],
-     "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The",
-     "poster": "http://10.0.0.98:8096/emby/Items/373053/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "373064",
-     "title": "The Fountain",
-     "year": 2006,
-     "duration_s": 5400,
-     "genres": [
-      "Drama",
-      "Adventure",
-      "Science Fiction"
-     ],
-     "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world.",
-     "poster": "http://10.0.0.98:8096/emby/Items/373064/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "372856",
-     "title": "Poor Things",
-     "year": 2023,
-     "duration_s": 8520,
-     "genres": [
-      "Science Fiction",
-      "Romance",
-      "Comedy"
-     ],
-     "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for",
-     "poster": "http://10.0.0.98:8096/emby/Items/372856/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "36220",
-     "title": "From Dusk Till Dawn",
-     "year": 1996,
-     "duration_s": 720,
-     "genres": [
-      "Horror",
-      "Vampires",
-      "Movie"
-     ],
-     "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo",
-     "poster": "http://10.0.0.98:8096/emby/Items/36220/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "216156",
-     "title": "Jackie",
-     "year": 2007,
-     "duration_s": 5400,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "overview": "Lorna Simpson's Jackie (2007). Experimental short.",
-     "poster": "http://10.0.0.98:8096/emby/Items/216156/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "373032",
-     "title": "Marcel the Shell with Shoes On",
-     "year": 2022,
-     "duration_s": 5400,
-     "genres": [
-      "Animation",
-      "Comedy",
-      "Drama"
-     ],
-     "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of",
-     "poster": "http://10.0.0.98:8096/emby/Items/373032/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "373091",
-     "title": "I Saw the TV Glow",
-     "year": 2024,
-     "duration_s": 6000,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg",
-     "poster": "http://10.0.0.98:8096/emby/Items/373091/Images/Primary?maxWidth=400"
-    },
-    {
-     "emby_id": "217320",
-     "title": "Kill Bill: Vol. 1",
-     "year": 2003,
-     "duration_s": 5400,
-     "genres": [
-      "Action",
-      "Crime"
-     ],
-     "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance.",
-     "poster": "http://10.0.0.98:8096/emby/Items/217320/Images/Primary?maxWidth=400"
+     "genres": [],
+     "overview": "The 'Burbs (1989)",
+     "poster": ""
     }
    ]
   }
