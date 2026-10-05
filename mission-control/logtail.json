@@ -1,33 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T14:46:37+0000",
+ "generated_iso": "2026-10-05T15:16:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 06:25:47.690 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Naked Lunch\\Naked.Lunch.1991.1080p.BluRay.x264-[YTS.",
+     "t": "\t11:16:18.663 [http @ 000002c08168b500] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "2026-10-05 06:26:08.097 Info MediaProbeManager: ProcessRun 'ffprobe' Process exited with code -1 - Failed",
+     "t": "\t11:16:18.663 [hls @ 000002c0ffdbcc00] Failed to open segment 47 of playlist 0",
      "c": "err"
     },
     {
-     "t": "2026-10-05 06:26:08.098 Error MediaProbeManager: ProcessRun 'ffprobe' Error Output:",
+     "t": "\t11:16:18.663 [http @ 000002c08168b500] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "2026-10-05 06:26:08.100 Error App: Error in ffprobe",
+     "t": "\t11:16:18.663 [hls @ 000002c0ffdbcc00] Failed to open segment 48 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "\t11:16:18.664 [http @ 000002c08168b500] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "t": "\t11:16:18.664 [hls @ 000002c0ffdbcc00] Failed to open segment 49 of playlist 0",
      "c": "err"
+    },
+    {
+     "t": "\t11:16:18.677 [http @ 000002c08168b500] HTTP error 400 Bad Request",
+     "c": "err"
+    },
+    {
+     "t": "\t11:16:18.678 [hls @ 000002c0ffdbcc00] Failed to open segment 50 of playlist 0",
+     "c": "err"
+    },
+    {
+     "t": "\t11:16:18.678 [http @ 000002c08168b500] HTTP error 400 Bad Request",
+     "c": "err"
+    },
+    {
+     "t": "\t11:16:18.678 [hls @ 000002c0ffdbcc00] Failed to open segment 51 of playlist 0",
+     "c": "err"
+    },
+    {
+     "t": "\t11:16:18.679 [hls @ 000002c0ffdbcc00] Error when loading first segment 'http://10.0.0.98:8096/emby/Videos/214945/hls1/main/0.ts?PlaySessionId='",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 11:16:18.693 Info DynamicHlsService-0HNP2JA11TC0S:0000001A: http/1.1 Response 500 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 463ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d",
+     "c": "ok"
     }
    ]
   },
@@ -59,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T09:16:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T09:31:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T09:46:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T10:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -80,6 +92,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T10:31:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T10:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T11:01:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T11:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
