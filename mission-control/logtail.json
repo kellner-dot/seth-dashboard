@@ -1,15 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T00:16:43+0000",
+ "generated_iso": "2026-10-05T00:46:43+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": [
-    {
-     "t": "2026-10-04 20:16:34.961 Error MediaProbeManager: Timeout while running Ffprobe -i file:\"T:\\Movies\\Body.Melt.1993.720p.BluRay.x264.AAC-[YTS.MX].mp4\" -t",
-     "c": "err"
-    }
-   ]
+   "lines": []
   },
   {
    "name": "Fleet Pollers",
@@ -39,14 +34,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T19:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T19:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T20:01:32-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-04 != today 2026-10-05; pushing fresh schedule",
      "c": "warn"
     },
@@ -60,6 +47,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T20:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T20:31:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T20:46:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
