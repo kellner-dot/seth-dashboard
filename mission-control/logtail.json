@@ -1,56 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T18:46:40+0000",
+ "generated_iso": "2026-10-05T19:16:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\t13:11:10.911 [http @ 00000235e026b500] HTTP error 400 Bad Request",
+     "t": "2026-10-05 15:12:02.607 Error ImageService-0HNP2JA11TDQJ:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.911 [hls @ 00000235de8acc00] Failed to open segment 46 of playlist 0",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.912 [http @ 00000235e026b500] HTTP error 400 Bad Request",
+     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.912 [hls @ 00000235de8acc00] Failed to open segment 47 of playlist 0",
+     "t": "2026-10-05 15:12:13.271 Error ImageService-0HNP2JA11TDQK:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.912 [http @ 00000235e026b500] HTTP error 400 Bad Request",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.912 [hls @ 00000235de8acc00] Failed to open segment 48 of playlist 0",
+     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.925 [http @ 00000235e026b500] HTTP error 400 Bad Request",
+     "t": "2026-10-05 15:12:23.902 Error ImageService-0HNP2JA11TDQL:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.925 [hls @ 00000235de8acc00] Failed to open segment 49 of playlist 0",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\t13:11:10.926 [hls @ 00000235de8acc00] Error when loading first segment 'http://10.0.0.98:8096/emby/Videos/216009/hls1/main/0.ts?PlaySessionId='",
+     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
      "c": "err"
     },
     {
-     "t": "2026-10-05 13:11:10.941 Info DynamicHlsService-0HNP2JA11TCNC:0000001E: http/1.1 Response 500 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 629ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-05 13:48:58.535 Warn UserService-0HNP2JA11TDJ7:00000001: AUTH-ERROR: 100.123.184.31 - Access token is invalid or expired.",
+     "t": "2026-10-05 15:12:37.220 Error ImageService-0HNP2JA11TDQO:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "2026-10-05 13:48:58.535 Error UserService-0HNP2JA11TDJ7:00000001: Access token is invalid or expired.",
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.FormatException: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding",
      "c": "err"
     }
    ]
@@ -83,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T13:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T13:46:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T14:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T14:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T14:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T14:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:01:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:16:34-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T15:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
