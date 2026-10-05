@@ -1,10 +1,59 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T00:46:43+0000",
+ "generated_iso": "2026-10-05T01:16:36+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "2026-10-04 21:16:06.419 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error running ffprobe: -i file:\"T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:16:07.424 Error MediaSourceManager: Error probing live tv stream",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:16:17.804 Warn DynamicHlsService-0HNP0T5I41C1D:0000003B: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-04 21:16:17.805 Info DynamicHlsService-0HNP0T5I41C1D:0000003B: ProcessRun 'StreamTranscode 08ec88' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:16:27.806 Warn DynamicHlsService-0HNP0T5I41C1C:00000015: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-04 21:16:27.807 Info DynamicHlsService-0HNP0T5I41C1C:00000015: ProcessRun 'StreamTranscode 188f73' Process exited with code -1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-04 21:16:37.835 Warn DynamicHlsService-0HNP0T5I41C1H:00000037: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
+     "c": "warn"
+    },
+    {
+     "t": "2026-10-04 21:16:37.835 Info DynamicHlsService-0HNP0T5I41C1H:00000037: ProcessRun 'StreamTranscode 05ae1e' Process exited with code -1 - Failed",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T20:01:32-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-04 != today 2026-10-05; pushing fresh schedule",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T20:01:52-04:00 [relay-supervisor] WARN: fresh schedule pushed to relay",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T20:01:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-04",
      "c": "ok"
     },
@@ -55,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T20:46:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T21:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T21:16:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
