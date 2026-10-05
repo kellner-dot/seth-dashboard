@@ -1,56 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T03:16:37+0000",
+ "generated_iso": "2026-10-05T03:46:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsing.",
+     "t": "2026-10-04 23:43:20.112 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
      "c": "err"
     },
     {
-     "t": "\t ---> System.TimeoutException: A task was canceled.",
+     "t": "2026-10-04 23:43:36.165 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
      "c": "err"
     },
     {
-     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.",
+     "t": "2026-10-04 23:43:36.177 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "2026-10-04 23:43:36.186 Error UserLibraryService-0HNP0T5I41CO9:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
+     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Resource not found. Type: Library",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "2026-10-04 23:43:36.186 Error UserLibraryService-0HNP0T5I41COA:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsin",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\tTargetSite: Void HandleFailure(System.Exception, Boolean, System.Net.Http.HttpResponseMessage, System.Threading.CancellationTokenSource, System.Threa",
+     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Resource not found. Type: Library",
      "c": "err"
     },
     {
-     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
+     "t": "2026-10-04 23:43:36.186 Info DynamicHlsService-0HNP0T5I41CO1:00000001: http/1.1 Response completed after client disconnected to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-04 23:43:36.413 Info DynamicHlsService-0HNP0T5I41CO1:00000001: ProcessRun 'StreamTranscode 815a5a' Process exited with code 69 - Failed",
      "c": "err"
     },
     {
-     "t": "\tInnerException: System.TimeoutException: A task was canceled.",
-     "c": "err"
-    },
-    {
-     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: A task was canceled.",
+     "t": "2026-10-04 23:43:36.680 Error EncodingManager: Unable to delete temp folder C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\transcoding-temp\\4A",
      "c": "err"
     }
    ]
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Secret Service running (fixed)",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -83,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-04T22:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T22:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-04T22:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-04T22:46:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -104,6 +92,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-04T23:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T23:31:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T23:46:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-04T23:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
