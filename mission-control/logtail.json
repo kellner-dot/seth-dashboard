@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-05T05:46:37+0000",
+ "generated_iso": "2026-10-05T06:16:38+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-05 01:19:16.803 Warn DynamicHlsService-0HNP2JA11TA63:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-05 01:19:16.803 Info DynamicHlsService-0HNP2JA11TA63:00000001: ProcessRun 'StreamTranscode 65502c' Process exited with code -1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 01:19:26.864 Warn DynamicHlsService-0HNP2JA11TA65:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
     {
      "t": "2026-10-05 01:19:26.865 Info DynamicHlsService-0HNP2JA11TA65:00000001: ProcessRun 'StreamTranscode 17e749' Process exited with code -1 - Failed",
      "c": "err"
@@ -52,6 +40,18 @@
     {
      "t": "2026-10-05 01:20:04.774 Info DynamicHlsService-0HNP2JA11TA6E:00000001: ProcessRun 'StreamTranscode 5e59e1' Process exited with code -1 - Failed",
      "c": "err"
+    },
+    {
+     "t": "2026-10-05 02:11:15.903 Error SessionsService-0HNP2JA11TAAS:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.ResourceNotFoundException: MediaBrowser.Common.Extensions.ResourceNotFoundException: Session bogus not found.",
+     "c": "err"
     }
    ]
   },
@@ -83,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T01:16:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T01:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T01:31:31-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T01:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T01:46:35-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-05T01:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:01:32-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:16:36-04:00 [relay-supervisor] OK: relay healthy (v1.x format, schedule push skipped)",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T02:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date None",
      "c": "ok"
     }
    ]
