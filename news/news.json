@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-05T04:46:37+0000",
- "updated_ts": 1791175597,
+ "updated": "2026-10-05T06:46:44+0000",
+ "updated_ts": 1791182804,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+     "title": "Replacement of petroleum based products with plant-based materials (2025)",
      "summary": "Comments",
-     "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+     "url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,25 +27,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "Nearly 200 People Under Observation After Irkutsk Lab Worker Dies from Plague",
+     "title": "A 40ms Go garbage collector pause caused by swap",
      "summary": "Comments",
-     "url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+     "url": "https://frn.sh/go-gc/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Infidel goes wild",
+     "title": "We ported the original Doom to SQL",
      "summary": "Comments",
-     "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+     "url": "https://cedardb.com/blog/sqldoom/",
      "time": "Sat, 03 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "A browser-native classic Visual Basic VB6 IDE",
+     "title": "Anthropic reported diary entry to police, woman faces felony charge",
      "summary": "Comments",
-     "url": "https://wieslawsoltes.github.io/VB6/",
-     "time": "Sun, 04 Oct 2026",
+     "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+     "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
+     "summary": "Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls",
+     "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
@@ -81,13 +88,6 @@
      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
      "time": "Fri, 02 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Someone got Doom in an SQL database",
-     "summary": "1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.",
-     "url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
-     "time": "Fri, 02 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -95,24 +95,10 @@
    "name": "World",
    "articles": [
     {
-     "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-     "summary": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball.",
-     "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 04 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Watch: What we know about Russian strikes on Kyiv bridges",
-     "summary": "BBC Ukraine correspondent Dan Johnson is near Kyiv's Northern Bridge, which has been hit for the second day in a row.",
-     "url": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 04 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Yemen's government announces all-out war to reclaim land from Houthis",
-     "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
-     "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 04 Oct 2026",
+     "title": "US air force removes all bombers from British military base RAF Fairford",
+     "summary": "No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to \"suspicious vehicles\" near the airbase.",
+     "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -123,17 +109,31 @@
      "source": "BBC World"
     },
     {
-     "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
-     "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
-     "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Watch: How Brazil's dramatic election unfolded",
+     "summary": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
+     "url": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
-     "summary": "Pike's lawyer says doctors are still trying to clear two lethal doses of pentobarbital from her body.",
-     "url": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 04 Oct 2026",
+     "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+     "summary": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
+     "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "France closes up to 500 schools Monday over student protests",
+     "summary": "Lessons will be \"totally or partly suspended\" in some high schools after clashes between riot police and student protesters, France's education minister says.",
+     "url": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "All six passengers presumed dead after plane went missing off US coast",
+     "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
+     "url": "https://www.bbc.co.uk/news/articles/cmze4g8r6nr9o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
