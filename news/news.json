@@ -1,28 +1,21 @@
 {
- "updated": "2026-10-05T12:46:41+0000",
- "updated_ts": 1791204401,
+ "updated": "2026-10-05T14:46:35+0000",
+ "updated_ts": 1791211595,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+     "summary": "Comments",
+     "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
      "summary": "Comments",
      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Web Search API",
-     "summary": "Comments",
-     "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Apple and a Hacker's Future",
-     "summary": "Comments",
-     "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -37,6 +30,13 @@
      "title": "Press Release: Nobel Prize in Physiology or Medicine 2026",
      "summary": "Comments",
      "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Web Search API",
+     "summary": "Comments",
+     "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,6 +95,13 @@
    "name": "World",
    "articles": [
     {
+     "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
+     "summary": "US media reported a new threat led to the bombers being removed on Sunday, following an incident near the base last week.",
+     "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 05 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Spanish PM S\u00e1nchez calls early election after housing protests",
      "summary": "S\u00e1nchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
      "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
@@ -110,35 +117,35 @@
     },
     {
      "title": "Teenager's hand blown off during confrontation between France school protesters and police",
-     "summary": "The prefect of Pas-de-Calais says the teenager's life is \"not in danger\" after the \"very serious\" incident on Monday.",
+     "summary": "The prefect of Pas-de-Calais says the 15-year-old's life is \"not in danger\" after the \"very serious\" incident.",
      "url": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Nobel Prize awarded for showing inner workings of the brain",
+     "title": "Nobel Prize awarded for revealing inner workings of the brain",
      "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
      "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
-     "summary": "US media reported a new threat led to the bombers being removed on Sunday, following an incident near the base last week.",
-     "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
+     "title": "'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa",
+     "summary": "For many locals on this island, the arrest has brought decades of frustration back to the fore.",
+     "url": "https://www.bbc.co.uk/news/articles/cwgkv70gg1j3o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Right-wing Fl\u00e1vio Bolsonaro wins first round of Brazil election",
-     "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
-     "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+     "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+     "summary": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
+     "url": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
      "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
-     "title": "Drones buzz overhead, troops hunker underground in Ukraine's hellish Kill Zone",
-     "summary": "The frontline in the Russia-Ukraine war stretches more than 700 miles and has barely moved in four years. Yet straddling this line is the Kill Zone, dominated by constantly evolving drone technology.",
+     "title": "Drones buzz overhead, troops hunker underground in Ukraine's hellish kill zone",
+     "summary": "The front line in the Russia-Ukraine war stretches more than 700 miles and has barely moved in four years. Yet straddling this line is the kill zone, dominated by constantly evolving drone technology.",
      "url": "https://www.npr.org/2026/10/05/nx-s1-5925803/drones-buzz-overhead-troops-hunker-underground-in-ukraines-hellish-kill-zone",
      "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
@@ -165,16 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
-     "summary": "The Nobel Prize in medicine was awarded Monday to three scientists working on the mechanisms the brain uses to switch on, or off, the activity of individual nerve cells.",
-     "url": "https://www.npr.org/2026/10/05/g-s1-146400/nobel-medicine-prize",
-     "time": "Mon, 05 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Former Prince Andrew files legal action to quash warrants that led to residence searches",
-     "summary": "A judicial spokesperson confirmed that Andrew Mountbatten-Windsor had filed a claim with the High Court in London and a hearing would take place Thursday.",
-     "url": "https://www.npr.org/2026/10/05/g-s1-146396/former-prince-andrew-legal-action",
+     "title": "FlyDubai attacker intended to crash plane into Tel Aviv airport, investigation finds",
+     "summary": "The ongoing investigation has found the attacker intended to crash the plane into Israel's Ben Gurion International Airport, a person familiar with the matter but not authorized to speak publicly told NPR.",
+     "url": "https://www.npr.org/2026/10/05/nx-s1-5990802/midair-attack-flydubai",
      "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     }
@@ -184,7 +184,7 @@
    "name": "Vermont",
    "articles": [
     {
-     "title": "The first to finish: Carter Smith\u2019s Curtis Fund story",
+     "title": "First to finish: Carter Smith\u2019s Curtis Fund story",
      "summary": "Affordability shaped Carter Smith\u2019s college search. A Curtis Fund scholarship made Norwich University possible, breaking a family pattern in which money had cut education short. Now studying accounting, Carter hopes to build his career in Vermont, close to family and the communit",
      "url": "https://vtdigger.org/2026/10/05/the-first-to-finish-carter-smiths-curtis-fund-story/",
      "time": "Mon, 05 Oct 2026",
@@ -238,8 +238,8 @@
      "source": "Pitchfork"
     },
     {
-     "title": "Turnstile and Taylor Swift Shared the SNL Stage Last Night",
-     "summary": "The Baltimore hardcore band were last night\u2019s musical guest, and Swift made a surprise appearance during host Dakota Johnson\u2019s monologue",
+     "title": "Turnstile and Taylor Swift Shared the SNL Stage",
+     "summary": "The Baltimore hardcore band were the musical guest, while Swift made a surprise appearance as Dakota Johnson\u2019s \u201cliteral therapist\u201d",
      "url": "https://pitchfork.com/story/turnstile-and-taylor-swift-both-dropped-by-snl-last-night/",
      "time": "Sun, 04 Oct 2026",
      "source": "Pitchfork"
