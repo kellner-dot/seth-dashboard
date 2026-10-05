@@ -1,10 +1,31 @@
 {
- "updated": "2026-10-05T18:46:36+0000",
- "updated_ts": 1791225996,
+ "updated": "2026-10-05T20:46:38+0000",
+ "updated_ts": 1791233198,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Beam: Reflection's 501B open-weight model",
+     "summary": "Comments",
+     "url": "https://reflection.ai/blog/introducing-beam",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Why Plain Text Is Still One of the Best Technologies We Have",
+     "summary": "Comments",
+     "url": "https://deadparrotbbs.com/why-plain-text-is-still-one-of-the-best-technologies-we-have/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "GitHub Actions Has Problems",
+     "summary": "Comments",
+     "url": "https://www.githubstatus.com/incidents/3q1yb5m7ltvb",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "The future of independence is interdependence",
      "summary": "Comments",
@@ -20,32 +41,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
+     "title": "Competitive Programmer's Handbook (2018) [pdf]",
      "summary": "Comments",
-     "url": "https://www.theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk",
-     "time": "Mon, 05 Oct 2026",
+     "url": "https://cses.fi/book/book.pdf",
+     "time": "Sat, 03 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Making a GTK application in Haskell, part 1",
-     "summary": "Comments",
-     "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+     "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+     "summary": "The tool can free up over 12GB of storage.",
+     "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
      "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
-     "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-     "summary": "Comments",
-     "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+     "title": "Controlling the brain with light earns a physiology Nobel",
+     "summary": "The entire field of optogenetics traces back to light-seeking algae.",
+     "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
      "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
-     "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
-     "summary": "Comments",
-     "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+     "title": "Russian drones strike Ukraine\u2019s data centers by exploiting air defense gaps",
+     "summary": "Russian attacks on Internet, phone services threaten Ukraine\u2019s wartime economy.",
+     "url": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
      "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "F1 in Bahrain... in Malaysia: The race needed a software update to start",
@@ -67,27 +88,6 @@
      "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
      "time": "Mon, 05 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Explaining Hall-effect, TMR, and other new types of \"mechanical\" switches",
-     "summary": "Ars Technica's guide to new keyboard sensing technologies.",
-     "url": "https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
-     "summary": "Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls.",
-     "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Lions and cheetahs and chimps, oh my: A spotlight on Africa's diverse wildlife",
-     "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home.",
-     "url": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
-     "time": "Sun, 04 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -95,9 +95,9 @@
    "name": "World",
    "articles": [
     {
-     "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
-     "summary": "US media reported a new threat led to the bombers being removed on Sunday, following an incident near the base last week.",
-     "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
+     "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+     "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
+     "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Spanish PM S\u00e1nchez calls early election after housing protests",
-     "summary": "S\u00e1nchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
-     "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+     "title": "Spain PM pins hopes on housing crisis to help win snap election",
+     "summary": "Calling of a snap election was not a knee-jerk reaction from Pedro S\u00e1nchez but a carefully thought-out manoeuvre, Guy Hedgecoe reports from Madrid.",
+     "url": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Nobel Prize awarded for revealing inner workings of the brain",
-     "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
-     "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+     "title": "US 'watching closely' after plague researcher dies in Russia, Rubio says",
+     "summary": "The US says it is monitoring the case of a lab technician who died at a plague research centre in Siberia.",
+     "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
@@ -231,7 +231,7 @@
    "name": "Music",
    "articles": [
     {
-     "title": "Slayyyter Reveals Wor$t Man in America",
+     "title": "Slayyyter Announces Wor$t Man in America",
      "summary": "The companion to her 2026 standout Wor$t Girl in America",
      "url": "https://pitchfork.com/story/slayyyter-reveals-worst-man-in-america-album/",
      "time": "Mon, 05 Oct 2026",
