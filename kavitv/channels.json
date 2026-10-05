@@ -1,33 +1,33 @@
 {
- "generated_at": "2026-10-05T00:10:08.732809-04:00",
+ "generated_at": "2026-10-05T00:49:31.563274-04:00",
  "date": "2026-10-05",
  "channels": [
   {
    "id": "horror",
    "name": "KaviTV Horror",
-   "tagline": "24/7 horror \u2014 slashers, giallo, creature features, dread.",
-   "pool": "Genres=Horror across the full movie library.",
-   "film_count": 123,
-   "total_runtime_h": 171.5,
-   "program_count": 19
+   "tagline": "24/7 horror — slashers, giallo, creature features, dread.",
+   "pool": "14 verified fast-local films — experimental horror and arthouse dread from UbuWeb.",
+   "film_count": 14,
+   "total_runtime_h": 19.8,
+   "program_count": 49
   },
   {
    "id": "experimental",
    "name": "KaviTV Experimental",
-   "tagline": "Arthouse, avant-garde and beautiful weirdos \u2014 Lynch to Brakhage.",
-   "pool": "12 arthouse directors + Schizopolis (Seth's favorite, pinned).",
-   "film_count": 57,
-   "total_runtime_h": 74.6,
-   "program_count": 18
+   "tagline": "Arthouse, avant-garde and beautiful weirdos — Lynch to Brakhage.",
+   "pool": "9 verified fast-local films — Matsumoto, Brakhage, Frampton, Kelley and more from UbuWeb.",
+   "film_count": 9,
+   "total_runtime_h": 12.3,
+   "program_count": 51
   },
   {
    "id": "independent",
    "name": "KaviTV Independent",
-   "tagline": "Indie distributors and indie auteurs \u2014 A24 to Jarmusch.",
-   "pool": "15 indie studios + 7 indie-auteur directors, deduped.",
-   "film_count": 43,
-   "total_runtime_h": 61.8,
-   "program_count": 19
+   "tagline": "Indie distributors and indie auteurs — A24 to Jarmusch.",
+   "pool": "5 verified films — The Monkey (local copy) plus UbuWeb arthouse, all fast local.",
+   "film_count": 5,
+   "total_runtime_h": 6.3,
+   "program_count": 57
   }
  ]
 }

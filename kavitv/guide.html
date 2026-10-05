@@ -57,14 +57,12 @@
 
   /* ============ guide list ============ */
   .guide{margin:14px 64px 0; display:flex; flex-direction:column; gap:26px;}
-  .ch{position:relative; display:grid; grid-template-columns:150px 1fr 1.5fr 1.1fr; gap:34px;
+  .ch{position:relative; display:grid; grid-template-columns:1fr 1.5fr 1.1fr; gap:34px;
     align-items:stretch; padding:30px 36px; border-radius:26px;
     background:linear-gradient(180deg, rgba(10,22,34,.92), rgba(7,16,25,.92));
     border:2px solid var(--line);
     transition:border-color .15s ease, box-shadow .15s ease, transform .15s ease;}
-  .ch .num{align-self:center; justify-self:center; width:112px; height:112px; border-radius:24px;
-    display:grid; place-items:center; font-size:52px; font-weight:800;
-    background:rgba(45,212,191,.08); border:2px solid var(--line); color:var(--teal-bright);}
+  .ch .num{display:none;}
   .ch.focused{border-color:var(--focus); transform:scale(1.012);
     box-shadow:0 0 0 3px rgba(94,234,212,.35), 0 0 44px rgba(45,212,191,.35);}
   .ch.focused .num{background:var(--teal); color:#04211d; border-color:var(--teal-bright);
@@ -389,7 +387,7 @@
     var nowMs = Date.now();
     var p = ch.fullNow || ch.now;   // prefer rich program object
     var pct = p ? progress(p, nowMs).toFixed(1) : 0;
-    var html = '<div class="ov-chnum">CHANNEL ' + (focusIdx + 1) + '</div>' +
+    var html = '<div class="ov-chnum">KAVITV</div>' +
       '<div class="ov-chname">' + esc(ch.name) + '</div>' +
       '<div class="ov-kicker">Now Playing</div>' +
       (p ?
