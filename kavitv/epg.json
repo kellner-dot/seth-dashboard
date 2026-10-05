@@ -1,42 +1,117 @@
 {
- "generated_at": "2026-10-04T00:10:04.878130-04:00",
- "date": "2026-10-04",
+ "generated_at": "2026-10-05T00:10:08.732809-04:00",
+ "date": "2026-10-05",
  "channels": [
   {
    "id": "horror",
    "name": "KaviTV Horror",
    "now": {
-    "title": "Phantom of the Paradise",
-    "year": 1974,
-    "start": "2026-10-04T00:00:00-04:00",
-    "end": "2026-10-04T01:30:00-04:00"
+    "title": "Love Reinvented",
+    "year": 1979,
+    "start": "2026-10-05T00:00:00-04:00",
+    "end": "2026-10-05T01:18:00-04:00"
    },
    "next": {
-    "title": "The Invisible Man",
-    "year": 2020,
-    "start": "2026-10-04T01:30:00-04:00",
-    "end": "2026-10-04T03:00:00-04:00"
+    "title": "Scheiss-Kerl",
+    "year": 1969,
+    "start": "2026-10-05T01:18:00-04:00",
+    "end": "2026-10-05T02:48:00-04:00"
    },
    "programs": [
     {
-     "start": "2026-10-04T00:00:00-04:00",
-     "end": "2026-10-04T01:30:00-04:00",
-     "item_id": "217408",
-     "title": "Phantom of the Paradise",
-     "year": 1974,
-     "overview": "Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise.",
-     "runtime_min": 90,
+     "start": "2026-10-05T00:00:00-04:00",
+     "end": "2026-10-05T01:18:00-04:00",
+     "item_id": "216365",
+     "title": "Love Reinvented",
+     "year": 1979,
+     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists",
+     "runtime_min": 78,
      "genres": [
-      "Comedy",
-      "Drama",
-      "Horror"
+      "Horror",
+      "Drama"
      ],
-     "stream_path": "/emby/Videos/217408/master.m3u8",
-     "image_path": "/emby/Items/217408/Images/Primary"
+     "stream_path": "/emby/Videos/216365/master.m3u8",
+     "image_path": "/emby/Items/216365/Images/Primary"
     },
     {
-     "start": "2026-10-04T01:30:00-04:00",
-     "end": "2026-10-04T03:00:00-04:00",
+     "start": "2026-10-05T01:18:00-04:00",
+     "end": "2026-10-05T02:48:00-04:00",
+     "item_id": "216569",
+     "title": "Scheiss-Kerl",
+     "year": 1969,
+     "overview": "Another try by the Viennese actionists around Otto M\u00fchl, trying to shock the middle-class bourgeoisie with all sorts of explicit sexual and excretory processes.",
+     "runtime_min": 90,
+     "genres": [
+      "Horror"
+     ],
+     "stream_path": "/emby/Videos/216569/master.m3u8",
+     "image_path": "/emby/Items/216569/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T02:48:00-04:00",
+     "end": "2026-10-05T04:47:00-04:00",
+     "item_id": "373106",
+     "title": "The Mothman Prophecies",
+     "year": 2002,
+     "overview": "Reporter John Klein is plunged into a world of impossible terror when fate draws him to the sleepy West Virginia town of Point Pleasant, whose residents are being visited by a great winged shape that sows hideous nightma",
+     "runtime_min": 119,
+     "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+     ],
+     "stream_path": "/emby/Videos/373106/master.m3u8",
+     "image_path": "/emby/Items/373106/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T04:47:00-04:00",
+     "end": "2026-10-05T06:17:00-04:00",
+     "item_id": "214872",
+     "title": "Spook House",
+     "year": 2003,
+     "overview": "Filmed in the white working-class suburbs of Detroit, Spook House reveals a community reveling in the macabre. Front lawns are transformed into cemeteries, kitchens become mausoleums and dismembered \u2018bodies\u2019 are prepared",
+     "runtime_min": 90,
+     "genres": [
+      "Horror",
+      "Documentary"
+     ],
+     "stream_path": "/emby/Videos/214872/master.m3u8",
+     "image_path": "/emby/Items/214872/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T06:17:00-04:00",
+     "end": "2026-10-05T07:47:00-04:00",
+     "item_id": "217129",
+     "title": "Plaque",
+     "year": 2007,
+     "overview": "Short about music and construction work.",
+     "runtime_min": 90,
+     "genres": [
+      "Horror",
+      "Thriller"
+     ],
+     "stream_path": "/emby/Videos/217129/master.m3u8",
+     "image_path": "/emby/Items/217129/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T07:47:00-04:00",
+     "end": "2026-10-05T08:06:00-04:00",
+     "item_id": "36545",
+     "title": "Cursed",
+     "year": 2005,
+     "overview": "From the creators of SCREAM, comes an even more frightening and undeniably more fun cut of CURSED, in which an LA werewolf changes the lives of three young adults who, after being mauled by the beast, must kill the one w",
+     "runtime_min": 19,
+     "genres": [
+      "Horror",
+      "Werewolves",
+      "Movie"
+     ],
+     "stream_path": "/emby/Videos/36545/master.m3u8",
+     "image_path": "/emby/Items/36545/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T08:06:00-04:00",
+     "end": "2026-10-05T09:36:00-04:00",
      "item_id": "373070",
      "title": "The Invisible Man",
      "year": 2020,
@@ -51,134 +126,27 @@
      "image_path": "/emby/Items/373070/Images/Primary"
     },
     {
-     "start": "2026-10-04T03:00:00-04:00",
-     "end": "2026-10-04T04:30:00-04:00",
-     "item_id": "372833",
-     "title": "Deep Water",
-     "year": 2026,
-     "overview": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences ",
-     "runtime_min": 90,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Adventure"
-     ],
-     "stream_path": "/emby/Videos/372833/master.m3u8",
-     "image_path": "/emby/Items/372833/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T04:30:00-04:00",
-     "end": "2026-10-04T06:00:00-04:00",
-     "item_id": "372828",
-     "title": "Body Melt",
-     "year": 1994,
-     "overview": "Residents of peaceful Pebbles Court, Homesville, are being used unknowingly as test experiments for a new 'Body Drug' that causes rapid body decomposition (melting skin etc.) and painful death.",
-     "runtime_min": 90,
-     "genres": [
-      "Comedy",
-      "Horror",
-      "Science Fiction"
-     ],
-     "stream_path": "/emby/Videos/372828/master.m3u8",
-     "image_path": "/emby/Items/372828/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T06:00:00-04:00",
-     "end": "2026-10-04T07:31:00-04:00",
-     "item_id": "373097",
-     "title": "Neon Maniacs",
-     "year": 1986,
-     "overview": "A group of teenagers in San Francisco discover a nest of homicidal monsters living in a tower of the Golden Gate Bridge, but when they try to tell authorities, no one believes them.",
-     "runtime_min": 91,
-     "genres": [
-      "Horror"
-     ],
-     "stream_path": "/emby/Videos/373097/master.m3u8",
-     "image_path": "/emby/Items/373097/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T07:31:00-04:00",
-     "end": "2026-10-04T09:01:00-04:00",
-     "item_id": "215013",
-     "title": "Office Killer",
-     "year": 1997,
-     "overview": "When Dorine Douglas' job as proofreader for Constant Consumer magazine is turned into an at-home position during a downsizing, she doesn't know how to cope. But after accidentally killing one of her co-workers, she disco",
-     "runtime_min": 90,
-     "genres": [
-      "Horror",
-      "Thriller",
-      "Comedy"
-     ],
-     "stream_path": "/emby/Videos/215013/master.m3u8",
-     "image_path": "/emby/Items/215013/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T09:01:00-04:00",
-     "end": "2026-10-04T10:36:00-04:00",
-     "item_id": "372888",
-     "title": "We Bury the Dead",
-     "year": 2026,
-     "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
-     "runtime_min": 95,
-     "genres": [
-      "Horror",
-      "Thriller"
-     ],
-     "stream_path": "/emby/Videos/372888/master.m3u8",
-     "image_path": "/emby/Items/372888/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T10:36:00-04:00",
-     "end": "2026-10-04T11:14:00-04:00",
-     "item_id": "373025",
-     "title": "The Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "overview": "Lord Shiva wakes. A convocation of magicians in the guise of figures from mythology; a masquerade party at which Pan is the prize. The wine of Hecate is poured: Pan's cup is poisoned by Shiva. Kali blesses the assembly a",
-     "runtime_min": 38,
-     "genres": [
-      "Fantasy",
-      "Horror"
-     ],
-     "stream_path": "/emby/Videos/373025/master.m3u8",
-     "image_path": "/emby/Items/373025/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T11:14:00-04:00",
-     "end": "2026-10-04T12:44:00-04:00",
-     "item_id": "373056",
-     "title": "Street Trash",
-     "year": 2025,
-     "overview": "A group of homeless misfits must fight for survival when they discover a plot to exterminate every homeless person in the city.",
-     "runtime_min": 90,
-     "genres": [
-      "Horror",
-      "Comedy"
-     ],
-     "stream_path": "/emby/Videos/373056/master.m3u8",
-     "image_path": "/emby/Items/373056/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T12:44:00-04:00",
-     "end": "2026-10-04T14:14:00-04:00",
-     "item_id": "216571",
-     "title": "Stille Nacht",
+     "start": "2026-10-05T09:36:00-04:00",
+     "end": "2026-10-05T11:06:00-04:00",
+     "item_id": "216560",
+     "title": "Vomit-Action",
      "year": 1969,
-     "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration.",
+     "overview": "A man is drinking wine, pukes it up, and eats it. He repeats it for a while, until he starts to rub the vomit all over himself.",
      "runtime_min": 90,
      "genres": [
       "Horror"
      ],
-     "stream_path": "/emby/Videos/216571/master.m3u8",
-     "image_path": "/emby/Items/216571/Images/Primary"
+     "stream_path": "/emby/Videos/216560/master.m3u8",
+     "image_path": "/emby/Items/216560/Images/Primary"
     },
     {
-     "start": "2026-10-04T14:14:00-04:00",
-     "end": "2026-10-04T15:44:00-04:00",
+     "start": "2026-10-05T11:06:00-04:00",
+     "end": "2026-10-05T11:26:00-04:00",
      "item_id": "216430",
      "title": "Blind Alley",
      "year": 2011,
      "overview": "A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley.",
-     "runtime_min": 90,
+     "runtime_min": 20,
      "genres": [
       "Action",
       "Horror",
@@ -188,39 +156,146 @@
      "image_path": "/emby/Items/216430/Images/Primary"
     },
     {
-     "start": "2026-10-04T15:44:00-04:00",
-     "end": "2026-10-04T17:14:00-04:00",
-     "item_id": "216043",
-     "title": "10/65: Self-Mutilation",
-     "year": 1965,
-     "overview": "Kren\u2019s 10/65 Selfmutilation is developed from a Gunter Brus \u201caction\u201d. What the film emphasizes is the surrealistic drama of symbolic self-destruction that Kren drew out of Brus\u2019 action, pacing out each gesture so that on",
+     "start": "2026-10-05T11:26:00-04:00",
+     "end": "2026-10-05T12:56:00-04:00",
+     "item_id": "217333",
+     "title": "Black Hearts Bleed Red",
+     "year": 1992,
+     "overview": "A stark adaptation of Flannery O\u2019Connor\u2019s short story A Good Man Is Hard To Find.",
      "runtime_min": 90,
      "genres": [
-      "Drama",
       "Horror"
      ],
-     "stream_path": "/emby/Videos/216043/master.m3u8",
-     "image_path": "/emby/Items/216043/Images/Primary"
+     "stream_path": "/emby/Videos/217333/master.m3u8",
+     "image_path": "/emby/Items/217333/Images/Primary"
     },
     {
-     "start": "2026-10-04T17:14:00-04:00",
-     "end": "2026-10-04T18:44:00-04:00",
-     "item_id": "216996",
-     "title": "Twin Peaks: Fire Walk with Me",
-     "year": 1992,
-     "overview": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and",
+     "start": "2026-10-05T12:56:00-04:00",
+     "end": "2026-10-05T12:59:00-04:00",
+     "item_id": "372835",
+     "title": "Doodlebug",
+     "year": 1997,
+     "overview": "There's something in his apartment. A man looking for an insect-like thing devolves into a bout of insanity as his subconscious mind begins to strangle his waking one.",
+     "runtime_min": 3,
+     "genres": [
+      "Horror"
+     ],
+     "stream_path": "/emby/Videos/372835/master.m3u8",
+     "image_path": "/emby/Items/372835/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T12:59:00-04:00",
+     "end": "2026-10-05T13:31:00-04:00",
+     "item_id": "217211",
+     "title": "The Act of Seeing with One's Own Eyes",
+     "year": 1971,
+     "overview": "An experimental film by Stan Brakhage. Stan Brakhage (1933-2003) was one of the most prolific and influential American experimental filmmakers, creating nearly 400 films over five decades. Working in 8mm and 16mm, he scr",
+     "runtime_min": 32,
+     "genres": [
+      "Documentary",
+      "Short",
+      "Horror"
+     ],
+     "stream_path": "/emby/Videos/217211/master.m3u8",
+     "image_path": "/emby/Items/217211/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T13:31:00-04:00",
+     "end": "2026-10-05T15:01:00-04:00",
+     "item_id": "373001",
+     "title": "Black Moon",
+     "year": 1975,
+     "overview": "There is a global gender war between men and women. A teenage girl tries to escape this reality and arrives at a hidden place where a strange unicorn lives with a family: sister, brother, many children and an old, bedrid",
+     "runtime_min": 90,
+     "genres": [
+      "Fantasy",
+      "Horror",
+      "Science Fiction"
+     ],
+     "stream_path": "/emby/Videos/373001/master.m3u8",
+     "image_path": "/emby/Items/373001/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T15:01:00-04:00",
+     "end": "2026-10-05T16:31:00-04:00",
+     "item_id": "215769",
+     "title": "El llanto de Helena",
+     "year": 2009,
+     "overview": "Isabela carries a tr\u00e1gca tormented life from her daughter's death in a car crash is now under investigation by journalists Sonia and Juan Ram\u00f3n, as rumored strange appearances of a supernatural being at the scene of the ",
+     "runtime_min": 90,
+     "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+     ],
+     "stream_path": "/emby/Videos/215769/master.m3u8",
+     "image_path": "/emby/Items/215769/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T16:31:00-04:00",
+     "end": "2026-10-05T18:01:00-04:00",
+     "item_id": "216913",
+     "title": "The Tenant",
+     "year": 2010,
+     "overview": "The Tenant follows the trajectory of a soap bubble as it floats through the empty rooms of a house under renovation. The bubble never bursts as it drifts from one room to the next in a permanent state of suspension.",
+     "runtime_min": 90,
+     "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+     ],
+     "stream_path": "/emby/Videos/216913/master.m3u8",
+     "image_path": "/emby/Items/216913/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T18:01:00-04:00",
+     "end": "2026-10-05T19:42:00-04:00",
+     "item_id": "372868",
+     "title": "The 'Burbs",
+     "year": 1989,
+     "overview": "When secretive new neighbors move in next door, suburbanite Ray Peterson and his friends let their paranoia get the best of them as they start to suspect the newcomers of evildoings and commence an investigation. But it'",
+     "runtime_min": 101,
+     "genres": [
+      "Comedy",
+      "Horror",
+      "Thriller"
+     ],
+     "stream_path": "/emby/Videos/372868/master.m3u8",
+     "image_path": "/emby/Items/372868/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T19:42:00-04:00",
+     "end": "2026-10-05T21:12:00-04:00",
+     "item_id": "217521",
+     "title": "Saccade",
+     "year": 2004,
+     "overview": "The shoreline at Salthill, Galway on a summer's day, followed by the sounds and lights of a fairground ride at night to music by Arovane. V.D.",
+     "runtime_min": 90,
+     "genres": [
+      "Horror"
+     ],
+     "stream_path": "/emby/Videos/217521/master.m3u8",
+     "image_path": "/emby/Items/217521/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T21:12:00-04:00",
+     "end": "2026-10-05T22:42:00-04:00",
+     "item_id": "217386",
+     "title": "Evil Judgment",
+     "year": 1984,
+     "overview": "A girl starts her own investigation after the police fail to catch a local serial killer.",
      "runtime_min": 90,
      "genres": [
       "Drama",
       "Mystery",
       "Horror"
      ],
-     "stream_path": "/emby/Videos/216996/master.m3u8",
-     "image_path": "/emby/Items/216996/Images/Primary"
+     "stream_path": "/emby/Videos/217386/master.m3u8",
+     "image_path": "/emby/Items/217386/Images/Primary"
     },
     {
-     "start": "2026-10-04T18:44:00-04:00",
-     "end": "2026-10-04T20:34:00-04:00",
+     "start": "2026-10-05T22:42:00-04:00",
+     "end": "2026-10-06T00:32:00-04:00",
      "item_id": "372823",
      "title": "Backrooms",
      "year": 2026,
@@ -233,52 +308,6 @@
      ],
      "stream_path": "/emby/Videos/372823/master.m3u8",
      "image_path": "/emby/Items/372823/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T20:34:00-04:00",
-     "end": "2026-10-04T22:04:00-04:00",
-     "item_id": "216365",
-     "title": "Love Reinvented",
-     "year": 1979,
-     "overview": "For a long time now, we have been seeing outrageous attempts at tackling the 'woman problem' (and the 'man problem') by pretentious and old-fashioned 'professors' or 'revolu-tionaries,' related to the Nazis or Stalinists",
-     "runtime_min": 90,
-     "genres": [
-      "Horror",
-      "Drama"
-     ],
-     "stream_path": "/emby/Videos/216365/master.m3u8",
-     "image_path": "/emby/Items/216365/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T22:04:00-04:00",
-     "end": "2026-10-04T23:34:00-04:00",
-     "item_id": "372822",
-     "title": "Antlers",
-     "year": 2021,
-     "overview": "A small-town Oregon teacher and her brother, the local sheriff, discover a young student is harbouring a dangerous secret that could have frightening consequences.",
-     "runtime_min": 90,
-     "genres": [
-      "Drama",
-      "Horror",
-      "Mystery"
-     ],
-     "stream_path": "/emby/Videos/372822/master.m3u8",
-     "image_path": "/emby/Items/372822/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T23:34:00-04:00",
-     "end": "2026-10-05T01:04:00-04:00",
-     "item_id": "216661",
-     "title": "Nocturne",
-     "year": 1998,
-     "overview": "Nocturne is a psychological horror film built on the conflicts of a woman tortured by the ambiguity between reality and illusion, dream and desire. The woman has perhaps murdered her lover and is living in an unstable wo",
-     "runtime_min": 90,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "stream_path": "/emby/Videos/216661/master.m3u8",
-     "image_path": "/emby/Items/216661/Images/Primary"
     }
    ]
   },
@@ -286,103 +315,21 @@
    "id": "experimental",
    "name": "KaviTV Experimental",
    "now": {
-    "title": "Inauguration of the Pleasure Dome",
+    "title": "The Inauguration of the Pleasure Dome",
     "year": 1954,
-    "start": "2026-10-04T00:00:00-04:00",
-    "end": "2026-10-04T01:30:00-04:00"
+    "start": "2026-10-05T00:00:00-04:00",
+    "end": "2026-10-05T00:38:00-04:00"
    },
    "next": {
-    "title": "Letter to Jane: An Investigation About a Still",
-    "year": 1974,
-    "start": "2026-10-04T01:30:00-04:00",
-    "end": "2026-10-04T03:00:00-04:00"
+    "title": "Naked Lunch",
+    "year": 1991,
+    "start": "2026-10-05T00:38:00-04:00",
+    "end": "2026-10-05T02:08:00-04:00"
    },
    "programs": [
     {
-     "start": "2026-10-04T00:00:00-04:00",
-     "end": "2026-10-04T01:30:00-04:00",
-     "item_id": "248561",
-     "title": "Inauguration of the Pleasure Dome",
-     "year": 1954,
-     "overview": "An avant-garde work by Kenneth Anger (1954), preserved in the UbuWeb archive of experimental film, video, and performance art.",
-     "runtime_min": 90,
-     "genres": [],
-     "stream_path": "/emby/Videos/248561/master.m3u8",
-     "image_path": "/emby/Items/248561/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T01:30:00-04:00",
-     "end": "2026-10-04T03:00:00-04:00",
-     "item_id": "215188",
-     "title": "Letter to Jane: An Investigation About a Still",
-     "year": 1974,
-     "overview": "The film's subject is a photograph of Jane Fonda visiting Hanoi during the Vietnam War. It asks what the position of the intellectual should be in the class struggle and points out the irony of Jane Fonda's participation",
-     "runtime_min": 90,
-     "genres": [
-      "Documentary"
-     ],
-     "stream_path": "/emby/Videos/215188/master.m3u8",
-     "image_path": "/emby/Items/215188/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T03:00:00-04:00",
-     "end": "2026-10-04T04:43:00-04:00",
-     "item_id": "372861",
-     "title": "Scanners",
-     "year": 1981,
-     "overview": "A scientist trains a man with an advanced telepathic ability called 'scanning' to stop a dangerous Scanner with extraordinary psychic powers from waging war against non-Scanners.",
-     "runtime_min": 103,
-     "genres": [
-      "Science Fiction",
-      "Horror"
-     ],
-     "stream_path": "/emby/Videos/372861/master.m3u8",
-     "image_path": "/emby/Items/372861/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T04:43:00-04:00",
-     "end": "2026-10-04T06:13:00-04:00",
-     "item_id": "373009",
-     "title": "The Elephant Man",
-     "year": 1980,
-     "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous fa\u00e7ade, there is revealed a person of great intelligence and sensitivity.",
-     "runtime_min": 90,
-     "genres": [
-      "Drama",
-      "History"
-     ],
-     "stream_path": "/emby/Videos/373009/master.m3u8",
-     "image_path": "/emby/Items/373009/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T06:13:00-04:00",
-     "end": "2026-10-04T07:43:00-04:00",
-     "item_id": "215995",
-     "title": "Eaux d'Artifice",
-     "year": 1953,
-     "overview": "A woman dressed elegantly walks purposely through the water gardens at the Villa d'Este in Tivoli, as the music of Vivaldi's Winter movement of The Four Seasons plays. Heavy red filters give a blue cast to the light; wat",
-     "runtime_min": 90,
-     "genres": [
-      "Drama"
-     ],
-     "stream_path": "/emby/Videos/215995/master.m3u8",
-     "image_path": "/emby/Items/215995/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T07:43:00-04:00",
-     "end": "2026-10-04T09:13:00-04:00",
-     "item_id": "215739",
-     "title": "Schick Commerical",
-     "year": 1971,
-     "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h",
-     "runtime_min": 90,
-     "genres": [],
-     "stream_path": "/emby/Videos/215739/master.m3u8",
-     "image_path": "/emby/Items/215739/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T09:13:00-04:00",
-     "end": "2026-10-04T09:51:00-04:00",
+     "start": "2026-10-05T00:00:00-04:00",
+     "end": "2026-10-05T00:38:00-04:00",
      "item_id": "373025",
      "title": "The Inauguration of the Pleasure Dome",
      "year": 1954,
@@ -396,8 +343,111 @@
      "image_path": "/emby/Items/373025/Images/Primary"
     },
     {
-     "start": "2026-10-04T09:51:00-04:00",
-     "end": "2026-10-04T11:21:00-04:00",
+     "start": "2026-10-05T00:38:00-04:00",
+     "end": "2026-10-05T02:08:00-04:00",
+     "item_id": "373034",
+     "title": "Naked Lunch",
+     "year": 1991,
+     "overview": "Blank-faced bug killer Bill Lee and his dead-eyed wife, Joan, like to get high on Bill's pest poisons while lounging with Beat poet pals. After meeting the devilish Dr. Benway, Bill gets a drug made from a centipede. Upo",
+     "runtime_min": 90,
+     "genres": [
+      "Crime",
+      "Drama"
+     ],
+     "stream_path": "/emby/Videos/373034/master.m3u8",
+     "image_path": "/emby/Items/373034/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T02:08:00-04:00",
+     "end": "2026-10-05T03:38:00-04:00",
+     "item_id": "217210",
+     "title": "The Text of Light",
+     "year": 1974,
+     "overview": "Time-lapse photography of books, paintings, reflections, and light falling on textures, shot entirely through a glass ashtray. \"'All that is is light.' \u2013 Dun Scotus Erigena. 'To see the world in a grain of sand.' \u2013 Willi",
+     "runtime_min": 90,
+     "genres": [
+      "Documentary"
+     ],
+     "stream_path": "/emby/Videos/217210/master.m3u8",
+     "image_path": "/emby/Items/217210/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T03:38:00-04:00",
+     "end": "2026-10-05T05:07:00-04:00",
+     "item_id": "372887",
+     "title": "Videodrome",
+     "year": 1983,
+     "overview": "As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon \"Videodrome,\" a TV show dedicated to gratuitous torture and punishment, Max sees a potential hit",
+     "runtime_min": 89,
+     "genres": [
+      "Horror",
+      "Science Fiction",
+      "Mystery"
+     ],
+     "stream_path": "/emby/Videos/372887/master.m3u8",
+     "image_path": "/emby/Items/372887/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T05:07:00-04:00",
+     "end": "2026-10-05T06:37:00-04:00",
+     "item_id": "215998",
+     "title": "Kustom Kar Kommandos",
+     "year": 1965,
+     "overview": "A man in tight jeans buffs his car to the strains of The Paris Sisters' \"Dream Lover\".",
+     "runtime_min": 90,
+     "genres": [
+      "Music"
+     ],
+     "stream_path": "/emby/Videos/215998/master.m3u8",
+     "image_path": "/emby/Items/215998/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T06:37:00-04:00",
+     "end": "2026-10-05T08:07:00-04:00",
+     "item_id": "373067",
+     "title": "The Holy Mountain",
+     "year": 1973,
+     "overview": "The Alchemist assembles together a group of people from all walks of life to represent the planets in the solar system. The occult adept's intention is to put his recruits through strange mystical rites and divest them o",
+     "runtime_min": 90,
+     "genres": [
+      "Drama"
+     ],
+     "stream_path": "/emby/Videos/373067/master.m3u8",
+     "image_path": "/emby/Items/373067/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T08:07:00-04:00",
+     "end": "2026-10-05T09:37:00-04:00",
+     "item_id": "373026",
+     "title": "Inland Empire",
+     "year": 2006,
+     "overview": "When actress Nikki Grace gets the lead role in a cursed film, her world becomes more and more surreal, blending realities and ideas of infidelity, reincarnation, and supernatural forces.",
+     "runtime_min": 90,
+     "genres": [
+      "Horror",
+      "Thriller",
+      "Mystery"
+     ],
+     "stream_path": "/emby/Videos/373026/master.m3u8",
+     "image_path": "/emby/Items/373026/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T09:37:00-04:00",
+     "end": "2026-10-05T11:07:00-04:00",
+     "item_id": "216268",
+     "title": "Notes on Marie Menken",
+     "year": 2006,
+     "overview": "A look at avant-garde filmmaker Marie Menken.",
+     "runtime_min": 90,
+     "genres": [
+      "Documentary"
+     ],
+     "stream_path": "/emby/Videos/216268/master.m3u8",
+     "image_path": "/emby/Items/216268/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T11:07:00-04:00",
+     "end": "2026-10-05T12:37:00-04:00",
      "item_id": "215996",
      "title": "The Inauguration of the Pleasure Dome",
      "year": 1954,
@@ -411,126 +461,132 @@
      "image_path": "/emby/Items/215996/Images/Primary"
     },
     {
-     "start": "2026-10-04T11:21:00-04:00",
-     "end": "2026-10-04T12:51:00-04:00",
-     "item_id": "248430",
-     "title": "France Tour Detour Mouvement 2 Lumiere Physique",
-     "year": 1977,
-     "overview": "An avant-garde work by Jean-Luc Godard (1977), preserved in the UbuWeb archive of experimental film, video, and performance art.",
-     "runtime_min": 90,
-     "genres": [],
-     "stream_path": "/emby/Videos/248430/master.m3u8",
-     "image_path": "/emby/Items/248430/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T12:51:00-04:00",
-     "end": "2026-10-04T14:21:00-04:00",
-     "item_id": "216384",
-     "title": "The Private Life of a Cat",
-     "year": 1946,
-     "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow.",
+     "start": "2026-10-05T12:37:00-04:00",
+     "end": "2026-10-05T14:07:00-04:00",
+     "item_id": "216001",
+     "title": "Puce Moment",
+     "year": 1949,
+     "overview": "This film resulted from the unfinished short film Puce Women. The film opens with a camera watching 1920s style flapper gowns being taken off a dress rack. The dresses are removed and danced off the rack to music. (The o",
      "runtime_min": 90,
      "genres": [
-      "Documentary"
+      "Fantasy",
+      "Music"
      ],
-     "stream_path": "/emby/Videos/216384/master.m3u8",
-     "image_path": "/emby/Items/216384/Images/Primary"
+     "stream_path": "/emby/Videos/216001/master.m3u8",
+     "image_path": "/emby/Items/216001/Images/Primary"
     },
     {
-     "start": "2026-10-04T14:21:00-04:00",
-     "end": "2026-10-04T15:51:00-04:00",
-     "item_id": "248434",
-     "title": "France/tour/d\u00e9tour/deux/enfants, Mouvement 5: Impression/Dict\u00e9e (Impression/Dictation)",
-     "year": 1978,
-     "overview": "An avant-garde work by Jean-Luc Godard (1978), preserved in the UbuWeb archive of experimental film, video, and performance art.",
-     "runtime_min": 90,
-     "genres": [],
-     "stream_path": "/emby/Videos/248434/master.m3u8",
-     "image_path": "/emby/Items/248434/Images/Primary"
+     "start": "2026-10-05T14:07:00-04:00",
+     "end": "2026-10-05T15:12:00-04:00",
+     "item_id": "373074",
+     "title": "The Short Films of David Lynch",
+     "year": 2002,
+     "overview": "A collection of visionary director David Lynch's short films from the first 29 years of his career is accompanied by a special introduction to each film by the director himself.",
+     "runtime_min": 65,
+     "genres": [
+      "Documentary",
+      "Animation",
+      "Drama"
+     ],
+     "stream_path": "/emby/Videos/373074/master.m3u8",
+     "image_path": "/emby/Items/373074/Images/Primary"
     },
     {
-     "start": "2026-10-04T15:51:00-04:00",
-     "end": "2026-10-04T17:21:00-04:00",
-     "item_id": "217209",
-     "title": "Legendary Epics Yarns and Fables Part 2: Stan Brakhage",
-     "year": 1969,
-     "overview": "This film is a limited portrait of Stan Brakhage. The subject attempts to describe the experience that he is involved in by means of immediately responding to the aural and visual stimuli which surround and affect him. B",
-     "runtime_min": 90,
-     "genres": [],
-     "stream_path": "/emby/Videos/217209/master.m3u8",
-     "image_path": "/emby/Items/217209/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T17:21:00-04:00",
-     "end": "2026-10-04T18:51:00-04:00",
-     "item_id": "215737",
-     "title": "1 P.M.",
+     "start": "2026-10-05T15:12:00-04:00",
+     "end": "2026-10-05T15:13:00-04:00",
+     "item_id": "215739",
+     "title": "Schick Commerical",
      "year": 1971,
-     "overview": "Lighter and livelier than the films Jean-Luc Godard had made in France, his U.S. collaboration with Direct Cinema documentarian D. A. Pennebaker was meant to be One A.M., as in \u201cone American movie\u201d; but Godard quit the p",
-     "runtime_min": 90,
-     "genres": [
-      "Documentary"
-     ],
-     "stream_path": "/emby/Videos/215737/master.m3u8",
-     "image_path": "/emby/Items/215737/Images/Primary"
+     "overview": "An experimental film by Jean-Luc Godard. Jean-Luc Godard (1930-2022), the most radical figure of the French New Wave, spent six decades dismantling and reinventing cinema. From Breathless through his late video-essays, h",
+     "runtime_min": 1,
+     "genres": [],
+     "stream_path": "/emby/Videos/215739/master.m3u8",
+     "image_path": "/emby/Items/215739/Images/Primary"
     },
     {
-     "start": "2026-10-04T18:51:00-04:00",
-     "end": "2026-10-04T20:21:00-04:00",
-     "item_id": "215730",
-     "title": "British Sounds",
+     "start": "2026-10-05T15:13:00-04:00",
+     "end": "2026-10-05T16:43:00-04:00",
+     "item_id": "215731",
+     "title": "Godard in America",
      "year": 1970,
-     "overview": "Jean-Luc Godard brings his firebrand political cinema to the UK, exploring the revolutionary signals in late '60s British society. Constructed as a montage of various disconnected political acts (in line with Godard's th",
+     "overview": "Spring 1970: Godard and Gorin, on the road, visiting colleges, speaking with Andrew Sarris, and explaining, through illustrated notebooks, their newest Dziga Vertov Group project, a film on Palestine.",
      "runtime_min": 90,
      "genres": [
       "Documentary"
      ],
-     "stream_path": "/emby/Videos/215730/master.m3u8",
-     "image_path": "/emby/Items/215730/Images/Primary"
+     "stream_path": "/emby/Videos/215731/master.m3u8",
+     "image_path": "/emby/Items/215731/Images/Primary"
     },
     {
-     "start": "2026-10-04T20:21:00-04:00",
-     "end": "2026-10-04T21:51:00-04:00",
-     "item_id": "215192",
-     "title": "Vladimir and Rosa",
-     "year": 1971,
-     "overview": "Jean-Luc Godard's and Jean-Pierre Gorin's interpretation of the Chicago Eight / Chicago Seven trial, which followed the 1968 Democratic National Convention protest activities. Judge Hoffman becomes the character Judge Hi",
+     "start": "2026-10-05T16:43:00-04:00",
+     "end": "2026-10-05T18:13:00-04:00",
+     "item_id": "373109",
+     "title": "The Straight Story",
+     "year": 1999,
+     "overview": "Retired farmer and widower Alvin Straight learns one day that his estranged brother Lyle has suffered a severe stroke. Alvin is determined to make things right with Lyle while he still can, but his brother lives in Wisco",
      "runtime_min": 90,
+     "genres": [
+      "Drama",
+      "Adventure"
+     ],
+     "stream_path": "/emby/Videos/373109/master.m3u8",
+     "image_path": "/emby/Items/373109/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T18:13:00-04:00",
+     "end": "2026-10-05T19:43:00-04:00",
+     "item_id": "216385",
+     "title": "Witch's Cradle",
+     "year": 1944,
+     "overview": "The surrealist film shows repetitive imagery involving a string fashioned in a bizarre, almost spiderweb-like pattern over the hands of several individuals, most notably an unnamed young woman and an elderly gentleman. T",
+     "runtime_min": 90,
+     "genres": [
+      "Fantasy",
+      "Horror"
+     ],
+     "stream_path": "/emby/Videos/216385/master.m3u8",
+     "image_path": "/emby/Items/216385/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T19:43:00-04:00",
+     "end": "2026-10-05T21:13:00-04:00",
+     "item_id": "248608",
+     "title": "Hvorfor flygte fra det du ved du ikke kan flygte fra?",
+     "year": 1970,
+     "overview": "An avant-garde work by Lars von Trier (1970), preserved in the UbuWeb archive of experimental film, video, and performance art.",
+     "runtime_min": 90,
+     "genres": [],
+     "stream_path": "/emby/Videos/248608/master.m3u8",
+     "image_path": "/emby/Items/248608/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T21:13:00-04:00",
+     "end": "2026-10-05T22:34:00-04:00",
+     "item_id": "373009",
+     "title": "The Elephant Man",
+     "year": 1980,
+     "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous fa\u00e7ade, there is revealed a person of great intelligence and sensitivity.",
+     "runtime_min": 81,
+     "genres": [
+      "Drama",
+      "History"
+     ],
+     "stream_path": "/emby/Videos/373009/master.m3u8",
+     "image_path": "/emby/Items/373009/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T22:34:00-04:00",
+     "end": "2026-10-06T00:10:00-04:00",
+     "item_id": "373093",
+     "title": "Julien Donkey-Boy",
+     "year": 1999,
+     "overview": "Undiagnosed, untreated and generally untethered schizophrenic Julien lives with his pregnant younger sister, anorexic aspiring wrestler brother, sympathetic grandmother, and severely depressed and abusive German father.",
+     "runtime_min": 96,
      "genres": [
       "Drama"
      ],
-     "stream_path": "/emby/Videos/215192/master.m3u8",
-     "image_path": "/emby/Items/215192/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T21:51:00-04:00",
-     "end": "2026-10-04T23:21:00-04:00",
-     "item_id": "215270",
-     "title": "Montparnasse",
-     "year": 1929,
-     "overview": "Come take an avant-garde walk in the Montparnasse of the late 1920's. This district of Paris, filmed in a most unusual way, shows how dedicated it is to art. Visit its art galleries and exhibitions, take a glimpse of fam",
-     "runtime_min": 90,
-     "genres": [
-      "Documentary"
-     ],
-     "stream_path": "/emby/Videos/215270/master.m3u8",
-     "image_path": "/emby/Items/215270/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T23:21:00-04:00",
-     "end": "2026-10-05T00:58:00-04:00",
-     "item_id": "372862",
-     "title": "Schizopolis",
-     "year": 1997,
-     "overview": "A man works for the unpleasant guru of a Scientology-like movement.",
-     "runtime_min": 97,
-     "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mystery"
-     ],
-     "stream_path": "/emby/Videos/372862/master.m3u8",
-     "image_path": "/emby/Items/372862/Images/Primary"
+     "stream_path": "/emby/Videos/373093/master.m3u8",
+     "image_path": "/emby/Items/373093/Images/Primary"
     }
    ]
   },
@@ -538,21 +594,175 @@
    "id": "independent",
    "name": "KaviTV Independent",
    "now": {
-    "title": "Mister Lonely",
-    "year": 2008,
-    "start": "2026-10-04T00:00:00-04:00",
-    "end": "2026-10-04T01:30:00-04:00"
+    "title": "Naqoyqatsi",
+    "year": 2002,
+    "start": "2026-10-05T00:00:00-04:00",
+    "end": "2026-10-05T01:30:00-04:00"
    },
    "next": {
-    "title": "Mississippi Burning",
-    "year": 1988,
-    "start": "2026-10-04T01:30:00-04:00",
-    "end": "2026-10-04T03:00:00-04:00"
+    "title": "Moonfall",
+    "year": 2022,
+    "start": "2026-10-05T01:30:00-04:00",
+    "end": "2026-10-05T03:00:00-04:00"
    },
    "programs": [
     {
-     "start": "2026-10-04T00:00:00-04:00",
-     "end": "2026-10-04T01:30:00-04:00",
+     "start": "2026-10-05T00:00:00-04:00",
+     "end": "2026-10-05T01:30:00-04:00",
+     "item_id": "373050",
+     "title": "Naqoyqatsi",
+     "year": 2002,
+     "overview": "A visual montage portrait of our contemporary world dominated by globalized technology and violence.",
+     "runtime_min": 90,
+     "genres": [
+      "Documentary"
+     ],
+     "stream_path": "/emby/Videos/373050/master.m3u8",
+     "image_path": "/emby/Items/373050/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T01:30:00-04:00",
+     "end": "2026-10-05T03:00:00-04:00",
+     "item_id": "373096",
+     "title": "Moonfall",
+     "year": 2022,
+     "overview": "A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.",
+     "runtime_min": 90,
+     "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+     ],
+     "stream_path": "/emby/Videos/373096/master.m3u8",
+     "image_path": "/emby/Items/373096/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T03:00:00-04:00",
+     "end": "2026-10-05T04:30:00-04:00",
+     "item_id": "373024",
+     "title": "I \u2665 Huckabees",
+     "year": 2004,
+     "overview": "A husband-and-wife team play detective, but not in the traditional sense. Instead, the happy duo helps others solve their existential issues, the kind that keep you up at night, wondering what it all means.",
+     "runtime_min": 90,
+     "genres": [
+      "Comedy",
+      "Romance"
+     ],
+     "stream_path": "/emby/Videos/373024/master.m3u8",
+     "image_path": "/emby/Items/373024/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T04:30:00-04:00",
+     "end": "2026-10-05T06:02:00-04:00",
+     "item_id": "372829",
+     "title": "Bottle Rocket",
+     "year": 1996,
+     "overview": "Upon his release from a mental hospital following a nervous breakdown, the directionless Anthony joins his friend Dignan, who seems far less sane than the former. Dignan has hatched a harebrained scheme for an as-yet-uns",
+     "runtime_min": 92,
+     "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+     ],
+     "stream_path": "/emby/Videos/372829/master.m3u8",
+     "image_path": "/emby/Items/372829/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T06:02:00-04:00",
+     "end": "2026-10-05T06:25:00-04:00",
+     "item_id": "216156",
+     "title": "Jackie Brown",
+     "year": 1997,
+     "overview": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan \u2014 with help from a bail b",
+     "runtime_min": 23,
+     "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+     ],
+     "stream_path": "/emby/Videos/216156/master.m3u8",
+     "image_path": "/emby/Items/216156/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T06:25:00-04:00",
+     "end": "2026-10-05T08:06:00-04:00",
+     "item_id": "372859",
+     "title": "Requiem for a Dream",
+     "year": 2000,
+     "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.",
+     "runtime_min": 101,
+     "genres": [
+      "Crime",
+      "Drama"
+     ],
+     "stream_path": "/emby/Videos/372859/master.m3u8",
+     "image_path": "/emby/Items/372859/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T08:06:00-04:00",
+     "end": "2026-10-05T09:42:00-04:00",
+     "item_id": "373072",
+     "title": "The Monkey",
+     "year": 2025,
+     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu",
+     "runtime_min": 96,
+     "genres": [
+      "Horror",
+      "Comedy"
+     ],
+     "stream_path": "/emby/Videos/373072/master.m3u8",
+     "image_path": "/emby/Items/373072/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T09:42:00-04:00",
+     "end": "2026-10-05T11:12:00-04:00",
+     "item_id": "373036",
+     "title": "Nebraska",
+     "year": 2013,
+     "overview": "An aging, booze-addled father takes a trip from Montana to Nebraska with his estranged son in order to claim what he believes to be a million-dollar sweepstakes prize.",
+     "runtime_min": 90,
+     "genres": [
+      "Drama",
+      "Adventure"
+     ],
+     "stream_path": "/emby/Videos/373036/master.m3u8",
+     "image_path": "/emby/Items/373036/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T11:12:00-04:00",
+     "end": "2026-10-05T11:30:00-04:00",
+     "item_id": "32425",
+     "title": "Swingers",
+     "year": 1996,
+     "overview": "In this laugh-out-loud indie comedy classic that launched the careers of its outstanding cast, two friends set out to rewrite modern dating from Los Angeles to Las Vegas.",
+     "runtime_min": 18,
+     "genres": [
+      "Screwball",
+      "Movie",
+      "Comedy"
+     ],
+     "stream_path": "/emby/Videos/32425/master.m3u8",
+     "image_path": "/emby/Items/32425/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T11:30:00-04:00",
+     "end": "2026-10-05T13:00:00-04:00",
+     "item_id": "373062",
+     "title": "The City of Lost Children",
+     "year": 1995,
+     "overview": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
+     "runtime_min": 90,
+     "genres": [
+      "Fantasy",
+      "Science Fiction",
+      "Adventure"
+     ],
+     "stream_path": "/emby/Videos/373062/master.m3u8",
+     "image_path": "/emby/Items/373062/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T13:00:00-04:00",
+     "end": "2026-10-05T14:30:00-04:00",
      "item_id": "372850",
      "title": "Mister Lonely",
      "year": 2008,
@@ -566,13 +776,13 @@
      "image_path": "/emby/Items/372850/Images/Primary"
     },
     {
-     "start": "2026-10-04T01:30:00-04:00",
-     "end": "2026-10-04T03:00:00-04:00",
+     "start": "2026-10-05T14:30:00-04:00",
+     "end": "2026-10-05T14:32:00-04:00",
      "item_id": "216673",
      "title": "Mississippi Burning",
      "year": 1988,
      "overview": "Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI",
-     "runtime_min": 90,
+     "runtime_min": 2,
      "genres": [
       "Drama",
       "Crime",
@@ -582,69 +792,38 @@
      "image_path": "/emby/Items/216673/Images/Primary"
     },
     {
-     "start": "2026-10-04T03:00:00-04:00",
-     "end": "2026-10-04T04:30:00-04:00",
-     "item_id": "372873",
-     "title": "The Killing of a Sacred Deer",
-     "year": 2017,
-     "overview": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insi",
-     "runtime_min": 90,
+     "start": "2026-10-05T14:32:00-04:00",
+     "end": "2026-10-05T16:11:00-04:00",
+     "item_id": "372822",
+     "title": "Antlers",
+     "year": 2021,
+     "overview": "A small-town Oregon teacher and her brother, the local sheriff, discover a young student is harbouring a dangerous secret that could have frightening consequences.",
+     "runtime_min": 99,
      "genres": [
       "Drama",
-      "Thriller",
+      "Horror",
       "Mystery"
      ],
-     "stream_path": "/emby/Videos/372873/master.m3u8",
-     "image_path": "/emby/Items/372873/Images/Primary"
+     "stream_path": "/emby/Videos/372822/master.m3u8",
+     "image_path": "/emby/Items/372822/Images/Primary"
     },
     {
-     "start": "2026-10-04T04:30:00-04:00",
-     "end": "2026-10-04T06:00:00-04:00",
-     "item_id": "373072",
-     "title": "The Monkey",
-     "year": 2025,
-     "overview": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cu",
-     "runtime_min": 90,
+     "start": "2026-10-05T16:11:00-04:00",
+     "end": "2026-10-05T17:48:00-04:00",
+     "item_id": "373077",
+     "title": "UHF",
+     "year": 1989,
+     "overview": "The eccentric new manager of a UHF television channel tries to save the station from financial ruin with an odd array of programming.",
+     "runtime_min": 97,
      "genres": [
-      "Horror",
       "Comedy"
      ],
-     "stream_path": "/emby/Videos/373072/master.m3u8",
-     "image_path": "/emby/Items/373072/Images/Primary"
+     "stream_path": "/emby/Videos/373077/master.m3u8",
+     "image_path": "/emby/Items/373077/Images/Primary"
     },
     {
-     "start": "2026-10-04T06:00:00-04:00",
-     "end": "2026-10-04T07:30:00-04:00",
-     "item_id": "372859",
-     "title": "Requiem for a Dream",
-     "year": 2000,
-     "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.",
-     "runtime_min": 90,
-     "genres": [
-      "Crime",
-      "Drama"
-     ],
-     "stream_path": "/emby/Videos/372859/master.m3u8",
-     "image_path": "/emby/Items/372859/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T07:30:00-04:00",
-     "end": "2026-10-04T09:00:00-04:00",
-     "item_id": "373053",
-     "title": "Slacker",
-     "year": 1990,
-     "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The",
-     "runtime_min": 90,
-     "genres": [
-      "Drama",
-      "Comedy"
-     ],
-     "stream_path": "/emby/Videos/373053/master.m3u8",
-     "image_path": "/emby/Items/373053/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T09:00:00-04:00",
-     "end": "2026-10-04T10:30:00-04:00",
+     "start": "2026-10-05T17:48:00-04:00",
+     "end": "2026-10-05T19:18:00-04:00",
      "item_id": "373064",
      "title": "The Fountain",
      "year": 2006,
@@ -659,8 +838,55 @@
      "image_path": "/emby/Items/373064/Images/Primary"
     },
     {
-     "start": "2026-10-04T10:30:00-04:00",
-     "end": "2026-10-04T12:52:00-04:00",
+     "start": "2026-10-05T19:18:00-04:00",
+     "end": "2026-10-05T20:52:00-04:00",
+     "item_id": "373002",
+     "title": "Bodies Bodies Bodies",
+     "year": 2022,
+     "overview": "In an isolated family mansion, a group of rich 20-somethings decides to play Bodies Bodies Bodies, a game where one of them is secretly a \"killer\" while the rest tries to \"escape\". Things take a turn for the worse when r",
+     "runtime_min": 94,
+     "genres": [
+      "Comedy",
+      "Mystery",
+      "Horror"
+     ],
+     "stream_path": "/emby/Videos/373002/master.m3u8",
+     "image_path": "/emby/Items/373002/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T20:52:00-04:00",
+     "end": "2026-10-05T22:22:00-04:00",
+     "item_id": "216712",
+     "title": "Annie Hall",
+     "year": 1977,
+     "overview": "New York comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+     "runtime_min": 90,
+     "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+     ],
+     "stream_path": "/emby/Videos/216712/master.m3u8",
+     "image_path": "/emby/Items/216712/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T22:22:00-04:00",
+     "end": "2026-10-05T23:51:00-04:00",
+     "item_id": "373103",
+     "title": "THX 1138",
+     "year": 1971,
+     "overview": "People in the future live in a totalitarian society. A technician named THX 1138 lives a mundane life between work and taking a controlled consumption of drugs that the government uses to make puppets out of people. As T",
+     "runtime_min": 89,
+     "genres": [
+      "Science Fiction",
+      "Drama"
+     ],
+     "stream_path": "/emby/Videos/373103/master.m3u8",
+     "image_path": "/emby/Items/373103/Images/Primary"
+    },
+    {
+     "start": "2026-10-05T23:51:00-04:00",
+     "end": "2026-10-06T02:13:00-04:00",
      "item_id": "372856",
      "title": "Poor Things",
      "year": 2023,
@@ -673,147 +899,6 @@
      ],
      "stream_path": "/emby/Videos/372856/master.m3u8",
      "image_path": "/emby/Items/372856/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T12:52:00-04:00",
-     "end": "2026-10-04T13:04:00-04:00",
-     "item_id": "36220",
-     "title": "From Dusk Till Dawn",
-     "year": 1996,
-     "overview": "In this thrilling cult classic, two dangerous outlaw brothers head out on a wild crime spree. After kidnapping a father and his two kids, the bad guys head to a seedy Mexican bar for safety but come face to face with blo",
-     "runtime_min": 12,
-     "genres": [
-      "Horror",
-      "Vampires",
-      "Movie"
-     ],
-     "stream_path": "/emby/Videos/36220/master.m3u8",
-     "image_path": "/emby/Items/36220/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T13:04:00-04:00",
-     "end": "2026-10-04T14:34:00-04:00",
-     "item_id": "373022",
-     "title": "House of the Dead",
-     "year": 2003,
-     "overview": "On an island off the coast, a techno rave party attracts a diverse group of college coeds and a Coast Guard officer. Soon, they discover that their X-laced escapades are to be interrupted by zombies and monsters that att",
-     "runtime_min": 90,
-     "genres": [
-      "Horror",
-      "Action",
-      "Thriller"
-     ],
-     "stream_path": "/emby/Videos/373022/master.m3u8",
-     "image_path": "/emby/Items/373022/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T14:34:00-04:00",
-     "end": "2026-10-04T16:04:00-04:00",
-     "item_id": "373080",
-     "title": "Waking Life",
-     "year": 2001,
-     "overview": "Waking Life is about a young man in a persistent lucid dream-like state. The film follows its protagonist as he initially observes and later participates in philosophical discussions that weave together issues like reali",
-     "runtime_min": 90,
-     "genres": [
-      "Animation",
-      "Drama",
-      "Fantasy"
-     ],
-     "stream_path": "/emby/Videos/373080/master.m3u8",
-     "image_path": "/emby/Items/373080/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T16:04:00-04:00",
-     "end": "2026-10-04T17:34:00-04:00",
-     "item_id": "216156",
-     "title": "Jackie Brown",
-     "year": 1997,
-     "overview": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan \u2014 with help from a bail b",
-     "runtime_min": 90,
-     "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-     ],
-     "stream_path": "/emby/Videos/216156/master.m3u8",
-     "image_path": "/emby/Items/216156/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T17:34:00-04:00",
-     "end": "2026-10-04T19:04:00-04:00",
-     "item_id": "372822",
-     "title": "Antlers",
-     "year": 2021,
-     "overview": "A small-town Oregon teacher and her brother, the local sheriff, discover a young student is harbouring a dangerous secret that could have frightening consequences.",
-     "runtime_min": 90,
-     "genres": [
-      "Drama",
-      "Horror",
-      "Mystery"
-     ],
-     "stream_path": "/emby/Videos/372822/master.m3u8",
-     "image_path": "/emby/Items/372822/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T19:04:00-04:00",
-     "end": "2026-10-04T20:34:00-04:00",
-     "item_id": "373032",
-     "title": "Marcel the Shell with Shoes On",
-     "year": 2022,
-     "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of",
-     "runtime_min": 90,
-     "genres": [
-      "Animation",
-      "Comedy",
-      "Drama"
-     ],
-     "stream_path": "/emby/Videos/373032/master.m3u8",
-     "image_path": "/emby/Items/373032/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T20:34:00-04:00",
-     "end": "2026-10-04T22:14:00-04:00",
-     "item_id": "373091",
-     "title": "I Saw the TV Glow",
-     "year": 2024,
-     "overview": "In late-90s suburbia, a lonely teenager meets a girl at school who introduces him to a mysterious late-night T.V. show \u2014 a vision of a supernatural world pulsing beneath their own. As time goes on, however, questions beg",
-     "runtime_min": 100,
-     "genres": [
-      "Drama",
-      "Horror"
-     ],
-     "stream_path": "/emby/Videos/373091/master.m3u8",
-     "image_path": "/emby/Items/373091/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T22:14:00-04:00",
-     "end": "2026-10-04T23:44:00-04:00",
-     "item_id": "373049",
-     "title": "Koyaanisqatsi",
-     "year": 1983,
-     "overview": "Takes us to locations all around the US and shows us the heavy toll that modern technology is having on humans and the earth. The visual tone poem contains neither dialogue nor a vocalized narration: its tone is set by t",
-     "runtime_min": 90,
-     "genres": [
-      "Documentary",
-      "Music"
-     ],
-     "stream_path": "/emby/Videos/373049/master.m3u8",
-     "image_path": "/emby/Items/373049/Images/Primary"
-    },
-    {
-     "start": "2026-10-04T23:44:00-04:00",
-     "end": "2026-10-05T01:14:00-04:00",
-     "item_id": "217320",
-     "title": "Kill Bill: Vol. 1",
-     "year": 2003,
-     "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance.",
-     "runtime_min": 90,
-     "genres": [
-      "Action",
-      "Crime"
-     ],
-     "stream_path": "/emby/Videos/217320/master.m3u8",
-     "image_path": "/emby/Items/217320/Images/Primary"
     }
    ]
   }
