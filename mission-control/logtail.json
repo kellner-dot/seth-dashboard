@@ -1,56 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T10:16:39+0000",
+ "generated_iso": "2026-10-06T10:46:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-06 06:13:24.050 Error VideoService-0HNP33BGQEKH2:00000001: Error processing request",
+     "t": "2026-10-06 06:25:31.416 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-06 06:14:36.038 Error VideoService-0HNP33BGQEKH7:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-06 06:15:42.506 Error VideoService-0HNP33BGQEKHB:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-06 06:16:19.773 Error VideoService-0HNP33BGQEKHC:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
+     "t": "2026-10-06 06:25:33.480 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -59,35 +19,27 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /status",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] --- STDERR ---",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] #< CLIXML",
+     "t": "[refresh.log] Successfully rebased and updated refs/heads/main.",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] <Objs Version=\"1.1.0.1\" xmlns=\"http://schemas.microsoft.com/powershell/2004/04\"><Obj S=\"progress\" RefId=\"0\"><TN RefId=\"0\"><T>System.Management.Automat",
+     "t": "[refresh.log] To https://github.com/kellner-dot/seth-dashboard.git",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] --- EXIT: 0",
+     "t": "[refresh.log]    41ac0b4..58cd011  HEAD -> main",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] [2026-10-05T10:50:17+00:00] daily refresh done",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T05:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T05:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "t": "[refresh.log] [2026-10-06T10:45:14+00:00] waiting for Pages deploy...",
      "c": "ok"
     },
     {
@@ -104,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T06:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T06:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T06:46:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
