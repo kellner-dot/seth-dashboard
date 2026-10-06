@@ -1,14 +1,28 @@
 {
- "updated": "2026-10-06T02:46:37+0000",
- "updated_ts": 1791254797,
+ "updated": "2026-10-06T04:46:36+0000",
+ "updated_ts": 1791261996,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Why Common Lisp is now the best programming language",
+     "summary": "Comments",
+     "url": "https://www.vivienhenz.com/common-lisp",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Beam: Reflection's 501B open-weight model",
      "summary": "Comments",
      "url": "https://reflection.ai/blog/introducing-beam",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Example.com just launched the biggest redesign in decades",
+     "summary": "Comments",
+     "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,23 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "AI Tutoring with Khanmigo in a Two-Year School Experiment",
+     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
      "summary": "Comments",
-     "url": "https://edworkingpapers.com/ai26-1551",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Example.com Just Launched the Biggest Redesign in Decades",
-     "summary": "Comments",
-     "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Friendship ended with Deno, now Node is my best friend",
-     "summary": "Comments",
-     "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -98,7 +98,7 @@
      "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
      "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
      "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 05 Oct 2026",
+     "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -109,31 +109,31 @@
      "source": "BBC World"
     },
     {
-     "title": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
-     "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
-     "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+     "title": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
+     "summary": "Anojan Sivarasa faces execution after he was found guilty of blasphemy over a Facebook comment.",
+     "url": "https://www.bbc.co.uk/news/articles/cq14d438vx24o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
-     "summary": "The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says.",
-     "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
+     "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+     "summary": "The Parti Qu\u00e9b\u00e9cois, which secured a minority, has vowed to hold an independence referendum in the years to come.",
+     "url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 06 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Europe is pouring billions into space. Can Glasgow's satellite industry keep up?",
+     "summary": "The city's space boom raises questions about the role of the state in backing important industries.",
+     "url": "https://www.bbc.co.uk/news/articles/cm2kedyp348lo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 05 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Spain PM pins hopes on housing crisis to help win snap election",
-     "summary": "Calling of a snap election was not a knee-jerk reaction from Pedro S\u00e1nchez but a carefully thought-out manoeuvre, Guy Hedgecoe reports from Madrid.",
-     "url": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "US 'watching closely' after plague researcher dies in Russia",
-     "summary": "Donald Trump says the US was looking \"very strongly\" at the case of a lab technician who died at a research centre in Siberia.",
-     "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 05 Oct 2026",
+     "title": "Trump says he will stop using taxpayer funds for ads after bipartisan pushback",
+     "summary": "The ads, which tout Trump and his policies, could have violated US laws barring public government funds being spent on political advertising.",
+     "url": "https://www.bbc.co.uk/news/articles/cm9qzlvpqex9o?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
     {
