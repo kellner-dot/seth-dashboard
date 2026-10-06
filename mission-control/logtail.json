@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T05:46:37+0000",
+ "generated_iso": "2026-10-06T06:16:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "\t01:45:10.957 [http @ 00000250741dde40] HTTP error 400 Bad Request",
-     "c": "err"
-    },
-    {
-     "t": "\t01:45:10.957 [hls @ 000002507291c9c0] Failed to open segment 6 of playlist 0",
-     "c": "err"
-    },
-    {
-     "t": "\t01:45:10.957 [http @ 00000250741dde40] HTTP error 400 Bad Request",
-     "c": "err"
-    },
     {
      "t": "\t01:45:10.957 [hls @ 000002507291c9c0] Failed to open segment 7 of playlist 0",
      "c": "err"
@@ -52,6 +40,18 @@
     {
      "t": "2026-10-06 01:45:11.004 Info DynamicHlsService-0HNP33BGQEC5G:00000036: http/1.1 Response 500 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 210ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d",
      "c": "ok"
+    },
+    {
+     "t": "2026-10-06 01:53:01.617 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 01:53:03.947 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 01:53:06.339 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
     }
    ]
   },
@@ -59,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Tue Oct  6 05:46:29 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -83,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T00:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T00:46:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T01:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -104,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T01:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T02:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T02:16:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
