@@ -1,32 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T01:16:39+0000",
+ "generated_iso": "2026-10-06T01:46:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000231ca315e40] error reading header",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000181e99c5e40] error reading header",
      "c": "err"
     },
     {
-     "t": "2026-10-05 21:13:05.797 Error App: Error in ffprobe",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
-     "c": "err"
-    },
-    {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 0000027a98ac5e40] error reading header",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-05 21:13:25.143 Error App: Error in ffprobe",
+     "t": "2026-10-05 21:43:05.736 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -38,7 +22,23 @@
      "c": "err"
     },
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001b207d85e40] error reading header",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001fb16335e40] error reading header",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 21:43:24.987 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
+     "c": "err"
+    },
+    {
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001d74b505e40] error reading header",
      "c": "err"
     }
    ]
@@ -47,7 +47,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Secret Service running (fixed)",
      "c": "ok"
     },
     {
@@ -71,14 +71,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T20:04:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T20:16:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T20:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -92,6 +84,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T21:16:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T21:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T21:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
