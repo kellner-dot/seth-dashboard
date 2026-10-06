@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-06T16:46:39+0000",
- "updated_ts": 1791305199,
+ "updated": "2026-10-06T18:47:06+0000",
+ "updated_ts": 1791312426,
  "topics": [
   {
    "name": "Tech",
@@ -8,35 +8,7 @@
     {
      "title": "Mistral Large 4",
      "summary": "Comments",
-     "url": "https://docs.mistral.ai/models/mistral-large-4-0",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Mistral Large 4: \"Le Chonk\"",
-     "summary": "Comments",
-     "url": "https://mistral.ai/news/mistral-large-4/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "AI is now capable of developing its own inference hardware",
-     "summary": "Comments",
-     "url": "https://github.com/FeSens/openTPU",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Release of Polars 2.0",
-     "summary": "Comments",
-     "url": "https://pola.rs/posts/release-polars-2/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The Early History of Smalltalk (1993)",
-     "summary": "Comments",
-     "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+     "url": "https://mistral.ai/news/mistral-large-4/\\",
      "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
@@ -48,45 +20,73 @@
      "source": "Hacker News"
     },
     {
-     "title": "Big Oil asks Supreme Court to kill climate lawsuits before trial",
-     "summary": "Oil companies say federal law should block state climate deception claims.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/",
+     "title": "Release of Polars 2.0",
+     "summary": "Comments",
+     "url": "https://pola.rs/posts/release-polars-2/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "JetBrains reported a net financial loss first time in its tracked history",
+     "summary": "Comments",
+     "url": "https://www.helgilibrary.com/companies/jetbrains",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+     "summary": "Comments",
+     "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Benchmark in Milliseconds",
+     "summary": "Comments",
+     "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Paramount completes $111B Warner merger, creating \u201cSkydance\u201d behemoth",
+     "summary": "Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
      "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-     "summary": "The reports of OpenAI agents harming 3rd party sites keep coming.",
-     "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+     "title": "Support Ars and get a better reading experience in return",
+     "summary": "ArsPro gives you more ways to read while directly supporting our journalism.",
+     "url": "https://arstechnica.com/staff/2026/10/make-ars-better-with-an-arspro-subscription/",
      "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
-     "summary": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
-     "url": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+     "title": "Amazon kills Alexa\u2019s ability to control Echo speakers' AUX input",
+     "summary": "Amazon hasn't made an Echo with a 3.5mm port in six years.",
+     "url": "https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/",
      "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-     "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-     "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-     "time": "Mon, 05 Oct 2026",
+     "title": "Neutrino physicist wins 2026 Nobel Physics Prize",
+     "summary": "Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.",
+     "url": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+     "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
-     "summary": "Cable industry to sue, says FCC can't repeal TV ownership limit set by Congress.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
-     "time": "Mon, 05 Oct 2026",
+     "title": "Googlebook \"Better Together\" phone features don't work with Samsung at launch",
+     "summary": "Googlebooks require Android 17, but Samsung's Android 17 phones won't work yet.",
+     "url": "https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/",
+     "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Texas city demands $2M for public records on Flock usage",
-     "summary": "Prices of public records tracking cops' use of Flock go up as backlash swells.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
-     "time": "Mon, 05 Oct 2026",
+     "title": "Why is NASA bringing 7,500 contractors back to work as civil servants?",
+     "summary": "\"The administrator's directive is a coherent and necessary vision for the future.\"",
+     "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
+     "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "Cornell names former acting U.S. attorney general to review rape case",
+     "summary": "Cornell University names Sally Yates, former acting U.S. attorney general and career federal prosecutor, to lead an independent review into how the school handled a former student's rape allegations.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5992799/cornell-yates-rape-case-updates-review",
+     "time": "Tue, 06 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "France's police fire tear gas and water cannons as school protests sweep the country",
+     "summary": "More than a quarter of a million people rallied nationwide to support school students demanding more education funding, according to government figures, with thousands of arrests.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5992819/france-student-protests-schools",
+     "time": "Tue, 06 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Here are the finalists for the 2026 National Book Awards",
      "summary": "Three-time National Book Award finalist Edwidge Danticat and debut novelist Morgan Thomas are up for the fiction prize. Nonfiction books cover the prison system and music, and queer parenthood.",
      "url": "https://www.npr.org/2026/10/06/nx-s1-5991463/2026-national-book-award-shortlist-finalists",
@@ -163,26 +177,19 @@
      "url": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Dems have edge in midterms, poll shows. And, Paramount-Warner Bros. merger to close",
-     "summary": "Polls are showing that Democrats have a clear advantage heading into the midterms, but that doesn't tell the whole story. And, today, a mega merger between Paramount and Warner Bros. is set to close.",
-     "url": "https://www.npr.org/2026/10/06/g-s1-146626/up-first-newsletter-election-day-skydance-christa-pike-russia-plague-scare",
-     "time": "Tue, 06 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "A history of presidents naming things after themselves (It's short. They rarely do)",
-     "summary": "While Trump pushes to get his name on the Kennedy Center and other public sites, history shows that sitting presidents have almost always avoided putting their brands on government assets.",
-     "url": "https://www.npr.org/2026/10/06/nx-s1-5986321/kennedy-center-trump-naming-washington",
-     "time": "Tue, 06 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Vermont\u2019s return-to-office order is an insult",
+     "summary": "The order ignores the dignity, work ethic and worth of the people who do the state's work. Read the story on VTDigger here: Vermont\u2019s return-to-office order is an insult.",
+     "url": "https://vtdigger.org/2026/10/06/opinion-vermonts-return-to-office-order-is-an-insult/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Brattleboro fire chief deploys for 13 months",
      "summary": "First responders and town officials gathered at Centra Fire Station in Brattleboro to say goodbye to Fire Chief Jay Symonds before he leaves for approdimately 13 months of military service with the New York Army National Guard on Friday, Oct. 2, 2026. Photo by Kristopher Radder/B",
@@ -217,19 +224,33 @@
      "url": "https://vtdigger.org/2026/10/05/despite-some-overall-progress-vermont-test-scores-show-a-widening-achievement-gap/",
      "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "Vermont can help keep Canada close",
-     "summary": "As tariffs push Canadian businesses toward other markets, Vermont can use its ties to Quebec to its own advantage. Read the story on VTDigger here: Vermont can help keep Canada close.",
-     "url": "https://vtdigger.org/2026/10/05/opinion-vermont-can-help-keep-canada-close/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Anna Meredith Announces New Album Darling",
+     "summary": "Listen to the first single, \u201cDusky,\u201d now",
+     "url": "https://pitchfork.com/story/anna-meredith-announces-new-album-darling/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "The Comet Is Coming Unearth Archival Songs for Channel the Spirits Reissue",
+     "summary": "Listen to \u201cLate Night Party Jam 2,\u201d recorded during Shabaka and the band\u2019s influential Total Refreshment Centre residency",
+     "url": "https://pitchfork.com/story/the-comet-is-coming-unearth-archival-songs-for-channel-the-spirits-reissue/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "FKA twigs Drops Lawsuit Against Shia LaBeouf After Actor Voids NDA",
+     "summary": "The singer initially claimed he was trying to stop her from \u201cdisclosing information about her own survival of sexual assault\u201d",
+     "url": "https://pitchfork.com/news/fka-twigs-files-new-lawsuit-against-shia-labeouf/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "B0YG1RL, Tinashe, Don Toliver, and More: This Week\u2019s Pitchfork Selects Playlist",
      "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
@@ -249,27 +270,6 @@
      "summary": "Nirosta Steel, the Roots, Jeff Tweedy, Robert Glasper, and Weyes Blood will also play the Knoxville festival",
      "url": "https://pitchfork.com/story/jeff-tweedy-robert-glasper-weyes-blood-to-play-big-ears-2027/",
      "time": "Tue, 06 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Slayyyter Announces Wor$t Man in America",
-     "summary": "The companion to her 2026 standout Wor$t Girl in America",
-     "url": "https://pitchfork.com/story/slayyyter-reveals-worst-man-in-america-album/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Carly Rae Jepsen Unveils Day and Night B-Sides",
-     "summary": "The pop singer continues her love of extended releases this Friday",
-     "url": "https://pitchfork.com/story/carly-rae-jepsen-unveils-day-and-night-b-sides/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "L7 Reunite With Former Bassist on New Song \u201cLoma Linda\u201d",
-     "summary": "Janis Tanaka will replace the late Jennifer Finch on the feminist grunge icons\u2019 imminent Last Hurrah Tour",
-     "url": "https://pitchfork.com/story/l7-reunite-with-former-bassist-on-new-song-loma-linda/",
-     "time": "Mon, 05 Oct 2026",
      "source": "Pitchfork"
     }
    ]
