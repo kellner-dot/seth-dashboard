@@ -1,20 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T20:17:34+0000",
+ "generated_iso": "2026-10-06T20:47:10+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-06 15:53:19.095 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 16:23:17.501 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-06 15:53:36.491 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 16:23:34.945 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-06 15:53:53.908 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 16:23:52.384 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -23,7 +23,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Tue Oct  6 20:16:30 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -47,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T15:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T15:16:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T15:31:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -68,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T16:16:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T16:31:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T16:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
