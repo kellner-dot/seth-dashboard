@@ -565,6 +565,115 @@ especially stale sessions consuming tuner slots (§1/§4) and the self-referenti
 
 ---
 
+## 11. TeraBox Cloud (T:) Movie Playback Performance and Reliability
+
+**Architecture grounding (CONFIRMED 2026-10-05):** T: is a rclone mount (`tb-direct:/` → `T:`),
+VFS cache mode full, 100GB max, 128M read-ahead, cache dir `C:\rclone-cache\`. Emby reads
+`T:\Movies` as ordinary files. There is NO stream URL, manifest, or HLS segment at the
+Emby↔T: boundary — those concepts live one layer down, inside rclone's TeraBox API calls.
+Every technique below is mapped to the layer where it actually operates. See also the full
+specification: `kavitv/sentinel/13-terabox-playback.md`.
+
+### 11.1 Stream URL expiration → rclone URL re-minting + mount watchdog
+**What it means:** TeraBox issues time-limited download URLs. rclone re-mints them
+transparently per API call; a stale URL surfaces as a failed chunk fetch, never as an
+Emby-visible "URL expired" error. There is nothing in Emby to "refresh" — the refresh
+happens inside rclone.
+**Known causes of visible failure:** rclone process died (T: disappears entirely); Alist
+down (rclone's backend breaks); TeraBox session expired (rclone cannot re-authenticate).
+**Evidence to collect:** Is `T:\` present? Is the rclone process alive? Does Alist
+respond on 127.0.0.1:5244? `rclone rc vfs/stats` output.
+**Safe fix + why it works:** Mount with retry flags (`--retries`, `--retries-sleep`,
+`--low-level-retries`, `--timeout`, `--contimeout`) so transient cloud blips are absorbed
+inside rclone. "TeraBox Watchdog" scheduled task (5-min remount) covers process death.
+"Alist Server" auto-restart task covers the backend. Layered recovery beats any single retry.
+**Verification:** `Test-Path T:\` + timed 1MB test read of a known file; latency under threshold.
+
+### 11.2 Preflight validation → T: health gate before playback
+**What it means:** Verify the source exists, the endpoint responds, and the first bytes
+are obtainable *before* Emby commits to a playback.
+**Mechanism in this stack:** T: health check = mount present + test-read succeeds + Alist
+responding. Already partially covered by the mount watchdog; a dedicated Sentinel TeraBox
+probe is DESIGNED (not yet implemented) — see `13-terabox-playback.md`.
+**Why it works:** Catches "T: down" before Emby starts a transcode that will fail 30
+seconds in, turning a mid-movie failure into a clean pre-play "source unavailable."
+
+### 11.3 Segment-level recovery → VFS cache + rclone retries
+**What it means:** A "transient segment failure" at the Emby layer is a failed VFS chunk
+read underneath. Recovery happens in rclone (retry the chunk fetch), NOT in Emby —
+Emby has no chunk-retry primitive for file inputs. If ffmpeg hits unrecoverable read
+errors mid-transcode, the transcode fails outright.
+**Safe fix + why it works:** `--vfs-cache-mode full` (already set) means warm reads never
+touch the cloud at all; `--vfs-read-ahead 128M` (already set) keeps the pipeline fed
+ahead of the read position; low-level retries absorb blips. Prevention (warm cache) beats
+cure (there is no cure at the Emby layer).
+**Confirmation test:** Play a fully-cached T: movie with the network unplugged — it must
+play through. If it doesn't, the file wasn't actually cached (check `vfs/stats`).
+
+### 11.4 Resolver and metadata caching → rclone dir cache + VFS metadata
+**What it means:** Don't re-query TeraBox for directory listings, attributes, or file IDs
+on every access.
+**Mechanism:** `--dir-cache-time`, `--attr-timeout`, `--vfs-cache-max-age` on the mount.
+**Standing note:** Emby library scans of T: are the heaviest metadata operation in the
+system; keep them scheduled off-hours and never trigger manual full scans of T: during
+viewing hours.
+
+### 11.5 Direct Play preference
+**Why:** Transcoding a T: file makes ffmpeg read the *entire* file through the mount
+(cloud latency on every read) while also writing transcode segments to disk. Direct Play
+reads the file once, sequentially — the kindest possible access pattern for a cloud mount,
+and it removes the transcode-temp disk from the failure chain.
+**Safe fix:** Allow Direct Play for T: library content wherever the client supports the
+codec/container; invoke transcoding only for genuine client incompatibility.
+**Caveat (do not oversell):** Direct Play still stalls if T: drops mid-stream. It shrinks
+the failure surface; it does not remove the cloud dependency. See §11.7.
+
+### 11.6 Source health scoring (DESIGNED)
+**Track:** mount-check latency, chunk-fetch success rate, buffering events on T:
+playbacks, recent failures, sustained throughput. The Sentinel TeraBox probe (future)
+is the collection point; thresholds live in `13-terabox-playback.md`.
+**Use:** Prefer healthy sources automatically — in practice, prefer the local (D:) copy
+when one exists.
+
+### 11.7 Authorized alternate-source fallback (ARCHITECTURAL)
+**Rule:** If the same movie exists on D: (local) and T: (cloud), the local copy is
+authoritative. Emby multi-version handles presentation; operationally, never depend on
+T: as the sole copy of anything Seth cares about (standing rule: T: is best-effort,
+never a single point of failure).
+**Fallback order:** local D: → T: cloud → report unavailable. Automatic per-playback
+source switching inside Emby is NOT native — this is a procedural rule plus a future
+Sentinel capability, not a claim about current behavior.
+
+### 11.8 Adaptive quality
+**Mechanism:** Emby's transcode bitrate ladder already adapts to measured throughput.
+**T:-specific guidance:** Cap the transcode ceiling for T:-sourced content to what the
+cloud link actually sustains (measure sustained throughput first; don't guess). Suggested
+ladder when the source exposes multiple qualities: 1080p → 720p → 480p → 360p.
+
+### 11.9 Playback telemetry
+**Collect:** time-to-first-frame, startup time, buffering events, segment failures, stream
+failures, selected resolution/bitrate, URL refreshes (rclone re-mints), source switches,
+transcoding events, completion/failure.
+**Sources:** Emby PlaybackReporting plugin (installed) for playback events; `rclone rc
+vfs/stats` for cache hit rate; Sentinel evidence logs for probe results.
+
+### 11.10 Pre-warming
+**What it means:** When a movie is selected, do lightweight source validation/resolution
+so playback starts fast on Play.
+**Mechanism:** `rclone rc vfs/refresh` on the file path, or a sequential pre-read to warm
+the VFS cache. The 128M read-ahead already warms implicitly once playback starts;
+explicit pre-warm moves that cost to selection time instead of first-frame time.
+
+**Diagnostic pattern — "T: movie won't play":**
+```
+T: mounted? → test-read OK? → rclone process alive? → Alist responding (127.0.0.1:5244)?
+→ TeraBox session valid? → VFS cache healthy (vfs/stats)? → Emby ffmpeg log: read
+errors (mount layer) vs codec errors (Emby layer)?
+```
+First YES-to-NO transition is the layer to fix. Do not tune Emby for a mount-layer problem.
+
+---
+
 ## Sources
 
 - Emby community — tuner limit / no compatible streams: https://emby.media/community/topic/42954-playback-error-no-compatible-streams-are-currently-available/

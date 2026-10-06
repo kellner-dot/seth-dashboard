@@ -33,6 +33,7 @@ dimensions, and each layer of the chain gets its own verdict.
 | 10 | [Implementation plan](10-implementation-plan.md) | What exists, what is designed, what is blocked, build order |
 | 11 | [Daily reporting](11-daily-reporting.md) | Morning-digest integration, section formats |
 | 12 | [Security](12-security.md) | Credential handling, least privilege, no-secret-logging rules |
+| 13 | [TeraBox playback performance](13-terabox-playback.md) | Cloud-playback reliability spec: URL refresh, preflight, recovery, health scoring, fallback, telemetry |
 | — | [STATUS](STATUS.md) | Current state: verified facts, per-layer implementation state |
 
 ## The four layers in one paragraph
