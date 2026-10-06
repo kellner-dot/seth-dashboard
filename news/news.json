@@ -1,28 +1,14 @@
 {
- "updated": "2026-10-06T00:46:36+0000",
- "updated_ts": 1791247596,
+ "updated": "2026-10-06T02:46:37+0000",
+ "updated_ts": 1791254797,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-     "summary": "Comments",
-     "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Beam: Reflection's 501B open-weight model",
      "summary": "Comments",
      "url": "https://reflection.ai/blog/introducing-beam",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Example.com Just Launched the Biggest Redesign in Decades",
-     "summary": "Comments",
-     "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,9 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+     "title": "AI Tutoring with Khanmigo in a Two-Year School Experiment",
      "summary": "Comments",
-     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+     "url": "https://edworkingpapers.com/ai26-1551",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Example.com Just Launched the Biggest Redesign in Decades",
+     "summary": "Comments",
+     "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Friendship ended with Deno, now Node is my best friend",
+     "summary": "Comments",
+     "url": "https://dbushell.com/2026/10/03/deno-to-node/",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
