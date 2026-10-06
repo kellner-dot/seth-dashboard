@@ -1,28 +1,28 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T02:16:36+0000",
+ "generated_iso": "2026-10-06T02:46:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 22:13:39.123 Info DynamicHlsService-0HNP33BGQDHKC:00000001: ProcessRun 'StreamTranscode 8a3338' Process exited with code 1 - Failed",
+     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
      "c": "err"
     },
     {
-     "t": "2026-10-05 22:13:39.131 Error DynamicHlsService-0HNP33BGQDHKC:00000001: Error processing request",
+     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-05 22:46:05.129 Warn VideoService-0HNP33BGQDHVJ:00000002: AUTH-ERROR: 127.0.0.1 - Access token is invalid or expired.",
      "c": "err"
     },
     {
-     "t": "\t22:13:39.119 [mov,mp4,m4a,3gp,3g2,mj2 @ 0000020096626840] error reading header",
+     "t": "2026-10-05 22:46:05.129 Error VideoService-0HNP33BGQDHVJ:00000002: Access token is invalid or expired.",
      "c": "err"
     }
    ]
@@ -31,7 +31,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Tue Oct  6 02:16:30 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -55,14 +55,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T21:01:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T21:16:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T21:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -76,6 +68,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T22:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T22:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T22:46:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
