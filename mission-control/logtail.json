@@ -1,21 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T03:46:39+0000",
+ "generated_iso": "2026-10-06T04:16:38+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": [
-    {
-     "t": "2026-10-05 23:46:42.517 Info SqliteItemRepository: Saving 28 programs for channel 94686 FailArmy",
-     "c": "err"
-    }
-   ]
+   "lines": []
   },
   {
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Tue Oct  6 04:16:28 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -39,18 +34,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T22:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T22:46:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T23:01:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T23:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -60,6 +43,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T23:46:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T00:01:31-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-05 != today 2026-10-06; pushing fresh schedule",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T00:01:45-04:00 [relay-supervisor] WARN: fresh schedule pushed to relay",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T00:01:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
