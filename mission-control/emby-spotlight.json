@@ -84,7 +84,7 @@
     "Adventure",
     "Fantasy"
    ],
-   "runtime_min": 0,
+   "runtime_min": 125,
    "progress_pct": 0,
    "type": "Movie"
   }
@@ -113,15 +113,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "Emotion",
-  "year": 1966,
+  "name": "Beppie",
+  "year": 1965,
   "genres": [
-   "Drama",
-   "Fantasy"
+   "Documentary"
   ],
-  "runtime_min": 39,
+  "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Experimental short film depicting the life, perhaps real, perhaps a dream, of a young girl named Emi. Emi travels to the city where she encounters her counterpart, Sari, and falls in love with\u2026a vampire?"
+  "overview": "BEPPIE is a moving and disarming portrait of an Amsterdam street urchin. Van der Keuken once described her as follows: 'She was ten years old and the joy of the Achtergracht, where I was living at the time. An Amsterdam "
  }
 }
