@@ -72,7 +72,8 @@ as soon as they are identified.
 | Kavi-mail live updates | IN PROGRESS | Kavi 4 | Cron live | 2026-09-30 | Due 2026-10-08 review | None | MEDIUM |
 | Windham County records request | IN PROGRESS | Kavi 4 | Polite follow-up still owed | 2026-10-05 | Send follow-up | None | MEDIUM |
 | Valley Vista records form | BLOCKED | Seth | Needs DOB/date/signature | 2026-10-05 | Seth completes | Seth | MEDIUM |
-| KAVITV-PLAYBACK-INCIDENT-20261005 | IN PROGRESS | Kavi 4 | ROOT CAUSE CONFIRMED 22:10 EDT: relay 302 target lacks PlaySessionId → Emby BaseHlsService.CreateRequestFromPlaySessionId throws ArgumentNullException → every segment HTTP 400 → ffmpeg "Invalid data found when processing input" → client "Playback failure / server error". Affects all 3 channels (shared relay path). Failure also present 18:43–18:51 EDT. Fix: relay does PlaybackInfo per request, embeds PlaySessionId in 302 (mirrors proven sentinel recipe). Claim filed 22:00 EDT | 2026-10-05 | Apply + verify relay fix, then Seth client test | None | CRITICAL |
+| Emby troubleshooting knowledge base | VERIFIED | Kavi 4 | Written 2026-10-05 ~22:16 EDT: `kavi-team/EMBY-KNOWLEDGE-BASE.md` (~46KB, 10 topics + decision tree + log-correlation table, claims labeled CONFIRMED/COMMUNITY-REPORTED/INFERRED with sources). Standing rule: check KB before reinventing any Emby investigation. Tonight's incident is its first entry (PlaySessionId/400 pattern). Stale sentinel sessions checked 22:2x: 6 idle, none holding tuner slots — no leak currently | 2026-10-05 | Grow with each future Emby failure | None | HIGH |
+| KAVITV-PLAYBACK-INCIDENT-20261005 | IN PROGRESS — FIX APPLIED, VERIFYING | Kavi 4 | Root cause CONFIRMED + fixed 22:1x EDT: relay now mints PlaySessionId per request (backup kept); watchdog probe fixed (deep-health→health, restart storms stopped 22:16). Chain verified: experimental + independent segments HTTP 200; horror 302 OK. Sentinel full re-run in progress. FINAL ACCEPTANCE = Seth's client test | 2026-10-05 | Seth tests playback on Fire TV / Web | Seth's test | CRITICAL |
 | T: Movies streaming-capacity investigation | QUEUED | Kavi 4 | Claimed 2026-10-05 ~22:10 EDT per Seth. Full path audit required: T:→TeraBox→rclone/cache→Emby→FFmpeg→client. Capacity tests (startup/throughput/multi-stream) DEFERRED until KaviTV incident resolved (would interfere). GREEN/YELLOW/RED classification after measurements | — | Begin after incident resolved | KaviTV incident (CRITICAL) | HIGH |
 | C: UbuWeb playability/programming-capacity investigation | QUEUED | Kavi 4 | Claimed 2026-10-05 ~22:10 EDT per Seth. Audit: C: files→links→Emby library→metadata→playback; link integrity repair queue; GREEN/YELLOW/RED after measurements. Playback tests DEFERRED until KaviTV incident resolved | — | Begin after incident resolved | KaviTV incident (CRITICAL) | MEDIUM |
 | Fire Stick project | PAUSED | TEAM | Vega OS — sideload impossible | 2026-09-27 | None | Platform limitation | LOW |
@@ -274,15 +275,89 @@ NEXT_CHECKPOINT: 2026-10-06 morning digest
 PROJECT: KAVITV-PLAYBACK-INCIDENT-20261005
 TASK: INCIDENT-INVESTIGATION
 OWNER: KAVI-4
-STATUS: IN_PROGRESS
+STATUS: IN_PROGRESS — ROOT CAUSE FIXED, VERIFICATION UNDERWAY
 CLAIMED: 2026-10-05 22:00 EDT
 SEVERITY: CRITICAL
 SYMPTOM: Seth reports Emby playback failures on all 3 KaviTV channels
   (Horror: "Playback failure / server error"; Experimental: "Playback error";
   Independent: "Playback error / server error")
-NOTE: Automated Sentinel previously VERIFIED; treating human observation as
-  new production evidence. Investigating discrepancy between synthetic checks
-  and real client playback. Do NOT redeclare VERIFIED without evidence.
+
+ROOT CAUSE (CONFIRMED 2026-10-05 ~22:10 EDT):
+  The relay's 302 target was a session-less Emby HLS URL
+  (/emby/Videos/{id}/master.m3u8?api_key=... with NO PlaySessionId).
+  Emby's LiveTV follows the 302 but does NOT create an HLS session natively
+  (the relay's design assumption, stated in its own comments, was false).
+  Segment requests arrived with empty PlaySessionId ->
+  Emby.Server.MediaEncoding.Api.Hls.BaseHlsService.CreateRequestFromPlaySessionId
+  threw System.ArgumentNullException (Value cannot be null, Parameter 'key') ->
+  HTTP 400 on EVERY segment -> ffmpeg "Invalid data found when processing
+  input" -> client "Playback failure / server error".
+  Evidence: embyserver.txt error storms 18:43-18:51 + 21:56-21:59 EDT;
+  ffmpeg-transcode logs show "HTTP error 400 Bad Request / Failed to open
+  segment N" for all segments. Same failure mode was observed 2026-10-04
+  (relay served playlist directly); the 302 "fix" had the identical flaw.
+  The automated Sentinel never caught it: it does its own PlaybackInfo and
+  uses a valid session, so it never exercised the LiveTV->302->session-less
+  path. This is the discrepancy Seth flagged.
+
+RECOVERY (applied 2026-10-05 ~22:1x EDT, reversible):
+  1. relay.py: on each /kavitv/live/<slug>.m3u8 request the relay now calls
+     Emby PlaybackInfo for the current program item and embeds the returned
+     PlaySessionId in the 302 target (mirrors the proven sentinel recipe).
+     PlaybackInfo failure -> falls back to session-less 302 (no worse than
+     before). Backup: relay.py.bak-20261005-psidfix. Patch script kept at
+     ~/workspace/kavi-team/patch_relay_psid.py.
+  2. kavitv-watchdog.ps1: health probe corrected from /api/deep-health
+     (does not exist in relay v0.1.0 -> permanent false RELAY-DOWN ->
+     3 forced relay restarts/hour since 17:41 EDT) to /api/health.
+     Verified: 22:16 cycle shows relay=True, restart storms stopped.
+     Backup: kavitv-watchdog.ps1.bak-20261005-healthfix.
+
+VERIFICATION (chain-level, 2026-10-05 ~22:15 EDT):
+  - Horror: 302 carries PlaySessionId (VERIFIED). Segment chain verified
+    at the relay/Emby layer.
+  - Experimental (.strm -> external HLS): 302 psid OK; 980 segments;
+    segment 0 HTTP 200 (106,220 bytes). CHAIN VERIFIED.
+  - Independent (Atanarjuat AVI on T:, tail readable): 302 psid OK;
+    1655 segments; segment 0 HTTP 200 (287,640 bytes). CHAIN VERIFIED.
+  - No new ArgumentNullException storms from LiveTV opens since fix
+    (22:08/22:12/22:13 storms were Kavi 4's own synthetic tests, no
+    LiveTV channel opens then).
+  - Sentinel full test re-run: COMPLETE 2026-10-05 ~22:2x EDT — 3/3 PASS
+    (infra=PASS, emby=PASS, playback=PASS on horror, experimental,
+    independent). Note: sentinel playback uses its own PlaybackInfo session
+    (as before); the LiveTV->302 path fix was verified separately via chain
+    tests above.
+  - FINAL ACCEPTANCE (still owed): Seth's real client playback on Fire TV /
+    Emby Web for all three channels.
+  - 2026-10-05 ~22:25 EDT (Seth): confirmed the investigation conclusions
+    (session-less 302 root cause; Sentinel false-negative; watchdog probe fix;
+    experimental/independent chain-verified).
+    RELAY FREEZE in effect: no relay changes while he tests, unless a new
+    failure requires it. His test plan: Experimental, Independent, Horror —
+    noting playback start, startup delay, buffering/stalls, continuation past
+    first segment, and errors.
+  - TITLE DISCREPANCY (Seth-ordered correction 22:35 EDT): The "Hokum on
+    Horror" claim was UNVERIFIED background info from an unrelated TeraBox
+    403 failure — REMOVED. Provenance: timeline.json→Horror=Asylum;
+    kavitv.xml EPG→Horror=Invocation of My Demon Brother;
+    kavitv.xml EPG→Experimental upcoming=Jackie; client=Jackie (no active
+    session to prove path). EPG/timeline disagreement = SEPARATE unresolved
+    metadata issue. Do NOT claim Jackie was served by Horror. Relay frozen
+    until next controlled real-client test. If discrepancy reproduces,
+    capture: Emby channel ID, tuner/session ID, selected channel, EPG event,
+    relay target, HLS session, actual media served.
+
+REMAINING:
+  - Seth's real client playback test (Fire TV / Emby Web) — the final
+    acceptance. Do NOT mark VERIFIED until he confirms.
+  - EPG/timeline metadata disagreement (Horror: timeline=Asylum vs
+    EPG=Invocation of My Demon Brother) — separate unresolved issue, not
+    evidence of playback failure. Do not touch relay/EPG/timeline until
+    controlled real-client test.
+  - Watch: relay-created PlaySessionIds accumulate per channel open;
+    Emby expires idle sessions; monitor.
+  - Emby KB research (subagent) + incident writeup for the KB.
 ```
 
 ```
@@ -353,6 +428,26 @@ RELEASED: 2026-10-05 ~19:30 EDT
   user` → kellner-dot; rvg private with push+admin. Transient device material
   shredded. seth-dashboard already at 4d7a05f (no re-push); rvg push verified
   working but no push made (awaiting Seth's call — would duplicate docs).
+- Push b92093b verified 2026-10-05 ~22:12 EDT (seth-dashboard main): Sentinel
+  acceptance + monitoring baseline + Emby knowledge base (3 files:
+  kavi-team/KAVI-TEAM-STATE.md, kavi-team/EMBY-KNOWLEDGE-BASE.md,
+  kavitv/sentinel/STATUS.md). Remote HEAD confirmed via API. No secrets in
+  commit (sweep clean).
+- Push e7589e0 verified 2026-10-05 ~22:30 EDT (seth-dashboard main): TeraBox playback
+  performance specification (3 files: kavi-team/EMBY-KNOWLEDGE-BASE.md §11,
+  kavitv/sentinel/13-terabox-playback.md new, kavitv/sentinel/README.md map).
+  Remote HEAD confirmed via API. No secrets in commit (sweep clean).
+- TeraBox playback spec: SPECIFICATION status (not implemented). 10-point plan mapped
+  honestly to the rclone/VFS layer (no fictional HLS manifests); IMPLEMENTED/DESIGNED/
+  ASPIRATIONAL labels; 7-step recovery sequence; acceptance criteria tied to Sentinel
+  acceptance. Implementation + controlled outage test required before "complete."
+- Standing rule (Seth, 2026-10-05 ~22:35 EDT): Savant-Level Technical Research —
+  `kavi-team/SAVANT-RESEARCH-RULE.md`. Applies automatically to future KaviTV/Emby/
+  Sentinel/server/networking/automation/playback problems. Queued for next push.
+- OPEN: snapshot/backup script duplication — `~/workspace/kavi-team/kavitv-snapshot.ps1`
+  (19-line, background job) vs `~/workspace/goals/kavitv-emby-logo/files/kavitv-snapshot.ps1`
+  (deployed, weekly task). Do NOT push either until deduplicated. Same check
+  needed for emby-config-backup.ps1.
 - Live restore test: PAUSED/NOT AUTHORIZED — do not perform.
 - Layer 4 visual/audio KaviTV test: PENDING HUMAN CHECK.
 - Git blocker resolved 2026-10-05 ~21:53 EDT: Seth directed retrieval from the
