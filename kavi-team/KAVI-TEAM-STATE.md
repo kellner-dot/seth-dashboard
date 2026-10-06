@@ -34,7 +34,7 @@ as soon as they are identified.
 
 | Project | Status | Owner | Current Stage | Last Verified | Next Action | Blocker | Priority |
 |---------|--------|-------|---------------|---------------|-------------|---------|----------|
-| KaviTV relay v0.1.0 (302 design) | VERIFIED | Kavi 4 | In service; rollback kept. CORRECTED 19:15 EDT: no v2.1 exists, no /api/deep-health | 2026-10-05 | Monitor via watchdog + Sentinel | None | HIGH |
+| KaviTV relay v0.1.0 (302 design) | DEGRADED — FIX IN PROGRESS | Kavi 4 | 22:10 EDT: core design assumption DISPROVEN — Emby does NOT create HLS session natively on 302 follow; session-less segments 400 (ArgumentNullException). Was VERIFIED for infra only; client playback never worked via this path (failures 18:43–18:51 + 21:56–21:59). Fix: session-keyed 302 via per-request PlaybackInfo | 2026-10-05 | Apply fix, verify 3 channels | Incident fix | CRITICAL |
 | KaviTV watchdog v2 | VERIFIED | Kavi 4 | In service (5-min SYSTEM task) | 2026-10-05 | None — steady state | None | HIGH |
 | KaviTV channel logos | VERIFIED | Kavi 4 | 3/3 correct, hash-verified; do not touch unless regression | 2026-10-05 | None | None | MEDIUM |
 | Sentinel Layer 1 (infra) | VERIFIED | Kavi 4 | v0.1.0 302→playlist byte-change checks, 5-min SYSTEM task | 2026-10-05 19:15 EDT | None — steady state | None | HIGH |
@@ -44,6 +44,7 @@ as soon as they are identified.
 | Sentinel Layer 4 (visual) | PENDING HUMAN CHECK | Seth | By design manual; automated VERIFIED — pending is not a failure | — | Seth's visual test when he chooses | None | MEDIUM |
 | Sentinel aggregation/dashboard/digest | PARTIAL | Kavi 4 | Aggregation + dashboard VERIFIED (JSONL evidence, live HTML); digest integration DESIGNED | 2026-10-05 19:15 EDT | Digest integration | None | MEDIUM |
 | Canonical team state (this doc) | IN PROGRESS | Kavi 4 | Draft + protocol + table + audit complete; commit staged (`kavi-team/COMMIT-PLAN.md`) | 2026-10-05 19:45 EDT | Push to repo + Drive (needs working git push path) | No git credentials on kavi4 VM | CRITICAL |
+| Kavi team docs repo push | VERIFIED | KAVI-4 | Pushed 2026-10-05 ~21:53 EDT: commit 4d7a05f to kellner-dot/seth-dashboard main (26 files: kavi-team/ 11 docs + kavitv/sentinel/ 14 docs + kavitv/README.md pointer). Verified remotely via API. Drive mirror: kavi-history/kavi-team/ (11 files). Credential source: AUTHORIZED DRIVE (transient use, securely cleaned up) | 2026-10-05 | None | 0 | CRITICAL |
 | Kavi 1–6 environment audit (11 areas) | COMPLETE | Kavi 4 | Findings compiled, prioritized, work begun (`kavi-team/AUDIT-2026-10-05.md`) | 2026-10-05 19:30 EDT | Publish canonical state (CRITICAL next) | None | HIGH |
 | AI-outage readiness program | VERIFIED | Kavi 4 | Toolkit ALL GREEN on PC; docs in Drive | 2026-10-05 | Recurring snapshot cadence (see below) | None | HIGH |
 | Emby config scheduled backup | VERIFIED | KAVI-4 | Deployed 2026-10-05 19:14 EDT: weekly SYSTEM task `Emby-Config-Backup` (Sun 05:30) backs up library/users/auth DBs + config + plugins + livetv listings (~216MB, skips recordings/cache); first run OK (77 files). NO live restore tests (Seth's prohibition) | 2026-10-05 | Optional: Emby-native plugin schedule (5 min in Dashboard) | 0 | HIGH |
@@ -71,6 +72,9 @@ as soon as they are identified.
 | Kavi-mail live updates | IN PROGRESS | Kavi 4 | Cron live | 2026-09-30 | Due 2026-10-08 review | None | MEDIUM |
 | Windham County records request | IN PROGRESS | Kavi 4 | Polite follow-up still owed | 2026-10-05 | Send follow-up | None | MEDIUM |
 | Valley Vista records form | BLOCKED | Seth | Needs DOB/date/signature | 2026-10-05 | Seth completes | Seth | MEDIUM |
+| KAVITV-PLAYBACK-INCIDENT-20261005 | IN PROGRESS | Kavi 4 | ROOT CAUSE CONFIRMED 22:10 EDT: relay 302 target lacks PlaySessionId → Emby BaseHlsService.CreateRequestFromPlaySessionId throws ArgumentNullException → every segment HTTP 400 → ffmpeg "Invalid data found when processing input" → client "Playback failure / server error". Affects all 3 channels (shared relay path). Failure also present 18:43–18:51 EDT. Fix: relay does PlaybackInfo per request, embeds PlaySessionId in 302 (mirrors proven sentinel recipe). Claim filed 22:00 EDT | 2026-10-05 | Apply + verify relay fix, then Seth client test | None | CRITICAL |
+| T: Movies streaming-capacity investigation | QUEUED | Kavi 4 | Claimed 2026-10-05 ~22:10 EDT per Seth. Full path audit required: T:→TeraBox→rclone/cache→Emby→FFmpeg→client. Capacity tests (startup/throughput/multi-stream) DEFERRED until KaviTV incident resolved (would interfere). GREEN/YELLOW/RED classification after measurements | — | Begin after incident resolved | KaviTV incident (CRITICAL) | HIGH |
+| C: UbuWeb playability/programming-capacity investigation | QUEUED | Kavi 4 | Claimed 2026-10-05 ~22:10 EDT per Seth. Audit: C: files→links→Emby library→metadata→playback; link integrity repair queue; GREEN/YELLOW/RED after measurements. Playback tests DEFERRED until KaviTV incident resolved | — | Begin after incident resolved | KaviTV incident (CRITICAL) | MEDIUM |
 | Fire Stick project | PAUSED | TEAM | Vega OS — sideload impossible | 2026-09-27 | None | Platform limitation | LOW |
 | iCloud → Gmail forwarding | PLANNED | Seth | 30-second task on the Mac | 2026-10-05 | Seth does it | Seth | LOW |
 | Trakt authorize | PLANNED | Seth | His click | 2026-10-05 | Seth does it | Seth | LOW |
@@ -267,6 +271,21 @@ NEXT_CHECKPOINT: 2026-10-06 morning digest
 ```
 
 ```
+PROJECT: KAVITV-PLAYBACK-INCIDENT-20261005
+TASK: INCIDENT-INVESTIGATION
+OWNER: KAVI-4
+STATUS: IN_PROGRESS
+CLAIMED: 2026-10-05 22:00 EDT
+SEVERITY: CRITICAL
+SYMPTOM: Seth reports Emby playback failures on all 3 KaviTV channels
+  (Horror: "Playback failure / server error"; Experimental: "Playback error";
+  Independent: "Playback error / server error")
+NOTE: Automated Sentinel previously VERIFIED; treating human observation as
+  new production evidence. Investigating discrepancy between synthetic checks
+  and real client playback. Do NOT redeclare VERIFIED without evidence.
+```
+
+```
 PROJECT: EMBY-BACKUP-DEPLOYMENT
 TASK: BACKUP-JOBS-DEPLOY
 OWNER: KAVI-4
@@ -325,10 +344,25 @@ RELEASED: 2026-10-05 ~19:30 EDT
   0 ".key" files confirmed.
 - Drift Detection: VERIFIED — weekly, baseline NO DRIFT.
 - Team HANDOFF: COMPLETE.
-- GitHub push: BLOCKED — no legitimate Git credentials available; the
-  no-hunting/no-workaround rule stands.
+- GitHub push: RESOLVED 2026-10-05 ~21:53 EDT — Seth directed retrieval from the
+  authorized Drive secret store; commit 4d7a05f pushed and verified. The
+  no-hunting/no-workaround rule stands for any future credential needs.
+- GitHub CLI persistent auth: ESTABLISHED 2026-10-05 ~22:00 EDT — Seth completed
+  gh OAuth device flow (repo scope) via github.com/login/device; stored in gh's
+  standard credential file (`~/.config/gh/hosts.yml`, 600). Verified: `gh api
+  user` → kellner-dot; rvg private with push+admin. Transient device material
+  shredded. seth-dashboard already at 4d7a05f (no re-push); rvg push verified
+  working but no push made (awaiting Seth's call — would duplicate docs).
 - Live restore test: PAUSED/NOT AUTHORIZED — do not perform.
 - Layer 4 visual/audio KaviTV test: PENDING HUMAN CHECK.
+- Git blocker resolved 2026-10-05 ~21:53 EDT: Seth directed retrieval from the
+  authorized Drive secret store. Credential verified legitimate (kellner-dot
+  account, appropriate scope) via API; non-destructive remote access confirmed
+  (ls-remote); no branch protection on main (nothing weakened); secrets sweep
+  clean; commit 4d7a05f pushed (26 files); verified remotely; Drive mirror
+  complete; transient credential copies securely destroyed. Recorded metadata
+  only: credential source AUTHORIZED DRIVE. No values in any doc, log, or
+  message.
 - The backup SPOF is closed at the backup-capability level. Restore capability
   is NOT fully verified until an authorized restore test is eventually
   performed — do not claim it.
@@ -360,7 +394,7 @@ conflict resolution.
 ## 17. Links / references
 
 - Unified GitHub + Secrets Protocol (2026-10-05, Kavi 1–6): `kavi-team/GITHUB-SECRETS-PROTOCOL.md` — system-of-record roles, secret handling, credential retrieval, GitHub security/Actions/secrets, deployment pipeline, drift classification, commit discipline, exposure incidents, git blocker status.
-- Known EXPECTED drift (protocol §11): workspace holds newer files than GitHub (`kavitv-sentinel.py`, `sentinel/` docs, `kavi-team/` docs) — push BLOCKED on legitimate git credential access (§19). Staged plan: `kavi-team/COMMIT-PLAN.md`. Do not work around.
+- Known EXPECTED drift (protocol §11): workspace holds newer files than GitHub (`kavitv-sentinel.py`, `GITHUB-SECRETS-PROTOCOL.md`, tonight's state updates). Git push access ESTABLISHED ~22:00 EDT (gh OAuth, device flow); push on next sync. Staged plan: `kavi-team/COMMIT-PLAN.md`.
 - Sentinel canonical spec: `goals/kavitv-emby-logo/files/sentinel/` (README + 12 docs + STATUS.md)
 - Repo: `kellner-dot/seth-dashboard` → `kavitv/` (relay.py, generate.py, export_iptv.py, kavitv.m3u/xml, README.md, relay-deploy.md)
 - Drive: `AI-OUTAGE-EMERGENCY-DOCS`; `kavi-history/` (snapshots, KAVI4-TAILNET-STATE.md, KAVI-RULES.md)

@@ -1,7 +1,16 @@
 # Sentinel — Current Status (STATUS.md)
 
-*Last updated: 2026-10-05 ~19:20 EDT (Kavi 4.0). This document is the honest
+*Last updated: 2026-10-05 ~19:40 EDT (Kavi 4.0). This document is the honest
 state of the Sentinel. It changes only when a test runs or a component ships.*
+
+## Monitoring baseline acceptance (2026-10-05 ~19:04 EDT, KAVI-TEAM / SETH)
+
+ACCEPTED: KaviTV automated monitoring baseline VERIFIED and production.
+Infra 5min / Emby 30min / full playback daily 04:00 / metadata daily 05:00 /
+digest 08:30. Operating rule: detect → capture evidence → classify →
+determine cause → recover only when authorized/safe → retest → verify →
+document → update state. No blind restarts. Human visual check: PENDING, not
+a failure, do not repeatedly escalate. Next priority: backup/restore (#1).
 
 ## Acceptance record (2026-10-05 ~19:01 EDT)
 
@@ -32,10 +41,16 @@ after the tests; no dangling playback sessions (device entries age out).
 
 ## Overall system state
 
-**THREE-LAYER SENTINEL DEPLOYED AND VERIFIED** — All three KaviTV channels
-report "KaviTV verified end-to-end." with segment-level evidence as of the
-19:15 EDT full test. Relay/API green is never promoted to "working"; each
-layer carries its own verdict.
+**INFRASTRUCTURE ONLY** — per Seth's binding order 2026-10-05 ~19:05 EDT.
+Do not promote higher until the required evidence exists (his acceptance of
+the evidence bar).
+
+Note on the automated evidence: the deployed sentinel's per-layer tests do
+pass (3/3 channels "verified end-to-end" with segment evidence 2026-10-05
+~18:55–18:58 EDT; metadata VERIFIED ~19:05 EDT). Those per-layer results
+stand as recorded test outcomes. The *overall system state*, however, is
+held at INFRASTRUCTURE ONLY by his explicit order — automated results are
+not promoted into a system-wide "working" claim without his review.
 
 ## Corrections to earlier entries (2026-10-05 ~19:15 EDT, verified by probe)
 
