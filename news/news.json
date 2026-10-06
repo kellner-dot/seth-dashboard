@@ -1,14 +1,42 @@
 {
- "updated": "2026-10-06T12:46:36+0000",
- "updated_ts": 1791290796,
+ "updated": "2026-10-06T14:46:39+0000",
+ "updated_ts": 1791297999,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Mistral Large 4",
+     "summary": "Comments",
+     "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Mistral Large 4: \"Le Chonk\"",
+     "summary": "Comments",
+     "url": "https://mistral.ai/news/mistral-large-4/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Release of Polars 2.0",
+     "summary": "Comments",
+     "url": "https://pola.rs/posts/release-polars-2/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Nobel Prize in Physics goes to Francis Halzen",
      "summary": "Comments",
      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+     "summary": "Comments",
+     "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
      "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,32 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "Gleam doesn't compile to Erlang source anymore",
-     "summary": "Comments",
-     "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+     "title": "Big Oil asks Supreme Court to kill climate lawsuits before trial",
+     "summary": "Oil companies say federal law should block state climate deception claims.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/",
      "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Beam: Reflection's 501B open-weight model",
-     "summary": "Comments",
-     "url": "https://reflection.ai/blog/introducing-beam",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Release of Polars 2.0",
-     "summary": "Comments",
-     "url": "https://pola.rs/posts/release-polars-2/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
-     "summary": "Comments",
-     "url": "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
@@ -81,13 +88,6 @@
      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
      "time": "Mon, 05 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
-     "summary": "The tool can free up over 12GB of storage.",
-     "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -102,9 +102,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
-     "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
-     "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
+     "title": "Ship sinks and crew missing after Black Sea drone attack",
+     "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
+     "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 06 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Lawyer for one of Cornell 7 calls for special prosecutor to be removed over previous comments",
+     "summary": "New York Attorney General Letitia James is investigating the rape allegations, but the lawyer says comments she made on the case should disqualify her.",
+     "url": "https://www.bbc.co.uk/news/articles/c9p8gxygvpg6o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
@@ -123,18 +130,18 @@
      "source": "BBC World"
     },
     {
-     "title": "Ship sinks and crew missing after Black Sea drone attack",
-     "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
-     "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+     "title": "Kenya confirms its first Ebola death as outbreak spreads",
+     "summary": "The patient had been living in DR Congo, where more than 4,000 people have died from the disease this year.",
+     "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
-     "summary": "Anojan Sivarasa faces execution after he was found guilty of blasphemy over a Facebook comment.",
-     "url": "https://www.bbc.co.uk/news/articles/cq14d438vx24o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
+     "title": "Here are the finalists for the 2026 National Book Awards",
+     "summary": "Three-time National Book Award finalist Edwidge Danticat and debut novelist Morgan Thomas are up for the fiction prize. Nonfiction books cover the prison system and music, and queer parenthood.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5991463/2026-national-book-award-shortlist-finalists",
+     "time": "Tue, 06 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "What to know about nationwide protests in India over voter list changes",
@@ -168,13 +175,6 @@
      "title": "A history of presidents naming things after themselves (It's short. They rarely do)",
      "summary": "While Trump pushes to get his name on the Kennedy Center and other public sites, history shows that sitting presidents have almost always avoided putting their brands on government assets.",
      "url": "https://www.npr.org/2026/10/06/nx-s1-5986321/kennedy-center-trump-naming-washington",
-     "time": "Tue, 06 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "What voters in 6 key states could tell us about the 2026 midterms",
-     "summary": "Morning Edition is heading to Maine, Texas, North Carolina, Georgia, Ohio and Michigan to hear what voters say is shaping their choices ahead of the midterm elections.",
-     "url": "https://www.npr.org/2026/10/06/g-s1-146559/morning-edition-2026-midterms-election-voters-states",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,20 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Lorenzo Senni Returns With First Album in Six Years",
+     "summary": "\u201cArt Life & Skateboarding\u201d leads the producer\u2019s Warp comeback All Ages, which features Xiu Xiu\u2019s Jamie Stewart",
+     "url": "https://pitchfork.com/story/lorenzo-senni-returns-with-first-album-in-six-years/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Deerhunter\u2019s Bradford Cox and Lockett Pundt Reuniting for Big Ears 2027",
+     "summary": "Nirosta Steel, the Roots, Jeff Tweedy, Robert Glasper, and Weyes Blood will also play the Knoxville festival",
+     "url": "https://pitchfork.com/story/jeff-tweedy-robert-glasper-weyes-blood-to-play-big-ears-2027/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Slayyyter Announces Wor$t Man in America",
      "summary": "The companion to her 2026 standout Wor$t Girl in America",
      "url": "https://pitchfork.com/story/slayyyter-reveals-worst-man-in-america-album/",
@@ -256,20 +270,6 @@
      "summary": "The British trio will make stops in New York, Los Angeles, Paris, London, and more",
      "url": "https://pitchfork.com/story/flo-announces-therapy-at-the-club-north-america-and-europe-tour/",
      "time": "Mon, 05 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Phoebe Bridgers, Massive Attack, Caroline Polachek to Headline Primavera 2027",
-     "summary": "Pavement, Robyn, Turnstile, Skrillex, Doechii, Fontaines D.C., FKA twigs, and Hayley Williams are also among the acts",
-     "url": "https://pitchfork.com/story/phoebe-bridgers-massive-attack-caroline-polachek-to-headline-primavera-2027/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Turnstile and Taylor Swift Shared the SNL Stage",
-     "summary": "The Baltimore hardcore band were the musical guest, while Swift made a surprise appearance as Dakota Johnson\u2019s \u201cliteral therapist\u201d",
-     "url": "https://pitchfork.com/story/turnstile-and-taylor-swift-both-dropped-by-snl-last-night/",
-     "time": "Sun, 04 Oct 2026",
      "source": "Pitchfork"
     }
    ]
