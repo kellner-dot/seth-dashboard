@@ -1,20 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T17:46:37+0000",
+ "generated_iso": "2026-10-06T18:16:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-06 13:23:17.534 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-06 13:23:35.047 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-06 13:23:52.414 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 13:55:33.362 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -23,7 +15,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Tue Oct  6 18:01:45 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -47,14 +39,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T12:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T12:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T13:01:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -68,6 +52,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T13:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T14:01:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T14:16:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
