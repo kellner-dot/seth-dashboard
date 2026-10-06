@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-06T04:46:36+0000",
- "updated_ts": 1791261996,
+ "updated": "2026-10-06T06:46:35+0000",
+ "updated_ts": 1791269195,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Why Common Lisp is now the best programming language",
-     "summary": "Comments",
-     "url": "https://www.vivienhenz.com/common-lisp",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Beam: Reflection's 501B open-weight model",
      "summary": "Comments",
      "url": "https://reflection.ai/blog/introducing-beam",
      "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Resurrecting iChat Audio and Video Conferencing",
+     "summary": "Comments",
+     "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+     "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -34,16 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Dust: Pretraining Transformers Without Backpropagation",
+     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
      "summary": "Comments",
-     "url": "https://qlabs.sh/research/dust",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+     "title": "Dust: Pretraining Transformers Without Backpropagation",
      "summary": "Comments",
-     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+     "url": "https://qlabs.sh/research/dust",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -130,11 +130,18 @@
      "source": "BBC World"
     },
     {
-     "title": "Trump says he will stop using taxpayer funds for ads after bipartisan pushback",
-     "summary": "The ads, which tout Trump and his policies, could have violated US laws barring public government funds being spent on political advertising.",
-     "url": "https://www.bbc.co.uk/news/articles/cm9qzlvpqex9o?at_medium=RSS&at_campaign=rss",
+     "title": "Yemeni military says it has 'secured' Red Sea waterway",
+     "summary": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait.",
+     "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Jim Bakker, who built 'PTL Club' televangelism empire, has died at 86",
+     "summary": "Jim Bakker, along with his first wife Tammy Faye built an evangelical empire around the hugely successful \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146603/obit-jim-bakker",
+     "time": "Tue, 06 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "The iconic Arthur Read made his TV debut 30 years ago",
@@ -168,13 +175,6 @@
      "title": "Imran Khan supporters march in Pakistan to demand his release after talks failed",
      "summary": "Talks between Khan's party and the government failed two days ago. Besides Khan's release, protesters demand his transfer to a hospital and family visits.",
      "url": "https://www.npr.org/2026/10/05/g-s1-146408/imran-khan-supporters-march-in-pakistan-to-demand-his-release-after-talks-failed",
-     "time": "Mon, 05 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff",
-     "summary": "The Supreme Court is set to hear a blockbuster climate change case that could affect more than just climate issues. And, Brazil's presidential race is too close to call.",
-     "url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
      "time": "Mon, 05 Oct 2026",
      "source": "NPR News"
     }
