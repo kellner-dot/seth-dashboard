@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-05T22:46:40+0000",
- "updated_ts": 1791240400,
+ "updated": "2026-10-06T00:46:36+0000",
+ "updated_ts": 1791247596,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+     "summary": "Comments",
+     "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Beam: Reflection's 501B open-weight model",
      "summary": "Comments",
@@ -13,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Dust: Pretraining Transformers Without Backpropagation",
+     "title": "Example.com Just Launched the Biggest Redesign in Decades",
      "summary": "Comments",
-     "url": "https://qlabs.sh/research/dust",
+     "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,6 +34,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Dust: Pretraining Transformers Without Backpropagation",
+     "summary": "Comments",
+     "url": "https://qlabs.sh/research/dust",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
      "summary": "Comments",
      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
@@ -34,18 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "Web Search API",
-     "summary": "Comments",
-     "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+     "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+     "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+     "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
      "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Competitive Programmer's Handbook (2018) [pdf]",
-     "summary": "Comments",
-     "url": "https://cses.fi/book/book.pdf",
-     "time": "Sat, 03 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
@@ -79,13 +86,6 @@
      "title": "Russian drones strike Ukraine\u2019s data centers by exploiting air defense gaps",
      "summary": "Russian attacks on Internet, phone services threaten Ukraine\u2019s wartime economy.",
      "url": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "F1 in Bahrain... in Malaysia: The race needed a software update to start",
-     "summary": "A software bug waylaid half the field and required a race reboot.",
-     "url": "https://arstechnica.com/cars/2026/10/f1-in-bahrain-in-malaysia-the-race-needed-a-software-update-to-start/",
      "time": "Mon, 05 Oct 2026",
      "source": "Ars Technica"
     }
