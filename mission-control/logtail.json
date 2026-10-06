@@ -1,12 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T13:16:40+0000",
+ "generated_iso": "2026-10-06T13:46:36+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-06 09:15:55.815 Error App: Error in ffprobe",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
+     "c": "err"
+    },
+    {
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001c3e5495e40] error reading header",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 09:43:37.908 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -18,15 +26,23 @@
      "c": "err"
     },
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000132e76d5e40] error reading header",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 0000019d53fd5e40] error reading header",
      "c": "err"
     },
     {
-     "t": "2026-10-06 09:15:56.387 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 09:43:58.102 Error App: Error in ffprobe",
      "c": "err"
     },
     {
-     "t": "2026-10-06 09:15:58.455 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
+     "c": "err"
+    },
+    {
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001f9e9de5e40] error reading header",
      "c": "err"
     }
    ]
@@ -59,14 +75,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T08:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T08:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T08:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -80,6 +88,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T09:16:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T09:31:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T09:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
