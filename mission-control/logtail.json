@@ -1,41 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T05:16:37+0000",
+ "generated_iso": "2026-10-06T05:46:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
+     "t": "\t01:45:10.957 [http @ 00000250741dde40] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000228d4d45e40] error reading header",
+     "t": "\t01:45:10.957 [hls @ 000002507291c9c0] Failed to open segment 6 of playlist 0",
      "c": "err"
     },
     {
-     "t": "2026-10-06 01:10:41.183 Error App: Error in validateChildren for 21433 D:\\TV Shows",
+     "t": "\t01:45:10.957 [http @ 00000250741dde40] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "\t01:45:10.957 [hls @ 000002507291c9c0] Failed to open segment 7 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
+     "t": "\t01:45:10.960 [http @ 00000250741dde40] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "2026-10-06 01:10:42.672 Error App: Error in TheTVDB",
+     "t": "\t01:45:10.960 [hls @ 000002507291c9c0] Failed to open segment 8 of playlist 0",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "\t01:45:10.960 [http @ 00000250741dde40] HTTP error 400 Bad Request",
      "c": "err"
     },
     {
-     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
+     "t": "\t01:45:10.960 [hls @ 000002507291c9c0] Failed to open segment 9 of playlist 0",
      "c": "err"
+    },
+    {
+     "t": "\t01:45:10.961 [http @ 00000250741dde40] HTTP error 400 Bad Request",
+     "c": "err"
+    },
+    {
+     "t": "\t01:45:10.961 [hls @ 000002507291c9c0] Failed to open segment 10 of playlist 0",
+     "c": "err"
+    },
+    {
+     "t": "\t01:45:10.961 [hls @ 000002507291c9c0] Error when loading first segment 'http://10.0.0.98:8096/emby/Videos/215127/hls1/main/0.ts?PlaySessionId='",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 01:45:11.004 Info DynamicHlsService-0HNP33BGQEC5G:00000036: http/1.1 Response 500 to \u00e2\u20ac\u0152\u00e2\u20ac\u008d\u00e2\u20ac\u008d10.0.0.151\u00e2\u20ac\u0152. Time: 210ms. GET http://\u00e2\u20ac\u0152\u00e2\u20ac\u008d",
+     "c": "ok"
     }
    ]
   },
@@ -43,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Tue Oct  6 05:16:26 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] Tue Oct  6 05:46:29 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -67,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T00:01:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T00:16:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T00:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -88,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T01:16:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T01:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T01:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
