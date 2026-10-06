@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-06T08:46:39+0000",
- "updated_ts": 1791276399,
+ "updated": "2026-10-06T10:46:38+0000",
+ "updated_ts": 1791283598,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Nobel Prize in Physics goes to Francis Halzen",
+     "summary": "Comments",
+     "url": "https://www.nobelprize.org/prizes/physics/2026/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Beam: Reflection's 501B open-weight model",
      "summary": "Comments",
@@ -13,7 +20,7 @@
      "source": "Hacker News"
     },
     {
-     "title": "Accountability mechanisms can be joyful",
+     "title": "Accountability mechanisms can be joyful (2024)",
      "summary": "Comments",
      "url": "https://liquidbrain.net/blog/accountability-and-joy/",
      "time": "Sun, 04 Oct 2026",
@@ -30,13 +37,6 @@
      "title": "Dust: Pretraining Transformers Without Backpropagation",
      "summary": "Comments",
      "url": "https://qlabs.sh/research/dust",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-     "summary": "Comments",
-     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
      "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,16 +95,30 @@
    "name": "World",
    "articles": [
     {
-     "title": "Mass school protests begin in France after days of clashes",
-     "summary": "Students who have been demanding more investment in education are being joined by parents and some big unions.",
-     "url": "https://www.bbc.co.uk/news/articles/cr4g1q1elxnjo?at_medium=RSS&at_campaign=rss",
+     "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+     "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
+     "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
-     "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
-     "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
+     "title": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
+     "summary": "Nidal Malik Hasan killed 13 unarmed soldiers and injured another 32 in the deadliest ever non-combat attack on an American military base.",
+     "url": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 06 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "'Ghost particles' from space telescope wins physics Nobel",
+     "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
+     "url": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 06 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says",
+     "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
+     "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
@@ -116,66 +130,52 @@
      "source": "BBC World"
     },
     {
-     "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
-     "summary": "The Parti Qu\u00e9b\u00e9cois, which secured a minority, has vowed to hold an independence referendum in the years to come.",
-     "url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+     "title": "Indian opposition MPs detained in protest against election chief",
+     "summary": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
+     "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Nigeria mourns 32 killed as military plane crashes into swamp",
-     "summary": "President Bola Tinubu describes the crash as a \"painful moment\" for the military and the entire nation.",
-     "url": "https://www.bbc.co.uk/news/articles/ck1wvjer20qqo?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 06 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Europe is pouring billions into space. Can Glasgow's satellite industry keep up?",
-     "summary": "The city's space boom raises questions about the role of the state in backing important industries.",
-     "url": "https://www.bbc.co.uk/news/articles/cm2kedyp348lo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 05 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Jim Bakker, who built 'PTL Club' televangelism empire, has died at 86",
-     "summary": "Jim Bakker, along with his first wife Tammy Faye built an evangelical empire around the hugely successful \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes.",
-     "url": "https://www.npr.org/2026/10/06/g-s1-146603/obit-jim-bakker",
+     "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+     "summary": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin\u2013Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "The iconic Arthur Read made his TV debut 30 years ago",
-     "summary": "The animated series \"Arthur\" premiered on PBS Kids on Oct. 7, 1996.",
-     "url": "https://www.npr.org/2026/10/05/g-s1-146052/arthur-read-tv-debut-30-anniversary",
-     "time": "Mon, 05 Oct 2026",
+     "title": "Disney, ABC battle Trump's FCC in court over free speech protections",
+     "summary": "President Trump has repeatedly called for Disney's ABC to fire late night comedian Jimmy Kimmel, for mocking him. Trump has also routinely denounced ABC's The View, accusing it of being unfair.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5991831/disney-battles-fcc",
+     "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
-     "summary": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
-     "url": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
-     "time": "Mon, 05 Oct 2026",
+     "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+     "summary": "The cuts come as a consequence of President Trump and FBI Director Kash Patel's focus on violent crime and immigration, leaving other priorities understaffed.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+     "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Drones buzz overhead, troops hunker underground in Ukraine's hellish kill zone",
-     "summary": "The front line in the Russia-Ukraine war stretches more than 700 miles and has barely moved in four years. Yet straddling this line is the kill zone, dominated by constantly evolving drone technology.",
-     "url": "https://www.npr.org/2026/10/05/nx-s1-5925803/drones-buzz-overhead-troops-hunker-underground-in-ukraines-hellish-kill-zone",
-     "time": "Mon, 05 Oct 2026",
+     "title": "Democrats' advantage is clear with less than a month to go in the midterm elections",
+     "summary": "President Trump is facing low approval ratings, and voters are blaming him for rising costs. Republicans are likely to pay the price at the ballot box next month.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress",
+     "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
-     "summary": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
-     "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
-     "time": "Mon, 05 Oct 2026",
+     "title": "Wildfire smoke affects animals in unique ways. Scientists are trying to understand it",
+     "summary": "The new field of \"smoke ecology\" examines how wildfire smoke perturbs wild places and animals \u2014 and what might be done to prevent its worst mayhem.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5991854/wildfire-smoke-ecology-birds-wildlife-health",
+     "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Imran Khan supporters march in Pakistan to demand his release after talks failed",
-     "summary": "Talks between Khan's party and the government failed two days ago. Besides Khan's release, protesters demand his transfer to a hospital and family visits.",
-     "url": "https://www.npr.org/2026/10/05/g-s1-146408/imran-khan-supporters-march-in-pakistan-to-demand-his-release-after-talks-failed",
-     "time": "Mon, 05 Oct 2026",
+     "title": "'We could all hear her breathing': Witnessing the failed execution of Christa Pike",
+     "summary": "Catherine Sweeney was in the witness room when Tennessee attempted to execute Christa Pike on Sept. 30. An attempted execution in May had also failed. Here's what Sweeney saw and heard.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5991669/failed-execution-christa-pike-tennessee-reporter-witness",
+     "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     }
    ]
