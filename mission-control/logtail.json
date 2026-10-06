@@ -1,16 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T23:16:37+0000",
+ "generated_iso": "2026-10-06T23:46:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-06 18:53:35.042 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-06 18:53:52.526 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 19:23:52.757 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -19,7 +15,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Secret Service running (fixed)",
+     "t": "[supervision.lo] Tue Oct  6 23:46:36 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -43,14 +39,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T18:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T18:16:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T18:31:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -64,6 +52,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T19:16:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T19:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T19:46:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
