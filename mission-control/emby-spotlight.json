@@ -62,7 +62,7 @@
     "Horror",
     "Thriller"
    ],
-   "runtime_min": 0,
+   "runtime_min": 180,
    "progress_pct": 0,
    "type": "Movie"
   },
@@ -112,15 +112,5 @@
    "type": "Movie"
   }
  ],
- "surprise_pick": {
-  "name": "Seven Easy Pieces",
-  "year": 2007,
-  "genres": [
-   "Documentary"
-  ],
-  "runtime_min": 0,
-  "progress_pct": 0,
-  "type": "Movie",
-  "overview": "For Seven Easy Pieces Marina Abramovic reenacted five seminal performance works by her peers, dating from the 1960's and 70's, and two of her own, interpreting them as one would a musical score. The project confronted th"
- }
+ "surprise_pick": null
 }
