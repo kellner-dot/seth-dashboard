@@ -1,20 +1,40 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T04:46:40+0000",
+ "generated_iso": "2026-10-06T05:16:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-06 00:23:02.716 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
      "c": "err"
     },
     {
-     "t": "2026-10-06 00:23:05.081 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000228d4d45e40] error reading header",
      "c": "err"
     },
     {
-     "t": "2026-10-06 00:23:07.343 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 01:10:41.183 Error App: Error in validateChildren for 21433 D:\\TV Shows",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 01:10:42.672 Error App: Error in TheTVDB",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
      "c": "err"
     }
    ]
@@ -23,7 +43,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Tue Oct  6 05:16:26 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -47,14 +67,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T00:01:31-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-05 != today 2026-10-06; pushing fresh schedule",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T00:01:45-04:00 [relay-supervisor] WARN: fresh schedule pushed to relay",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T00:01:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -68,6 +80,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T00:46:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T01:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T01:16:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
