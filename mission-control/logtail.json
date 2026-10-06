@@ -1,12 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T00:46:36+0000",
+ "generated_iso": "2026-10-06T01:16:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-05 20:43:05.752 Error App: Error in ffprobe",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000231ca315e40] error reading header",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-05 21:13:05.797 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -18,11 +22,11 @@
      "c": "err"
     },
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a18d2e5e40] error reading header",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 0000027a98ac5e40] error reading header",
      "c": "err"
     },
     {
-     "t": "2026-10-05 20:43:25.921 Error App: Error in ffprobe",
+     "t": "2026-10-05 21:13:25.143 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -34,7 +38,7 @@
      "c": "err"
     },
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000215647b5e40] error reading header",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001b207d85e40] error reading header",
      "c": "err"
     }
    ]
@@ -43,7 +47,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Tue Oct  6 00:46:29 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -67,14 +71,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-05T20:02:27-04:00 [relay-supervisor] WARN: fresh schedule pushed to relay",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-05T20:02:27-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-05T20:04:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     },
@@ -88,6 +84,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-05T20:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T21:01:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-05T21:16:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-05",
      "c": "ok"
     }
    ]
