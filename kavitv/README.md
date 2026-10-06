@@ -72,3 +72,10 @@ generate.py → timeline.json → relay.py (port 8100) → Emby Live TV tuner
 
 Emby API key lives in `config/emby.key` on the PC only. RVG tokens in Drive.
 Never commit credentials.
+
+## Playback Sentinel
+
+Four-layer stream verification (relay → stream integrity → Emby integration →
+client playback) plus a first-class Metadata Sentinel (identity/EPG/logos/
+freshness). Canonical 14-doc spec: see `sentinel/` (start with
+`sentinel/README.md`; live state in `sentinel/STATUS.md`).
