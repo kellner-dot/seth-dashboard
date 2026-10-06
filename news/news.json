@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-06T10:46:38+0000",
- "updated_ts": 1791283598,
+ "updated": "2026-10-06T12:46:36+0000",
+ "updated_ts": 1791290796,
  "topics": [
   {
    "name": "Tech",
@@ -13,6 +13,20 @@
      "source": "Hacker News"
     },
     {
+     "title": "JetBrains reported a net financial loss first time in its tracked history",
+     "summary": "Comments",
+     "url": "https://www.helgilibrary.com/companies/jetbrains",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Gleam doesn't compile to Erlang source anymore",
+     "summary": "Comments",
+     "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Beam: Reflection's 501B open-weight model",
      "summary": "Comments",
      "url": "https://reflection.ai/blog/introducing-beam",
@@ -20,32 +34,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "Accountability mechanisms can be joyful (2024)",
+     "title": "Release of Polars 2.0",
      "summary": "Comments",
-     "url": "https://liquidbrain.net/blog/accountability-and-joy/",
-     "time": "Sun, 04 Oct 2026",
+     "url": "https://pola.rs/posts/release-polars-2/",
+     "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Find the flattest route between any two points in SF",
+     "title": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
      "summary": "Comments",
-     "url": "https://flattensf.com/",
-     "time": "Mon, 05 Oct 2026",
+     "url": "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
+     "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Dust: Pretraining Transformers Without Backpropagation",
-     "summary": "Comments",
-     "url": "https://qlabs.sh/research/dust",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
+     "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+     "summary": "The reports of OpenAI agents harming 3rd party sites keep coming.",
+     "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Ars Technica"
     },
     {
-     "title": "Friendship ended with Deno, now Node is my best friend",
-     "summary": "Comments",
-     "url": "https://dbushell.com/2026/10/03/deno-to-node/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
+     "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
+     "summary": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
+     "url": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
@@ -74,26 +88,19 @@
      "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
      "time": "Mon, 05 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Controlling the brain with light earns a physiology Nobel",
-     "summary": "The entire field of optogenetics traces back to light-seeking algae.",
-     "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Russian drones strike Ukraine\u2019s data centers by exploiting air defense gaps",
-     "summary": "Russian attacks on Internet, phone services threaten Ukraine\u2019s wartime economy.",
-     "url": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
   {
    "name": "World",
    "articles": [
+    {
+     "title": "Former German spy chief arrested for espionage and treason",
+     "summary": "August Hanning is accused of obtaining classified information for a foreign power.",
+     "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 06 Oct 2026",
+     "source": "BBC World"
+    },
     {
      "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
      "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
@@ -116,7 +123,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says",
+     "title": "Ship sinks and crew missing after Black Sea drone attack",
      "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
      "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
@@ -130,51 +137,44 @@
      "source": "BBC World"
     },
     {
-     "title": "Indian opposition MPs detained in protest against election chief",
-     "summary": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
-     "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 06 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-     "summary": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin\u2013Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
-     "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+     "title": "What to know about nationwide protests in India over voter list changes",
+     "summary": "The campaign is led in part by India's \"Cockroach\" youth movement, which previously forced the education minister to resign.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146636/what-to-know-about-nationwide-protests-in-india-over-voter-list-changes",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Disney, ABC battle Trump's FCC in court over free speech protections",
-     "summary": "President Trump has repeatedly called for Disney's ABC to fire late night comedian Jimmy Kimmel, for mocking him. Trump has also routinely denounced ABC's The View, accusing it of being unfair.",
-     "url": "https://www.npr.org/2026/10/06/nx-s1-5991831/disney-battles-fcc",
+     "title": "Vietnamese police arrest 12 suspected of prowling city streets at night, snatching cats for meat",
+     "summary": "State media cited investigators who said the network recruited people to ride motorcycles through neighborhoods at night, trapping up to 10 cats a night.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146634/vietnamese-police-arrest-12-suspected-of-prowling-city-streets-at-night-snatching-cats-for-meat",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
-     "summary": "The cuts come as a consequence of President Trump and FBI Director Kash Patel's focus on violent crime and immigration, leaving other priorities understaffed.",
-     "url": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+     "title": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason",
+     "summary": "A former head of Germany 's foreign intelligence service was arrested on suspicion that he had passed state secrets to a foreign intelligence service, the federal prosecutor's office said.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Democrats' advantage is clear with less than a month to go in the midterm elections",
-     "summary": "President Trump is facing low approval ratings, and voters are blaming him for rising costs. Republicans are likely to pay the price at the ballot box next month.",
-     "url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress",
+     "title": "Dems have edge in midterms, poll shows. And, Paramount-Warner Bros. merger to close",
+     "summary": "Polls are showing that Democrats have a clear advantage heading into the midterms, but that doesn't tell the whole story. And, today, a mega merger between Paramount and Warner Bros. is set to close.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146626/up-first-newsletter-election-day-skydance-christa-pike-russia-plague-scare",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Wildfire smoke affects animals in unique ways. Scientists are trying to understand it",
-     "summary": "The new field of \"smoke ecology\" examines how wildfire smoke perturbs wild places and animals \u2014 and what might be done to prevent its worst mayhem.",
-     "url": "https://www.npr.org/2026/10/06/nx-s1-5991854/wildfire-smoke-ecology-birds-wildlife-health",
+     "title": "A history of presidents naming things after themselves (It's short. They rarely do)",
+     "summary": "While Trump pushes to get his name on the Kennedy Center and other public sites, history shows that sitting presidents have almost always avoided putting their brands on government assets.",
+     "url": "https://www.npr.org/2026/10/06/nx-s1-5986321/kennedy-center-trump-naming-washington",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "'We could all hear her breathing': Witnessing the failed execution of Christa Pike",
-     "summary": "Catherine Sweeney was in the witness room when Tennessee attempted to execute Christa Pike on Sept. 30. An attempted execution in May had also failed. Here's what Sweeney saw and heard.",
-     "url": "https://www.npr.org/2026/10/06/nx-s1-5991669/failed-execution-christa-pike-tennessee-reporter-witness",
+     "title": "What voters in 6 key states could tell us about the 2026 midterms",
+     "summary": "Morning Edition is heading to Maine, Texas, North Carolina, Georgia, Ohio and Michigan to hear what voters say is shaping their choices ahead of the midterm elections.",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146559/morning-edition-2026-midterms-election-voters-states",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
     }
