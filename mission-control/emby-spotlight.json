@@ -112,5 +112,15 @@
    "type": "Movie"
   }
  ],
- "surprise_pick": null
+ "surprise_pick": {
+  "name": "The Seasons of the Year",
+  "year": 1975,
+  "genres": [
+   "Documentary"
+  ],
+  "runtime_min": 0,
+  "progress_pct": 0,
+  "type": "Movie",
+  "overview": "An avant-garde work by Artavazd Peleshian (1975), preserved in the UbuWeb archive of experimental film, video, and performance art. Part of a collection documenting the international avant-garde."
+ }
 }
