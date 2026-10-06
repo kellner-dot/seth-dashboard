@@ -1,14 +1,35 @@
 {
- "updated": "2026-10-06T20:47:15+0000",
- "updated_ts": 1791319635,
+ "updated": "2026-10-06T22:46:37+0000",
+ "updated_ts": 1791326797,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Sharing AI Progress in Mathematics",
+     "summary": "Comments",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Mistral Large 4",
      "summary": "Comments",
      "url": "https://mistral.ai/news/mistral-large-4/\\",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Decisions API is in public beta",
+     "summary": "Comments",
+     "url": "https://developers.openai.com/api/docs/guides/decisions",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+     "summary": "Comments",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
      "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,72 +41,51 @@
      "source": "Hacker News"
     },
     {
-     "title": "A sustainable web career, for when all this blows over",
+     "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
      "summary": "Comments",
-     "url": "https://dbushell.com/2026/10/07/sustainable-web-career/",
+     "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
      "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Lawmakers Introduce Multiple Laws to Curb Flock After 404 Media Coverage",
-     "summary": "Comments",
-     "url": "https://www.404media.co/lawmakers-introduce-multiple-laws-to-curb-flock-after-404-media-coverage/",
+     "title": "Drones sink ships near NATO countries in \u201cunacceptable\u201d attacks, EU says",
+     "summary": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",
+     "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
      "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
-     "title": "Berthd",
-     "summary": "Comments",
-     "url": "https://berthd.app/",
+     "title": "OpenAI will watermark ChatGPT outputs by default\u2014but only in the EU",
+     "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+     "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
      "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
-     "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
-     "summary": "Comments",
-     "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+     "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service\u201d",
+     "summary": "A combined service could lead to higher prices.",
+     "url": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
      "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "It looks like the Atlantic storm season may finally produce a hurricane",
+     "summary": "To date, this Atlantic tropics year has been exceptionally quiet.",
+     "url": "https://arstechnica.com/science/2026/10/it-looks-like-the-atlantic-storm-season-may-finally-produce-a-hurricane/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+     "summary": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
+     "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Paramount completes $111B Warner merger, creating \u201cSkydance\u201d behemoth",
      "summary": "Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.",
      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Support Ars and get a better reading experience in return",
-     "summary": "ArsPro gives you more ways to read while directly supporting our journalism.",
-     "url": "https://arstechnica.com/staff/2026/10/make-ars-better-with-an-arspro-subscription/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Amazon kills Alexa\u2019s ability to control Echo speakers' AUX input",
-     "summary": "Amazon hasn't made an Echo with a 3.5mm port in six years.",
-     "url": "https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Neutrino physicist wins 2026 Nobel Physics Prize",
-     "summary": "Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.",
-     "url": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Googlebook \"Better Together\" phone features don't work with Samsung at launch",
-     "summary": "Googlebooks require Android 17, but Samsung's Android 17 phones won't work yet.",
-     "url": "https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Why is NASA bringing 7,500 contractors back to work as civil servants?",
-     "summary": "\"The administrator's directive is a coherent and necessary vision for the future.\"",
-     "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
      "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     }
@@ -94,6 +94,13 @@
   {
    "name": "World",
    "articles": [
+    {
+     "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+     "summary": "Pike, 50, continues to receive critical medical care while handcuffed in hospital, according to a statement from her lawyers on Tuesday.",
+     "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 06 Oct 2026",
+     "source": "BBC World"
+    },
     {
      "title": "Tear gas in Paris and Marseille as school protests grow across France",
      "summary": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
@@ -112,13 +119,6 @@
      "title": "Ship sinks and crew missing after Black Sea drone attack",
      "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
      "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 06 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-     "summary": "Gavin Newsom called the remarks \"deranged\", but the White House said Trump was warning of the risk of a nuclear Iran.",
-     "url": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
@@ -184,45 +184,45 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Vermont summer food aid for families expires this weekend",
+     "summary": "An aisle in a grocery store with canned food items. Photo via Adobe Stock stock photo, food, shopping, groceries, food shelf, beans \" data-image-caption=\"An aisle in a grocery store with canned food items. Photo via Adobe Stock \" data-large-file=\"https://vtdigger.org/wp-content/u",
+     "url": "https://vtdigger.org/2026/10/06/vermont-summer-food-aid-for-families-expires-this-weekend/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Lt. gov. candidates largely agree on politics, clash personally",
+     "summary": "Republican Lieutenant Governor John Rodgers, left, and Molly Gray, a Democratic nominee to be the lieutenant governor. Photos by Glenn Russell \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/John-Rodgers-Molly-Gray-Debate-2026.jpg\" /> Lt. Gov. John Rodgers and ",
+     "url": "https://vtdigger.org/2026/10/06/lt-gov-candidates-largely-agree-on-politics-clash-personally/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Rink on the brink: Barre makes last-minute ice rink repairs, but the arena\u2019s future is uncertain",
+     "summary": "The B.O.R. Barre Outdoor Recreation arena on Tuesday, Oct. 6, 2026. Photo by Erin Petenko/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Barre-Ice-Rink-1200x900.jpg?crop=1\" /> For one local high school coach, the rink holds three generations of family",
+     "url": "https://vtdigger.org/2026/10/06/rink-on-the-brink-barre-makes-last-minute-ice-rink-repairs-but-the-arenas-future-is-uncertain/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "UVM Medical Center unions reach tentative agreement in contract negotiations",
+     "summary": "Union doctors and staff workers at the University of Vermont Medical Center, along with their supporters, call for a fair contract during a rally in Burlington on Thursday, June 4, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/20",
+     "url": "https://vtdigger.org/2026/10/06/uvm-medical-center-unions-reach-tentative-agreement-in-contract-negotiations/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Proposal 4\u2019s language is flawed",
+     "summary": "The Legislature\u2019s own constitutional law expert has raised concerns about the amendment\u2019s language. Read the story on VTDigger here: Proposal 4\u2019s language is flawed.",
+     "url": "https://vtdigger.org/2026/10/06/proposal-4s-language-is-flawed/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Vermont colleges chart a path forward against demographic and financial headwinds",
      "summary": "The Champlain College campus in Burlington on Wednesday, June 25, 2025. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/06/champlain-college-5-20250625-1200x798.jpg\" /> \u201cWe cannot lose more colleges in Vermont if we're going to try ",
      "url": "https://vtdigger.org/2026/10/06/vermont-colleges-chart-a-path-forward-against-demographic-and-financial-headwinds/",
      "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Vermont\u2019s return-to-office order is an insult",
-     "summary": "The order ignores the dignity, work ethic and worth of the people who do the state's work. Read the story on VTDigger here: Vermont\u2019s return-to-office order is an insult.",
-     "url": "https://vtdigger.org/2026/10/06/opinion-vermonts-return-to-office-order-is-an-insult/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Brattleboro fire chief deploys for 13 months",
-     "summary": "First responders and town officials gathered at Centra Fire Station in Brattleboro to say goodbye to Fire Chief Jay Symonds before he leaves for approdimately 13 months of military service with the New York Army National Guard on Friday, Oct. 2, 2026. Photo by Kristopher Radder/B",
-     "url": "https://vtdigger.org/2026/10/05/brattleboro-fire-chief-deploys-for-13-months/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Attorney for man charged in a deadly police chase seeks to quiz potential jurors before seeking change of venue",
-     "summary": "Tate Rheaume appears in Rutland County Superior criminal court on Tuesday April 9, 2024. Rheaume is charged in the crash that killed Rutland City police officer Jessica Ebbighausen in 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads",
-     "url": "https://vtdigger.org/2026/10/05/attorney-for-man-charged-in-a-deadly-police-chase-seeks-to-quiz-potential-jurors-before-seeking-change-of-venue/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "New report finds low reconviction rates for teens in first years of Vermont\u2019s \u2018Raise the Age\u2019 law",
-     "summary": "The McCaffrey Courthouse in Rutland on Thursday, September 10, 2026. The building houses Vermont Superior Court. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/rutland-state-courthouse-1-20260910-1200x798.jpg\" /> \u201cMy hope is tha",
-     "url": "https://vtdigger.org/2026/10/05/new-report-finds-low-reconviction-rates-for-teens-in-first-years-of-vermonts-raise-the-age-law/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Not every job needs to be done in the office",
-     "summary": "The return-to-office order could drive out workers Vermont can't afford to lose. Read the story on VTDigger here: Not every job needs to be done in the office.",
-     "url": "https://vtdigger.org/2026/10/05/opinion-not-every-job-needs-to-be-done-in-the-office/",
-     "time": "Mon, 05 Oct 2026",
      "source": "VT Digger"
     }
    ]
@@ -233,7 +233,7 @@
     {
      "title": "13 Record Store Day Releases Actually Worth Getting on Black Friday",
      "summary": "The annual event has been a bloated mess for years but there are still some gems to be found this November",
-     "url": "https://pitchfork.com/story/13-record-store-day-releases-actually-worth-getting-on-black-friday/",
+     "url": "https://pitchfork.com/story/15-record-store-day-releases-actually-worth-getting-on-black-friday/",
      "time": "Tue, 06 Oct 2026",
      "source": "Pitchfork"
     },
