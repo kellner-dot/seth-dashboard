@@ -1,20 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-06T09:46:37+0000",
+ "generated_iso": "2026-10-06T10:16:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-06 05:23:01.782 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-06 06:13:24.050 Error VideoService-0HNP33BGQEKH2:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "2026-10-06 05:23:04.095 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-06 05:23:06.377 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 06:14:36.038 Error VideoService-0HNP33BGQEKH7:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 06:15:42.506 Error VideoService-0HNP33BGQEKHB:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 06:16:19.773 Error VideoService-0HNP33BGQEKHC:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The request could not be performed because of an I/O device error.",
      "c": "err"
     }
    ]
@@ -23,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Tue Oct  6 09:46:26 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] GET /status",
      "c": "ok"
     },
     {
@@ -47,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T04:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T04:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T05:01:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -68,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T05:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T06:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T06:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
