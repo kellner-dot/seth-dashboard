@@ -1,16 +1,48 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-07T04:48:40+0000",
+ "generated_iso": "2026-10-07T05:16:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-07 00:23:46.519 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 01:13:15.530 Error App: Error in ffprobe",
      "c": "err"
     },
     {
-     "t": "2026-10-07 00:24:03.921 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
+     "c": "err"
+    },
+    {
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 0000028057655e40] error reading header",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-07 01:13:17.030 Error App: Error in validateChildren for 21433 D:\\TV Shows",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-07 01:13:19.268 Error App: Error in TheTVDB",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
      "c": "err"
     }
    ]
@@ -19,7 +51,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] GET /rvd/status",
+     "t": "[supervision.lo] Wed Oct  7 05:16:29 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
