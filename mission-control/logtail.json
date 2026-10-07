@@ -1,20 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-07T13:46:36+0000",
+ "generated_iso": "2026-10-07T14:16:34+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-07 09:23:17.451 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tInnerException: System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.",
      "c": "err"
     },
     {
-     "t": "2026-10-07 09:23:34.849 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tTargetSite: Void ThrowException(System.Net.Sockets.SocketError, System.Threading.CancellationToken)",
      "c": "err"
     },
     {
-     "t": "2026-10-07 09:23:52.322 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-07 10:12:44.290 Error LiveTV: Error in GetChannelStreamWithDirectStreamProvider",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-07 10:12:44.291 Error MediaSourceManager: Error opening live stream",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-07 10:12:44.291 Error MediaInfoService-0HNP4F6RFCNG9:00000018: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
      "c": "err"
     }
    ]
@@ -23,7 +59,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Wed Oct  7 13:46:31 UTC 2026: never-sleep holder launched",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -47,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-07T08:16:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-07T08:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-07T08:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     },
@@ -68,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-07T09:32:26-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T09:47:29-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T10:01:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     }
    ]
