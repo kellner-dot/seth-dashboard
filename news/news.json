@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-07T18:46:35+0000",
- "updated_ts": 1791398795,
+ "updated": "2026-10-07T20:46:34+0000",
+ "updated_ts": 1791405994,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Claude Haiku 5.5",
      "summary": "Comments",
      "url": "https://www.anthropic.com/claude-haiku-5-5",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+     "summary": "Comments",
+     "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,16 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Bigwords.page \u2013 Turn any screen into a sign. The URL is the app",
+     "title": "The Mathocalypse",
      "summary": "Comments",
-     "url": "https://bigwords.page/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Animated ASCII Art for Web Pages",
-     "summary": "Comments",
-     "url": "https://ascii.rest/",
+     "url": "https://scottaaronson.blog/?p=10169",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -46,6 +46,27 @@
      "url": "https://github.com/docker/docker-agent",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Chemistry Nobel goes to reactions like those that gave life a hand",
+     "summary": "Altering molecular handedness has implications for the origins of life.",
+     "url": "https://arstechnica.com/science/2026/10/chemistry-nobel-goes-to-reactions-like-those-that-gave-life-a-hand/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Pediatricians renew call to ban raw milk as anti-science rhetoric reigns",
+     "summary": "In renewed policy, pediatricians review the benefits of heating milk to kill germs.",
+     "url": "https://arstechnica.com/health/2026/10/pediatricians-renew-call-to-ban-raw-milk-as-anti-science-rhetoric-reigns/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+     "summary": "Man gets 18 months for AI scheme stealing $8M in music streaming royalties.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Jaguar Type 01 debuts; now, no one remembers the electric Ferrari",
@@ -65,27 +86,6 @@
      "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
      "summary": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
      "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Google rolls out improved SynthID AI content detector, now available globally",
-     "summary": "The new SynthID website can now identify AI content from Google, OpenAI, and more.",
-     "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "AI/ML is becoming a performance factor in motorsport",
-     "summary": "More than just a sponsor: OpenAI has been helping Ganassi with setups.",
-     "url": "https://arstechnica.com/cars/2026/10/ai-ml-setups-became-a-tool-in-indycar-champion-alex-palous-toolbox/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Review: Fine, let's talk about Digger",
-     "summary": "Its excesses may try one\u2019s patience at times, but the film sticks the landing with a savagely moving finale.",
-     "url": "https://arstechnica.com/culture/2026/10/review-digger-is-both-frustrating-and-brilliant-by-design/",
      "time": "Wed, 07 Oct 2026",
      "source": "Ars Technica"
     }
@@ -137,6 +137,27 @@
      "source": "BBC World"
     },
     {
+     "title": "This surprising mammal fossil is giving scientists something to chew on",
+     "summary": "It's likely you've already chewed and swallowed some tasty morsel today. But when did that ability emerge? New evidence points to at least the middle Jurassic, back when dinosaurs still reigned.",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5991361/fossil-mammal-platypus-chew-swallow-suckle-earliest",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Judge orders that Christa Pike execution evidence be preserved",
+     "summary": "A week after the failed execution, Pike is awake but is said to be angry and confused. Her lawyers said Wednesday's hearing was about \"transparency.\"",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5993628/judge-orders-that-christa-pike-execution-evidence-be-preserved",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Trump approved the military's 1st firing squad execution since WWII. Why now?",
+     "summary": "The Pentagon says Nidal Hasan will be executed by firing squad in December at Fort Hood, where he killed 13 people in 2009. The announcement came days after a botched lethal injection in Tennessee.",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5993539/firing-squad-execution-nidal-hasan-fort-hood",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Why Trump just loosened the rules on 'dyed diesel' \u2014 normally a farm fuel",
      "summary": "Trump is temporarily allowing this fuel to be used on highways, although it's typically just for off-road farm and construction vehicles. Could that lower the price of diesel?",
      "url": "https://www.npr.org/2026/10/07/nx-s1-5992963/dyed-diesel-fuel-price-farmers-trucks",
@@ -156,33 +177,26 @@
      "url": "https://www.npr.org/2026/10/07/nx-s1-5991687/trump-medicare-aca-payments-midterms",
      "time": "Wed, 07 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Gut microbes followed migrating humans across continents, new study suggests",
-     "summary": "New research looks at the surprising similarities in the gut microbiomes of hunter-gathers in Tanzania and horticulturalists in Bolivia, and asks: What role do these bacteria play in human health?",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5987874/ancient-gut-microbiome-migration-evolution-hadza-tsimane",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Greetings from Lahore, Pakistan, whose high court offers an oasis for chatter and chai",
-     "summary": "The Lahore High Court is a near-perfect specimen of British South Asian colonial architecture and its main square is a pleasant spot shaded by banyan trees.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5992681/lahore-pakistan-high-court-square",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "DIY fertilizer is a blessing as farmers face steep prices due to the Iran war",
-     "summary": "It's hard enough being a small-scale farmer. Then the Iran war drove up fertilizer prices. So farmers are using a traditional Asian recipe to make their own. They call it a \"labor of love.\"",
-     "url": "https://www.npr.org/2026/10/07/g-s1-146541/fertilizer-diy-farmers-iran-war",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Parents of cyclist who was killed in crosswalk file wrongful death lawsuit against driver",
+     "summary": "Shiloh Skalka, 16, was killed in July in Burlington after she was struck by a vehicle while crossing a roadway on her e-bike in a crosswalk with warning lights flashing. Provided photo \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/sskalka_large_horizontal_5x7",
+     "url": "https://vtdigger.org/2026/10/07/parents-of-cyclist-who-was-killed-in-crosswalk-file-wrongful-death-lawsuit-against-driver/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Vermont Conversation: Forester, influencer and author Ethan Tapper on why \u2018it\u2019s our responsibility to carry hope for each other\u2019",
+     "summary": "Forester Ethan Tapper, author of the book \u201cThe Forest Year: Finding Hope in a World Worth Saving.&#8221; Photo by Corey Hendrickson \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Ethan-Tapper-1200x800.jpg\" /> Tapper\u2019s new book, \u201cThe Forest Year: Finding Hope i",
+     "url": "https://vtdigger.org/2026/10/07/vermont-conversation-forester-influencer-and-author-ethan-tapper-on-why-its-our-responsibility-to-carry-hope-for-each-other/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Vermont\u2019s housing crisis needs bold answers",
      "summary": "Homelessness has become ordinary in Vermont. And that is extraordinary. Read the story on VTDigger here: Vermont\u2019s housing crisis needs bold answers.",
@@ -208,20 +222,6 @@
      "title": "Vermont summer food aid for families expires this weekend",
      "summary": "An aisle in a grocery store with canned food items. Photo via Adobe Stock stock photo, food, shopping, groceries, food shelf, beans \" data-image-caption=\"An aisle in a grocery store with canned food items. Photo via Adobe Stock \" data-large-file=\"https://vtdigger.org/wp-content/u",
      "url": "https://vtdigger.org/2026/10/06/vermont-summer-food-aid-for-families-expires-this-weekend/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Lt. gov. candidates largely agree on politics, clash personally",
-     "summary": "Republican Lieutenant Governor John Rodgers, left, and Molly Gray, a Democratic nominee to be the lieutenant governor. Photos by Glenn Russell \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/John-Rodgers-Molly-Gray-Debate-2026.jpg\" /> Lt. Gov. John Rodgers and ",
-     "url": "https://vtdigger.org/2026/10/06/lt-gov-candidates-largely-agree-on-politics-clash-personally/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Rink on the brink: Barre makes last-minute ice rink repairs, but the arena\u2019s future is uncertain",
-     "summary": "The B.O.R. Barre Outdoor Recreation arena on Tuesday, Oct. 6, 2026. Photo by Erin Petenko/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Barre-Ice-Rink-1200x900.jpg?crop=1\" /> For one local high school coach, the rink holds three generations of family",
-     "url": "https://vtdigger.org/2026/10/06/rink-on-the-brink-barre-makes-last-minute-ice-rink-repairs-but-the-arenas-future-is-uncertain/",
      "time": "Tue, 06 Oct 2026",
      "source": "VT Digger"
     }
