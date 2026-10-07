@@ -1,20 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-07T15:16:47+0000",
+ "generated_iso": "2026-10-07T15:46:36+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-07 10:53:17.537 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 11:44:53.304 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-07 10:53:34.974 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 11:45:38.095 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-07 10:53:52.407 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 11:45:40.161 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -23,7 +23,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Secret Service running (fixed)",
+     "t": "[supervision.lo] Wed Oct  7 15:46:25 UTC 2026: holder already running, not starting another",
      "c": "ok"
     },
     {
@@ -47,18 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-07T09:47:29-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-07T10:01:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-07T10:18:20-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-07T10:34:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     },
@@ -68,6 +56,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-07T11:04:20-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T11:16:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T11:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T11:46:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     }
    ]
