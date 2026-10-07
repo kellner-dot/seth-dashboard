@@ -1,21 +1,28 @@
 {
- "updated": "2026-10-07T14:47:52+0000",
- "updated_ts": 1791384472,
+ "updated": "2026-10-07T16:46:35+0000",
+ "updated_ts": 1791391595,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Shipping JPEG XL in Chrome",
+     "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
      "summary": "Comments",
-     "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+     "url": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "SynthID Detector",
+     "title": "Navier\u2013Stokes Lost in Translation",
      "summary": "Comments",
-     "url": "https://synthid.com/",
+     "url": "https://arxiv.org/abs/2610.08144",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Shipping JPEG XL in Chrome",
+     "summary": "Comments",
+     "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,58 +41,51 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+     "title": "Animated ASCII Art for Web Pages",
      "summary": "Comments",
-     "url": "https://artmuseum.artfrompixels.com/",
+     "url": "https://ascii.rest/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "AI-assisted proof of optimal packing for 11 squares",
-     "summary": "Comments",
-     "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+     "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
+     "summary": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
+     "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
      "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Google rolls out improved SynthID AI content detector, now available globally",
+     "summary": "The new SynthID website can now identify AI content from Google, OpenAI, and more.",
+     "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "AI/ML is becoming a performance factor in motorsport",
+     "summary": "More than just a sponsor: OpenAI has been helping Ganassi with setups.",
+     "url": "https://arstechnica.com/cars/2026/10/ai-ml-setups-became-a-tool-in-indycar-champion-alex-palous-toolbox/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Review: Fine, let's talk about Digger",
+     "summary": "Its excesses may try one\u2019s patience at times, but the film sticks the landing with a savagely moving finale.",
+     "url": "https://arstechnica.com/culture/2026/10/review-digger-is-both-frustrating-and-brilliant-by-design/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "If you're looking, here's a \"good deal\" for NASA and the European Space Agency",
+     "summary": "\"We are in the era of people interested in having good deals, and LISA is a very good deal for the US.\"",
+     "url": "https://arstechnica.com/space/2026/10/nasa-is-keen-on-pursuing-at-least-one-joint-science-mission-with-europe/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Drones sink ships near NATO countries in \u201cunacceptable\u201d attacks, EU says",
      "summary": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",
      "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "OpenAI will watermark ChatGPT outputs by default\u2014but only in the EU",
-     "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
-     "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service\u201d",
-     "summary": "A combined service could lead to higher prices.",
-     "url": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "It looks like the Atlantic storm season may finally produce a hurricane",
-     "summary": "To date, this Atlantic tropics year has been exceptionally quiet.",
-     "url": "https://arstechnica.com/science/2026/10/it-looks-like-the-atlantic-storm-season-may-finally-produce-a-hurricane/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
-     "summary": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
-     "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Paramount completes $111B Warner merger, creating \u201cSkydance\u201d behemoth",
-     "summary": "Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
      "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     }
@@ -102,16 +102,16 @@
      "source": "BBC World"
     },
     {
-     "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-     "summary": "A medical expert advising her legal team says the murderer of Colleen Slemmer is communicating in a \"basic way\".",
-     "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
+     "title": "Israelis demand accountability over 7 October failures three years after attacks",
+     "summary": "Prime Minister Benjamin Netanyahu has refused to take any personal responsibility for what happened or order a state inquiry.",
+     "url": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
-     "summary": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
-     "url": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss",
+     "title": "Canada suspends plans to expand assisted dying to people with mental illness",
+     "summary": "People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely.",
+     "url": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
     },
@@ -123,7 +123,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 22",
+     "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 24",
      "summary": "Rescue workers are continuing a search for residents after an apartment building in Pryluky was destroyed.",
      "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
@@ -135,6 +135,20 @@
      "url": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "She got Trump's $500 check for health insurance. To her, it's a 'political stunt'",
+     "summary": "As checks from President Trump for health costs hit millions of mailboxes, a poll shows Americans don't trust Republicans on healthcare. Experts doubt it will move the needle and say it is likely illegal.",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5991687/trump-medicare-aca-payments-midterms",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Gut microbes followed migrating humans across continents, new study suggests",
+     "summary": "New research looks at the surprising similarities in the gut microbiomes of hunter-gathers in Tanzania and horticulturalists in Bolivia, and asks: What role do these bacteria play in human health?",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5987874/ancient-gut-microbiome-migration-evolution-hadza-tsimane",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Greetings from Lahore, Pakistan, whose high court offers an oasis for chatter and chai",
@@ -161,20 +175,6 @@
      "title": "Who will win the 2026 Nobel Prize in economics?",
      "summary": "A thinly traded prediction market offers a starting point. We explore potential winners and the big ideas that could earn them economics' biggest prize.",
      "url": "https://www.npr.org/sections/planet-money/2026/10/07/g-s1-146828/who-will-win-the-2026-nobel-prize-in-economics",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Henri B. Kagan and Kenso Soai win Nobel Prize in chemistry",
-     "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in chemistry Wednesday for their discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.",
-     "url": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "BTS frontman RM is showing his art collection. Fans are flocking to see it",
-     "summary": "The pop superstar is showing art from his personal collection for the first time. The San Francisco Museum of Modern Art is packed with fans.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5986317/bts-rm-sfmoma-korean-art-san-francisco",
      "time": "Wed, 07 Oct 2026",
      "source": "NPR News"
     }
@@ -238,7 +238,7 @@
      "source": "Pitchfork"
     },
     {
-     "title": "Watch Twisted Teens Play in Trash in New \u201cStalks\u201d Video",
+     "title": "Watch Twisted Teens Play in the Trash in Their New Music Video",
      "summary": "The New Orleans punks are gearing up to release their third album of the year next month",
      "url": "https://pitchfork.com/story/watch-twisted-teens-play-in-trash-in-new-stalks-video/",
      "time": "Wed, 07 Oct 2026",
