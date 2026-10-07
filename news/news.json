@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-07T12:46:36+0000",
- "updated_ts": 1791377196,
+ "updated": "2026-10-07T14:47:52+0000",
+ "updated_ts": 1791384472,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Shipping JPEG XL in Chrome",
      "summary": "Comments",
      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "SynthID Detector",
+     "summary": "Comments",
+     "url": "https://synthid.com/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,24 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Sharing AI progress in mathematics",
+     "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
      "summary": "Comments",
-     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
-     "summary": "Comments",
-     "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+     "url": "https://artmuseum.artfrompixels.com/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: AstroHelm \u2013 Use your phone camera to aim a telescope or telephoto lens",
+     "title": "AI-assisted proof of optimal packing for 11 squares",
      "summary": "Comments",
-     "url": "https://astrohelm.app/",
-     "time": "Sun, 04 Oct 2026",
+     "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -123,7 +123,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 15",
+     "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 22",
      "summary": "Rescue workers are continuing a search for residents after an apartment building in Pryluky was destroyed.",
      "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
@@ -135,6 +135,20 @@
      "url": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Greetings from Lahore, Pakistan, whose high court offers an oasis for chatter and chai",
+     "summary": "The Lahore High Court is a near-perfect specimen of British South Asian colonial architecture and its main square is a pleasant spot shaded by banyan trees.",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5992681/lahore-pakistan-high-court-square",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "DIY fertilizer is a blessing as farmers face steep prices due to the Iran war",
+     "summary": "It's hard enough being a small-scale farmer. Then the Iran war drove up fertilizer prices. So farmers are using a traditional Asian recipe to make their own. They call it a \"labor of love.\"",
+     "url": "https://www.npr.org/2026/10/07/g-s1-146541/fertilizer-diy-farmers-iran-war",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "U.S. moves long-range bombers from U.K. And, Israel allegedly warned before Oct. 7",
@@ -158,23 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "Over 1,000 children are buried at juvenile detention centers nationwide",
-     "summary": "Researchers uncovered the graves of more than 1,000 children next to juvenile detention facilities in 29 states. At one Maryland gravesite, 230 Black boys are buried.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5986124/over-1-000-children-are-buried-at-juvenile-detention-centers-nationwide",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Here's the latest sticker shock: Borrowing for a mortgage -- or a car",
-     "summary": "It's not just mortgages being at their highest level in almost three years \u2014 but the cost of loans for cars and higher education are among the borrowing costs affected, too.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5991910/interest-rates-economy-inflation-bonds",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "An early flu season means it might be time to think about a flu shot",
-     "summary": "Flu season typically starts in October or November. But it looks like the flu started to pick up in September this year.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5992940/early-flu-season-vaccine",
+     "title": "BTS frontman RM is showing his art collection. Fans are flocking to see it",
+     "summary": "The pop superstar is showing art from his personal collection for the first time. The San Francisco Museum of Modern Art is packed with fans.",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5986317/bts-rm-sfmoma-korean-art-san-francisco",
      "time": "Wed, 07 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,27 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Paul McCartney Releases Three New Songs",
+     "summary": "Listen to \u201cCity Fox,\u201d \u201cOne Night Stand,\u201d and \u201cChelsea Boots\u201d from the Boys of Dungeon Lane sessions",
+     "url": "https://pitchfork.com/story/paul-mccartney-releases-three-new-songs/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Watch Twisted Teens Play in Trash in New \u201cStalks\u201d Video",
+     "summary": "The New Orleans punks are gearing up to release their third album of the year next month",
+     "url": "https://pitchfork.com/story/watch-twisted-teens-play-in-trash-in-new-stalks-video/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Star Moles Signs to Dead Oceans, Readies 2027 Tour",
+     "summary": "Emily Moales will play U.S. headlining shows behind Highway to Hell in January",
+     "url": "https://pitchfork.com/story/star-moles-signs-to-dead-oceans-readies-2027-tour/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "13 Record Store Day Releases Actually Worth Getting on Black Friday",
      "summary": "The annual event has been a bloated mess for years but there are still some gems to be found this November",
      "url": "https://pitchfork.com/story/15-record-store-day-releases-actually-worth-getting-on-black-friday/",
@@ -248,27 +269,6 @@
      "title": "The Comet Is Coming Unearth Archival Songs for Channel the Spirits Reissue",
      "summary": "Listen to \u201cLate Night Party Jam 2,\u201d recorded during Shabaka and the band\u2019s influential Total Refreshment Centre residency",
      "url": "https://pitchfork.com/story/the-comet-is-coming-unearth-archival-songs-for-channel-the-spirits-reissue/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "FKA twigs Drops Lawsuit Against Shia LaBeouf After Actor Voids NDA",
-     "summary": "The singer initially claimed he was trying to stop her from \u201cdisclosing information about her own survival of sexual assault\u201d",
-     "url": "https://pitchfork.com/news/fka-twigs-files-new-lawsuit-against-shia-labeouf/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "B0YG1RL, Tinashe, Don Toliver, and More: This Week\u2019s Pitchfork Selects Playlist",
-     "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
-     "url": "https://pitchfork.com/story/b0yg1rl-tinashe-don-toliver-drake-this-weeks-pitchfork-selects-playlist/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Lorenzo Senni Returns With First Album in Six Years",
-     "summary": "\u201cArt Life & Skateboarding\u201d leads the producer\u2019s Warp comeback All Ages, which features Xiu Xiu\u2019s Jamie Stewart",
-     "url": "https://pitchfork.com/story/lorenzo-senni-returns-with-first-album-in-six-years/",
      "time": "Tue, 06 Oct 2026",
      "source": "Pitchfork"
     }
