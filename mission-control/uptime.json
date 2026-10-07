@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-06T23:46:35+0000",
+ "generated_iso": "2026-10-07T00:02:08+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -31,9 +31,9 @@
     null,
     null,
     null,
-    null,
     0.0,
     99.5,
+    100.0,
     100.0,
     100.0
    ]
@@ -67,10 +67,10 @@
     null,
     null,
     null,
-    null,
     100.0,
     100.0,
     99.0,
+    100.0,
     100.0
    ]
   },
@@ -103,8 +103,8 @@
     null,
     null,
     null,
-    null,
     0.0,
+    100.0,
     100.0,
     100.0,
     100.0
@@ -139,7 +139,7 @@
     null,
     null,
     null,
-    null,
+    100.0,
     100.0,
     100.0,
     100.0,
@@ -175,16 +175,16 @@
     null,
     null,
     null,
-    null,
     0.0,
     99.5,
     81.2,
+    0.0,
     0.0
    ]
   },
   {
    "name": "Fire Stick",
-   "online": true,
+   "online": false,
    "days": [
     null,
     null,
@@ -211,11 +211,11 @@
     null,
     null,
     null,
-    null,
     100.0,
     100.0,
     100.0,
-    100.0
+    100.0,
+    0.0
    ]
   },
   {
@@ -247,7 +247,7 @@
     null,
     null,
     null,
-    null,
+    100.0,
     100.0,
     100.0,
     100.0,
@@ -283,7 +283,7 @@
     null,
     null,
     null,
-    null,
+    100.0,
     100.0,
     100.0,
     100.0,
