@@ -1,42 +1,35 @@
 {
- "updated": "2026-10-07T16:46:35+0000",
- "updated_ts": 1791391595,
+ "updated": "2026-10-07T18:46:35+0000",
+ "updated_ts": 1791398795,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
+     "title": "Claude Haiku 5.5",
      "summary": "Comments",
-     "url": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
+     "url": "https://www.anthropic.com/claude-haiku-5-5",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Navier\u2013Stokes Lost in Translation",
+     "title": "GPT\u20116 and Intelligent UI for everyone",
      "summary": "Comments",
-     "url": "https://arxiv.org/abs/2610.08144",
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Shipping JPEG XL in Chrome",
+     "title": "Visa, Mastercard, Major Banks Facing New Litigation over 'Anticompetitive' Fees",
      "summary": "Comments",
-     "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+     "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+     "title": "Show HN: Bigwords.page \u2013 Turn any screen into a sign. The URL is the app",
      "summary": "Comments",
-     "url": "https://github.com/szabadkai/c64-keyboard-font/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
-     "summary": "Comments",
-     "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+     "url": "https://bigwords.page/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -46,6 +39,27 @@
      "url": "https://ascii.rest/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Docker Agent",
+     "summary": "Comments",
+     "url": "https://github.com/docker/docker-agent",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Jaguar Type 01 debuts; now, no one remembers the electric Ferrari",
+     "summary": "Car design sure riles people up on the Internet these days. Goes double for EVs.",
+     "url": "https://arstechnica.com/cars/2026/10/jaguar-makes-its-controversial-all-ev-return-with-the-type-01/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Trade group crunches numbers on Trump\u2019s impossible push for 100% US-made tech",
+     "summary": "Trump's aggressive reshoring push could cost tech firms $230 billion, CTA estimates.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/trade-group-crunches-numbers-on-trumps-impossible-push-for-100-us-made-tech/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
@@ -73,20 +87,6 @@
      "summary": "Its excesses may try one\u2019s patience at times, but the film sticks the landing with a savagely moving finale.",
      "url": "https://arstechnica.com/culture/2026/10/review-digger-is-both-frustrating-and-brilliant-by-design/",
      "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "If you're looking, here's a \"good deal\" for NASA and the European Space Agency",
-     "summary": "\"We are in the era of people interested in having good deals, and LISA is a very good deal for the US.\"",
-     "url": "https://arstechnica.com/space/2026/10/nasa-is-keen-on-pursuing-at-least-one-joint-science-mission-with-europe/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Drones sink ships near NATO countries in \u201cunacceptable\u201d attacks, EU says",
-     "summary": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",
-     "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
-     "time": "Tue, 06 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -123,8 +123,8 @@
      "source": "BBC World"
     },
     {
-     "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 24",
-     "summary": "Rescue workers are continuing a search for residents after an apartment building in Pryluky was destroyed.",
+     "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
+     "summary": "Five children are among the victims of a strike that destroyed 30 flats in northern Ukraine as families slept.",
      "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
@@ -135,6 +135,20 @@
      "url": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Why Trump just loosened the rules on 'dyed diesel' \u2014 normally a farm fuel",
+     "summary": "Trump is temporarily allowing this fuel to be used on highways, although it's typically just for off-road farm and construction vehicles. Could that lower the price of diesel?",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5992963/dyed-diesel-fuel-price-farmers-trucks",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "How Defense Secretary Pete Hegseth has brought the culture wars to the military",
+     "summary": "The New York Times reporter Greg Jaffe says Hegseth has disproportionately blocked promotions of Black and women senior officers, and he's also been purging the military of transgender people.",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5992775/how-defense-secretary-pete-hegseth-has-brought-the-culture-wars-to-the-military",
+     "time": "Wed, 07 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "She got Trump's $500 check for health insurance. To her, it's a 'political stunt'",
@@ -163,26 +177,26 @@
      "url": "https://www.npr.org/2026/10/07/g-s1-146541/fertilizer-diy-farmers-iran-war",
      "time": "Wed, 07 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "U.S. moves long-range bombers from U.K. And, Israel allegedly warned before Oct. 7",
-     "summary": "A possible Iranian threat led the U.S. to remove long-range bombers from a U.K. base. And, Israelis are learning that their prime minister may have been warned before the Oct. 7 attacks.",
-     "url": "https://www.npr.org/2026/10/07/g-s1-146853/up-first-newsletter-long-range-bombers-france-high-school-protest-germany-august-hanning-oct-7-memorial-day",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Who will win the 2026 Nobel Prize in economics?",
-     "summary": "A thinly traded prediction market offers a starting point. We explore potential winners and the big ideas that could earn them economics' biggest prize.",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/07/g-s1-146828/who-will-win-the-2026-nobel-prize-in-economics",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Vermont\u2019s housing crisis needs bold answers",
+     "summary": "Homelessness has become ordinary in Vermont. And that is extraordinary. Read the story on VTDigger here: Vermont\u2019s housing crisis needs bold answers.",
+     "url": "https://vtdigger.org/2026/10/07/opinion-vermonts-housing-crisis-needs-bold-answers/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "For Sam Lucci, Freedom & Unity made the path back to college a \u201cno-brainer\u201d",
+     "summary": "\u201cThere might be a point where I have to weigh the cost of tuition against everything else,\u201d Sam said. \u201cBut as long as there is Freedom & Unity, I can plan my life and my next semester and a path to my degree.\u201d Read the story on VTDigger here: For Sam Lucci, Freedom & Unity made t",
+     "url": "https://vtdigger.org/2026/10/07/for-sam-lucci-freedom-unity-made-the-path-back-to-college-a-no-brainer/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Federal boost advances West Brattleboro Terrace redevelopment",
      "summary": "U.S. Rep. Becca Balint, D-Vt., visits the former Melrose Terrace site in West Brattleboro to discuss $1.75 million in federal Community Project Funding for its redevelopment on Tuesday, Oct. 6, 2026. Photo by Kristopher Radder/Brattleboro Reformer \" data-large-file=\"https://vtdig",
@@ -210,26 +224,33 @@
      "url": "https://vtdigger.org/2026/10/06/rink-on-the-brink-barre-makes-last-minute-ice-rink-repairs-but-the-arenas-future-is-uncertain/",
      "time": "Tue, 06 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "UVM Medical Center unions reach tentative agreement in contract negotiations",
-     "summary": "Union doctors and staff workers at the University of Vermont Medical Center, along with their supporters, call for a fair contract during a rally in Burlington on Thursday, June 4, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/20",
-     "url": "https://vtdigger.org/2026/10/06/uvm-medical-center-unions-reach-tentative-agreement-in-contract-negotiations/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Proposal 4\u2019s language is flawed",
-     "summary": "The Legislature\u2019s own constitutional law expert has raised concerns about the amendment\u2019s language. Read the story on VTDigger here: Proposal 4\u2019s language is flawed.",
-     "url": "https://vtdigger.org/2026/10/06/proposal-4s-language-is-flawed/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Watch American Football Combine \u201cNever Meant\u201d and the Cure\u2019s \u201cBoys Don\u2019t Cry\u201d",
+     "summary": "The veteran emo band pulled it off as a live cover for SiriusXM",
+     "url": "https://pitchfork.com/story/watch-american-football-combine-never-meant-and-the-cures-boys-dont-cry/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Man Sentenced to Prison for Bot Streams of AI Songs",
+     "summary": "Mike Smith is the first person to face federal charges for music streaming fraud",
+     "url": "https://pitchfork.com/story/man-sentenced-to-prison-for-bot-streams-of-ai-songs/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Undeath Sign to Relapse and Share New Song",
+     "summary": "\u201cArterial Bombardment\u201d is \u201ca track full of non-stop riffing, blasting, death metal sickness,\u201d says frontperson Alex Sason",
+     "url": "https://pitchfork.com/story/undeath-sign-to-relapse-and-share-new-song/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Paul McCartney Releases Three New Songs",
      "summary": "Listen to \u201cCity Fox,\u201d \u201cOne Night Stand,\u201d and \u201cChelsea Boots\u201d from the Boys of Dungeon Lane sessions",
@@ -249,27 +270,6 @@
      "summary": "Emily Moales will play U.S. headlining shows behind Highway to Hell in January",
      "url": "https://pitchfork.com/story/star-moles-signs-to-dead-oceans-readies-2027-tour/",
      "time": "Wed, 07 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "13 Record Store Day Releases Actually Worth Getting on Black Friday",
-     "summary": "The annual event has been a bloated mess for years but there are still some gems to be found this November",
-     "url": "https://pitchfork.com/story/15-record-store-day-releases-actually-worth-getting-on-black-friday/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Anna Meredith Announces New Album Darling",
-     "summary": "Listen to the first single, \u201cDusky,\u201d now",
-     "url": "https://pitchfork.com/story/anna-meredith-announces-new-album-darling/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "The Comet Is Coming Unearth Archival Songs for Channel the Spirits Reissue",
-     "summary": "Listen to \u201cLate Night Party Jam 2,\u201d recorded during Shabaka and the band\u2019s influential Total Refreshment Centre residency",
-     "url": "https://pitchfork.com/story/the-comet-is-coming-unearth-archival-songs-for-channel-the-spirits-reissue/",
-     "time": "Tue, 06 Oct 2026",
      "source": "Pitchfork"
     }
    ]
