@@ -1,56 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-07T14:16:34+0000",
+ "generated_iso": "2026-10-07T14:46:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tInnerException: System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.",
+     "t": "2026-10-07 10:23:17.497 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\tTargetSite: Void ThrowException(System.Net.Sockets.SocketError, System.Threading.CancellationToken)",
+     "t": "2026-10-07 10:23:34.915 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-07 10:12:44.290 Error LiveTV: Error in GetChannelStreamWithDirectStreamProvider",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-07 10:12:44.291 Error MediaSourceManager: Error opening live stream",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-07 10:12:44.291 Error MediaInfoService-0HNP4F6RFCNG9:00000018: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
+     "t": "2026-10-07 10:23:52.255 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -83,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-07T08:46:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-07T09:01:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-07T09:16:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     },
@@ -104,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-07T10:01:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T10:18:20-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T10:34:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     }
    ]
