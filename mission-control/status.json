@@ -1,48 +1,8 @@
 {
- "generated_at": 1791380788,
- "generated_iso": "2026-10-07T13:46:28+0000",
- "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
+ "generated_at": 1791381051,
+ "generated_iso": "2026-10-07T13:50:51+0000",
+ "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [
-  {
-   "severity": "info",
-   "icon": "\ud83d\udef0\ufe0f",
-   "title": "Razr RVG down",
-   "message": "Razr is online but RVG agent not responding.",
-   "at": "2026-10-07T13:46:28+0000"
-  }
- ],
- "github": {
-  "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 10,
-  "pages": [
-   {
-    "name": "seth-dashboard",
-    "url": "https://kellner-dot.github.io/seth-dashboard/"
-   },
-   {
-    "name": "theartfuldodger-site",
-    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
-   }
-  ]
- },
- "emby_library": {
-  "movies": null,
-  "series": null,
-  "episodes": null,
-  "recent": []
- },
- "terabox": {
-  "total": null,
-  "used": null,
-  "free": null
- },
- "kaviguard": {},
- "biglybt": {
-  "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
- },
  "devices": [
   {
    "id": "seths-pc",
@@ -51,18 +11,25 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 105,
+   "uptime_s": 347,
    "hostname": "SETHS-PC",
    "emby": {
-    "running": false,
-    "version": ""
+    "running": true,
+    "version": "4.10.1.0"
    },
-   "emby_sessions": [],
+   "emby_sessions": [
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "Muse",
+     "user": "",
+     "playing": null
+    }
+   ],
    "terabox_uploaders": 0,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
-    "adb": "unreachable (subnet route not approved or stick offline)"
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
    }
   },
   {
@@ -84,15 +51,14 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": true,
-   "ping_ms": null
+   "online": false
   },
   {
    "id": "motorola-razr-2023",
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": true,
+   "online": false,
    "rvg_agent": {
     "up": false,
     "authed": false
