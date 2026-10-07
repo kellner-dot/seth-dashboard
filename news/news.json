@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-06T22:46:37+0000",
- "updated_ts": 1791326797,
+ "updated": "2026-10-07T00:46:35+0000",
+ "updated_ts": 1791333995,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Sharing AI Progress in Mathematics",
+     "title": "Sharing AI progress in mathematics",
      "summary": "Comments",
      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
      "time": "Tue, 06 Oct 2026",
@@ -20,6 +20,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+     "summary": "Comments",
+     "url": "https://github.com/boykopovar/AnyPS5",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Decisions API is in public beta",
      "summary": "Comments",
      "url": "https://developers.openai.com/api/docs/guides/decisions",
@@ -27,23 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+     "title": "Integer multiplication below n log n",
      "summary": "Comments",
-     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+     "url": "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026",
      "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Nobel Prize in Physics 2026: Francis Halzen",
+     "title": "Penguin Mail \u2013 open-source Rust email client for Linux with AI",
      "summary": "Comments",
-     "url": "https://www.nobelprize.org/prizes/physics/2026/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-     "summary": "Comments",
-     "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+     "url": "https://penguin-mail.com/",
      "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
@@ -96,7 +96,7 @@
    "articles": [
     {
      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-     "summary": "Pike, 50, continues to receive critical medical care while handcuffed in hospital, according to a statement from her lawyers on Tuesday.",
+     "summary": "Experts and lawyers called the apparent recovery unprecedented, noting she is believed to be the only known person to survive a lethal injection.",
      "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
@@ -116,9 +116,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Ship sinks and crew missing after Black Sea drone attack",
-     "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
-     "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+     "title": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
+     "summary": "A sharp increase in human activity is affecting the way the Himalayan monal lives and communicates, studies show.",
+     "url": "https://www.bbc.co.uk/news/articles/cq9868z88rexo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
     },
@@ -135,6 +135,13 @@
      "url": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 06 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Actress Eva Marie Saint, who won an Oscar for 'On the Waterfront,' dies at 102",
+     "summary": "Saint won an Oscar for her portrayal of Edie, a Catholic schoolgirl whose longshoreman brother is murdered. She went on to star in Alfred Hitchcock's North by Northwest.",
+     "url": "https://www.npr.org/2026/10/06/462030457/eva-marie-saint-on-the-waterfront-dead-102",
+     "time": "Tue, 06 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Cornell names former acting U.S. attorney general to review rape case",
@@ -170,19 +177,19 @@
      "url": "https://www.npr.org/2026/10/06/g-s1-146634/vietnamese-police-arrest-12-suspected-of-prowling-city-streets-at-night-snatching-cats-for-meat",
      "time": "Tue, 06 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason",
-     "summary": "A former head of Germany 's foreign intelligence service was arrested on suspicion that he had passed state secrets to a foreign intelligence service, the federal prosecutor's office said.",
-     "url": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets",
-     "time": "Tue, 06 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Federal boost advances West Brattleboro Terrace redevelopment",
+     "summary": "U.S. Rep. Becca Balint, D-Vt., visits the former Melrose Terrace site in West Brattleboro to discuss $1.75 million in federal Community Project Funding for its redevelopment on Tuesday, Oct. 6, 2026. Photo by Kristopher Radder/Brattleboro Reformer \" data-large-file=\"https://vtdig",
+     "url": "https://vtdigger.org/2026/10/06/federal-boost-advances-west-brattleboro-terrace-redevelopment/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Vermont summer food aid for families expires this weekend",
      "summary": "An aisle in a grocery store with canned food items. Photo via Adobe Stock stock photo, food, shopping, groceries, food shelf, beans \" data-image-caption=\"An aisle in a grocery store with canned food items. Photo via Adobe Stock \" data-large-file=\"https://vtdigger.org/wp-content/u",
@@ -215,13 +222,6 @@
      "title": "Proposal 4\u2019s language is flawed",
      "summary": "The Legislature\u2019s own constitutional law expert has raised concerns about the amendment\u2019s language. Read the story on VTDigger here: Proposal 4\u2019s language is flawed.",
      "url": "https://vtdigger.org/2026/10/06/proposal-4s-language-is-flawed/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Vermont colleges chart a path forward against demographic and financial headwinds",
-     "summary": "The Champlain College campus in Burlington on Wednesday, June 25, 2025. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/06/champlain-college-5-20250625-1200x798.jpg\" /> \u201cWe cannot lose more colleges in Vermont if we're going to try ",
-     "url": "https://vtdigger.org/2026/10/06/vermont-colleges-chart-a-path-forward-against-demographic-and-financial-headwinds/",
      "time": "Tue, 06 Oct 2026",
      "source": "VT Digger"
     }
