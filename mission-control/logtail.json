@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-07T02:49:36+0000",
+ "generated_iso": "2026-10-07T03:17:32+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -10,27 +10,11 @@
      "c": "err"
     },
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001b7af815e80] error reading header",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000198ad325e80] error reading header",
      "c": "err"
     },
     {
-     "t": "2026-10-06 22:48:21.028 Error App: Error in ffprobe",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
-     "c": "err"
-    },
-    {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000205cb305e80] error reading header",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-06 22:48:39.811 Error App: Error in ffprobe",
+     "t": "2026-10-06 23:13:21.586 Error App: Error in ffprobe",
      "c": "err"
     },
     {
@@ -42,7 +26,23 @@
      "c": "err"
     },
     {
-     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001485dcc5e80] error reading header",
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 000001eb23a45e80] error reading header",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-06 23:13:40.146 Error App: Error in ffprobe",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: ffprobe failed - streams and format",
+     "c": "err"
+    },
+    {
+     "t": "\t[mov,mp4,m4a,3gp,3g2,mj2 @ 00000214111c5e80] error reading header",
      "c": "err"
     }
    ]
@@ -51,7 +51,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Wed Oct  7 02:46:27 UTC 2026: holder already running, not starting another",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
@@ -75,14 +75,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-06T21:31:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-06T21:46:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-06T22:01:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     },
@@ -96,6 +88,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-06T22:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T23:01:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-06T23:16:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-06",
      "c": "ok"
     }
    ]
