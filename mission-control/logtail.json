@@ -1,16 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-07T10:16:36+0000",
+ "generated_iso": "2026-10-07T10:46:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-07 05:53:34.259 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 06:25:30.032 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-07 05:53:51.724 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 06:25:32.093 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -23,31 +23,23 @@
      "c": "ok"
     },
     {
-     "t": "[refresh.log] --- STDERR ---",
+     "t": "[supervision.lo] GET /rvd/status",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] #< CLIXML",
+     "t": "[refresh.log] Successfully rebased and updated refs/heads/main.",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] <Objs Version=\"1.1.0.1\" xmlns=\"http://schemas.microsoft.com/powershell/2004/04\"><Obj S=\"progress\" RefId=\"0\"><TN RefId=\"0\"><T>System.Management.Automat",
+     "t": "[refresh.log] To https://github.com/kellner-dot/seth-dashboard.git",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] --- EXIT: 0",
+     "t": "[refresh.log]    2792352..c8945fb  HEAD -> main",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] [2026-10-06T10:47:18+00:00] daily refresh done",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-07T05:01:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-07T05:16:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "t": "[refresh.log] [2026-10-07T10:45:12+00:00] waiting for Pages deploy...",
      "c": "ok"
     },
     {
@@ -64,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-07T06:16:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T06:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T06:46:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     }
    ]
