@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-07T20:46:34+0000",
- "updated_ts": 1791405994,
+ "updated": "2026-10-07T22:46:35+0000",
+ "updated_ts": 1791413195,
  "topics": [
   {
    "name": "Tech",
@@ -13,30 +13,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-     "summary": "Comments",
-     "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "GPT\u20116 and Intelligent UI for everyone",
      "summary": "Comments",
      "url": "https://openai.com/index/gpt-6-for-everyone/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Visa, Mastercard, Major Banks Facing New Litigation over 'Anticompetitive' Fees",
-     "summary": "Comments",
-     "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The Mathocalypse",
-     "summary": "Comments",
-     "url": "https://scottaaronson.blog/?p=10169",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -46,6 +25,41 @@
      "url": "https://github.com/docker/docker-agent",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Margaret Hamilton, who led software development for Apollo program, dies at 90",
+     "summary": "Comments",
+     "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+     "summary": "Comments",
+     "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Bigwords.page \u2013 Turn any screen into a sign. The URL is the app",
+     "summary": "Comments",
+     "url": "https://bigwords.page/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "PA measles outbreak tops 1,000 cases, largest since disease was eliminated",
+     "summary": "Pennsylvania reported 1,066 outbreak-linked cases on Wednesday.",
+     "url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "TP-Link problems in US grow amid FCC router ban and four state lawsuits",
+     "summary": "TP-Link can't sell latest routers in US, still needs exemption from FCC ban.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Chemistry Nobel goes to reactions like those that gave life a hand",
@@ -74,20 +88,6 @@
      "url": "https://arstechnica.com/cars/2026/10/jaguar-makes-its-controversial-all-ev-return-with-the-type-01/",
      "time": "Wed, 07 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Trade group crunches numbers on Trump\u2019s impossible push for 100% US-made tech",
-     "summary": "Trump's aggressive reshoring push could cost tech firms $230 billion, CTA estimates.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/trade-group-crunches-numbers-on-trumps-impossible-push-for-100-us-made-tech/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
-     "summary": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
-     "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -95,9 +95,16 @@
    "name": "World",
    "articles": [
     {
-     "title": "France halts use of stun grenades after boy's hand blown off in student protests",
-     "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
-     "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
+     "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+     "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
+     "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 07 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
+     "summary": "Memorial events have taken place in Israel on the third anniversary of the Hamas-led attack that sparked the devastating Gaza war.",
+     "url": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
     },
@@ -105,6 +112,13 @@
      "title": "Israelis demand accountability over 7 October failures three years after attacks",
      "summary": "Prime Minister Benjamin Netanyahu has refused to take any personal responsibility for what happened or order a state inquiry.",
      "url": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 07 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "France halts use of stun grenades after boy's hand blown off in student protests",
+     "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
+     "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
     },
@@ -123,18 +137,18 @@
      "source": "BBC World"
     },
     {
-     "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
-     "summary": "Five children are among the victims of a strike that destroyed 30 flats in northern Ukraine as families slept.",
-     "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
+     "title": "The WHO seeks more details on the death of a plague research lab employee in Russia",
+     "summary": "The World Health Organization says it wants more information on what caused the death of an employee at a Russian plague research lab. Russia says the woman died of pneumonia of unknown origin.",
+     "url": "https://www.npr.org/2026/10/07/nx-s1-5993873/russia-death-plague-research-institute",
      "time": "Wed, 07 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
-     "title": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
-     "summary": "The 73-year-old has been arrested over allegations that a charity she is linked to misused donations.",
-     "url": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
+     "title": "What is the pneumonic plague?",
+     "summary": "The ancient disease of plague is back in the headlines after the death this month of a Russian lab worker.",
+     "url": "https://www.npr.org/2026/10/07/g-s1-146952/pneumonic-plague-russia-siberia-lab-death",
      "time": "Wed, 07 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
      "title": "This surprising mammal fossil is giving scientists something to chew on",
@@ -163,20 +177,6 @@
      "url": "https://www.npr.org/2026/10/07/nx-s1-5992963/dyed-diesel-fuel-price-farmers-trucks",
      "time": "Wed, 07 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "How Defense Secretary Pete Hegseth has brought the culture wars to the military",
-     "summary": "The New York Times reporter Greg Jaffe says Hegseth has disproportionately blocked promotions of Black and women senior officers, and he's also been purging the military of transgender people.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5992775/how-defense-secretary-pete-hegseth-has-brought-the-culture-wars-to-the-military",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "She got Trump's $500 check for health insurance. To her, it's a 'political stunt'",
-     "summary": "As checks from President Trump for health costs hit millions of mailboxes, a poll shows Americans don't trust Republicans on healthcare. Experts doubt it will move the needle and say it is likely illegal.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5991687/trump-medicare-aca-payments-midterms",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
@@ -184,45 +184,45 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Vermont governor\u2019s race will test voters\u2019 appetite for raising new taxes \u2014 or cutting them",
+     "summary": "Republican Gov. Phil Scott, left, and Democratic nominee for governor Amanda Janoo. Photos by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Scott-Janoo-Faces-2-up.jpg\" /> There\u2019s broad consensus that affordability is a problem, one poli",
+     "url": "https://vtdigger.org/2026/10/07/vermont-governors-race-will-test-voters-appetite-for-raising-new-taxes-or-cutting-them/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Vermont\u2019s \u2018slopaganda\u2019 problem",
+     "summary": "Hank Poitras, better known as &#8220;Planet Hank,&#8221; speaks during a social media livestream in May 2026. Screenshot \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/07/planet-hank-screenshot-1200x675.png\" /> After a successful challenge of Vermont's AI politic",
+     "url": "https://vtdigger.org/2026/10/07/vermonts-slopaganda-problem/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Don\u2019t tax Vermont expats out of coming home",
+     "summary": "A huge tax increase on second homes could push out owners with deep Vermont roots and let wealthier buyers with fewer ties take their place. Read the story on VTDigger here: Don\u2019t tax Vermont expats out of coming home.",
+     "url": "https://vtdigger.org/2026/10/07/opinion-dont-tax-vermont-expats-of-out-coming-home/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Florida evangelist purchases former Green Mountain College campus from Whiskey mogul",
+     "summary": "Evangelical preacher Tommie Zito is planning to covert Green Mountain College in Poultney into Z University. Seen on Friday, July 31, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/08/tommie-zito-3-20260731-1200x798.jpg\" /> T",
+     "url": "https://vtdigger.org/2026/10/07/florida-evangelist-purchases-former-green-mountain-college-campus-from-whiskey-mogul/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Vermont Digital Services Secretary Denise Reilly-Hughes to leave role for private sector",
+     "summary": "Agency of Digital Services Secretary Denise Reilly-Hughes speaks before the House Appropriations Committee at the Statehouse in Montpelier on Wednesday, February 12, 2025. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/02/denise-re",
+     "url": "https://vtdigger.org/2026/10/07/vermont-digital-services-secretary-denise-reilly-hughes-to-leave-role-for-private-sector/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Parents of cyclist who was killed in crosswalk file wrongful death lawsuit against driver",
      "summary": "Shiloh Skalka, 16, was killed in July in Burlington after she was struck by a vehicle while crossing a roadway on her e-bike in a crosswalk with warning lights flashing. Provided photo \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/sskalka_large_horizontal_5x7",
      "url": "https://vtdigger.org/2026/10/07/parents-of-cyclist-who-was-killed-in-crosswalk-file-wrongful-death-lawsuit-against-driver/",
      "time": "Wed, 07 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Vermont Conversation: Forester, influencer and author Ethan Tapper on why \u2018it\u2019s our responsibility to carry hope for each other\u2019",
-     "summary": "Forester Ethan Tapper, author of the book \u201cThe Forest Year: Finding Hope in a World Worth Saving.&#8221; Photo by Corey Hendrickson \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Ethan-Tapper-1200x800.jpg\" /> Tapper\u2019s new book, \u201cThe Forest Year: Finding Hope i",
-     "url": "https://vtdigger.org/2026/10/07/vermont-conversation-forester-influencer-and-author-ethan-tapper-on-why-its-our-responsibility-to-carry-hope-for-each-other/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Vermont\u2019s housing crisis needs bold answers",
-     "summary": "Homelessness has become ordinary in Vermont. And that is extraordinary. Read the story on VTDigger here: Vermont\u2019s housing crisis needs bold answers.",
-     "url": "https://vtdigger.org/2026/10/07/opinion-vermonts-housing-crisis-needs-bold-answers/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "For Sam Lucci, Freedom & Unity made the path back to college a \u201cno-brainer\u201d",
-     "summary": "\u201cThere might be a point where I have to weigh the cost of tuition against everything else,\u201d Sam said. \u201cBut as long as there is Freedom & Unity, I can plan my life and my next semester and a path to my degree.\u201d Read the story on VTDigger here: For Sam Lucci, Freedom & Unity made t",
-     "url": "https://vtdigger.org/2026/10/07/for-sam-lucci-freedom-unity-made-the-path-back-to-college-a-no-brainer/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Federal boost advances West Brattleboro Terrace redevelopment",
-     "summary": "U.S. Rep. Becca Balint, D-Vt., visits the former Melrose Terrace site in West Brattleboro to discuss $1.75 million in federal Community Project Funding for its redevelopment on Tuesday, Oct. 6, 2026. Photo by Kristopher Radder/Brattleboro Reformer \" data-large-file=\"https://vtdig",
-     "url": "https://vtdigger.org/2026/10/06/federal-boost-advances-west-brattleboro-terrace-redevelopment/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Vermont summer food aid for families expires this weekend",
-     "summary": "An aisle in a grocery store with canned food items. Photo via Adobe Stock stock photo, food, shopping, groceries, food shelf, beans \" data-image-caption=\"An aisle in a grocery store with canned food items. Photo via Adobe Stock \" data-large-file=\"https://vtdigger.org/wp-content/u",
-     "url": "https://vtdigger.org/2026/10/06/vermont-summer-food-aid-for-families-expires-this-weekend/",
-     "time": "Tue, 06 Oct 2026",
      "source": "VT Digger"
     }
    ]
@@ -230,6 +230,20 @@
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "The War on Drugs\u2019 Robbie Bennett Sets Two New Solo Albums",
+     "summary": "The keyboardist has shared one song each from Steloken and Circulation",
+     "url": "https://pitchfork.com/story/the-war-on-drugs-robbie-bennett-sets-two-new-solo-albums/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "You Can Now Get a Jimmy Eat World Library Card",
+     "summary": "If you live in Mesa, Arizona, that is",
+     "url": "https://pitchfork.com/story/jimmy-eat-world-library-card/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Watch American Football Combine \u201cNever Meant\u201d and the Cure\u2019s \u201cBoys Don\u2019t Cry\u201d",
      "summary": "The veteran emo band pulled it off as a live cover for SiriusXM",
@@ -255,20 +269,6 @@
      "title": "Paul McCartney Releases Three New Songs",
      "summary": "Listen to \u201cCity Fox,\u201d \u201cOne Night Stand,\u201d and \u201cChelsea Boots\u201d from the Boys of Dungeon Lane sessions",
      "url": "https://pitchfork.com/story/paul-mccartney-releases-three-new-songs/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Watch Twisted Teens Play in the Trash in Their New Music Video",
-     "summary": "The New Orleans punks are gearing up to release their third album of the year next month",
-     "url": "https://pitchfork.com/story/watch-twisted-teens-play-in-trash-in-new-stalks-video/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Star Moles Signs to Dead Oceans, Readies 2027 Tour",
-     "summary": "Emily Moales will play U.S. headlining shows behind Highway to Hell in January",
-     "url": "https://pitchfork.com/story/star-moles-signs-to-dead-oceans-readies-2027-tour/",
      "time": "Wed, 07 Oct 2026",
      "source": "Pitchfork"
     }
