@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://kellner-dot.github.io/seth-dashboard/kavitv/kavitv.xml"
 #EXTINF:-1 tvg-id="kavitv.horror" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo.png" group-title="KaviTV",KaviTV Horror
-http://10.0.0.98:8103/kavitv/live/horror.m3u8
+http://10.0.0.98:8100/kavitv/live/horror.m3u8
 #EXTINF:-1 tvg-id="kavitv.experimental" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo.png" group-title="KaviTV",KaviTV Experimental
-http://10.0.0.98:8103/kavitv/live/experimental.m3u8
+http://10.0.0.98:8100/kavitv/live/experimental.m3u8
 #EXTINF:-1 tvg-id="kavitv.independent" tvg-logo="https://kellner-dot.github.io/seth-dashboard/kavitv/logo.png" group-title="KaviTV",KaviTV Independent
-http://10.0.0.98:8103/kavitv/live/independent.m3u8
+http://10.0.0.98:8100/kavitv/live/independent.m3u8
