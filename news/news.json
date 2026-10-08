@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-08T12:46:39+0000",
- "updated_ts": 1791463599,
+ "updated": "2026-10-08T14:46:46+0000",
+ "updated_ts": 1791470806,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Beauty in DVD Menus",
+     "summary": "Comments",
+     "url": "https://vale.rocks/posts/dvd-menus",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "\u201cMath 2.0\u201d will need to value mathematical progress more holistically",
      "summary": "Comments",
@@ -20,9 +27,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+     "title": "Telnet BBS Guide",
      "summary": "Comments",
-     "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+     "url": "https://www.telnetbbsguide.com/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "OpenAI Withdraws 3 Math Papers",
+     "summary": "Comments",
+     "url": "https://github.com/openai/math/blob/main/history.md",
      "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,18 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "OpenAI Withdraws 3 Math Papers",
-     "summary": "Comments",
-     "url": "https://github.com/openai/math/blob/main/history.md",
+     "title": "ExxonMobil's own scientists doubted climate fixes the company hyped",
+     "summary": "Court filings reveal new details about Exxon's decades of internal climate deliberations.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
      "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The 15-year search for a band that charted once and vanished",
-     "summary": "Comments",
-     "url": "https://shahidhussain.com/writing/search-for-salvage/",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
@@ -81,13 +88,6 @@
      "url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
      "time": "Wed, 07 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "TP-Link problems in US grow amid FCC router ban and four state lawsuits",
-     "summary": "TP-Link can't sell latest routers in US, still needs exemption from FCC ban.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -96,7 +96,7 @@
    "articles": [
     {
      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-     "summary": "Ukraine accused Russia of targeting the crowded bus in the frontline city to kill as many civilians as possible.",
+     "summary": "Ukraine accused Russia of targeting the crowded vehicles in the front line city of Kramatorsk to kill as many civilians as possible.",
      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Italy overhauls electoral system after fiercely contested debate",
+     "title": "Italy approves elections overhaul as opposition accuse Meloni of 'scam'",
      "summary": "Prime Minister Giorgia Meloni says the move will deliver more stable government, but opposition parties say her aim is to stay in power.",
      "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
-     "summary": "Casualties have been reported on the vessel, identified by a maritime intelligence firm as the oil and chemical tanker, Acers.",
-     "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
+     "title": "'Every day there is killing': Palestinians in Gaza face Israeli strikes despite ceasefire as peace deal stalls",
+     "summary": "Many Palestinians are still living in cramped tent cities, with the US plan to end the war largely stalled.",
+     "url": "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
@@ -231,6 +231,27 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Turnstile Announce Free Show to Raise Funds for Palestine, Sudan, and Lebanon",
+     "summary": "The Washington D.C. concert takes place on October 24 in collaboration with Human Concern International",
+     "url": "https://pitchfork.com/story/turnstile-announce-free-show-to-raise-funds-for-palestine-sudan-and-lebanon/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Grouper\u2019s Liz Harris Shares 21-Minute Composition",
+     "summary": "\u201cUntitled (from Constellation)\u201d is one of two short-film scores compiled on a new Kranky release",
+     "url": "https://pitchfork.com/story/groupers-liz-harris-shares-21-minute-composition/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "GTA VI Radio Stations to Be Hosted by Lana Del Rey, Bad Bunny, Robyn",
+     "summary": "Also: RaiNao along with Lana Del Rey's husband",
+     "url": "https://pitchfork.com/story/gta-vi-radio-station-hosts-bad-bunny-rainao-lana-del-rey-robyn/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Andrew Savage Launches New Band Iconic Fugues with \u201c2025 Dream/2025 Blues\u201d",
      "summary": "\u201cI think it\u2019s just amazing the way a fun guitar solo can draw a bit of sun out from behind the clouds\u201d",
      "url": "https://pitchfork.com/story/andrew-savage-launches-new-band-iconic-fugues-with-2025-dream-2025-blues/",
@@ -248,27 +269,6 @@
      "title": "You Can Now Get a Jimmy Eat World Library Card",
      "summary": "If you live in Mesa, Arizona, that is",
      "url": "https://pitchfork.com/story/jimmy-eat-world-library-card/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Watch American Football Combine \u201cNever Meant\u201d and the Cure\u2019s \u201cBoys Don\u2019t Cry\u201d",
-     "summary": "The veteran emo band pulled it off as a live cover for SiriusXM",
-     "url": "https://pitchfork.com/story/watch-american-football-combine-never-meant-and-the-cures-boys-dont-cry/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Man Sentenced to Prison for Bot Streams of AI Songs",
-     "summary": "Mike Smith is the first person to face federal charges for music streaming fraud",
-     "url": "https://pitchfork.com/story/man-sentenced-to-prison-for-bot-streams-of-ai-songs/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Undeath Sign to Relapse and Share New Song",
-     "summary": "\u201cArterial Bombardment\u201d is \u201ca track full of non-stop riffing, blasting, death metal sickness,\u201d says frontperson Alex Sason",
-     "url": "https://pitchfork.com/story/undeath-sign-to-relapse-and-share-new-song/",
      "time": "Wed, 07 Oct 2026",
      "source": "Pitchfork"
     }
