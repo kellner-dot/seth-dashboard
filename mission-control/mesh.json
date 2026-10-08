@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-10-08T17:46:39+0000",
+ "generated_iso": "2026-10-08T18:46:44+0000",
  "nodes": [
   {
    "name": "muse",
@@ -23,15 +23,15 @@
    "online": true
   },
   {
-   "name": "muse",
-   "role": "This VM",
-   "ip": "100.88.106.125",
+   "name": "googletv9618",
+   "role": "Tailnet node",
+   "ip": "100.92.144.100",
    "online": true
   },
   {
-   "name": "googletv9618",
-   "role": "Tailnet node",
-   "ip": "100.86.247.61",
+   "name": "muse",
+   "role": "This VM",
+   "ip": "100.88.106.125",
    "online": true
   },
   {
