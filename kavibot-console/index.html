@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KaviBOT Console</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2f2fd6">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="KaviBOT">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <style>
 /* ============ KaviBOT Console U1 — Option 2 "Daylight" design language ============
    Single static file. No build. Light/dark via CSS variables. Read-only. */
@@ -362,6 +370,7 @@ function loadAll(){
     .then(function(res){
       if(res[0].status==="fulfilled") state.health = res[0].value;
       if(res[1].status==="fulfilled") state.uptime = res[1].value;
+      state.loaded = true;
       render();
     });
 }
@@ -500,7 +509,11 @@ document.querySelectorAll(".nav-item[data-view]").forEach(function(b){
 function renderStatus(){
   var pill = $("statusText"), dot = $("statusDot"), hd = $("navHealthDot"), dd = $("navDevDot");
   var h = state.health, u = state.uptime;
-  if(!h && !u){ pill.textContent = "Loading…"; return; }
+  if(!h && !u){
+    pill.textContent = state.loaded ? "Unavailable" : "Loading…";
+    dot.className = "dot " + (state.loaded ? "red" : "gray");
+    return;
+  }
   var parts = [];
   if(h){ parts.push(h.status.charAt(0)+h.status.slice(1).toLowerCase()); }
   if(u && u.services){
