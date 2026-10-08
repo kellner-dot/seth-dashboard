@@ -1,32 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-08T17:17:31+0000",
+ "generated_iso": "2026-10-08T17:46:50+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-08 13:13:28.271 Error App: Error in validateChildren for 21433 D:\\TV Shows",
+     "t": "2026-10-08 13:23:17.044 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "2026-10-08 13:23:34.306 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-08 13:13:30.033 Error App: Error in TheTVDB",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
+     "t": "2026-10-08 13:23:51.588 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -59,10 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-08T12:01:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-08T12:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
      "c": "ok"
     },
@@ -80,6 +64,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-08T13:16:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T13:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
      "c": "ok"
     }
    ]
