@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-08T04:46:39+0000",
- "updated_ts": 1791434799,
+ "updated": "2026-10-08T06:48:45+0000",
+ "updated_ts": 1791442125,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "\u201cMath 2.0\u201d will need to value mathematical progress more holistically",
+     "summary": "Comments",
+     "url": "https://mathstodon.xyz/@tao/117395269325940185",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Claude Haiku 5.5",
      "summary": "Comments",
@@ -20,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "A 100x faster* alternative to homebrew",
+     "summary": "Comments",
+     "url": "https://github.com/zerobrewhq/zerobrew",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Margaret Hamilton has died",
      "summary": "Comments",
      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
@@ -27,24 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Cleo (Mathematician)",
-     "summary": "Comments",
-     "url": "https://en.wikipedia.org/wiki/Cleo_(mathematician)",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
      "summary": "Comments",
      "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
      "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "'Jonathan' is the oldest land animal on Earth",
-     "summary": "Comments",
-     "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
-     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,6 +95,13 @@
    "name": "World",
    "articles": [
     {
+     "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
+     "summary": "Bassam al-Hassan, linked to reporter Austin Tice's abduction, is being sheltered in return for information.",
+     "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Texas carries out first US execution since Christa Pike's botched lethal injections",
      "summary": "Lawyers for Jamaal Howard had asked a judge to pause the execution after Christa Pike's botched lethal injections.",
      "url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss",
@@ -102,39 +109,53 @@
      "source": "BBC World"
     },
     {
-     "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+     "title": "Spanish pensioner whose eviction sparked nationwide protests dies",
      "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "France's school protests: what lies behind the anger",
+     "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
+     "summary": "Pioneering computer scientist led the development of the software for Nasa's Apollo mission and was awarded the Presidential Medal of Freedom.",
+     "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "France's school protests: What lies behind the anger",
      "summary": "Students' blockades and marches spring from real grievances \u2013 and from France's habit of settling policy on the street.",
      "url": "https://www.bbc.co.uk/news/articles/c6n9rgg80z94o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Trump wants a new Camp David-like retreat at his Florida golf club",
-     "summary": "Trump's estate would stand in stark contrast to the rustic Camp David and mark another tradition transformed by Trump.",
-     "url": "https://www.bbc.co.uk/news/articles/c9gkvxjvl7v3o?at_medium=RSS&at_campaign=rss",
+     "title": "New York court hears arguments in ongoing 9/11 families' lawsuit against Saudi Arabia",
+     "summary": "The families allege that men with links to the Saudi government helped those who carried out the 2001 attacks, something the country denies.",
+     "url": "https://www.bbc.co.uk/news/articles/cwvgrxlylj72o?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 07 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Trump proposes Camp David-style presidential retreat at his private Florida golf club",
+     "summary": "President Trump said he wants to develop one of his Florida golf courses into a presidential retreat where his successors can spend quiet weekends, describing it as \"sort of a Camp David.\"",
+     "url": "https://www.npr.org/2026/10/08/g-s1-147101/trump-presidential-retreat-golf-club",
      "time": "Thu, 08 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
-     "title": "Israelis demand accountability over 7 October failures three years after attacks",
-     "summary": "Prime Minister Benjamin Netanyahu has refused to take any personal responsibility for what happened or order a state inquiry.",
-     "url": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 07 Oct 2026",
-     "source": "BBC World"
+     "title": "Maricarmen, the 87-year-old woman whose eviction shook Spain, has died",
+     "summary": "Mar\u00eda del Carmen Abascal, the 87-year-old woman whose eviction from her Madrid home sparked nationwide protests across Spain and unleashed a political crisis, died on Wednesday while hospitalized.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5994868/maricarmen-eviction-spain-dies",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
     },
     {
-     "title": "Former Venezuelan President Nicol\u00e1s Maduro expected to face more charges this week",
-     "summary": "The new charges are expected to accuse Maduro and his wife of playing a role in the torture of Americans in Venezuelan prisons, US media reports.",
-     "url": "https://www.bbc.co.uk/news/articles/cx62y37r1p8eo?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 07 Oct 2026",
-     "source": "BBC World"
+     "title": "Isaias strengthens into the first hurricane of the Atlantic season",
+     "summary": "The National Hurricane Center said late Wednesday that the hurricane was on track to strike the U.S. Gulf Coast later in the week. It's expected to bring heavy rains and potentially flash flooding.",
+     "url": "https://www.npr.org/2026/10/08/g-s1-147095/weather-hurricane-season",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "The WHO seeks more details on the death of a plague research lab employee in Russia",
@@ -154,27 +175,6 @@
      "title": "This surprising mammal fossil is giving scientists something to chew on",
      "summary": "It's likely you've already chewed and swallowed some tasty morsel today. But when did that ability emerge? New evidence points to at least the middle Jurassic, back when dinosaurs still reigned.",
      "url": "https://www.npr.org/2026/10/07/nx-s1-5991361/fossil-mammal-platypus-chew-swallow-suckle-earliest",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Judge orders that Christa Pike execution evidence be preserved",
-     "summary": "A week after the failed execution, Pike is awake but is said to be angry and confused. Her lawyers said Wednesday's hearing was about \"transparency.\"",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5993628/judge-orders-that-christa-pike-execution-evidence-be-preserved",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Trump approved the military's 1st firing squad execution since WWII. Why now?",
-     "summary": "The Pentagon says Nidal Hasan will be executed by firing squad in December at Fort Hood, where he killed 13 people in 2009. The announcement came days after a botched lethal injection in Tennessee.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5993539/firing-squad-execution-nidal-hasan-fort-hood",
-     "time": "Wed, 07 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Why Trump just loosened the rules on 'dyed diesel' \u2014 normally a farm fuel",
-     "summary": "Trump is temporarily allowing this fuel to be used on highways, although it's typically just for off-road farm and construction vehicles. Could that lower the price of diesel?",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5992963/dyed-diesel-fuel-price-farmers-trucks",
      "time": "Wed, 07 Oct 2026",
      "source": "NPR News"
     }

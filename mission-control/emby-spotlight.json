@@ -73,7 +73,7 @@
     "Science Fiction",
     "Western"
    ],
-   "runtime_min": 0,
+   "runtime_min": 135,
    "progress_pct": 0,
    "type": "Movie"
   },
@@ -113,15 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "The Fall",
-  "year": 2008,
+  "name": "Shoe",
+  "year": 2010,
   "genres": [
-   "Adventure",
-   "Fantasy"
+   "Short",
+   "Drama"
   ],
-  "runtime_min": 117,
+  "runtime_min": 3,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "In a hospital on the outskirts of 1920s Los Angeles, an injured stuntman begins to tell a fellow patient, a little girl with a broken arm, a fantastic story about 5 mythical heroes. Thanks to his fractured state of mind "
+  "overview": "Vince is about to kill himself - but that crazy beggar keeps killing the mood."
  }
 }
