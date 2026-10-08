@@ -1,16 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-08T10:16:37+0000",
+ "generated_iso": "2026-10-08T10:46:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-08 05:53:33.909 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-08 06:23:16.947 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-08 05:53:51.166 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-08 06:23:34.161 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-08 06:23:51.364 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -19,35 +23,27 @@
    "name": "Fleet Pollers",
    "lines": [
     {
+     "t": "[supervision.lo] Thu Oct  8 02:56:10 UTC 2026: lock process confirmed on device (PID 2580)",
+     "c": "ok"
+    },
+    {
      "t": "[supervision.lo] POST /rvd/launch",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] --- STDERR ---",
+     "t": "[refresh.log] Successfully rebased and updated refs/heads/main.",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] #< CLIXML",
+     "t": "[refresh.log] To https://github.com/kellner-dot/seth-dashboard.git",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] <Objs Version=\"1.1.0.1\" xmlns=\"http://schemas.microsoft.com/powershell/2004/04\"><Obj S=\"progress\" RefId=\"0\"><TN RefId=\"0\"><T>System.Management.Automat",
+     "t": "[refresh.log]    fe466ee5..c7459613  HEAD -> main",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] --- EXIT: 0",
-     "c": "ok"
-    },
-    {
-     "t": "[refresh.log] [2026-10-07T10:47:16+00:00] daily refresh done",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-08T05:01:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-08T05:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "t": "[refresh.log] [2026-10-08T10:45:10+00:00] waiting for Pages deploy...",
      "c": "ok"
     },
     {
@@ -64,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-08T06:16:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T06:31:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T06:46:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
      "c": "ok"
     }
    ]
