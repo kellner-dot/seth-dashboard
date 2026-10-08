@@ -1,20 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-08T17:46:50+0000",
+ "generated_iso": "2026-10-08T18:16:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-08 13:23:17.044 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-08 13:53:36.908 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-08 13:23:34.306 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-08 13:23:51.588 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-08 13:53:54.128 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -47,18 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-08T12:16:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-08T12:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-08T12:46:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-08T13:01:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
      "c": "ok"
     },
@@ -68,6 +52,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-08T13:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T13:47:25-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T14:01:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T14:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
      "c": "ok"
     }
    ]
