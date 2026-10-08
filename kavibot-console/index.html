@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KaviBOT Console</title>
+<style>
+/* ============ KaviBOT Console U1 — Option 2 "Daylight" design language ============
+   Single static file. No build. Light/dark via CSS variables. Read-only. */
+:root{
+  --page-bg:#eceef2; --app-bg:#ffffff; --rail-bg:#f5f6f9;
+  --text:#161a24; --text-2:#5d6372; --text-3:#8a90a0;
+  --border:#e2e5eb; --border-soft:#edeff4;
+  --indigo:#2f2fd6; --indigo-hover:#2626b8; --indigo-soft:#e4e4fb; --indigo-softer:#f0f0fe;
+  --bubble:#e9e9f8;
+  --green-bg:#e1f4e4; --green-text:#187a33; --green-dot:#22b14c;
+  --amber-bg:#fdf1dc; --amber-text:#9a5b00; --amber-dot:#e8a13a;
+  --red-bg:#fde7e7; --red-text:#b3261e; --red-dot:#e5484d;
+  --gray-bg:#eceef1; --gray-text:#5d6372;
+  --shadow:0 12px 32px rgba(20,24,40,.09);
+  --shadow-sm:0 2px 8px rgba(20,24,40,.06);
+}
+[data-theme="dark"]{
+  --page-bg:#05070d; --app-bg:#0d1219; --rail-bg:#090c12;
+  --text:#e9edf5; --text-2:#9aa3b5; --text-3:#6b7488;
+  --border:#1e2534; --border-soft:#151b27;
+  --indigo:#5b5bf0; --indigo-hover:#6d6df5; --indigo-soft:#22224e; --indigo-softer:#181832;
+  --bubble:#1d2033;
+  --green-bg:#123a22; --green-text:#4ade80; --green-dot:#4ade80;
+  --amber-bg:#3a2a10; --amber-text:#fbbf24; --amber-dot:#fbbf24;
+  --red-bg:#3d1518; --red-text:#f87171; --red-dot:#f87171;
+  --gray-bg:#1a2130; --gray-text:#9aa3b5;
+  --shadow:0 12px 32px rgba(0,0,0,.5);
+  --shadow-sm:0 2px 8px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
+  background:var(--page-bg); color:var(--text);
+  min-height:100vh; transition:background .25s ease,color .25s ease;
+}
+.app{
+  background:var(--app-bg); border:1px solid var(--border);
+  border-radius:24px; box-shadow:var(--shadow);
+  max-width:1760px; margin:20px auto; overflow:hidden;
+  min-height:calc(100vh - 40px); display:flex; flex-direction:column;
+  transition:background .25s ease;
+}
+/* ---------------- Top bar ---------------- */
+.topbar{
+  display:flex; align-items:center; gap:16px;
+  padding:14px 24px; border-bottom:1px solid var(--border-soft);
+}
+.brand{display:flex; align-items:center; gap:12px}
+.logo{
+  width:44px;height:44px;border-radius:14px;background:var(--indigo);
+  display:flex;align-items:center;justify-content:center;flex:none;
+}
+.logo svg{width:26px;height:26px}
+.wordmark{font-size:27px;font-weight:700;letter-spacing:-.02em}
+.status-pill{
+  display:flex;align-items:center;gap:8px;
+  border:1px solid var(--border); border-radius:999px;
+  padding:9px 18px; font-size:14.5px; font-weight:600; color:var(--text-2);
+  background:var(--app-bg); white-space:nowrap;
+}
+.dot{width:9px;height:9px;border-radius:50%;flex:none}
+.dot.green{background:var(--green-dot)} .dot.amber{background:var(--amber-dot)}
+.dot.red{background:var(--red-dot)} .dot.gray{background:var(--text-3)}
+.spacer{flex:1}
+.theme-toggle{
+  display:flex; border:1px solid var(--border); border-radius:999px;
+  padding:3px; background:var(--app-bg); cursor:pointer;
+}
+.theme-toggle button{
+  border:0; background:transparent; border-radius:999px;
+  width:42px;height:32px; display:flex;align-items:center;justify-content:center;
+  cursor:pointer; color:var(--text-3);
+}
+.theme-toggle button.active{background:var(--gray-bg); color:var(--text)}
+.theme-toggle svg{width:19px;height:19px}
+.avatar{
+  width:44px;height:44px;border-radius:50%;background:var(--indigo);
+  color:#fff;font-weight:700;font-size:16px;
+  display:flex;align-items:center;justify-content:center;flex:none;
+}
+/* ---------------- Main layout ---------------- */
+.main{flex:1;display:flex;min-height:0}
+/* ---------------- Sidebar ---------------- */
+.sidebar{
+  width:300px;flex:none;border-right:1px solid var(--border-soft);
+  padding:22px 18px;display:flex;flex-direction:column;gap:6px;
+}
+.btn-primary{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--indigo);color:#fff;border:0;border-radius:999px;
+  padding:14px 20px;font-size:16.5px;font-weight:700;cursor:pointer;
+  margin-bottom:18px;transition:background .15s ease;
+}
+.btn-primary:hover{background:var(--indigo-hover)}
+.btn-primary svg{width:20px;height:20px}
+.btn-primary:disabled{opacity:.55;cursor:default}
+.section-label{
+  font-size:13.5px;font-weight:600;color:var(--text-3);
+  padding:8px 12px 6px;letter-spacing:.02em;
+}
+.nav-item{
+  display:flex;align-items:center;gap:12px;width:100%;
+  border:0;background:transparent;border-radius:12px;
+  padding:11px 12px;font-size:15.5px;font-weight:600;color:var(--text);
+  cursor:pointer;text-align:left;position:relative;
+  transition:background .12s ease;
+}
+.nav-item:hover{background:var(--indigo-softer)}
+.nav-item.active{background:var(--indigo-soft)}
+.nav-item.active::before{
+  content:"";position:absolute;left:-18px;top:8px;bottom:8px;width:5px;
+  border-radius:0 4px 4px 0;background:var(--indigo);
+}
+.nav-item svg{width:21px;height:21px;flex:none;color:var(--text-2)}
+.nav-item.active svg{color:var(--indigo)}
+.nav-item .mini{
+  margin-left:auto;font-size:11px;font-weight:700;color:var(--text-3);
+  background:var(--gray-bg);border-radius:6px;padding:2px 7px;
+}
+.nav-item.disabled{opacity:.5;cursor:default}
+.nav-item.disabled:hover{background:transparent}
+.nav-meta{margin-left:auto;display:flex;align-items:center;gap:7px}
+.sidebar-foot{margin-top:auto;padding-top:16px;border-top:1px solid var(--border-soft)}
+.version-line{font-size:12.5px;color:var(--text-3);padding:8px 12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+/* ---------------- Content ---------------- */
+.content{flex:1;min-width:0;padding:30px 34px;overflow-y:auto}
+.view-title{font-size:27px;font-weight:700;letter-spacing:-.02em}
+.view-sub{font-size:14px;color:var(--text-2);margin-top:5px;margin-bottom:22px}
+.view{display:none}
+.view.active{display:block}
+.banner{
+  display:flex;align-items:center;gap:14px;border:1px solid var(--border);
+  border-radius:18px;padding:18px 22px;margin-bottom:20px;background:var(--app-bg);
+  box-shadow:var(--shadow-sm);
+}
+.banner .dot{width:12px;height:12px}
+.banner-title{font-size:17px;font-weight:700}
+.banner-sub{font-size:13.5px;color:var(--text-2);margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{
+  border:1px solid var(--border);border-radius:18px;background:var(--app-bg);
+  padding:20px 22px;box-shadow:var(--shadow-sm);cursor:pointer;
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+.card:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.card.selected{outline:2px solid var(--indigo);outline-offset:-2px}
+.card-top{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.card-icon{
+  width:38px;height:38px;border-radius:12px;background:var(--indigo-softer);
+  display:flex;align-items:center;justify-content:center;flex:none;
+}
+.card-icon svg{width:20px;height:20px;color:var(--indigo)}
+.card-name{font-size:16px;font-weight:700}
+.pill{
+  display:inline-flex;align-items:center;gap:6px;border-radius:999px;
+  font-size:12.5px;font-weight:700;padding:4px 12px;white-space:nowrap;
+}
+.pill.green{background:var(--green-bg);color:var(--green-text)}
+.pill.amber{background:var(--amber-bg);color:var(--amber-text)}
+.pill.red{background:var(--red-bg);color:var(--red-text)}
+.pill.gray{background:var(--gray-bg);color:var(--gray-text)}
+.pill.indigo{background:var(--indigo-soft);color:var(--indigo)}
+.card-detail{font-size:13.5px;color:var(--text-2);line-height:1.5}
+.card-foot{margin-top:12px;font-size:12.5px;color:var(--text-3)}
+.uptime-bars{display:flex;gap:3px;margin-top:12px}
+.uptime-bars i{
+  flex:1;height:22px;border-radius:4px;background:var(--border-soft);min-width:0;
+}
+.uptime-bars i.up{background:var(--green-dot)}
+.uptime-bars i.down{background:var(--red-dot)}
+.uptime-bars i.na{background:var(--border-soft)}
+.empty{
+  border:1px dashed var(--border);border-radius:18px;padding:40px 24px;
+  text-align:center;color:var(--text-2);font-size:15px;
+}
+/* ---------------- Right rail ---------------- */
+.rail{
+  width:340px;flex:none;background:var(--rail-bg);
+  border-left:1px solid var(--border-soft);padding:24px 22px;overflow-y:auto;
+}
+.tabs{display:flex;gap:8px;margin-bottom:18px}
+.tab{
+  border:0;border-radius:10px;padding:8px 16px;font-size:14.5px;font-weight:600;
+  background:var(--gray-bg);color:var(--text-2);cursor:pointer;
+}
+.tab.active{background:transparent;color:var(--indigo);box-shadow:inset 0 -3px 0 var(--indigo);border-radius:0}
+.rail h3{font-size:16.5px;font-weight:700;margin-bottom:14px}
+.detail-card{
+  background:var(--app-bg);border:1px solid var(--border);border-radius:16px;
+  padding:18px;margin-bottom:14px;box-shadow:var(--shadow-sm);
+}
+.detail-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;font-size:13.5px}
+.detail-row .k{color:var(--text-2);font-weight:600}
+.detail-row .v{text-align:right;word-break:break-word}
+.detail-row .v.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+.note{
+  display:flex;gap:10px;font-size:13px;color:var(--text-2);line-height:1.55;
+  padding:4px 2px;
+}
+.note svg{width:17px;height:17px;flex:none;margin-top:2px;color:var(--text-3)}
+/* ---------------- Responsive ---------------- */
+@media (max-width:1180px){
+  .rail{display:none}
+  .rail.drawer{display:block;position:fixed;right:12px;top:100px;bottom:12px;
+    width:min(360px,92vw);border:1px solid var(--border);border-radius:18px;
+    box-shadow:var(--shadow);z-index:40}
+}
+@media (max-width:860px){
+  .app{margin:0;border-radius:0;min-height:100vh;border-left:0;border-right:0}
+  .main{flex-direction:column}
+  .sidebar{width:100%;border-right:0;border-bottom:1px solid var(--border-soft);padding:14px}
+  .sidebar .nav-scroll{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+  .nav-item{white-space:nowrap}
+  .nav-item.active::before{display:none}
+  .section-label,.sidebar-foot{display:none}
+  .btn-primary{margin-bottom:10px}
+  .content{padding:20px 16px}
+  .wordmark{font-size:21px}
+  .status-pill{font-size:12.5px;padding:7px 12px}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4L12 2z" fill="#fff" opacity=".95"/><path d="M19 3l.9 2.6L22.5 6.5l-2.6.9L19 10l-.9-2.6-2.6-.9 2.6-.9L19 3z" fill="#fff" opacity=".7"/></svg>
+      </div>
+      <span class="wordmark">KaviBOT</span>
+    </div>
+    <div class="status-pill" id="statusPill"><span class="dot gray" id="statusDot"></span><span id="statusText">Loading…</span></div>
+    <div class="spacer"></div>
+    <div class="theme-toggle" role="group" aria-label="Theme">
+      <button id="btnLight" title="Light theme" aria-label="Light theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      </button>
+      <button id="btnDark" title="Dark theme" aria-label="Dark theme">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 14.2A8.5 8.5 0 0 1 9.8 3.6a8.5 8.5 0 1 0 10.6 10.6z"/></svg>
+      </button>
+    </div>
+    <div class="avatar" title="Seth Kellner">SK</div>
+  </header>
+
+  <div class="main">
+    <nav class="sidebar" aria-label="Console sections">
+      <button class="btn-primary" id="btnRefresh">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v4h-4"/></svg>
+        Refresh data
+      </button>
+      <div class="section-label">Console</div>
+      <div class="nav-scroll" id="navScroll">
+        <button class="nav-item active" data-view="health">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l2.5-6 4 12 2.5-6H21"/></svg>
+          System health <span class="nav-meta"><span class="dot green" id="navHealthDot"></span></span>
+        </button>
+        <button class="nav-item" data-view="devices">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="4" width="19" height="12" rx="2.5"/><path d="M9 20h6M12 16v4"/></svg>
+          Devices <span class="nav-meta"><span class="dot green" id="navDevDot"></span></span>
+        </button>
+      </div>
+      <div class="section-label">Soon</div>
+      <div class="nav-scroll">
+        <button class="nav-item disabled" title="Phase U3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-8 8H4l2-3a8 8 0 1 1 15-5z"/></svg>Conversation<span class="mini">U3</span></button>
+        <button class="nav-item disabled" title="Phase U2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4L12 2z"/></svg>Capabilities<span class="mini">U2</span></button>
+        <button class="nav-item disabled" title="Phase U2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="5" cy="6" r="1.4"/><circle cx="5" cy="12" r="1.4"/><circle cx="5" cy="18" r="1.4"/></svg>Tasks<span class="mini">U2</span></button>
+        <button class="nav-item disabled" title="Phase U2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a5 5 0 0 1 5 5c0 2-1 3.5-2 4.5V15a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2.5C8 11.5 7 10 7 8a5 5 0 0 1 5-5z"/><path d="M9 21h6"/></svg>Memory<span class="mini">U2</span></button>
+        <button class="nav-item disabled" title="Phase U2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v5l3 2"/><circle cx="12" cy="12" r="9"/></svg>Audit<span class="mini">U2</span></button>
+      </div>
+      <div class="sidebar-foot">
+        <div class="version-line" id="versionLine">commit …</div>
+      </div>
+    </nav>
+
+    <main class="content">
+      <section class="view active" id="view-health">
+        <h1 class="view-title">System health</h1>
+        <p class="view-sub" id="healthSub">KaviBOT backend components</p>
+        <div class="banner" id="healthBanner" hidden>
+          <span class="dot green" id="healthDot"></span>
+          <div><div class="banner-title" id="healthTitle">—</div>
+          <div class="banner-sub" id="healthMeta">—</div></div>
+        </div>
+        <div class="grid" id="healthGrid"></div>
+      </section>
+      <section class="view" id="view-devices">
+        <h1 class="view-title">Devices</h1>
+        <p class="view-sub" id="devSub">Fleet reachability · 30-day history</p>
+        <div class="grid" id="devGrid"></div>
+      </section>
+    </main>
+
+    <aside class="rail" id="rail" aria-label="Details">
+      <div class="tabs">
+        <button class="tab active" data-tab="details">Details</button>
+        <button class="tab" data-tab="history">History</button>
+      </div>
+      <h3 id="railTitle">Details</h3>
+      <div id="railBody">
+        <div class="detail-card"><div class="note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.1"/></svg>
+          <span>Select a component or device to inspect it here. This console is read-only.</span>
+        </div></div>
+      </div>
+    </aside>
+  </div>
+</div>
+<script>
+"use strict";
+/* KaviBOT Console U1 — read-only. All data from exported JSON. No backend calls. */
+var DATA_BASE = "../mission-control/";
+var state = { health:null, uptime:null, view:"health", sel:null, tab:"details" };
+
+function $(id){ return document.getElementById(id); }
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+function ago(iso){
+  if(!iso) return "unknown age";
+  var t = new Date(iso).getTime(); if(isNaN(t)) return "unknown age";
+  var m = Math.max(0, Math.round((Date.now()-t)/60000));
+  if(m < 1) return "just now"; if(m < 60) return m+"m ago";
+  var h = Math.round(m/60); if(h < 24) return h+"h ago";
+  return Math.round(h/24)+"d ago";
+}
+function pillFor(status){
+  status = String(status||"").toLowerCase();
+  if(status==="ok"||status==="healthy"||status==="online") return ["green","Operational"];
+  if(status==="degraded") return ["amber","Degraded"];
+  if(status==="down"||status==="offline") return ["red","Down"];
+  return ["gray", esc(status||"unknown")];
+}
+/* ---------- theme ---------- */
+function setTheme(t){
+  document.documentElement.setAttribute("data-theme", t);
+  try{ localStorage.setItem("kavibot-console-theme", t); }catch(e){}
+  $("btnLight").classList.toggle("active", t==="light");
+  $("btnDark").classList.toggle("active", t==="dark");
+}
+(function initTheme(){
+  var t = "light";
+  try{ t = localStorage.getItem("kavibot-console-theme") || t; }catch(e){}
+  setTheme(t==="dark" ? "dark" : "light");
+})();
+$("btnLight").addEventListener("click", function(){ setTheme("light"); });
+$("btnDark").addEventListener("click", function(){ setTheme("dark"); });
+/* ---------- data ---------- */
+function fetchJSON(name){
+  return fetch(DATA_BASE + name, {cache:"no-store"}).then(function(r){
+    if(!r.ok) throw new Error(name+" HTTP "+r.status);
+    return r.json();
+  });
+}
+function loadAll(){
+  return Promise.allSettled([fetchJSON("health.json"), fetchJSON("uptime.json")])
+    .then(function(res){
+      if(res[0].status==="fulfilled") state.health = res[0].value;
+      if(res[1].status==="fulfilled") state.uptime = res[1].value;
+      render();
+    });
+}
+$("btnRefresh").addEventListener("click", function(){
+  var b = $("btnRefresh"); b.disabled = true;
+  loadAll().finally(function(){ b.disabled = false; });
+});
+/* ---------- health view ---------- */
+var HEALTH_ICONS = {
+  conversation:'<path d="M21 12a8 8 0 0 1-8 8H4l2-3a8 8 0 1 1 15-5z"/>',
+  task_engine:'<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="5" cy="6" r="1.4"/><circle cx="5" cy="12" r="1.4"/><circle cx="5" cy="18" r="1.4"/>',
+  world_model:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14 0 18M12 3c-3 3.5-3 14 0 18"/>',
+  identity:'<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-5.5 8-5.5s6.5 1.5 8 5.5"/>'
+};
+function iconFor(name){
+  var p = HEALTH_ICONS[name] || '<circle cx="12" cy="12" r="9"/><path d="M12 8v5l3 2"/>';
+  return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">'+p+'</svg>';
+}
+function renderHealth(){
+  var h = state.health, grid = $("healthGrid");
+  if(!h){ grid.innerHTML = '<div class="empty">health.json not available yet — the exporter runs every 15 minutes.</div>'; return; }
+  var banner = $("healthBanner"); banner.hidden = false;
+  var cls = pillFor(h.status), dot = $("healthDot");
+  dot.className = "dot " + cls[0];
+  $("healthTitle").textContent = "Overall: " + h.status;
+  $("healthMeta").textContent = "commit " + (h.commit||"unknown") + " · exported " + ago(h.generated_iso);
+  $("versionLine").textContent = "commit " + (h.commit||"unknown");
+  $("healthSub").textContent = "KaviBOT backend components · updated " + ago(h.generated_iso);
+  var names = Object.keys(h.components||{}).sort();
+  grid.innerHTML = names.map(function(n, i){
+    var c = h.components[n], p = pillFor(c.status);
+    return '<div class="card'+(state.sel&&state.sel.kind==="health"&&state.sel.name===n?" selected":"")+'" data-kind="health" data-name="'+esc(n)+'">' +
+      '<div class="card-top"><div class="card-icon">'+iconFor(n)+'</div>' +
+      '<div class="card-name">'+esc(prettyName(n))+'</div>' +
+      '<span style="margin-left:auto" class="pill '+p[0]+'">'+p[1]+'</span></div>' +
+      '<div class="card-detail">'+esc(c.detail||"—")+'</div>' +
+      '<div class="card-foot">component · health.json</div></div>';
+  }).join("");
+  bindCards();
+}
+function prettyName(n){ return n.replace(/_/g," ").replace(/\b\w/g, function(c){return c.toUpperCase();}); }
+/* ---------- devices view ---------- */
+function renderDevices(){
+  var u = state.uptime, grid = $("devGrid");
+  if(!u || !u.services){ grid.innerHTML = '<div class="empty">uptime.json not available yet.</div>'; return; }
+  $("devSub").textContent = "Fleet reachability · 30-day history · updated " + ago(u.generated_iso);
+  grid.innerHTML = u.services.map(function(s){
+    var online = !!s.online, p = online ? ["green","Online"] : ["red","Offline"];
+    var days = Array.isArray(s.days) ? s.days.slice(-30) : [];
+    var bars = days.map(function(d){
+      var c = (d==null) ? "na" : (d>=99 ? "up" : (d>0 ? "up" : "down"));
+      return '<i class="'+c+'" title="'+(d==null?"no data":d+"%")+'"></i>';
+    }).join("");
+    var upPct = days.filter(function(d){return d!=null;});
+    var avg = upPct.length ? (upPct.reduce(function(a,b){return a+b;},0)/upPct.length).toFixed(1)+"%" : "—";
+    return '<div class="card'+(state.sel&&state.sel.kind==="dev"&&state.sel.name===s.name?" selected":"")+'" data-kind="dev" data-name="'+esc(s.name)+'">' +
+      '<div class="card-top"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="4" width="19" height="12" rx="2.5"/><path d="M9 20h6M12 16v4"/></svg></div>' +
+      '<div class="card-name">'+esc(s.name)+'</div>' +
+      '<span style="margin-left:auto" class="pill '+p[0]+'">'+p[1]+'</span></div>' +
+      '<div class="uptime-bars">'+bars+'</div>' +
+      '<div class="card-foot">30-day avg '+avg+' · uptime.json</div></div>';
+  }).join("");
+  bindCards();
+}
+/* ---------- selection + rail ---------- */
+function bindCards(){
+  Array.prototype.forEach.call(document.querySelectorAll(".card[data-kind]"), function(el){
+    el.addEventListener("click", function(){
+      state.sel = {kind: el.getAttribute("data-kind"), name: el.getAttribute("data-name")};
+      render();
+      if(window.innerWidth <= 1180) $("rail").classList.add("drawer");
+    });
+  });
+}
+function renderRail(){
+  var body = $("railBody"), title = $("railTitle");
+  document.querySelectorAll(".tab").forEach(function(t){
+    t.classList.toggle("active", t.getAttribute("data-tab")===state.tab);
+  });
+  if(!state.sel){ title.textContent = "Details"; return; }
+  if(state.sel.kind==="health" && state.health && state.health.components[state.sel.name]){
+    var c = state.health.components[state.sel.name], p = pillFor(c.status);
+    title.textContent = prettyName(state.sel.name);
+    body.innerHTML = '<div class="detail-card">' +
+      row("Status", '<span class="pill '+p[0]+'">'+p[1]+'</span>') +
+      row("Detail", esc(c.detail||"—")) +
+      row("Source", "health.json") +
+      row("Commit", '<span class="mono">'+esc(state.health.commit||"unknown")+'</span>', true) +
+      row("Exported", esc(ago(state.health.generated_iso))) + '</div>' +
+      '<div class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.1"/></svg>' +
+      '<span>Read-only view of the backend health check. Nothing here changes the backend.</span></div>';
+  } else if(state.sel.kind==="dev" && state.uptime){
+    var s = state.uptime.services.filter(function(x){return x.name===state.sel.name;})[0];
+    if(!s){ return; }
+    title.textContent = s.name;
+    var on = !!s.online, p2 = on ? ["green","Online"] : ["red","Offline"];
+    var days = Array.isArray(s.days) ? s.days : [];
+    if(state.tab==="history"){
+      var bars = days.map(function(d){
+        var c = (d==null) ? "na" : (d>=99 ? "up" : (d>0 ? "up" : "down"));
+        return '<i class="'+c+'"></i>';
+      }).join("");
+      body.innerHTML = '<div class="detail-card"><div class="card-detail" style="margin-bottom:8px">Daily uptime, last 30 days</div>' +
+        '<div class="uptime-bars" style="flex-wrap:wrap">'+bars+'</div></div>';
+    } else {
+      body.innerHTML = '<div class="detail-card">' +
+        row("Status", '<span class="pill '+p2[0]+'">'+p2[1]+'</span>') +
+        row("Source", "uptime.json") +
+        row("Checked", esc(ago(state.uptime.generated_iso))) + '</div>' +
+        '<div class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.1"/></svg>' +
+        '<span>Reachability only — this console cannot wake, restart, or modify devices.</span></div>';
+    }
+  }
+  function row(k, v, mono){
+    return '<div class="detail-row"><span class="k">'+k+'</span><span class="v'+(mono?" mono":"")+'">'+v+'</span></div>';
+  }
+}
+document.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click", function(){ state.tab = t.getAttribute("data-tab"); renderRail(); });
+});
+/* ---------- nav ---------- */
+document.querySelectorAll(".nav-item[data-view]").forEach(function(b){
+  b.addEventListener("click", function(){
+    state.view = b.getAttribute("data-view"); state.sel = null;
+    document.querySelectorAll(".nav-item[data-view]").forEach(function(x){
+      x.classList.toggle("active", x===b);
+    });
+    document.querySelectorAll(".view").forEach(function(v){
+      v.classList.toggle("active", v.id === "view-"+state.view);
+    });
+    $("rail").classList.remove("drawer");
+    renderRail();
+  });
+});
+/* ---------- top status ---------- */
+function renderStatus(){
+  var pill = $("statusText"), dot = $("statusDot"), hd = $("navHealthDot"), dd = $("navDevDot");
+  var h = state.health, u = state.uptime;
+  if(!h && !u){ pill.textContent = "Loading…"; return; }
+  var parts = [];
+  if(h){ parts.push(h.status.charAt(0)+h.status.slice(1).toLowerCase()); }
+  if(u && u.services){
+    var on = u.services.filter(function(s){return s.online;}).length;
+    parts.push(on + "/" + u.services.length + " online");
+    dd.className = "dot " + (on===u.services.length ? "green" : (on>0 ? "amber" : "red"));
+  }
+  pill.textContent = parts.join(" • ");
+  var ok = !h || h.status==="HEALTHY";
+  dot.className = "dot " + (ok ? "green" : "amber");
+  if(h) hd.className = "dot " + (h.status==="HEALTHY" ? "green" : (h.status==="DEGRADED" ? "amber" : "red"));
+}
+function render(){
+  renderHealth(); renderDevices(); renderStatus(); renderRail();
+}
+loadAll();
+</script>
+</body>
+</html>
