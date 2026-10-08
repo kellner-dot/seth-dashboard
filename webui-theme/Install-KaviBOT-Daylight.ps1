@@ -14,7 +14,7 @@
 $ErrorActionPreference = "Stop"
 
 $themeDir = "C:\AI\webui-theme"
-$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@3d0cdf4a/webui-theme"
+$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@7d015d2bdaa89ad94a500218553c2be63df641ac/webui-theme"
 $venv     = "C:\AI\venvs\webui"
 
 Write-Output "=== KaviBOT Daylight theme installer (v2) ==="
@@ -27,7 +27,7 @@ Write-Output "[1/6] Fetching fresh theme files from repo..."
 Invoke-WebRequest -Uri "$repoBase/kavibot-daylight.css" -OutFile $cssLocal
 Invoke-WebRequest -Uri "$repoBase/kavibot-logo.png" -OutFile $logoLocal
 $cssText = Get-Content $cssLocal -Raw
-if ($cssText -notmatch "KAVIBOT-DAYLIGHT-v2") { throw "CSS failed marker check - aborting." }
+if ($cssText -notmatch "KAVIBOT-DAYLIGHT-v3") { throw "CSS failed marker check - aborting." }
 Write-Output "      OK: theme CSS (v2) + logo fetched."
 
 # 2. locate the venv's static dir
@@ -66,7 +66,7 @@ try {
 } catch {
   throw "Could not reach Open WebUI at 127.0.0.1:3000 - is it running? Aborting."
 }
-if ($served -match "KAVIBOT-DAYLIGHT-v2") {
+if ($served -match "KAVIBOT-DAYLIGHT-v3") {
   Write-Output "      OK: server is serving the Daylight v2 theme."
 } else {
   throw "Server responded but is NOT serving the new theme - aborting."
