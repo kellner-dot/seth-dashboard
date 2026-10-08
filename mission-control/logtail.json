@@ -1,20 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-08T01:16:36+0000",
+ "generated_iso": "2026-10-08T01:46:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-07 20:53:17.627 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 21:23:17.636 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-07 20:53:35.028 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 21:23:34.983 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-07 20:53:52.468 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-07 21:23:52.374 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -23,8 +23,8 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Thu Oct  8 00:03:41 UTC 2026: lock process confirmed on device (PID 2019)",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-08 01:37:35Z AUDIT onn-adb-supervise: FAILURE socat forward 127.0.0.1:44129 DOWN + adb device missing | ACTION supervisor restarted socat forw",
+     "c": "err"
     },
     {
      "t": "[refresh.log] --- STDERR ---",
@@ -47,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-07T20:01:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-07T20:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-07T20:31:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     },
@@ -68,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-07T21:16:34-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T21:31:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-07T21:46:31-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-07",
      "c": "ok"
     }
    ]
