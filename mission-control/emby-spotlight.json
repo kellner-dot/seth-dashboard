@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Jack Smith's Apartment",
+  "name": "Slacker",
   "year": 1990,
   "genres": [
-   "Documentary"
+   "Drama",
+   "Comedy"
   ],
-  "runtime_min": 0,
+  "runtime_min": 101,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Film of Jack Smith's apartment starring Penny Arcade before it was reposed by the \"evil landlords.\""
+  "overview": "Austin, Texas, is an Eden for the young and unambitious, from the enthusiastically eccentric to the dangerously apathetic. Here, the nobly lazy can eschew responsibility in favor of nursing their esoteric obsessions. The"
  }
 }
