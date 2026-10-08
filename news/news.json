@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-08T14:46:46+0000",
- "updated_ts": 1791470806,
+ "updated": "2026-10-08T16:46:44+0000",
+ "updated_ts": 1791478004,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
+     "summary": "Comments",
+     "url": "https://news.ycombinator.com/item?id=50006366",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "US Suspends Visa Program for Tech Firms Including Microsoft",
+     "summary": "Comments",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Beauty in DVD Menus",
      "summary": "Comments",
@@ -27,28 +41,14 @@
      "source": "Hacker News"
     },
     {
-     "title": "Telnet BBS Guide",
+     "title": "US suspends Microsoft, major IT firms from key green card program",
      "summary": "Comments",
-     "url": "https://www.telnetbbsguide.com/",
+     "url": "https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/",
      "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "OpenAI Withdraws 3 Math Papers",
-     "summary": "Comments",
-     "url": "https://github.com/openai/math/blob/main/history.md",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Claude Haiku 5.5",
-     "summary": "Comments",
-     "url": "https://www.anthropic.com/claude-haiku-5-5",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "ExxonMobil's own scientists doubted climate fixes the company hyped",
+     "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
      "summary": "Court filings reveal new details about Exxon's decades of internal climate deliberations.",
      "url": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
      "time": "Thu, 08 Oct 2026",
@@ -96,22 +96,8 @@
    "articles": [
     {
      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-     "summary": "Ukraine accused Russia of targeting the crowded vehicles in the front line city of Kramatorsk to kill as many civilians as possible.",
+     "summary": "Ukraine accused Russia of targeting two crowded vehicles in the front line city of Kramatorsk to kill as many civilians as possible.",
      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 08 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
-     "summary": "Bassam al-Hassan is being sheltered in return for information - including about abducted US reporter Austin Tice.",
-     "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 08 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
-     "summary": "Israel said in September it would act in response to UK sanctions on illegal Israeli settlements in the West Bank.",
-     "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
@@ -123,6 +109,20 @@
      "source": "BBC World"
     },
     {
+     "title": "Venezuela's ex-leader Nicol\u00e1s Maduro charged with conspiracy to commit torture",
+     "summary": "The new accusations relate to the alleged torture of US citizens held in Venezuela while Maduro was in power.",
+     "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Residents airlifted to safety after flooding in central Chile",
+     "summary": "The Mapocho river has burst its banks after an unusually large amount of rain fell in recent days.",
+     "url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Italy approves elections overhaul as opposition accuse Meloni of 'scam'",
      "summary": "Prime Minister Giorgia Meloni says the move will deliver more stable government, but opposition parties say her aim is to stay in power.",
      "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
@@ -130,11 +130,32 @@
      "source": "BBC World"
     },
     {
-     "title": "'Every day there is killing': Palestinians in Gaza face Israeli strikes despite ceasefire as peace deal stalls",
-     "summary": "Many Palestinians are still living in cramped tent cities, with the US plan to end the war largely stalled.",
-     "url": "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_medium=RSS&at_campaign=rss",
+     "title": "US deportations to African countries unlawful and exploit suffering, rights group says",
+     "summary": "More than 500 migrants have been expelled from the US to African countries, HRW says, citing US data.",
+     "url": "https://www.bbc.co.uk/news/articles/c9p8gn55433jo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "New U.S. indictment charges former Venezuelan President Nicol\u00e1s Maduro with torture",
+     "summary": "U.S. authorities charged the former Venezuelan president with conspiring to torture his fellow citizens as well as Americans. That adds to drugs and weapons charges against him.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "4 people on NASA's Crew-12 mission return to Earth after 8 months in space",
+     "summary": "Four people \u2014 two NASA astronauts, one from the European Space Agency and a Russian cosmonaut \u2014 spent nearly eight months at the space station, conducting spacewalks, science experiments and research.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5992845/nasa-spacex-crew-12-international-space-station-iss-splashdown",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "White House correspondent April Ryan reflects on reporting while under attack",
+     "summary": "Ryan has spent decades pressing presidents for answers. She talks about access, power, race and how asking questions put her in President Trump's crosshairs. Her new book is Notes on a Blacklash.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "South Korea to recall its ambassador to Ukraine over North Korean POW dispute",
@@ -156,33 +177,19 @@
      "url": "https://www.npr.org/2026/10/08/g-s1-147105/up-first-newsletter-hurricane-isaias-house-elections-christa-pike-nidal-hasan-cnn-ms-now-politico",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Strike on Ukrainian public bus leaves 30 dead as blackouts worsen in Kyiv",
-     "summary": "Russian strikes in eastern Ukraine have killed 30 people and injured at least 18, according to authorities. The attacks included a strike on a public bus and have worsened power outages in Kyiv.",
-     "url": "https://www.npr.org/2026/10/08/g-s1-147106/russia-ukraine-war",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "ICE has quietly used this warehouse as a detention facility all summer, neighbors say",
-     "summary": "Throughout the summer, rumors have been bubbling in North New Jersey that ICE has quietly been using a warehouse as a detention center. NPR investigated.",
-     "url": "https://www.npr.org/2026/10/08/nx-s1-5983441/ice-warehouses-new-jersey-roxbury",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Medical debt is crushing hospital patients in LA. Health officials may have a fix",
-     "summary": "In Los Angeles County, the nation's most populous, a new system could screen hospital patients for financial aid, preventing hundreds of thousands from getting bills they can't pay.",
-     "url": "https://www.npr.org/2026/10/08/nx-s1-5991633/hospital-california-healthcare-medical-debt",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "State police investigate shooting by Williston officer that wounded a man early Thursday",
+     "summary": "police stock \" data-image-caption=\"Stock photo via Pixabay \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2024/09/police-4566193_1280-1200x800.jpg\" /> The injured man was taken to a hospital, where he was reported in stable condition. Read the story on VTDigger here: ",
+     "url": "https://vtdigger.org/2026/10/08/state-police-investigate-shooting-by-williston-officer-that-wounded-a-man-early-thursday/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Vermont governor\u2019s race will test voters\u2019 appetite for raising new taxes \u2014 or cutting them",
      "summary": "Republican Gov. Phil Scott, left, and Democratic nominee for governor Amanda Janoo. Photos by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Scott-Janoo-Faces-2-up.jpg\" /> There\u2019s broad consensus that affordability is a problem, one poli",
@@ -217,19 +224,19 @@
      "url": "https://vtdigger.org/2026/10/07/vermont-digital-services-secretary-denise-reilly-hughes-to-leave-role-for-private-sector/",
      "time": "Wed, 07 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "Parents of cyclist who was killed in crosswalk file wrongful death lawsuit against driver",
-     "summary": "Shiloh Skalka, 16, was killed in July in Burlington after she was struck by a vehicle while crossing a roadway on her e-bike in a crosswalk with warning lights flashing. Provided photo \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/sskalka_large_horizontal_5x7",
-     "url": "https://vtdigger.org/2026/10/07/parents-of-cyclist-who-was-killed-in-crosswalk-file-wrongful-death-lawsuit-against-driver/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Bj\u00f6rk Announces New Orchestral Live Album",
+     "summary": "Drawn from her 2021 performances adapting songs, primarily from Med\u00falla, for an ensemble including a 50-person choir",
+     "url": "https://pitchfork.com/story/bjork-announces-new-orchestral-live-album/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Turnstile Announce Free Show to Raise Funds for Palestine, Sudan, and Lebanon",
      "summary": "The Washington D.C. concert takes place on October 24 in collaboration with Human Concern International",
@@ -262,13 +269,6 @@
      "title": "The War on Drugs\u2019 Robbie Bennett Sets Two New Solo Albums",
      "summary": "The keyboardist has shared one song each from Steloken and Circulation",
      "url": "https://pitchfork.com/story/the-war-on-drugs-robbie-bennett-sets-two-new-solo-albums/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "You Can Now Get a Jimmy Eat World Library Card",
-     "summary": "If you live in Mesa, Arizona, that is",
-     "url": "https://pitchfork.com/story/jimmy-eat-world-library-card/",
      "time": "Wed, 07 Oct 2026",
      "source": "Pitchfork"
     }
