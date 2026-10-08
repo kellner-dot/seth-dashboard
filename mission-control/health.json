@@ -1,0 +1,24 @@
+{
+ "status": "HEALTHY",
+ "commit": "b3c74d5",
+ "components": {
+  "conversation": {
+   "status": "ok",
+   "detail": "functional"
+  },
+  "task_engine": {
+   "status": "ok",
+   "detail": "functional"
+  },
+  "world_model": {
+   "status": "ok",
+   "detail": "functional"
+  },
+  "identity": {
+   "status": "ok",
+   "detail": "functional"
+  }
+ },
+ "generated": "kavibot health export (U1)",
+ "generated_iso": "2026-10-08T05:20:28+0000"
+}
