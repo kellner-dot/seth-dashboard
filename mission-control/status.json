@@ -1,6 +1,6 @@
 {
- "generated_at": 1791472814,
- "generated_iso": "2026-10-08T15:20:14+0000",
+ "generated_at": 1791473110,
+ "generated_iso": "2026-10-08T15:25:10+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -9,7 +9,58 @@
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": false
+   "online": true,
+   "rvg_version": "1.20.0",
+   "uptime_s": 92410,
+   "hostname": "SETHS-PC",
+   "emby": {
+    "running": true,
+    "version": "4.10.1.0"
+   },
+   "emby_sessions": [
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "Muse",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "Microsoft Edge Windows",
+     "client": "Emby Web",
+     "user": "Seth",
+     "playing": null
+    },
+    {
+     "device": "GoogleTV9618",
+     "client": "Emby for Android",
+     "user": "Seth",
+     "playing": null
+    }
+   ],
+   "terabox_uploaders": 1,
+   "firetv": {
+    "seen_in_emby": false,
+    "sessions": [],
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
+   }
   },
   {
    "id": "seths-macbook-air",
@@ -17,13 +68,13 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": null,
-    "up": false
+    "http": 200,
+    "up": true
    },
    "rvg_agent": {
-    "up": false
+    "up": true
    },
-   "online": false
+   "online": true
   },
   {
    "id": "iphone-xs-max",
@@ -37,9 +88,9 @@
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": false,
+   "online": true,
    "rvg_agent": {
-    "up": false,
+    "up": true,
     "authed": false
    }
   }
