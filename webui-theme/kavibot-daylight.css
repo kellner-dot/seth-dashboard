@@ -2,7 +2,7 @@
    KaviBOT "Daylight" theme v2 for Open WebUI
    Design: concept option 2 (light, minimal, conversation-first)
    Install target: open_webui/static/custom.css  (pip venv)
-   Marker: KAVIBOT-DAYLIGHT-v2
+   Marker: KAVIBOT-DAYLIGHT-v3
    Selectors verified against open-webui v0.11.4 source
    (layout/Sidebar.svelte, chat/MessageInput.svelte,
    chat/Messages/UserMessage.svelte).
@@ -134,4 +134,34 @@ a {
   border-radius: var(--dl-radius) !important;
   border: 1px solid var(--dl-border) !important;
   box-shadow: 0 12px 32px rgba(24, 27, 33, 0.12) !important;
+}
+
+/* ---- 10. model header: replace raw path + OI fallback with KaviBOT ---- */
+/* model profile images (which fall back to the OI mark) -> KaviBOT mark */
+img[src*="profile/image"] {
+  content: url('/static/kavibot-logo.png') !important;
+}
+
+/* new-chat placeholder model name (raw file path) -> KaviBOT */
+div.text-3xl > div > div.line-clamp-1 {
+  font-size: 0 !important;
+}
+div.text-3xl > div > div.line-clamp-1::after {
+  content: "KaviBOT";
+  font-size: 1.875rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em !important;
+  text-transform: none !important;
+  color: var(--dl-text) !important;
+}
+
+/* composer model pill name (raw file path) -> KaviBOT */
+#model-selector-model-button .truncate {
+  font-size: 0 !important;
+}
+#model-selector-model-button .truncate::after {
+  content: "KaviBOT";
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  color: var(--dl-dim) !important;
 }
