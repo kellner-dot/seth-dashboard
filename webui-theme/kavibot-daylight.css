@@ -1,30 +1,52 @@
 /* ============================================================
-   KaviBOT "Daylight" theme v1 for Open WebUI
+   KaviBOT "Daylight" theme v2 for Open WebUI
    Design: concept option 2 (light, minimal, conversation-first)
    Install target: open_webui/static/custom.css  (pip venv)
-   Marker: KAVIBOT-DAYLIGHT-v1
-   v1 covers the app shell with high-confidence selectors.
-   Chat-bubble internals get tightened against screenshots in v2.
+   Marker: KAVIBOT-DAYLIGHT-v2
+   Selectors verified against open-webui v0.11.4 source
+   (layout/Sidebar.svelte, chat/MessageInput.svelte,
+   chat/Messages/UserMessage.svelte).
+   Branding note: Open WebUI License clause 4 bars altering branding
+   EXCEPT for deployments with <= 50 end users per rolling 30 days
+   (exception i). This is a single-user deployment: compliant.
    Keep Open WebUI on its LIGHT theme while this is active.
    Rollback: restore the custom.css.bak-* the installer saves.
    ============================================================ */
 
 :root {
-  --dl-bg:          #f4f5f8;
-  --dl-surface:     #ffffff;
-  --dl-accent:      #4338ca;
-  --dl-accent-hover:#3730a3;
-  --dl-accent-soft: #eceafe;
-  --dl-user-bubble: #e9e9f8;
-  --dl-text:        #181b21;
-  --dl-dim:         #5d6372;
-  --dl-border:      #e7e9f0;
-  --dl-radius:      16px;
-  --dl-font:        "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
-                    Roboto, "Helvetica Neue", sans-serif;
+  --dl-bg:           #f4f5f8;
+  --dl-surface:      #ffffff;
+  --dl-accent:       #4338ca;
+  --dl-accent-hover: #3730a3;
+  --dl-accent-soft:  #eceafe;
+  --dl-user-bubble:  #e9e9f8;
+  --dl-text:         #181b21;
+  --dl-dim:          #5d6372;
+  --dl-border:       #e7e9f0;
+  --dl-radius:       16px;
+  --dl-font:         "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+                     Roboto, "Helvetica Neue", sans-serif;
 }
 
-/* ---- app canvas ---- */
+/* ---- 1. KaviBOT brand mark: swap the sidebar logo ---- */
+.sidebar-new-chat-icon {
+  content: url('/static/kavibot-logo.png') !important;
+  border-radius: 8px !important;
+}
+
+/* ---- 2. KaviBOT wordmark: replace the sidebar name ---- */
+#sidebar-webui-name {
+  font-size: 0 !important;
+}
+#sidebar-webui-name::after {
+  content: "KaviBOT";
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+  color: var(--dl-text) !important;
+}
+
+/* ---- 3. app canvas ---- */
 html,
 body {
   background: var(--dl-bg) !important;
@@ -36,7 +58,7 @@ input, textarea, button, select {
   font-family: var(--dl-font) !important;
 }
 
-/* ---- sidebar ---- */
+/* ---- 4. sidebar ---- */
 #sidebar {
   background: var(--dl-surface) !important;
   border-right: 1px solid var(--dl-border) !important;
@@ -46,79 +68,67 @@ input, textarea, button, select {
   border-radius: 9999px !important;
 }
 
-/* selected / active chat row: soft lavender like the concept */
+/* selected chat row: soft lavender like the concept */
 #sidebar [aria-selected="true"],
 #sidebar [aria-current="true"] {
   background: var(--dl-accent-soft) !important;
   border-radius: 12px !important;
 }
 
-/* ---- primary actions -> indigo (new chat, send, toggles) ---- */
-button[type="submit"],
-#send-message-button,
-#sidebar button[class*="bg-indigo"],
-[role="switch"][aria-checked="true"] {
+/* ---- 5. send button -> indigo (only when clickable) ---- */
+#send-message-button:not(:disabled) {
   background-color: var(--dl-accent) !important;
   border-color: var(--dl-accent) !important;
   color: #ffffff !important;
 }
-
-button[type="submit"]:hover,
-#send-message-button:hover {
+#send-message-button:not(:disabled):hover {
   background-color: var(--dl-accent-hover) !important;
 }
 
-/* ---- composer / inputs: white rounded card ---- */
+/* toggles on -> indigo */
+[role="switch"][aria-checked="true"] {
+  background-color: var(--dl-accent) !important;
+  border-color: var(--dl-accent) !important;
+}
+
+/* ---- 6. user message bubbles -> lavender ---- */
+.chat-user .bg-gray-50 {
+  background-color: var(--dl-user-bubble) !important;
+  border: 1px solid var(--dl-border) !important;
+}
+
+/* ---- 7. composer: white rounded card ---- */
 textarea {
   background: var(--dl-surface) !important;
   border: 1px solid var(--dl-border) !important;
   border-radius: var(--dl-radius) !important;
   color: var(--dl-text) !important;
 }
-
 textarea:focus {
   border-color: var(--dl-accent) !important;
   outline: none !important;
   box-shadow: 0 0 0 3px var(--dl-accent-soft) !important;
 }
-
 input[type="text"],
 input[type="search"] {
   border-radius: 12px !important;
 }
 
-/* ---- links + accents ---- */
+/* ---- 8. links + secondary text ---- */
 a {
   color: var(--dl-accent) !important;
 }
-
-/* secondary text */
 .text-gray-500, .text-gray-400 {
   color: var(--dl-dim) !important;
 }
 
-/* ---- scrollbars: thin and light ---- */
-::-webkit-scrollbar {
-  width: 8px !important;
-  height: 8px !important;
-}
-::-webkit-scrollbar-track {
-  background: transparent !important;
-}
-::-webkit-scrollbar-thumb {
-  background: #c9cedb !important;
-  border-radius: 8px !important;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--dl-accent) !important;
-}
+/* ---- 9. scrollbars, selection, dialogs ---- */
+::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
+::-webkit-scrollbar-track { background: transparent !important; }
+::-webkit-scrollbar-thumb { background: #c9cedb !important; border-radius: 8px !important; }
+::-webkit-scrollbar-thumb:hover { background: var(--dl-accent) !important; }
+::selection { background: var(--dl-accent-soft) !important; }
 
-/* text selection: lavender */
-::selection {
-  background: var(--dl-accent-soft) !important;
-}
-
-/* ---- dialogs / menus: white rounded cards ---- */
 [role="dialog"],
 [role="menu"] {
   border-radius: var(--dl-radius) !important;
