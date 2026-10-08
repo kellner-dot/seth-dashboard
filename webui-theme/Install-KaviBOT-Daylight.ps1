@@ -14,7 +14,7 @@
 $ErrorActionPreference = "Stop"
 
 $themeDir = "C:\AI\webui-theme"
-$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@main/webui-theme"
+$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@3d0cdf4a/webui-theme"
 $venv     = "C:\AI\venvs\webui"
 
 Write-Output "=== KaviBOT Daylight theme installer (v2) ==="
