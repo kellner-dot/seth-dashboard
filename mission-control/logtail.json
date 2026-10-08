@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-08T23:40:41+0000",
+ "generated_iso": "2026-10-08T23:50:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-08 19:30:44.516 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\d1431587-a084-4067-9cda-044df",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
-     "c": "err"
-    },
     {
      "t": "2026-10-08 19:30:44.531 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\5cc0ba4c-072d-4469-acf5-88cd5",
      "c": "err"
@@ -59,18 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-08T19:10:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-08T19:15:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-08T19:20:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-08T19:25:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
      "c": "ok"
     },
@@ -80,6 +56,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-08T19:35:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T19:40:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T19:45:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-08T19:50:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-08",
      "c": "ok"
     }
    ]
