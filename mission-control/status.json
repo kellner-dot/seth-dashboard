@@ -1,75 +1,15 @@
 {
- "generated_at": 1791472588,
- "generated_iso": "2026-10-08T15:16:28+0000",
- "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
+ "generated_at": 1791472814,
+ "generated_iso": "2026-10-08T15:20:14+0000",
+ "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
- "github": {
-  "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 10,
-  "pages": [
-   {
-    "name": "seth-dashboard",
-    "url": "https://kellner-dot.github.io/seth-dashboard/"
-   },
-   {
-    "name": "theartfuldodger-site",
-    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
-   }
-  ]
- },
- "emby_library": {
-  "movies": 5445,
-  "series": 34,
-  "episodes": 60,
-  "recent": [
-   "The Monkey",
-   "80s-commercials",
-   "Come Over, My Parents Aren't Home",
-   "The Monkey",
-   "80s-commercials",
-   "Possessor"
-  ]
- },
- "terabox": {
-  "total": null,
-  "used": null,
-  "free": null
- },
- "kaviguard": {},
- "biglybt": {
-  "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
- },
  "devices": [
   {
    "id": "seths-pc",
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": true,
-   "rvg_version": "1.20.0",
-   "uptime_s": 91910,
-   "hostname": "SETHS-PC",
-   "emby": {
-    "running": true,
-    "version": "4.10.1.0"
-   },
-   "emby_sessions": [
-    {
-     "device": "",
-     "client": "",
-     "user": "",
-     "playing": null
-    }
-   ],
-   "terabox_uploaders": 1,
-   "firetv": {
-    "seen_in_emby": false,
-    "sessions": [],
-    "adb": "unreachable (subnet route not approved or stick offline)"
-   }
+   "online": false
   },
   {
    "id": "seths-macbook-air",
@@ -77,30 +17,29 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": 200,
-    "up": true
+    "http": null,
+    "up": false
    },
    "rvg_agent": {
-    "up": true
+    "up": false
    },
-   "online": true
+   "online": false
   },
   {
    "id": "iphone-xs-max",
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": true,
-   "ping_ms": null
+   "online": false
   },
   {
    "id": "motorola-razr-2023",
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": true,
+   "online": false,
    "rvg_agent": {
-    "up": true,
+    "up": false,
     "authed": false
    }
   }
