@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08T18:46:35+0000",
- "updated_ts": 1791485195,
+ "updated": "2026-10-08T20:46:35+0000",
+ "updated_ts": 1791492395,
  "topics": [
   {
    "name": "Tech",
@@ -13,16 +13,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Trump administration is suspending Microsoft from a green card program",
+     "title": "Theranos.World",
      "summary": "Comments",
-     "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
+     "url": "https://www.theranos.world/",
      "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
+     "title": "The value of not getting to the point (2015)",
      "summary": "Comments",
-     "url": "https://openrouter.ai/stepfun/step-5-preview",
+     "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+     "summary": "Comments",
+     "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
      "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,58 +41,51 @@
      "source": "Hacker News"
     },
     {
-     "title": "Archaeologists Are Reconstructing the 'Invisible' Technologies of the Stone Age",
+     "title": "A Terminal Protocol for Program Status (OSC 7501)",
      "summary": "Comments",
-     "url": "https://www.smithsonianmag.com/science-nature/archaeologists-are-reconstructing-the-invisible-technologies-of-the-stone-age-from-rope-to-thread-and-twine-180989534/",
-     "time": "Wed, 07 Oct 2026",
+     "url": "https://mitchellh.com/writing/program-status-osc7501",
+     "time": "Tue, 06 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "\u201cMath 2.0\u201d will need to value mathematical progress more holistically",
-     "summary": "Comments",
-     "url": "https://mathstodon.xyz/@tao/117395269325940185",
+     "title": "R.I.P. Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
+     "summary": "Hamilton also coined the term \"software engineering\" and founded two successful software companies.",
+     "url": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
      "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Let's Encrypt cuts certificate lifetimes to 64 days starting February 2027",
+     "summary": "Free SSL/TLS certificate lifetimes reduce to 64 days in February.",
+     "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Driver wins $76 after ALPR led to bogus traffic stop, drug searches",
+     "summary": "Mass surveillance gets stupider.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/driver-wins-76-after-alpr-led-to-bogus-traffic-stop-drug-searches/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "RFK Jr. unveils sweeping federal initiative to find evidence of vaccine injuries",
+     "summary": "\"[T]he Trump-RFK Jr anti-vax agenda keeps getting more corrupt and dangerous.\"",
+     "url": "https://arstechnica.com/health/2026/10/rfk-jr-unveils-sweeping-federal-initiative-to-find-evidence-of-vaccine-injuries/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "An experimental tour-de-force: Entanglement between glass bead and light",
+     "summary": "Getting a glass bead to act like a quantum object by entangling it with light.",
+     "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
      "summary": "Amazon killed its app store, so Google Play it is.",
      "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
-     "summary": "\"If this was easy, everybody else would be doing it.\"",
-     "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
-     "summary": "Court filings reveal new details about Exxon's decades of internal climate deliberations.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
-     "summary": "Full-stack safety solution for physical AI is being used by robotics companies.",
-     "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "A senator tried to ban gambling on prediction markets\u2014now she's a Kalshi lobbyist",
-     "summary": "Sen. Blanche Lincoln wrote law that let US ban sports-event contracts. She lobbies for the other side now.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
-     "summary": "Get ready for more AI in your Windows and more AI on the desktop.",
-     "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
      "time": "Thu, 08 Oct 2026",
      "source": "Ars Technica"
     }
@@ -116,9 +116,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Residents airlifted to safety after flooding in central Chile",
-     "summary": "The Mapocho river has burst its banks after an unusually large amount of rain fell in recent days.",
-     "url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&at_campaign=rss",
+     "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+     "summary": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election.",
+     "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
@@ -140,6 +140,13 @@
      "title": "Suicide is up among Black Americans. We need to talk about it.",
      "summary": "NPR's Michel Martin hosted a panel conversation about mental health and suicide in the Black community, exploring a difficult subject in deeply personal conversations.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5963905/suicide-black-americans-discussion-analysis",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "The long-deployed USS Lincoln is returning home to San Diego",
+     "summary": "The USS Abraham Lincoln is returning home to San Diego Thursday after supporting the Iran war during a record long deployment of 265 uninterrupted days at sea that included reports of deteriorating conditions among its crew.",
+     "url": "https://www.npr.org/2026/10/08/g-s1-147195/uss-lincoln-returning-san-diego",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     },
@@ -168,13 +175,6 @@
      "title": "South Korea to recall its ambassador to Ukraine over North Korean POW dispute",
      "summary": "The South Korean announcement on Thursday came days after its President Lee Jae Myung threatened unspecified punitive steps if Ukraine refuses to apologize over the revelation.",
      "url": "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "South Korea test-flies its first domestically developed hypersonic weapon",
-     "summary": "The test follows North Korea's recent hypersonic missile test. Tensions between the Koreas have increased after land mine explosions injured three South Korean soldiers near the border. North Korea denies responsibility.",
-     "url": "https://www.npr.org/2026/10/08/g-s1-147113/south-korea-test-flies-its-first-domestically-developed-hypersonic-weapon",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     }
