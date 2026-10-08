@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08T02:46:39+0000",
- "updated_ts": 1791427599,
+ "updated": "2026-10-08T04:46:39+0000",
+ "updated_ts": 1791434799,
  "topics": [
   {
    "name": "Tech",
@@ -13,17 +13,17 @@
      "source": "Hacker News"
     },
     {
+     "title": "Living off-grid: Hundred Rabbits",
+     "summary": "Comments",
+     "url": "https://100r.ca/site/home.html",
+     "time": "Mon, 05 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Margaret Hamilton has died",
      "summary": "Comments",
      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
      "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
-     "summary": "Comments",
-     "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
-     "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -34,16 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "GPT\u20116 and Intelligent UI for everyone",
+     "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
      "summary": "Comments",
-     "url": "https://openai.com/index/gpt-6-for-everyone/",
-     "time": "Wed, 07 Oct 2026",
+     "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
+     "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Bigwords.page \u2013 Turn any screen into a sign. The URL is the app",
+     "title": "'Jonathan' is the oldest land animal on Earth",
      "summary": "Comments",
-     "url": "https://bigwords.page/",
+     "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,6 +95,13 @@
    "name": "World",
    "articles": [
     {
+     "title": "Texas carries out first US execution since Christa Pike's botched lethal injections",
+     "summary": "Lawyers for Jamaal Howard had asked a judge to pause the execution after Christa Pike's botched lethal injections.",
+     "url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
      "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
@@ -102,10 +109,17 @@
      "source": "BBC World"
     },
     {
-     "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
-     "summary": "Memorial events have taken place in Israel on the third anniversary of the Hamas-led attack that sparked the devastating Gaza war.",
-     "url": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 07 Oct 2026",
+     "title": "France's school protests: what lies behind the anger",
+     "summary": "Students' blockades and marches spring from real grievances \u2013 and from France's habit of settling policy on the street.",
+     "url": "https://www.bbc.co.uk/news/articles/c6n9rgg80z94o?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Trump wants a new Camp David-like retreat at his Florida golf club",
+     "summary": "Trump's estate would stand in stark contrast to the rustic Camp David and mark another tradition transformed by Trump.",
+     "url": "https://www.bbc.co.uk/news/articles/c9gkvxjvl7v3o?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -116,23 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "France halts use of stun grenades after boy's hand blown off in student protests",
-     "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
-     "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 07 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Canada suspends plans to expand assisted dying to people with mental illness",
-     "summary": "People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely.",
-     "url": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 07 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Trump to speak to Putin about plague lab worker's death in Russia",
-     "summary": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.",
-     "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
+     "title": "Former Venezuelan President Nicol\u00e1s Maduro expected to face more charges this week",
+     "summary": "The new charges are expected to accuse Maduro and his wife of playing a role in the torture of Americans in Venezuelan prisons, US media reports.",
+     "url": "https://www.bbc.co.uk/news/articles/cx62y37r1p8eo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 07 Oct 2026",
      "source": "BBC World"
     },
