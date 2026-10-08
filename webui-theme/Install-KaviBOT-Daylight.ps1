@@ -1,4 +1,4 @@
-<#
+﻿<#
   KaviBOT "Daylight" theme installer for Open WebUI (pip install on SETHS-PC).
   - Downloads kavibot-daylight.css from the kavibot repo (fresh copy, never stale)
   - Backs up the existing custom.css first (snapshot before change)
@@ -22,7 +22,7 @@ $cssLocal = Join-Path $themeDir "kavibot-daylight.css"
 Write-Output "[1/5] Fetching fresh theme CSS from repo..."
 Invoke-WebRequest -Uri "$repoBase/kavibot-daylight.css" -OutFile $cssLocal
 $cssText = Get-Content $cssLocal -Raw
-if ($cssText -notmatch "KAVIBOT-DAYLIGHT-v1") { throw "Downloaded CSS failed marker check — aborting." }
+if ($cssText -notmatch "KAVIBOT-DAYLIGHT-v1") { throw "Downloaded CSS failed marker check - aborting." }
 Write-Output "      OK: theme CSS fetched, marker verified."
 
 # 2. locate the venv's static dir
@@ -31,7 +31,7 @@ $staticDir = Join-Path $venv "Lib\site-packages\open_webui\static"
 if (-not (Test-Path $staticDir)) {
   $found = Get-ChildItem -Path $venv -Recurse -Directory -Filter "static" -ErrorAction SilentlyContinue |
            Where-Object { $_.FullName -like "*open_webui*" } | Select-Object -First 1
-  if ($null -eq $found) { throw "Could not find open_webui static dir under $venv — aborting." }
+  if ($null -eq $found) { throw "Could not find open_webui static dir under $venv - aborting." }
   $staticDir = $found.FullName
 }
 Write-Output "      OK: $staticDir"
@@ -53,12 +53,12 @@ Start-Sleep -Seconds 2
 try {
   $served = (Invoke-WebRequest -Uri "http://127.0.0.1:3000/static/custom.css" -UseBasicParsing).Content
 } catch {
-  throw "Could not reach Open WebUI at 127.0.0.1:3000 — is it running? Aborting."
+  throw "Could not reach Open WebUI at 127.0.0.1:3000 - is it running? Aborting."
 }
 if ($served -match "KAVIBOT-DAYLIGHT-v1") {
   Write-Output "      OK: server is serving the Daylight theme."
 } else {
-  throw "Server responded but is NOT serving the new theme — check for a second WebUI install. Aborting."
+  throw "Server responded but is NOT serving the new theme - check for a second WebUI install. Aborting."
 }
 
 # 5. logo asset for the manual admin step
@@ -68,7 +68,7 @@ Invoke-WebRequest -Uri "$repoBase/kavibot-logo.png" -OutFile $logoLocal
 Write-Output "      OK: $logoLocal"
 
 Write-Output ""
-Write-Output "=== DONE — scorecard ==="
+Write-Output "=== DONE - scorecard ==="
 Write-Output "  Theme file : installed + verified serving (KAVIBOT-DAYLIGHT-v1)"
 Write-Output "  Backup     : snapshot saved in $themeDir"
 Write-Output "  Inference  : untouched (llama.cpp / Qwen stack not modified)"
