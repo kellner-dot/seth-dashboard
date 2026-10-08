@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-07T00:10:44.472714-04:00",
- "date": "2026-10-07",
+ "generated_at": "2026-10-08T00:10:08.177152-04:00",
+ "date": "2026-10-08",
  "channels": [
   {
    "id": "horror",
@@ -8,8 +8,8 @@
    "tagline": "24/7 horror \u2014 slashers, giallo, creature features, dread.",
    "pool": "Genres=Horror across the full movie library.",
    "film_count": 123,
-   "total_runtime_h": 162.8,
-   "program_count": 17
+   "total_runtime_h": 163.9,
+   "program_count": 21
   },
   {
    "id": "experimental",
@@ -17,8 +17,8 @@
    "tagline": "Arthouse, avant-garde and beautiful weirdos \u2014 Lynch to Brakhage.",
    "pool": "12 arthouse directors + Schizopolis (Seth's favorite, pinned).",
    "film_count": 58,
-   "total_runtime_h": 74.7,
-   "program_count": 18
+   "total_runtime_h": 75.8,
+   "program_count": 19
   },
   {
    "id": "independent",
@@ -26,8 +26,8 @@
    "tagline": "Indie distributors and indie auteurs \u2014 A24 to Jarmusch.",
    "pool": "15 indie studios + 7 indie-auteur directors, deduped.",
    "film_count": 43,
-   "total_runtime_h": 65.4,
-   "program_count": 18
+   "total_runtime_h": 67.4,
+   "program_count": 15
   }
  ]
 }
