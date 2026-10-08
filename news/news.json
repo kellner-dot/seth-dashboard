@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08T08:46:35+0000",
- "updated_ts": 1791449195,
+ "updated": "2026-10-08T10:46:38+0000",
+ "updated_ts": 1791456398,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Living off-grid: Hundred Rabbits",
-     "summary": "Comments",
-     "url": "https://100r.ca/site/home.html",
-     "time": "Mon, 05 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "The 15-year search for a band that charted once and vanished",
      "summary": "Comments",
      "url": "https://shahidhussain.com/writing/search-for-salvage/",
@@ -34,16 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Classic PC demoscene productions running natively in the browser",
+     "title": "Living off-grid: Hundred Rabbits",
      "summary": "Comments",
-     "url": "https://treylorswift.github.io/demoscene-recomp/web/",
-     "time": "Thu, 08 Oct 2026",
+     "url": "https://100r.ca/site/home.html",
+     "time": "Mon, 05 Oct 2026",
      "source": "Hacker News"
     },
     {
      "title": "Margaret Hamilton has died",
      "summary": "Comments",
      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "GPT\u20116 and Intelligent UI for everyone",
+     "summary": "Comments",
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,8 +95,15 @@
    "name": "World",
    "articles": [
     {
+     "title": "Russian strike on buses kills 33, say officials, as deadly attacks on Ukraine surge",
+     "summary": "Ukraine accused Russia of targeting the crowded bus in the frontline city to kill as many civilians as possible.",
+     "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
-     "summary": "Bassam al-Hassan, linked to reporter Austin Tice's abduction, is being sheltered in return for information.",
+     "summary": "Bassam al-Hassan is being sheltered in return for information - including about abducted US reporter Austin Tice.",
      "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
@@ -116,6 +123,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+     "summary": "Casualties have been reported on the vessel, identified by a maritime intelligence firm as the oil and chemical tanker, Acers.",
+     "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Spanish pensioner whose eviction sparked nationwide protests dies",
      "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
@@ -123,59 +137,45 @@
      "source": "BBC World"
     },
     {
-     "title": "Texas carries out first US execution since Christa Pike's botched lethal injections",
-     "summary": "Lawyers for Jamaal Howard had asked a judge to pause the execution after Christa Pike's botched lethal injections.",
-     "url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 08 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
-     "summary": "Pioneering computer scientist led the development of the software for Nasa's Apollo mission and was awarded the Presidential Medal of Freedom.",
-     "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 08 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Trump proposes Camp David-style presidential retreat at his private Florida golf club",
-     "summary": "President Trump said he wants to develop one of his Florida golf courses into a presidential retreat where his successors can spend quiet weekends, describing it as \"sort of a Camp David.\"",
-     "url": "https://www.npr.org/2026/10/08/g-s1-147101/trump-presidential-retreat-golf-club",
+     "title": "ICE has quietly used this warehouse as a detention facility all summer, neighbors say",
+     "summary": "Throughout the summer, rumors have been bubbling in North New Jersey that ICE has quietly been using a warehouse as a detention center. NPR investigated.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5983441/ice-warehouses-new-jersey-roxbury",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Maricarmen, the 87-year-old woman whose eviction shook Spain, has died",
-     "summary": "Mar\u00eda del Carmen Abascal, the 87-year-old woman whose eviction from her Madrid home sparked nationwide protests across Spain and unleashed a political crisis, died on Wednesday while hospitalized.",
-     "url": "https://www.npr.org/2026/10/08/nx-s1-5994868/maricarmen-eviction-spain-dies",
+     "title": "Toss-ups, triage and targets: How to read the wide-open 2026 House map",
+     "summary": "Both parties are spending heavily in roughly 60 House districts \u2014 where Trump won by an average of nine points in 2024 \u2014 that could be key to deciding control of the chamber, an NPR analysis finds.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5993809/2026-house-map-democrats-flip-republicans-tossup-triage",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Isaias strengthens into the first hurricane of the Atlantic season",
-     "summary": "The National Hurricane Center said late Wednesday that the hurricane was on track to strike the U.S. Gulf Coast later in the week. It's expected to bring heavy rains and potentially flash flooding.",
-     "url": "https://www.npr.org/2026/10/08/g-s1-147095/weather-hurricane-season",
+     "title": "Flock is catching flak. Experts say other police surveillance tools are more worrisome",
+     "summary": "Real-time crime-center software is a sometimes overlooked but powerful tool allowing police to aggregate immense amounts of data, significantly expanding their surveillance reach.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5981343/beyond-flock-police-ai-surveillance-tools",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "The WHO seeks more details on the death of a plague research lab employee in Russia",
-     "summary": "The World Health Organization says it wants more information on what caused the death of an employee at a Russian plague research lab. Russia says the woman died of pneumonia of unknown origin.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5993873/russia-death-plague-research-institute",
-     "time": "Wed, 07 Oct 2026",
+     "title": "Medical debt is crushing hospital patients in LA. Health officials may have a fix",
+     "summary": "In Los Angeles County, the nation's most populous, a new system could screen hospital patients for financial aid, preventing hundreds of thousands from getting bills they can't pay.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5991633/hospital-california-healthcare-medical-debt",
+     "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "What is the pneumonic plague?",
-     "summary": "The ancient disease of plague is back in the headlines after the death this month of a Russian lab worker.",
-     "url": "https://www.npr.org/2026/10/07/g-s1-146952/pneumonic-plague-russia-siberia-lab-death",
-     "time": "Wed, 07 Oct 2026",
+     "title": "Syrian general accused of atrocities is protected by U.S. and Lebanon, NPR and BBC find",
+     "summary": "A former Syrian general wanted for crimes against humanity is living quietly in Lebanon, bankrolled and protected by American and Lebanese authorities, a BBC/NPR investigation has found.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5993637/syrian-general-lebanon-fbi-austin-tice",
+     "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "This surprising mammal fossil is giving scientists something to chew on",
-     "summary": "It's likely you've already chewed and swallowed some tasty morsel today. But when did that ability emerge? New evidence points to at least the middle Jurassic, back when dinosaurs still reigned.",
-     "url": "https://www.npr.org/2026/10/07/nx-s1-5991361/fossil-mammal-platypus-chew-swallow-suckle-earliest",
-     "time": "Wed, 07 Oct 2026",
+     "title": "As crypto and prediction markets expand, their regulator shrinks",
+     "summary": "Even as the agency is tasked with drawing up new rules for crypto and prediction markets, its staffing and enforcement actions have dropped precipitously during the second Trump administration.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5903204/crypto-prediction-markets-cftc-weakens",
+     "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     }
    ]
@@ -205,7 +205,7 @@
      "source": "VT Digger"
     },
     {
-     "title": "Florida evangelist purchases former Green Mountain College campus from Whiskey mogul",
+     "title": "Florida evangelist purchases former Green Mountain College campus from whiskey mogul",
      "summary": "Evangelical preacher Tommie Zito is planning to covert Green Mountain College in Poultney into Z University. Seen on Friday, July 31, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/08/tommie-zito-3-20260731-1200x798.jpg\" /> T",
      "url": "https://vtdigger.org/2026/10/07/florida-evangelist-purchases-former-green-mountain-college-campus-from-whiskey-mogul/",
      "time": "Wed, 07 Oct 2026",
