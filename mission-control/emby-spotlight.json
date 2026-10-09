@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Onan",
-  "year": 1963,
+  "name": "The Cell",
+  "year": 2000,
   "genres": [
-   "Fantasy"
+   "Horror",
+   "Science Fiction"
   ],
-  "runtime_min": 0,
+  "runtime_min": 107,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "\u201cONAN is a work about desire (masturbation) which has no object but itself. The appearance of the large egg objectifies the man's desires. After colliding with the other (a girl), the hero falls down while still holding "
+  "overview": "A psychotherapist journeys inside a comatose serial killer in the hopes of saving his latest victim."
  }
 }
