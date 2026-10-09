@@ -1,12 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T12:10:38+0000",
+ "generated_iso": "2026-10-09T12:20:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "(emby log unavailable: <urlopen error Remote end closed connection without response>)",
+     "t": "2026-10-09 07:53:34.468 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 07:53:51.725 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -39,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T07:45:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T07:50:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-09T07:55:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     },
@@ -61,6 +57,14 @@
     {
      "t": "[supervision.lo] 2026-10-09T08:10:38-04:00 [relay-supervisor] WARN: relay health check failed; attempting restart",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T08:10:46-04:00 [relay-supervisor] ERROR: relay DOWN after restart attempt (consecutive failures: 1)",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T08:15:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
     }
    ]
   }
