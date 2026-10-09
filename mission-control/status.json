@@ -1,17 +1,9 @@
 {
- "generated_at": 1791504937,
- "generated_iso": "2026-10-09T00:15:37+0000",
+ "generated_at": 1791505237,
+ "generated_iso": "2026-10-09T00:20:37+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [
-  {
-   "severity": "info",
-   "icon": "\ud83d\udef0\ufe0f",
-   "title": "Razr RVG down",
-   "message": "Razr is online but RVG agent not responding.",
-   "at": "2026-10-09T00:15:37+0000"
-  }
- ],
+ "alerts": [],
  "github": {
   "profile": "https://github.com/kellner-dot",
   "public_repos": 10,
@@ -58,7 +50,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 124260,
+   "uptime_s": 124564,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -108,7 +100,7 @@
    "ip": "100.79.81.67",
    "online": true,
    "rvg_agent": {
-    "up": false,
+    "up": true,
     "authed": false
    }
   }
