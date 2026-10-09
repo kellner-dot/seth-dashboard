@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-09T00:30:40+0000",
- "updated_ts": 1791505840,
+ "updated": "2026-10-09T01:00:39+0000",
+ "updated_ts": 1791507639,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "OpenAI, the Partition Principle, and Mathematics",
-     "summary": "Comments",
-     "url": "https://karagila.org/2026/openai-pp/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Whistle: Speech to Text in 16.9 MB",
      "summary": "Comments",
@@ -34,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "OpenAI, the Partition Principle, and Mathematics",
+     "summary": "Comments",
+     "url": "https://karagila.org/2026/openai-pp/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
      "summary": "Comments",
      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
@@ -41,14 +41,42 @@
      "source": "Hacker News"
     },
     {
-     "title": "The value of not getting to the point (2015)",
+     "title": "Show HN: SVG Spark \u2013 10 client-side SVG design and dev tools",
      "summary": "Comments",
-     "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
+     "url": "https://svg-spark.vercel.app/",
      "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "R.I.P. Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
+     "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
+     "summary": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
+     "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Judge weighs if Trump can charge $100K for early access to Truth Social posts",
+     "summary": "Judge questioned if Trump delaying access to Truth Social posts by a second harms the press.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/judge-weighs-if-trump-can-charge-100k-for-early-access-to-truth-social-posts/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
+     "summary": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Feds get ready to rewrite car headlight rules",
+     "summary": "Reducing glare and allowing modern light technologies will be two goals.",
+     "url": "https://arstechnica.com/cars/2026/10/feds-get-ready-to-rewrite-car-headlight-rules/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "RIP Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
      "summary": "Hamilton also coined the term \"software engineering\" and founded two successful software companies.",
      "url": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
      "time": "Thu, 08 Oct 2026",
@@ -58,34 +86,6 @@
      "title": "Let's Encrypt cuts certificate lifetimes to 64 days starting February 2027",
      "summary": "Free SSL/TLS certificate lifetimes reduce to 64 days in February.",
      "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Driver wins $76 after ALPR led to bogus traffic stop, drug searches",
-     "summary": "Mass surveillance gets stupider.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/driver-wins-76-after-alpr-led-to-bogus-traffic-stop-drug-searches/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "RFK Jr. unveils sweeping federal initiative to find evidence of vaccine injuries",
-     "summary": "\"[T]he Trump-RFK Jr anti-vax agenda keeps getting more corrupt and dangerous.\"",
-     "url": "https://arstechnica.com/health/2026/10/rfk-jr-unveils-sweeping-federal-initiative-to-find-evidence-of-vaccine-injuries/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "An experimental tour-de-force: Entanglement between glass bead and light",
-     "summary": "Getting a glass bead to act like a quantum object by entangling it with light.",
-     "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
-     "summary": "Amazon killed its app store, so Google Play it is.",
-     "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
      "time": "Thu, 08 Oct 2026",
      "source": "Ars Technica"
     }
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "OpenAI caught Russians and Iranians using ChatGPT for influence campaigns",
+     "summary": "The company says Russian operatives used its AI chatbot to update their bosses, shedding light on influence campaigns previously not attributed to Russia.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatgpt",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "The long-deployed USS Lincoln returns home to San Diego Bay",
      "summary": "The USS Abraham Lincoln aircraft carrier has returned home after a record-setting uninterrupted time at sea supporting the Iran war. The extended deployment drew attention following reports of crew stress and supply shortages.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5995911/the-long-deployed-uss-lincoln-returns-home-to-san-diego-bay",
@@ -168,13 +175,6 @@
      "title": "4 people on NASA's Crew-12 mission return to Earth after 8 months in space",
      "summary": "Four people \u2014 two NASA astronauts, one from the European Space Agency and a Russian cosmonaut \u2014 spent nearly eight months at the space station, conducting spacewalks, science experiments and research.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5992845/nasa-spacex-crew-12-international-space-station-iss-splashdown",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "White House correspondent April Ryan reflects on reporting while under attack",
-     "summary": "Ryan has spent decades pressing presidents for answers. She talks about access, power, race and how asking questions put her in President Trump's crosshairs. Her new book is Notes on a Blacklash.",
-     "url": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     }
