@@ -1,14 +1,28 @@
 {
- "updated": "2026-10-09T13:00:38+0000",
- "updated_ts": 1791550838,
+ "updated": "2026-10-09T13:30:37+0000",
+ "updated_ts": 1791552637,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Deno Is Joining Cloudflare",
+     "summary": "Comments",
+     "url": "https://deno.com/blog/cloudflare",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
      "summary": "Comments",
      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Our $445M Series D",
+     "summary": "Comments",
+     "url": "https://oxide.computer/blog/our-445m-series-d",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -31,20 +45,6 @@
      "summary": "Comments",
      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
      "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Whistle: Speech to Text in 16.9 MB",
-     "summary": "Comments",
-     "url": "https://cactuscompute.com/blog/whistle",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Once: Cache CLI Commands",
-     "summary": "Comments",
-     "url": "https://github.com/alex0ptr/once",
-     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -151,13 +151,6 @@
      "source": "NPR News"
     },
     {
-     "title": "In Central African Republic, deported immigrants find themselves in limbo",
-     "summary": "The Trump administration says it has deported more than 25,000 people to countries to which they have no ties. NPR spoke to three men who say it feels like they've lost control over their own lives.",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5993805/third-country-deportations-cuba",
-     "time": "Fri, 09 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "Why we remember: One student's journey into memory",
      "summary": "Why one teen can't let go of the time he ate fries with his great-grandpa.",
      "url": "https://www.npr.org/2026/10/09/nx-s1-5986352/memory-family-burger-king-grandfather",
@@ -175,6 +168,13 @@
      "title": "Fill in the blank in the quiz: A plague research employee in Russia died from ____",
      "summary": "Plus: Nobels! Protests! Ambiguous quotes! A mysterious death in Russia!",
      "url": "https://www.npr.org/2026/10/09/g-s1-147111/trump-bts-paramount-tv-el-nino-news-quiz",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "ChatGPT for Teens has special safeguards. A watchdog group finds most don't work",
+     "summary": "A study from Common Sense Media says most safeguards in ChatGPT for Teens failed. The chatbot talks to teens like a friend and doesn't alert parents when users talk about self-harm and suicide.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5995514/chatgpt-openai-teens-mental-health",
      "time": "Fri, 09 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Watch Phoebe Bridgers and Boygenius Perform Live in New Short Film",
+     "summary": "Bridgers is the latest guest on A24\u2019s Sound Check at Cherry Lane Theater YouTube series",
+     "url": "https://pitchfork.com/story/watch-phoebe-bridgers-and-boygenius-sound-check-at-cherry-lane-theater/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Watch Slayyyter Rock a Raccoon Pelt in \u201cI Think He\u2019s Got a Girl\u201d Video",
      "summary": "The next single from Wor$t Man in America comes with a video she directed herself",
      "url": "https://pitchfork.com/story/slayyyter-i-think-hes-got-a-girl-video/",
@@ -263,13 +270,6 @@
      "summary": "\u201cI think he would have been stoked to see it come to fruition,\u201d says guitarist Blake Ibanez of \u201cPrecinct 3\u201d and \u201cScavenger\u201d",
      "url": "https://pitchfork.com/story/power-trip-return-with-first-songs-since-death-of-riley-gale/",
      "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Loretta Lynn\u2019s Van Lear Rose Is Returning to Streaming",
-     "summary": "Third Man will reissue Lynn\u2019s 2004 comeback album, which was mysteriously pulled from DSPs in 2021",
-     "url": "https://pitchfork.com/story/loretta-lynns-van-lear-rose-is-returning-to-streaming/",
-     "time": "Thu, 08 Oct 2026",
      "source": "Pitchfork"
     }
    ]
