@@ -1,16 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T16:50:40+0000",
+ "generated_iso": "2026-10-09T17:00:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-09 12:35:34.588 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-09 12:53:17.281 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-09 12:35:36.634 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-09 12:53:34.469 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 12:53:51.694 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,28 +47,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:50:10-04:00 [relay-supervisor] ERROR: ALERT: hung-port recovery FAILED; relay still unhealthy",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T12:50:10-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T12:50:10-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T12:50:15-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "t": "[supervision.lo] 2026-10-09T12:53:25-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:50:15-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-10-09T12:53:25-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:50:15-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "t": "[supervision.lo] 2026-10-09T12:53:25-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T12:54:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T12:54:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T12:56:06-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
     }
    ]
   }
