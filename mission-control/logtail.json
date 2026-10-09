@@ -1,20 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T23:20:40+0000",
+ "generated_iso": "2026-10-09T23:33:00+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-09 19:19:50.928 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-09 19:30:45.100 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\c27e3a82-e378-4c82-a54f-cb5b1",
      "c": "err"
     },
     {
-     "t": "2026-10-09 19:20:34.237 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-09 19:20:36.316 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 19:30:45.100 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\ca2c1431-5dc4-469c-9e4f-53070",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 19:30:45.102 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\cd16ee55-1c5e-4cda-9593-89df3",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 19:30:45.104 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\def40578-01a0-4aa5-8dbf-9927d",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
      "c": "err"
     }
    ]
@@ -47,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T18:50:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T18:55:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T19:00:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-09T19:05:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     },
@@ -68,6 +92,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-09T19:15:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T19:20:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T19:25:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T19:30:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     }
    ]
