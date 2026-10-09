@@ -1,9 +1,38 @@
 {
- "generated_at": 1791547540,
- "generated_iso": "2026-10-09T12:05:40+0000",
+ "generated_at": 1791547842,
+ "generated_iso": "2026-10-09T12:10:42+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
+ "alerts": [
+  {
+   "severity": "warn",
+   "icon": "\ud83d\udcf1",
+   "title": "iPhone offline",
+   "message": "iPhone not reachable on Tailnet.",
+   "at": "2026-10-09T12:10:42+0000"
+  },
+  {
+   "severity": "warn",
+   "icon": "\ud83d\udcf1",
+   "title": "Razr+ offline",
+   "message": "Razr+ not reachable on Tailnet.",
+   "at": "2026-10-09T12:10:42+0000"
+  },
+  {
+   "severity": "info",
+   "icon": "\ud83d\udcbb",
+   "title": "MacBook Air offline",
+   "message": "Mac not reachable on Tailnet.",
+   "at": "2026-10-09T12:10:42+0000"
+  },
+  {
+   "severity": "critical",
+   "icon": "\ud83d\udda5\ufe0f",
+   "title": "Gaming PC offline",
+   "message": "SETHS-PC not reachable. Emby, TeraBox, and BiglyBT data may be stale.",
+   "at": "2026-10-09T12:10:42+0000"
+  }
+ ],
  "github": {
   "profile": "https://github.com/kellner-dot",
   "public_repos": 10,
@@ -20,17 +49,10 @@
   ]
  },
  "emby_library": {
-  "movies": 5445,
-  "series": 34,
-  "episodes": 60,
-  "recent": [
-   "The Monkey",
-   "80s-commercials",
-   "Come Over, My Parents Aren't Home",
-   "The Monkey",
-   "80s-commercials",
-   "Possessor"
-  ]
+  "movies": null,
+  "series": null,
+  "episodes": null,
+  "recent": []
  },
  "terabox": {
   "total": null,
@@ -40,7 +62,7 @@
  "kaviguard": {},
  "biglybt": {
   "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
+  "scheduler": ""
  },
  "devices": [
   {
@@ -48,23 +70,16 @@
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": true,
-   "rvg_version": "1.20.0",
-   "uptime_s": 166865,
+   "online": false,
+   "rvg_version": "",
+   "uptime_s": null,
    "hostname": "SETHS-PC",
    "emby": {
-    "running": true,
-    "version": "4.10.1.0"
+    "running": false,
+    "version": ""
    },
-   "emby_sessions": [
-    {
-     "device": "",
-     "client": "",
-     "user": "",
-     "playing": null
-    }
-   ],
-   "terabox_uploaders": 1,
+   "emby_sessions": [],
+   "terabox_uploaders": 0,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
@@ -77,20 +92,20 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": 200,
-    "up": true
+    "http": 0,
+    "up": false
    },
    "rvg_agent": {
-    "up": true
+    "up": false
    },
-   "online": true
+   "online": false
   },
   {
    "id": "iphone-xs-max",
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": true,
+   "online": false,
    "ping_ms": null
   },
   {
@@ -98,9 +113,9 @@
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": true,
+   "online": false,
    "rvg_agent": {
-    "up": true,
+    "up": false,
     "authed": false
    }
   }
