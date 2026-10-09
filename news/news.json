@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T06:00:39+0000",
- "updated_ts": 1791525639,
+ "updated": "2026-10-09T06:30:39+0000",
+ "updated_ts": 1791527439,
  "topics": [
   {
    "name": "Tech",
@@ -20,6 +20,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+     "summary": "Comments",
+     "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Whistle: Speech to Text in 16.9 MB",
      "summary": "Comments",
      "url": "https://cactuscompute.com/blog/whistle",
@@ -27,23 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Theranos.world",
+     "title": "Keyboard differences between Windows and Macs",
      "summary": "Comments",
-     "url": "https://www.theranos.world/",
-     "time": "Thu, 08 Oct 2026",
+     "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
      "summary": "Comments",
      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
-     "summary": "Comments",
-     "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,7 +95,7 @@
    "name": "World",
    "articles": [
     {
-     "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC from Ukrainian prison",
+     "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC",
      "summary": "Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev.",
      "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 08 Oct 2026",
