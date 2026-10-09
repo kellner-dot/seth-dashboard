@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-09T07:30:40+0000",
- "updated_ts": 1791531040,
+ "updated": "2026-10-09T08:00:37+0000",
+ "updated_ts": 1791532837,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "OTel-Native by Design \u2013 Building Products That Export to Any Observability Stack",
+     "summary": "Comments",
+     "url": "https://opentelemetry.io/blog/2026/otel-native-by-design/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
      "summary": "Comments",
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://www.theranos.world/",
      "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
-     "summary": "Comments",
-     "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
