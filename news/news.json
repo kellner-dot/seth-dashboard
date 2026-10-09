@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T20:30:38+0000",
- "updated_ts": 1791577838,
+ "updated": "2026-10-09T21:00:44+0000",
+ "updated_ts": 1791579644,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,20 @@
      "title": "Cloudflare acquires Deno",
      "summary": "Comments",
      "url": "https://deno.com/blog/cloudflare",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "No Man Is an Island",
+     "summary": "Comments",
+     "url": "https://borretti.me/article/no-man-is-an-island",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Triple-A Minesweeper",
+     "summary": "Comments",
+     "url": "https://minesweeper.mikelacher.com/",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,25 +41,25 @@
      "source": "Hacker News"
     },
     {
-     "title": "Triple-A Minesweeper",
+     "title": "Ideas aren't getting harder to find, anyone who tells you otherwise is a coward",
      "summary": "Comments",
-     "url": "https://minesweeper.mikelacher.com/",
+     "url": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Typesafe AI raises $870M at $7.5B",
-     "summary": "Comments",
-     "url": "https://typesafe.ai/blog/series-ai",
+     "title": "AI coding agents generate more code, but not more software",
+     "summary": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
+     "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
      "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
-     "title": "No Man Is an Island",
-     "summary": "Comments",
-     "url": "https://borretti.me/article/no-man-is-an-island",
+     "title": "Outrage grows as CDC reportedly poised to fund \"unethical\" vaccine trial",
+     "summary": "CDC allocated $1.6M for study on alleged harms of hepatitis B vaccine.",
+     "url": "https://arstechnica.com/health/2026/10/rfk-jr-still-eager-to-fund-vaccine-trial-that-would-expose-babies-to-deadly-virus/",
      "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "PC shipments fall 20.1 percent in \u201csharpest decline\u201d since Q1 2023",
@@ -72,20 +86,6 @@
      "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
      "summary": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors.",
      "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Microsoft barred from sponsoring foreign workers for US residency",
-     "summary": "The US says Microsoft abused immigration rules; the company disputes the claim.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Rocket Report: A rare Falcon 9 scrub; is it just about Vulcan's time to shine?",
-     "summary": "\"I can say we\u2019re weeks away from launching on Vulcan.\"",
-     "url": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
      "time": "Fri, 09 Oct 2026",
      "source": "Ars Technica"
     }
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Opinion: Can I keep the baseball I caught?",
+     "summary": "What would you do if you caught a baseball during the MLB playoffs? Give it to a kid nearby or keep it? This very scenario played out this week, with a fan deciding to keep the ball.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5982500/opinion-can-i-keep-the-baseball-i-caught",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "The U.S. last held a public execution in the 1930s. The Pentagon wants to change that",
      "summary": "The Pentagon says it will livestream the firing squad execution of Nidal Hasan at Fort Hood, the site of his 2009 mass shooting. That would be the first public execution in the U.S. since the 1930s.",
      "url": "https://www.npr.org/2026/10/09/nx-s1-5996529/firing-squad-livestream-execution-fort-hood-shooter",
@@ -170,19 +177,19 @@
      "url": "https://www.npr.org/2026/10/09/g-s1-147455/up-first-newsletter-hurricane-isaias-ukraine-russia-trump-iran-ice-shooting",
      "time": "Fri, 09 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Why American investors love European defense startups",
-     "summary": "As European defense spending takes off, just about half of the funding in Europe's defense tech industry is coming from American investors this year. One reason why: European investment firms have restrictions on how they can invest.",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
-     "time": "Fri, 09 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "PAC money is rolling in as Vermont\u2019s election nears",
+     "summary": "&#8220;I Voted&#8221; stickers await voters who cast their ballots on Town Meeting Day in Cambridge on Tuesday, March 5, 2024. Photo by Glenn Russell/VTDigger \" data-image-caption=\"&#8220;I Voted&#8221; stickers await voters who cast their ballots on Town Meeting Day in Cambridge",
+     "url": "https://vtdigger.org/2026/10/09/pac-money-is-rolling-in-as-vermonts-election-nears/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "School budgets run on diesel",
      "summary": "As fuel costs eat into district finances, the question is what gets cut to keep buses running. Read the story on VTDigger here: School budgets run on diesel.",
@@ -216,13 +223,6 @@
      "summary": "Official ballots sent out by mail to voters for the 2026 general election in Vermont. Photo by Noel Clark/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/General-Election-mail-ballot-2026-edited-1200x900.jpg?crop=1\" /> Following \u201ctechnical problems,\u201d a",
      "url": "https://vtdigger.org/2026/10/09/vermont-general-election-ballots-mailed-later-than-expected/",
      "time": "Fri, 09 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Police face barrage of questions but provide few answers about shooting by Williston officer",
-     "summary": "Photo via Adobe Stock Detail view of illuminated police lights. police, criminal justice, public safety \" data-image-caption=\"Photo via Adobe Stock \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2023/04/Police-Lights-2-1200x800.jpeg\" /> The injured man suffered a guns",
-     "url": "https://vtdigger.org/2026/10/08/police-face-barrage-of-questions-but-provide-few-answers-about-shooting-by-williston-officer/",
-     "time": "Thu, 08 Oct 2026",
      "source": "VT Digger"
     }
    ]
