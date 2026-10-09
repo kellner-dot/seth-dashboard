@@ -243,17 +243,12 @@ function mqttConnect() {
     });
   } catch(e) { setConn('err', 'MQTT error'); }
 }
+// 2026-10-09: remote command publishing DISABLED (security incident containment).
+// The MQTT credential was exposed in this public repo; the publish path stays
+// off until an authenticated server-side channel replaces it. Status display
+// is unaffected.
 function sendCommand(cmd) {
-  cmd.token = MQTT_TOKEN;
-  cmd.ts = Date.now();
-  if (mqttClient && mqttClient.isConnected() && MQTT_TOPIC) {
-    try {
-      var msg = new Paho.MQTT.Message(JSON.stringify(cmd));
-      msg.destinationName = MQTT_TOPIC;
-      mqttClient.send(msg);
-      return true;
-    } catch(e) {}
-  }
+  setConn('warn', 'cmd disabled');
   return false;
 }
 function setConn(cls, txt) {
@@ -346,10 +341,8 @@ function loadStatus() {
     });
 }
 function loadMqttConfig() {
-  fetch('mqtt-config.json?t=' + Date.now(), {cache:'no-store'})
-    .then(function(r) { return r.json(); })
-    .then(function(c) { MQTT_TOPIC = c.topic; MQTT_TOKEN = c.token; mqttConnect(); })
-    .catch(function() { setConn('err', 'no cmd config'); });
+  // 2026-10-09: disabled (see sendCommand note); mqtt-config.json removed.
+  setConn('warn', 'cmd disabled');
 }
 
 // ===== Modals =====
