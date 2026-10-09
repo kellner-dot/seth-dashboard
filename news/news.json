@@ -1,28 +1,14 @@
 {
- "updated": "2026-10-09T23:00:39+0000",
- "updated_ts": 1791586839,
+ "updated": "2026-10-09T23:30:37+0000",
+ "updated_ts": 1791588637,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-     "summary": "Comments",
-     "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Cloudflare acquires Deno",
      "summary": "Comments",
      "url": "https://deno.com/blog/cloudflare",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "No Man Is an Island",
-     "summary": "Comments",
-     "url": "https://borretti.me/article/no-man-is-an-island",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -48,44 +34,58 @@
      "source": "Hacker News"
     },
     {
+     "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+     "summary": "Comments",
+     "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Sorry, I'm in a meeting",
+     "summary": "Comments",
+     "url": "https://iminafleeting.com/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Neanderthal wooden tools from Spain found preserved in stone",
+     "summary": "Dissolved rock precipitated around the tools, which then decayed.",
+     "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Ukraine\u2019s drones knock out AI data center belonging to \"Russia\u2019s Google\"",
+     "summary": "One damaged data center has supercomputers used for training Yandex\u2019s AI model.",
+     "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+     "summary": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computaci\u00f3n.",
+     "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "NASA issues long-awaited call to industry for private space stations",
+     "summary": "\"We\u2019ve made it clear that NASA will never give up its presence in low Earth orbit.\"",
+     "url": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "What's been driving Hawaii's lava fountains?",
+     "summary": "Before the lava fountains started, the ground was expanding by half a meter a day.",
+     "url": "https://arstechnica.com/science/2026/10/whats-been-driving-hawaiis-lava-fountains/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
      "title": "AI coding agents generate more code, but not more software",
      "summary": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Outrage grows as CDC reportedly poised to fund \"unethical\" vaccine trial",
-     "summary": "CDC allocated $1.6M for study on alleged harms of hepatitis B vaccine.",
-     "url": "https://arstechnica.com/health/2026/10/rfk-jr-still-eager-to-fund-vaccine-trial-that-would-expose-babies-to-deadly-virus/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "PC shipments fall 20.1 percent in \u201csharpest decline\u201d since Q1 2023",
-     "summary": "\"The current decline may be just the beginning of a new downward cycle.\"",
-     "url": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "AI disqualification yields new Nikon Small World in Motion winner",
-     "summary": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus.",
-     "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Your artwork could be featured in the next Debian release",
-     "summary": "Debian Linux has put a call out for artist submissions for its next release: Forky.",
-     "url": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
-     "summary": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
      "time": "Fri, 09 Oct 2026",
      "source": "Ars Technica"
     }
