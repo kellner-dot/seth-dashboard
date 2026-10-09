@@ -1,26 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T23:40:40+0000",
+ "generated_iso": "2026-10-09T23:50:49+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-09 19:30:45.102 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\cd16ee55-1c5e-4cda-9593-89df3",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
-     "c": "err"
-    },
     {
      "t": "2026-10-09 19:30:45.104 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\def40578-01a0-4aa5-8dbf-9927d",
      "c": "err"
@@ -63,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T19:15:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T19:20:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-09T19:25:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     },
@@ -84,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-09T19:40:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T19:45:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T19:50:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     }
    ]
