@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Money",
-  "year": 1968,
+  "name": "Upstream Color",
+  "year": 2013,
   "genres": [
-   "Comedy"
+   "Drama",
+   "Science Fiction"
   ],
-  "runtime_min": 0,
+  "runtime_min": 96,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A silent screen-type comedy starring Edwin Denby as Hemlock Stinge, the unlovable billionaire."
+  "overview": "A man and woman are drawn together, entangled in the lifecycle of an ageless organism. Identity becomes an illusion as they struggle to assemble the loose fragments of wrecked lives."
  }
 }
