@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T07:00:41+0000",
- "updated_ts": 1791529241,
+ "updated": "2026-10-09T07:30:40+0000",
+ "updated_ts": 1791531040,
  "topics": [
   {
    "name": "Tech",
@@ -13,24 +13,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Quake ported to safe Rust, playable in browser",
-     "summary": "Comments",
-     "url": "https://quake-srp.pages.dev/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Whistle: Speech to Text in 16.9 MB",
      "summary": "Comments",
      "url": "https://cactuscompute.com/blog/whistle",
      "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Reducing undefined behavior in the C language",
-     "summary": "Comments",
-     "url": "https://lwn.net/Articles/1095811/",
-     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -44,6 +30,20 @@
      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
      "summary": "Comments",
      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Theranos.world",
+     "summary": "Comments",
+     "url": "https://www.theranos.world/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+     "summary": "Comments",
+     "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
      "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,17 +95,17 @@
    "name": "World",
    "articles": [
     {
-     "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC",
-     "summary": "Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev.",
-     "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 08 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Firing squad execution to be livestreamed, Pentagon says",
      "summary": "Pete Hegseth says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
      "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 09 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC",
+     "summary": "Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev.",
+     "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Cars torched and shops looted as anti-migrant violence erupts in South Africa",
-     "summary": "South Africa has experienced recurrent outbreaks of violence, often targeting migrants from neighbouring countries.",
-     "url": "https://www.bbc.co.uk/news/articles/cwm24v45p4jgo?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 09 Oct 2026",
+     "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+     "summary": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election.",
+     "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 08 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "As freezing winter approaches, Kyiv residents look for shelter elsewhere",
-     "summary": "A renewed Russian campaign of strikes on power and energy infrastructure has made some contemplate leaving Ukraine's capital.",
-     "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
+     "title": "Cars torched and shops looted as anti-migrant violence erupts in South Africa",
+     "summary": "South Africa has experienced recurrent outbreaks of violence, often targeting migrants from neighbouring countries.",
+     "url": "https://www.bbc.co.uk/news/articles/cwm24v45p4jgo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 09 Oct 2026",
      "source": "BBC World"
     },
