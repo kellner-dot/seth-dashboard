@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-09T09:00:42+0000",
- "updated_ts": 1791536442,
+ "updated": "2026-10-09T09:30:38+0000",
+ "updated_ts": 1791538238,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "OTel-Native by Design \u2013 Building Products That Export to Any Observability Stack",
-     "summary": "Comments",
-     "url": "https://opentelemetry.io/blog/2026/otel-native-by-design/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
      "summary": "Comments",
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
      "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Theranos.world",
+     "summary": "Comments",
+     "url": "https://www.theranos.world/",
+     "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -151,16 +151,9 @@
      "source": "NPR News"
     },
     {
-     "title": "ChatGPT for Teens has special safeguards. A watchdog group finds most don't work",
-     "summary": "A study from Common Sense Media says most safeguards in ChatGPT for Teens failed. The chatbot talks to teens like a friend and doesn't alert parents when users talk about self-harm and suicide.",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5995514/chatgpt-openai-teens-mental-health",
-     "time": "Fri, 09 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "A student hated reading for years. Her podcast explores finding the right diagnosis",
-     "summary": "Middle schooler Cora Walsh of Long Island, N.Y., has won the 2026 NPR Student Podcast Challenge with a story about her journey with dyslexia.",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5977043/dyslexia-teenager-diagnosis-reading",
+     "title": "Republican congressman tries to outrun a potential blue wave in New York toss-up seat",
+     "summary": "Rep. Mike Lawler, R-NY, is in a tight race for re-election in a toss-up district that could help determine control of Congress in November.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5986150/lawler-new-york-congress-trump",
      "time": "Fri, 09 Oct 2026",
      "source": "NPR News"
     },
@@ -172,9 +165,16 @@
      "source": "NPR News"
     },
     {
-     "title": "NEWSBRIEF: HURRICANE ISAIAS, UKRAINE WAR LATEST, POLITICS OF IRAN WAR",
-     "summary": "Gulf Coast Preps for Isaias, Ukraine expects Russian winter offensive, and Trump's Iran War in focus as Midterms approach.",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5988274/newsbrief-hurricane-isaias-ukraine-war-latest-politics-of-iran-war",
+     "title": "Why mailing a ballot close to Election Day may get it rejected for a late postmark",
+     "summary": "If you're using the U.S. Postal Service to return a ballot close to Election Day, officials recommend getting it postmarked at a post office to avoid getting caught up in mail processing changes.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5984981/mail-in-ballot-usps-postmark",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "ChatGPT for Teens has special safeguards. A watchdog group finds most don't work",
+     "summary": "A study from Common Sense Media says most safeguards in ChatGPT for Teens failed. The chatbot talks to teens like a friend and doesn't alert parents when users talk about self-harm and suicide.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5995514/chatgpt-openai-teens-mental-health",
      "time": "Fri, 09 Oct 2026",
      "source": "NPR News"
     }
