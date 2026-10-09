@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T04:00:38+0000",
- "updated_ts": 1791518438,
+ "updated": "2026-10-09T04:30:38+0000",
+ "updated_ts": 1791520238,
  "topics": [
   {
    "name": "Tech",
@@ -27,13 +27,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
-     "summary": "Comments",
-     "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Keyboard differences between Windows and Macs",
      "summary": "Comments",
      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
@@ -41,10 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Bevy 0.20",
+     "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
      "summary": "Comments",
-     "url": "https://bevy.org/news/bevy-0-20/",
-     "time": "Thu, 08 Oct 2026",
+     "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+     "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+     "summary": "Comments",
+     "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -231,6 +231,34 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Troye Sivan Shares His \u201cGayest Music Video\u201d for \u201cFF\u201d",
+     "summary": "\u201cLike this is GAY gay,\u201d the Aussie pop star said of the clip, which accompanies the release of his new album She\u2019s the Best",
+     "url": "https://pitchfork.com/story/troye-sivan-shares-his-gayest-music-video-for-ff/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Deafheaven Surprise Release New EP At Work in the Fields of the Bomb",
+     "summary": "Their first new music since 2025\u2019s Lonely People with Power",
+     "url": "https://pitchfork.com/story/deafheaven-surprise-release-new-ep-at-work-in-the-fields-of-the-bomb/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Grimes Shares First Song From AI-Inspired Album Psy Opera",
+     "summary": "The album promises to cover everything the singer \u201cwitnessed as a woman of history during her hiatus from pop music\u201d",
+     "url": "https://pitchfork.com/story/grimes-shares-first-song-from-ai-inspired-album-psy-opera/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Power Trip Return With First Songs Since Death of Riley Gale",
+     "summary": "\u201cI think he would have been stoked to see it come to fruition,\u201d says guitarist Blake Ibanez of \u201cPrecinct 3\u201d and \u201cScavenger\u201d",
+     "url": "https://pitchfork.com/story/power-trip-return-with-first-songs-since-death-of-riley-gale/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Loretta Lynn\u2019s Van Lear Rose Is Returning to Streaming",
      "summary": "Third Man will reissue Lynn\u2019s 2004 comeback album, which was mysteriously pulled from DSPs in 2021",
      "url": "https://pitchfork.com/story/loretta-lynns-van-lear-rose-is-returning-to-streaming/",
@@ -241,34 +269,6 @@
      "title": "Watch Audrey Hobert Talk to a Redwood Tree in New \u201cPhoebe\u201d Video",
      "summary": "The Friends-inspired Who\u2019s the Clown? track gets its own visual",
      "url": "https://pitchfork.com/story/audrey-hobert-phoebe-video/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "David Byrne and Daniel Pemberton Made a Song Using Weird Elon Musk Quotes",
-     "summary": "\u201cLet Me Sell You a Dream\u201d appears in Musk, a new documentary about the tech mogul directed by Alex Gibney",
-     "url": "https://pitchfork.com/story/david-byrne-and-daniel-pemberton-made-a-song-using-weird-elon-musk-quotes/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Bj\u00f6rk Announces New Orchestral Live Album",
-     "summary": "Drawn from her 2021 performances adapting songs, primarily from Med\u00falla, for an ensemble including a 50-person choir",
-     "url": "https://pitchfork.com/story/bjork-announces-new-orchestral-live-album/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Turnstile Announce Free Show to Raise Funds for Palestine, Sudan, and Lebanon",
-     "summary": "The Washington D.C. concert takes place on October 24 in collaboration with Human Concern International",
-     "url": "https://pitchfork.com/story/turnstile-announce-free-show-to-raise-funds-for-palestine-sudan-and-lebanon/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Grouper\u2019s Liz Harris Shares 21-Minute Composition",
-     "summary": "\u201cUntitled (from Constellation)\u201d is one of two short-film scores compiled on a new Kranky release",
-     "url": "https://pitchfork.com/story/groupers-liz-harris-shares-21-minute-composition/",
      "time": "Thu, 08 Oct 2026",
      "source": "Pitchfork"
     }
