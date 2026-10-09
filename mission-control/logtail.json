@@ -1,10 +1,43 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T05:10:42+0000",
+ "generated_iso": "2026-10-09T05:20:41+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "2026-10-09 01:13:28.222 Error App: Error in validateChildren for 21433 D:\\TV Shows",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 01:13:30.202 Error App: Error in TheTVDB",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 01:14:09.650 Warn SessionsService-0HNP4F6RFDEUB:00000001: AUTH-ERROR: 127.0.0.1 - Access token is invalid or expired.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 01:14:09.650 Error SessionsService-0HNP4F6RFDEUB:00000001: Access token is invalid or expired.",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,10 +67,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T00:45:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-09T00:50:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     },
@@ -55,6 +84,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-09T01:10:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T01:15:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     }
    ]
