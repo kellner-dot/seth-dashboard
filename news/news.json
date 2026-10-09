@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-09T21:00:44+0000",
- "updated_ts": 1791579644,
+ "updated": "2026-10-09T21:30:39+0000",
+ "updated_ts": 1791581439,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Cloudflare acquires Deno",
+     "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
      "summary": "Comments",
-     "url": "https://deno.com/blog/cloudflare",
+     "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -16,6 +16,13 @@
      "title": "No Man Is an Island",
      "summary": "Comments",
      "url": "https://borretti.me/article/no-man-is-an-island",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Cloudflare acquires Deno",
+     "summary": "Comments",
+     "url": "https://deno.com/blog/cloudflare",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -37,13 +44,6 @@
      "title": "Our $445M Series D",
      "summary": "Comments",
      "url": "https://oxide.computer/blog/our-445m-series-d",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Ideas aren't getting harder to find, anyone who tells you otherwise is a coward",
-     "summary": "Comments",
-     "url": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,13 +137,6 @@
      "source": "BBC World"
     },
     {
-     "title": "Opinion: Can I keep the baseball I caught?",
-     "summary": "What would you do if you caught a baseball during the MLB playoffs? Give it to a kid nearby or keep it? This very scenario played out this week, with a fan deciding to keep the ball.",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5982500/opinion-can-i-keep-the-baseball-i-caught",
-     "time": "Fri, 09 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "The U.S. last held a public execution in the 1930s. The Pentagon wants to change that",
      "summary": "The Pentagon says it will livestream the firing squad execution of Nidal Hasan at Fort Hood, the site of his 2009 mass shooting. That would be the first public execution in the U.S. since the 1930s.",
      "url": "https://www.npr.org/2026/10/09/nx-s1-5996529/firing-squad-livestream-execution-fort-hood-shooter",
@@ -177,12 +170,26 @@
      "url": "https://www.npr.org/2026/10/09/g-s1-147455/up-first-newsletter-hurricane-isaias-ukraine-russia-trump-iran-ice-shooting",
      "time": "Fri, 09 Oct 2026",
      "source": "NPR News"
+    },
+    {
+     "title": "Why American investors love European defense startups",
+     "summary": "As European defense spending takes off, just about half of the funding in Europe's defense tech industry is coming from American investors this year. One reason why: European investment firms have restrictions on how they can invest.",
+     "url": "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Man taken into custody in Vermont faces murder charge in his mother\u2019s death in Massachusetts",
+     "summary": "Ryan Hanafin appears on a video conference from Northeast Regional Correctional Facility in St. Johnsbury on Friday, October 9, 2026. Screenshot by Alan J. Keays/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Ryan-Hanafin.png\" /> Court records made pu",
+     "url": "https://vtdigger.org/2026/10/09/man-taken-into-custody-in-vermont-faces-murder-charge-in-his-mothers-death-in-massachusetts/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "PAC money is rolling in as Vermont\u2019s election nears",
      "summary": "&#8220;I Voted&#8221; stickers await voters who cast their ballots on Town Meeting Day in Cambridge on Tuesday, March 5, 2024. Photo by Glenn Russell/VTDigger \" data-image-caption=\"&#8220;I Voted&#8221; stickers await voters who cast their ballots on Town Meeting Day in Cambridge",
@@ -215,13 +222,6 @@
      "title": "Michael DeForge",
      "summary": "An avid outdoorsman, Michael could often be found hunting and fishing the woods and waters of East Montpelier, Calais, and Woodbury. Read the story on VTDigger here: Michael DeForge.",
      "url": "https://vtdigger.org/2026/10/09/michael-deforge/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Vermont general election ballots mailed later than expected",
-     "summary": "Official ballots sent out by mail to voters for the 2026 general election in Vermont. Photo by Noel Clark/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/General-Election-mail-ballot-2026-edited-1200x900.jpg?crop=1\" /> Following \u201ctechnical problems,\u201d a",
-     "url": "https://vtdigger.org/2026/10/09/vermont-general-election-ballots-mailed-later-than-expected/",
      "time": "Fri, 09 Oct 2026",
      "source": "VT Digger"
     }
