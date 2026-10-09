@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Spinout",
-  "year": 1983,
+  "name": "The Last Wave",
+  "year": 1977,
   "genres": [
-   "Documentary"
+   "Drama",
+   "Mystery"
   ],
-  "runtime_min": 0,
+  "runtime_min": 105,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Spinout is an apocalyptic tale of a world spinning out of control to nowhere. Space travel, astrology, spirals, the universe, catastrophe and madness are recurring visual and narrative themes in this expressionistic thea"
+  "overview": "A Sydney lawyer defends five Aboriginal people in a ritualised taboo murder and in the process learns disturbing truths about himself and premonitions."
  }
 }
