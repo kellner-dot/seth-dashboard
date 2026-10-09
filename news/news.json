@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-09T10:30:36+0000",
- "updated_ts": 1791541836,
+ "updated": "2026-10-09T11:00:39+0000",
+ "updated_ts": 1791543639,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
+     "summary": "Comments",
+     "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
      "summary": "Comments",
@@ -27,10 +34,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
+     "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
      "summary": "Comments",
-     "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
-     "time": "Fri, 09 Oct 2026",
+     "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
      "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
-     "summary": "Comments",
-     "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -116,6 +116,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Thieves steal 30,000 wine bottles worth \u20ac5m in Italy, reports say",
+     "summary": "The heist at the Florence-based winery is believed to be one of the largest thefts of its kind in Italy.",
+     "url": "https://www.bbc.co.uk/news/articles/cme3xl8ln2vko?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 09 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "ICE agent shoots man in New York City",
      "summary": "The mayor of New York expressed outrage at the shooting which the Department of Homeland Security said happened during the arrest of a \"criminal illegal alien\".",
      "url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss",
@@ -123,16 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Russian strikes and approaching winter force some in Kyiv to pack bags and flee",
-     "summary": "A renewed Russian campaign of strikes on power and energy infrastructure has made some contemplate leaving Ukraine's capital.",
-     "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 09 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
-     "summary": "The AI firm instead claims the researchers were fired for mishandling sensitive information.",
-     "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+     "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+     "summary": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government.",
+     "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 09 Oct 2026",
      "source": "BBC World"
     },
@@ -224,53 +224,6 @@
      "url": "https://vtdigger.org/2026/10/08/the-fall-foliage-is-the-best-its-been-in-years/",
      "time": "Thu, 08 Oct 2026",
      "source": "VT Digger"
-    }
-   ]
-  },
-  {
-   "name": "Music",
-   "articles": [
-    {
-     "title": "Watch Slayyyter Rock a Raccoon Pelt in \u201cI Think He\u2019s Got a Girl\u201d Video",
-     "summary": "The next single from Wor$t Man in America comes with a video she directed herself",
-     "url": "https://pitchfork.com/story/slayyyter-i-think-hes-got-a-girl-video/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Troye Sivan Shares His \u201cGayest Music Video\u201d for \u201cFF\u201d",
-     "summary": "\u201cLike this is GAY gay,\u201d the Aussie pop star said of the clip, which accompanies the release of his new album She\u2019s the Best",
-     "url": "https://pitchfork.com/story/troye-sivan-shares-his-gayest-music-video-for-ff/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Deafheaven Surprise Release New EP At Work in the Fields of the Bomb",
-     "summary": "Their first new music since 2025\u2019s Lonely People with Power",
-     "url": "https://pitchfork.com/story/deafheaven-surprise-release-new-ep-at-work-in-the-fields-of-the-bomb/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Grimes Shares First Song From AI-Inspired Album Psy Opera",
-     "summary": "The album promises to cover everything the singer \u201cwitnessed as a woman of history during her hiatus from pop music\u201d",
-     "url": "https://pitchfork.com/story/grimes-shares-first-song-from-ai-inspired-album-psy-opera/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Power Trip Return With First Songs Since Death of Riley Gale",
-     "summary": "\u201cI think he would have been stoked to see it come to fruition,\u201d says guitarist Blake Ibanez of \u201cPrecinct 3\u201d and \u201cScavenger\u201d",
-     "url": "https://pitchfork.com/story/power-trip-return-with-first-songs-since-death-of-riley-gale/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Loretta Lynn\u2019s Van Lear Rose Is Returning to Streaming",
-     "summary": "Third Man will reissue Lynn\u2019s 2004 comeback album, which was mysteriously pulled from DSPs in 2021",
-     "url": "https://pitchfork.com/story/loretta-lynns-van-lear-rose-is-returning-to-streaming/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Pitchfork"
     }
    ]
   }
