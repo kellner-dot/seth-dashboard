@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-09T00:01:06+0000",
- "updated_ts": 1791504066,
+ "updated": "2026-10-09T00:30:40+0000",
+ "updated_ts": 1791505840,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "OpenAI, the Partition Principle, and Mathematics",
+     "summary": "Comments",
+     "url": "https://karagila.org/2026/openai-pp/",
+     "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Whistle: Speech to Text in 16.9 MB",
      "summary": "Comments",
@@ -27,13 +34,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "The value of not getting to the point (2015)",
-     "summary": "Comments",
-     "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
-     "time": "Thu, 08 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
      "summary": "Comments",
      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "OpenAI, the Partition Principle, and Mathematics",
+     "title": "The value of not getting to the point (2015)",
      "summary": "Comments",
-     "url": "https://karagila.org/2026/openai-pp/",
+     "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
      "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "The long-deployed USS Lincoln returns home to San Diego Bay",
+     "summary": "The USS Abraham Lincoln aircraft carrier has returned home after a record-setting uninterrupted time at sea supporting the Iran war. The extended deployment drew attention following reports of crew stress and supply shortages.",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5995911/the-long-deployed-uss-lincoln-returns-home-to-san-diego-bay",
+     "time": "Thu, 08 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Suicide is up among Black Americans. We need to talk about it.",
      "summary": "NPR's Michel Martin hosted a panel conversation about mental health and suicide in the Black community, exploring a difficult subject in deeply personal conversations.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5963905/suicide-black-americans-discussion-analysis",
@@ -168,13 +175,6 @@
      "title": "White House correspondent April Ryan reflects on reporting while under attack",
      "summary": "Ryan has spent decades pressing presidents for answers. She talks about access, power, race and how asking questions put her in President Trump's crosshairs. Her new book is Notes on a Blacklash.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "South Korea to recall its ambassador to Ukraine over North Korean POW dispute",
-     "summary": "The South Korean announcement on Thursday came days after its President Lee Jae Myung threatened unspecified punitive steps if Ukraine refuses to apologize over the revelation.",
-     "url": "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     }
