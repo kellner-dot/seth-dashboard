@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-09T05:30:38+0000",
- "updated_ts": 1791523838,
+ "updated": "2026-10-09T06:00:39+0000",
+ "updated_ts": 1791525639,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Whistle: Speech to Text in 16.9 MB",
+     "title": "Show HN: Quake ported to safe Rust, playable in browser",
      "summary": "Comments",
-     "url": "https://cactuscompute.com/blog/whistle",
-     "time": "Thu, 08 Oct 2026",
+     "url": "https://quake-srp.pages.dev/",
+     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -17,6 +17,13 @@
      "summary": "Comments",
      "url": "https://lwn.net/Articles/1095811/",
      "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Whistle: Speech to Text in 16.9 MB",
+     "summary": "Comments",
+     "url": "https://cactuscompute.com/blog/whistle",
+     "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
      "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Yes, and",
-     "summary": "Comments",
-     "url": "https://htmx.org/essays/yes-and/",
-     "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -109,6 +109,13 @@
      "source": "BBC World"
     },
     {
+     "title": "ICE agent shoots man in New York City",
+     "summary": "The mayor of New York expressed outrage at the shooting which the Department of Homeland Security said happened during the arrest of a \"criminal illegal alien\".",
+     "url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 09 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
      "summary": "Ukraine accused Russia of targeting two crowded vehicles in the front line city of Kramatorsk to kill as many civilians as possible.",
      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
@@ -123,18 +130,25 @@
      "source": "BBC World"
     },
     {
-     "title": "Adidas sues Australian label White Fox over four stripes design",
-     "summary": "The German sportswear brand wants the Sydney-based label to stop selling the clothes and pay damages.",
-     "url": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
+     "title": "As freezing winter approaches, Kyiv residents look for shelter elsewhere",
+     "summary": "A renewed Russian campaign of strikes on power and energy infrastructure has made some contemplate leaving Ukraine's capital.",
+     "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 09 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
-     "summary": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election.",
-     "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 08 Oct 2026",
-     "source": "BBC World"
+     "title": "Christa Pike is walking with help and eating after failed execution attempt",
+     "summary": "Pike has begun walking and eating again at a hospital a week after surviving Tennessee's attempt to execute her with lethal drugs, her attorneys said Thursday.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5996402/christa-pike-updates",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Pentagon says the firing squad execution of Fort Hood shooter will be livestreamed",
+     "summary": "The Pentagon says the firing squad execution of Fort Hood shooter Nidal Malik Hasan will be livestreamed after Defense Secretary Pete Hegseth said the execution would be \"public.",
+     "url": "https://www.npr.org/2026/10/09/g-s1-147419/fort-hood-shooter-execution",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Isaias strengthens into Category 2 hurricane on collision course with the Gulf Coast",
@@ -161,20 +175,6 @@
      "title": "Suicide is up among Black Americans. We need to talk about it.",
      "summary": "NPR's Michel Martin hosted a panel conversation about mental health and suicide in the Black community, exploring a difficult subject in deeply personal conversations.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5963905/suicide-black-americans-discussion-analysis",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "The long-deployed USS Lincoln is returning home to San Diego",
-     "summary": "The USS Abraham Lincoln is returning home to San Diego Thursday after supporting the Iran war during a record long deployment of 265 uninterrupted days at sea that included reports of deteriorating conditions among its crew.",
-     "url": "https://www.npr.org/2026/10/08/g-s1-147195/uss-lincoln-returning-san-diego",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "New U.S. indictment charges former Venezuelan President Nicol\u00e1s Maduro with torture",
-     "summary": "U.S. authorities added new torture charges to their case against former Venezuelan President Nicol\u00e1s Maduro, ramping up pressure on the ousted authoritarian leader already fighting drug trafficking allegations.",
-     "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     }
