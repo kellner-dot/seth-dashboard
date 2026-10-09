@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T22:00:38+0000",
- "updated_ts": 1791583238,
+ "updated": "2026-10-09T22:30:37+0000",
+ "updated_ts": 1791585037,
  "topics": [
   {
    "name": "Tech",
@@ -13,16 +13,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "No Man Is an Island",
+     "title": "Cloudflare acquires Deno",
      "summary": "Comments",
-     "url": "https://borretti.me/article/no-man-is-an-island",
+     "url": "https://deno.com/blog/cloudflare",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Cloudflare acquires Deno",
+     "title": "No Man Is an Island",
      "summary": "Comments",
-     "url": "https://deno.com/blog/cloudflare",
+     "url": "https://borretti.me/article/no-man-is-an-island",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Typesafe AI raises $870M at $7.5B",
+     "title": "Our $445M Series D",
      "summary": "Comments",
-     "url": "https://typesafe.ai/blog/series-ai",
+     "url": "https://oxide.computer/blog/our-445m-series-d",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Kalshi taps former FBI agent to fight against money laundering",
+     "summary": "The prediction market company says it wants to prevent its platform from being abused by criminals. The company is facing mounting pressure over market manipulation and insider trading on the site.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5996683/kalshi-fbi-sean-fern-money-laundering",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Fired OpenAI employees question the company's commitment to safety",
      "summary": "The three fired workers say OpenAI punished them for being outspoken about safety. The company disputes the claims and says they were fired over mishandling sensitive information.",
      "url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
@@ -168,13 +175,6 @@
      "title": "Did Russia play by the rules in reporting lab worker's death?",
      "summary": "A global treaty signed by 197 countries \u2014 including Russia \u2014 requires reporting any death that could be a sign of an outbreak to come.",
      "url": "https://www.npr.org/2026/10/09/g-s1-147295/russia-lab-death-pneumonia-plague",
-     "time": "Fri, 09 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "How the oil industry is preparing for Hurricane Isaias",
-     "summary": "Hurricane Isaias is this season's first Atlantic hurricane, and is on a path to hit the northern Gulf Coast. How is the oil industry preparing?",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5995417/hurricane-isaias-oil-refineries-diesel-gasoline-prices",
      "time": "Fri, 09 Oct 2026",
      "source": "NPR News"
     }
