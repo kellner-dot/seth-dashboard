@@ -1,16 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T16:20:47+0000",
+ "generated_iso": "2026-10-09T16:30:50+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-09 11:53:34.437 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-09 12:23:17.312 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-09 11:53:51.675 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-09 12:23:34.519 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-09 12:23:51.737 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,27 +47,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T11:50:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-09T12:21:38-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T11:55:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-09T12:21:38-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:00:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-09T12:21:43-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:06:05-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-09T12:21:43-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:10:42-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-09T12:21:43-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:15:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "t": "[supervision.lo] 2026-10-09T12:25:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     }
    ]
