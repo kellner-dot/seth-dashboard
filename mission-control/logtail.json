@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T16:40:40+0000",
+ "generated_iso": "2026-10-09T16:50:40+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -43,28 +43,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:21:43-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "t": "[supervision.lo] 2026-10-09T12:50:10-04:00 [relay-supervisor] ERROR: ALERT: hung-port recovery FAILED; relay still unhealthy",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T12:50:10-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T12:50:10-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T12:50:15-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:21:43-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-10-09T12:50:15-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T12:21:43-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "t": "[supervision.lo] 2026-10-09T12:50:15-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T12:25:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T12:31:01-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T12:35:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
     }
    ]
   }
