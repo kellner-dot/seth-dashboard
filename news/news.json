@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T05:00:39+0000",
- "updated_ts": 1791522039,
+ "updated": "2026-10-09T05:30:38+0000",
+ "updated_ts": 1791523838,
  "topics": [
   {
    "name": "Tech",
@@ -16,13 +16,6 @@
      "title": "Reducing undefined behavior in the C language",
      "summary": "Comments",
      "url": "https://lwn.net/Articles/1095811/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Keyboard differences between Windows and Macs",
-     "summary": "Comments",
-     "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
      "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Yes, and",
+     "summary": "Comments",
+     "url": "https://htmx.org/essays/yes-and/",
+     "time": "Thu, 08 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -102,8 +102,8 @@
      "source": "BBC World"
     },
     {
-     "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
-     "summary": "The US Defence Secretary says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
+     "title": "Firing squad execution to be livestreamed, Pentagon says",
+     "summary": "Pete Hegseth says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
      "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 09 Oct 2026",
      "source": "BBC World"
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Isaias strengthens into Category 2 hurricane on collision course with the Gulf Coast",
+     "summary": "The first hurricane of the Atlantic season was forecast to intensify rapidly and cause dangerous conditions in the Florida Panhandle, southern Alabama and southern Mississippi when it makes landfall late Friday or early Saturday.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5996396/hurricane-isaias-updates",
+     "time": "Fri, 09 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "OpenAI caught Russians and Iranians using ChatGPT for influence campaigns",
      "summary": "The company says Russian operatives used its AI chatbot to update their bosses, shedding light on influence campaigns previously not attributed to Russia.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatgpt",
@@ -168,13 +175,6 @@
      "title": "New U.S. indictment charges former Venezuelan President Nicol\u00e1s Maduro with torture",
      "summary": "U.S. authorities added new torture charges to their case against former Venezuelan President Nicol\u00e1s Maduro, ramping up pressure on the ousted authoritarian leader already fighting drug trafficking allegations.",
      "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
-     "time": "Thu, 08 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "4 people on NASA's Crew-12 mission return to Earth after 8 months in space",
-     "summary": "Four people \u2014 two NASA astronauts, one from the European Space Agency and a Russian cosmonaut \u2014 spent nearly eight months at the space station, conducting spacewalks, science experiments and research.",
-     "url": "https://www.npr.org/2026/10/08/nx-s1-5992845/nasa-spacex-crew-12-international-space-station-iss-splashdown",
      "time": "Thu, 08 Oct 2026",
      "source": "NPR News"
     }
