@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-09T04:05:39+0000",
+ "generated_iso": "2026-10-09T04:10:40+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -179,12 +179,12 @@
     0.0,
     34.7,
     72.4,
-    98.0
+    98.1
    ]
   },
   {
    "name": "Fire Stick",
-   "online": true,
+   "online": false,
    "days": [
     null,
     null,
@@ -215,7 +215,7 @@
     100.0,
     93.9,
     29.3,
-    27.5
+    26.9
    ]
   },
   {
