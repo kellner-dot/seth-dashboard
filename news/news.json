@@ -1,24 +1,10 @@
 {
- "updated": "2026-10-09T06:30:39+0000",
- "updated_ts": 1791527439,
+ "updated": "2026-10-09T07:00:41+0000",
+ "updated_ts": 1791529241,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Show HN: Quake ported to safe Rust, playable in browser",
-     "summary": "Comments",
-     "url": "https://quake-srp.pages.dev/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Reducing undefined behavior in the C language",
-     "summary": "Comments",
-     "url": "https://lwn.net/Articles/1095811/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
      "summary": "Comments",
@@ -27,10 +13,24 @@
      "source": "Hacker News"
     },
     {
+     "title": "Show HN: Quake ported to safe Rust, playable in browser",
+     "summary": "Comments",
+     "url": "https://quake-srp.pages.dev/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Whistle: Speech to Text in 16.9 MB",
      "summary": "Comments",
      "url": "https://cactuscompute.com/blog/whistle",
      "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Reducing undefined behavior in the C language",
+     "summary": "Comments",
+     "url": "https://lwn.net/Articles/1095811/",
+     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -123,10 +123,10 @@
      "source": "BBC World"
     },
     {
-     "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
-     "summary": "A lawyer says the murderer of Colleen Slemmer is moving around her hospital room after surviving two lethal injections.",
-     "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 08 Oct 2026",
+     "title": "Cars torched and shops looted as anti-migrant violence erupts in South Africa",
+     "summary": "South Africa has experienced recurrent outbreaks of violence, often targeting migrants from neighbouring countries.",
+     "url": "https://www.bbc.co.uk/news/articles/cwm24v45p4jgo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 09 Oct 2026",
      "source": "BBC World"
     },
     {
