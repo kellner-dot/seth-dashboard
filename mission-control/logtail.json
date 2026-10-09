@@ -1,40 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-09T09:50:41+0000",
+ "generated_iso": "2026-10-09T10:00:48+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Busy: database is locked",
+     "t": "2026-10-09 05:53:17.368 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Exception of type 'SQLitePCL.pretty.SQLiteException' was thrown.",
+     "t": "2026-10-09 05:53:34.627 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t   at SQLitePCL.pretty.SQLiteException.CheckOk(sqlite3 db, Int32 rc)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-09 05:50:19.924 Error LiveTvManager: Error getting programs for channel Very Omaha by KETV",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Busy: database is locked",
-     "c": "err"
-    },
-    {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Exception of type 'SQLitePCL.pretty.SQLiteException' was thrown.",
-     "c": "err"
-    },
-    {
-     "t": "\t   at SQLitePCL.pretty.SQLiteException.CheckOk(sqlite3 db, Int32 rc)",
+     "t": "2026-10-09 05:53:51.810 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -67,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T05:25:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T05:30:44-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-09T05:35:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     },
@@ -88,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-09T05:50:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T05:55:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-09T06:00:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     }
    ]
