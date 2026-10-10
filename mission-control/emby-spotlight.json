@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Sshtoorrty",
-  "year": 2005,
+  "name": "Interview with the Vampire",
+  "year": 1994,
   "genres": [
+   "Horror",
    "Drama"
   ],
-  "runtime_min": 20,
+  "runtime_min": 33,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A loop of two parts of a film, superimposed on top of one another, that concern a man who has arrived at the house of his lover and her husband to hang a painting on their wall."
+  "overview": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter."
  }
 }
