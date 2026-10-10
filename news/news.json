@@ -1,22 +1,29 @@
 {
- "updated": "2026-10-10T19:30:39+0000",
- "updated_ts": 1791660639,
+ "updated": "2026-10-10T20:00:39+0000",
+ "updated_ts": 1791662439,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Knuth Reward Check",
-     "summary": "Comments",
-     "url": "https://www.thomas-huehn.com/knuth-reward-check",
-     "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "2D Vehicles",
      "summary": "Comments",
      "url": "https://patkerr.co.uk/2d-vehicles/",
      "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Knuth reward check",
+     "summary": "Comments",
+     "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+     "time": "Sat, 10 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Why DuckDB 2.0 is faster",
+     "summary": "Comments",
+     "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -27,17 +34,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
+     "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
      "summary": "Comments",
-     "url": "https://openscad.org/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Grieving the Loss of Details",
-     "summary": "Comments",
-     "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
-     "time": "Tue, 06 Oct 2026",
+     "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
