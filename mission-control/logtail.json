@@ -1,28 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-10T10:20:40+0000",
+ "generated_iso": "2026-10-10T10:30:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-10 06:00:00.066 Error TaskManager: Error",
+     "t": "2026-10-10 06:23:32.600 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Busy: database is locked",
-     "c": "err"
-    },
-    {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Exception of type 'SQLitePCL.pretty.SQLiteException' was thrown.",
-     "c": "err"
-    },
-    {
-     "t": "\t   at SQLitePCL.pretty.SQLiteException.CheckOk(sqlite3 db, Int32 rc)",
+     "t": "2026-10-10 06:23:49.793 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -55,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T05:55:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-10T06:00:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-10T06:05:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
      "c": "ok"
     },
@@ -76,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-10T06:20:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T06:25:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T06:30:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
      "c": "ok"
     }
    ]
