@@ -1,10 +1,19 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-10T04:00:40+0000",
+ "generated_iso": "2026-10-10T04:10:39+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "2026-10-10 00:05:35.721 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-10 00:05:37.765 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,28 +43,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-09T23:35:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T23:40:40-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T23:45:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-09T23:50:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-09T23:55:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
      "c": "ok"
     },
     {
      "t": "[supervision.lo] 2026-10-10T00:00:39-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-09 != today 2026-10-10; pushing fresh schedule",
      "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T00:00:58-04:00 [relay-supervisor] WARN: fresh schedule pushed to relay",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T00:00:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-09",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T00:05:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T00:10:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
+     "c": "ok"
     }
    ]
   }
