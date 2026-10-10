@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10T13:00:41+0000",
- "updated_ts": 1791637241,
+ "updated": "2026-10-10T13:30:37+0000",
+ "updated_ts": 1791639037,
  "topics": [
   {
    "name": "Tech",
@@ -20,23 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "REA Reverse \u2013 Engineer Anything",
+     "title": "Apple/macOS silently removed from official Unix registry",
      "summary": "Comments",
-     "url": "https://rea.tools/",
+     "url": "https://www.opengroup.org//openbrand/register/",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Cloudflare acquires Deno",
+     "title": "REA Reverse \u2013 Engineer Anything",
      "summary": "Comments",
-     "url": "https://deno.com/blog/cloudflare",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-     "summary": "Comments",
-     "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+     "url": "https://rea.tools/",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/",
      "time": "Thu, 08 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Cloudflare acquires Deno",
+     "summary": "Comments",
+     "url": "https://deno.com/blog/cloudflare",
+     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
-     "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
-     "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+     "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+     "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+     "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-     "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
-     "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+     "title": "Headmaster detained after BBC investigation into alleged sexual abuse of students",
+     "summary": "Former students launched their own investigation, spending years collecting evidence and testimonies from others who say they were abused by the headteacher.",
+     "url": "https://www.bbc.co.uk/news/articles/cwy8lx1r2vrro?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
      "source": "BBC World"
     },
