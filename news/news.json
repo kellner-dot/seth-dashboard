@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-10T17:30:39+0000",
- "updated_ts": 1791653439,
+ "updated": "2026-10-10T18:00:48+0000",
+ "updated_ts": 1791655248,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Grieving the Loss of Details",
-     "summary": "Comments",
-     "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
-     "time": "Tue, 06 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Knuth Reward Check",
      "summary": "Comments",
@@ -27,9 +20,23 @@
      "source": "Hacker News"
     },
     {
+     "title": "Grieving the Loss of Details",
+     "summary": "Comments",
+     "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
+     "time": "Tue, 06 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Rampart: Browser native on-device PII radaction",
      "summary": "Comments",
      "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+     "summary": "Comments",
+     "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
      "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-     "summary": "Comments",
-     "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,9 +95,16 @@
    "name": "World",
    "articles": [
     {
-     "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
-     "summary": "Pike's lawyers say she is \"grateful\" to the medical team who cared for her after she survived two lethal injections last month.",
-     "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
+     "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+     "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+     "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+     "time": "Sat, 10 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+     "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
+     "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
      "source": "BBC World"
     },
@@ -109,16 +116,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-     "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
-     "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 10 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
-     "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-     "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+     "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
+     "summary": "Pike's lawyers say she is \"grateful\" to the medical team who cared for her after she survived two lethal injections last month.",
+     "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
      "source": "BBC World"
     },
