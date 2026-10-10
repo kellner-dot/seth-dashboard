@@ -113,15 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Videodrome",
-  "year": 1983,
+  "name": "Seven Times a Day",
+  "year": 1971,
   "genres": [
-   "Horror",
-   "Science Fiction"
+   "Fantasy",
+   "Comedy"
   ],
-  "runtime_min": 89,
+  "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon \"Videodrome,\" a TV show dedicated to gratuitous torture and punishment, Max sees a potential hit"
+  "overview": "A Quebec architect, working in Israel, visits a psychoanalyst to learn why he has an insatiable libido."
  }
 }
