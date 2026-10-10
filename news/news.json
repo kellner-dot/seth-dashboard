@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10T11:00:38+0000",
- "updated_ts": 1791630038,
+ "updated": "2026-10-10T11:30:38+0000",
+ "updated_ts": 1791631838,
  "topics": [
   {
    "name": "Tech",
@@ -16,6 +16,13 @@
      "title": "REA Reverse \u2013 Engineer Anything",
      "summary": "Comments",
      "url": "https://rea.tools/",
+     "time": "Sat, 10 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Talorys \u2013 A self-hosted personal AI agent on Cloudflare's free tier",
+     "summary": "Comments",
+     "url": "https://github.com/rociiu/talorys",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://minesweeper.mikelacher.com/",
      "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
-     "summary": "Comments",
-     "url": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
-     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "Ongoing lawsuits allege GLP-1s can cause serious harm. But we don't know how often",
+     "summary": "Scant data about serious adverse effects makes it harder to answer scientific and legal questions about how often the drugs might cause serious harm like blindness or pancreatitis.",
+     "url": "https://www.npr.org/2026/10/10/nx-s1-5996652/glp1-fda-naion-blind-lawsuit-ozempic",
+     "time": "Sat, 10 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "16 cozy activities to add to your fall bucket list",
+     "summary": "Carve a pumpkin? You can do better than that. Fun and unusual ways to celebrate the season, from writing a gratitude letter to making an ancestral altar.",
+     "url": "https://www.npr.org/2026/10/10/nx-s1-5993688/16-cozy-activities-to-add-to-your-fall-bucket-list",
+     "time": "Sat, 10 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "A year of ceasefire in Gaza through the lens of NPR's reporter",
      "summary": "It has been one year since Hamas released the remaining Israeli hostages and President Trump promised an end to the war, but Palestinians say the past 12 months have been a ceasefire in name only.",
      "url": "https://www.npr.org/sections/the-picture-show/2026/10/10/nx-s1-5991619/gaza-ceasefire-israel-life",
@@ -147,13 +161,6 @@
      "title": "After losing ground with Latino voters, Democrats are turning to influencers for help",
      "summary": "Democrats are hoping to win back Latino voters who have soured on both parties. They hope Latino content creators will bridge the gap.",
      "url": "https://www.npr.org/2026/10/10/nx-s1-5991897/democrats-latino-voters-influencers-bold-pac",
-     "time": "Sat, 10 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "16 cozy activities to add to your fall bucket list",
-     "summary": "Carve a pumpkin? You can do better than that. Fun and unusual ways to celebrate the season, from writing a gratitude letter to making an ancestral altar.",
-     "url": "https://www.npr.org/2026/10/10/nx-s1-5993688/16-cozy-activities-to-add-to-your-fall-bucket-list",
      "time": "Sat, 10 Oct 2026",
      "source": "NPR News"
     },
@@ -169,13 +176,6 @@
      "summary": "Indian authorities have launched a major security crackdown in New Delhi, detaining thousands of protesters who intended to hold a mass demonstration against Prime Minister Narendra Modi's government.",
      "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
      "time": "Sat, 10 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Kalshi taps former FBI agent to fight against money laundering",
-     "summary": "The prediction market company says it wants to prevent its platform from being abused by criminals. The company is facing mounting pressure over market manipulation and insider trading on the site.",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5996683/kalshi-fbi-sean-fern-money-laundering",
-     "time": "Fri, 09 Oct 2026",
      "source": "NPR News"
     }
    ]
