@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-10T05:30:37+0000",
- "updated_ts": 1791610237,
+ "updated": "2026-10-10T06:00:39+0000",
+ "updated_ts": 1791612039,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Lobbying",
+     "title": "REA Reverse \u2013 Engineer Anything",
      "summary": "Comments",
-     "url": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
+     "url": "https://rea.tools/",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "REA Reverse \u2013 Engineer Anything",
+     "title": "If AI is conscient, then we are making slaves",
      "summary": "Comments",
-     "url": "https://rea.tools/",
+     "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,17 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
-     "summary": "Comments",
-     "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
-     "time": "Wed, 07 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
      "summary": "Comments",
      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
      "time": "Sat, 10 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+     "summary": "Comments",
+     "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+     "time": "Wed, 07 Oct 2026",
      "source": "Hacker News"
     },
     {
