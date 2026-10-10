@@ -1,47 +1,8 @@
 {
- "generated_at": 1791618660,
- "generated_iso": "2026-10-10T07:51:00+0000",
- "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
+ "generated_at": 1791619211,
+ "generated_iso": "2026-10-10T08:00:11+0000",
+ "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
- "github": {
-  "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 10,
-  "pages": [
-   {
-    "name": "seth-dashboard",
-    "url": "https://kellner-dot.github.io/seth-dashboard/"
-   },
-   {
-    "name": "theartfuldodger-site",
-    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
-   }
-  ]
- },
- "emby_library": {
-  "movies": 5445,
-  "series": 34,
-  "episodes": 60,
-  "recent": [
-   "The Monkey",
-   "80s-commercials",
-   "Come Over, My Parents Aren't Home",
-   "The Monkey",
-   "80s-commercials",
-   "Possessor"
-  ]
- },
- "terabox": {
-  "total": null,
-  "used": null,
-  "free": null
- },
- "kaviguard": {},
- "biglybt": {
-  "running": false,
-  "scheduler": "night \u00b7 unlimited"
- },
  "devices": [
   {
    "id": "seths-pc",
@@ -50,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 237994,
+   "uptime_s": 238518,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -58,17 +19,54 @@
    },
    "emby_sessions": [
     {
-     "device": "",
-     "client": "",
+     "device": "KaviTV-Sentinel",
+     "client": "Muse",
      "user": "",
+     "playing": null
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": "KaviTV Horror"
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "Microsoft Edge Windows",
+     "client": "Emby Web",
+     "user": "Seth",
+     "playing": null
+    },
+    {
+     "device": "GoogleTV9618",
+     "client": "Emby for Android",
+     "user": "Seth",
      "playing": null
     }
    ],
    "terabox_uploaders": 1,
    "firetv": {
-    "seen_in_emby": false,
-    "sessions": [],
-    "adb": "unreachable (subnet route not approved or stick offline)"
+    "seen_in_emby": true,
+    "sessions": [
+     {
+      "device": "GoogleTV9618",
+      "client": "Emby for Android",
+      "user": "Seth",
+      "playing": null
+     }
+    ],
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
    }
   },
   {
@@ -91,16 +89,16 @@
    "kind": "phone",
    "ip": "100.109.182.123",
    "online": true,
-   "ping_ms": null
+   "ping_ms": 792
   },
   {
    "id": "motorola-razr-2023",
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": true,
+   "online": false,
    "rvg_agent": {
-    "up": true,
+    "up": false,
     "authed": false
    }
   }
