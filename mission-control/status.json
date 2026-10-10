@@ -1,6 +1,6 @@
 {
- "generated_at": 1791600659,
- "generated_iso": "2026-10-10T02:50:59+0000",
+ "generated_at": 1791601258,
+ "generated_iso": "2026-10-10T03:00:58+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [],
@@ -40,7 +40,7 @@
  "kaviguard": {},
  "biglybt": {
   "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
+  "scheduler": "night \u00b7 unlimited"
  },
  "devices": [
   {
@@ -50,7 +50,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 219988,
+   "uptime_s": 220589,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
