@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10T06:00:39+0000",
- "updated_ts": 1791612039,
+ "updated": "2026-10-10T06:30:38+0000",
+ "updated_ts": 1791613838,
  "topics": [
   {
    "name": "Tech",
@@ -13,23 +13,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "If AI is conscient, then we are making slaves",
-     "summary": "Comments",
-     "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
-     "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Cloudflare acquires Deno",
      "summary": "Comments",
      "url": "https://deno.com/blog/cloudflare",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Triple-A Minesweeper",
-     "summary": "Comments",
-     "url": "https://minesweeper.mikelacher.com/",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +27,24 @@
      "source": "Hacker News"
     },
     {
+     "title": "Triple-A Minesweeper",
+     "summary": "Comments",
+     "url": "https://minesweeper.mikelacher.com/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
      "summary": "Comments",
      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
      "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Typesafe AI raises $870M at $7.5B",
+     "summary": "Comments",
+     "url": "https://typesafe.ai/blog/series-ai",
+     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -109,30 +109,30 @@
      "source": "BBC World"
     },
     {
-     "title": "US country music star Ella Langley cancels show due to 'security threat'",
-     "summary": "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\".",
-     "url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 10 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
-     "summary": "The US president told a rally he had \"never heard of\" the winner, former International Criminal Court judge Navi Pillay.",
-     "url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 10 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Thousands of security personnel deployed as Delhi braces for \u2018cockroach\u2019 protest",
-     "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
-     "url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 10 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
      "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
      "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+     "time": "Sat, 10 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
+     "summary": "Jake and Callum Robinson and their friend Carter Rhoad were on a surf trip when they were killed in an apparent botched robbery.",
+     "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 09 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
+     "summary": "The storm took direct aim at Florida and is expected to impact Alabama, Georgia, and Louisiana.",
+     "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+     "time": "Sat, 10 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "US country music star Ella Langley cancels show due to 'security threat'",
+     "summary": "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\".",
+     "url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
      "source": "BBC World"
     },
