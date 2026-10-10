@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10T16:00:36+0000",
- "updated_ts": 1791648036,
+ "updated": "2026-10-10T16:30:38+0000",
+ "updated_ts": 1791649838,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Bitwarden Dual License Model",
      "summary": "Comments",
      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+     "time": "Sat, 10 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Knuth Reward Check",
+     "summary": "Comments",
+     "url": "https://www.thomas-huehn.com/knuth-reward-check",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+     "title": "Mxc: Microsoft Execution Containers version 1.0.0",
      "summary": "Comments",
-     "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-     "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Cloudflare acquires Deno",
-     "summary": "Comments",
-     "url": "https://deno.com/blog/cloudflare",
+     "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
      "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
@@ -70,7 +70,7 @@
     },
     {
      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
-     "summary": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computaci\u00f3n.",
+     "summary": "Stylish upcycling, with a retro flair, at Spain's Museo de Historia de la Computaci\u00f3n.",
      "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
      "time": "Fri, 09 Oct 2026",
      "source": "Ars Technica"
@@ -95,7 +95,7 @@
    "name": "World",
    "articles": [
     {
-     "title": "Christa Pike discharged from hospital and returned to prison, her lawyers say",
+     "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
      "summary": "The convicted murderer was left in a critical condition after she survived two lethal injections.",
      "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
@@ -130,7 +130,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Saudi capital airport hit again, sparking evacuations, reports say",
+     "title": "Several injured as Saudi capital airport reportedly hit again",
      "summary": "The suspected attack comes a day after Yemen's Houthi rebels claimed two deadly attacks on the Riyadh airport.",
      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Geordie Greep Cancels Shows Following Sexual Misconduct Allegation",
+     "summary": "The singer, who has denied the allegations, called off performances in Boise, Salt Lake City, Boulder, and Denver",
+     "url": "https://pitchfork.com/story/geordie-greep-cancels-shows-following-sexual-misconduct-allegation/",
+     "time": "Sat, 10 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Willie Nelson, Yo La Tengo Endorse James Talarico",
      "summary": "YLT will play a benefit concert for the Texas Senate hopeful in Austin on October 27",
      "url": "https://pitchfork.com/story/willie-nelson-yo-la-tengo-endorse-james-talarico/",
@@ -262,13 +269,6 @@
      "title": "9 New Albums You Should Listen to Now: Cameron Winter, Deafheaven, Dawn Richard, and More",
      "summary": "Stream new releases from Cameron Winter, Deafheaven, Dawn Richard, Troye Sivan, and more",
      "url": "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-cameron-winter-deafheaven-dawn-richard/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Watch Phoebe Bridgers and Boygenius Perform Live in New Short Film",
-     "summary": "Bridgers is the latest guest on A24\u2019s Sound Check at Cherry Lane Theatre YouTube series",
-     "url": "https://pitchfork.com/story/watch-phoebe-bridgers-and-boygenius-sound-check-at-cherry-lane-theater/",
      "time": "Fri, 09 Oct 2026",
      "source": "Pitchfork"
     }
