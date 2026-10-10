@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10T04:30:37+0000",
- "updated_ts": 1791606637,
+ "updated": "2026-10-10T05:00:38+0000",
+ "updated_ts": 1791608438,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "REA Reverse \u2013 Engineer Anything",
      "summary": "Comments",
      "url": "https://rea.tools/",
+     "time": "Sat, 10 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Lobbying",
+     "summary": "Comments",
+     "url": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,17 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Can you use autoregressive diffusion to generate market data?",
+     "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
      "summary": "Comments",
-     "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-     "summary": "Comments",
-     "url": "https://carrierexplode.com/",
-     "time": "Fri, 09 Oct 2026",
+     "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
