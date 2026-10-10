@@ -1,24 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-10T23:40:39+0000",
+ "generated_iso": "2026-10-10T23:50:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-10 19:23:49.074 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-10 19:50:03.834 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-10 19:30:45.255 Error TaskManager: Error",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
+     "t": "2026-10-10 19:50:05.893 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -51,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T19:15:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-10T19:20:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-10T19:25:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
      "c": "ok"
     },
@@ -72,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-10T19:40:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T19:45:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T19:50:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
      "c": "ok"
     }
    ]
