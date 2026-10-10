@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10T21:00:36+0000",
- "updated_ts": 1791666036,
+ "updated": "2026-10-10T21:30:38+0000",
+ "updated_ts": 1791667838,
  "topics": [
   {
    "name": "Tech",
@@ -27,13 +27,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "The Lightbulb Computer",
-     "summary": "Comments",
-     "url": "https://lightbulbcomputer.com/",
-     "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Recent AI models struggled to match a human algorithmic innovation",
      "summary": "Comments",
      "url": "https://epoch.ai/publications/innovationeval",
@@ -41,10 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Talorys \u2013 A self-hosted personal AI agent on Cloudflare's free tier",
+     "title": "The Lightbulb Computer",
      "summary": "Comments",
-     "url": "https://github.com/rociiu/talorys",
+     "url": "https://lightbulbcomputer.com/",
      "time": "Sat, 10 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Nix wrote half of my debugger",
+     "summary": "Comments",
+     "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
