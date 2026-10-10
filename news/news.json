@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10T23:00:37+0000",
- "updated_ts": 1791673237,
+ "updated": "2026-10-10T23:30:41+0000",
+ "updated_ts": 1791675041,
  "topics": [
   {
    "name": "Tech",
@@ -10,6 +10,13 @@
      "summary": "Comments",
      "url": "https://patkerr.co.uk/2d-vehicles/",
      "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Build your own decision model",
+     "summary": "Comments",
+     "url": "https://nishtahir.com/build-your-own-decision-model/",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -30,13 +37,6 @@
      "title": "Why DuckDB 2.0 is faster",
      "summary": "Comments",
      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
-     "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Knuth reward check",
-     "summary": "Comments",
-     "url": "https://www.thomas-huehn.com/knuth-reward-check/",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
