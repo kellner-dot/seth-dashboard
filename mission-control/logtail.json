@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T00:10:40+0000",
+ "generated_iso": "2026-10-11T00:20:38+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -43,27 +43,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:06:21-04:00 [relay-supervisor] WARN: hung-port strike 2/2 (pid 2900 verified as relay)",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-10T20:06:21-04:00 [relay-supervisor] WARN: hung-port recovery: task stop/start (listener pid 2900)",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-10T20:06:38-04:00 [relay-supervisor] WARN: Start-ScheduledTask KaviTV-relay: requested",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-10T20:07:14-04:00 [relay-supervisor] ERROR: ALERT: hung-port recovery FAILED; relay still unhealthy",
+     "t": "[supervision.lo] 2026-10-10T20:16:03-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:07:14-04:00 [relay-supervisor] ERROR: ntfy alert failed: notify() missing 1 required positional argument: 'message'",
+     "t": "[supervision.lo] 2026-10-10T20:16:12-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T20:16:14-04:00 [relay-supervisor] WARN: hung-port strike 4/2 (pid 48932 verified as relay)",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T20:16:14-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:07:14-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 2)",
+     "t": "[supervision.lo] 2026-10-10T20:16:14-04:00 [relay-supervisor] ERROR: ntfy alert failed: notify() missing 1 required positional argument: 'message'",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-10T20:16:14-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 4)",
      "c": "err"
     }
    ]
