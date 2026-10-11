@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Laura",
-  "year": 1974,
+  "name": "Smithereens",
+  "year": 1982,
   "genres": [
-   "Mystery"
+   "Drama",
+   "Music"
   ],
-  "runtime_min": 0,
+  "runtime_min": 94,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Three showgirls playfully mock the audience for attending a projection of an art film."
+  "overview": "A narcissistic runaway engages in a number of parasitic relationships amongst members of New York's waning punk scene."
  }
 }
