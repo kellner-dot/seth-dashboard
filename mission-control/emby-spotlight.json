@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Ganeden",
-  "year": 2003,
+  "name": "The World of George Orwell: 1984",
+  "year": 1965,
   "genres": [
-   "Documentary"
+   "Romance",
+   "Drama"
   ],
-  "runtime_min": 0,
+  "runtime_min": 7,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Ganeden, in Hebrew, signifies the \u00abGarden of Pleasures\", paradise, Eden. Our images of an imaginary journey, in this enchanting place, this place, according to the author, is an original reflection on the theme of travel"
+  "overview": "Early adaption of Orwell's Nineteen Eighty-Four as part of the Theatre 625 series."
  }
 }
