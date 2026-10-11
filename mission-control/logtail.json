@@ -1,16 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T22:20:41+0000",
+ "generated_iso": "2026-10-11T22:30:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-11 17:53:34.326 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-11 18:23:16.653 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-11 17:53:51.662 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-11 18:23:33.954 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-11 18:23:51.263 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T17:11:43-04:00 [relay-supervisor] ERROR: ALERT: hung-port recovery FAILED; relay still unhealthy",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T17:11:45-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 2)",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-11T18:01:17-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
      "c": "ok"
     },
@@ -64,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-11T18:15:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T18:20:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T18:25:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
      "c": "ok"
     }
    ]
