@@ -1,16 +1,52 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T09:50:39+0000",
+ "generated_iso": "2026-10-11T10:00:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-11 05:23:34.307 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-11 05:53:48.226 Error LiveTvManager: Error getting programs for channel Love Nature",
      "c": "err"
     },
     {
-     "t": "2026-10-11 05:23:51.737 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSQLitePCL.pretty.SQLiteException: Busy: database is locked",
+     "c": "err"
+    },
+    {
+     "t": "\tSQLitePCL.pretty.SQLiteException: Exception of type 'SQLitePCL.pretty.SQLiteException' was thrown.",
+     "c": "err"
+    },
+    {
+     "t": "\t   at SQLitePCL.pretty.SQLiteException.CheckOk(sqlite3 db, Int32 rc)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-11 05:53:48.652 Error LiveTvManager: Error getting programs for channel KaviTV Independent 8103",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSQLitePCL.pretty.SQLiteException: Busy: database is locked",
+     "c": "err"
+    },
+    {
+     "t": "\tSQLitePCL.pretty.SQLiteException: Exception of type 'SQLitePCL.pretty.SQLiteException' was thrown.",
+     "c": "err"
+    },
+    {
+     "t": "\t   at SQLitePCL.pretty.SQLiteException.CheckOk(sqlite3 db, Int32 rc)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-11 05:53:53.710 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
