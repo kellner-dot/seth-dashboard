@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T02:00:40+0000",
+ "generated_iso": "2026-10-11T02:10:39+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -43,27 +43,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:51:19-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 23)",
+     "t": "[supervision.lo] 2026-10-10T22:01:24-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 25)",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:56:01-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-10-10T22:06:02-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:56:10-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
+     "t": "[supervision.lo] 2026-10-10T22:06:11-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:56:12-04:00 [relay-supervisor] WARN: hung-port strike 24/2 (pid 48932 verified as relay)",
+     "t": "[supervision.lo] 2026-10-10T22:06:14-04:00 [relay-supervisor] WARN: hung-port strike 26/2 (pid 48932 verified as relay)",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:56:12-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
+     "t": "[supervision.lo] 2026-10-10T22:06:14-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:56:15-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 24)",
+     "t": "[supervision.lo] 2026-10-10T22:06:16-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 26)",
      "c": "err"
     }
    ]
