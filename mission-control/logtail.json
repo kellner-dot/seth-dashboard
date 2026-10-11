@@ -1,16 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T01:00:42+0000",
+ "generated_iso": "2026-10-11T01:10:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-10 20:53:32.820 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-10 21:10:05.266 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-10 20:53:50.037 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-10 21:10:07.324 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,27 +43,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:56:02-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-10-10T21:06:02-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:56:11-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
+     "t": "[supervision.lo] 2026-10-10T21:06:11-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:56:14-04:00 [relay-supervisor] WARN: hung-port strike 12/2 (pid 48932 verified as relay)",
+     "t": "[supervision.lo] 2026-10-10T21:06:13-04:00 [relay-supervisor] WARN: hung-port strike 14/2 (pid 48932 verified as relay)",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:56:14-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
+     "t": "[supervision.lo] 2026-10-10T21:06:13-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:56:14-04:00 [relay-supervisor] ERROR: ntfy alert failed: notify() missing 1 required positional argument: 'message'",
+     "t": "[supervision.lo] 2026-10-10T21:06:13-04:00 [relay-supervisor] ERROR: ntfy alert failed: notify() missing 1 required positional argument: 'message'",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T20:56:14-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 12)",
+     "t": "[supervision.lo] 2026-10-10T21:06:13-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 14)",
      "c": "err"
     }
    ]
