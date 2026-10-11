@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T10:40:46+0000",
+ "generated_iso": "2026-10-11T10:50:39+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -39,7 +39,7 @@
      "c": "ok"
     },
     {
-     "t": "[refresh.log] [2026-10-10T10:47:15+00:00] daily refresh done",
+     "t": "[refresh.log] [2026-10-11T10:47:15+00:00] daily refresh done",
      "c": "ok"
     },
     {
