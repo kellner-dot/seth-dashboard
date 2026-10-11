@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Der Sandmann",
-  "year": 1995,
+  "name": "Free Willy",
+  "year": 1993,
   "genres": [
-   "Thriller"
+   "Family",
+   "Adventure"
   ],
-  "runtime_min": 0,
+  "runtime_min": 3,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Der Sandmann investigates the intersection of history and memory as witnessed against the backdrop of post\u2013Cold War Germany."
+  "overview": "When maladjusted orphan Jesse vandalizes a theme park, he is placed with foster parents and must work at the park to make amends. There he meets Willy, a young Orca whale who has been separated from his family. Sensing k"
  }
 }
