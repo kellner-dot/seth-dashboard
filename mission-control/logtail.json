@@ -1,28 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T08:01:10+0000",
+ "generated_iso": "2026-10-11T08:10:38+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-11 04:00:17.238 Error MediaInfoService-0HNP4F6RFDV57:00000001: Error processing request",
+     "t": "2026-10-11 04:01:18.324 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-11 04:00:32.472 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-11 04:00:34.558 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-11 04:01:20.391 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
