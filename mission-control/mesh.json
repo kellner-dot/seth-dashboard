@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-10-11T03:45:40+0000",
+ "generated_iso": "2026-10-11T04:00:45+0000",
  "nodes": [
   {
    "name": "muse",
@@ -14,7 +14,7 @@
    "role": "MacBook Air",
    "ip": "100.92.65.104",
    "online": true,
-   "rvg": true
+   "rvg": false
   },
   {
    "name": "muse-3",
