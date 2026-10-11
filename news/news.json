@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-11T21:30:37+0000",
- "updated_ts": 1791754237,
+ "updated": "2026-10-11T22:00:42+0000",
+ "updated_ts": 1791756042,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Total Annihilation, rebuilt for modern computers",
      "summary": "Comments",
      "url": "https://nanolathe.gg",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The gap in shared understanding of LLM capability is widening",
+     "summary": "Comments",
+     "url": "https://twitter.com/karpathy/status/2109361546505966046",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -22,7 +29,7 @@
     {
      "title": "Do You Have Pre-2012 Onion Issues?",
      "summary": "Comments",
-     "url": "https://mailchi.mp/email.theonion.com/archivehunt",
+     "url": "https://theonion.com/archivehunt/",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Artificial Insanity",
+     "title": "Terence Tao: Math 2.0 [pdf]",
      "summary": "Comments",
-     "url": "https://richwhitehouse.com/index.php?postid=78",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "NYC's \"Click to Cancel\" rule is now in effect",
-     "summary": "Comments",
-     "url": "https://www.nyc.gov/main/click-to-cancel",
+     "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,6 +95,13 @@
    "name": "World",
    "articles": [
     {
+     "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+     "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+     "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 11 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Saudi capital airport hit by second Houthi strike in two days",
      "summary": "The Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities.",
      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
@@ -126,13 +133,6 @@
      "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
      "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
      "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 11 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Orangutans released back into Borneo forest after devastating fires",
-     "summary": "Rescuers moved the apes after their habitats were threatened by intense wildfires over the summer.",
-     "url": "https://www.bbc.co.uk/news/articles/cwvgde0m2d73o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
