@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-11T09:00:40+0000",
- "updated_ts": 1791709240,
+ "updated": "2026-10-11T09:30:38+0000",
+ "updated_ts": 1791711038,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "3rd Yandex Cloud Data Center Was Hit",
+     "title": "LineageOS 24.0",
      "summary": "Comments",
-     "url": "https://status.yandex.cloud/en/incidents/2136",
+     "url": "https://lineageos.org/Changelog-32/",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,17 +20,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "LineageOS 24.0",
-     "summary": "Comments",
-     "url": "https://lineageos.org/Changelog-32/",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "2D Vehicles",
      "summary": "Comments",
      "url": "https://patkerr.co.uk/2d-vehicles/",
      "time": "Wed, 07 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "A city-building game in which the city would prefer you didn't",
+     "summary": "Comments",
+     "url": "https://housing.over.pizza/",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "A city-building game in which the city would prefer you didn't",
+     "title": "How big is a Git commit?",
      "summary": "Comments",
-     "url": "https://housing.over.pizza/",
-     "time": "Sat, 10 Oct 2026",
+     "url": "https://ratfactor.com/cards/git-commit-size",
+     "time": "Fri, 09 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,6 +137,27 @@
      "source": "BBC World"
     },
     {
+     "title": "In one of the country's most competitive districts, a Democrat tries to keep her seat",
+     "summary": "In a highly competitive Washington congressional race, the incumbent Democrat has angered part of her party base and the Trump-backed Republican challenger faces backlash against the party in power.",
+     "url": "https://www.npr.org/2026/10/11/nx-s1-5968691/midterm-elections-washington-congressional-district",
+     "time": "Sun, 11 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Reshaped civil rights mission at Justice Department transforms its work, workforce",
+     "summary": "Harmeet Dhillon has pushed out hundreds of longtime attorneys, replaced many with inexperienced ideological allies, and used the division's enforcement powers to pursue the president's agenda.",
+     "url": "https://www.npr.org/2026/10/11/g-s1-145063/justice-department-civil-rights-transformed",
+     "time": "Sun, 11 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "It's taking longer to find a new job after losing one",
+     "summary": "People who lose their jobs in this economy are taking longer to find new work. Nearly four in ten people exhaust their unemployment benefits before they land a new job.",
+     "url": "https://www.npr.org/2026/10/11/nx-s1-5995238/jobs-employment-economy-unemployment-benefits",
+     "time": "Sun, 11 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
      "summary": "Saudi authorities say the latest attack on the international airport in the capital, Riyadh, has killed 12 people and injured over 300. Their statement says the dead on Saturday included four Saudi citizens as well as two Bangladeshi nationals, a Palestinian, a U.S. citizen, an E",
      "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
@@ -154,27 +175,6 @@
      "title": "Bayeux Tapestry's London tour spurs enthusiasts to Battle of Hastings reenactment",
      "summary": "A reenactment of the Battle of Hastings, which took place almost a millennium ago, is drawing crowds of enthusiasts in the UK.",
      "url": "https://www.npr.org/2026/10/10/nx-s1-5993847/bayeux-tapestrys-london-tour-spurs-enthusiasts-to-battle-of-hastings-re-enactment",
-     "time": "Sat, 10 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
-     "summary": "The surge in attacks, including against other Saudi airports, military facilities and oil infrastructure, has come in the week since a Saudi-led coalition launched a major military offensive against the Houthis.",
-     "url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack",
-     "time": "Sat, 10 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "The Kennedy Center names new artistic director, amid concerns",
-     "summary": "The center's executive director has named an agent who has worked with ZZ Top and Motley Crue drummer Tommy Lee as the head of programming for the arts institution.",
-     "url": "https://www.npr.org/2026/10/10/nx-s1-5996934/kennedy-center-rick-canny-new-artistic-director",
-     "time": "Sat, 10 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "At least 2 deaths attributed to Isaias after hurricane bashes Florida and Alabama",
-     "summary": "Hurricane Isaias is blamed for at least two deaths, after the storm made landfall on the Florida coast and ran through Alabama. There are numerous reports of downed trees, with hundreds of thousands of people without power.",
-     "url": "https://www.npr.org/2026/10/10/g-s1-147632/at-least-2-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama",
      "time": "Sat, 10 Oct 2026",
      "source": "NPR News"
     }
