@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-11T15:00:38+0000",
- "updated_ts": 1791730838,
+ "updated": "2026-10-11T15:30:38+0000",
+ "updated_ts": 1791732638,
  "topics": [
   {
    "name": "Tech",
@@ -20,23 +20,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "The tilde in your PATH may not be your HOME",
-     "summary": "Comments",
-     "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Terence Tao: Math 2.0 [pdf]",
-     "summary": "Comments",
-     "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "LineageOS 24.0",
      "summary": "Comments",
      "url": "https://lineageos.org/Changelog-32/",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
+     "summary": "Comments",
+     "url": "https://verdagon.dev/blog/valen-group-borrowing",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The tilde in your PATH may not be your HOME",
+     "summary": "Comments",
+     "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,13 +95,6 @@
    "name": "World",
    "articles": [
     {
-     "title": "Trump says Ukraine and Russia have agreed 'energy ceasefire'",
-     "summary": "Neither Kyiv nor Moscow have yet commented on the US president's assertion of an immediate truce.",
-     "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 11 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
      "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
      "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
@@ -123,16 +116,23 @@
      "source": "BBC World"
     },
     {
-     "title": "US justice department investigates TV networks over Trump pool coverage",
-     "summary": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
-     "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+     "title": "Children among 109 dead after boat capsizes off Djibouti, UN says",
+     "summary": "The boat was travelling from Djibouti to Yemen with 350 people on board, when it capsized near the port town of Obock on Thursday night.",
+     "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Children among 109 dead after boat capsizes off Djibouti, UN says",
-     "summary": "The boat was travelling from Djibouti to Yemen with 350 people on board, when it capsized near the port town of Obock on Thursday night.",
-     "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
+     "title": "Poland stabbings driven by online glorification of violence, Tusk says",
+     "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
+     "url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 11 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "US justice department investigates TV networks over Trump pool coverage",
+     "summary": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
+     "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Jack White Reunites the Raconteurs at Nashville Show",
+     "summary": "It marked the bands first appearance together since 2019",
+     "url": "https://pitchfork.com/story/jack-white-reunites-the-raconteurs-at-nashville-show/",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Watch Rosal\u00eda Perform \u201cReliquia\u201d En Pointe on SNL",
      "summary": "She also brought \u201cMagnolias\u201d to the Saturday Night Live stage",
      "url": "https://pitchfork.com/story/watch-rosalia-perform-reliquias-en-pointe-on-snl/",
@@ -262,13 +269,6 @@
      "title": "The Decemberists Premiere First Song in Two Years",
      "summary": "\u201cThe Better Part of Bravery\u201d was made for Wildwood, a film based on Colin Meloy\u2019s debut novel",
      "url": "https://pitchfork.com/story/the-decemberists-new-song-the-better-part-of-bravery/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Alanis Morissette Made a Holiday Album",
-     "summary": "This Christmas season, expect Good Weather for Immaculate Conception",
-     "url": "https://pitchfork.com/story/alanis-morissette-made-a-holiday-album/",
      "time": "Fri, 09 Oct 2026",
      "source": "Pitchfork"
     }
