@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-11T12:30:37+0000",
- "updated_ts": 1791721837,
+ "updated": "2026-10-11T13:00:36+0000",
+ "updated_ts": 1791723636,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-     "summary": "Comments",
-     "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "I paid people to try and follow my README",
      "summary": "Comments",
@@ -20,9 +13,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "IRCv3",
+     "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
      "summary": "Comments",
-     "url": "https://ircv3.net/",
+     "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
+     "summary": "Comments",
+     "url": "https://copilot.travel/tolls/europe-2026",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Nitter: Update Oct 10th seeking funding and legal help",
+     "title": "Don't Put Tilde In Your Path",
      "summary": "Comments",
-     "url": "https://nitter.net",
+     "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
+     "title": "Nitter: Update Oct 10th seeking funding and legal help",
      "summary": "Comments",
-     "url": "https://copilot.travel/tolls/europe-2026",
+     "url": "https://nitter.net",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,9 +95,9 @@
    "name": "World",
    "articles": [
     {
-     "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-     "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
-     "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+     "title": "Ukraine strikes Russian data centre again despite Trump warning",
+     "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
+     "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Pope Leo XIV to undergo lung surgery this week",
+     "summary": "Pope Leo XIV said he would undergo surgery after doctors found a \"localized nodule\" in his lung.",
+     "url": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week",
+     "time": "Sun, 11 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Hurricane Simon nears Mexico with 155 mph winds and flooding fears",
      "summary": "The eye of Hurricane Simon was just off the Pacific coast of Mexico early Sunday and was expected to move inland later in the day as an extremely powerful storm.",
      "url": "https://www.npr.org/2026/10/11/nx-s1-5998022/hurricane-simon-nears-mexico-155-mph-winds-flooding-fears",
@@ -170,19 +177,19 @@
      "url": "https://www.npr.org/2026/10/11/g-s1-145063/justice-department-civil-rights-transformed",
      "time": "Sun, 11 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "In one of the country's most competitive districts, a Democrat tries to keep her seat",
-     "summary": "In a highly competitive Washington congressional race, the incumbent Democrat has angered part of her party base and the Trump-backed Republican challenger faces backlash against the party in power.",
-     "url": "https://www.npr.org/2026/10/11/nx-s1-5968691/midterm-elections-washington-congressional-district",
-     "time": "Sun, 11 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Fight trafficking by decriminalizing consensual adult sex work",
+     "summary": "Vermont's prostitution laws make it harder for people to report exploitation and for survivors to rebuild their lives. Read the story on VTDigger here: Fight trafficking by decriminalizing consensual adult sex work.",
+     "url": "https://vtdigger.org/2026/10/11/fight-trafficking-by-decriminalizing-consensual-adult-sex-work/",
+     "time": "Sun, 11 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Political polls historically underestimate Phil Scott. Will 2026 be different?",
      "summary": "Gov. Phil Scott leaves the House of Representatives chamber after delivering his state of the state address at the Statehouse in Montpelier on Wednesday, January 7, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/01/state-of-s",
@@ -215,13 +222,6 @@
      "title": "Godnicks celebrates 100 years of furnishing Rutland",
      "summary": "Owners Brent, left, and Brian Godnick stand in the showroom of Godnicks Grand Furniture recently. Photo by Gabby Blanchard/Community News Service \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/godnicks.webp\" /> A fourth generation of Godnicks celebrate the mil",
      "url": "https://vtdigger.org/2026/10/09/godnicks-celebrates-100-years-of-furnishing-rutland/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Man taken into custody in Vermont faces murder charge in his mother\u2019s death in Massachusetts",
-     "summary": "Ryan Hanafin appears on a video conference from Northeast Regional Correctional Facility in St. Johnsbury on Friday, October 9, 2026. Screenshot by Alan J. Keays/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Ryan-Hanafin.png\" /> Court records made pu",
-     "url": "https://vtdigger.org/2026/10/09/man-taken-into-custody-in-vermont-faces-murder-charge-in-his-mothers-death-in-massachusetts/",
      "time": "Fri, 09 Oct 2026",
      "source": "VT Digger"
     }
