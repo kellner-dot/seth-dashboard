@@ -1,16 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T01:50:45+0000",
+ "generated_iso": "2026-10-11T02:00:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-10 21:23:32.792 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-10 21:53:32.331 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-10 21:23:50.123 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-10 21:53:52.502 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,27 +43,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:41:20-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 21)",
+     "t": "[supervision.lo] 2026-10-10T21:51:19-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 23)",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:46:06-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-10-10T21:56:01-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:46:18-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
+     "t": "[supervision.lo] 2026-10-10T21:56:10-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:46:20-04:00 [relay-supervisor] WARN: hung-port strike 22/2 (pid 48932 verified as relay)",
+     "t": "[supervision.lo] 2026-10-10T21:56:12-04:00 [relay-supervisor] WARN: hung-port strike 24/2 (pid 48932 verified as relay)",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:46:20-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
+     "t": "[supervision.lo] 2026-10-10T21:56:12-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T21:46:25-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 22)",
+     "t": "[supervision.lo] 2026-10-10T21:56:15-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 24)",
      "c": "err"
     }
    ]
