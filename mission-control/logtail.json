@@ -1,14 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T21:10:39+0000",
+ "generated_iso": "2026-10-11T21:20:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-11 16:53:16.617 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
     {
      "t": "2026-10-11 16:53:33.913 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
@@ -47,27 +43,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:46:16-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-11T17:11:27-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
+     "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:50:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-11T17:11:30-04:00 [relay-supervisor] WARN: hung-port strike 2/2 (pid 48932 verified as relay)",
+     "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:56:17-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-10-11T17:11:30-04:00 [relay-supervisor] WARN: hung-port recovery: task stop/start (listener pid 48932)",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T17:11:43-04:00 [relay-supervisor] ERROR: port 8100 still held after task stop; aborting start",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:56:25-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
-     "c": "warn"
+     "t": "[supervision.lo] 2026-10-11T17:11:43-04:00 [relay-supervisor] ERROR: ALERT: hung-port recovery FAILED; relay still unhealthy",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:56:28-04:00 [relay-supervisor] WARN: hung-port strike 1/2 (pid 48932 verified as relay)",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T09:56:28-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "t": "[supervision.lo] 2026-10-11T17:11:45-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 2)",
      "c": "err"
     }
    ]
