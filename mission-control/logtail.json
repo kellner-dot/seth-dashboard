@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T00:00:43+0000",
+ "generated_iso": "2026-10-11T00:10:40+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -43,28 +43,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T19:30:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-10T20:06:21-04:00 [relay-supervisor] WARN: hung-port strike 2/2 (pid 2900 verified as relay)",
+     "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T19:35:39-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-10T20:06:21-04:00 [relay-supervisor] WARN: hung-port recovery: task stop/start (listener pid 2900)",
+     "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T19:40:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-10T20:06:38-04:00 [relay-supervisor] WARN: Start-ScheduledTask KaviTV-relay: requested",
+     "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T19:45:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-10T20:07:14-04:00 [relay-supervisor] ERROR: ALERT: hung-port recovery FAILED; relay still unhealthy",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T19:50:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-10T20:07:14-04:00 [relay-supervisor] ERROR: ntfy alert failed: notify() missing 1 required positional argument: 'message'",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T19:55:38-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-10",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-10T20:07:14-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 2)",
+     "c": "err"
     }
    ]
   }
