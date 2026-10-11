@@ -1,32 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T05:20:43+0000",
+ "generated_iso": "2026-10-11T05:30:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-11 01:13:38.855 Error App: Error in validateChildren for 21433 D:\\TV Shows",
+     "t": "2026-10-11 01:25:03.283 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-11 01:13:40.719 Error App: Error in TheTVDB",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
+     "t": "2026-10-11 01:25:05.322 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
