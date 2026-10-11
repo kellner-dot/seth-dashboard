@@ -1,6 +1,6 @@
 {
- "generated_at": 1791724264,
- "generated_iso": "2026-10-11T13:11:04+0000",
+ "generated_at": 1791724860,
+ "generated_iso": "2026-10-11T13:21:00+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [
@@ -9,7 +9,7 @@
    "icon": "\ud83d\udcbb",
    "title": "MacBook Air offline",
    "message": "Mac not reachable on Tailnet.",
-   "at": "2026-10-11T13:11:04+0000"
+   "at": "2026-10-11T13:21:00+0000"
   }
  ],
  "github": {
@@ -58,7 +58,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 343588,
+   "uptime_s": 344188,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
