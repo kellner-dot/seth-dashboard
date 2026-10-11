@@ -1,20 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T17:00:51+0000",
+ "generated_iso": "2026-10-11T17:10:48+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-11 12:53:16.583 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-11 13:06:06.816 Error PluginService-0HNP4F6RFE1KC:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "2026-10-11 12:53:33.906 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-11 12:53:51.184 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-11 13:06:07.036 Error PluginService-0HNP4F6RFE1KD:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-11 13:06:07.257 Error PluginService-0HNP4F6RFE1KE:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-11 13:06:07.477 Error PluginService-0HNP4F6RFE1KF:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
      "c": "err"
     }
    ]
