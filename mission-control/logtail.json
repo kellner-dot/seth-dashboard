@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T13:30:42+0000",
+ "generated_iso": "2026-10-11T13:40:39+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -47,27 +47,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:00:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "t": "[supervision.lo] 2026-10-11T09:31:49-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T09:31:56-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T09:31:56-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T09:31:56-04:00 [relay-supervisor] INFO: ntfy alert suppressed by snooze: task-missing",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:05:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
+     "t": "[supervision.lo] 2026-10-11T09:31:56-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T09:11:15-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T09:16:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T09:21:17-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T09:26:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "t": "[supervision.lo] 2026-10-11T09:36:37-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
      "c": "ok"
     }
    ]
