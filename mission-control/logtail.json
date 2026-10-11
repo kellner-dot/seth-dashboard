@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T12:30:42+0000",
+ "generated_iso": "2026-10-11T12:40:39+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -47,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T00:26:31-04:00 [relay-supervisor] WARN: hung-port strike 53/2 (pid 48932 verified as relay)",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T00:26:31-04:00 [relay-supervisor] WARN: hung-port recovery: task stop/start (listener pid 48932)",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-11T00:26:46-04:00 [relay-supervisor] ERROR: port 8100 still held after task stop; aborting start",
      "c": "err"
     },
@@ -69,6 +61,14 @@
     {
      "t": "[supervision.lo] 2026-10-11T00:26:46-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 54)",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T08:30:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T08:35:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "c": "ok"
     }
    ]
   }
