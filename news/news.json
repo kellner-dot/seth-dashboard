@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-11T08:00:57+0000",
- "updated_ts": 1791705657,
+ "updated": "2026-10-11T08:30:37+0000",
+ "updated_ts": 1791707437,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "3rd Yandex Cloud Data Center Was Hit",
+     "summary": "Comments",
+     "url": "https://status.yandex.cloud/en/incidents/2136",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Build your own decision model",
      "summary": "Comments",
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://ratfactor.com/cards/git-commit-size",
      "time": "Fri, 09 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The Lightbulb Computer",
-     "summary": "Comments",
-     "url": "https://lightbulbcomputer.com/",
-     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -116,16 +116,16 @@
      "source": "BBC World"
     },
     {
-     "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
-     "summary": "Pike's lawyers say she is \"grateful\" to the medical team who cared for her after she survived two lethal injections last month.",
-     "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 10 Oct 2026",
+     "title": "US justice department investigates TV networks over Trump pool coverage",
+     "summary": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
+     "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
-     "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-     "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+     "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+     "summary": "Roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone.",
+     "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 10 Oct 2026",
      "source": "BBC World"
     },
