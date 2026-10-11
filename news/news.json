@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-11T20:00:38+0000",
- "updated_ts": 1791748838,
+ "updated": "2026-10-11T20:30:45+0000",
+ "updated_ts": 1791750645,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Terence Tao: Math 2.0 [pdf]",
+     "title": "Chapter 1 of Ways of Seeing by John Berger",
      "summary": "Comments",
-     "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+     "url": "https://www.ways-of-seeing.com/ch1",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Be The Onion's Hero for Once",
+     "summary": "Comments",
+     "url": "https://mailchi.mp/email.theonion.com/archivehunt",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,23 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Chapter 1 of Ways of Seeing by John Berger",
+     "title": "Terence Tao: Math 2.0 [pdf]",
      "summary": "Comments",
-     "url": "https://www.ways-of-seeing.com/ch1",
+     "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "apsw: Another Python SQLite Wrapper",
+     "title": "Cartographers of North Korea",
      "summary": "Comments",
-     "url": "https://github.com/rogerbinns/apsw",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "LineageOS 24.0",
-     "summary": "Comments",
-     "url": "https://lineageos.org/Changelog-32/",
+     "url": "https://cartographers-nk.wonyoung.so/",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
