@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T02:40:40+0000",
+ "generated_iso": "2026-10-11T02:50:39+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -43,27 +43,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T22:36:02-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-10-10T22:46:02-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T22:36:11-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
+     "t": "[supervision.lo] 2026-10-10T22:46:11-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=48932 relay_procs=1",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T22:36:13-04:00 [relay-supervisor] WARN: hung-port strike 32/2 (pid 48932 verified as relay)",
+     "t": "[supervision.lo] 2026-10-10T22:46:14-04:00 [relay-supervisor] WARN: hung-port strike 34/2 (pid 48932 verified as relay)",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T22:36:13-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
+     "t": "[supervision.lo] 2026-10-10T22:46:14-04:00 [relay-supervisor] ERROR: ALERT: recovery budget exhausted (2/hour); manual check needed",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T22:36:13-04:00 [relay-supervisor] INFO: ntfy alert suppressed by snooze: budget-exhausted",
+     "t": "[supervision.lo] 2026-10-10T22:46:14-04:00 [relay-supervisor] INFO: ntfy alert suppressed by snooze: budget-exhausted",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-10T22:36:13-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 32)",
+     "t": "[supervision.lo] 2026-10-10T22:46:14-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 34)",
      "c": "err"
     }
    ]
