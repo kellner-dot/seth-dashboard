@@ -1,12 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-11T17:10:48+0000",
+ "generated_iso": "2026-10-11T17:20:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-11 13:06:06.816 Error PluginService-0HNP4F6RFE1KC:00000001: Error processing request",
+     "t": "2026-10-11 13:13:46.126 Error App: Error in validateChildren for 21433 D:\\TV Shows",
      "c": "err"
     },
     {
@@ -14,23 +14,11 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
      "c": "err"
     },
     {
-     "t": "2026-10-11 13:06:07.036 Error PluginService-0HNP4F6RFE1KD:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-11 13:06:07.257 Error PluginService-0HNP4F6RFE1KE:00000001: Error processing request",
+     "t": "2026-10-11 13:13:48.136 Error App: Error in TheTVDB",
      "c": "err"
     },
     {
@@ -38,19 +26,7 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-11 13:06:07.477 Error PluginService-0HNP4F6RFE1KF:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
      "c": "err"
     }
    ]
