@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-12T10:00:40+0000",
- "updated_ts": 1791799240,
+ "updated": "2026-10-12T10:30:38+0000",
+ "updated_ts": 1791801038,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Postgres isn't slow, your storage is",
-     "summary": "Comments",
-     "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Type-safe HTML templating in Zig",
      "summary": "Comments",
@@ -20,17 +13,17 @@
      "source": "Hacker News"
     },
     {
+     "title": "Postgres isn't slow, your storage is",
+     "summary": "Comments",
+     "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Fingerprints are the new cookies",
      "summary": "Comments",
      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
      "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Fable Took My Job",
-     "summary": "Comments",
-     "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
-     "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
      "time": "Sat, 10 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Running the unmodified Linux amdgpu driver on an iPad",
+     "summary": "Comments",
+     "url": "https://github.com/Geramy/LemonSeed-Studio",
+     "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Poland detains man suspected of planning assassination of PM Tusk",
-     "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
-     "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+     "title": "Mourners killed by Kenya police at ex-PM's national farewell not part of violence, BBC finds",
+     "summary": "After analysing 1,500 videos and images of the Raila Odinga memorial, Africa Eye finds that those killed were far from the scuffles.",
+     "url": "https://www.bbc.co.uk/news/articles/c962y4ld1d7do?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
@@ -147,6 +147,13 @@
      "title": "Here's what to know if you're unsure about your measles immunity status",
      "summary": "Vaccination is the best way to protect yourself against measles. For most adults, one shot of the MMR is considered enough protection. But there are certain situations that call for a second dose.",
      "url": "https://www.npr.org/2026/10/12/nx-s1-5991904/measles-vaccination-status-outbreak-extra-dose",
+     "time": "Mon, 12 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Two Americans win Nobel Prize in Economics for work on boom-bust cycles",
+     "summary": "Two Americans have won the Nobel Prize in Economics for their work on how to smooth boom-and-bust cycles to limit unemployment and inflation.",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
      "time": "Mon, 12 Oct 2026",
      "source": "NPR News"
     },
@@ -168,13 +175,6 @@
      "title": "Pope Leo XIV to undergo lung surgery this week",
      "summary": "Pope Leo XIV said he would undergo surgery after doctors found a \"localized nodule\" in his lung.",
      "url": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week",
-     "time": "Sun, 11 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Hurricane Simon pounds resorts and vulnerable towns along Mexico's Pacific coast",
-     "summary": "Hurricane Simon pounded Mexico's Pacific coast as a Category 3 storm on Sunday, as its most powerful winds and rain slammed people living between the Sierra Madre and the ocean.",
-     "url": "https://www.npr.org/2026/10/11/nx-s1-5998022/hurricane-simon-nears-mexico-155-mph-winds-flooding-fears",
      "time": "Sun, 11 Oct 2026",
      "source": "NPR News"
     }
@@ -238,6 +238,13 @@
      "source": "Pitchfork"
     },
     {
+     "title": "Jack White Reunites the Raconteurs at Nashville Show",
+     "summary": "It marked the bands first appearance together since 2019",
+     "url": "https://pitchfork.com/story/jack-white-reunites-the-raconteurs-at-nashville-show/",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Watch Rosal\u00eda Perform \u201cReliquia\u201d En Pointe on SNL",
      "summary": "She also brought \u201cMagnolias\u201d to the Saturday Night Live stage",
      "url": "https://pitchfork.com/story/watch-rosalia-perform-reliquias-en-pointe-on-snl/",
@@ -245,30 +252,23 @@
      "source": "Pitchfork"
     },
     {
+     "title": "Geordie Greep Shows Cancelled Following Sexual Misconduct Allegations",
+     "summary": "The singer, who has denied the allegations, called off performances in Boise, Salt Lake City, Boulder, and Denver",
+     "url": "https://pitchfork.com/story/geordie-greep-shows-cancelled-following-sexual-misconduct-allegations/",
+     "time": "Sat, 10 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Willie Nelson, Yo La Tengo Endorse James Talarico",
+     "summary": "YLT will play a benefit concert for the Texas Senate hopeful in Austin on October 27",
+     "url": "https://pitchfork.com/story/willie-nelson-yo-la-tengo-endorse-james-talarico/",
+     "time": "Fri, 09 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Remi Wolf Announces 2027 North America Tour",
      "summary": "The singer will hit New York, Los Angeles, Chicago, Toronto, and more",
      "url": "https://pitchfork.com/story/remi-wolf-announces-north-america-tour/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "The Decemberists Premiere First Song in Two Years",
-     "summary": "\u201cThe Better Part of Bravery\u201d was made for Wildwood, a film based on Colin Meloy\u2019s debut novel",
-     "url": "https://pitchfork.com/story/the-decemberists-new-song-the-better-part-of-bravery/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "9 New Albums You Should Listen to Now: Cameron Winter, Deafheaven, Dawn Richard, and More",
-     "summary": "Stream new releases from Cameron Winter, Deafheaven, Dawn Richard, Troye Sivan, and more",
-     "url": "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-cameron-winter-deafheaven-dawn-richard/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Watch Phoebe Bridgers and Boygenius Perform Live in New Short Film",
-     "summary": "Bridgers is the latest guest on A24\u2019s Sound Check at Cherry Lane Theatre YouTube series",
-     "url": "https://pitchfork.com/story/watch-phoebe-bridgers-and-boygenius-sound-check-at-cherry-lane-theater/",
      "time": "Fri, 09 Oct 2026",
      "source": "Pitchfork"
     }
