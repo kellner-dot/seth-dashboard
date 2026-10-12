@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-12T21:00:51+0000",
- "updated_ts": 1791838851,
+ "updated": "2026-10-12T21:30:43+0000",
+ "updated_ts": 1791840643,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-     "summary": "Comments",
-     "url": "https://github.com/openai/codex/issues/48195",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "GLM-Legal",
      "summary": "Comments",
@@ -27,16 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "AI coding agents generate more code, but not more software",
+     "title": "Writing a Demoscene Intro for the ZX Spectrum",
      "summary": "Comments",
-     "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+     "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Launch HN: Agent37 (YC F26) \u2013 Low-cost agent sandboxes for running agents",
+     "title": "Codex CLI installs a persistent, self-updating background daemon by default",
      "summary": "Comments",
-     "url": "https://news.ycombinator.com/item?id=50059096",
+     "url": "https://github.com/openai/codex/issues/48195",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -44,6 +37,13 @@
      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
      "summary": "Comments",
      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Launch HN: Agent37 (YC F26) \u2013 Low-cost agent sandboxes for running agents",
+     "summary": "Comments",
+     "url": "https://news.ycombinator.com/item?id=50059096",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -184,6 +184,20 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "UVM Medical Center unions approve contracts and avert a strike",
+     "summary": "Vermont Federation of Nurses and Health Professionals President Nicole DiVita, right, and Jacob Berkowitz, president of UVMMC Support Staff United, pictured on Oct. 2. Photo by Olivia Gieger/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/IMG_0558-1200",
+     "url": "https://vtdigger.org/2026/10/12/uvm-medical-center-unions-approve-contracts-and-avert-a-strike/",
+     "time": "Mon, 12 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Our schools are being crushed by state mandates",
+     "summary": "A sharp drop in the state\u2019s excess spending threshold is forcing Hartford to make deep cuts, even as expenses rise. Read the story on VTDigger here: Our schools are being crushed by state mandates.",
+     "url": "https://vtdigger.org/2026/10/12/opinion-our-schools-are-being-crushed-by-state-mandates/",
+     "time": "Mon, 12 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Let\u2019s have a substantive debate on energy affordability",
      "summary": "The gubernatorial candidates need to say how they would make energy more affordable for Vermont households and businesses. Read the story on VTDigger here: Let\u2019s have a substantive debate on energy affordability.",
      "url": "https://vtdigger.org/2026/10/12/opinion-lets-have-a-substantive-debate-on-energy-affordability/",
@@ -208,20 +222,6 @@
      "title": "A Vermont degree should come with a green card",
      "summary": "As international enrollment falls, Vermont stands to lose millions in economic activity. A green card for full-tuition graduates would change that. Read the story on VTDigger here: A Vermont degree should come with a green card.",
      "url": "https://vtdigger.org/2026/10/11/opinion-a-vermont-degree-should-come-with-a-green-card/",
-     "time": "Sun, 11 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Political mailer sparks Vermont disclosure complaint",
-     "summary": "Attorney General Charity Clark discusses the work of the Vermont Internet Crimes Against Children Task Force in Waterbury on Tuesday, December 5, 2023. Photo by Glenn Russell/VTDigger \" data-image-caption=\"Attorney General Charity Clark discusses the work of the Vermont Internet ",
-     "url": "https://vtdigger.org/2026/10/11/political-mailer-sparks-vermont-disclosure-complaint/",
-     "time": "Sun, 11 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Fight trafficking by decriminalizing consensual adult sex work",
-     "summary": "Vermont's prostitution laws make it harder for people to report exploitation and for survivors to rebuild their lives. Read the story on VTDigger here: Fight trafficking by decriminalizing consensual adult sex work.",
-     "url": "https://vtdigger.org/2026/10/11/fight-trafficking-by-decriminalizing-consensual-adult-sex-work/",
      "time": "Sun, 11 Oct 2026",
      "source": "VT Digger"
     }
