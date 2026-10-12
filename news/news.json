@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-12T09:00:45+0000",
- "updated_ts": 1791795645,
+ "updated": "2026-10-12T09:30:37+0000",
+ "updated_ts": 1791797437,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Zod 4.6.6 compromised by malware?",
+     "title": "Fable Took My Job",
      "summary": "Comments",
-     "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+     "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "U.S. restrictions on Chinese drones are leaving police departments in the lurch",
+     "summary": "The U.S. government is trying to end the dominance of high-quality, low-cost drones made in China. But more restrictions mean higher costs for cash-strapped police forces that rely on those drones.",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5888604/police-chinese-drones-bans-costs",
+     "time": "Mon, 12 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Here's what to know if you're unsure about your measles immunity status",
+     "summary": "Vaccination is the best way to protect yourself against measles. For most adults, one shot of the MMR is considered enough protection. But there are certain situations that call for a second dose.",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5991904/measles-vaccination-status-outbreak-extra-dose",
+     "time": "Mon, 12 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Trump says Russia and Ukraine agree to an 'energy ceasefire'",
      "summary": "President Trump said Sunday that Russia and Ukraine had agreed to an \"energy ceasefire,\" but he offered no details on it and Kyiv reported attacks by Moscow on energy sites after his statement.",
      "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
@@ -161,20 +175,6 @@
      "title": "Hurricane Simon pounds resorts and vulnerable towns along Mexico's Pacific coast",
      "summary": "Hurricane Simon pounded Mexico's Pacific coast as a Category 3 storm on Sunday, as its most powerful winds and rain slammed people living between the Sierra Madre and the ocean.",
      "url": "https://www.npr.org/2026/10/11/nx-s1-5998022/hurricane-simon-nears-mexico-155-mph-winds-flooding-fears",
-     "time": "Sun, 11 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Justice Department investigates TV networks, citing possible anti-trust violations",
-     "summary": "The move escalates Trump's fight with the press amid court battle over barring CNN, Politico and MS NOW from the White House.",
-     "url": "https://www.npr.org/2026/10/11/nx-s1-5997574/the-doj-is-investigating-5-tv-networks-for-suspending-pool-coverage-of-trump",
-     "time": "Sun, 11 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Don't be scared: Being afraid is outright fun, and maybe useful",
-     "summary": "Listeners of NPR's Weekend Edition Sunday may already know that host Ayesha Rascoe loves horror. But why do scream queens (and kings) like her like what's frightening? The answer may surprise you.",
-     "url": "https://www.npr.org/2026/10/11/nx-s1-5973128/dont-be-scared-being-afraid-is-outright-fun-and-maybe-useful",
      "time": "Sun, 11 Oct 2026",
      "source": "NPR News"
     }
