@@ -1,21 +1,13 @@
 {
- "generated_at": 1791767460,
- "generated_iso": "2026-10-12T01:11:00+0000",
+ "generated_at": 1791768063,
+ "generated_iso": "2026-10-12T01:21:03+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [
-  {
-   "severity": "info",
-   "icon": "\ud83d\udcbb",
-   "title": "MacBook Air offline",
-   "message": "Mac not reachable on Tailnet.",
-   "at": "2026-10-12T01:11:00+0000"
-  }
- ],
+ "alerts": [],
  "github": {
   "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 10,
+  "public_repos": 0,
+  "private_repos": 0,
   "pages": [
    {
     "name": "seth-dashboard",
@@ -58,7 +50,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 386798,
+   "uptime_s": 387430,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -85,13 +77,13 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": 0,
-    "up": false
+    "http": 200,
+    "up": true
    },
    "rvg_agent": {
-    "up": false
+    "up": true
    },
-   "online": false
+   "online": true
   },
   {
    "id": "iphone-xs-max",
