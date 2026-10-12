@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-12T06:00:43+0000",
- "updated_ts": 1791784843,
+ "updated": "2026-10-12T06:30:38+0000",
+ "updated_ts": 1791786638,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Yandex bot traffic down 99% after data center attack",
      "summary": "Comments",
      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d#bot-traffic",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+     "summary": "Comments",
+     "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -24,13 +31,6 @@
      "summary": "Comments",
      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
      "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
-     "summary": "Comments",
-     "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
-     "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,7 +95,7 @@
    "name": "World",
    "articles": [
     {
-     "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+     "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
      "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
@@ -151,8 +151,8 @@
      "source": "NPR News"
     },
     {
-     "title": "Hurricane Simon nears Mexico with 155 mph winds and flooding fears",
-     "summary": "The eye of Hurricane Simon was just off the Pacific coast of Mexico early Sunday and was expected to move inland later in the day as an extremely powerful storm.",
+     "title": "Hurricane Simon pounds resorts and vulnerable towns along Mexico's Pacific coast",
+     "summary": "Hurricane Simon pounded Mexico's Pacific coast as a Category 3 storm on Sunday, as its most powerful winds and rain slammed people living between the Sierra Madre and the ocean.",
      "url": "https://www.npr.org/2026/10/11/nx-s1-5998022/hurricane-simon-nears-mexico-155-mph-winds-flooding-fears",
      "time": "Sun, 11 Oct 2026",
      "source": "NPR News"
