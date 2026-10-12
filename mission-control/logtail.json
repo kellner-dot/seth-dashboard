@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-12T02:00:54+0000",
+ "generated_iso": "2026-10-12T02:10:42+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -47,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T21:31:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T21:35:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-11T21:40:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
      "c": "ok"
     },
@@ -68,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-11T21:55:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T22:01:14-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-11T22:05:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
      "c": "ok"
     }
    ]
