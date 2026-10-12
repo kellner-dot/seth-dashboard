@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-12T05:00:48+0000",
- "updated_ts": 1791781248,
+ "updated": "2026-10-12T05:30:37+0000",
+ "updated_ts": 1791783037,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Yandex bot traffic down 99% after data center attack",
+     "summary": "Comments",
+     "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d#bot-traffic",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Type-safe HTML templating in Zig",
+     "summary": "Comments",
+     "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Fingerprints are the new cookies",
      "summary": "Comments",
@@ -31,20 +45,6 @@
      "summary": "Comments",
      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
      "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Cartographers of North Korea (2019)",
-     "summary": "Comments",
-     "url": "https://cartographers-nk.wonyoung.so/",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Doory \u2013 Open-Source Canva",
-     "summary": "Comments",
-     "url": "https://github.com/shaongitbd/doory",
-     "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -116,6 +116,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Documents falsified to evade tax on Abramovich's wealth",
+     "summary": "Backdated paperwork also made the Russian oligarch\u2019s yachts and mansions disappear from accounts, BBC finds.",
+     "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 12 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Poland detains man suspected of planning assassination of PM Tusk",
      "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
      "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
@@ -126,13 +133,6 @@
      "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
      "summary": "Neither Egypt nor Sudan has commented on the alleged strikes on an artisanal mining camp on Saturday.",
      "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 11 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Watch: Endangered orangutans released back into the wild after Borneo fires",
-     "summary": "The critically endangered apes were rescued from intense wildfires that destroyed their habitat in August and September.",
-     "url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
