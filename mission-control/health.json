@@ -1,6 +1,6 @@
 {
  "status": "HEALTHY",
- "commit": "db1f00b",
+ "commit": "2508b2f",
  "components": {
   "conversation": {
    "status": "ok",
@@ -20,5 +20,5 @@
   }
  },
  "generated": "kavibot health export (U1)",
- "generated_iso": "2026-10-12T15:50:48+0000"
+ "generated_iso": "2026-10-12T16:05:49+0000"
 }
