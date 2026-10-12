@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-12T07:30:39+0000",
- "updated_ts": 1791790239,
+ "updated": "2026-10-12T08:00:42+0000",
+ "updated_ts": 1791792042,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Attack of the Vibe Coded Photoshop Clones",
-     "summary": "Comments",
-     "url": "https://www.shokunin.studio/blog/2026/10/9/attack-of-the-vibe-coded-photoshop-clones",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Type-safe HTML templating in Zig",
      "summary": "Comments",
@@ -27,6 +20,20 @@
      "source": "Hacker News"
     },
     {
+     "title": "Postgres isn't slow, your storage is",
+     "summary": "Comments",
+     "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Atticus \u2013 Hold-to-talk voice assistant for macOS that runs on Claude -p",
+     "summary": "Comments",
+     "url": "https://github.com/SaarthurR/atticus-mac",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Total Annihilation, rebuilt for modern computers",
      "summary": "Comments",
      "url": "https://nanolathe.gg",
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
      "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Whatever became of holography? (2011)",
-     "summary": "Comments",
-     "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
-     "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -102,6 +102,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
+     "summary": "Backdated paperwork also made the Russian oligarch\u2019s yachts and mansions disappear from accounts, investigation finds.",
+     "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 12 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Trump faces growing backlash over plans to import diesel from Russia",
      "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
      "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
@@ -116,23 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
-     "summary": "Backdated paperwork also made the Russian oligarch\u2019s yachts and mansions disappear from accounts, investigation finds.",
-     "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 12 Oct 2026",
+     "title": "American ranchers wrestle with soaring costs - and their loyalty to Trump",
+     "summary": "Many farmers in states that backed the president say they are being hit from all sides, with the crucial midterm elections just weeks away.",
+     "url": "https://www.bbc.co.uk/news/articles/c6d7q5z17gp5o?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
     {
      "title": "Poland detains man suspected of planning assassination of PM Tusk",
      "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
      "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 11 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
-     "summary": "Neither Egypt nor Sudan has commented on the alleged strikes on an artisanal mining camp on Saturday.",
-     "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
     },
