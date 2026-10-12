@@ -1,6 +1,6 @@
 {
- "generated_at": 1791793859,
- "generated_iso": "2026-10-12T08:30:59+0000",
+ "generated_at": 1791794457,
+ "generated_iso": "2026-10-12T08:40:57+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [],
@@ -20,10 +20,17 @@
   ]
  },
  "emby_library": {
-  "movies": 5445,
-  "series": 34,
-  "episodes": 60,
-  "recent": []
+  "movies": null,
+  "series": null,
+  "episodes": null,
+  "recent": [
+   "The Monkey",
+   "80s-commercials",
+   "Come Over, My Parents Aren't Home",
+   "The Monkey",
+   "80s-commercials",
+   "Possessor"
+  ]
  },
  "terabox": {
   "total": null,
@@ -43,7 +50,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 413194,
+   "uptime_s": 413792,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
