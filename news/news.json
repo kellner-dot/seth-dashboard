@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-12T15:30:45+0000",
- "updated_ts": 1791819045,
+ "updated": "2026-10-12T16:00:39+0000",
+ "updated_ts": 1791820839,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Incident with Actions, Pull Requests and Issues",
-     "summary": "Comments",
-     "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "The Making Of Super Mario 64 \u2013 full Giles Goddard interview (2001)",
      "summary": "Comments",
@@ -20,16 +13,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Fingerprints are the new cookies",
+     "title": "Incident with Actions, Pull Requests and Issues",
      "summary": "Comments",
-     "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Why aren't AI companies being charged for hacking?",
-     "summary": "Comments",
-     "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+     "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,14 +27,42 @@
      "source": "Hacker News"
     },
     {
-     "title": "QGIS bans AI assisted contributions",
+     "title": "Fingerprints are the new cookies",
      "summary": "Comments",
-     "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+     "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+     "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Type-safe HTML templating in Zig",
+     "summary": "Comments",
+     "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Inside Amazon\u2019s robotic arms race and what it means for the future of human work",
+     "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+     "summary": "Comments",
+     "url": "https://github.com/snuri00/ps2-web-recomp",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "F1 in Singapore: There's a new fastest car now",
+     "summary": "Also, F1\u2019s final sprint saw our first real wet racing of the year.",
+     "url": "https://arstechnica.com/cars/2026/10/f1-in-singapore-theres-a-new-fastest-car-now/",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Google announces the Fitbit Edge, a middle ground between Pixel Watch 5 and Fitbit Air",
+     "summary": "The Fitbit Edge offers more than the Air, but it's not a real smartwatch.",
+     "url": "https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air/",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Amazon has over 1 million robot workers. What\u2019s next for human employees?",
      "summary": "The second-largest corporate employer has bet big on robot workers to scale.",
      "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
      "time": "Mon, 12 Oct 2026",
@@ -73,20 +87,6 @@
      "summary": "Participants meditated inside an MRI tube, with and without psilocybin.",
      "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
      "time": "Sat, 10 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Neanderthal wooden tools from Spain found preserved in stone",
-     "summary": "Dissolved rock precipitated around the tools, which then decayed.",
-     "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
-     "time": "Fri, 09 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Ukraine\u2019s drones knock out AI data center belonging to \"Russia\u2019s Google\"",
-     "summary": "One damaged data center has supercomputers used for training Yandex\u2019s AI model.",
-     "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-     "time": "Fri, 09 Oct 2026",
      "source": "Ars Technica"
     }
    ]
