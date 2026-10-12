@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-12T17:00:38+0000",
- "updated_ts": 1791824438,
+ "updated": "2026-10-12T17:30:41+0000",
+ "updated_ts": 1791826241,
  "topics": [
   {
    "name": "Tech",
@@ -27,23 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+     "title": "Launch HN: Agent37 (YC F26) \u2013 Low-cost agent sandboxes for running agents",
      "summary": "Comments",
-     "url": "https://github.com/snuri00/ps2-web-recomp",
+     "url": "https://news.ycombinator.com/item?id=50059096",
      "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Fingerprints are the new cookies",
-     "summary": "Comments",
-     "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-     "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
     {
      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
      "summary": "Comments",
      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+     "summary": "Comments",
+     "url": "https://github.com/snuri00/ps2-web-recomp",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -124,7 +124,7 @@
     },
     {
      "title": "Immigration agents search Congresswoman Ilhan Omar's home",
-     "summary": "Omar was first elected to Congress in 2018, and is an outspoken critic of President Donald Trump.",
+     "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and that she \"will not be silenced\".",
      "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 12 Oct 2026",
      "source": "BBC World"
@@ -135,6 +135,13 @@
      "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 12 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Federal agents search Rep. Ilhan Omar's DC home, DOJ says it approved the warrant",
+     "summary": "The Justice Department says the search is part of an \"ongoing federal investigation\", while Omar calls it \"an attempt to target political enemies\"",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj",
+     "time": "Mon, 12 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "India's opposition parties march to top court as protests over voter lists escalate",
@@ -168,13 +175,6 @@
      "title": "Morning news brief",
      "summary": "",
      "url": "https://www.npr.org/2026/10/12/nx-s1-5995584/newsbrief-trump-russia-ukraine-trump-priorities-saudi-airport-strikes",
-     "time": "Mon, 12 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Texas' 15th Congressional District provides clues to state's Latino vote",
-     "summary": "The 15th Congressional District runs from the east of San Antonio all the way down into the Rio Grande Valley. This majority-Latino district provides a window into the Latino vote in Texas.",
-     "url": "https://www.npr.org/2026/10/12/nx-s1-5986126/texas-15th-congressional-district-provides-clues-to-states-latino-vote",
      "time": "Mon, 12 Oct 2026",
      "source": "NPR News"
     }
