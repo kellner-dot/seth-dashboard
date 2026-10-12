@@ -1,42 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-12T07:30:44+0000",
+ "generated_iso": "2026-10-12T07:40:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-12 00:20:00.092 Error TaskManager: Error",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Busy: database is locked",
-     "c": "err"
-    },
-    {
-     "t": "\tSQLitePCL.pretty.SQLiteException: Exception of type 'SQLitePCL.pretty.SQLiteException' was thrown.",
-     "c": "err"
-    },
-    {
-     "t": "\t   at SQLitePCL.pretty.SQLiteException.CheckOk(sqlite3 db, Int32 rc)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-12 01:40:00.587 Error App: Error in validateChildren for 21433 D:\\TV Shows",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
-     "c": "err"
-    },
     {
      "t": "2026-10-12 01:40:02.205 Error App: Error in TheTVDB",
      "c": "err"
@@ -48,6 +16,38 @@
     {
      "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
      "c": "err"
+    },
+    {
+     "t": "2026-10-12 03:38:59.195 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-12 03:38:59.407 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-12 03:38:59.427 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-12 03:38:59.471 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-12 03:39:08.821 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-12 03:39:08.996 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-12 03:39:09.013 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-12 03:39:09.077 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
+     "c": "ok"
     }
    ]
   },
@@ -79,14 +79,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-12T03:01:17-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-12T03:06:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-12T03:10:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
      "c": "ok"
     },
@@ -100,6 +92,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-12T03:25:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T03:30:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T03:35:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
      "c": "ok"
     }
    ]
