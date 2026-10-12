@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-12T04:50:39+0000",
+ "generated_iso": "2026-10-12T05:01:04+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -31,7 +31,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] POST /rvd/launch",
+     "t": "[supervision.lo] 2026/10/12 04:57:47 socat[46400] W exiting on signal 15",
      "c": "ok"
     },
     {
@@ -55,14 +55,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-12T00:20:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-12T00:25:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-12T00:31:05-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
      "c": "ok"
     },
@@ -76,6 +68,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-12T00:45:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T00:50:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T00:55:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
      "c": "ok"
     }
    ]
