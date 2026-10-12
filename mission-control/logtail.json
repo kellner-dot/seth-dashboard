@@ -1,10 +1,31 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-12T04:10:39+0000",
+ "generated_iso": "2026-10-12T04:20:42+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "2026-10-12 00:20:00.092 Error TaskManager: Error",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSQLitePCL.pretty.SQLiteException: Busy: database is locked",
+     "c": "err"
+    },
+    {
+     "t": "\tSQLitePCL.pretty.SQLiteException: Exception of type 'SQLitePCL.pretty.SQLiteException' was thrown.",
+     "c": "err"
+    },
+    {
+     "t": "\t   at SQLitePCL.pretty.SQLiteException.CheckOk(sqlite3 db, Int32 rc)",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,14 +55,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-11T23:50:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-11T23:55:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-11",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-12T00:01:03-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-11 != today 2026-10-12; pushing fresh schedule",
      "c": "warn"
     },
@@ -55,6 +68,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-12T00:05:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T00:10:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T00:16:05-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
      "c": "ok"
     }
    ]
