@@ -1,6 +1,6 @@
 {
- "generated_at": 1791808859,
- "generated_iso": "2026-10-12T12:40:59+0000",
+ "generated_at": 1791809458,
+ "generated_iso": "2026-10-12T12:50:58+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [
@@ -9,7 +9,7 @@
    "icon": "\ud83d\udef0\ufe0f",
    "title": "Razr RVG down",
    "message": "Razr is online but RVG agent not responding.",
-   "at": "2026-10-12T12:40:59+0000"
+   "at": "2026-10-12T12:50:58+0000"
   }
  ],
  "github": {
@@ -28,9 +28,9 @@
   ]
  },
  "emby_library": {
-  "movies": null,
-  "series": null,
-  "episodes": null,
+  "movies": 5445,
+  "series": 34,
+  "episodes": 60,
   "recent": [
    "The Monkey",
    "80s-commercials",
@@ -58,7 +58,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 428193,
+   "uptime_s": 428791,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
