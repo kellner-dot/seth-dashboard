@@ -1,28 +1,21 @@
 {
- "updated": "2026-10-12T16:00:39+0000",
- "updated_ts": 1791820839,
+ "updated": "2026-10-12T16:30:50+0000",
+ "updated_ts": 1791822650,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "The Making Of Super Mario 64 \u2013 full Giles Goddard interview (2001)",
+     "title": "GLM-Legal: Advancing Agentic Legal Intelligence",
      "summary": "Comments",
-     "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
-     "time": "Sat, 10 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Incident with Actions, Pull Requests and Issues",
-     "summary": "Comments",
-     "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
+     "url": "https://z.ai/blog/glm-legal",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Secret of Orange Cats Revealed After 60-Year Search",
+     "title": "The Making Of Super Mario 64 \u2013 full Giles Goddard interview (2001)",
      "summary": "Comments",
-     "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
+     "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
      "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Type-safe HTML templating in Zig",
+     "title": "Show HN: PS2 games statically recompiled to WebAssembly",
      "summary": "Comments",
-     "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+     "url": "https://github.com/snuri00/ps2-web-recomp",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+     "title": "French supermarkets suffer fridge shutdown after 'unprecedented' cyberattack",
      "summary": "Comments",
-     "url": "https://github.com/snuri00/ps2-web-recomp",
+     "url": "https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Incident with Actions, Pull Requests and Issues",
+     "summary": "Comments",
+     "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "India's opposition parties march to top court as protests over voter lists escalate",
+     "summary": "Opposition parties say revisions to the list of eligible voters favor Prime Minister Narendra Modi's party. Authorities have removed more than 130 million names from the voter roll.",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
+     "time": "Mon, 12 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "DOJ launches antitrust probe of TV networks. And, Trump says Ukraine needs new leader",
      "summary": "The Justice Department is investigating several TV networks for possible antitrust violations. And, President Trump pressures Ukrainians to elect a new leader.",
      "url": "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport",
@@ -144,16 +151,16 @@
      "source": "NPR News"
     },
     {
-     "title": "Here's what to know if you're unsure about your measles immunity status",
-     "summary": "Vaccination is the best way to protect yourself against measles. For most adults, one shot of the MMR is considered enough protection. But there are certain situations that call for a second dose.",
-     "url": "https://www.npr.org/2026/10/12/nx-s1-5991904/measles-vaccination-status-outbreak-extra-dose",
+     "title": "U.S. restrictions on Chinese drones are hurting cash-strapped police departments",
+     "summary": "The U.S. government is trying to end the dominance of high-quality, low-cost drones made in China. But more restrictions mean higher costs for cash-strapped police forces that rely on those drones.",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5888604/police-chinese-drones-bans-costs",
      "time": "Mon, 12 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "U.S. restrictions on Chinese drones are hurting cash-strapped police departments",
-     "summary": "The U.S. government is trying to end the dominance of high-quality, low-cost drones made in China. But more restrictions mean higher costs for cash-strapped police forces that rely on those drones.",
-     "url": "https://www.npr.org/2026/10/12/nx-s1-5888604/police-chinese-drones-bans-costs",
+     "title": "Here's what to know if you're unsure about your measles immunity status",
+     "summary": "Vaccination is the best way to protect yourself against measles. For most adults, one shot of the MMR is considered enough protection. But there are certain situations that call for a second dose.",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5991904/measles-vaccination-status-outbreak-extra-dose",
      "time": "Mon, 12 Oct 2026",
      "source": "NPR News"
     },
@@ -168,13 +175,6 @@
      "title": "Texas' 15th Congressional District provides clues to state's Latino vote",
      "summary": "The 15th Congressional District runs from the east of San Antonio all the way down into the Rio Grande Valley. This majority-Latino district provides a window into the Latino vote in Texas.",
      "url": "https://www.npr.org/2026/10/12/nx-s1-5986126/texas-15th-congressional-district-provides-clues-to-states-latino-vote",
-     "time": "Mon, 12 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "2 Americans win Nobel Prize in economics for work on boom-bust cycles",
-     "summary": "Two Americans have won the Nobel Prize in economics for their work on how to smooth boom-and-bust cycles to limit unemployment and inflation.",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
      "time": "Mon, 12 Oct 2026",
      "source": "NPR News"
     }
