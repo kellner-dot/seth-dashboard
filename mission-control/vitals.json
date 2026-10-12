@@ -1,45 +1,41 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-12T23:10:45+0000",
- "cpu_pct": 8,
- "mem_pct": 58.4,
+ "generated_iso": "2026-10-12T23:20:44+0000",
+ "cpu_pct": 6.7,
+ "mem_pct": 72,
  "mem_total_gb": 15.2,
- "disk_pct": 84.8,
- "disk_free_gb": 141.2,
- "uptime_h": 129.4,
+ "disk_pct": 83.3,
+ "disk_free_gb": 155.7,
+ "uptime_h": 0.1,
  "top": [
   {
-   "cpu": 92270.2,
+   "cpu": 110.5,
    "name": "MsMpEng",
-   "memMB": 455.9
+   "memMB": 528.3
   },
   {
-   "cpu": 41980.8,
+   "cpu": 57.4,
    "name": "System",
-   "memMB": 3.5
+   "memMB": 1.5
   },
   {
-   "cpu": 21914.6,
-   "name": "Memory Compression",
-   "memMB": 349.2
+   "cpu": 23.2,
+   "name": "AUEPMaster",
+   "memMB": 18.7
   },
   {
-   "cpu": 14155.7,
-   "name": "ChatGPT Classic",
-   "memMB": 670.3
+   "cpu": 21.5,
+   "name": "msedge",
+   "memMB": 234.3
   },
   {
-   "cpu": 13862.5,
-   "name": "svchost",
-   "memMB": 34.7
+   "cpu": 20,
+   "name": "python",
+   "memMB": 303.6
   }
  ],
  "history": {
   "cpu": [
-   [
-    1791818443,
-    44.6
-   ],
    [
     1791819050,
     15.4
@@ -227,13 +223,13 @@
    [
     1791846645,
     8
+   ],
+   [
+    1791847244,
+    6.7
    ]
   ],
   "mem": [
-   [
-    1791818443,
-    99.5
-   ],
    [
     1791819050,
     56.6
@@ -421,13 +417,13 @@
    [
     1791846645,
     58.4
+   ],
+   [
+    1791847244,
+    72
    ]
   ],
   "disk": [
-   [
-    1791818443,
-    85.9
-   ],
    [
     1791819050,
     84.6
@@ -615,6 +611,10 @@
    [
     1791846645,
     84.8
+   ],
+   [
+    1791847244,
+    83.3
    ]
   ]
  }
