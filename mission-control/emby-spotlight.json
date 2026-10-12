@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Leviathan",
-  "year": 2013,
+  "name": "Blind Alley",
+  "year": 2011,
   "genres": [
-   "Documentary"
+   "Action",
+   "Horror"
   ],
-  "runtime_min": 88,
-  "progress_pct": 8,
+  "runtime_min": 20,
+  "progress_pct": 0,
   "type": "Movie",
-  "overview": "An experimental portrait of the North American commercial fishing industry through the lens of GoPro cameras placed on a fishing vessel off the coast of New England."
+  "overview": "A serial killer traps and taunts a young dancer inside a laundromat that located down an isolated alley."
  }
 }
