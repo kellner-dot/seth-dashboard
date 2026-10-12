@@ -113,15 +113,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "Energie!",
-  "year": 2007,
+  "name": "The Private Life of a Cat",
+  "year": 1946,
   "genres": [
-   "Animation",
-   "Fantasy"
+   "Documentary"
   ],
-  "runtime_min": 0,
+  "runtime_min": 30,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "The tv/video screen comes alive by a controlled beam of electrons in the cathode ray tube. For 'energie!' an uncontrolled high voltage discharge of approx. 30.000 volts exposes photographic paper which is then arranged i"
+  "overview": "An intimate study of the life of a domestic cat, taking place over a period of months as she gives birth to a litter of kittens and cares for them as they grow."
  }
 }
