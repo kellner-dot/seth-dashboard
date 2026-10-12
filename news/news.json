@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-12T06:30:38+0000",
- "updated_ts": 1791786638,
+ "updated": "2026-10-12T07:00:40+0000",
+ "updated_ts": 1791788440,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Yandex bot traffic down 99% after data center attack",
+     "title": "Type-safe HTML templating in Zig",
      "summary": "Comments",
-     "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d#bot-traffic",
+     "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -16,13 +16,6 @@
      "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
      "summary": "Comments",
      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Type-safe HTML templating in Zig",
-     "summary": "Comments",
-     "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
      "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Calculus with Julia",
+     "summary": "Comments",
+     "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -116,8 +116,8 @@
      "source": "BBC World"
     },
     {
-     "title": "Documents falsified to evade tax on Abramovich's wealth",
-     "summary": "Backdated paperwork also made the Russian oligarch\u2019s yachts and mansions disappear from accounts, BBC finds.",
+     "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
+     "summary": "Backdated paperwork also made the Russian oligarch\u2019s yachts and mansions disappear from accounts, investigation finds.",
      "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 12 Oct 2026",
      "source": "BBC World"
@@ -135,6 +135,13 @@
      "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 11 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Trump says Russia and Ukraine agree to an 'energy ceasefire'",
+     "summary": "President Trump said Sunday that Russia and Ukraine had agreed to an \"energy ceasefire,\" but he offered no details on it and Kyiv reported attacks by Moscow on energy sites after his statement.",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+     "time": "Mon, 12 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Tropical Storm Rachel downgraded as high winds and rain turn inward",
@@ -168,13 +175,6 @@
      "title": "Don't be scared: Being afraid is outright fun, and maybe useful",
      "summary": "Listeners of NPR's Weekend Edition Sunday may already know that host Ayesha Rascoe loves horror. But why do scream queens (and kings) like her like what's frightening? The answer may surprise you.",
      "url": "https://www.npr.org/2026/10/11/nx-s1-5973128/dont-be-scared-being-afraid-is-outright-fun-and-maybe-useful",
-     "time": "Sun, 11 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "She was a global star: Teen bikes 700 miles carrying injured dad. Where is she now?",
-     "summary": "Her epic ride \u2014 carrying her injured dad on her $20 hot pink bicycle \u2014 made headlines. Promises were made \u2014 financial help, training for a cycling career, even a movie deal. Were any of them kept?",
-     "url": "https://www.npr.org/2026/10/11/g-s1-147267/bicycle-teenager-india-pandemic",
      "time": "Sun, 11 Oct 2026",
      "source": "NPR News"
     }
