@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-12T04:00:39+0000",
- "updated_ts": 1791777639,
+ "updated": "2026-10-12T04:30:40+0000",
+ "updated_ts": 1791779440,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Total Annihilation, rebuilt for modern computers",
+     "title": "Fingerprints are the new cookies",
      "summary": "Comments",
-     "url": "https://nanolathe.gg",
+     "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,16 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Fingerprints are the new cookies",
+     "title": "Total Annihilation, rebuilt for modern computers",
      "summary": "Comments",
-     "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Cartographers of North Korea (2019)",
-     "summary": "Comments",
-     "url": "https://cartographers-nk.wonyoung.so/",
+     "url": "https://nanolathe.gg",
      "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Tattoos you can turn on and off",
+     "title": "Cartographers of North Korea (2019)",
      "summary": "Comments",
-     "url": "https://www.livescience.com/technology/cool-chemistry-trick-allows-new-tattoos-to-turn-on-and-off",
+     "url": "https://cartographers-nk.wonyoung.so/",
      "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "No portable way to detect string-to-float conversion errors in standard C",
+     "summary": "Comments",
+     "url": "https://sebsite.pw/w/20261009-strtod.html",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
