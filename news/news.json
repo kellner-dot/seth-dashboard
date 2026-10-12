@@ -1,14 +1,28 @@
 {
- "updated": "2026-10-12T08:00:42+0000",
- "updated_ts": 1791792042,
+ "updated": "2026-10-12T08:30:37+0000",
+ "updated_ts": 1791793837,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Postgres isn't slow, your storage is",
+     "summary": "Comments",
+     "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Type-safe HTML templating in Zig",
      "summary": "Comments",
      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Do not install Zod 4.6.6 \u2013 might be infected",
+     "summary": "Comments",
+     "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,17 +34,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Postgres isn't slow, your storage is",
+     "title": "Calculus with Julia",
      "summary": "Comments",
-     "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: Atticus \u2013 Hold-to-talk voice assistant for macOS that runs on Claude -p",
-     "summary": "Comments",
-     "url": "https://github.com/SaarthurR/atticus-mac",
-     "time": "Mon, 12 Oct 2026",
+     "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://nanolathe.gg",
      "time": "Sun, 11 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Calculus with Julia",
-     "summary": "Comments",
-     "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
-     "time": "Sat, 10 Oct 2026",
      "source": "Hacker News"
     },
     {
