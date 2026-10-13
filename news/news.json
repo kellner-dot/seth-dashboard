@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-13T04:00:40+0000",
- "updated_ts": 1791864040,
+ "updated": "2026-10-13T04:30:40+0000",
+ "updated_ts": 1791865840,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
-     "summary": "Comments",
-     "url": "https://www.argmin.net/p/faster-fourier-transforms",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "The baffling intelligence of a single cell (2024)",
      "summary": "Comments",
@@ -24,6 +17,13 @@
      "summary": "Comments",
      "url": "https://z.ai/blog/glm-legal",
      "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+     "summary": "Comments",
+     "url": "https://arxiv.org/abs/2610.13928",
+     "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -151,6 +151,13 @@
      "source": "NPR News"
     },
     {
+     "title": "Actor Selma Blair removed from plane by police after altercation",
+     "summary": "Authorities say Blair was physically abusive and injured two flight attendants while traveling from Los Angeles to New York. A Blair representative said she had a medical emergency aboard the plane.",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998945/actor-selma-blair-removed-from-plane-by-police-after-altercation",
+     "time": "Mon, 12 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Federal agents search Rep. Ilhan Omar's DC home, DOJ says it approved the warrant",
      "summary": "The Justice Department says the search is part of an \"ongoing federal investigation\", while Omar calls it \"an attempt to target political enemies\"",
      "url": "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj",
@@ -168,13 +175,6 @@
      "title": "DOJ launches antitrust probe of TV networks. And, Trump says Ukraine needs new leader",
      "summary": "The Justice Department is investigating several TV networks for possible antitrust violations. And, President Trump pressures Ukrainians to elect a new leader.",
      "url": "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport",
-     "time": "Mon, 12 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "U.S. restrictions on Chinese drones are hurting cash-strapped police departments",
-     "summary": "The U.S. government is trying to end the dominance of high-quality, low-cost drones made in China. But more restrictions mean higher costs for cash-strapped police forces that rely on those drones.",
-     "url": "https://www.npr.org/2026/10/12/nx-s1-5888604/police-chinese-drones-bans-costs",
      "time": "Mon, 12 Oct 2026",
      "source": "NPR News"
     }
