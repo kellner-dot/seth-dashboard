@@ -2,7 +2,7 @@
  "generated": "emby-spotlight poller",
  "movies": 5445,
  "series": 34,
- "episodes": 60,
+ "episodes": 59,
  "played": 14,
  "unwatched": 5431,
  "new_arrivals": [
@@ -113,14 +113,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "The Two Faces of Miami",
-  "year": 2010,
+  "name": "Fore Play",
+  "year": 1975,
   "genres": [
-   "Documentary"
+   "Comedy"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "It's the playground of the rich and famous. The city that most embodies the excessiveness of the American dream. Every night in Miami, the beautiful people come out to play. But look beyond the glitz and glamour, the opu"
+  "overview": "A three-part omnibus centered around sex and its discontents."
  }
 }
