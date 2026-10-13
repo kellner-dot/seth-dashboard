@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "The Devil's Advocate",
-  "year": 2021,
+  "name": "Day's End",
+  "year": 1975,
   "genres": [
-   "Documentary"
+   "Documentary",
+   "Short"
   ],
-  "runtime_min": 144,
+  "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "The Devil\u2019s Advocate follows three high-profile defense attorneys, their clients accused of terrorism, and the implications of the words \u201cjustice for all.\u201d"
+  "overview": "In May 1972, Matta-Clark worked on an abandoned pier in New York for two months, where he cut sections of the door, floor, and roof.\r Camera: Betsy Susler."
  }
 }
