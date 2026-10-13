@@ -1,0 +1,195 @@
+/* ============================================================
+   KaviBOT "Midnight" theme v1 for Open WebUI
+   Design: dark, modern, conversation-first. Gradient accents
+   (cyan -> violet) pulled from the KaviBOT K mark.
+   Install target: open_webui/static/custom.css  (pip venv)
+   Marker: KAVIBOT-MIDNIGHT-v1
+   Selectors follow the Daylight v2 theme (verified against
+   open-webui v0.11.4 source: layout/Sidebar.svelte,
+   chat/MessageInput.svelte, chat/Messages/UserMessage.svelte).
+   Branding note: Open WebUI License clause 4 bars altering branding
+   EXCEPT for deployments with <= 50 end users per rolling 30 days
+   (exception i). This is a single-user deployment: compliant.
+   Keep Open WebUI on its DARK theme while this is active.
+   Rollback: restore the custom.css.bak-* the installer saves.
+   ============================================================ */
+
+:root {
+  --mn-bg:           #0a0a11;
+  --mn-surface:      #12121b;
+  --mn-surface-2:    #17171f;
+  --mn-accent-a:     #22d3ee;
+  --mn-accent-b:     #8b5cf6;
+  --mn-accent-grad:  linear-gradient(135deg, #22d3ee 0%, #8b5cf6 100%);
+  --mn-accent-soft:  rgba(139, 92, 246, 0.14);
+  --mn-user-bubble:  #1b1b28;
+  --mn-text:         #f1f2f7;
+  --mn-dim:          #9aa0b8;
+  --mn-border:       #23232f;
+  --mn-radius:       16px;
+  --mn-font:         "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+                     Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* ---- 1. KaviBOT brand mark: swap the sidebar logo ---- */
+.sidebar-new-chat-icon {
+  content: url('/static/kavibot-logo.png') !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 18px rgba(139, 92, 246, 0.45) !important;
+}
+
+/* ---- 2. KaviBOT wordmark: replace the sidebar name ---- */
+#sidebar-webui-name {
+  font-size: 0 !important;
+}
+#sidebar-webui-name::after {
+  content: "KaviBOT";
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+  background: var(--mn-accent-grad) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+/* ---- 3. app canvas ---- */
+html,
+body {
+  background: var(--mn-bg) !important;
+  color: var(--mn-text) !important;
+  font-family: var(--mn-font) !important;
+}
+
+input, textarea, button, select {
+  font-family: var(--mn-font) !important;
+  color: var(--mn-text) !important;
+}
+
+/* ---- 4. sidebar ---- */
+#sidebar {
+  background: var(--mn-surface) !important;
+  border-right: 1px solid var(--mn-border) !important;
+}
+
+#sidebar button {
+  border-radius: 9999px !important;
+}
+
+/* new chat button: gradient */
+#sidebar button:first-of-type {
+  background: var(--mn-accent-grad) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  border: none !important;
+  box-shadow: 0 4px 18px rgba(139, 92, 246, 0.35) !important;
+}
+
+/* selected chat row: soft violet */
+#sidebar [aria-selected="true"],
+#sidebar [aria-current="true"] {
+  background: var(--mn-accent-soft) !important;
+  border-radius: 12px !important;
+}
+
+/* ---- 5. send button -> gradient (only when clickable) ---- */
+#send-message-button:not(:disabled) {
+  background: var(--mn-accent-grad) !important;
+  border: none !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(34, 211, 238, 0.30) !important;
+}
+#send-message-button:not(:disabled):hover {
+  filter: brightness(1.12) !important;
+}
+
+/* toggles on -> violet */
+[role="switch"][aria-checked="true"] {
+  background-color: var(--mn-accent-b) !important;
+  border-color: var(--mn-accent-b) !important;
+}
+
+/* ---- 6. user message bubbles ---- */
+.chat-user .bg-gray-50 {
+  background-color: var(--mn-user-bubble) !important;
+  border: 1px solid var(--mn-border) !important;
+  color: var(--mn-text) !important;
+}
+
+/* ---- 7. composer: dark rounded card with glow edge ---- */
+textarea {
+  background: var(--mn-surface-2) !important;
+  border: 1px solid var(--mn-border) !important;
+  border-radius: var(--mn-radius) !important;
+  color: var(--mn-text) !important;
+}
+textarea:focus {
+  border-color: var(--mn-accent-b) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px var(--mn-accent-soft),
+              0 0 24px rgba(139, 92, 246, 0.25) !important;
+}
+textarea::placeholder {
+  color: var(--mn-dim) !important;
+}
+input[type="text"],
+input[type="search"] {
+  border-radius: 12px !important;
+  background: var(--mn-surface-2) !important;
+  border-color: var(--mn-border) !important;
+}
+
+/* ---- 8. links + secondary text ---- */
+a {
+  color: var(--mn-accent-a) !important;
+}
+.text-gray-500, .text-gray-400 {
+  color: var(--mn-dim) !important;
+}
+
+/* ---- 9. scrollbars, selection, dialogs ---- */
+::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
+::-webkit-scrollbar-track { background: transparent !important; }
+::-webkit-scrollbar-thumb { background: #2c2c3a !important; border-radius: 8px !important; }
+::-webkit-scrollbar-thumb:hover { background: var(--mn-accent-b) !important; }
+::selection { background: var(--mn-accent-soft) !important; }
+
+[role="dialog"],
+[role="menu"] {
+  background: var(--mn-surface) !important;
+  border-radius: var(--mn-radius) !important;
+  border: 1px solid var(--mn-border) !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55) !important;
+}
+
+/* ---- 10. model header: replace raw path + OI fallback with KaviBOT ---- */
+img[src*="profile/image"] {
+  content: url('/static/kavibot-logo.png') !important;
+}
+
+/* new-chat placeholder model name (raw file path) -> KaviBOT */
+div.text-3xl > div > div.line-clamp-1 {
+  font-size: 0 !important;
+}
+div.text-3xl > div > div.line-clamp-1::after {
+  content: "KaviBOT";
+  font-size: 1.875rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em !important;
+  text-transform: none !important;
+  background: var(--mn-accent-grad) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+/* composer model pill name (raw file path) -> KaviBOT */
+#model-selector-model-button .truncate {
+  font-size: 0 !important;
+}
+#model-selector-model-button .truncate::after {
+  content: "KaviBOT";
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  color: var(--mn-dim) !important;
+}
