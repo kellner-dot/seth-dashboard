@@ -1,15 +1,22 @@
 {
- "updated": "2026-10-13T10:30:41+0000",
- "updated_ts": 1791887441,
+ "updated": "2026-10-13T11:00:44+0000",
+ "updated_ts": 1791889244,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "The baffling intelligence of a single cell (2024)",
+     "title": "Show HN: Use your OpenAI subscription to create audiobooks",
      "summary": "Comments",
-     "url": "https://jsomers.net/e-coli-chemotaxis/",
-     "time": "Sun, 11 Oct 2026",
+     "url": "https://pdftomp3.com/connect-ai/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "11 year old unsoundness bugs found in Rust borrow checker",
+     "summary": "Comments",
+     "url": "https://github.com/rust-lang/rust/issues/164250",
+     "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -17,6 +24,13 @@
      "summary": "Comments",
      "url": "https://www.thehistoryblog.com/archives/77107",
      "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The baffling intelligence of a single cell (2024)",
+     "summary": "Comments",
+     "url": "https://jsomers.net/e-coli-chemotaxis/",
+     "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -30,20 +44,6 @@
      "title": "Intel D270 GPU AI Accelerator\u2013Up to 480 GB LPDDR5X",
      "summary": "Comments",
      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-     "summary": "Comments",
-     "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "A Modern Web App in C",
-     "summary": "Comments",
-     "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -123,18 +123,25 @@
      "source": "BBC World"
     },
     {
-     "title": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador",
-     "summary": "Bulgaria's prime minister says two merchant ships were hit by drones and he suspects Russia was behind the attacks.",
+     "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+     "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say.",
      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
-     "summary": "Despite the US president announcing energy infrastructure would not be targeted strikes have continued, Ukraine says.",
-     "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 12 Oct 2026",
+     "title": "Ex-president named leader of new DR Congo rebel coalition",
+     "summary": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
+     "url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "What ice cream has to do with this year's Nobel Prize in economics",
+     "summary": "Prices can get sticky. That helps explain why recessions hurt so much \u2014 and what policymakers can do about them.",
+     "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Win or lose, independent candidates want to meet voters in the middle",
@@ -168,13 +175,6 @@
      "title": "Morning news brief",
      "summary": "Trump will headline a rally in Alaska Tuesday, federal agents searched Rep. Ilhan Omar's D.C. home Monday, Trump's diesel deal with Russia frustrates European leaders.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5998694/morning-news-brief",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "DNA and vehicle-tracking help French investigators recover stolen Renoirs",
-     "summary": "DNA left on a protective painting cover helped investigators recover two stolen Renoirs and uncover what they suspected were preparations for another art heist, a French prosecutor said Monday.",
-     "url": "https://www.npr.org/2026/10/13/g-s1-147818/france-stolen-renoirs-recovered",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     }
