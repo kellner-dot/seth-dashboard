@@ -110,17 +110,17 @@ input, textarea, button, select {
 }
 
 /* ---- 6. user message bubbles ----
-   (v2: Seth wants white bubble + black text, max contrast) */
+   (v2: Seth wants BLACK bubble + WHITE text, max contrast) */
 .chat-user .bg-gray-50 {
-  background-color: #ffffff !important;
-  border: 1px solid #d8dae2 !important;
-  color: #111111 !important;
+  background-color: #101018 !important;
+  border: 1px solid var(--mn-border) !important;
+  color: #ffffff !important;
 }
 .chat-user,
 .chat-user .prose,
 .chat-user .prose *,
 .chat-user p, .chat-user span, .chat-user div {
-  color: #111111 !important;
+  color: #ffffff !important;
 }
 
 /* ---- 7. composer: dark rounded card with glow edge ---- */
