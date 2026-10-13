@@ -120,7 +120,7 @@ input, textarea, button, select {
 .chat-user .prose,
 .chat-user .prose *,
 .chat-user p, .chat-user span, .chat-user div {
-  color: #ffffff !important;
+  color: #00d5ff !important;
   opacity: 1 !important;
   text-shadow: none !important;
 }
