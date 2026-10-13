@@ -14,7 +14,7 @@
 $ErrorActionPreference = "Stop"
 
 $themeDir = "C:\AI\webui-theme"
-$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@71ce5911362fc6c7ce50ef86db7e4e7e5c451284/webui-theme"
+$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@7931047d53d3b7ada0af0c60f76519ec9730b12c/webui-theme"
 $venv     = "C:\AI\venvs\webui"
 
 Write-Output "=== KaviBOT Midnight theme installer (v1) ==="
