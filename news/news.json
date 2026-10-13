@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-13T11:00:44+0000",
- "updated_ts": 1791889244,
+ "updated": "2026-10-13T11:30:46+0000",
+ "updated_ts": 1791891046,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+     "title": "11 year old unsoundness bugs found in Rust borrow checker",
      "summary": "Comments",
-     "url": "https://pdftomp3.com/connect-ai/",
+     "url": "https://github.com/rust-lang/rust/issues/164250",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "11 year old unsoundness bugs found in Rust borrow checker",
+     "title": "Show HN: Use your OpenAI subscription to create audiobooks",
      "summary": "Comments",
-     "url": "https://github.com/rust-lang/rust/issues/164250",
+     "url": "https://pdftomp3.com/connect-ai/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Intel D270 GPU AI Accelerator\u2013Up to 480 GB LPDDR5X",
+     "title": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
      "summary": "Comments",
-     "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-     "time": "Mon, 12 Oct 2026",
+     "url": "https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran",
+     "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -123,7 +123,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+     "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
      "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say.",
      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
@@ -137,9 +137,30 @@
      "source": "BBC World"
     },
     {
+     "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+     "summary": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
+     "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Pakistan imposes emergency rule in former prime minister's stronghold",
+     "summary": "Pakistan has imposed emergency rule in the province governed by the political party of imprisoned former prime minister Imran Khan.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "What ice cream has to do with this year's Nobel Prize in economics",
      "summary": "Prices can get sticky. That helps explain why recessions hurt so much \u2014 and what policymakers can do about them.",
      "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "One way to protect coral reefs? Bring back seabirds",
+     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     },
@@ -154,27 +175,6 @@
      "title": "Polls are a snapshot, and other helpful things to remember during the midterm elections",
      "summary": "With Election Day just a few weeks away \u2014 and millions of votes already cast \u2014 midterm polls are everywhere. While polling can be a helpful tool to understand the electorate, it's not a crystal ball.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5996916/2026-election-midterms-polls-horse-race",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Should states force cities to build cheaper houses? Voters here will decide",
-     "summary": "Voters in Massachusetts will decide whether to require cities and towns to allow smaller homes on smaller lots. A growing number of states are doing the same to help ease a housing shortage.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5979839/massachusetts-starter-homes-ballot-affordability",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "One way to protect coral reefs? Bring back seabirds",
-     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Morning news brief",
-     "summary": "Trump will headline a rally in Alaska Tuesday, federal agents searched Rep. Ilhan Omar's D.C. home Monday, Trump's diesel deal with Russia frustrates European leaders.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5998694/morning-news-brief",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     }
