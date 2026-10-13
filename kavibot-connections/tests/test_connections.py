@@ -39,6 +39,7 @@ class FakeHttp:
         self.gets = []
         self.post_resp = (200, "{}")
         self.get_resp = (200, "{}")
+        self.get_fn = None  # optional: fn(url) -> (status, body)
 
     def post(self, url, data, headers=None):
         self.posts.append((url, dict(data), dict(headers or {})))
@@ -46,6 +47,8 @@ class FakeHttp:
 
     def get(self, url, headers=None):
         self.gets.append((url, dict(headers or {})))
+        if self.get_fn is not None:
+            return self.get_fn(url)
         return self.get_resp
 
 
@@ -75,8 +78,16 @@ class RegistryTests(unittest.TestCase):
         specs = load_registry()
         self.assertIn("gcal", specs)
         self.assertIn("apple_music", specs)
+        self.assertIn("gmail", specs)
+        self.assertIn("drive", specs)
         self.assertEqual(specs["gcal"]["type"], "oauth2")
         self.assertEqual(specs["apple_music"]["type"], "file_import")
+        self.assertEqual(
+            specs["gmail"]["oauth"]["scopes"],
+            ["https://www.googleapis.com/auth/gmail.readonly"])
+        self.assertEqual(
+            specs["drive"]["oauth"]["scopes"],
+            ["https://www.googleapis.com/auth/drive.readonly"])
 
     def test_register_rejects_bad_spec(self):
         bad = {"name": "x", "type": "oauth2", "capabilities": ["c"],
@@ -349,6 +360,206 @@ class AppleMusicTests(unittest.TestCase):
         mgr = fresh_manager()
         result = mgr.taste("apple_music")
         self.assertEqual(result["error"], "not_imported")
+
+
+# ---------------------------------------------------------------------------
+# Synthetic fixtures only: no real mail, no real files, no real credentials.
+# ---------------------------------------------------------------------------
+
+GMAIL_LIST = {
+    "messages": [{"id": "m1", "threadId": "t1"},
+                 {"id": "m2", "threadId": "t2"}],
+    "resultSizeEstimate": 2,
+}
+
+
+def _gmail_meta(mid, sender, subject):
+    return {
+        "id": mid, "threadId": "t1",
+        "snippet": "synthetic snippet for tests",
+        "labelIds": ["INBOX"],
+        "payload": {
+            "mimeType": "multipart/alternative",
+            "headers": [
+                {"name": "From", "value": sender},
+                {"name": "Subject", "value": subject},
+                {"name": "Date", "value": "Tue, 13 Oct 2026 09:00:00 -0400"},
+            ],
+        },
+    }
+
+
+def _gmail_full(mid):
+    import base64 as _b64
+    body = _b64.urlsafe_b64encode(
+        b"Hello from the synthetic test message. Second line here.").decode()
+    meta = _gmail_meta(mid, "Test Sender <test@example.com>",
+                       "Synthetic subject")
+    meta["payload"]["parts"] = [
+        {"mimeType": "text/plain", "filename": "",
+         "body": {"data": body, "size": 60}},
+        {"mimeType": "application/pdf", "filename": "attach.pdf",
+         "body": {"attachmentId": "att1", "size": 10}},
+    ]
+    return meta
+
+
+def gmail_router(url):
+    if "/messages?" in url and "format=" not in url:
+        return 200, json.dumps(GMAIL_LIST)
+    if "/messages/m1" in url:
+        if "format=full" in url:
+            return 200, json.dumps(_gmail_full("m1"))
+        return 200, json.dumps(_gmail_meta(
+            "m1", "Test Sender <test@example.com>", "Synthetic subject"))
+    if "/messages/m2" in url:
+        return 200, json.dumps(_gmail_meta(
+            "m2", "Other Person <other@example.com>", "Another synthetic"))
+    return 404, "{}"
+
+
+class GmailTests(unittest.TestCase):
+    def _mgr(self):
+        mgr = fresh_manager()
+        seed_oauth(mgr, "gmail")
+        mgr.http.get_fn = gmail_router
+        return mgr
+
+    def test_search_messages_lists_and_summarizes(self):
+        mgr = self._mgr()
+        result = mgr.call("gmail", "search_messages", query="test",
+                          max_results="10")
+        self.assertTrue(result["ok"])
+        self.assertEqual(len(result["messages"]), 2)
+        self.assertEqual(result["messages"][0]["subject"],
+                         "Synthetic subject")
+        self.assertEqual(result["messages"][0]["from"],
+                         "Test Sender <test@example.com>")
+        self.assertEqual(result["resultSizeEstimate"], 2)
+        _, headers = mgr.http.gets[0]
+        self.assertEqual(headers["Authorization"], "Bearer old-access")
+
+    def test_get_message_decodes_text_body(self):
+        mgr = self._mgr()
+        result = mgr.call("gmail", "get_message", message_id="m1")
+        self.assertTrue(result["ok"])
+        msg = result["message"]
+        self.assertEqual(msg["subject"], "Synthetic subject")
+        self.assertIn("Hello from the synthetic test message",
+                      msg["body_text"])
+        self.assertLessEqual(len(msg["body_text"]), 4000)
+
+    def test_get_message_requires_id(self):
+        mgr = self._mgr()
+        result = mgr.call("gmail", "get_message")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "provider_error")
+
+    def test_not_connected_never_hallucinates(self):
+        mgr = fresh_manager()
+        result = mgr.call("gmail", "search_messages", query="x")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "not_connected")
+        self.assertIn("connect gmail", result["message"])
+
+
+DRIVE_LIST = {
+    "files": [
+        {"id": "f1", "name": "notes.txt", "mimeType": "text/plain",
+         "modifiedTime": "2026-10-12T10:00:00.000Z", "size": "18"},
+        {"id": "f2", "name": "photo.png", "mimeType": "image/png",
+         "modifiedTime": "2026-10-11T10:00:00.000Z", "size": "999"},
+    ]
+}
+
+DRIVE_META = {
+    "f1": {"id": "f1", "name": "notes.txt", "mimeType": "text/plain",
+           "modifiedTime": "2026-10-12T10:00:00.000Z", "size": "18",
+           "parents": ["root"]},
+    "f2": {"id": "f2", "name": "photo.png", "mimeType": "image/png",
+           "modifiedTime": "2026-10-11T10:00:00.000Z", "size": "999",
+           "parents": ["root"]},
+    "f3": {"id": "f3", "name": "Doc", "mimeType":
+           "application/vnd.google-apps.document",
+           "modifiedTime": "2026-10-10T10:00:00.000Z", "parents": ["root"]},
+    "f4": {"id": "f4", "name": "big.txt", "mimeType": "text/plain",
+           "modifiedTime": "2026-10-09T10:00:00.000Z",
+           "size": str(300 * 1024), "parents": ["root"]},
+}
+
+
+def drive_router(url):
+    for fid, meta in DRIVE_META.items():
+        if "/files/%s/export?" % fid in url:
+            return 200, "exported doc text"
+        if "/files/%s?alt=media" % fid in url:
+            return 200, "hello text file"
+        if "/files/%s?" % fid in url:
+            return 200, json.dumps(meta)
+    if "/files?" in url:
+        return 200, json.dumps(DRIVE_LIST)
+    return 404, "{}"
+
+
+class DriveTests(unittest.TestCase):
+    def _mgr(self):
+        mgr = fresh_manager()
+        seed_oauth(mgr, "drive")
+        mgr.http.get_fn = drive_router
+        return mgr
+
+    def test_list_files(self):
+        mgr = self._mgr()
+        result = mgr.call("drive", "list_files", max_results="10")
+        self.assertTrue(result["ok"])
+        self.assertEqual(len(result["files"]), 2)
+        self.assertEqual(result["files"][0]["name"], "notes.txt")
+        self.assertEqual(result["files"][0]["size"], 18)
+        _, headers = mgr.http.gets[0]
+        self.assertEqual(headers["Authorization"], "Bearer old-access")
+
+    def test_get_file_metadata(self):
+        mgr = self._mgr()
+        result = mgr.call("drive", "get_file_metadata", file_id="f1")
+        self.assertTrue(result["ok"])
+        self.assertEqual(result["file"]["mimeType"], "text/plain")
+        self.assertEqual(result["file"]["parents"], ["root"])
+
+    def test_download_text_file(self):
+        mgr = self._mgr()
+        result = mgr.call("drive", "download_file_text", file_id="f1")
+        self.assertTrue(result["ok"])
+        self.assertEqual(result["text"], "hello text file")
+        self.assertFalse(result["truncated"])
+        self.assertTrue(any("alt=media" in u for u, _ in mgr.http.gets))
+
+    def test_download_refuses_binary(self):
+        mgr = self._mgr()
+        result = mgr.call("drive", "download_file_text", file_id="f2")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "not_text")
+        self.assertFalse(any("alt=media" in u for u, _ in mgr.http.gets))
+
+    def test_google_doc_exports_to_text(self):
+        mgr = self._mgr()
+        result = mgr.call("drive", "download_file_text", file_id="f3")
+        self.assertTrue(result["ok"])
+        self.assertEqual(result["text"], "exported doc text")
+        self.assertTrue(any("/export?" in u for u, _ in mgr.http.gets))
+
+    def test_download_refuses_oversize(self):
+        mgr = self._mgr()
+        result = mgr.call("drive", "download_file_text", file_id="f4")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "too_large")
+        self.assertFalse(any("alt=media" in u for u, _ in mgr.http.gets))
+
+    def test_not_connected_never_hallucinates(self):
+        mgr = fresh_manager()
+        result = mgr.call("drive", "list_files")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "not_connected")
+        self.assertIn("connect drive", result["message"])
 
 
 if __name__ == "__main__":

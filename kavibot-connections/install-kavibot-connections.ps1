@@ -12,7 +12,7 @@ then fill in the -Sha parameter below. The script refuses to run with the
 placeholder.
 #>
 param(
-    [string]$Sha = "165c9fbfd2d15dde383656d690420887a2f13f3e"
+    [string]$Sha = "41c1dcb6bbcfe214e33354474cb01a29a33a7fb2"
 )
 
 $ErrorActionPreference = "Stop"
@@ -34,6 +34,8 @@ $Files = @(
     "oauth2.py",
     "secret_store.py",
     "gcal.py",
+    "gmail.py",
+    "drive.py",
     "apple_music.py",
     "manager.py",
     "kavibot-connect.py",

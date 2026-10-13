@@ -26,6 +26,10 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 NOT_CONNECTED_MSG = {
     "gcal": ("Google Calendar isn't connected yet. Run: "
              "kavibot-connect.py connect gcal"),
+    "gmail": ("Gmail isn't connected yet. Run: "
+              "kavibot-connect.py connect gmail"),
+    "drive": ("Google Drive isn't connected yet. Run: "
+              "kavibot-connect.py connect drive"),
     "apple_music": ("No Apple Music library imported yet. Export it "
                     "(File > Library > Export Library) then run: "
                     "kavibot-connect.py import apple_music <Library.xml>"),

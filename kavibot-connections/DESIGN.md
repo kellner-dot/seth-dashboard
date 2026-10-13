@@ -46,7 +46,7 @@ If a connection isn't set up, `call` returns a structured `not_connected`
 error telling Seth exactly how to connect - it never invents data. This is
 the same bar as the rest of KaviBOT's honesty work.
 
-## Pilots (both free, both read-only)
+## Pilots (all free, all read-only)
 
 ### 1. Google Calendar (`gcal`, type `oauth2`)
 
@@ -87,6 +87,44 @@ Zero cost, zero network, zero credentials.
   inventory) stored as JSON in its knowledge area, plus a one-paragraph
   summary it can speak naturally.
 - The XML never leaves the PC; only the derived profile enters KaviBOT.
+
+### 3. Gmail (`gmail`, type `oauth2`)
+
+Why: Seth asked "can we do anything other than calendar while in there" and
+picked Gmail + Drive (2026-10-13 ~10:15 EDT). Mail triage and "what did X
+say" are core daily-use questions for a personal AI.
+
+- Scope: `https://www.googleapis.com/auth/gmail.readonly` only.
+- Honest scope note: Google classifies `gmail.readonly` as a **restricted**
+  scope (stricter than calendar's sensitive). For a single-user personal app
+  this still works without verification or a CASA assessment - the owner
+  clicks through the one-time "Google hasn't verified this app" warning
+  (Advanced -> Continue), same as the Calendar pilot. If Google ever tightens
+  restricted-scope access for unverified apps, this pilot degrades to a clear
+  `auth_failed` error, never silent breakage.
+- Capabilities: `search_messages` (query + From/Subject/Date/snippet per
+  hit, max 20), `get_message` (full headers + decoded text body, 4000-char
+  cap). Bodies are returned to the caller, never logged.
+
+### 4. Google Drive (`drive`, type `oauth2`)
+
+Why: same Seth decision as Gmail. "Find that file" / "what's in my notes"
+without leaving the chat.
+
+- Scope: `https://www.googleapis.com/auth/drive.readonly` only
+  (**sensitive**, not restricted - same posture as Calendar).
+- Capabilities: `list_files` (Drive query syntax, newest-first, max 50),
+  `get_file_metadata`, `download_file_text` (text-ish files only,
+  200 KB cap, 4000-char return cap; Google Docs/Sheets/Slides auto-export
+  to text/csv; binaries refused with a structured `not_text` error and are
+  never dumped to chat).
+
+Both new pilots reuse the same Google Cloud project, the same Desktop OAuth
+client, and the same consent screen as `gcal` - the phone driver enabled the
+Gmail/Drive APIs and added both scopes in the same console session, so there
+is nothing extra for Seth to configure. Each still needs its own
+`kavibot-connect.py connect <name>` to complete the OAuth loop and vault its
+own refresh token.
 
 ## Evaluated and EXCLUDED (do not build)
 
