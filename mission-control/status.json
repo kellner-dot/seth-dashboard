@@ -1,6 +1,6 @@
 {
- "generated_at": 1791910810,
- "generated_iso": "2026-10-13T17:00:10+0000",
+ "generated_at": 1791911112,
+ "generated_iso": "2026-10-13T17:05:12+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -11,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 63900,
+   "uptime_s": 64202,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -49,7 +49,7 @@
      "playing": null
     }
    ],
-   "terabox_uploaders": 0,
+   "terabox_uploaders": 1,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
@@ -62,29 +62,30 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": null,
-    "up": false
+    "http": 200,
+    "up": true
    },
    "rvg_agent": {
-    "up": false
+    "up": true
    },
-   "online": false
+   "online": true
   },
   {
    "id": "iphone-xs-max",
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": false
+   "online": true,
+   "ping_ms": 15
   },
   {
    "id": "motorola-razr-2023",
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": false,
+   "online": true,
    "rvg_agent": {
-    "up": false,
+    "up": true,
     "authed": false
    }
   }
