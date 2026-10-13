@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-13T02:30:51+0000",
- "updated_ts": 1791858651,
+ "updated": "2026-10-13T03:00:39+0000",
+ "updated_ts": 1791860439,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Leaving Tech",
+     "summary": "Comments",
+     "url": "https://ryanbigg.com/2026/10/leaving-tech",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "GLM-Legal",
      "summary": "Comments",
@@ -37,13 +44,6 @@
      "title": "Intel D270 GPU AI Accelerator\u2013Up to 480 GB LPDDR5X",
      "summary": "Comments",
      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-     "summary": "Comments",
-     "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
