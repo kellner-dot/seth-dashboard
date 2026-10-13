@@ -34,7 +34,7 @@ from connection import AuthError
 
 SPEC_NAME = "icloud"
 
-IMAP_HOST = "imap.apple.com"
+IMAP_HOST = "imap.mail.me.com"
 CALDAV_BASE = "https://caldav.icloud.com/"
 CARDDAV_BASE = "https://contacts.icloud.com/"
 
