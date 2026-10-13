@@ -9,16 +9,22 @@ Backends:
     scope, same boundary as the existing C:\\AI\\vault. Any local process can
     unprotect LocalMachine blobs; the ACL on the directory keeps it to
     SYSTEM + Administrators.
-  - FileSecretBackend (staging/dev): JSON file with mode 0600. Mirrors the
-    existing ~/.kavi-secrets pattern. NEVER for production tokens.
+  - FileSecretBackend (staging/dev): JSON file with mode 0600 on POSIX.
+    On Windows, POSIX mode bits don't exist, so the backend instead
+    restricts the file ACL to the current user (the Windows equivalent
+    of 0600) via icacls, best-effort. Mirrors the existing
+    ~/.kavi-secrets pattern. NEVER for production tokens.
 
 The manager picks DPAPI on Windows, file backend elsewhere.
 """
 import base64
 import ctypes
+import getpass
 import json
 import os
+import re
 import stat
+import subprocess
 
 SECRET_PREFIX = "conn"
 
@@ -52,7 +58,9 @@ class SecretBackend:
 
 
 class FileSecretBackend(SecretBackend):
-    """0600 JSON file. Staging/dev only."""
+    """0600 JSON file on POSIX; restricted user-only ACL on Windows.
+
+    Staging/dev only."""
 
     def __init__(self, path):
         self.path = path
@@ -60,6 +68,26 @@ class FileSecretBackend(SecretBackend):
         if not os.path.exists(path):
             self._write({})
         os.chmod(path, 0o600)
+        self._restrict_windows_acl(path)
+
+    def _restrict_windows_acl(self, path):
+        """Windows equivalent of chmod 0600: strip inherited ACL entries and
+        grant full control to the current user only. Best-effort: if icacls
+        is unavailable the file keeps its inherited ACL and mode_ok()
+        reports False honestly."""
+        if os.name != "nt":
+            return
+        try:
+            user = getpass.getuser()
+        except Exception:
+            return
+        try:
+            subprocess.run(
+                ["icacls", path, "/inheritance:r",
+                 "/grant:r", "%s:(F)" % user],
+                capture_output=True, timeout=30, check=False)
+        except Exception:
+            pass
 
     def _read(self):
         with open(self.path, "r", encoding="utf-8") as fh:
@@ -70,6 +98,7 @@ class FileSecretBackend(SecretBackend):
         with open(tmp, "w", encoding="utf-8") as fh:
             json.dump(data, fh)
         os.chmod(tmp, 0o600)
+        self._restrict_windows_acl(tmp)
         os.replace(tmp, self.path)
 
     def save(self, name, value):
@@ -92,7 +121,47 @@ class FileSecretBackend(SecretBackend):
         return name in self._read()
 
     def mode_ok(self):
+        """True when the file is owner-only.
+
+        POSIX: mode bits are exactly 0600. Windows has no POSIX mode bits
+        (Python synthesizes 0666/0444 from the read-only flag), so instead
+        verify the ACL grants access only to the current user — no broad
+        groups like Everyone, Users, or Authenticated Users."""
+        if os.name == "nt":
+            return self._windows_acl_restricted()
         return bool(os.stat(self.path).st_mode & 0o777 == 0o600)
+
+    def _windows_acl_restricted(self):
+        try:
+            proc = subprocess.run(
+                ["icacls", self.path],
+                capture_output=True, text=True, timeout=15)
+        except Exception:
+            return False
+        if proc.returncode != 0 or not proc.stdout:
+            return False
+        try:
+            user_short = getpass.getuser().lower().split("\\")[-1]
+        except Exception:
+            return False
+        if not user_short:
+            return False
+        broad = ("everyone", "builtin\\users", "authenticated users",
+                 "guests", "interactive", "network service",
+                 "local service")
+        # ACEs look like DOMAIN\user:(F) or DOMAIN\user:(I)(F); the first
+        # one sits on the same line as the filename, so scan all text.
+        aces = re.findall(r"([^:()\s][^:()]*?):\([A-Z]", proc.stdout)
+        if not aces:
+            return False
+        saw_user = False
+        for ident in aces:
+            low = ident.strip().lower()
+            if any(b in low for b in broad):
+                return False
+            if user_short in low:
+                saw_user = True
+        return saw_user
 
 
 class DPAPISecretBackend(SecretBackend):
