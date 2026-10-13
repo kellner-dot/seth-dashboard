@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-13T17:00:50+0000",
- "updated_ts": 1791910850,
+ "updated": "2026-10-13T17:30:47+0000",
+ "updated_ts": 1791912647,
  "topics": [
   {
    "name": "Tech",
@@ -27,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Cyberattack halts construction of tunnel between Denmark and Germany",
+     "summary": "Comments",
+     "url": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "11 year old unsoundness bugs found in Rust borrow checker",
      "summary": "Comments",
      "url": "https://github.com/rust-lang/rust/issues/164250",
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+     "title": "Coris (YC S22) Is Hiring Back End Engineer",
      "summary": "Comments",
-     "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
-     "summary": "Comments",
-     "url": "https://eg2.haku.sh/",
+     "url": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -103,7 +103,7 @@
     },
     {
      "title": "Horrified witnesses recount fatal rollercoaster incident at Six Flags",
-     "summary": "One person is dead and others were injured after an incident at the amusement park in the US state of Georgia.",
+     "summary": "Police say preliminary information suggests the man who died at the Georgia amusement park fell from a ride.",
      "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
@@ -158,13 +158,6 @@
      "source": "NPR News"
     },
     {
-     "title": "One way to protect coral reefs? Bring back seabirds",
-     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "Win or lose, independent candidates want to meet voters in the middle",
      "summary": "Nearly 200 independent candidates in more than 100 congressional races are trying to prove there's an alternative to the two party system \u2014 even though the chance of winning is very low.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
@@ -175,6 +168,13 @@
      "title": "Voters here will decide whether to force cities to build cheaper, smaller homes",
      "summary": "Voters in Massachusetts will decide whether to require cities and towns to allow smaller homes on smaller lots. A growing number of states are doing the same to help ease a housing shortage.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5979839/massachusetts-starter-homes-ballot-affordability",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Polls are a snapshot, and other helpful things to remember during the midterm elections",
+     "summary": "With Election Day just a few weeks away \u2014 and millions of votes already cast \u2014 midterm polls are everywhere. While polling can be a helpful tool to understand the electorate, it's not a crystal ball.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5996916/2026-election-midterms-polls-horse-race",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Marina Herlop, Cameron Winter, Jespfur, Zsela and More: This Week\u2019s Pitchfork Selects Playlist",
+     "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
+     "url": "https://pitchfork.com/story/marina-herlop-cameron-winter-jespfur-zsela-this-weeks-pitchfork-selects-playlist/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Michael Stipe\u2019s Debut Solo Album Almost Has a Release Date",
      "summary": "The lead single is dropping New Year\u2019s Eve but you\u2019ll have to wait until 2027 to hear the whole project",
      "url": "https://pitchfork.com/story/michael-stipe-reveals-debut-solo-album-release-date/",
@@ -262,13 +269,6 @@
      "title": "Charli XCX Brings Out Tinashe at Austin City Limits Festival",
      "summary": "The Popstar mastermind gave \u201cNobody Wanna Dance Anymore\" and \u201cMelatonin\u201d live debuts",
      "url": "https://pitchfork.com/story/charli-xcx-brings-out-tinashe-at-austin-city-limits/",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Jack White Reunites the Raconteurs at Nashville Show",
-     "summary": "It marked the bands first appearance together since 2019",
-     "url": "https://pitchfork.com/story/jack-white-reunites-the-raconteurs-at-nashville-show/",
      "time": "Sun, 11 Oct 2026",
      "source": "Pitchfork"
     }
