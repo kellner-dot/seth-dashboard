@@ -1,14 +1,28 @@
 {
- "updated": "2026-10-13T14:30:51+0000",
- "updated_ts": 1791901851,
+ "updated": "2026-10-13T15:00:39+0000",
+ "updated_ts": 1791903639,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Apple HomeView",
+     "summary": "Comments",
+     "url": "https://www.apple.com/apple-homeview/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "11 year old unsoundness bugs found in Rust borrow checker",
      "summary": "Comments",
      "url": "https://github.com/rust-lang/rust/issues/164250",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+     "summary": "Comments",
+     "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
+     "title": "New Apple TV 4K",
      "summary": "Comments",
-     "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -30,20 +44,6 @@
      "title": "A Visual Intro to Complex Numbers",
      "summary": "Comments",
      "url": "https://photonlines.substack.com/p/a-visual-intro-to-complex-numbers",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Hittite royal archive found in Turkey",
-     "summary": "Comments",
-     "url": "https://www.thehistoryblog.com/archives/77107",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Mozilla Introduces Firefox Enterprise",
-     "summary": "Comments",
-     "url": "https://www.firefox.com/en-US/enterprise/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -124,7 +124,7 @@
     },
     {
      "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
-     "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say.",
+     "summary": "Six crew members are rescued but 10 are missing after a merchant ship was sunk overnight, Bulgaria says.",
      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
@@ -158,13 +158,6 @@
      "source": "NPR News"
     },
     {
-     "title": "One way to protect coral reefs? Bring back seabirds",
-     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "Win or lose, independent candidates want to meet voters in the middle",
      "summary": "Nearly 200 independent candidates in more than 100 congressional races are trying to prove there's an alternative to the two party system \u2014 even though the chance of winning is very low.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
@@ -175,6 +168,13 @@
      "title": "Polls are a snapshot, and other helpful things to remember during the midterm elections",
      "summary": "With Election Day just a few weeks away \u2014 and millions of votes already cast \u2014 midterm polls are everywhere. While polling can be a helpful tool to understand the electorate, it's not a crystal ball.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5996916/2026-election-midterms-polls-horse-race",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "One way to protect coral reefs? Bring back seabirds",
+     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     }
