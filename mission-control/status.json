@@ -1,9 +1,17 @@
 {
- "generated_at": 1791927063,
- "generated_iso": "2026-10-13T21:31:03+0000",
+ "generated_at": 1791927662,
+ "generated_iso": "2026-10-13T21:41:02+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
+ "alerts": [
+  {
+   "severity": "critical",
+   "icon": "\ud83d\udda5\ufe0f",
+   "title": "Gaming PC offline",
+   "message": "SETHS-PC not reachable. Emby, TeraBox, and BiglyBT data may be stale.",
+   "at": "2026-10-13T21:41:02+0000"
+  }
+ ],
  "github": {
   "profile": "https://github.com/kellner-dot",
   "public_repos": 10,
@@ -20,17 +28,10 @@
   ]
  },
  "emby_library": {
-  "movies": 5445,
-  "series": 34,
-  "episodes": 59,
-  "recent": [
-   "The Monkey",
-   "80s-commercials",
-   "Come Over, My Parents Aren't Home",
-   "The Monkey",
-   "80s-commercials",
-   "Possessor"
-  ]
+  "movies": null,
+  "series": null,
+  "episodes": null,
+  "recent": []
  },
  "terabox": {
   "total": null,
@@ -40,7 +41,7 @@
  "kaviguard": {},
  "biglybt": {
   "running": false,
-  "scheduler": "day \u00b7 throttled 1 MB/s"
+  "scheduler": ""
  },
  "devices": [
   {
@@ -48,23 +49,16 @@
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": true,
-   "rvg_version": "1.20.0",
-   "uptime_s": 80180,
+   "online": false,
+   "rvg_version": "",
+   "uptime_s": null,
    "hostname": "SETHS-PC",
    "emby": {
-    "running": true,
-    "version": "4.10.1.0"
+    "running": false,
+    "version": ""
    },
-   "emby_sessions": [
-    {
-     "device": "",
-     "client": "",
-     "user": "",
-     "playing": null
-    }
-   ],
-   "terabox_uploaders": 1,
+   "emby_sessions": [],
+   "terabox_uploaders": 0,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
