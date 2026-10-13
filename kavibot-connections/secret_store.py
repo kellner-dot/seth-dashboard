@@ -179,6 +179,7 @@ class DPAPISecretBackend(SecretBackend):
 
     def _protect(self, plaintext: bytes) -> bytes:
         crypt32 = ctypes.windll.crypt32
+        kernel32 = ctypes.windll.kernel32
 
         class DATA_BLOB(ctypes.Structure):
             _fields_ = [("cbData", ctypes.c_ulong),
@@ -201,10 +202,11 @@ class DPAPISecretBackend(SecretBackend):
         try:
             return ctypes.string_at(out.pbData, out.cbData)
         finally:
-            crypt32.LocalFree(out.pbData)
+            kernel32.LocalFree(out.pbData)
 
     def _unprotect(self, blob_bytes: bytes) -> bytes:
         crypt32 = ctypes.windll.crypt32
+        kernel32 = ctypes.windll.kernel32
 
         class DATA_BLOB(ctypes.Structure):
             _fields_ = [("cbData", ctypes.c_ulong),
@@ -226,7 +228,7 @@ class DPAPISecretBackend(SecretBackend):
         try:
             return ctypes.string_at(out.pbData, out.cbData)
         finally:
-            crypt32.LocalFree(out.pbData)
+            kernel32.LocalFree(out.pbData)
 
     def save(self, name, value):
         with open(self._path(name), "wb") as fh:
