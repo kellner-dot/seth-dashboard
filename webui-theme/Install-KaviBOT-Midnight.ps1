@@ -1,4 +1,4 @@
-﻿<#
+<#
   KaviBOT "Midnight" theme installer for Open WebUI (pip install on SETHS-PC).
   v1: installs dark theme CSS + KaviBOT logo into the venv's static dir.
   - Downloads fresh copies from the public seth-dashboard repo
