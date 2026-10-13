@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-13T16:00:38+0000",
- "updated_ts": 1791907238,
+ "updated": "2026-10-13T16:30:39+0000",
+ "updated_ts": 1791909039,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Gemini 4 Argon",
+     "summary": "Comments",
+     "url": "https://deepmind.google/models/gemini/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Apple HomeView",
      "summary": "Comments",
@@ -20,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Thunderbird for iOS",
+     "summary": "Comments",
+     "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
      "summary": "Comments",
      "url": "https://eg2.haku.sh/",
@@ -30,20 +44,6 @@
      "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
      "summary": "Comments",
      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "New Apple TV 4K",
-     "summary": "Comments",
-     "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Now That Information Is Free, What's a College Campus For?",
-     "summary": "Comments",
-     "url": "https://commonedge.org/now-that-information-is-free-whats-a-college-campus-for/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,16 +102,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Breaking Bad actor RJ Mitte dies aged 34",
-     "summary": "Mitte, who lived with cerebral palsy, starred as Walter White Jr in the Emmy-winning drama series.",
-     "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
+     "title": "Horrified witnesses recount fatal rollercoaster incident at Six Flags",
+     "summary": "One person is dead and others were injured after an incident at the amusement park in the US state of Georgia.",
+     "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Horrified witnesses recount fatal rollercoaster incident at Six Flags",
-     "summary": "One person is dead and others were injured after an incident at the amusement park in the US state of Georgia.",
-     "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
+     "title": "Breaking Bad actor RJ Mitte dies aged 34",
+     "summary": "Mitte, who lived with cerebral palsy, starred as Walter White Jr in the Emmy-winning drama series.",
+     "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
@@ -158,16 +158,16 @@
      "source": "NPR News"
     },
     {
-     "title": "Win or lose, independent candidates want to meet voters in the middle",
-     "summary": "Nearly 200 independent candidates in more than 100 congressional races are trying to prove there's an alternative to the two party system \u2014 even though the chance of winning is very low.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
+     "title": "One way to protect coral reefs? Bring back seabirds",
+     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "One way to protect coral reefs? Bring back seabirds",
-     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
+     "title": "Win or lose, independent candidates want to meet voters in the middle",
+     "summary": "Nearly 200 independent candidates in more than 100 congressional races are trying to prove there's an alternative to the two party system \u2014 even though the chance of winning is very low.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     },
