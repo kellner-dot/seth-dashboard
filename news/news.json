@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-13T20:30:40+0000",
- "updated_ts": 1791923440,
+ "updated": "2026-10-13T21:00:40+0000",
+ "updated_ts": 1791925240,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Gemini 4 Argon",
      "summary": "Comments",
      "url": "https://deepmind.google/models/gemini/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+     "summary": "Comments",
+     "url": "https://guitoro.com/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -23,13 +30,6 @@
      "title": "Apple HomeView",
      "summary": "Comments",
      "url": "https://www.apple.com/apple-homeview/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
-     "summary": "Comments",
-     "url": "https://guitoro.com/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,6 +95,13 @@
    "name": "World",
    "articles": [
     {
+     "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+     "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+     "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 13 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
      "summary": "Sir Ken McCallum says operations to tackle terrorism and state threats are now roughly of an \"equal scale\".",
      "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
@@ -105,13 +112,6 @@
      "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
      "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 13 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-     "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
-     "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
