@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Population Explosion",
-  "year": 1968,
+  "name": "Thimble Theater",
+  "year": 1938,
   "genres": [
-   "Animation"
+   "Animation",
+   "Documentary"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A film in cut-out animation depicting the demographic problems of the world. It shows that in many countries freedom from the old scourges of famine and disease has in turn created the new problem of more mouths to feed."
+  "overview": "One of Joseph Cornell\u2019s funniest films, Thimble Theater is structured like a vaudeville variety show about nature."
  }
 }
