@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-13T19:30:40+0000",
- "updated_ts": 1791919840,
+ "updated": "2026-10-13T20:30:40+0000",
+ "updated_ts": 1791923440,
  "topics": [
   {
    "name": "Tech",
@@ -13,6 +13,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+     "summary": "Comments",
+     "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Apple HomeView",
      "summary": "Comments",
      "url": "https://www.apple.com/apple-homeview/",
@@ -20,9 +27,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Thunderbird for iOS",
+     "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
      "summary": "Comments",
-     "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+     "url": "https://guitoro.com/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Ledger confirms hidden chip in crypto wallet amid $92M theft claims",
+     "title": "Thunderbird for iOS",
      "summary": "Comments",
-     "url": "https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m/",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "11 year old unsoundness bugs found in Rust borrow checker",
-     "summary": "Comments",
-     "url": "https://github.com/rust-lang/rust/issues/164250",
+     "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,23 +102,23 @@
      "source": "BBC World"
     },
     {
-     "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
-     "summary": "The sentence marks an end to the mystery around Tupac's cold case, which has intrigued hip-hop fans for nearly 30 years.",
-     "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 13 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Saudi coalition strikes fuel depot near Yemen's capital",
-     "summary": "The Houthis have warned Saudi Arabia that they will retaliate by targeting the Saudi cities of Riyadh and Dammam.",
+     "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+     "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Horrified witnesses recount fatal rollercoaster incident at Six Flags",
-     "summary": "Police say preliminary information suggests the man who died at the Georgia amusement park fell from a ride.",
-     "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
+     "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+     "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+     "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 13 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
+     "summary": "Davis was found guilty last month over his role in the late rap superstar's death in a drive-by shooting in 1996.",
+     "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
@@ -137,8 +137,29 @@
      "source": "BBC World"
     },
     {
-     "title": "Zelenskyy tells NPR Ukraine wants peace but will hit Russia until it follows ceasefire",
-     "summary": "In an interview with NPR, Ukrainian President Volodymyr Zelenskyy said he was informed the U.S. warned it could cut off access to U.S. weapons and intelligence, but that it hasn't happened yet.",
+     "title": "Bipartisan group of senators call on Trump to rescind Russian diesel deal",
+     "summary": "Six Democratic and six Republican senators wrote a letter calling on President Trump to withdraw from his recent deal with Russian President Vladimir Putin.",
+     "url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "A judge blocks the government's tree-clearing spree at a municipal D.C. golf course",
+     "summary": "Locals and preservationists have long opposed Trump's plan to redevelop a municipal D.C. golf course. That legal fight escalated after the government cleared hundreds of trees on short notice.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-6000055/east-potomac-golf-course-tree-clearing-judge",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Cornell University bans frat parties, vows to address 'disturbing' campus culture",
+     "summary": "In a letter, Cornell's president apologized for what happened to the student who alleges she was raped by several men at a fraternity house in 2024 and promised 'meaningful action.'",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-6000347/cornell-rape-ban-fraternity-parties",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "The Trump administration warns Ukraine it could cut off intel, Zelenskyy tells NPR",
+     "summary": "Ukrainian President Volodymyr Zelenskyy sat down for an interview with NPR at a time of renewed tensions with the White House.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
@@ -154,27 +175,6 @@
      "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
      "summary": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
      "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Pakistan imposes emergency rule in former prime minister's stronghold",
-     "summary": "Pakistan has imposed emergency rule in the province governed by the political party of imprisoned former prime minister Imran Khan.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "What ice cream has to do with this year's Nobel Prize in economics",
-     "summary": "Prices can get sticky. That helps explain why recessions hurt so much \u2014 and what policymakers can do about them.",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Win or lose, independent candidates want to meet voters in the middle",
-     "summary": "Nearly 200 independent candidates in more than 100 congressional races are trying to prove there's an alternative to the two party system \u2014 even though the chance of winning is very low.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Joni Mitchell Is Now Officially American",
+     "summary": "She was sworn in at a recent ceremony",
+     "url": "https://pitchfork.com/story/joni-mitchell-is-now-officially-american/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Shygirl Lines Up 2027 Full-Band Tour",
      "summary": "She\u2019s also shared \u201cMantra,\u201d another taste of her forthcoming album Swallow!",
      "url": "https://pitchfork.com/story/shygirl-lines-up-2027-full-band-tour/",
@@ -263,13 +270,6 @@
      "summary": "Mechatok soups up \u201cFembot\u201d and Robyn joins the Ecco2k and Bladee-assisted \u201cExpression on Your Face\u201d",
      "url": "https://pitchfork.com/story/listen-to-robyn-and-mechatok-remix-each-other/",
      "time": "Tue, 13 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Doechii Revives Her \u201cSwamp Sessions\u201d Series With New Song \u201cBombs\u201d",
-     "summary": "\u201cA mission is brewing inside of me,\u201d the rapper wrote in a letter to fans, \u201cto see Black Womanhood exist at the center of Hip-Hop AND Pop\u201d",
-     "url": "https://pitchfork.com/story/doechii-revives-her-swamp-sessions-series-with-new-song-bombs/",
-     "time": "Mon, 12 Oct 2026",
      "source": "Pitchfork"
     }
    ]
