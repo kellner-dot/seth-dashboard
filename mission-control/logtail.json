@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-13T17:00:52+0000",
+ "generated_iso": "2026-10-13T17:10:39+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -47,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-13T12:36:09-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-13T12:36:16-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-13T12:42:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
      "c": "ok"
     },
@@ -68,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-13T12:57:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-13T13:02:21-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-13T13:06:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
      "c": "ok"
     }
    ]
