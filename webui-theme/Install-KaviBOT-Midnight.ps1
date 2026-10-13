@@ -1,4 +1,4 @@
-<#
+﻿<#
   KaviBOT "Midnight" theme installer for Open WebUI (pip install on SETHS-PC).
   v1: installs dark theme CSS + KaviBOT logo into the venv's static dir.
   - Downloads fresh copies from the public seth-dashboard repo
@@ -14,7 +14,7 @@
 $ErrorActionPreference = "Stop"
 
 $themeDir = "C:\AI\webui-theme"
-$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@__PINSHA__/webui-theme"
+$repoBase = "https://cdn.jsdelivr.net/gh/kellner-dot/seth-dashboard@71ce5911362fc6c7ce50ef86db7e4e7e5c451284/webui-theme"
 $venv     = "C:\AI\venvs\webui"
 
 Write-Output "=== KaviBOT Midnight theme installer (v1) ==="
