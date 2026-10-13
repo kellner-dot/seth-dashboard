@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-13T03:30:45+0000",
+ "generated_iso": "2026-10-13T03:40:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-12 23:21:27.948 Info DynamicHlsService-0HNP8MRCBHB0K:00000001: ProcessRun 'StreamTranscode 779635': WaitForExitAsync failed. Killing ffmpeg pr",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-12 23:21:49.263 Warn DynamicHlsService-0HNP8MRCBHB0K:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-12 23:21:49.267 Info DynamicHlsService-0HNP8MRCBHB0K:00000001: ProcessRun 'StreamTranscode 779635' Process exited with code -1 - Failed",
-     "c": "err"
-    },
     {
      "t": "2026-10-12 23:23:17.489 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
@@ -59,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-12T23:01:05-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-12T23:05:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-12T23:11:21-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
      "c": "ok"
     },
@@ -80,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-12T23:26:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T23:31:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-12T23:36:01-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-12",
      "c": "ok"
     }
    ]
