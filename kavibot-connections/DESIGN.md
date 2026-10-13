@@ -126,6 +126,33 @@ is nothing extra for Seth to configure. Each still needs its own
 `kavibot-connect.py connect <name>` to complete the OAuth loop and vault its
 own refresh token.
 
+### 5. iCloud (`icloud`, type `app_password`)
+
+Why: Seth asked "can we add an apple connector too" (2026-10-13 ~10:44 EDT).
+The live Apple Music API is excluded (paid Developer Program), but iCloud
+Mail/Calendar/Contacts are reachable with plain IMAP/CalDAV/CardDAV - no
+developer account, no fee.
+
+- Apple offers **no OAuth for iCloud** - auth is the Apple ID plus an
+  **app-specific password** generated at appleid.apple.com (Sign-In and
+  Security -> App-Specific Passwords). The Apple ID must have two-factor
+  authentication on. The password is vaulted via SecretStore exactly like
+  OAuth refresh tokens: pasted once into the PC `connect` prompt, never in
+  code/logs/git/chat. Revocable anytime at appleid.apple.com.
+- New framework capability: the `app_password` connection type (username +
+  vaulted password, no OAuth dance). `connect` prompts for both, then
+  verifies with a cheap IMAP login; a rejected password is discarded, never
+  kept. `call` routes to the module with the vaulted credentials; a 401 or
+  IMAP auth failure surfaces as a structured `auth_failed`, never silence.
+- Capabilities: `search_messages` / `get_message` (IMAP, `imap.apple.com:993`,
+  From/Subject/Date/snippet, 4000-char body cap, attachments skipped),
+  `list_events` (CalDAV REPORT time-range, default next 30 days, standard
+  principal -> home-set -> calendar discovery), `list_contacts` (CardDAV,
+  name/email/phone only).
+- Honest note: this is the one pilot that asks Seth to generate a credential
+  himself (Apple's design, not ours) - but it's a 2-minute, free, revocable
+  step, and the password never leaves his PC's vault.
+
 ## Evaluated and EXCLUDED (do not build)
 
 - **Spotify** - excluded 2026-10-12, confirmed 2026-10-13. Since Feb 2026,

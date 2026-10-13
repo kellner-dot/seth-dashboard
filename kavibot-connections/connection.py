@@ -11,11 +11,17 @@ SCHEMA = "connections-0.1"
 BASE = os.path.dirname(os.path.abspath(__file__))
 REGISTRY_PATH = os.path.join(BASE, "connections.json")
 
-CONN_TYPES = ("oauth2", "file_import")
+CONN_TYPES = ("oauth2", "file_import", "app_password")
 
 
 class SpecError(ValueError):
     pass
+
+
+class AuthError(Exception):
+    """A connection's stored credential was rejected by the provider
+    (bad/expired/revoked password or token). Modules raise this; the
+    manager maps it to a structured auth_failed error."""
 
 
 def load_registry(path=REGISTRY_PATH):
@@ -58,6 +64,11 @@ def validate_spec(entry):
     if ctype == "file_import":
         if not (entry.get("import") or {}).get("format"):
             errs.append("import missing format")
+    if ctype == "app_password":
+        auth = entry.get("auth") or {}
+        if auth.get("method") != "app_specific_password":
+            errs.append("app_password auth.method must be "
+                        "'app_specific_password'")
     return errs
 
 

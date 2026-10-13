@@ -17,7 +17,7 @@ import os
 import time
 import webbrowser
 
-from connection import load_registry
+from connection import load_registry, AuthError
 from oauth2 import OAuth2Flow, OAuthError, UrllibHttp, _pkce_pair
 from secret_store import SecretStore, default_backend
 
@@ -33,6 +33,10 @@ NOT_CONNECTED_MSG = {
     "apple_music": ("No Apple Music library imported yet. Export it "
                     "(File > Library > Export Library) then run: "
                     "kavibot-connect.py import apple_music <Library.xml>"),
+    "icloud": ("iCloud isn't connected yet. Generate an app-specific "
+               "password at appleid.apple.com (Sign-In and Security -> "
+               "App-Specific Passwords), then run: "
+               "kavibot-connect.py connect icloud"),
 }
 
 
@@ -59,6 +63,11 @@ class ConnectionManager:
                     "scopes": spec["oauth"]["scopes"],
                     "capabilities": spec["capabilities"]}
         imported = self.store.has(name, "profile_path")
+        if spec["type"] == "app_password":
+            connected = self.store.has(name, "app_password")
+            return {"ok": True, "name": name, "type": "app_password",
+                    "connected": connected,
+                    "capabilities": spec["capabilities"]}
         return {"ok": True, "name": name, "type": "file_import",
                 "connected": imported,
                 "capabilities": spec["capabilities"]}
@@ -66,10 +75,48 @@ class ConnectionManager:
     def list_all(self):
         return [self.status(n) for n in self.specs]
 
+    # -- app-password connect ---------------------------------------------
+    def connect_app_password(self, name, spec):
+        """Apple-ID style connect: id via input, password via getpass.
+
+        Saves both to the vault, then verifies with a cheap IMAP login.
+        A rejected password is deleted, never kept."""
+        apple_id = self._get_or_prompt(name, "apple_id",
+                                       "Apple ID (email)", secret=False)
+        if not apple_id:
+            return {"ok": False, "error": "cancelled",
+                    "message": "No Apple ID entered; nothing saved."}
+        app_password = getpass.getpass(
+            "App-specific password (appleid.apple.com -> Sign-In and "
+            "Security -> App-Specific Passwords): ").strip()
+        if not app_password:
+            return {"ok": False, "error": "cancelled",
+                    "message": "No password entered; nothing saved."}
+        self.store.put(name, "apple_id", apple_id)
+        self.store.put(name, "app_password", app_password)
+        module = _module_for(name)
+        try:
+            module.verify(apple_id, app_password)
+        except AuthError as exc:
+            self.store.delete(name, "app_password")
+            return {"ok": False, "error": "auth_failed",
+                    "message": "%s The bad password was discarded; "
+                               "generate a fresh one and retry." % exc}
+        except Exception as exc:  # network blip: keep creds, warn honestly
+            return {"ok": True, "warning": "unverified",
+                    "message": ("%s saved, but the check login could not "
+                                "reach iCloud (%s). The first call will "
+                                "confirm the password.") % (spec["display"],
+                                                            exc)}
+        return {"ok": True,
+                "message": "%s connected." % spec["display"]}
+
     # -- oauth2 connect ---------------------------------------------------
     def connect(self, name):
-        """Interactive OAuth2 connect. Client credentials via prompt only."""
+        """Interactive connect. Secrets via prompt only, never CLI args."""
         spec = self._spec(name)
+        if spec["type"] == "app_password":
+            return self.connect_app_password(name, spec)
         if spec["type"] != "oauth2":
             return {"ok": False, "error": "wrong_type",
                     "message": "%s is not an OAuth connection" % name}
@@ -151,7 +198,8 @@ class ConnectionManager:
     def disconnect(self, name):
         spec = self._spec(name)
         items = ["client_id", "client_secret", "access_token",
-                 "refresh_token", "expires_at", "profile_path"]
+                 "refresh_token", "expires_at", "profile_path",
+                 "apple_id", "app_password"]
         items += list(spec.get("oauth", {}).get("api_headers", {}).values())
         for item in items:
             self.store.delete(name, item)
@@ -161,13 +209,16 @@ class ConnectionManager:
     # -- capability calls ---------------------------------------------------
     def call(self, name, capability, **params):
         spec = self._spec(name)
-        if spec["type"] != "oauth2":
+        ctype = spec["type"]
+        if ctype not in ("oauth2", "app_password"):
             return {"ok": False, "error": "wrong_type",
                     "message": "%s has no live capabilities" % name}
         if capability not in spec["capabilities"]:
             return {"ok": False, "error": "unknown_capability",
                     "message": "Unknown capability %r for %s"
                                % (capability, name)}
+        if ctype == "app_password":
+            return self._call_app_password(name, spec, capability, params)
         if not self.store.has(name, "refresh_token"):
             return {"ok": False, "error": "not_connected",
                     "message": NOT_CONNECTED_MSG.get(
@@ -185,6 +236,30 @@ class ConnectionManager:
         except OAuthError as exc:
             return {"ok": False, "error": "auth_failed",
                     "message": "Re-authorization needed: %s" % exc}
+        except Exception as exc:  # provider errors stay structured
+            return {"ok": False, "error": "provider_error",
+                    "message": "%s" % exc}
+
+    def _call_app_password(self, name, spec, capability, params):
+        if not (self.store.has(name, "apple_id")
+                and self.store.has(name, "app_password")):
+            return {"ok": False, "error": "not_connected",
+                    "message": NOT_CONNECTED_MSG.get(
+                        name, "Not connected. Run: kavibot-connect.py "
+                              "connect %s" % name)}
+        try:
+            module = _module_for(name)
+            func = module.CAPABILITIES[capability]
+            result = func(self.http,
+                          self.store.get(name, "apple_id"),
+                          self.store.get(name, "app_password"),
+                          **params)
+            if isinstance(result, dict):
+                result.setdefault("ok", True)
+            return result
+        except AuthError as exc:
+            return {"ok": False, "error": "auth_failed",
+                    "message": "%s" % exc}
         except Exception as exc:  # provider errors stay structured
             return {"ok": False, "error": "provider_error",
                     "message": "%s" % exc}

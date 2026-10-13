@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Mocked test suite for the connections layer. No real network, no real
 secrets, no production touch. Run: python3 -m unittest discover tests"""
+import base64
+import builtins
 import datetime
+import getpass
+import imaplib
 import json
 import os
 import plistlib
@@ -11,18 +15,21 @@ import tempfile
 import threading
 import unittest
 import urllib.request
+from unittest import mock
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE)
 
 from connection import (  # noqa: E402
-    load_registry, register, validate_spec, SpecError, REGISTRY_PATH)
+    load_registry, register, validate_spec, SpecError, AuthError,
+    REGISTRY_PATH)
 from oauth2 import OAuth2Flow, OAuthError, _CallbackHandler, _pkce_pair  # noqa: E402
 from secret_store import (  # noqa: E402
     SecretStore, FileSecretBackend, DPAPISecretBackend, SecretNotFound,
     redact)
 from manager import ConnectionManager  # noqa: E402
 from http.server import HTTPServer  # noqa: E402
+import icloud  # noqa: E402
 
 GCAL_OAUTH = {
     "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
@@ -560,6 +567,437 @@ class DriveTests(unittest.TestCase):
         self.assertFalse(result["ok"])
         self.assertEqual(result["error"], "not_connected")
         self.assertIn("connect drive", result["message"])
+
+
+# ---------------------------------------------------------------------------
+# iCloud pilot (type: app_password). Synthetic fixtures only: no real Apple
+# ID, no real app-specific password, no real network.
+# ---------------------------------------------------------------------------
+
+ICLOUD_USER = "user@icloud.com"
+ICLOUD_PASS = "good-password"
+
+
+def _basic(user, pw):
+    return "Basic " + base64.b64encode(
+        ("%s:%s" % (user, pw)).encode("utf-8")).decode("ascii")
+
+
+GOOD_AUTH = _basic(ICLOUD_USER, ICLOUD_PASS)
+
+
+def seed_icloud(mgr, password=ICLOUD_PASS, user=ICLOUD_USER):
+    mgr.store.put("icloud", "apple_id", user)
+    mgr.store.put("icloud", "app_password", password)
+
+
+IMAP_HEADER_101 = (b"From: Test Sender <test@example.com>\r\n"
+                   b"Subject: Dentist reminder\r\n"
+                   b"Date: Tue, 13 Oct 2026 09:00:00 -0400\r\n"
+                   b"\r\n")
+IMAP_TEXT_101 = (b"Hi, just reminding you about the dentist "
+                 b"tomorrow at 9am. Cheers.")
+IMAP_HEADER_102 = (b"From: Other Person <other@example.com>\r\n"
+                   b"Subject: Lunch plans\r\n"
+                   b"Date: Mon, 12 Oct 2026 12:00:00 -0400\r\n"
+                   b"\r\n")
+IMAP_TEXT_102 = b"Want to grab lunch on Friday?"
+IMAP_FULL_101 = (
+    b"MIME-Version: 1.0\r\n"
+    b"From: Test Sender <test@example.com>\r\n"
+    b"Subject: With attachment\r\n"
+    b"Date: Tue, 13 Oct 2026 10:00:00 -0400\r\n"
+    b'Content-Type: multipart/mixed; boundary="BOUND"\r\n'
+    b"\r\n"
+    b"--BOUND\r\n"
+    b'Content-Type: text/plain; charset="utf-8"\r\n'
+    b"\r\n"
+    b"Hello, this is the body text of the synthetic message.\r\n"
+    b"--BOUND\r\n"
+    b"Content-Type: application/pdf\r\n"
+    b'Content-Disposition: attachment; filename="doc.pdf"\r\n'
+    b"Content-Transfer-Encoding: base64\r\n"
+    b"\r\n"
+    b"aGVsbG8=\r\n"
+    b"--BOUND--\r\n"
+)
+
+
+class FakeImap:
+    """imaplib.IMAP4_SSL-shaped fake. No network, synthetic mail only."""
+
+    def __init__(self, password=ICLOUD_PASS):
+        self.password = password
+        self.commands = []
+
+    def login(self, user, pw):
+        self.commands.append(("LOGIN", user))
+        if pw != self.password:
+            raise imaplib.IMAP4.error("authentication failed")
+        return "OK", [b"logged in"]
+
+    def select(self, mailbox, readonly=True):
+        self.commands.append(("SELECT", mailbox))
+        return "OK", [b"2"]
+
+    def uid(self, command, *args):
+        self.commands.append((command,) + args)
+        if command == "SEARCH":
+            return "OK", [b"101 102"]
+        if command == "FETCH":
+            uid, spec = args[0], args[1]
+            uid_s = uid.decode("ascii") if isinstance(uid, bytes) else str(uid)
+            headers = {"101": IMAP_HEADER_101, "102": IMAP_HEADER_102}
+            texts = {"101": IMAP_TEXT_101, "102": IMAP_TEXT_102}
+            if "HEADER.FIELDS" in spec:
+                data = headers[uid_s]
+                tag = (b"%s (UID %s BODY[HEADER.FIELDS (FROM SUBJECT DATE)]"
+                       b" {%d}\r\n" % (uid_s.encode(), uid_s.encode(),
+                                       len(data)))
+                return "OK", [(tag, data), b")"]
+            if "TEXT" in spec:
+                data = texts[uid_s]
+                tag = b"%s (BODY[TEXT]<0> {%d}\r\n" % (uid_s.encode(),
+                                                       len(data))
+                return "OK", [(tag, data), b")"]
+            data = (IMAP_FULL_101 if uid_s == "101"
+                    else headers[uid_s] + texts[uid_s])
+            tag = b"%s (BODY[] {%d}\r\n" % (uid_s.encode(), len(data))
+            return "OK", [(tag, data), b")"]
+        return "BAD", [b"unsupported"]
+
+    def logout(self):
+        self.commands.append(("LOGOUT",))
+        return "BYE", [b"bye"]
+
+
+def fake_imap_factory(password=ICLOUD_PASS):
+    return lambda: FakeImap(password=password)
+
+
+def _dav_multistatus(inner, extra_ns=""):
+    return ("<?xml version=\"1.0\" encoding=\"utf-8\"?>"
+            "<d:multistatus xmlns:d=\"DAV:\"%s>%s</d:multistatus>"
+            % (extra_ns, inner))
+
+
+def _dav_response(href, prop_inner):
+    return ("<d:response><d:href>%s</d:href><d:propstat><d:prop>%s</d:prop>"
+            "<d:status>HTTP/1.1 200 OK</d:status></d:propstat></d:response>"
+            % (href, prop_inner))
+
+
+CALDAV_NS = " xmlns:c=\"urn:ietf:params:xml:ns:caldav\""
+CARDDAV_NS = " xmlns:card=\"urn:ietf:params:xml:ns:carddav\""
+
+CALDAV_PRINCIPAL_XML = _dav_multistatus(_dav_response(
+    "/", "<d:current-user-principal><d:href>/12345/principal/</d:href>"
+         "</d:current-user-principal>"))
+CALDAV_HOMESET_XML = _dav_multistatus(_dav_response(
+    "/12345/principal/",
+    "<d:calendar-home-set><d:href>/12345/calendars/</d:href>"
+    "</d:calendar-home-set>"))
+CALDAV_CALENDARS_XML = _dav_multistatus(
+    _dav_response("/12345/calendars/",
+                  "<d:resourcetype><d:collection/></d:resourcetype>") +
+    _dav_response("/12345/calendars/work/",
+                  "<d:resourcetype><d:collection/>"
+                  "<c:calendar xmlns:c=\"urn:ietf:params:xml:ns:caldav\"/>"
+                  "</d:resourcetype><d:displayname>Work</d:displayname>") +
+    _dav_response("/12345/calendars/personal/",
+                  "<d:resourcetype><d:collection/>"
+                  "<c:calendar xmlns:c=\"urn:ietf:params:xml:ns:caldav\"/>"
+                  "</d:resourcetype><d:displayname>Personal</d:displayname>"),
+    CALDAV_NS)
+
+VCAL_1 = ("BEGIN:VCALENDAR\r\nVERSION:2.0\r\n"
+          "BEGIN:VEVENT\r\nUID:evt-1\r\nDTSTAMP:20261013T120000Z\r\n"
+          "DTSTART:20261014T130000Z\r\nDTEND:20261014T140000Z\r\n"
+          "SUMMARY:Dentist appointment\r\nLOCATION:Main St\r\n"
+          "END:VEVENT\r\nEND:VCALENDAR\r\n")
+
+CALDAV_EVENTS_XML = _dav_multistatus(_dav_response(
+    "/12345/calendars/work/evt-1.ics",
+    "<d:getetag>\"abc\"</d:getetag><c:calendar-data>" + VCAL_1 +
+    "</c:calendar-data>"), CALDAV_NS)
+
+CARDDAV_PRINCIPAL_XML = _dav_multistatus(_dav_response(
+    "/", "<d:current-user-principal><d:href>/54321/principal/</d:href>"
+         "</d:current-user-principal>"))
+CARDDAV_HOMESET_XML = _dav_multistatus(_dav_response(
+    "/54321/principal/",
+    "<d:addressbook-home-set><d:href>/54321/carddavhome/</d:href>"
+    "</d:addressbook-home-set>"))
+CARDDAV_BOOKS_XML = _dav_multistatus(
+    _dav_response("/54321/carddavhome/",
+                  "<d:resourcetype><d:collection/></d:resourcetype>") +
+    _dav_response("/54321/carddavhome/Default/",
+                  "<d:resourcetype><d:collection/>"
+                  "<card:addressbook "
+                  "xmlns:card=\"urn:ietf:params:xml:ns:carddav\"/>"
+                  "</d:resourcetype><d:displayname>Default</d:displayname>"),
+    CARDDAV_NS)
+
+VCARD_1 = ("BEGIN:VCARD\r\nVERSION:3.0\r\nFN:Chelsea Crawford\r\n"
+           "N:Crawford;Chelsea;;;\r\n"
+           "EMAIL;TYPE=HOME:chelsea@example.com\r\n"
+           "TEL;TYPE=CELL:+15551234567\r\nEND:VCARD\r\n")
+VCARD_2 = ("BEGIN:VCARD\r\nVERSION:3.0\r\nFN:Sam Warner\r\n"
+           "N:Warner;Sam;;;\r\n"
+           "EMAIL:sam@example.com\r\nEND:VCARD\r\n")
+
+CARDDAV_VCARDS_XML = _dav_multistatus(
+    _dav_response("/54321/carddavhome/Default/c1.vcf",
+                  "<d:getetag>\"e1\"</d:getetag><card:address-data>" +
+                  VCARD_1 + "</card:address-data>") +
+    _dav_response("/54321/carddavhome/Default/c2.vcf",
+                  "<d:getetag>\"e2\"</d:getetag><card:address-data>" +
+                  VCARD_2 + "</card:address-data>"),
+    CARDDAV_NS)
+
+
+class FakeDav:
+    """CalDAV/CardDAV-shaped fake. Routes on (method, url); 401s on a
+    wrong Authorization header, like iCloud."""
+
+    def __init__(self, password=ICLOUD_PASS):
+        self.expected_auth = _basic(ICLOUD_USER, password)
+        self.calls = []
+
+    def request(self, method, url, body=None, headers=None):
+        headers = dict(headers or {})
+        self.calls.append((method, url, body, headers))
+        if headers.get("Authorization") != self.expected_auth:
+            return 401, ""
+        if method == "PROPFIND" and url == "https://caldav.icloud.com/":
+            return 207, CALDAV_PRINCIPAL_XML
+        if (method == "PROPFIND"
+                and url == "https://caldav.icloud.com/12345/principal/"):
+            return 207, CALDAV_HOMESET_XML
+        if (method == "PROPFIND"
+                and url == "https://caldav.icloud.com/12345/calendars/"):
+            return 207, CALDAV_CALENDARS_XML
+        if method == "REPORT" and url in (
+                "https://caldav.icloud.com/12345/calendars/work/",
+                "https://caldav.icloud.com/12345/calendars/personal/"):
+            return 207, CALDAV_EVENTS_XML
+        if method == "PROPFIND" and url == "https://contacts.icloud.com/":
+            return 207, CARDDAV_PRINCIPAL_XML
+        if (method == "PROPFIND"
+                and url == "https://contacts.icloud.com/54321/principal/"):
+            return 207, CARDDAV_HOMESET_XML
+        if (method == "PROPFIND"
+                and url == "https://contacts.icloud.com/54321/carddavhome/"):
+            return 207, CARDDAV_BOOKS_XML
+        if (method == "PROPFIND" and url ==
+                "https://contacts.icloud.com/54321/carddavhome/Default/"):
+            return 207, CARDDAV_VCARDS_XML
+        return 404, ""
+
+
+class ICloudRegistryTests(unittest.TestCase):
+    def test_icloud_registered_as_app_password(self):
+        specs = load_registry()
+        self.assertIn("icloud", specs)
+        spec = specs["icloud"]
+        self.assertEqual(spec["type"], "app_password")
+        self.assertEqual(spec["auth"]["method"], "app_specific_password")
+        self.assertEqual(spec["credential_refs"],
+                         ["conn-icloud-apple_id", "conn-icloud-app_password"])
+        for cap in ("search_messages", "get_message", "list_events",
+                    "list_contacts"):
+            self.assertIn(cap, spec["capabilities"])
+
+    def test_app_password_spec_validation(self):
+        bad = {"name": "x", "type": "app_password", "capabilities": ["c"],
+               "auth": {"method": "oauth"}}
+        self.assertTrue(validate_spec(bad))
+        no_auth = {"name": "x", "type": "app_password",
+                   "capabilities": ["c"]}
+        self.assertTrue(validate_spec(no_auth))
+        tmp = tempfile.mkdtemp()
+        dest = os.path.join(tmp, "r.json")
+        shutil.copy(REGISTRY_PATH, dest)
+        good = {"name": "x", "type": "app_password", "capabilities": ["c"],
+                "auth": {"method": "app_specific_password"}}
+        self.assertEqual(register(good, path=dest), "x")
+        self.assertIn("x", load_registry(dest))
+
+
+class ICloudMailTests(unittest.TestCase):
+    def test_verify_success(self):
+        self.assertTrue(icloud.verify(ICLOUD_USER, ICLOUD_PASS,
+                                      imap_factory=fake_imap_factory()))
+
+    def test_verify_bad_password_raises_auth(self):
+        with self.assertRaises(AuthError):
+            icloud.verify(ICLOUD_USER, "wrong",
+                          imap_factory=fake_imap_factory())
+
+    def test_search_messages_returns_summaries(self):
+        res = icloud.search_messages(FakeDav(), ICLOUD_USER, ICLOUD_PASS,
+                                     imap_factory=fake_imap_factory(),
+                                     query="dentist", max_results=10)
+        self.assertTrue(res["ok"])
+        self.assertEqual(len(res["messages"]), 2)
+        # newest uid first
+        self.assertEqual(res["messages"][0]["uid"], "102")
+        self.assertIn("lunch", res["messages"][0]["snippet"])
+        subjects = [m["subject"] for m in res["messages"]]
+        self.assertIn("Dentist reminder", subjects)
+
+    def test_search_escapes_imap_quotes(self):
+        imap = FakeImap()
+        icloud.search_messages(FakeDav(), ICLOUD_USER, ICLOUD_PASS,
+                               imap_factory=lambda: imap, query='say "hi"')
+        searches = [c for c in imap.commands if c[0] == "SEARCH"]
+        self.assertEqual(len(searches), 1)
+        self.assertIn('\\"hi\\"', searches[0][2])
+
+    def test_get_message_skips_attachments(self):
+        res = icloud.get_message(FakeDav(), ICLOUD_USER, ICLOUD_PASS,
+                                 imap_factory=fake_imap_factory(), uid="101")
+        self.assertTrue(res["ok"])
+        self.assertIn("body text of the synthetic message",
+                      res["message"]["body"])
+        self.assertNotIn("aGVsbG8", res["message"]["body"])
+        self.assertLessEqual(len(res["message"]["body"]), 4000)
+
+    def test_get_message_requires_uid(self):
+        with self.assertRaises(ValueError):
+            icloud.get_message(FakeDav(), ICLOUD_USER, ICLOUD_PASS,
+                               imap_factory=fake_imap_factory())
+
+    def test_bad_password_raises_auth(self):
+        with self.assertRaises(AuthError):
+            icloud.search_messages(FakeDav(), ICLOUD_USER, "wrong",
+                                   imap_factory=fake_imap_factory())
+
+
+class ICloudCalTests(unittest.TestCase):
+    def test_list_events_discovers_and_parses(self):
+        dav = FakeDav()
+        res = icloud.list_events(dav, ICLOUD_USER, ICLOUD_PASS)
+        self.assertTrue(res["ok"])
+        # one fixture event per discovered calendar (work + personal)
+        self.assertEqual(len(res["events"]), 2)
+        event = res["events"][0]
+        self.assertEqual(event["summary"], "Dentist appointment")
+        self.assertEqual(event["location"], "Main St")
+        self.assertIn("2026-10-14", event["start"])
+        methods = [c[0] for c in dav.calls]
+        self.assertIn("PROPFIND", methods)
+        self.assertIn("REPORT", methods)
+        # every DAV call carried Basic auth (never logged anywhere)
+        auths = {c[3]["Authorization"] for c in dav.calls}
+        self.assertEqual(auths, {GOOD_AUTH})
+
+    def test_list_events_401_raises_auth(self):
+        with self.assertRaises(AuthError):
+            icloud.list_events(FakeDav(), ICLOUD_USER, "wrong")
+
+
+class ICloudContactsTests(unittest.TestCase):
+    def test_list_contacts_parses_name_email_phone(self):
+        dav = FakeDav()
+        res = icloud.list_contacts(dav, ICLOUD_USER, ICLOUD_PASS)
+        self.assertTrue(res["ok"])
+        self.assertEqual(len(res["contacts"]), 2)
+        chelsea = [c for c in res["contacts"]
+                   if c["name"] == "Chelsea Crawford"][0]
+        self.assertEqual(chelsea["emails"], ["chelsea@example.com"])
+        self.assertEqual(chelsea["phones"], ["+15551234567"])
+        sam = [c for c in res["contacts"]
+               if c["name"] == "Sam Warner"][0]
+        self.assertEqual(sam["emails"], ["sam@example.com"])
+        self.assertEqual(sam["phones"], [])
+
+    def test_list_contacts_401_raises_auth(self):
+        with self.assertRaises(AuthError):
+            icloud.list_contacts(FakeDav(), ICLOUD_USER, "wrong")
+
+
+class ICloudManagerTests(unittest.TestCase):
+    def test_call_not_connected_never_hallucinates(self):
+        mgr = fresh_manager()
+        result = mgr.call("icloud", "list_events")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "not_connected")
+        self.assertIn("connect icloud", result["message"])
+
+    def test_call_unknown_capability(self):
+        mgr = fresh_manager()
+        seed_icloud(mgr)
+        result = mgr.call("icloud", "nope")
+        self.assertEqual(result["error"], "unknown_capability")
+
+    def test_status_reports_no_secrets(self):
+        mgr = fresh_manager()
+        seed_icloud(mgr)
+        st = json.dumps(mgr.status("icloud"))
+        self.assertNotIn(ICLOUD_PASS, st)
+        self.assertTrue(mgr.status("icloud")["connected"])
+        self.assertEqual(mgr.status("icloud")["type"], "app_password")
+        self.assertFalse(fresh_manager().status("icloud")["connected"])
+
+    def test_call_search_messages_via_manager(self):
+        mgr = fresh_manager()
+        seed_icloud(mgr)
+        result = mgr.call("icloud", "search_messages",
+                          imap_factory=fake_imap_factory(), max_results=5)
+        self.assertTrue(result["ok"])
+        self.assertEqual(len(result["messages"]), 2)
+
+    def test_call_list_events_via_manager(self):
+        mgr = fresh_manager()
+        seed_icloud(mgr)
+        mgr.http.request = FakeDav().request
+        result = mgr.call("icloud", "list_events")
+        self.assertTrue(result["ok"])
+        self.assertEqual(len(result["events"]), 2)
+
+    def test_call_auth_failure_structured(self):
+        mgr = fresh_manager()
+        seed_icloud(mgr, password="wrong")
+        mgr.http.request = FakeDav().request  # server expects the good one
+        result = mgr.call("icloud", "list_events")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "auth_failed")
+
+    def test_disconnect_clears_credentials(self):
+        mgr = fresh_manager()
+        seed_icloud(mgr)
+        self.assertTrue(mgr.status("icloud")["connected"])
+        mgr.disconnect("icloud")
+        self.assertFalse(mgr.status("icloud")["connected"])
+
+    def test_connect_app_password_success(self):
+        mgr = fresh_manager()
+        with mock.patch.object(icloud, "verify", return_value=True), \
+                mock.patch.object(builtins, "input",
+                                  return_value=ICLOUD_USER), \
+                mock.patch.object(getpass, "getpass",
+                                  return_value=ICLOUD_PASS):
+            result = mgr.connect("icloud")
+        self.assertTrue(result["ok"])
+        self.assertTrue(mgr.status("icloud")["connected"])
+        self.assertEqual(mgr.store.get("icloud", "apple_id"), ICLOUD_USER)
+
+    def test_connect_app_password_bad_password_discarded(self):
+        mgr = fresh_manager()
+
+        def bad_verify(apple_id, app_password, imap_factory=None):
+            raise AuthError("rejected")
+
+        with mock.patch.object(icloud, "verify", side_effect=bad_verify), \
+                mock.patch.object(builtins, "input",
+                                  return_value=ICLOUD_USER), \
+                mock.patch.object(getpass, "getpass",
+                                  return_value="wrong"):
+            result = mgr.connect("icloud")
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["error"], "auth_failed")
+        self.assertFalse(mgr.store.has("icloud", "app_password"))
 
 
 if __name__ == "__main__":
