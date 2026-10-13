@@ -121,6 +121,8 @@ input, textarea, button, select {
 .chat-user .prose *,
 .chat-user p, .chat-user span, .chat-user div {
   color: #ffffff !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
 }
 
 /* ---- 7. composer: dark rounded card with glow edge ---- */
