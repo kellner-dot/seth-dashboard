@@ -1,60 +1,66 @@
 {
  "generated": "github-pulse poller",
- "generated_iso": "2026-10-13T22:30:48+0000",
+ "generated_iso": "2026-10-13T23:00:49+0000",
  "pushes": [
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-12T21:37:34Z",
+   "time": "2026-10-12T21:50:50Z",
    "commits": []
   },
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-12T21:31:43Z",
+   "time": "2026-10-12T08:16:24Z",
    "commits": []
   },
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-13T22:21:48Z",
+   "time": "2026-10-13T22:52:31Z",
    "commits": []
   },
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-12T21:22:33Z",
+   "time": "2026-10-13T22:52:01Z",
    "commits": []
   },
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-13T22:20:52Z",
+   "time": "2026-10-13T22:50:59Z",
    "commits": []
   },
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-13T22:20:45Z",
+   "time": "2026-10-13T22:50:16Z",
    "commits": []
   },
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-12T14:01:20Z",
+   "time": "2026-10-12T09:36:05Z",
    "commits": []
   },
   {
    "repo": "seth-dashboard",
-   "time": "2026-10-13T22:15:47Z",
+   "time": "2026-10-13T22:48:26Z",
    "commits": []
   }
  ],
  "repos": [
   {
    "name": "seth-dashboard",
-   "pushed": "2026-10-13T22:28:38Z",
+   "pushed": "2026-10-13T22:52:31Z",
    "stars": 0,
    "lang": "HTML"
   },
   {
    "name": "rvg-android",
-   "pushed": "2026-10-07T00:40:23Z",
+   "pushed": "2026-10-13T22:45:54Z",
    "stars": 0,
    "lang": "Kotlin"
+  },
+  {
+   "name": "rvg-mac",
+   "pushed": "2026-10-13T22:45:51Z",
+   "stars": 0,
+   "lang": "Python"
   },
   {
    "name": "firetv-vega",
@@ -73,12 +79,6 @@
    "pushed": "2026-10-05T06:40:41Z",
    "stars": 0,
    "lang": "Kotlin"
-  },
-  {
-   "name": "kaviguard",
-   "pushed": "2026-10-04T02:55:50Z",
-   "stars": 0,
-   "lang": "PowerShell"
   }
  ]
 }
