@@ -1,5 +1,17 @@
 {
- "updated": "2026-10-13T03:06:38+0000",
- "updated_ts": 1791860798,
- "items": []
+ "updated": "2026-10-13T03:23:13+0000",
+ "updated_ts": 1791861793,
+ "items": [
+  {
+   "source": "emby",
+   "icon": "\ud83d\udcfa",
+   "title": "KaviTV Experimental",
+   "series": "",
+   "type": "TvChannel",
+   "device": "KaviTV-Sentinel",
+   "user": "",
+   "progress_pct": 0,
+   "year": ""
+  }
+ ]
 }
