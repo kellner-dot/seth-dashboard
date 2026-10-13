@@ -113,7 +113,15 @@ input, textarea, button, select {
 .chat-user .bg-gray-50 {
   background-color: var(--mn-user-bubble) !important;
   border: 1px solid var(--mn-border) !important;
-  color: var(--mn-text) !important;
+  color: #ffffff !important;
+}
+/* user message text: force bright, covers prose/markdown children
+   (v2 fix: text was inheriting a faint color, unreadable) */
+.chat-user,
+.chat-user .prose,
+.chat-user .prose *,
+.chat-user p, .chat-user span, .chat-user div {
+  color: #f5f6fa !important;
 }
 
 /* ---- 7. composer: dark rounded card with glow edge ---- */
