@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-13T16:30:39+0000",
- "updated_ts": 1791909039,
+ "updated": "2026-10-13T17:00:50+0000",
+ "updated_ts": 1791910850,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "11 year old unsoundness bugs found in Rust borrow checker",
-     "summary": "Comments",
-     "url": "https://github.com/rust-lang/rust/issues/164250",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Thunderbird for iOS",
      "summary": "Comments",
      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
@@ -34,16 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+     "title": "11 year old unsoundness bugs found in Rust borrow checker",
      "summary": "Comments",
-     "url": "https://eg2.haku.sh/",
+     "url": "https://github.com/rust-lang/rust/issues/164250",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+     "title": "I posted to HN, and then my website was flooded with AI bot traffic",
      "summary": "Comments",
-     "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+     "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+     "summary": "Comments",
+     "url": "https://eg2.haku.sh/",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Hungarian MPs scrap Orb\u00e1n's anti-LGBTQ measures",
-     "summary": "LGBTQ and human rights activists warmly welcomed the move, but call for changes to other Orb\u00e1n-era laws.",
-     "url": "https://www.bbc.co.uk/news/articles/c6vg9nj4l322o?at_medium=RSS&at_campaign=rss",
+     "title": "Pope admitted to hospital for surgery to remove lump on his lung",
+     "summary": "Pope Leo has said the growth is \"contained\" and had been found \"at a very early stage\".",
+     "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Michael Stipe\u2019s Debut Solo Album Almost Has a Release Date",
+     "summary": "The lead single is dropping New Year\u2019s Eve but you\u2019ll have to wait until 2027 to hear the whole project",
+     "url": "https://pitchfork.com/story/michael-stipe-reveals-debut-solo-album-release-date/",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Listen to Robyn and Mechatok Remix Each Other",
      "summary": "Mechatok soups up \u201cFembot\u201d and Robyn joins the Ecco2k and Bladee-assisted \u201cExpression on Your Face\u201d",
      "url": "https://pitchfork.com/story/listen-to-robyn-and-mechatok-remix-each-other/",
@@ -262,13 +269,6 @@
      "title": "Jack White Reunites the Raconteurs at Nashville Show",
      "summary": "It marked the bands first appearance together since 2019",
      "url": "https://pitchfork.com/story/jack-white-reunites-the-raconteurs-at-nashville-show/",
-     "time": "Sun, 11 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Watch Rosal\u00eda Perform \u201cReliquia\u201d En Pointe on SNL",
-     "summary": "She also brought \u201cMagnolias\u201d to the Saturday Night Live stage",
-     "url": "https://pitchfork.com/story/watch-rosalia-perform-reliquias-en-pointe-on-snl/",
      "time": "Sun, 11 Oct 2026",
      "source": "Pitchfork"
     }
