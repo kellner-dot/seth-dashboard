@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-13T10:00:39+0000",
- "updated_ts": 1791885639,
+ "updated": "2026-10-13T10:30:41+0000",
+ "updated_ts": 1791887441,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "The Art of Dithering and Retro Shading for the Web",
-     "summary": "Comments",
-     "url": "https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "The baffling intelligence of a single cell (2024)",
      "summary": "Comments",
@@ -20,9 +13,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Were Software Engineers blue-collar workers all along?",
+     "title": "Hittite royal archive found in Turkey",
      "summary": "Comments",
-     "url": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
+     "url": "https://www.thehistoryblog.com/archives/77107",
      "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
@@ -44,6 +37,13 @@
      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
      "summary": "Comments",
      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+     "time": "Mon, 12 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "A Modern Web App in C",
+     "summary": "Comments",
+     "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
      "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,13 +137,6 @@
      "source": "BBC World"
     },
     {
-     "title": "One way to protect coral reefs? Bring back seabirds",
-     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "Win or lose, independent candidates want to meet voters in the middle",
      "summary": "Nearly 200 independent candidates in more than 100 congressional races are trying to prove there's an alternative to the two party system \u2014 even though the chance of winning is very low.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
@@ -161,6 +154,13 @@
      "title": "Should states force cities to build cheaper houses? Voters here will decide",
      "summary": "Voters in Massachusetts will decide whether to require cities and towns to allow smaller homes on smaller lots. A growing number of states are doing the same to help ease a housing shortage.",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5979839/massachusetts-starter-homes-ballot-affordability",
+     "time": "Tue, 13 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "One way to protect coral reefs? Bring back seabirds",
+     "summary": "Coral reefs are facing increasing threats around the globe. But on a remote Pacific island, scientists have found that reefs can get help from a surprising ally: seabirds.",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-5901320/coral-reefs-palmyra-atoll-birds-restoration",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     },
