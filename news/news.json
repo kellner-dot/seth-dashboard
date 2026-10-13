@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-13T05:00:41+0000",
- "updated_ts": 1791867641,
+ "updated": "2026-10-13T05:30:37+0000",
+ "updated_ts": 1791869437,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+     "summary": "Comments",
+     "url": "https://arxiv.org/abs/2610.13928",
+     "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "The baffling intelligence of a single cell (2024)",
      "summary": "Comments",
@@ -17,13 +24,6 @@
      "summary": "Comments",
      "url": "https://z.ai/blog/glm-legal",
      "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "AI Models Can Provably Hide Arbitrary Capabilities",
-     "summary": "Comments",
-     "url": "https://arxiv.org/abs/2610.13928",
-     "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,30 +95,16 @@
    "name": "World",
    "articles": [
     {
-     "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
-     "summary": "Despite the US president announcing energy infrastructure would not be targeted strikes have continued, Ukraine says.",
-     "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 12 Oct 2026",
+     "title": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+     "summary": "In his first interview since being forced from his post, Gen Syrskyi speaks about Ukraine's future in the war.",
+     "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
-     "summary": "While Ukraine's Volodymyr Zelensky suggests he would sign up to a ceasefire on energy infrastructure, Russia has said little.",
-     "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 12 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
-     "summary": "Backdated paperwork also made the Russian oligarch\u2019s yachts and mansions disappear from accounts, investigation finds.",
-     "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 12 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-     "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
-     "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+     "title": "One dead and several hurt after rollercoaster incident at Six Flags",
+     "summary": "Aerial footage at the park after the incident shows a stuck rollercoaster with riders being helped off.",
+     "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
     },
@@ -130,9 +116,23 @@
      "source": "BBC World"
     },
     {
-     "title": "South Africa's deputy police chief resigns after being charged with sexual offences",
-     "summary": "Shadrack Sibiya had denied grooming a 16-year-old and raping an 18-year-old.",
-     "url": "https://www.bbc.co.uk/news/articles/c8wy9d940pyko?at_medium=RSS&at_campaign=rss",
+     "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+     "summary": "Despite the US president announcing energy infrastructure would not be targeted strikes have continued, Ukraine says.",
+     "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 12 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
+     "summary": "Backdated paperwork also made the Russian oligarch\u2019s yachts and mansions disappear from accounts, investigation finds.",
+     "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 12 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "The island where locals say data centres are taking their water",
+     "summary": "\"Not a single drop has come through our taps for the last three months,\" a local tells the BBC.",
+     "url": "https://www.bbc.co.uk/news/articles/cqj6j7wlxd5eo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 12 Oct 2026",
      "source": "BBC World"
     },
