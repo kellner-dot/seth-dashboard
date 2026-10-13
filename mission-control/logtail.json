@@ -1,28 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-13T08:20:41+0000",
+ "generated_iso": "2026-10-13T08:30:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-13 04:01:42.350 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-13 04:23:17.490 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-13 04:01:44.382 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-13 04:23:34.849 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-13 04:02:13.791 Info DynamicHlsService-0HNP8MRCBHCM7:00000001: ProcessRun 'StreamTranscode 7f3465': WaitForExitAsync failed. Killing ffmpeg pr",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-13 04:02:21.432 Warn DynamicHlsService-0HNP8MRCBHCM7:00000001: AppendExtraLogData: Unable read graph output file: C:\\Users\\sethr\\AppData\\Roami",
-     "c": "warn"
-    },
-    {
-     "t": "2026-10-13 04:02:21.433 Info DynamicHlsService-0HNP8MRCBHCM7:00000001: ProcessRun 'StreamTranscode 7f3465' Process exited with code -1 - Failed",
+     "t": "2026-10-13 04:23:52.269 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -55,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-13T03:50:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-13T03:55:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-13T04:00:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
      "c": "ok"
     },
@@ -76,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-13T04:15:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-13T04:20:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-13T04:25:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-13",
      "c": "ok"
     }
    ]
