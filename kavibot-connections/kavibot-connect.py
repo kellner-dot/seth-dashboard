@@ -21,11 +21,11 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE)
 
 from manager import ConnectionManager  # noqa: E402
-from secret_store import SecretStore, FileSecretBackend  # noqa: E402
+from secret_store import SecretStore, default_backend  # noqa: E402
 
 
 def _manager():
-    store = SecretStore(FileSecretBackend(os.path.join(BASE, ".secrets.json")))
+    store = SecretStore(default_backend(BASE))
     return ConnectionManager(store=store)
 
 
