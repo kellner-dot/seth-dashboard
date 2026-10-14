@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T22:30:44+0000",
- "updated_ts": 1792017044,
+ "updated": "2026-10-14T23:00:53+0000",
+ "updated_ts": 1792018853,
  "topics": [
   {
    "name": "Tech",
@@ -27,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Tiny Little Office",
+     "summary": "Comments",
+     "url": "https://tinylittleoffice.com/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Passkeys are not a trap",
      "summary": "Comments",
      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
@@ -41,11 +48,25 @@
      "source": "Hacker News"
     },
     {
-     "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-     "summary": "Comments",
-     "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+     "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
+     "summary": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
+     "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
      "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+     "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+     "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping",
+     "summary": "Suspected Russian drones have sunk or damaged 5 ships near Bulgaria and Romania.",
+     "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Things are finally looking up for NASA's first missions to Venus in a generation",
@@ -65,27 +86,6 @@
      "title": "Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation",
      "summary": "Plaintiff claims cameras enabled warrantless tracking and monitoring after he previously sued over excessive force.",
      "url": "https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Software development and rules stability: Prototype racing in 2030",
-     "summary": "With the end of IMSA\u2019s 2026 season, we have thoughts about the future of the sport.",
-     "url": "https://arstechnica.com/cars/2026/10/software-development-and-rules-stability-prototype-racing-in-2030/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Greta Gerwig channels Bowie in psychedelic The Magician's Nephew trailer",
-     "summary": "\"Have you ever seen a world born?\"",
-     "url": "https://arstechnica.com/culture/2026/10/greta-gerwig-channels-bowie-in-psychedelic-the-magicians-nephew-trailer/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Researchers use AI to design proteins that cut up other proteins",
-     "summary": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
-     "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
      "time": "Wed, 14 Oct 2026",
      "source": "Ars Technica"
     }
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Robert A. Burley, FAIA",
+     "summary": "To the end, Robert offered to all a compliment, a word of encouragement, a funny line, and a beaming smile. Read the story on VTDigger here: Robert A. Burley, FAIA.",
+     "url": "https://vtdigger.org/2026/10/14/obituary-robert-a-burley-faia/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Vermont Conversation: Stealing Elections, American Style: Voting rights attorney David Walbert on how the 2026 election could be hijacked \u2014 ",
      "summary": "Author David Walbert and his latest book, &#8220;Stealing Elections, American Style.&#8221; Courtesy photo \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/David-Walbert-and-book-cover.jpg\" /> \u201cOne of the lessons that the election deniers learned in 2020 was it'",
      "url": "https://vtdigger.org/2026/10/14/vermont-conversation-stealing-elections-american-style-voting-rights-attorney-david-walbert-on-how-the-2026-election-could-be-hijacked-and-saved/",
@@ -215,13 +222,6 @@
      "title": "Engaged young voters across Vermont aim to get their peers to the polls",
      "summary": "Stickers are ready in the 60 municipalities casting ballots rather than holding in-person Town Meetings. Photo by Kevin O\u2019Connor/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2023/03/VTD-2023-TM-preview-E-1200x900.jpg?crop=1\" /> Voters aged 18-29 consistentl",
      "url": "https://vtdigger.org/2026/10/14/engaged-young-voters-across-vermont-aim-to-get-their-peers-to-the-polls/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Cheaper tuition alone won\u2019t get first-generation students to college",
-     "summary": "Vermont is cutting the cost of college, but money doesn\u2019t teach a rural teen how to get there. Read the story on VTDigger here: Cheaper tuition alone won\u2019t get first-generation students to college.",
-     "url": "https://vtdigger.org/2026/10/14/opinion-cheaper-tuition-alone-wont-get-first-generation-students-to-college/",
      "time": "Wed, 14 Oct 2026",
      "source": "VT Digger"
     }
