@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-14T13:00:49+0000",
- "updated_ts": 1791982849,
+ "updated": "2026-10-14T13:32:31+0000",
+ "updated_ts": 1791984751,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Switzerland proposes banning profiling-based ads to minors",
+     "summary": "Comments",
+     "url": "https://www.admin.ch/en/newnsb/NMn5s24l8NjQ",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
      "summary": "Comments",
@@ -20,9 +27,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "The Aaronson Oracle",
+     "title": "RIP Eric Binnion",
      "summary": "Comments",
-     "url": "https://aaronsonoracle.com/",
+     "url": "https://ma.tt/2026/10/rip-eric/",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,18 +41,18 @@
      "source": "Hacker News"
     },
     {
-     "title": "TV4 postpones show after AI agent erases edited material",
+     "title": "Sound \u2013 Bartosz Ciechanowski (2022)",
      "summary": "Comments",
-     "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-     "time": "Wed, 14 Oct 2026",
+     "url": "https://ciechanow.ski/sound/",
+     "time": "Sun, 11 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Amazon pushes up prices across the Internet",
-     "summary": "Comments",
-     "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+     "summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+     "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
      "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "The Internet\u2019s undersea backbone is slipping into the danger zone",
@@ -81,13 +88,6 @@
      "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
      "time": "Tue, 13 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Trump commercial railing against his enemies kept airing after court blocked it",
-     "summary": "US attorney apologized to court, said government has stopped running Trump ads.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/trumps-taxpayer-funded-ads-kept-airing-on-tv-the-day-after-judge-blocked-them/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -98,6 +98,13 @@
      "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
      "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 14 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "US inflation rises more than expected ahead of midterm elections",
+     "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
+     "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
@@ -130,11 +137,11 @@
      "source": "BBC World"
     },
     {
-     "title": "Mauritius reels from worst riots in decades after woman shot by police",
-     "summary": "Prime Minister Navin Ramgoolam imposed a curfew after days of unrest that first began over water shortages.",
-     "url": "https://www.bbc.co.uk/news/articles/cm4g1rnj5qweo?at_medium=RSS&at_campaign=rss",
+     "title": "Hands-on with the Ocarina of Time remake, the most ornate Zelda game ever made",
+     "summary": "We got to play the The Legend of Zelda: Ocarina of Time early. Here are our impressions of the remake and its elaborate new style.",
+     "url": "https://www.npr.org/2026/10/14/nx-s1-5961483/preview-zelda-ocarina-of-time-remake-switch-2",
      "time": "Wed, 14 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
      "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
@@ -158,13 +165,6 @@
      "source": "NPR News"
     },
     {
-     "title": "Civil rights advocates plan to send thousands of observers to midterm polling places",
-     "summary": "For many election cycles, civil rights groups and political parties have fanned out to monitor polling places, but the charged midterm environment has many organizations stepping up efforts this year.",
-     "url": "https://www.npr.org/2026/10/14/nx-s1-5991802/election-polling-place-observers",
-     "time": "Wed, 14 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "'They're stealing from the poor': A major source of SNAP fraud robs recipients of millions",
      "summary": "Organized criminal rings target SNAP recipients because of the government program's outdated security features. But upgrading the tech costs money and states' SNAP budgets are getting squeezed.",
      "url": "https://www.npr.org/2026/10/14/nx-s1-5985198/snap-fraud-ebt-card-skimming-chip-cards",
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies",
-     "summary": "Kansas voters could send a Democrat to the Senate for the first time in nearly a century \u2014 and flip the governor's office back to Republican control, even in what could be a tough year for the GOP.",
-     "url": "https://www.npr.org/2026/10/14/nx-s1-5995633/kansas-senate-race-hamilton-marshall-tossup",
+     "title": "Civil rights advocates plan to send thousands of observers to midterm polling places",
+     "summary": "For many election cycles, civil rights groups and political parties have fanned out to monitor polling places, but the charged midterm environment has many organizations stepping up efforts this year.",
+     "url": "https://www.npr.org/2026/10/14/nx-s1-5991802/election-polling-place-observers",
      "time": "Wed, 14 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Watch Cameron Winter at Carnegie Hall\u2019s First Teaser Trailer",
+     "summary": "Paul Thomas Anderson\u2019s concert film comes to theaters next month",
+     "url": "https://pitchfork.com/story/watch-cameron-winter-at-carnegie-halls-first-teaser-trailer/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Joni Mitchell Is Now Officially American",
      "summary": "She was sworn in at a recent ceremony",
      "url": "https://pitchfork.com/story/joni-mitchell-is-now-officially-american/",
@@ -262,13 +269,6 @@
      "title": "Michael Stipe\u2019s Debut Solo Album Almost Has a Release Date",
      "summary": "The lead single is dropping New Year\u2019s Eve but you\u2019ll have to wait until 2027 to hear the whole project",
      "url": "https://pitchfork.com/story/michael-stipe-reveals-debut-solo-album-release-date/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Listen to Robyn and Mechatok Remix Each Other",
-     "summary": "Mechatok soups up \u201cFembot\u201d and Robyn joins the Ecco2k and Bladee-assisted \u201cExpression on Your Face\u201d",
-     "url": "https://pitchfork.com/story/listen-to-robyn-and-mechatok-remix-each-other/",
      "time": "Tue, 13 Oct 2026",
      "source": "Pitchfork"
     }
