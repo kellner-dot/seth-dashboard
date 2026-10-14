@@ -1,6 +1,6 @@
 {
- "generated_at": 1792020317,
- "generated_iso": "2026-10-14T23:25:17+0000",
+ "generated_at": 1792020610,
+ "generated_iso": "2026-10-14T23:30:10+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -9,7 +9,40 @@
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": false
+   "online": true,
+   "rvg_version": "1.20.0",
+   "uptime_s": 10477,
+   "hostname": "SETHS-PC",
+   "emby": {
+    "running": true,
+    "version": "4.10.1.0"
+   },
+   "emby_sessions": [
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "Muse",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": null
+    },
+    {
+     "device": "KaviTV-Sentinel",
+     "client": "KaviTV-Playback-Sentinel",
+     "user": "",
+     "playing": null
+    }
+   ],
+   "terabox_uploaders": 1,
+   "firetv": {
+    "seen_in_emby": false,
+    "sessions": [],
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
+   }
   },
   {
    "id": "seths-macbook-air",
@@ -31,7 +64,7 @@
    "kind": "phone",
    "ip": "100.109.182.123",
    "online": true,
-   "ping_ms": 14
+   "ping_ms": 98
   },
   {
    "id": "motorola-razr-2023",
