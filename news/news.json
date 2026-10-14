@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-14T15:13:35+0000",
- "updated_ts": 1791990815,
+ "updated": "2026-10-14T15:34:21+0000",
+ "updated_ts": 1791992061,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Passkeys Are Not a Trap",
+     "summary": "Comments",
+     "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
      "summary": "Comments",
@@ -27,13 +34,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Amazon pushes up prices across the Internet",
-     "summary": "Comments",
-     "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "TV4 postpones show after AI agent erases edited material",
      "summary": "Comments",
      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
+     "title": "The Gold-Bug: Edgar Allan Poe's story that taught me about cryptography (2024)",
      "summary": "Comments",
-     "url": "https://blog.lorenzano.eu/pulsar-at-esug-2026/",
-     "time": "Wed, 14 Oct 2026",
+     "url": "https://robotsinplainenglish.com/e/2024-01-21-gold-bug.html",
+     "time": "Mon, 12 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -102,16 +102,16 @@
      "source": "BBC World"
     },
     {
-     "title": "US inflation rises more than expected - here's what is happening with prices",
-     "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
-     "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+     "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+     "summary": "The 71-year-old Pope was diagnosed with lung cancer after the 90-minute procedure on Tuesday.",
+     "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-     "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
-     "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+     "title": "US inflation rises more than expected - here's what is happening with prices",
+     "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
+     "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Turkish police raid opposition TV station, halting live broadcasts",
-     "summary": "It is the latest in a series of crackdowns on media critical of the Turkish president and his government.",
-     "url": "https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss",
+     "title": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
+     "summary": "All of the spots are in South Australia, reportedly because the state government paid for incognito inspectors to visit.",
+     "url": "https://www.bbc.co.uk/news/articles/crje5we583qwo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Hundreds of thousands of workers on strike across Republic of Ireland",
-     "summary": "It comes amidst an an ongoing pay dispute between public sector workers and the Irish government.",
-     "url": "https://www.bbc.co.uk/news/articles/cjn5vxlrgqn4o?at_medium=RSS&at_campaign=rss",
+     "title": "Turkish police raid opposition TV station, halting live broadcasts",
+     "summary": "It is the latest in a series of crackdowns on media critical of the Turkish president and his government.",
+     "url": "https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Tuition free college or training? Yes!",
+     "summary": "Education is an investment, and enrolling in college or training can feel like a risk. But when you take cost out of the equation, new doors open. Learn about five programs available right now that make it possible to pursue a host of careers, tuition free, at any age or stage of",
+     "url": "https://vtdigger.org/2026/10/14/tuition-free-college-or-training-yes/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "An \u2018arms embargo\u2019 organization could cost Vermont dearly",
      "summary": "A campaign targeting 35 Vermont manufacturing and technology employers, supporting thousands of jobs, could destroy livelihoods and struggling communities. Read the story on VTDigger here: An \u2018arms embargo\u2019 organization could cost Vermont dearly.",
      "url": "https://vtdigger.org/2026/10/13/opinion-an-arms-embargo-organization-could-cost-vermont-dearly/",
@@ -215,13 +222,6 @@
      "title": "Vermont Supreme Court closes case in Westmore residents\u2019 fight against telecommunications tower",
      "summary": "A photo of Lake Willoughby in Westmore shows the location proposed for a 140-foot tall telecommunications tower. Photo courtesy of Donna Dzugas-Smith. \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/Westmore_dronephototest2-1200x799.png\" /> The Court denied a m",
      "url": "https://vtdigger.org/2026/10/13/vermont-supreme-court-closes-case-in-westmore-residents-fight-against-telecommunications-tower/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Manufacturing leaders tackle Vermont workforce challenges",
-     "summary": "Business and community leaders gathered for the Brattleboro Development Credit Corp.\u2019s Brattleboro Regional Manufacturing Event in Brattleboro on Thursday, Oct. 8, 2026. The event highlighted the importance of manufacturing to Southern Vermont\u2019s economy and workforce. Photo by Kr",
-     "url": "https://vtdigger.org/2026/10/13/manufacturing-leaders-tackle-vermont-workforce-challenges/",
      "time": "Tue, 13 Oct 2026",
      "source": "VT Digger"
     }
