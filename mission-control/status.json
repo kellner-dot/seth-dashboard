@@ -1,15 +1,90 @@
 {
- "generated_at": 1791998470,
- "generated_iso": "2026-10-14T17:21:10+0000",
- "collector": "mission-control v1 (hatch VM, 5-min cron)",
+ "generated_at": 1791998491,
+ "generated_iso": "2026-10-14T17:21:31+0000",
+ "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
+ "alerts": [
+  {
+   "severity": "warn",
+   "icon": "\ud83d\udcf1",
+   "title": "iPhone offline",
+   "message": "iPhone not reachable on Tailnet.",
+   "at": "2026-10-14T17:21:31+0000"
+  },
+  {
+   "severity": "warn",
+   "icon": "\ud83d\udcf1",
+   "title": "Razr+ offline",
+   "message": "Razr+ not reachable on Tailnet.",
+   "at": "2026-10-14T17:21:31+0000"
+  },
+  {
+   "severity": "info",
+   "icon": "\ud83d\udcbb",
+   "title": "MacBook Air offline",
+   "message": "Mac not reachable on Tailnet.",
+   "at": "2026-10-14T17:21:31+0000"
+  },
+  {
+   "severity": "critical",
+   "icon": "\ud83d\udda5\ufe0f",
+   "title": "Gaming PC offline",
+   "message": "SETHS-PC not reachable. Emby, TeraBox, and BiglyBT data may be stale.",
+   "at": "2026-10-14T17:21:31+0000"
+  }
+ ],
+ "github": {
+  "profile": "https://github.com/kellner-dot",
+  "public_repos": 10,
+  "private_repos": 10,
+  "pages": [
+   {
+    "name": "seth-dashboard",
+    "url": "https://kellner-dot.github.io/seth-dashboard/"
+   },
+   {
+    "name": "theartfuldodger-site",
+    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
+   }
+  ]
+ },
+ "emby_library": {
+  "movies": null,
+  "series": null,
+  "episodes": null,
+  "recent": []
+ },
+ "terabox": {
+  "total": null,
+  "used": null,
+  "free": null
+ },
+ "kaviguard": {},
+ "biglybt": {
+  "running": false,
+  "scheduler": ""
+ },
  "devices": [
   {
    "id": "seths-pc",
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": false
+   "online": false,
+   "rvg_version": "",
+   "uptime_s": null,
+   "hostname": "SETHS-PC",
+   "emby": {
+    "running": false,
+    "version": ""
+   },
+   "emby_sessions": [],
+   "terabox_uploaders": 0,
+   "firetv": {
+    "seen_in_emby": false,
+    "sessions": [],
+    "adb": "unreachable (subnet route not approved or stick offline)"
+   }
   },
   {
    "id": "seths-macbook-air",
@@ -17,7 +92,7 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": null,
+    "http": 0,
     "up": false
    },
    "rvg_agent": {
@@ -30,7 +105,8 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": false
+   "online": false,
+   "ping_ms": null
   },
   {
    "id": "motorola-razr-2023",
