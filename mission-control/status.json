@@ -1,6 +1,6 @@
 {
- "generated_at": 1792010110,
- "generated_iso": "2026-10-14T20:35:10+0000",
+ "generated_at": 1792010410,
+ "generated_iso": "2026-10-14T20:40:10+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -9,7 +9,21 @@
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": false
+   "online": true,
+   "rvg_version": "1.20.0",
+   "uptime_s": 278,
+   "hostname": "SETHS-PC",
+   "emby": {
+    "running": false,
+    "version": null
+   },
+   "emby_sessions": [],
+   "terabox_uploaders": 1,
+   "firetv": {
+    "seen_in_emby": false,
+    "sessions": [],
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
+   }
   },
   {
    "id": "seths-macbook-air",
@@ -30,7 +44,8 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": false
+   "online": true,
+   "ping_ms": 7
   },
   {
    "id": "motorola-razr-2023",
