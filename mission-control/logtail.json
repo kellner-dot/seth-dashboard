@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-14T22:11:46+0000",
+ "generated_iso": "2026-10-14T22:22:18+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -43,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-14T18:01:26-04:00 [relay-supervisor] WARN: relay down, no process; requesting task start",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-14T18:01:29-04:00 [relay-supervisor] WARN: Start-ScheduledTask KaviTV-relay: requested",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-14T18:01:32-04:00 [relay-supervisor] WARN: relay recovered",
      "c": "warn"
     },
@@ -64,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-14T18:11:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-14T18:16:09-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-14T18:21:12-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
      "c": "ok"
     }
    ]
