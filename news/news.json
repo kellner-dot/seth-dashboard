@@ -1,14 +1,21 @@
 {
- "updated": "2026-10-14T16:31:32+0000",
- "updated_ts": 1791995492,
+ "updated": "2026-10-14T17:03:19+0000",
+ "updated_ts": 1791997399,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+     "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
      "summary": "Comments",
      "url": "https://typeof.net/Iosevka/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Submarine cable resilience",
+     "summary": "Comments",
+     "url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,30 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
-     "summary": "Comments",
-     "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Submarine Cable Resilience",
-     "summary": "Comments",
-     "url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Running Windows desktop tests from Linux with disposable VMs",
-     "summary": "Comments",
-     "url": "https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Amazon pushes up prices across the Internet",
      "summary": "Comments",
      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Amsterdam police confisquates server left-wing ISP A/I at American request",
+     "summary": "Comments",
+     "url": "https://www.nrc.nl/nieuws/2026/10/14/politie-amsterdam-neemt-op-amerikaans-verzoek-server-in-beslag-van-italiaanse-internetdienstverlener-a-i-a4938960",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+     "summary": "Comments",
+     "url": "https://github.com/graphicle-ai/graphicle",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Kenya confirms second Ebola case as relative of country's first victim",
-     "summary": "It follows the death last week of a man who had arrived in Kenya after travelling from DR Congo.",
-     "url": "https://www.bbc.co.uk/news/articles/cw5yn8rn04ljo?at_medium=RSS&at_campaign=rss",
+     "title": "Netflix to lay off 1,000 staff in steepest cuts since 2022",
+     "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
+     "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "Civil rights advocates plan to send thousands of observers to midterm polling places",
-     "summary": "For many election cycles, civil rights groups and political parties have fanned out to monitor polling places, but the charged midterm environment has many organizations stepping up efforts this year.",
-     "url": "https://www.npr.org/2026/10/14/nx-s1-5991802/election-polling-place-observers",
+     "title": "'They're stealing from the poor': A major source of SNAP fraud robs recipients of millions",
+     "summary": "Organized criminal rings target SNAP recipients because of the government program's outdated security features. But upgrading the tech costs money and states' SNAP budgets are getting squeezed.",
+     "url": "https://www.npr.org/2026/10/14/nx-s1-5985198/snap-fraud-ebt-card-skimming-chip-cards",
      "time": "Wed, 14 Oct 2026",
      "source": "NPR News"
     }
