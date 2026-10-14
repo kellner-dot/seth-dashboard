@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T07:00:41+0000",
- "updated_ts": 1791961241,
+ "updated": "2026-10-14T07:30:41+0000",
+ "updated_ts": 1791963041,
  "topics": [
   {
    "name": "Tech",
@@ -9,13 +9,6 @@
      "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
      "summary": "Comments",
      "url": "https://github.com/android/ndk/issues/2260",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Felix Rieseberg Homepage",
-     "summary": "Comments",
-     "url": "https://felixrieseberg.com/",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -31,6 +24,13 @@
      "summary": "Comments",
      "url": "https://ciechanow.ski/sound/",
      "time": "Sun, 11 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Felix Rieseberg Homepage",
+     "summary": "Comments",
+     "url": "https://felixrieseberg.com/",
+     "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -96,7 +96,7 @@
    "articles": [
     {
      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-     "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+     "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
      "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
@@ -110,7 +110,7 @@
     },
     {
      "title": "Turkey police raid opposition TV station, halting live broadcasts",
-     "summary": "Halk TV says its staff are unable to enter the building in Istanbul, and a new manager was appointed to run the channel.",
+     "summary": "Halk TV says its staff are unable to enter the building in Istanbul and a new manager has been appointed.",
      "url": "https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
@@ -135,6 +135,13 @@
      "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 13 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "CNN, MS NOW and Politico prevail against White House \u2014 for now",
+     "summary": "A federal judge ruled late Tuesday that President Trump cannot ban news organizations from covering him at the White House because he does not like the nature of their coverage - at least, not until the matter goes to a formal trial.",
+     "url": "https://www.npr.org/2026/10/14/nx-s1-6001398/white-house-media-ban",
+     "time": "Wed, 14 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Pope Leo has lung cancer, the Vatican announces after surgery",
@@ -168,13 +175,6 @@
      "title": "Cornell University bans frat parties, vows to address 'disturbing' campus culture",
      "summary": "In a letter, Cornell's president apologized for what happened to the student who alleges she was raped by several men at a fraternity house in 2024 and promised 'meaningful action.'",
      "url": "https://www.npr.org/2026/10/13/nx-s1-6000347/cornell-rape-ban-fraternity-parties",
-     "time": "Tue, 13 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "The Trump administration warns Ukraine it could cut off intel, Zelenskyy tells NPR",
-     "summary": "Ukrainian President Volodymyr Zelenskyy sat down for an interview with NPR at a time of renewed tensions with the White House.",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
      "time": "Tue, 13 Oct 2026",
      "source": "NPR News"
     }
