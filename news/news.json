@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-14T17:03:19+0000",
- "updated_ts": 1791997399,
+ "updated": "2026-10-14T17:34:12+0000",
+ "updated_ts": 1791999252,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "The Emperor Pelican Has No Clothes",
+     "summary": "Comments",
+     "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
      "summary": "Comments",
@@ -20,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Amsterdam police confiscates server left-wing ISP A/I at American request",
+     "summary": "Comments",
+     "url": "https://www.nrc.nl/nieuws/2026/10/14/politie-amsterdam-neemt-op-amerikaans-verzoek-server-in-beslag-van-italiaanse-internetdienstverlener-a-i-a4938960",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
      "summary": "Comments",
      "url": "https://github.com/timescale/pg_vectorsearch",
@@ -27,23 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Amazon pushes up prices across the Internet",
+     "title": "Better HTTP/1 connection reuse in Go 1.27",
      "summary": "Comments",
-     "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Amsterdam police confisquates server left-wing ISP A/I at American request",
-     "summary": "Comments",
-     "url": "https://www.nrc.nl/nieuws/2026/10/14/politie-amsterdam-neemt-op-amerikaans-verzoek-server-in-beslag-van-italiaanse-internetdienstverlener-a-i-a4938960",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
-     "summary": "Comments",
-     "url": "https://github.com/graphicle-ai/graphicle",
+     "url": "https://go.dev/blog/http-connection-reuse",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Summer Walker Sues Label and Management for Fraud",
+     "summary": "Walker, who is facing her own $50 million lawsuit from Interscope, accuses LVRN of fraud and breach of contract",
+     "url": "https://pitchfork.com/story/summer-walker-sues-label-and-management-for-fraud/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Big Thief Launch Free Concert Archive",
      "summary": "The Big Thief Live Archive includes 10 fully mixed shows, with plans to add new sets each month",
      "url": "https://pitchfork.com/story/big-thief-launch-free-concert-archive/",
@@ -262,13 +269,6 @@
      "title": "Man Who Orchestrated Tupac Shakur Murder Sentenced to 40 Years to Life in Prison",
      "summary": "Duane \u201cKeffe D\u201d Davis was found guilty in August",
      "url": "https://pitchfork.com/story/man-convicted-of-orchestrating-tupac-shakur-murder-sentenced-to-40-years-to-life/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Marina Herlop, Cameron Winter, Jespfur, Zsela and More: This Week\u2019s Pitchfork Selects Playlist",
-     "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
-     "url": "https://pitchfork.com/story/marina-herlop-cameron-winter-jespfur-zsela-this-weeks-pitchfork-selects-playlist/",
      "time": "Tue, 13 Oct 2026",
      "source": "Pitchfork"
     }
