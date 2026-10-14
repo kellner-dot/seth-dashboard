@@ -1,45 +1,41 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-14T20:40:50+0000",
- "cpu_pct": 42.9,
- "mem_pct": 96.6,
+ "generated_iso": "2026-10-14T20:50:44+0000",
+ "cpu_pct": 7.4,
+ "mem_pct": 58.9,
  "mem_total_gb": 15.2,
  "disk_pct": 70.8,
- "disk_free_gb": 272.1,
- "uptime_h": 0.1,
+ "disk_free_gb": 271.7,
+ "uptime_h": 0.3,
  "top": [
   {
-   "cpu": 110.5,
+   "cpu": 828,
    "name": "Memory Compression",
-   "memMB": 130.8
+   "memMB": 29.5
   },
   {
-   "cpu": 94.7,
-   "name": "MsMpEng",
-   "memMB": 420.7
-  },
-  {
-   "cpu": 90.4,
+   "cpu": 248.6,
    "name": "System",
-   "memMB": 3.9
+   "memMB": 4.4
   },
   {
-   "cpu": 29.8,
+   "cpu": 63.3,
+   "name": "svchost",
+   "memMB": 18.3
+  },
+  {
+   "cpu": 39.7,
+   "name": "MsMpEng",
+   "memMB": 304.3
+  },
+  {
+   "cpu": 37.1,
    "name": "llama-server",
-   "memMB": 429.9
-  },
-  {
-   "cpu": 23.6,
-   "name": "PhoneExperienceHost",
-   "memMB": 302.6
+   "memMB": 1211.2
   }
  ],
  "history": {
   "cpu": [
-   [
-    1791979257,
-    8.4
-   ],
    [
     1791979845,
     10
@@ -227,13 +223,13 @@
    [
     1792010450,
     42.9
+   ],
+   [
+    1792011044,
+    7.4
    ]
   ],
   "mem": [
-   [
-    1791979257,
-    65.6
-   ],
    [
     1791979845,
     65.6
@@ -421,13 +417,13 @@
    [
     1792010450,
     96.6
+   ],
+   [
+    1792011044,
+    58.9
    ]
   ],
   "disk": [
-   [
-    1791979257,
-    70.7
-   ],
    [
     1791979845,
     70.7
@@ -614,6 +610,10 @@
    ],
    [
     1792010450,
+    70.8
+   ],
+   [
+    1792011044,
     70.8
    ]
   ]
