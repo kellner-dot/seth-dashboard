@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-14T12:21:11+0000",
+ "generated_iso": "2026-10-14T12:31:13+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -184,7 +184,7 @@
   },
   {
    "name": "onn ADB fwd",
-   "online": true,
+   "online": false,
    "days": [
     null,
     null,
@@ -215,7 +215,7 @@
     81.0,
     88.4,
     90.2,
-    72.0
+    71.1
    ]
   },
   {
