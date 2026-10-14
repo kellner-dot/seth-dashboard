@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T20:31:14+0000",
- "updated_ts": 1792009874,
+ "updated": "2026-10-14T21:01:50+0000",
+ "updated_ts": 1792011710,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,20 @@
      "title": "Things to know if you get cancer in 2026",
      "summary": "Comments",
      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
+     "summary": "Comments",
+     "url": "https://blog.cloudflare.com/yandex-outage/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Anthropic's Scion is heavily inspired by Mononoke",
+     "summary": "Comments",
+     "url": "https://sunshowers.io/posts/anthropic-mononoke/",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,25 +41,39 @@
      "source": "Hacker News"
     },
     {
-     "title": "Neckbeard \u2013 a DevOps/platform/SRE plugin for your agent",
+     "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
      "summary": "Comments",
-     "url": "https://github.com/bealesh/neckbeard",
+     "url": "https://petal.live/",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Phloem: Git history grown like a slime mold",
-     "summary": "Comments",
-     "url": "https://phloem.stemdeck.app/",
-     "time": "Mon, 12 Oct 2026",
-     "source": "Hacker News"
+     "title": "Things are finally looking up for NASA's first missions to Venus in a generation",
+     "summary": "\"This is great news for us. We're staffing up. We're accelerating.\"",
+     "url": "https://arstechnica.com/space/2026/10/nasas-embattled-venus-missions-are-back-on-track-after-cancellation-threat/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Ars Technica"
     },
     {
-     "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-     "summary": "Comments",
-     "url": "https://typeof.net/Iosevka/",
+     "title": "Schools across US protest FCC plan that could disconnect kids from Internet",
+     "summary": "FCC chair threatens E-Rate fund, blames schools for kids' excessive screen time.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/schools-libraries-plead-with-fcc-to-scrap-idea-of-killing-2b-broadband-program/",
      "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation",
+     "summary": "Plaintiff claims cameras enabled warrantless tracking and monitoring after he previously sued over excessive force.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Software development and rules stability: Prototype racing in 2030",
+     "summary": "With the end of IMSA\u2019s 2026 season, we have thoughts about the future of the sport.",
+     "url": "https://arstechnica.com/cars/2026/10/software-development-and-rules-stability-prototype-racing-in-2030/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Greta Gerwig channels Bowie in psychedelic The Magician's Nephew trailer",
@@ -60,34 +88,6 @@
      "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
      "time": "Wed, 14 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
-     "summary": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Legendary FPS level designer Richard \"Levelord\" Gray dies at 68",
-     "summary": "Tributes pour in for the man behind iconic Duke Nukem 3D levels and much more.",
-     "url": "https://arstechnica.com/gaming/2026/10/legendary-fps-level-designer-richard-levelord-gray-passes-away-at-68/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Ukraine blindsided by Starlink throttling restrictions and intelligence gaps",
-     "summary": "Kyiv\u2019s forces experience connectivity problems on Elon Musk\u2019s satellite network.",
-     "url": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-     "summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-     "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -95,9 +95,16 @@
    "name": "World",
    "articles": [
     {
-     "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
-     "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
-     "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+     "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
+     "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+     "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 14 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Student protesters attack government buildings in Tirana",
+     "summary": "Thousands of students in Albania are calling for better university conditions and job prospects, but buildings have been set on fire in the unrest.",
+     "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
@@ -126,13 +133,6 @@
      "title": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
      "summary": "All of the spots are in South Australia, reportedly because the state government paid for incognito inspectors to visit.",
      "url": "https://www.bbc.co.uk/news/articles/crje5we583qwo?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 14 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
-     "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
-     "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 14 Oct 2026",
      "source": "BBC World"
     },
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "\u2018Fuck the Flock cameras\u2019: On big tech, Vermont\u2019s candidates for governor differ on style and substance",
+     "summary": "A license plate reader camera on VT Route 7A in Manchester seen on Thursday, June 11, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/06/license-plate-camera-4-20260611-1200x798.jpg\" /> Amanda Janoo wants to make Vermont a nat",
+     "url": "https://vtdigger.org/2026/10/14/fuck-the-flock-cameras-on-big-tech-vermonts-candidates-for-governor-differ-on-style-and-substance/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Turn Trump\u2019s $90 payment into a campaign check",
      "summary": "That $90 Medicare rebate is yours to spend. Why not send it to a candidate before Nov. 3? Read the story on VTDigger here: Turn Trump\u2019s $90 payment into a campaign check.",
      "url": "https://vtdigger.org/2026/10/14/opinion-turn-trumps-90-payment-into-a-campaign-check/",
@@ -216,13 +223,6 @@
      "summary": "Education is an investment, and enrolling in college or training can feel like a risk. But when you take cost out of the equation, new doors open. Learn about five programs available right now that make it possible to pursue a host of careers, tuition free, at any age or stage of",
      "url": "https://vtdigger.org/2026/10/14/tuition-free-college-or-training-yes/",
      "time": "Wed, 14 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "An \u2018arms embargo\u2019 organization could cost Vermont dearly",
-     "summary": "A campaign targeting 35 Vermont manufacturing and technology employers, supporting thousands of jobs, could destroy livelihoods and struggling communities. Read the story on VTDigger here: An \u2018arms embargo\u2019 organization could cost Vermont dearly.",
-     "url": "https://vtdigger.org/2026/10/13/opinion-an-arms-embargo-organization-could-cost-vermont-dearly/",
-     "time": "Tue, 13 Oct 2026",
      "source": "VT Digger"
     }
    ]
