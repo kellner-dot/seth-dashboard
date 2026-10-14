@@ -1,21 +1,14 @@
 {
- "updated": "2026-10-14T17:34:12+0000",
- "updated_ts": 1791999252,
+ "updated": "2026-10-14T18:02:10+0000",
+ "updated_ts": 1792000930,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "The Emperor Pelican Has No Clothes",
+     "title": "Better HTTP/1 connection reuse in Go 1.27",
      "summary": "Comments",
-     "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-     "summary": "Comments",
-     "url": "https://typeof.net/Iosevka/",
+     "url": "https://go.dev/blog/http-connection-reuse",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Amsterdam police confiscates server left-wing ISP A/I at American request",
+     "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
      "summary": "Comments",
-     "url": "https://www.nrc.nl/nieuws/2026/10/14/politie-amsterdam-neemt-op-amerikaans-verzoek-server-in-beslag-van-italiaanse-internetdienstverlener-a-i-a4938960",
+     "url": "https://typeof.net/Iosevka/",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Better HTTP/1 connection reuse in Go 1.27",
+     "title": "ICE Planning $100M 'Nightmare' Domestic Spy Program",
      "summary": "Comments",
-     "url": "https://go.dev/blog/http-connection-reuse",
+     "url": "https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/",
      "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "LittleJS is 2D and 3D now",
+     "summary": "Comments",
+     "url": "https://frankforce.com/littlejs-is-2d-and-3d-now/",
+     "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "'They're stealing from the poor': A major source of SNAP fraud robs recipients of millions",
-     "summary": "Organized criminal rings target SNAP recipients because of the government program's outdated security features. But upgrading the tech costs money and states' SNAP budgets are getting squeezed.",
-     "url": "https://www.npr.org/2026/10/14/nx-s1-5985198/snap-fraud-ebt-card-skimming-chip-cards",
+     "title": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies",
+     "summary": "Kansas voters could send a Democrat to the Senate for the first time in nearly a century \u2014 and flip the governor's office back to Republican control, even in what could be a tough year for the GOP.",
+     "url": "https://www.npr.org/2026/10/14/nx-s1-5995633/kansas-senate-race-hamilton-marshall-tossup",
      "time": "Wed, 14 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "26 Songs I Want to Hear in the Girls Reboot",
+     "summary": "\u201cAaand you can press play\u201d \u2014Marnie",
+     "url": "https://pitchfork.com/story/26-songs-i-want-to-hear-in-the-girls-reboot/",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Summer Walker Sues Label and Management for Fraud",
      "summary": "Walker, who is facing her own $50 million lawsuit from Interscope, accuses LVRN of fraud and breach of contract",
      "url": "https://pitchfork.com/story/summer-walker-sues-label-and-management-for-fraud/",
@@ -262,13 +269,6 @@
      "title": "Shygirl Lines Up 2027 Full-Band Tour",
      "summary": "She\u2019s also shared \u201cMantra,\u201d another taste of her forthcoming album Swallow!",
      "url": "https://pitchfork.com/story/shygirl-lines-up-2027-full-band-tour/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Man Who Orchestrated Tupac Shakur Murder Sentenced to 40 Years to Life in Prison",
-     "summary": "Duane \u201cKeffe D\u201d Davis was found guilty in August",
-     "url": "https://pitchfork.com/story/man-convicted-of-orchestrating-tupac-shakur-murder-sentenced-to-40-years-to-life/",
      "time": "Tue, 13 Oct 2026",
      "source": "Pitchfork"
     }
