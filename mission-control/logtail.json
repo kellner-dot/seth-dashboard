@@ -1,25 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-14T21:32:12+0000",
+ "generated_iso": "2026-10-14T21:40:46+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-14 17:30:28.800 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-14 17:30:29.013 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-14 17:30:29.031 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "t": "\t[hls @ 000001edc7896bc0] Failed to open segment 24 of playlist 0",
      "c": "err"
     },
     {
-     "t": "2026-10-14 17:30:29.085 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
-     "c": "ok"
+     "t": "\t[http @ 000001edc78a7c00] HTTP error 400 Bad Request",
+     "c": "err"
+    },
+    {
+     "t": "\t[hls @ 000001edc7896bc0] Failed to open segment 25 of playlist 0",
+     "c": "err"
+    },
+    {
+     "t": "\t[http @ 000001edc78a7c00] HTTP error 400 Bad Request",
+     "c": "err"
+    },
+    {
+     "t": "\t[hls @ 000001edc7896bc0] Failed to open segment 26 of playlist 0",
+     "c": "err"
+    },
+    {
+     "t": "\t[http @ 000001edc78a7c00] HTTP error 400 Bad Request",
+     "c": "err"
+    },
+    {
+     "t": "\t[hls @ 000001edc7896bc0] Failed to open segment 27 of playlist 0",
+     "c": "err"
+    },
+    {
+     "t": "\t[http @ 000001edc78a7c00] HTTP error 400 Bad Request",
+     "c": "err"
+    },
+    {
+     "t": "\t[hls @ 000001edc7896bc0] Failed to open segment 28 of playlist 0",
+     "c": "err"
+    },
+    {
+     "t": "\t[hls @ 000001edc7896bc0] Error when loading first segment 'http://10.0.0.98:8096/emby/Videos/214810/hls1/main/0.ts?PlaySessionId='",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-14 17:35:45.439 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-14 17:35:47.497 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
     }
    ]
   },
@@ -51,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-14T17:19:06-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-14T17:19:06-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-14T17:26:11-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-14T17:26:18-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
      "c": "warn"
     },
@@ -73,6 +93,18 @@
     {
      "t": "[supervision.lo] 2026-10-14T17:26:18-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 2)",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-14T17:33:02-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-14T17:34:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-14T17:35:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
+     "c": "ok"
     }
    ]
   }
