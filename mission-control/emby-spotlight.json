@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Forsaken",
-  "year": 2026,
+  "name": "Zoo",
+  "year": 2018,
   "genres": [
-   "Drama"
+   "Family",
+   "War"
   ],
-  "runtime_min": 11,
+  "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "An avant-garde work by Alix Pearlstein, preserved in the UbuWeb archive of experimental film, video, and performance art. Part of a collection documenting the international avant-garde."
+  "overview": "Young Tom and his misfit friends fight to save 'Buster' the baby elephant during the German air raid bombings of Belfast in 1941."
  }
 }
