@@ -1,24 +1,10 @@
 {
- "updated": "2026-10-15T13:00:41+0000",
- "updated_ts": 1792069241,
+ "updated": "2026-10-15T13:30:44+0000",
+ "updated_ts": 1792071044,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Things to know when you get cancer",
-     "summary": "Comments",
-     "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Wanted to download an ISO, ended up writing a kernel exploit",
-     "summary": "Comments",
-     "url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
      "summary": "Comments",
@@ -34,17 +20,31 @@
      "source": "Hacker News"
     },
     {
-     "title": "OpenCode 2.0",
+     "title": "Israeli firm's digital ads enabling installation of 'zero-click' spyware",
      "summary": "Comments",
-     "url": "https://anoma.ly/notes/opencode-2-0/",
+     "url": "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Things to know when you get cancer",
+     "summary": "Comments",
+     "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
      "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "The First Social Network: In rural Argentina residents send messages w AM radio",
+     "title": "Wanted to download an ISO, ended up writing a kernel exploit",
      "summary": "Comments",
-     "url": "https://www.newyorker.com/magazine/2026/10/19/the-first-social-network",
+     "url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
      "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "OpenCode 2.0",
+     "summary": "Comments",
+     "url": "https://anoma.ly/notes/opencode-2-0/",
+     "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -123,7 +123,7 @@
      "source": "BBC World"
     },
     {
-     "title": "White House defends new press secretary amid questions about her legal credentials",
+     "title": "White House defends new press secretary over her legal credentials",
      "summary": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
      "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 15 Oct 2026",
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "For some Christians, Hegseth's plan for public execution fits a biblical mandate",
-     "summary": "Defense Secretary Hegseth's announcement of a livestreamed execution elicited reactions of disgust and condemnation from some faith leaders and politicians. But within his church, it's not an outlier.",
-     "url": "https://www.npr.org/2026/10/15/nx-s1-6001794/fort-hood-execution-hegseth-christian-nationalist",
+     "title": "These swing voters regret voting for Trump and it's influencing their midterm choices",
+     "summary": "Some key voters in Georgia say deep frustration and disappointment with President Trump are motivating their election plans just weeks before Election Day.",
+     "url": "https://www.npr.org/2026/10/15/nx-s1-6001714/georgia-swing-voters-focus-groups",
      "time": "Thu, 15 Oct 2026",
      "source": "NPR News"
     }
