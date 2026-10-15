@@ -1,21 +1,28 @@
 {
- "updated": "2026-10-15T18:00:41+0000",
- "updated_ts": 1792087241,
+ "updated": "2026-10-15T18:30:43+0000",
+ "updated_ts": 1792089043,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Neural Networks Are Already Clean",
+     "title": "Muse Spark Open",
+     "summary": "Comments",
+     "url": "https://research.meta.ai/blog/muse-spark-open",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Neural networks are clean",
      "summary": "Comments",
      "url": "https://already-clean.goodfire.com/",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Muse Spark Open",
+     "title": "Krea 3 \u2013 An image model built for editing at scale",
      "summary": "Comments",
-     "url": "https://research.meta.ai/blog/muse-spark-open",
+     "url": "https://www.krea.ai/krea-3",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,13 +34,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Krea 3 \u2013 Frontier Image Model 4\u00d7 faster than Nano Banana Pro",
-     "summary": "Comments",
-     "url": "https://www.krea.ai/krea-3",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "I Know Why the Mathematicians Weep",
      "summary": "Comments",
      "url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "More on Anthropic's Scion ripping off Mononoke",
+     "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
      "summary": "Comments",
-     "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+     "url": "https://libreboot.org/news/libreboot2610.html",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "English programs face rising anxiety amid fears of immigration enforcement",
+     "summary": "Helene Rassias-Miles, Executive Director of the Rassias Center for World Languages and Cultures, leads a training session with her team while refining future lesson plans in Hanover, Nh., on Wednesday, Oct. 7, 2026. Photo by Sophia Sahni/Valley News \" data-large-file=\"https://vtd",
+     "url": "https://vtdigger.org/2026/10/15/english-programs-face-rising-anxiety-amid-fears-of-immigration-enforcement/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "David Martin",
      "summary": "David loved life so very much. He found joy in all of the people and places surrounding him and was brought to tears more often from smiles than from sadness. Read the story on VTDigger here: David Martin.",
      "url": "https://vtdigger.org/2026/10/15/david-martin/",
@@ -215,13 +222,6 @@
      "title": "\u2018Fuck the Flock cameras\u2019: On big tech, Vermont\u2019s candidates for governor differ on style and substance",
      "summary": "A license plate reader camera on VT Route 7A in Manchester seen on Thursday, June 11, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/06/license-plate-camera-4-20260611-1200x798.jpg\" /> Amanda Janoo wants to make Vermont a nat",
      "url": "https://vtdigger.org/2026/10/14/fuck-the-flock-cameras-on-big-tech-vermonts-candidates-for-governor-differ-on-style-and-substance/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Turn Trump\u2019s $90 payment into a campaign check",
-     "summary": "That $90 Medicare rebate is yours to spend. Why not send it to a candidate before Nov. 3? Read the story on VTDigger here: Turn Trump\u2019s $90 payment into a campaign check.",
-     "url": "https://vtdigger.org/2026/10/14/opinion-turn-trumps-90-payment-into-a-campaign-check/",
      "time": "Wed, 14 Oct 2026",
      "source": "VT Digger"
     }
