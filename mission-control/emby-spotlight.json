@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Batman Featurette",
-  "year": 2001,
+  "name": "Master of the Universe",
+  "year": 2026,
   "genres": [
-   "Documentary"
+   "Science Fiction",
+   "Action"
   ],
-  "runtime_min": 0,
+  "runtime_min": 81,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A documentary about the making of 'Batman' (1966). Actors Burt Ward and Adam West tell stories from the set, the casting and other events."
+  "overview": "A young man must use his untapped powers to fight back against an evil alien and their army, who will stop at nothing to take over Earth and then the universe."
  }
 }
