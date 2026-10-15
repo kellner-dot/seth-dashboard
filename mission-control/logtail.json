@@ -1,20 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-15T02:30:53+0000",
+ "generated_iso": "2026-10-15T02:40:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-14 22:23:17.248 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-14 22:35:32.795 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-14 22:23:34.670 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-14 22:23:52.059 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-14 22:35:34.827 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -47,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-14T22:16:36-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-14T22:16:53-04:00 [relay-supervisor] WARN: endpoint down; task=Running listener=7136 relay_procs=1",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-14T22:16:59-04:00 [relay-supervisor] WARN: hung-port strike 1/2 (pid 7136 verified as relay)",
      "c": "warn"
     },
@@ -68,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-14T22:26:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-14T22:31:11-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-14T22:35:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-14",
      "c": "ok"
     }
    ]
