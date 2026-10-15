@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-15T21:30:39+0000",
- "updated_ts": 1792099839,
+ "updated": "2026-10-15T22:00:40+0000",
+ "updated_ts": 1792101640,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Muse Spark Open",
      "summary": "Comments",
      "url": "https://research.meta.ai/blog/muse-spark-open",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "What I Self-Host",
+     "summary": "Comments",
+     "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "What I Self-Host",
+     "title": "Wayland desktop for Linux with skeuomorphic design",
      "summary": "Comments",
-     "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+     "url": "https://github.com/fyzugx/DEsk",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +48,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "Wayland desktop for Linux with skeuomorphic design",
-     "summary": "Comments",
-     "url": "https://github.com/fyzugx/DEsk",
+     "title": "Plex now helps sell movie theater tickets",
+     "summary": "Discovery data from Plex users will help studios, advertisers.",
+     "url": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
      "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Hegseth\u2019s dubious low-T screening may flag up to 25 percent of the Army",
+     "summary": "Medical experts explicitly recommend against blanket screenings.",
+     "url": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
+     "summary": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
+     "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Above the 911? Porsche previews a new mid-engined supercar.",
+     "summary": "Porsche\u2019s turnaround plan for 2035 involves less volume but more expensive cars.",
+     "url": "https://arstechnica.com/cars/2026/10/porsche-previews-its-future-with-mission-s-supercar-concept/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "What did the Liberty Bell sound like? Science is on the case.",
@@ -58,34 +86,6 @@
      "title": "Black Sea drone attacks enter NATO country's territorial waters for first time",
      "summary": "Suspected Russian drones attack chemical tanker within Romanian waters.",
      "url": "https://arstechnica.com/gadgets/2026/10/black-sea-drone-attacks-enter-nato-countrys-territorial-waters-for-first-time/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Microplastics in water aren\u2019t inert and make damaging chemicals on their own",
-     "summary": "Its effect on people remains an ongoing question.",
-     "url": "https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Trump cancels Pentagon plans to livestream firing squad execution",
-     "summary": "8 in 10 Americans opposed the Pentagon's plans, a Thursday poll showed.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Neutron's first launch slips again amid trouble with carbon composites",
-     "summary": "Rocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024.",
-     "url": "https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as \u201choax\u201d",
-     "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
      "time": "Thu, 15 Oct 2026",
      "source": "Ars Technica"
     }
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Hit a midlife wall? This test identifies your strengths and what matters to you",
+     "summary": "In this first episode of Your Turn with Allison Aubrey, we explore the science of the flow state with violinist Diane Allen, who lost her flow and then tried to find it again, and also from Dr. Richard Huskey, who studies the flow state and how each of us can find it.",
+     "url": "https://www.npr.org/2026/10/15/nx-s1-5996678/midlife-wall-reset-test-guide",
+     "time": "Thu, 15 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Suspicious mailings to election officials, congressional offices under investigation",
      "summary": "The FBI and U.S. Postal Inspection Service are looking into the mailings, some of which included an unidentified powdery white substance.",
      "url": "https://www.npr.org/2026/10/15/nx-s1-6003857/suspicious-mailings-election-congressional-offices",
@@ -170,13 +177,6 @@
      "url": "https://www.npr.org/2026/10/15/nx-s1-6002957/aca-fraud-trump-health-insurance",
      "time": "Thu, 15 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
-     "summary": "Ukrainian drones attacked a refinery in Russia's Ryazan region early Thursday, hours after Ukrainian President Volodymyr Zelenskyy said that a brief truce spurned by Moscow was over.",
-     "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-     "time": "Thu, 15 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
@@ -191,7 +191,7 @@
      "source": "VT Digger"
     },
     {
-     "title": "Expenses for EB-5 mop up total $14 million as judge OKs $1 million more in fees",
+     "title": "Expenses for EB-5 mop-up total $14 million as judge OKs $1 million more in fees",
      "summary": "Michael Goldberg, the court-appointed receiver in the EB-5 fraud case, speaks at a Statehouse news conference on April 13, 2017. Photo by Michael Dougherty/VTDigger \" data-image-caption=\"Michael Goldberg, the court-appointed receiver in the EB-5 fraud case, speaks at a Statehouse",
      "url": "https://vtdigger.org/2026/10/15/expenses-for-eb-5-mop-up-total-14-million-as-judge-oks-1-million-more-in-fees/",
      "time": "Thu, 15 Oct 2026",
