@@ -113,14 +113,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Young Desire",
-  "year": 1930,
+  "name": "Night Corridor",
+  "year": 2003,
   "genres": [
-   "Drama"
+   "Drama",
+   "Horror"
   ],
-  "runtime_min": 0,
+  "runtime_min": 7,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A carnival sideshow dancer falls in love with a handsome young man."
+  "overview": "When Sam searches for answers in the mysterious accident that has befallen his twin, he soon wonders if anyone close to him can be trusted."
  }
 }
