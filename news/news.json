@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-15T19:30:39+0000",
- "updated_ts": 1792092639,
+ "updated": "2026-10-15T20:00:40+0000",
+ "updated_ts": 1792094440,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Krea 3 \u2013 An image model built for editing at scale",
-     "summary": "Comments",
-     "url": "https://www.krea.ai/krea-3",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Wayland desktop for Linux with skeuomorphic design",
      "summary": "Comments",
      "url": "https://github.com/fyzugx/DEsk",
@@ -34,21 +27,56 @@
      "source": "Hacker News"
     },
     {
-     "title": "Celebrating 70 Years of Fortran",
+     "title": "Krea 3 \u2013 An image model built for editing at scale",
      "summary": "Comments",
-     "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+     "url": "https://www.krea.ai/krea-3",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+     "title": "E Ink Launches Latest Version of Color EPaper Platform, E Ink Kaleido 4",
      "summary": "Comments",
-     "url": "https://libreboot.org/news/libreboot2610.html",
+     "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Rocket Lab announces another delay for its medium-lift Neutron rocket",
+     "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+     "summary": "Comments",
+     "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "What did the Liberty Bell sound like? Science is on the case.",
+     "summary": "Researchers hunted for clues in modal analysis of 20th-century replica bell at Penn State Behrend.",
+     "url": "https://arstechnica.com/science/2026/10/what-did-the-liberty-bell-sound-like-science-is-on-the-case/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Black Sea drone attacks enter NATO country's territorial waters for first time",
+     "summary": "Suspected Russian drones attack chemical tanker within Romanian waters.",
+     "url": "https://arstechnica.com/gadgets/2026/10/black-sea-drone-attacks-enter-nato-countrys-territorial-waters-for-first-time/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Microplastics in water aren\u2019t inert and make damaging chemicals on their own",
+     "summary": "Its effect on people remains an ongoing question.",
+     "url": "https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Trump cancels Pentagon plans to livestream firing squad execution",
+     "summary": "8 in 10 Americans opposed the Pentagon's plans, a Thursday poll showed.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/",
+     "time": "Thu, 15 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Neutron's first launch slips again amid trouble with carbon composites",
      "summary": "Rocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024.",
      "url": "https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/",
      "time": "Thu, 15 Oct 2026",
@@ -59,34 +87,6 @@
      "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
      "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
      "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
-     "summary": "The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
-     "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Rewilding could help vulnerable islands keep pace with rising seas",
-     "summary": "Seabirds, native plants, and healthy reefs can help atolls build as seas rise.",
-     "url": "https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-     "summary": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
-     "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
-     "time": "Wed, 14 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-     "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
-     "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-     "time": "Wed, 14 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -130,11 +130,18 @@
      "source": "BBC World"
     },
     {
-     "title": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-     "summary": "Residents have been told to avoid leaving their homes unless absolutely necessary.",
-     "url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss",
+     "title": "Was Neanderthal life violent? This wound suggests lethal fighting was more common",
+     "summary": "A 75,000-year-old Neanderthal spear wound may be evidence violence shaped human life far earlier than thought.",
+     "url": "https://www.bbc.co.uk/news/articles/c6jrwn3y3xe9o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 15 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Suspicious mailings to election officials, congressional offices under investigation",
+     "summary": "The FBI and U.S. Postal Inspection Service are looking into the mailings, some of which included an unidentified powdery white substance.",
+     "url": "https://www.npr.org/2026/10/15/nx-s1-6003857/suspicious-mailings-election-congressional-offices",
+     "time": "Thu, 15 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "U.S. historic preservation law faces the most serious threat in its 60-year history",
@@ -168,13 +175,6 @@
      "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
      "summary": "Ukrainian drones attacked a refinery in Russia's Ryazan region early Thursday, hours after Ukrainian President Volodymyr Zelenskyy said that a brief truce spurned by Moscow was over.",
      "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-     "time": "Thu, 15 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Greetings from Mexico City, where a bullfighting ban doesn't stop this matador training",
-     "summary": "One plays the bull, the other the bullfighter, as a pair practices a dance of death in a sport that's prohibited in the Mexican capital city.",
-     "url": "https://www.npr.org/2026/10/15/nx-s1-6001550/mexico-city-bullfighting-ban-matador-training",
      "time": "Thu, 15 Oct 2026",
      "source": "NPR News"
     }
