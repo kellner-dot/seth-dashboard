@@ -1,16 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-15T17:50:47+0000",
+ "generated_iso": "2026-10-15T18:00:57+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-15 13:45:15.394 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tSystem.IO.IOException: System.IO.IOException: The process cannot access the file 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\httpcl",
      "c": "err"
     },
     {
-     "t": "2026-10-15 13:45:17.455 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-15 13:53:21.959 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-15 13:53:39.333 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-15 13:53:56.755 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,14 +51,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-15T13:21:19-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-15T13:26:01-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-15T13:31:12-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
      "c": "ok"
     },
@@ -64,6 +64,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-15T13:46:02-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-15T13:51:27-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-15T13:56:05-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
      "c": "ok"
     }
    ]
