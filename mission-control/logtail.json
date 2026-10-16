@@ -1,20 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T16:52:31+0000",
+ "generated_iso": "2026-10-16T17:01:57+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-16 12:48:56.962 Error LibraryMonitor: Error in Directory watcher for: C:\\AdultVOD",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
      "t": "\tSystem.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception (5): Access is denied.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 12:53:17.134 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 12:53:34.450 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 12:53:51.843 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -47,14 +51,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T12:25:15-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-16T12:31:23-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T12:33:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
@@ -68,6 +64,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T12:51:14-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T12:56:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T13:00:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
