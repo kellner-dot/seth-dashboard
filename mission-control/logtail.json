@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T15:30:55+0000",
+ "generated_iso": "2026-10-16T15:40:46+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -43,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T11:16:09-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-16T11:21:31-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T11:21:42-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=25968 relay_procs=1",
      "c": "warn"
     },
@@ -64,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T11:26:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T11:32:25-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T11:37:35-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
