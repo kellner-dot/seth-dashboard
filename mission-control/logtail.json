@@ -1,16 +1,28 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T22:50:48+0000",
+ "generated_iso": "2026-10-16T23:00:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-16 18:23:34.830 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-16 18:53:17.383 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-16 18:23:52.272 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-16 18:53:34.840 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 18:53:52.235 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 18:58:18.107 Warn UserService-0HNPBLMB4TDF2:00000001: AUTH-ERROR: ::1 - Access token is invalid or expired.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 18:58:18.107 Error UserService-0HNPBLMB4TDF2:00000001: Access token is invalid or expired.",
      "c": "err"
     }
    ]
@@ -43,14 +55,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T18:20:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-16T18:26:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T18:31:07-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
@@ -64,6 +68,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T18:45:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T18:50:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T18:55:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
