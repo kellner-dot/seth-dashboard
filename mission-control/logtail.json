@@ -1,19 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T16:21:23+0000",
+ "generated_iso": "2026-10-16T16:31:49+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": [
-    {
-     "t": "2026-10-16 11:53:34.474 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-16 11:53:51.865 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    }
-   ]
+   "lines": []
   },
   {
    "name": "Fleet Pollers",
@@ -43,14 +34,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T12:04:59-04:00 [relay-supervisor] WARN: endpoint down; task=Ready listener=25968 relay_procs=1",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-16T12:05:02-04:00 [relay-supervisor] WARN: hung-port strike 1/2 (pid 25968 verified as relay)",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T12:05:02-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
     },
@@ -64,6 +47,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T12:19:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T12:25:15-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T12:31:23-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
