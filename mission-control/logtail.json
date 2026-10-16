@@ -1,56 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T17:32:17+0000",
+ "generated_iso": "2026-10-16T18:45:11+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "t": "2026-10-16 14:23:17.383 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-16 13:24:09.097 Error DynamicHlsService-0HNPBL8M7KC0H:00000001: Error processing request",
+     "t": "2026-10-16 14:23:34.757 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
-     "c": "err"
-    },
-    {
-     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-16 13:24:09.098 Error DynamicHlsService-0HNPBL8M7KC0I:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
-     "c": "err"
-    },
-    {
-     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-16 13:24:09.115 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-16 14:23:52.154 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -83,27 +47,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T12:56:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "t": "[supervision.lo] 2026-10-16T14:14:29-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T13:00:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "t": "[supervision.lo] 2026-10-16T14:19:11-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T13:06:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "t": "[supervision.lo] 2026-10-16T14:23:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T13:11:12-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "t": "[supervision.lo] 2026-10-16T14:35:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T13:15:44-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "t": "[supervision.lo] 2026-10-16T14:40:06-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T13:26:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "t": "[supervision.lo] 2026-10-16T14:43:25-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
