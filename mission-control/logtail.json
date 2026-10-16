@@ -1,20 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T19:14:09+0000",
+ "generated_iso": "2026-10-16T19:33:27+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-16 14:53:17.401 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-16 15:31:10.081 Error EnvironmentService-0HNPBLMB4TCHM:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "2026-10-16 14:53:34.852 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-16 14:53:52.199 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tMediaBrowser.Common.Extensions.DirectoryUnavailableException: MediaBrowser.Common.Extensions.DirectoryUnavailableException: Directory not found: T:\\",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 15:31:10.083 Error EnvironmentService-0HNPBLMB4TCHN:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.DirectoryUnavailableException: MediaBrowser.Common.Extensions.DirectoryUnavailableException: Directory not found: T:\\T",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 15:31:10.084 Error EnvironmentService-0HNPBLMB4TCHO:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Common.Extensions.DirectoryUnavailableException: MediaBrowser.Common.Extensions.DirectoryUnavailableException: Directory not found: T:\\M",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 15:33:09.846 Error LibraryStructureService-0HNPBLMB4TCI7:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.FileNotFoundException: System.IO.FileNotFoundException: File not found: T:\\TV Shows",
      "c": "err"
     }
    ]
@@ -47,18 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T14:23:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-16T14:35:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-16T14:40:06-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T14:43:25-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
@@ -68,6 +92,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T14:52:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T15:15:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T15:25:09-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T15:31:25-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
