@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T10:00:40+0000",
- "updated_ts": 1792144840,
+ "updated": "2026-10-16T10:30:40+0000",
+ "updated_ts": 1792146640,
  "topics": [
   {
    "name": "Tech",
@@ -13,17 +13,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Muse Spark Open",
-     "summary": "Comments",
-     "url": "https://research.meta.ai/blog/muse-spark-open",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
      "summary": "Comments",
      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
      "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Muse Spark Open",
+     "summary": "Comments",
+     "url": "https://research.meta.ai/blog/muse-spark-open",
+     "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -34,6 +34,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "New York City's iconic horse-drawn carriages expected to take their last trot",
+     "summary": "Comments",
+     "url": "https://www.cnn.com/2026/10/13/us/nyc-horse-carriage-ban",
+     "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "RPKI now protects 70% of internet routes",
      "summary": "Comments",
      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
@@ -41,11 +48,18 @@
      "source": "Hacker News"
     },
     {
-     "title": "The Folders Programming Language",
-     "summary": "Comments",
-     "url": "https://danieltemkin.com/esolangs/folders",
+     "title": "Blue Origin is going all in on the New Glenn rocket",
+     "summary": "The infrastructure is designed to support multiple flights per week by the end of the decade.",
+     "url": "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket/",
      "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Googlebook review: Android on a laptop is still Android",
+     "summary": "Android laptops are here, but Google has a lot of work ahead to make them good.",
+     "url": "https://arstechnica.com/reviews/2026/10/googlebook-review-android-on-a-laptop-is-still-android/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "KDE turns 30 with Plasma 6.8, remote upgrades, and an X11 farewell",
@@ -74,20 +88,6 @@
      "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
      "time": "Thu, 15 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Above the 911? Porsche previews a new mid-engined supercar.",
-     "summary": "Porsche\u2019s turnaround plan for 2035 involves less volume but more expensive cars.",
-     "url": "https://arstechnica.com/cars/2026/10/porsche-previews-its-future-with-mission-s-supercar-concept/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "What did the Liberty Bell sound like? Science is on the case.",
-     "summary": "Researchers hunted for clues in modal analysis of 20th-century replica bell at Penn State Behrend.",
-     "url": "https://arstechnica.com/science/2026/10/what-did-the-liberty-bell-sound-like-science-is-on-the-case/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
@@ -96,7 +96,7 @@
    "articles": [
     {
      "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-     "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, police say.",
+     "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.",
      "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
@@ -131,7 +131,7 @@
     },
     {
      "title": "Dad fined after son, 2, died in Cyprus hotel fall",
-     "summary": "Joshua Foster will have to pay 3,000 euro (\u00a32,500), a judge in Paphos rules.",
+     "summary": "Joshua Foster \"lost control\" of his son while showing him the view of a water park from a window.",
      "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
