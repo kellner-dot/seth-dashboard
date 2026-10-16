@@ -1,5 +1,17 @@
 {
- "updated": "2026-10-16T17:38:00+0000",
- "updated_ts": 1792172280,
- "items": []
+ "updated": "2026-10-16T17:53:21+0000",
+ "updated_ts": 1792173201,
+ "items": [
+  {
+   "source": "emby",
+   "icon": "\ud83d\udcfa",
+   "title": "KaviTV Horror",
+   "series": "",
+   "type": "TvChannel",
+   "device": "KaviTV-Sentinel",
+   "user": "",
+   "progress_pct": 0,
+   "year": ""
+  }
+ ]
 }
