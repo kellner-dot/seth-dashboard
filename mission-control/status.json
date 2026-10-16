@@ -1,6 +1,6 @@
 {
- "generated_at": 1792168276,
- "generated_iso": "2026-10-16T16:31:16+0000",
+ "generated_at": 1792168881,
+ "generated_iso": "2026-10-16T16:41:21+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [
@@ -9,7 +9,7 @@
    "icon": "\ud83d\udef0\ufe0f",
    "title": "Razr RVG down",
    "message": "Razr is online but RVG agent not responding.",
-   "at": "2026-10-16T16:31:16+0000"
+   "at": "2026-10-16T16:41:21+0000"
   }
  ],
  "github": {
@@ -28,7 +28,7 @@
   ]
  },
  "emby_library": {
-  "movies": 5255,
+  "movies": 5013,
   "series": 34,
   "episodes": 59,
   "recent": [
@@ -58,7 +58,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 113096,
+   "uptime_s": 113697,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
