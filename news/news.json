@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T13:00:40+0000",
- "updated_ts": 1792155640,
+ "updated": "2026-10-16T13:30:38+0000",
+ "updated_ts": 1792157438,
  "topics": [
   {
    "name": "Tech",
@@ -10,6 +10,13 @@
      "summary": "Comments",
      "url": "https://blog.ikaes.de/yet-another-way-to-invoke-functions-without-parentheses/",
      "time": "Tue, 13 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "I Love Software Rendering",
+     "summary": "Comments",
+     "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+     "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -41,11 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "Two-Stack Sliding-Window Aggregation",
-     "summary": "Comments",
-     "url": "https://orlp.net/blog/two-stack-sliding-window-aggregation/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
+     "title": "The Surface Laptop Ultra delivers on most of Microsoft's promises",
+     "summary": "Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.",
+     "url": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Rocket Report: FAA eyes more Starbase traffic; India's Skyroot snares US customer",
@@ -81,19 +88,19 @@
      "url": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
      "time": "Thu, 15 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Hegseth\u2019s dubious low-T screening may flag up to 25 percent of the Army",
-     "summary": "Medical experts explicitly recommend against blanket screenings.",
-     "url": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
   {
    "name": "World",
    "articles": [
+    {
+     "title": "Zelensky says Ukraine has right to defend itself after Trump criticism",
+     "summary": "EU leaders rally around Ukraine's leader after Donald Trump says he is \"more difficult to work with than Putin\".",
+     "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 16 Oct 2026",
+     "source": "BBC World"
+    },
     {
      "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
      "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.",
@@ -116,13 +123,6 @@
      "source": "BBC World"
     },
     {
-     "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
-     "summary": "The US president launches a new wave of blistering criticism at Volodymyr Zelensky ahead of a meeting of EU leaders in Brussels.",
-     "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 16 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "China tells Israel to stop 'forced establishment' of West Bank settlements",
      "summary": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
      "url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
@@ -135,6 +135,13 @@
      "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+     "summary": "Protests have intensified over a review of voter lists that critics say is politically motivated and threatens to disenfranchise voters. The Election Commission and Modi's administration deny these allegations.",
+     "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
+     "time": "Fri, 16 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Sally Rooney's books will no longer be sold in U.K. after Palestinian Action support",
@@ -168,13 +175,6 @@
      "title": "Remembering Oscar-winning actor Eva Marie Saint",
      "summary": "Saint, who died Oct. 6, studied at the Actors Studio and was best known for her roles in On the Waterfront and the Hitchcock film North by Northwest. Originally broadcast in 2000.",
      "url": "https://www.npr.org/2026/10/16/nx-s1-6003516/remembering-oscar-winning-actor-eva-marie-saint",
-     "time": "Fri, 16 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "How much money has Musk given to Republican groups since July? The quiz knows",
-     "summary": "Plus, this week saw comings and goings at the White House, the revenge of a child (reality) star, and Elon Musk doing Elon Musk things.",
-     "url": "https://www.npr.org/2026/10/16/g-s1-148041/pope-leo-musk-mamdani-trump-guilfoyle-news-quiz",
      "time": "Fri, 16 Oct 2026",
      "source": "NPR News"
     }
