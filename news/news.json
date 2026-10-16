@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-16T18:30:43+0000",
- "updated_ts": 1792175443,
+ "updated": "2026-10-16T19:03:02+0000",
+ "updated_ts": 1792177382,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+     "summary": "Comments",
+     "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
      "summary": "Comments",
@@ -20,23 +27,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "What on Earth Is Dekton?",
+     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
      "summary": "Comments",
-     "url": "https://www.worksinprogress.news/p/porcelain",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-     "summary": "Comments",
-     "url": "https://calif.io/research/big-fish",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Designing more efficient quantum circuits with Claude",
-     "summary": "Comments",
-     "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+     "url": "https://github.com/cobanov/PS5LM",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -46,6 +39,20 @@
      "url": "https://starskirmish.com/bench/v0-2/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "What on Earth Is Dekton?",
+     "summary": "Comments",
+     "url": "https://www.worksinprogress.news/p/porcelain",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "RFK Jr. proposes FDA look the other way on unproven peptides, report says",
+     "summary": "FDA scientists said none of the popular drugs have been proven safe or effective.",
+     "url": "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
@@ -79,13 +86,6 @@
      "title": "The Surface Laptop Ultra delivers on most of Microsoft's promises",
      "summary": "Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.",
      "url": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Rocket Report: FAA eyes more Starbase traffic; India's Skyroot snares US customer",
-     "summary": "The pioneering reusable upper stage for Stoke Space's Nova rocket ships out for testing.",
-     "url": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
      "time": "Fri, 16 Oct 2026",
      "source": "Ars Technica"
     }
@@ -137,7 +137,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Trump casts doubt on press secretary's future",
+     "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
      "summary": "Katie Zacharia's first official day was on Monday.",
      "url": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
      "time": "Fri, 16 Oct 2026",
