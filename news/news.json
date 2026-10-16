@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-16T19:31:33+0000",
- "updated_ts": 1792179093,
+ "updated": "2026-10-16T20:00:40+0000",
+ "updated_ts": 1792180840,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Tesla Roadster",
+     "summary": "Comments",
+     "url": "https://www.tesla.com/roadster",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Claude reveals ECDSA curve origins",
      "summary": "Comments",
@@ -13,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+     "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
      "summary": "Comments",
-     "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+     "url": "https://words.filippo.io/seeds-solved/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,13 +34,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Claude writes about 90% of Claude Code's code",
-     "summary": "Comments",
-     "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "JPEG XL vs. AVIF for web use-cases",
      "summary": "Comments",
      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+     "title": "Waymo in Toronto",
      "summary": "Comments",
-     "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+     "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -109,9 +109,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-     "summary": "EU leaders rally around Ukraine's president after new criticism from Donald Trump, who says Zelensky is \"more difficult to work with than Putin\".",
-     "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+     "title": "Trump denies limiting Ukraine access to Starlink network",
+     "summary": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night.",
+     "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
     },
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "US senators call for investigation into Ukraine's Starlink restrictions",
-     "summary": "Ukraine says temporary speed limits to the Starlink internet network disrupted its battlefield missions.",
-     "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
+     "title": "Dad fined after son, 2, died in Cyprus hotel fall",
+     "summary": "Joshua Foster \"lost control\" of his son while showing him the view of a water park from a window.",
+     "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
     },
@@ -184,6 +184,20 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "A free press under pressure: New York Times\u2019 Eric Lipton speaks in Vermont",
+     "summary": "Eric Lipton, a four-time Pulitzer Prize winner and investigative reporter for The New York Times, talks to an audience at the Delta Hotel in South Burlington on 9 October 2026. (Daria Bishop for Vermont Digger) \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/20",
+     "url": "https://vtdigger.org/2026/10/16/a-free-press-under-pressure-new-york-times-eric-lipton-speaks-in-vermont/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Popular Brousseau Mountain trail in Essex County conserved for peregrine falcons and future generations",
+     "summary": "The view looking southeast from Brousseau Mountain in Norton on September 4, 2021. Photo by K. Fiegenbaum/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/BrousseauMountain_KFiegenbaum-1200x900.jpg?crop=1\" /> \u201cWe wanted to keep the magical, pristine pea",
+     "url": "https://vtdigger.org/2026/10/16/popular-brousseau-mountain-trail-in-essex-county-conserved-for-peregrine-falcons-and-future-generations/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Rural Vermont is losing its say over its own land",
      "summary": "Conservation in Vermont is being defined in a way that excludes the people who actually tend the land. Read the story on VTDigger here: Rural Vermont is losing its say over its own land.",
      "url": "https://vtdigger.org/2026/10/16/opinion-rural-vermont-is-losing-its-say-over-its-own-land/",
@@ -208,20 +222,6 @@
      "title": "Expenses for EB-5 mop-up total $14 million as judge OKs $1 million more in fees",
      "summary": "Michael Goldberg, the court-appointed receiver in the EB-5 fraud case, speaks at a Statehouse news conference on April 13, 2017. Photo by Michael Dougherty/VTDigger \" data-image-caption=\"Michael Goldberg, the court-appointed receiver in the EB-5 fraud case, speaks at a Statehouse",
      "url": "https://vtdigger.org/2026/10/15/expenses-for-eb-5-mop-up-total-14-million-as-judge-oks-1-million-more-in-fees/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Don\u2019t pour more money into a broken healthcare system",
-     "summary": "Before Vermont spends new tax dollars on universal primary care, advocates need to account for decades of failed reform. Read the story on VTDigger here: Don\u2019t pour more money into a broken healthcare system.",
-     "url": "https://vtdigger.org/2026/10/15/opinion-dont-pour-more-money-into-a-broken-healthcare-system/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "After a stormy week, cold arrives and much of Vermont passes peak foliage",
-     "summary": "Fallen leaves cover a picnic table in Jericho Center on Wednesday, October 14, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/foliage-4-20261014-1200x798.jpg\" /> The high elevations of the northern Green Mountains could ",
-     "url": "https://vtdigger.org/2026/10/15/after-a-stormy-week-cold-arrives-and-much-of-vermont-passes-peak-foliage/",
      "time": "Thu, 15 Oct 2026",
      "source": "VT Digger"
     }
