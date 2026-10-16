@@ -1,21 +1,28 @@
 {
- "updated": "2026-10-16T15:00:42+0000",
- "updated_ts": 1792162842,
+ "updated": "2026-10-16T15:30:45+0000",
+ "updated_ts": 1792164645,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Hello Toronto \u2013 Waymo Is En Route",
+     "title": "I Love Software Rendering",
      "summary": "Comments",
-     "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+     "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "I Love Software Rendering",
+     "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
      "summary": "Comments",
-     "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+     "url": "https://calif.io/research/big-fish",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+     "summary": "Comments",
+     "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,16 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Redesigning Source Control at Anthropic",
+     "title": "Show HN: Gemini 4 Argon plays StarCraft",
      "summary": "Comments",
-     "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-     "summary": "Comments",
-     "url": "https://calif.io/research/big-fish",
+     "url": "https://starskirmish.com/bench/v0-2/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -109,13 +109,6 @@
      "source": "BBC World"
     },
     {
-     "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-     "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-     "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 16 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Pope pictured for first time since surgery and cancer diagnosis",
      "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
      "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
@@ -126,6 +119,13 @@
      "title": "Dad fined after son, 2, died in Cyprus hotel fall",
      "summary": "Joshua Foster \"lost control\" of his son while showing him the view of a water park from a window.",
      "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 16 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "India's 'cockroach' party founder detained ahead of protest",
+     "summary": "The youth-led movement planned a fresh Delhi protest after mass detentions last week and the jailing of two leaders.",
+     "url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
     },
@@ -165,9 +165,9 @@
      "source": "NPR News"
     },
     {
-     "title": "Remembering Oscar-winning actor Eva Marie Saint",
-     "summary": "Saint, who died Oct. 6, studied at the Actors Studio and was best known for her roles in On the Waterfront and the Hitchcock film North by Northwest. Originally broadcast in 2000.",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6003516/remembering-oscar-winning-actor-eva-marie-saint",
+     "title": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
+     "summary": "A focus group of eight Gen Z Trump voters reported feeling unhappy or disappointed with the state of politics, with some going as far as to say they regret supporting him in 2024.",
+     "url": "https://www.npr.org/2026/10/16/nx-s1-5993835/gen-z-trump-voting-support",
      "time": "Fri, 16 Oct 2026",
      "source": "NPR News"
     },
