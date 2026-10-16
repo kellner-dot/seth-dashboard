@@ -1,10 +1,10 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5445,
+ "movies": 5255,
  "series": 34,
  "episodes": 59,
- "played": 14,
- "unwatched": 5431,
+ "played": 11,
+ "unwatched": 5244,
  "new_arrivals": [
   {
    "name": "The Monkey",
@@ -113,14 +113,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "Children's Play",
-  "year": 1946,
+  "name": "GOOD-BY ELVIS and USA",
+  "year": 1971,
   "genres": [
-   "Music"
+   "Animation"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A series of 5 choreographed sketches starring Jacqueline Cl\u00e9don and Mich\u00e8le Nadal."
+  "overview": "A trippy pop-art collage of phallic objects, naked women and American icons, most notably Elvis Presley."
  }
 }
