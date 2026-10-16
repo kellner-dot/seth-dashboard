@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T07:30:42+0000",
- "updated_ts": 1792135842,
+ "updated": "2026-10-16T08:00:41+0000",
+ "updated_ts": 1792137641,
  "topics": [
   {
    "name": "Tech",
@@ -27,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Last rites for Gentoo's Chromium package",
+     "summary": "Comments",
+     "url": "https://lwn.net/Articles/1097760/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "RPKI now protects 70% of internet routes",
      "summary": "Comments",
      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
      "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Neural networks are clean",
-     "summary": "Comments",
-     "url": "https://already-clean.goodfire.com/",
-     "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,8 +95,8 @@
    "name": "World",
    "articles": [
     {
-     "title": "Three children and teacher killed in US primary school shooting",
-     "summary": "The suspect was shot dead by an armed bystander who followed him into the Oregon school, police said.",
+     "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
+     "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, police say.",
      "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
