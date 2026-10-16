@@ -1,6 +1,9 @@
 {
- "updated": "2026-10-16 15:51",
- "biglybtRunning": false,
- "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
- "torrents": []
+ "updated": "2026-10-16 16:22",
+ "biglybtRunning": true,
+ "torrents": [],
+ "downSpeed": 0,
+ "upSpeed": 0,
+ "activeCount": 0,
+ "ratio": 0
 }
