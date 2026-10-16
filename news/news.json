@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T01:30:40+0000",
- "updated_ts": 1792114240,
+ "updated": "2026-10-16T02:00:42+0000",
+ "updated_ts": 1792116042,
  "topics": [
   {
    "name": "Tech",
@@ -13,17 +13,24 @@
      "source": "Hacker News"
     },
     {
+     "title": "RPKI now protects 70% of internet routes",
+     "summary": "Comments",
+     "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Tesla Roadster",
+     "summary": "Comments",
+     "url": "https://www.tesla.com/roadster",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "What I Self-Host",
      "summary": "Comments",
      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
      "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "RPKI Now Protects 70% of Internet Routes, Up from 54% a Year Ago",
-     "summary": "Comments",
-     "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
-     "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Apple routed a graphite pipe through the iPhone Duo's hinge to dissipate heat",
+     "title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
      "summary": "Comments",
-     "url": "https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-     "summary": "Comments",
-     "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+     "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
      "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,6 +95,20 @@
    "name": "World",
    "articles": [
     {
+     "title": "Three children and a teacher killed by 16-year-old at Oregon primary school",
+     "summary": "A teen assailant was pursued into the school by an armed community member, who shot him dead, said police.",
+     "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 16 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+     "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+     "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 16 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
      "summary": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years.",
      "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
@@ -119,20 +133,6 @@
      "title": "Maduro pleads not guilty to new torture-related charges in New York",
      "summary": "\"I reject this document entirely,\" Maduro said in court, responding to newly added torture-related charges.",
      "url": "https://www.bbc.co.uk/news/articles/cqwyrn1l74zro?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 15 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
-     "summary": "Children were buried under the debris after the roof crashed through three classrooms, police say.",
-     "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 15 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Was Neanderthal life violent? This wound suggests lethal fighting was more common",
-     "summary": "A 75,000-year-old Neanderthal spear wound may be evidence violence shaped human life far earlier than thought.",
-     "url": "https://www.bbc.co.uk/news/articles/c6jrwn3y3xe9o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 15 Oct 2026",
      "source": "BBC World"
     },
