@@ -1,45 +1,41 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-16T17:52:28+0000",
- "cpu_pct": 3,
- "mem_pct": 72.6,
+ "generated_iso": "2026-10-16T18:00:46+0000",
+ "cpu_pct": 2.2,
+ "mem_pct": 65,
  "mem_total_gb": 15.2,
  "disk_pct": 69.8,
  "disk_free_gb": 280.9,
- "uptime_h": 0.1,
+ "uptime_h": 0.2,
  "top": [
   {
-   "cpu": 158.2,
+   "cpu": 213.2,
    "name": "MsMpEng",
-   "memMB": 485.1
+   "memMB": 327.2
   },
   {
-   "cpu": 77.6,
+   "cpu": 127.5,
    "name": "System",
    "memMB": 3
   },
   {
-   "cpu": 21.2,
-   "name": "AUEPMaster",
-   "memMB": 19
-  },
-  {
-   "cpu": 21,
+   "cpu": 28.5,
    "name": "python",
-   "memMB": 320.3
+   "memMB": 254.4
   },
   {
-   "cpu": 17.3,
-   "name": "PhoneExperienceHost",
-   "memMB": 396.3
+   "cpu": 28.3,
+   "name": "tailscaled",
+   "memMB": 73
+  },
+  {
+   "cpu": 21.2,
+   "name": "DuckDuckGo",
+   "memMB": 829
   }
  ],
  "history": {
   "cpu": [
-   [
-    1792137650,
-    3.2
-   ],
    [
     1792138242,
     13.8
@@ -227,13 +223,13 @@
    [
     1792173148,
     3
+   ],
+   [
+    1792173646,
+    2.2
    ]
   ],
   "mem": [
-   [
-    1792137650,
-    62.8
-   ],
    [
     1792138242,
     62.8
@@ -421,13 +417,13 @@
    [
     1792173148,
     72.6
+   ],
+   [
+    1792173646,
+    65
    ]
   ],
   "disk": [
-   [
-    1792137650,
-    72.5
-   ],
    [
     1792138242,
     72.5
@@ -614,6 +610,10 @@
    ],
    [
     1792173148,
+    69.8
+   ],
+   [
+    1792173646,
     69.8
    ]
   ]
