@@ -1,28 +1,21 @@
 {
- "updated": "2026-10-16T19:03:02+0000",
- "updated_ts": 1792177382,
+ "updated": "2026-10-16T19:31:33+0000",
+ "updated_ts": 1792179093,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "Claude reveals ECDSA curve origins",
+     "summary": "Comments",
+     "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
      "summary": "Comments",
      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-     "summary": "Comments",
-     "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-     "summary": "Comments",
-     "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Gemini 4 Argon plays StarCraft",
+     "title": "Claude writes about 90% of Claude Code's code",
      "summary": "Comments",
-     "url": "https://starskirmish.com/bench/v0-2/",
+     "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "What on Earth Is Dekton?",
+     "title": "JPEG XL vs. AVIF for web use-cases",
      "summary": "Comments",
-     "url": "https://www.worksinprogress.news/p/porcelain",
+     "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+     "summary": "Comments",
+     "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Rural Vermont is losing its say over its own land",
+     "summary": "Conservation in Vermont is being defined in a way that excludes the people who actually tend the land. Read the story on VTDigger here: Rural Vermont is losing its say over its own land.",
+     "url": "https://vtdigger.org/2026/10/16/opinion-rural-vermont-is-losing-its-say-over-its-own-land/",
+     "time": "Fri, 16 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Vermonters relieved and conflicted after Trump backs off execution livestream",
      "summary": "An armed guard walks around the fortified Lawrence William Judicial Center as the sentencing phase for Maj. Nidal Hasan continues, Tuesday, Aug. 27, 2013, in Fort Hood, Texas. Hasan was convicted of killing 13 of his unarmed comrades in the deadliest attack ever on a U.S. militar",
      "url": "https://vtdigger.org/2026/10/15/vermonters-relieved-and-conflicted-after-trump-backs-off-execution-livestream/",
@@ -215,13 +222,6 @@
      "title": "After a stormy week, cold arrives and much of Vermont passes peak foliage",
      "summary": "Fallen leaves cover a picnic table in Jericho Center on Wednesday, October 14, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/foliage-4-20261014-1200x798.jpg\" /> The high elevations of the northern Green Mountains could ",
      "url": "https://vtdigger.org/2026/10/15/after-a-stormy-week-cold-arrives-and-much-of-vermont-passes-peak-foliage/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Vermont\u2019s land laws should incentivize people who heal the land",
-     "summary": "Tax and permitting rules built for large-scale operations leave little room for small landholders who do the most to bolster ecosystem services. Read the story on VTDigger here: Vermont\u2019s land laws should incentivize people who heal the land.",
-     "url": "https://vtdigger.org/2026/10/15/opinion-vermonts-land-laws-should-incentivize-people-who-heal-the-land/",
      "time": "Thu, 15 Oct 2026",
      "source": "VT Digger"
     }
