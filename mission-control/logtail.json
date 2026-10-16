@@ -1,10 +1,59 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T17:21:42+0000",
+ "generated_iso": "2026-10-16T17:32:17+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 13:24:09.097 Error DynamicHlsService-0HNPBL8M7KC0H:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 13:24:09.098 Error DynamicHlsService-0HNPBL8M7KC0I:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-16 13:24:09.115 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,10 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T12:51:14-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T12:56:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
@@ -55,6 +100,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T13:15:44-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T13:26:32-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
