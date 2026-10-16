@@ -1,10 +1,10 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5255,
+ "movies": 4925,
  "series": 34,
  "episodes": 59,
- "played": 11,
- "unwatched": 5244,
+ "played": 8,
+ "unwatched": 4917,
  "new_arrivals": [
   {
    "name": "The Monkey",
@@ -110,17 +110,61 @@
    "runtime_min": 3,
    "progress_pct": 40,
    "type": "Movie"
+  },
+  {
+   "name": "964 Pinocchio",
+   "year": 1991,
+   "genres": [
+    "Horror",
+    "Science Fiction"
+   ],
+   "runtime_min": 97,
+   "progress_pct": 13,
+   "type": "Movie"
+  },
+  {
+   "name": "Green Room",
+   "year": 2016,
+   "genres": [
+    "Horror",
+    "Crime"
+   ],
+   "runtime_min": 95,
+   "progress_pct": 15,
+   "type": "Movie"
+  },
+  {
+   "name": "The Boxer's Omen",
+   "year": 1983,
+   "genres": [
+    "Horror",
+    "Fantasy"
+   ],
+   "runtime_min": 105,
+   "progress_pct": 8,
+   "type": "Movie"
+  },
+  {
+   "name": "Adaptation.",
+   "year": 2002,
+   "genres": [
+    "Comedy",
+    "Crime"
+   ],
+   "runtime_min": 115,
+   "progress_pct": 22,
+   "type": "Movie"
   }
  ],
  "surprise_pick": {
-  "name": "GOOD-BY ELVIS and USA",
-  "year": 1971,
+  "name": "The Recce",
+  "year": 2018,
   "genres": [
-   "Animation"
+   "Drama"
   ],
-  "runtime_min": 0,
+  "runtime_min": 110,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A trippy pop-art collage of phallic objects, naked women and American icons, most notably Elvis Presley."
+  "overview": "After the South African Defense Force wrongfully declares young Recce Henk Viljoen dead behind enemy lines, it\u2019s up to him alone to use every skill and tool in his arsenal to make it back to his grieving wife."
  }
 }
