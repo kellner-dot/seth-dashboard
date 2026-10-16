@@ -1,10 +1,23 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T16:41:35+0000",
+ "generated_iso": "2026-10-16T16:52:31+0000",
  "sources": [
   {
    "name": "Emby Server",
-   "lines": []
+   "lines": [
+    {
+     "t": "2026-10-16 12:48:56.962 Error LibraryMonitor: Error in Directory watcher for: C:\\AdultVOD",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception (5): Access is denied.",
+     "c": "err"
+    }
+   ]
   },
   {
    "name": "Fleet Pollers",
@@ -34,10 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T12:19:30-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T12:25:15-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
@@ -55,6 +64,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T12:41:01-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T12:51:14-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
