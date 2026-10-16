@@ -1,38 +1,6 @@
 {
- "updated": "2026-10-16 17:23",
- "biglybtRunning": true,
- "torrents": [
-  {
-   "rateUpload": 0,
-   "status.biglybt": 50,
-   "downloadedEver": 266826721,
-   "totalSize": 2169230517,
-   "percentDone": 0.121,
-   "rateDownload": 1027378,
-   "uploadRatio": 0.0,
-   "name": "[AmateurAllure] Violet Voss (2025.08.01) [1080p].mp4",
-   "eta": 1787,
-   "status": 4,
-   "id": 10,
-   "uploadedEver": 0
-  },
-  {
-   "rateUpload": 0,
-   "status.biglybt": 60,
-   "downloadedEver": 1949894438,
-   "totalSize": 1948653415,
-   "percentDone": 1.0,
-   "rateDownload": 0,
-   "uploadRatio": 0.017,
-   "name": "Little Shop of Horrors 1986 Directors Cut REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
-   "eta": -1,
-   "status": 6,
-   "id": 11,
-   "uploadedEver": 34986336
-  }
- ],
- "downSpeed": 1027680,
- "upSpeed": 1152,
- "activeCount": 1,
- "ratio": 0.02
+ "updated": "2026-10-16 17:52",
+ "biglybtRunning": false,
+ "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+ "torrents": []
 }
