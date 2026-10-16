@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-16T13:30:38+0000",
- "updated_ts": 1792157438,
+ "updated": "2026-10-16T14:00:45+0000",
+ "updated_ts": 1792159245,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Yet another way to invoke functions without parentheses",
-     "summary": "Comments",
-     "url": "https://blog.ikaes.de/yet-another-way-to-invoke-functions-without-parentheses/",
-     "time": "Tue, 13 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "I Love Software Rendering",
      "summary": "Comments",
      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
      "time": "Fri, 16 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Yet another way to invoke functions without parentheses",
+     "summary": "Comments",
+     "url": "https://blog.ikaes.de/yet-another-way-to-invoke-functions-without-parentheses/",
+     "time": "Tue, 13 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -27,17 +27,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Meta\u2019s new commercial terms will allow the scraping of news sites: experts",
-     "summary": "Comments",
-     "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "The Economic Complexity of the Western Roman Empire",
      "summary": "Comments",
      "url": "https://www.michelecoscia.com/?p=2613",
      "time": "Wed, 14 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Meta\u2019s new commercial terms will allow the scraping of news sites: experts",
+     "summary": "Comments",
+     "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+     "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -102,13 +102,6 @@
      "source": "BBC World"
     },
     {
-     "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-     "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.",
-     "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 16 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
      "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
      "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
@@ -133,6 +126,13 @@
      "title": "Dad fined after son, 2, died in Cyprus hotel fall",
      "summary": "Joshua Foster \"lost control\" of his son while showing him the view of a water park from a window.",
      "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 16 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "US senators call for investigation into Ukraine's Starlink restrictions",
+     "summary": "Ukraine says temporary speed limits to the Starlink internet network disrupted its battlefield missions.",
+     "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
      "source": "BBC World"
     },
