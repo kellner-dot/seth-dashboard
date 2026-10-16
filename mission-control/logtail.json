@@ -1,48 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-15T23:50:42+0000",
+ "generated_iso": "2026-10-16T00:00:48+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The Fountain (2006) (1080p B",
+     "t": "2026-10-15 19:53:16.846 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-15 19:38:42.707 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "t": "2026-10-15 19:53:34.230 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The_Devil's_Advocate.[nolimi",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-15 19:38:42.707 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\Zidane.A.21st.Century.Portra",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-15 19:38:42.707 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\80s-commercials-1982.mp4'.",
+     "t": "2026-10-15 19:53:51.598 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -75,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-15T19:21:22-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-15T19:25:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-15T19:31:33-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
      "c": "ok"
     },
@@ -96,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-15T19:46:11-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-15T19:51:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-15T19:56:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-15",
      "c": "ok"
     }
    ]
