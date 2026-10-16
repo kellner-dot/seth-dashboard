@@ -1,56 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-16T19:40:46+0000",
+ "generated_iso": "2026-10-16T19:50:49+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-16 15:31:10.081 Error EnvironmentService-0HNPBLMB4TCHM:00000001: Error processing request",
+     "t": "2026-10-16 15:44:58.291 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.DirectoryUnavailableException: MediaBrowser.Common.Extensions.DirectoryUnavailableException: Directory not found: T:\\",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-16 15:31:10.083 Error EnvironmentService-0HNPBLMB4TCHN:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.DirectoryUnavailableException: MediaBrowser.Common.Extensions.DirectoryUnavailableException: Directory not found: T:\\T",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-16 15:31:10.084 Error EnvironmentService-0HNPBLMB4TCHO:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.DirectoryUnavailableException: MediaBrowser.Common.Extensions.DirectoryUnavailableException: Directory not found: T:\\M",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-16 15:33:09.846 Error LibraryStructureService-0HNPBLMB4TCI7:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.FileNotFoundException: System.IO.FileNotFoundException: File not found: T:\\TV Shows",
+     "t": "2026-10-16 15:45:00.366 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -83,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-16T14:52:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-16T15:15:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-16T15:25:09-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     },
@@ -104,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-16T15:38:20-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T15:41:27-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-16T15:46:01-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-16",
      "c": "ok"
     }
    ]
