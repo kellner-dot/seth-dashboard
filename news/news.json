@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-17T09:00:38+0000",
- "updated_ts": 1792227638,
+ "updated": "2026-10-17T09:30:37+0000",
+ "updated_ts": 1792229437,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+     "summary": "Comments",
+     "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+     "time": "Sat, 17 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Ultramarine 1 Flash",
      "summary": "Comments",
@@ -27,24 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+     "title": "DeepSeek-v4.1-Flash-1017",
      "summary": "Comments",
-     "url": "https://github.com/cobanov/PS5LM",
-     "time": "Fri, 16 Oct 2026",
+     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+     "time": "Sat, 17 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Intuitive concurrent programming in any language",
+     "title": "\"Tame\" boar and deer are instinctively adapting to the wolf in the Netherlands",
      "summary": "Comments",
-     "url": "https://www.lf-lang.org/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "You could have invented transformers from memory",
-     "summary": "Comments",
-     "url": "https://alexwang.ai/posts/associative-memory/",
-     "time": "Fri, 16 Oct 2026",
+     "url": "https://nos.nl/video/2635315-wildcamera-s-tonen-hoe-zwijnen-en-herten-zich-aanpassen-aan-de-wolf",
+     "time": "Sat, 17 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,6 +137,34 @@
      "source": "BBC World"
     },
     {
+     "title": "Sidewalk sleepers: They have nowhere else to stay while a loved one is in the hospital",
+     "summary": "Patients travel miles to be treated at public hospitals in Delhi. Those in need get financial aid for their care. But for overnight accommodations, families are often on their own \u2014 and on the street.",
+     "url": "https://www.npr.org/2026/10/17/g-s1-147874/hospital-diagnosis-patients-india-sidewalk",
+     "time": "Sat, 17 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Weddings are expensive. How about a grocery store cake?",
+     "summary": "About a third of couples are willing to save money on cake and dessert, according to the wedding-planning site Zola.",
+     "url": "https://www.npr.org/2026/10/17/nx-s1-5976921/grocery-store-wedding-cakes",
+     "time": "Sat, 17 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
+     "summary": "President Trump's midterm travel blitz ahead of Election Day includes several red states he won easily 2 years ago, showing the electoral landscape is more challenging for Republicans.",
+     "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms",
+     "time": "Sat, 17 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "No Kings turns its focus to voting this weekend. Here's what we know",
+     "summary": "The coalition behind nationwide anti-Trump protests is shifting its strategies this weekend to focus on voter turnout. Organizers say Saturday's events are a nonpartisan effort to get people to the polls.",
+     "url": "https://www.npr.org/2026/10/17/nx-s1-6004887/no-kings-voting-trump",
+     "time": "Sat, 17 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Coastal homes burn as hot winds fuel California fires",
      "summary": "High winds are fueling a fast-moving fire that has burned homes in Southern California. Flames engulfed expensive coastal properties and prompted thousands to evacuate.",
      "url": "https://www.npr.org/2026/10/17/g-s1-148569/coastal-homes-burn-in-california-fires",
@@ -147,34 +175,6 @@
      "title": "Katie Zacharia is out as press secretary, White House says",
      "summary": "Katie Zacharia is \"transitioning out\" of her role as press secretary, according to a White House official not authorized to speak on the record, marking a stunning turn of events for the spokeswoman.",
      "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
-     "time": "Fri, 16 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
-     "summary": "Katie Zacharia's first official day was on Monday.",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
-     "time": "Fri, 16 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Hot flashes, night sweats, insomnia \u2013 OB-GYNS set new rules for menopause treatment",
-     "summary": "For the first time since 2014, the American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause.",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-     "time": "Fri, 16 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Amid talk of public execution, public opinion on death penalty is split",
-     "summary": "A majority of Americans support the death penalty for people convicted of murder, but support becomes more divided when questions vary.",
-     "url": "https://www.npr.org/2026/10/16/g-s1-148404/public-opinion-execution-death-penalty",
-     "time": "Fri, 16 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
-     "summary": "Masked Israeli settlers attacked Palestinians as they were harvesting olives in the occupied West Bank on Friday, injuring several people including a photojournalist working for The Washington Post.",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
      "time": "Fri, 16 Oct 2026",
      "source": "NPR News"
     }
