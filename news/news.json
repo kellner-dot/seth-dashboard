@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T13:00:45+0000",
- "updated_ts": 1792242045,
+ "updated": "2026-10-17T13:30:46+0000",
+ "updated_ts": 1792243846,
  "topics": [
   {
    "name": "Tech",
@@ -9,13 +9,6 @@
      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
      "summary": "Comments",
      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-     "time": "Sat, 17 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Super Intelligence",
-     "summary": "Comments",
-     "url": "https://www.si.gov/",
      "time": "Sat, 17 Oct 2026",
      "source": "Hacker News"
     },
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
      "time": "Sat, 17 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+     "summary": "Comments",
+     "url": "https://github.com/cobanov/PS5LM",
+     "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
     {
