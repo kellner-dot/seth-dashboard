@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T07:31:48+0000",
- "updated_ts": 1792222308,
+ "updated": "2026-10-17T08:00:39+0000",
+ "updated_ts": 1792224039,
  "topics": [
   {
    "name": "Tech",
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "California is building a $400M shield for Yosemite's most dangerous highway",
+     "title": "You could have invented transformers from memory",
      "summary": "Comments",
-     "url": "https://www.sfchronicle.com/california/article/yosemite-national-park-highway-140-22463847.php",
-     "time": "Wed, 14 Oct 2026",
+     "url": "https://alexwang.ai/posts/associative-memory/",
+     "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,13 +95,6 @@
    "name": "World",
    "articles": [
     {
-     "title": "Brazil sees record fall in Amazon deforestation as key election looms",
-     "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
-     "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 17 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
@@ -127,6 +120,13 @@
      "summary": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 16 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+     "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+     "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+     "time": "Sat, 17 Oct 2026",
      "source": "BBC World"
     },
     {
