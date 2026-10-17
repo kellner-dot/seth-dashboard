@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-17T03:30:41+0000",
- "updated_ts": 1792207841,
+ "updated": "2026-10-17T04:00:40+0000",
+ "updated_ts": 1792209640,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Tesla Roadster",
-     "summary": "Comments",
-     "url": "https://www.tesla.com/roadster",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Ultramarine 1 Flash",
      "summary": "Comments",
      "url": "https://www.paperinstruments.com/ultramarine",
      "time": "Thu, 15 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Tesla Roadster",
+     "summary": "Comments",
+     "url": "https://www.tesla.com/roadster",
+     "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "FLUX 3 Image Klein",
+     "title": "Waymo in Toronto",
      "summary": "Comments",
-     "url": "https://bfl.ai/blog/flux-3-image-klein",
+     "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
