@@ -1,44 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-17T17:20:41+0000",
+ "generated_iso": "2026-10-17T17:30:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-17 13:15:25.493 Error App: Error in validateChildren for 372819 T:\\Movies",
+     "t": "2026-10-17 13:23:16.765 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "2026-10-17 13:23:34.150 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies'.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-17 13:15:25.595 Error App: Error in validateChildren for 21433 D:\\TV Shows",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-17 13:15:27.269 Error App: Error in TheTVDB",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
+     "t": "2026-10-17 13:23:51.511 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
