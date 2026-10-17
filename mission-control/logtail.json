@@ -1,20 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-17T12:40:40+0000",
+ "generated_iso": "2026-10-17T12:50:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-17 08:23:16.688 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     },
     {
-     "t": "2026-10-17 08:23:34.028 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-17 08:49:57.806 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-17 08:23:51.424 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-17 08:49:59.904 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
