@@ -1,1081 +1,6 @@
 {
  "generated_by": "kavitv-scheduler",
  "days": {
-  "2026-10-16": {
-   "30": {
-    "channel": 30,
-    "date": "2026-10-16",
-    "generated_at": "2026-10-15T08:59:21.061860Z",
-    "generated_by": "auto-smart",
-    "items": [
-     {
-      "ref": "emby:movie:214935",
-      "title": "Flushing Flesh",
-      "year": 2014,
-      "runtime_min": 4,
-      "runtime_estimated": false,
-      "rating": 9.5,
-      "genres": [
-       "Short",
-       "Comedy"
-      ],
-      "start": "06:00",
-      "end": "06:04",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372887",
-      "title": "Videodrome",
-      "year": 1983,
-      "runtime_min": 89,
-      "runtime_estimated": false,
-      "rating": 7.2,
-      "genres": [
-       "Horror",
-       "Science Fiction"
-      ],
-      "start": "06:07",
-      "end": "07:36",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373099",
-      "title": "Nosferatu",
-      "year": 2024,
-      "runtime_min": 133,
-      "runtime_estimated": false,
-      "rating": 7.1,
-      "genres": [
-       "Horror",
-       "Fantasy"
-      ],
-      "start": "07:39",
-      "end": "09:52",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373056",
-      "title": "Street Trash",
-      "year": 2025,
-      "runtime_min": 85,
-      "runtime_estimated": false,
-      "rating": 4.5,
-      "genres": [
-       "Horror",
-       "Comedy"
-      ],
-      "start": "09:55",
-      "end": "11:20",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216895",
-      "title": "Delta Delta Die!",
-      "year": 2003,
-      "runtime_min": 3,
-      "runtime_estimated": false,
-      "rating": 4.4,
-      "genres": [
-       "Comedy",
-       "Horror"
-      ],
-      "start": "11:23",
-      "end": "11:26",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373091",
-      "title": "I Saw the TV Glow",
-      "year": 2024,
-      "runtime_min": 100,
-      "runtime_estimated": false,
-      "rating": 5.8,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "11:29",
-      "end": "13:09",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372828",
-      "title": "Body Melt",
-      "year": 1994,
-      "runtime_min": 83,
-      "runtime_estimated": false,
-      "rating": 5.3,
-      "genres": [
-       "Comedy",
-       "Horror"
-      ],
-      "start": "13:12",
-      "end": "14:35",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216959",
-      "title": "Deafman Glance",
-      "year": 1981,
-      "runtime_min": 45,
-      "runtime_estimated": false,
-      "rating": 6,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "14:38",
-      "end": "15:23",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216043",
-      "title": "10/65: Self-Mutilation",
-      "year": 1965,
-      "runtime_min": 5,
-      "runtime_estimated": false,
-      "rating": 6.2,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "15:26",
-      "end": "15:31",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215134",
-      "title": "You Killed Me First",
-      "year": 1985,
-      "runtime_min": 4,
-      "runtime_estimated": false,
-      "rating": 5.8,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "15:34",
-      "end": "15:38",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216154",
-      "title": "Night Corridor",
-      "year": 2003,
-      "runtime_min": 7,
-      "runtime_estimated": false,
-      "rating": 5.1,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "15:41",
-      "end": "15:48",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217215",
-      "title": "Suspiria",
-      "year": 2018,
-      "runtime_min": 14,
-      "runtime_estimated": false,
-      "rating": 6.7,
-      "genres": [
-       "Horror",
-       "Mystery"
-      ],
-      "start": "15:51",
-      "end": "16:05",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373106",
-      "title": "The Mothman Prophecies",
-      "year": 2002,
-      "runtime_min": 119,
-      "runtime_estimated": false,
-      "rating": 6.4,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "16:08",
-      "end": "18:07",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373060",
-      "title": "The Cave",
-      "year": 2005,
-      "runtime_min": 97,
-      "runtime_estimated": false,
-      "rating": 5.2,
-      "genres": [
-       "Action",
-       "Adventure"
-      ],
-      "start": "18:10",
-      "end": "19:47",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217399",
-      "title": "Rings of Fear",
-      "year": 1978,
-      "runtime_min": 6,
-      "runtime_estimated": false,
-      "rating": 5.6,
-      "genres": [
-       "Mystery",
-       "Thriller"
-      ],
-      "start": "19:50",
-      "end": "19:56",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373040",
-      "title": "On the Silver Globe",
-      "year": 1988,
-      "runtime_min": 165,
-      "runtime_estimated": false,
-      "rating": 7.1,
-      "genres": [
-       "Science Fiction",
-       "Drama"
-      ],
-      "start": "20:00",
-      "end": "22:45",
-      "slot": "prime",
-      "pinned": true
-     },
-     {
-      "ref": "emby:movie:373059",
-      "title": "The Boxer's Omen",
-      "year": 1983,
-      "runtime_min": 105,
-      "runtime_estimated": false,
-      "rating": 7,
-      "genres": [
-       "Horror",
-       "Fantasy"
-      ],
-      "start": "22:48",
-      "end": "00:33",
-      "slot": "prime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217443",
-      "title": "Interview with the Vampire",
-      "year": 1994,
-      "runtime_min": 33,
-      "runtime_estimated": false,
-      "rating": 7.5,
-      "genres": [
-       "Horror",
-       "Drama"
-      ],
-      "start": "00:36",
-      "end": "01:09",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:36220",
-      "title": "From Dusk Till Dawn",
-      "year": 1996,
-      "runtime_min": 12,
-      "runtime_estimated": false,
-      "rating": 7.1,
-      "genres": [
-       "Horror",
-       "Vampires"
-      ],
-      "start": "01:12",
-      "end": "01:24",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372838",
-      "title": "Emotion",
-      "year": 1966,
-      "runtime_min": 39,
-      "runtime_estimated": false,
-      "rating": 6.6,
-      "genres": [
-       "Drama",
-       "Fantasy"
-      ],
-      "start": "01:27",
-      "end": "02:06",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:214872",
-      "title": "Spook House",
-      "year": 2003,
-      "runtime_min": 21,
-      "runtime_estimated": false,
-      "rating": 5,
-      "genres": [
-       "Horror",
-       "Documentary"
-      ],
-      "start": "02:09",
-      "end": "02:30",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216365",
-      "title": "Love Reinvented",
-      "year": 1979,
-      "runtime_min": 78,
-      "runtime_estimated": false,
-      "rating": null,
-      "genres": [
-       "Horror",
-       "Drama"
-      ],
-      "start": "02:33",
-      "end": "03:51",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373025",
-      "title": "The Inauguration of the Pleasure Dome",
-      "year": 1954,
-      "runtime_min": 38,
-      "runtime_estimated": false,
-      "rating": 7,
-      "genres": [
-       "Fantasy",
-       "Horror"
-      ],
-      "start": "03:54",
-      "end": "04:32",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216661",
-      "title": "Nocturne",
-      "year": 1998,
-      "runtime_min": 28,
-      "runtime_estimated": false,
-      "rating": 6.3,
-      "genres": [
-       "Drama",
-       "Horror"
-      ],
-      "start": "04:35",
-      "end": "05:03",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373054",
-      "title": "Slaxx",
-      "year": 2020,
-      "runtime_min": 76,
-      "runtime_estimated": false,
-      "rating": 5.4,
-      "genres": [
-       "Horror",
-       "Comedy"
-      ],
-      "start": "05:06",
-      "end": "06:22",
-      "slot": "early_morning",
-      "pinned": false
-     }
-    ]
-   },
-   "31": {
-    "channel": 31,
-    "date": "2026-10-16",
-    "generated_at": "2026-10-15T08:59:21.148068Z",
-    "generated_by": "auto-smart",
-    "items": [
-     {
-      "ref": "emby:movie:215242",
-      "title": "K",
-      "year": 2015,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.1,
-      "genres": [
-       "Drama",
-       "Comedy"
-      ],
-      "start": "06:00",
-      "end": "07:35",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217371",
-      "title": "Energie!",
-      "year": 2007,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.7,
-      "genres": [
-       "Animation",
-       "Fantasy"
-      ],
-      "start": "07:38",
-      "end": "09:13",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372885",
-      "title": "Universal Language",
-      "year": 2024,
-      "runtime_min": 89,
-      "runtime_estimated": false,
-      "rating": 6.9,
-      "genres": [
-       "Comedy",
-       "Drama"
-      ],
-      "start": "09:16",
-      "end": "10:45",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372862",
-      "title": "Schizopolis",
-      "year": 1997,
-      "runtime_min": 97,
-      "runtime_estimated": false,
-      "rating": 6.7,
-      "genres": [
-       "Comedy",
-       "Fantasy"
-      ],
-      "start": "10:48",
-      "end": "12:25",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372843",
-      "title": "Gummo",
-      "year": 1997,
-      "runtime_min": 89,
-      "runtime_estimated": false,
-      "rating": 6.6,
-      "genres": [
-       "Drama",
-       "Comedy"
-      ],
-      "start": "12:28",
-      "end": "13:57",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215995",
-      "title": "Eaux d'Artifice",
-      "year": 1953,
-      "runtime_min": 13,
-      "runtime_estimated": false,
-      "rating": 6.9,
-      "genres": [
-       "Drama"
-      ],
-      "start": "14:00",
-      "end": "14:13",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215674",
-      "title": "The War of the Roses",
-      "year": 1989,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.8,
-      "genres": [
-       "Comedy",
-       "Drama"
-      ],
-      "start": "14:16",
-      "end": "15:51",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217064",
-      "title": "Breach (Girl & Eunuch)",
-      "year": 2001,
-      "runtime_min": 10,
-      "runtime_estimated": false,
-      "rating": 6.7,
-      "genres": [
-       "Drama"
-      ],
-      "start": "15:54",
-      "end": "16:04",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217215",
-      "title": "Suspiria",
-      "year": 2018,
-      "runtime_min": 14,
-      "runtime_estimated": false,
-      "rating": 6.7,
-      "genres": [
-       "Horror",
-       "Mystery"
-      ],
-      "start": "16:07",
-      "end": "16:21",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372825",
-      "title": "Barking Dogs Never Bite",
-      "year": 2000,
-      "runtime_min": 110,
-      "runtime_estimated": false,
-      "rating": 6.9,
-      "genres": [
-       "Comedy",
-       "Crime"
-      ],
-      "start": "16:24",
-      "end": "18:14",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216122",
-      "title": "Howard",
-      "year": 1977,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.6,
-      "genres": [
-       "Biography",
-       "Drama"
-      ],
-      "start": "18:17",
-      "end": "19:52",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215247",
-      "title": "Twister",
-      "year": 1996,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 6.6,
-      "genres": [
-       "Action",
-       "Adventure"
-      ],
-      "start": "19:55",
-      "end": "21:30",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373098",
-      "title": "Nineteen Eighty-Four",
-      "year": 1984,
-      "runtime_min": 111,
-      "runtime_estimated": false,
-      "rating": 7,
-      "genres": [
-       "Drama",
-       "Science Fiction"
-      ],
-      "start": "21:33",
-      "end": "23:24",
-      "slot": "prime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373058",
-      "title": "Tetsuo: The Iron Man",
-      "year": 1989,
-      "runtime_min": 67,
-      "runtime_estimated": false,
-      "rating": 6.9,
-      "genres": [
-       "Horror",
-       "Science Fiction"
-      ],
-      "start": "23:27",
-      "end": "00:34",
-      "slot": "late_night",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215411",
-      "title": "The Living End",
-      "year": 1992,
-      "runtime_min": 81,
-      "runtime_estimated": false,
-      "rating": 6.6,
-      "genres": [
-       "Crime",
-       "Drama"
-      ],
-      "start": "00:37",
-      "end": "01:58",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217433",
-      "title": "Bambule",
-      "year": 1970,
-      "runtime_min": 94,
-      "runtime_estimated": false,
-      "rating": 6.6,
-      "genres": [
-       "Drama",
-       "TV Movie"
-      ],
-      "start": "02:01",
-      "end": "03:35",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372837",
-      "title": "EO",
-      "year": 2022,
-      "runtime_min": 88,
-      "runtime_estimated": false,
-      "rating": 6.7,
-      "genres": [
-       "Drama",
-       "Adventure"
-      ],
-      "start": "03:38",
-      "end": "05:06",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:214999",
-      "title": "100 Years of Adolf Hitler \u2013 The Last Hour in the F\u00fchrerbunker",
-      "year": 1989,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 5.6,
-      "genres": [
-       "Comedy",
-       "Drama"
-      ],
-      "start": "05:09",
-      "end": "06:44",
-      "slot": "early_morning",
-      "pinned": false
-     }
-    ]
-   },
-   "32": {
-    "channel": 32,
-    "date": "2026-10-16",
-    "generated_at": "2026-10-15T08:59:21.210112Z",
-    "generated_by": "auto-smart",
-    "items": [
-     {
-      "ref": "emby:movie:32486",
-      "title": "Tropic Thunder",
-      "year": 2008,
-      "runtime_min": 18,
-      "runtime_estimated": false,
-      "rating": 6.729,
-      "genres": [
-       "Movie",
-       "Comedy"
-      ],
-      "start": "06:00",
-      "end": "06:18",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:32425",
-      "title": "Swingers",
-      "year": 1996,
-      "runtime_min": 18,
-      "runtime_estimated": false,
-      "rating": 6.849,
-      "genres": [
-       "Screwball",
-       "Movie"
-      ],
-      "start": "06:21",
-      "end": "06:39",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215593",
-      "title": "Drop Box",
-      "year": 2006,
-      "runtime_min": 4,
-      "runtime_estimated": false,
-      "rating": 6.9,
-      "genres": [
-       "Comedy"
-      ],
-      "start": "06:42",
-      "end": "06:46",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:214756",
-      "title": "Lover Other",
-      "year": 2006,
-      "runtime_min": 55,
-      "runtime_estimated": false,
-      "rating": 7.5,
-      "genres": [
-       "Documentary",
-       "Drama"
-      ],
-      "start": "06:49",
-      "end": "07:44",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215065",
-      "title": "Mock Up on Mu",
-      "year": 2008,
-      "runtime_min": 110,
-      "runtime_estimated": false,
-      "rating": 6.7,
-      "genres": [
-       "Comedy",
-       "Science Fiction"
-      ],
-      "start": "07:47",
-      "end": "09:37",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372853",
-      "title": "Nomadland",
-      "year": 2021,
-      "runtime_min": 108,
-      "runtime_estimated": false,
-      "rating": 7.3,
-      "genres": [
-       "Drama"
-      ],
-      "start": "09:40",
-      "end": "11:28",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373003",
-      "title": "Braindead",
-      "year": 1992,
-      "runtime_min": 103,
-      "runtime_estimated": false,
-      "rating": 7.4,
-      "genres": [
-       "Horror",
-       "Comedy"
-      ],
-      "start": "11:31",
-      "end": "13:14",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217612",
-      "title": "House of Sand and Fog",
-      "year": 2003,
-      "runtime_min": 81,
-      "runtime_estimated": false,
-      "rating": 7.5,
-      "genres": [
-       "Drama"
-      ],
-      "start": "13:17",
-      "end": "14:38",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215936",
-      "title": "Beautiful Something Left Behind",
-      "year": 2020,
-      "runtime_min": 4,
-      "runtime_estimated": false,
-      "rating": 7.5,
-      "genres": [
-       "Documentary",
-       "Drama"
-      ],
-      "start": "14:41",
-      "end": "14:45",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:216094",
-      "title": "Laurie Anderson",
-      "year": 1990,
-      "runtime_min": 56,
-      "runtime_estimated": false,
-      "rating": 8.7,
-      "genres": [
-       "Comedy",
-       "Music"
-      ],
-      "start": "14:48",
-      "end": "15:44",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373028",
-      "title": "KPop Demon Hunters",
-      "year": 2025,
-      "runtime_min": 100,
-      "runtime_estimated": false,
-      "rating": 7.4,
-      "genres": [
-       "Fantasy",
-       "Music"
-      ],
-      "start": "15:47",
-      "end": "17:27",
-      "slot": "daytime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215028",
-      "title": "The Assistants",
-      "year": 2011,
-      "runtime_min": 19,
-      "runtime_estimated": false,
-      "rating": 7.1,
-      "genres": [
-       "Comedy"
-      ],
-      "start": "17:30",
-      "end": "17:49",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373065",
-      "title": "The Frighteners",
-      "year": 1996,
-      "runtime_min": 123,
-      "runtime_estimated": false,
-      "rating": 7.1,
-      "genres": [
-       "Horror",
-       "Comedy"
-      ],
-      "start": "17:52",
-      "end": "19:55",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:373094",
-      "title": "Loving Vincent",
-      "year": 2017,
-      "runtime_min": 95,
-      "runtime_estimated": false,
-      "rating": 7.8,
-      "genres": [
-       "Animation",
-       "Drama"
-      ],
-      "start": "19:58",
-      "end": "21:33",
-      "slot": "evening",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217092",
-      "title": "What Where",
-      "year": 2000,
-      "runtime_min": 27,
-      "runtime_estimated": false,
-      "rating": 7.2,
-      "genres": [
-       "Drama",
-       "Science Fiction"
-      ],
-      "start": "21:36",
-      "end": "22:03",
-      "slot": "prime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372879",
-      "title": "The Shape of Water",
-      "year": 2017,
-      "runtime_min": 123,
-      "runtime_estimated": false,
-      "rating": 7.3,
-      "genres": [
-       "Drama",
-       "Fantasy"
-      ],
-      "start": "22:06",
-      "end": "00:09",
-      "slot": "prime",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372990",
-      "title": "Adaptation.",
-      "year": 2002,
-      "runtime_min": 115,
-      "runtime_estimated": false,
-      "rating": 7.7,
-      "genres": [
-       "Comedy",
-       "Crime"
-      ],
-      "start": "00:12",
-      "end": "02:07",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217553",
-      "title": "Shoe",
-      "year": 2010,
-      "runtime_min": 3,
-      "runtime_estimated": false,
-      "rating": 7.8,
-      "genres": [
-       "Short",
-       "Drama"
-      ],
-      "start": "02:10",
-      "end": "02:13",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372998",
-      "title": "Being John Malkovich",
-      "year": 1999,
-      "runtime_min": 113,
-      "runtime_estimated": false,
-      "rating": 7.7,
-      "genres": [
-       "Comedy",
-       "Drama"
-      ],
-      "start": "02:16",
-      "end": "04:09",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215129",
-      "title": "The Artist",
-      "year": 2011,
-      "runtime_min": 95,
-      "runtime_estimated": true,
-      "rating": 7.8,
-      "genres": [
-       "Drama",
-       "Comedy"
-      ],
-      "start": "04:12",
-      "end": "05:47",
-      "slot": "graveyard",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:217292",
-      "title": "Inochi",
-      "year": 2004,
-      "runtime_min": 1,
-      "runtime_estimated": false,
-      "rating": 7.2,
-      "genres": [
-       "Comedy",
-       "Fantasy"
-      ],
-      "start": "05:50",
-      "end": "05:51",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:215127",
-      "title": "Futari wa Precure Splash\u2606Star the Movie: Tic-Tac Crisis Hanging by a Thin Thread!",
-      "year": 2006,
-      "runtime_min": 1,
-      "runtime_estimated": false,
-      "rating": 7.5,
-      "genres": [
-       "Animation",
-       "Fantasy"
-      ],
-      "start": "05:54",
-      "end": "05:55",
-      "slot": "early_morning",
-      "pinned": false
-     },
-     {
-      "ref": "emby:movie:372872",
-      "title": "Lano & Woodley - The Island",
-      "year": 2005,
-      "runtime_min": 136,
-      "runtime_estimated": false,
-      "rating": 8.5,
-      "genres": [
-       "Comedy"
-      ],
-      "start": "05:58",
-      "end": "08:14",
-      "slot": "early_morning",
-      "pinned": false
-     }
-    ]
-   }
-  },
   "2026-10-17": {
    "30": {
     "channel": 30,
@@ -2250,6 +1175,1147 @@
       "start": "05:12",
       "end": "06:42",
       "slot": "early_morning",
+      "pinned": false
+     }
+    ]
+   }
+  },
+  "2026-10-18": {
+   "30": {
+    "channel": 30,
+    "date": "2026-10-18",
+    "generated_at": "2026-10-17T08:59:29.857411Z",
+    "generated_by": "auto-smart",
+    "items": [
+     {
+      "ref": "emby:movie:373003",
+      "title": "Braindead",
+      "year": 1992,
+      "runtime_min": 103,
+      "runtime_estimated": false,
+      "rating": 7.4,
+      "genres": [
+       "Horror",
+       "Comedy"
+      ],
+      "start": "06:00",
+      "end": "07:43",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215822",
+      "title": "The Pigs",
+      "year": 2005,
+      "runtime_min": 4,
+      "runtime_estimated": false,
+      "rating": 6.1,
+      "genres": [
+       "Comedy",
+       "Horror"
+      ],
+      "start": "07:46",
+      "end": "07:50",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215068",
+      "title": "Spectres of the Spectrum",
+      "year": 2000,
+      "runtime_min": 91,
+      "runtime_estimated": false,
+      "rating": 6.5,
+      "genres": [
+       "Horror",
+       "Comedy"
+      ],
+      "start": "07:53",
+      "end": "09:24",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373090",
+      "title": "House",
+      "year": 1977,
+      "runtime_min": 88,
+      "runtime_estimated": false,
+      "rating": 7.2,
+      "genres": [
+       "Comedy",
+       "Fantasy"
+      ],
+      "start": "09:27",
+      "end": "10:55",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:217211",
+      "title": "The Act of Seeing with One's Own Eyes",
+      "year": 1971,
+      "runtime_min": 32,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Documentary",
+       "Short"
+      ],
+      "start": "10:58",
+      "end": "11:30",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372822",
+      "title": "Antlers",
+      "year": 2021,
+      "runtime_min": 99,
+      "runtime_estimated": false,
+      "rating": 5.9,
+      "genres": [
+       "Drama",
+       "Horror"
+      ],
+      "start": "11:33",
+      "end": "13:12",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373115",
+      "title": "The Wolf House",
+      "year": 2018,
+      "runtime_min": 74,
+      "runtime_estimated": false,
+      "rating": 7.5,
+      "genres": [
+       "Animation",
+       "Horror"
+      ],
+      "start": "13:15",
+      "end": "14:29",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216140",
+      "title": "Light Reading",
+      "year": 1978,
+      "runtime_min": 20,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Crime",
+       "Horror"
+      ],
+      "start": "14:32",
+      "end": "14:52",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373101",
+      "title": "Possession",
+      "year": 1981,
+      "runtime_min": 124,
+      "runtime_estimated": false,
+      "rating": 7.2,
+      "genres": [
+       "Horror"
+      ],
+      "start": "14:55",
+      "end": "16:59",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373070",
+      "title": "The Invisible Man",
+      "year": 2020,
+      "runtime_min": 124,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Thriller",
+       "Science Fiction"
+      ],
+      "start": "17:02",
+      "end": "19:06",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216014",
+      "title": "Critical Mass",
+      "year": 2010,
+      "runtime_min": 22,
+      "runtime_estimated": false,
+      "rating": null,
+      "genres": [
+       "Short",
+       "Action"
+      ],
+      "start": "19:09",
+      "end": "19:31",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216737",
+      "title": "Outer Space",
+      "year": 1999,
+      "runtime_min": 10,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Horror"
+      ],
+      "start": "19:34",
+      "end": "19:44",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215590",
+      "title": "A Fish Called Martha or: Who's Really Afraid of H. P. Lovecraft Anyway?",
+      "year": 2010,
+      "runtime_min": 3,
+      "runtime_estimated": false,
+      "rating": null,
+      "genres": [
+       "Music",
+       "Comedy"
+      ],
+      "start": "19:47",
+      "end": "19:50",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372835",
+      "title": "Doodlebug",
+      "year": 1997,
+      "runtime_min": 3,
+      "runtime_estimated": false,
+      "rating": 7,
+      "genres": [
+       "Horror"
+      ],
+      "start": "19:53",
+      "end": "19:56",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373040",
+      "title": "On the Silver Globe",
+      "year": 1988,
+      "runtime_min": 165,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Science Fiction",
+       "Drama"
+      ],
+      "start": "20:00",
+      "end": "22:45",
+      "slot": "prime",
+      "pinned": true
+     },
+     {
+      "ref": "emby:movie:215996",
+      "title": "The Inauguration of the Pleasure Dome",
+      "year": 1954,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 7,
+      "genres": [
+       "Fantasy",
+       "Horror"
+      ],
+      "start": "22:48",
+      "end": "00:23",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:217386",
+      "title": "Evil Judgment",
+      "year": 1984,
+      "runtime_min": 29,
+      "runtime_estimated": false,
+      "rating": 5.2,
+      "genres": [
+       "Drama",
+       "Mystery"
+      ],
+      "start": "00:26",
+      "end": "00:55",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373020",
+      "title": "Hokum",
+      "year": 2026,
+      "runtime_min": 107,
+      "runtime_estimated": false,
+      "rating": 7.3,
+      "genres": [
+       "Horror",
+       "Thriller"
+      ],
+      "start": "00:58",
+      "end": "02:45",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:248881",
+      "title": "Us Optimized Documentary Smaller",
+      "year": 2016,
+      "runtime_min": 41,
+      "runtime_estimated": false,
+      "rating": 5.8,
+      "genres": [
+       "Drama",
+       "Horror"
+      ],
+      "start": "02:48",
+      "end": "03:29",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373018",
+      "title": "Heart Eyes",
+      "year": 2025,
+      "runtime_min": 97,
+      "runtime_estimated": false,
+      "rating": 6,
+      "genres": [
+       "Horror",
+       "Romance"
+      ],
+      "start": "03:32",
+      "end": "05:09",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215013",
+      "title": "Office Killer",
+      "year": 1997,
+      "runtime_min": 83,
+      "runtime_estimated": false,
+      "rating": 5.2,
+      "genres": [
+       "Horror",
+       "Thriller"
+      ],
+      "start": "05:12",
+      "end": "06:35",
+      "slot": "early_morning",
+      "pinned": false
+     }
+    ]
+   },
+   "31": {
+    "channel": 31,
+    "date": "2026-10-18",
+    "generated_at": "2026-10-17T08:59:29.945807Z",
+    "generated_by": "auto-smart",
+    "items": [
+     {
+      "ref": "emby:movie:216146",
+      "title": "Paradise Now: The Living Theater in Amerika",
+      "year": 1969,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6,
+      "genres": [
+       "Documentary",
+       "Drama"
+      ],
+      "start": "06:00",
+      "end": "07:35",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216749",
+      "title": "Le pont du trieur",
+      "year": 2000,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 5.8,
+      "genres": [
+       "Documentary",
+       "Drama"
+      ],
+      "start": "07:38",
+      "end": "09:13",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:217318",
+      "title": "The Boxer",
+      "year": 1977,
+      "runtime_min": 99,
+      "runtime_estimated": false,
+      "rating": 6.6,
+      "genres": [
+       "Drama"
+      ],
+      "start": "09:16",
+      "end": "10:55",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215836",
+      "title": "The Girl Chewing Gum",
+      "year": 1976,
+      "runtime_min": 12,
+      "runtime_estimated": false,
+      "rating": 6.6,
+      "genres": [
+       "Drama"
+      ],
+      "start": "10:58",
+      "end": "11:10",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:217006",
+      "title": "The Luck of Ginger Coffey",
+      "year": 1964,
+      "runtime_min": 15,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Drama"
+      ],
+      "start": "11:13",
+      "end": "11:28",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215163",
+      "title": "The Second Time",
+      "year": 1995,
+      "runtime_min": 18,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Drama"
+      ],
+      "start": "11:31",
+      "end": "11:49",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216519",
+      "title": "Dandanko",
+      "year": 1960,
+      "runtime_min": 11,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Drama"
+      ],
+      "start": "11:52",
+      "end": "12:03",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372842",
+      "title": "Good Boy",
+      "year": 2026,
+      "runtime_min": 73,
+      "runtime_estimated": false,
+      "rating": 6.8,
+      "genres": [
+       "Thriller",
+       "Drama"
+      ],
+      "start": "12:06",
+      "end": "13:19",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373103",
+      "title": "THX 1138",
+      "year": 1971,
+      "runtime_min": 89,
+      "runtime_estimated": false,
+      "rating": 6.6,
+      "genres": [
+       "Science Fiction",
+       "Drama"
+      ],
+      "start": "13:22",
+      "end": "14:51",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372996",
+      "title": "Balloonerism",
+      "year": 2025,
+      "runtime_min": 24,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Animation",
+       "Fantasy"
+      ],
+      "start": "14:54",
+      "end": "15:18",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215255",
+      "title": "The Sicilian Girl",
+      "year": 2008,
+      "runtime_min": 15,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Drama"
+      ],
+      "start": "15:21",
+      "end": "15:36",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:214698",
+      "title": "Orpheus Filmed on the Battlefield",
+      "year": 1969,
+      "runtime_min": 37,
+      "runtime_estimated": false,
+      "rating": 6.6,
+      "genres": [
+       "Documentary",
+       "Drama"
+      ],
+      "start": "15:39",
+      "end": "16:16",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215620",
+      "title": "Crash!",
+      "year": 1971,
+      "runtime_min": 18,
+      "runtime_estimated": false,
+      "rating": 7,
+      "genres": [
+       "Drama"
+      ],
+      "start": "16:19",
+      "end": "16:37",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215538",
+      "title": "Hapax Legomena I: (nostalgia)",
+      "year": 1971,
+      "runtime_min": 38,
+      "runtime_estimated": false,
+      "rating": 6.7,
+      "genres": [
+       "Drama"
+      ],
+      "start": "16:40",
+      "end": "17:18",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216008",
+      "title": "Continuity",
+      "year": 2016,
+      "runtime_min": 5,
+      "runtime_estimated": false,
+      "rating": 6.8,
+      "genres": [
+       "Drama"
+      ],
+      "start": "17:21",
+      "end": "17:26",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:214941",
+      "title": "The Red Line",
+      "year": 2026,
+      "runtime_min": 14,
+      "runtime_estimated": false,
+      "rating": 6.8,
+      "genres": [
+       "Thriller",
+       "Crime"
+      ],
+      "start": "17:29",
+      "end": "17:43",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216497",
+      "title": "Reserve Aerodrome",
+      "year": 1978,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.5,
+      "genres": [
+       "Family",
+       "Drama"
+      ],
+      "start": "17:46",
+      "end": "19:21",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216009",
+      "title": "The Mirror",
+      "year": 2023,
+      "runtime_min": 5,
+      "runtime_estimated": false,
+      "rating": 7,
+      "genres": [
+       "Drama",
+       "Family"
+      ],
+      "start": "19:24",
+      "end": "19:29",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373027",
+      "title": "John Carter",
+      "year": 2012,
+      "runtime_min": 132,
+      "runtime_estimated": false,
+      "rating": 6.6,
+      "genres": [
+       "Action",
+       "Adventure"
+      ],
+      "start": "19:32",
+      "end": "21:44",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373026",
+      "title": "Inland Empire",
+      "year": 2006,
+      "runtime_min": 180,
+      "runtime_estimated": false,
+      "rating": 6.8,
+      "genres": [
+       "Horror",
+       "Thriller"
+      ],
+      "start": "21:47",
+      "end": "00:47",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:214593",
+      "title": "Crash",
+      "year": 1996,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.4,
+      "genres": [
+       "Thriller",
+       "Drama"
+      ],
+      "start": "00:50",
+      "end": "02:25",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216245",
+      "title": "Colour Poems",
+      "year": 1974,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.5,
+      "genres": [
+       "Drama"
+      ],
+      "start": "02:28",
+      "end": "04:03",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215374",
+      "title": "The Places of a Fugue",
+      "year": 1978,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.4,
+      "genres": [
+       "Drama"
+      ],
+      "start": "04:06",
+      "end": "05:41",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215592",
+      "title": "Snowflake",
+      "year": 2017,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.3,
+      "genres": [
+       "Action",
+       "Fantasy"
+      ],
+      "start": "05:44",
+      "end": "07:19",
+      "slot": "early_morning",
+      "pinned": false
+     }
+    ]
+   },
+   "32": {
+    "channel": 32,
+    "date": "2026-10-18",
+    "generated_at": "2026-10-17T08:59:30.010166Z",
+    "generated_by": "auto-smart",
+    "items": [
+     {
+      "ref": "emby:movie:214898",
+      "title": "The SpongeBob SquarePants Movie",
+      "year": 2004,
+      "runtime_min": 9,
+      "runtime_estimated": false,
+      "rating": 7.2,
+      "genres": [
+       "Adventure",
+       "Animation"
+      ],
+      "start": "06:00",
+      "end": "06:09",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216784",
+      "title": "La Pomme de Newton",
+      "year": 2005,
+      "runtime_min": 2,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Comedy"
+      ],
+      "start": "06:12",
+      "end": "06:14",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216651",
+      "title": "Madagascar: Escape 2 Africa",
+      "year": 2008,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 6.7,
+      "genres": [
+       "Adventure",
+       "Animation"
+      ],
+      "start": "06:17",
+      "end": "07:52",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372829",
+      "title": "Bottle Rocket",
+      "year": 1996,
+      "runtime_min": 92,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Comedy",
+       "Crime"
+      ],
+      "start": "07:55",
+      "end": "09:27",
+      "slot": "early_morning",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:57284",
+      "title": "American Fiction",
+      "year": 2023,
+      "runtime_min": 16,
+      "runtime_estimated": false,
+      "rating": 7.247,
+      "genres": [
+       "Comedy",
+       "Movie"
+      ],
+      "start": "09:30",
+      "end": "09:46",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373109",
+      "title": "The Straight Story",
+      "year": 1999,
+      "runtime_min": 112,
+      "runtime_estimated": false,
+      "rating": 8,
+      "genres": [
+       "Drama"
+      ],
+      "start": "09:49",
+      "end": "11:41",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215228",
+      "title": "Bitter Sugar",
+      "year": 1996,
+      "runtime_min": 1,
+      "runtime_estimated": false,
+      "rating": 7,
+      "genres": [
+       "Drama",
+       "Romance"
+      ],
+      "start": "11:44",
+      "end": "11:45",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216156",
+      "title": "Jackie Brown",
+      "year": 1997,
+      "runtime_min": 23,
+      "runtime_estimated": false,
+      "rating": 7.5,
+      "genres": [
+       "Crime",
+       "Drama"
+      ],
+      "start": "11:48",
+      "end": "12:11",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373064",
+      "title": "The Fountain",
+      "year": 2006,
+      "runtime_min": 97,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Drama",
+       "Adventure"
+      ],
+      "start": "12:14",
+      "end": "13:51",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373063",
+      "title": "The Fall",
+      "year": 2008,
+      "runtime_min": 117,
+      "runtime_estimated": false,
+      "rating": 7.8,
+      "genres": [
+       "Adventure",
+       "Fantasy"
+      ],
+      "start": "13:54",
+      "end": "15:51",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216779",
+      "title": "The Stranger",
+      "year": 2007,
+      "runtime_min": 10,
+      "runtime_estimated": false,
+      "rating": 8.4,
+      "genres": [
+       "Drama"
+      ],
+      "start": "15:54",
+      "end": "16:04",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216073",
+      "title": "Lala's Gun",
+      "year": 2008,
+      "runtime_min": 95,
+      "runtime_estimated": true,
+      "rating": 7.2,
+      "genres": [
+       "Drama"
+      ],
+      "start": "16:07",
+      "end": "17:42",
+      "slot": "daytime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:214921",
+      "title": "Al Helm: Martin Luther King in Palestine",
+      "year": 2014,
+      "runtime_min": 45,
+      "runtime_estimated": false,
+      "rating": 7.3,
+      "genres": [
+       "Documentary",
+       "Drama"
+      ],
+      "start": "17:45",
+      "end": "18:30",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:214935",
+      "title": "Flushing Flesh",
+      "year": 2014,
+      "runtime_min": 4,
+      "runtime_estimated": false,
+      "rating": 9.5,
+      "genres": [
+       "Short",
+       "Comedy"
+      ],
+      "start": "18:33",
+      "end": "18:37",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372825",
+      "title": "Barking Dogs Never Bite",
+      "year": 2000,
+      "runtime_min": 110,
+      "runtime_estimated": false,
+      "rating": 6.9,
+      "genres": [
+       "Comedy",
+       "Crime"
+      ],
+      "start": "18:40",
+      "end": "20:30",
+      "slot": "evening",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:373076",
+      "title": "Three Kings",
+      "year": 1999,
+      "runtime_min": 115,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Action",
+       "Comedy"
+      ],
+      "start": "20:33",
+      "end": "22:28",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:215232",
+      "title": "Secrets & Lies",
+      "year": 1996,
+      "runtime_min": 1,
+      "runtime_estimated": false,
+      "rating": 8,
+      "genres": [
+       "Drama"
+      ],
+      "start": "22:31",
+      "end": "22:32",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:214961",
+      "title": "The Fire Dance",
+      "year": 1994,
+      "runtime_min": 3,
+      "runtime_estimated": false,
+      "rating": 8.4,
+      "genres": [
+       "Biography",
+       "Drama"
+      ],
+      "start": "22:35",
+      "end": "22:38",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372873",
+      "title": "The Killing of a Sacred Deer",
+      "year": 2017,
+      "runtime_min": 121,
+      "runtime_estimated": false,
+      "rating": 7,
+      "genres": [
+       "Drama",
+       "Thriller"
+      ],
+      "start": "22:41",
+      "end": "00:42",
+      "slot": "prime",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216601",
+      "title": "In the Mood for Love",
+      "year": 2000,
+      "runtime_min": 4,
+      "runtime_estimated": false,
+      "rating": 8,
+      "genres": [
+       "Drama",
+       "Romance"
+      ],
+      "start": "00:45",
+      "end": "00:49",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:217064",
+      "title": "Breach (Girl & Eunuch)",
+      "year": 2001,
+      "runtime_min": 10,
+      "runtime_estimated": false,
+      "rating": 6.7,
+      "genres": [
+       "Drama"
+      ],
+      "start": "00:52",
+      "end": "01:02",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:36140",
+      "title": "The Truman Show",
+      "year": 1998,
+      "runtime_min": 2,
+      "runtime_estimated": false,
+      "rating": 8.159,
+      "genres": [
+       "Dramedy",
+       "Drama"
+      ],
+      "start": "01:05",
+      "end": "01:07",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372830",
+      "title": "Boyhood",
+      "year": 2014,
+      "runtime_min": 166,
+      "runtime_estimated": false,
+      "rating": 7.9,
+      "genres": [
+       "Drama"
+      ],
+      "start": "01:10",
+      "end": "03:56",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:214990",
+      "title": "Elefante",
+      "year": 2011,
+      "runtime_min": 11,
+      "runtime_estimated": false,
+      "rating": 6.8,
+      "genres": [
+       "Drama",
+       "Fantasy"
+      ],
+      "start": "03:59",
+      "end": "04:10",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:216537",
+      "title": "Man on the Train",
+      "year": 2002,
+      "runtime_min": 2,
+      "runtime_estimated": false,
+      "rating": 7.1,
+      "genres": [
+       "Crime",
+       "Drama"
+      ],
+      "start": "04:13",
+      "end": "04:15",
+      "slot": "graveyard",
+      "pinned": false
+     },
+     {
+      "ref": "emby:movie:372992",
+      "title": "American Movie",
+      "year": 1999,
+      "runtime_min": 105,
+      "runtime_estimated": false,
+      "rating": 7.8,
+      "genres": [
+       "Documentary",
+       "Comedy"
+      ],
+      "start": "04:18",
+      "end": "06:03",
+      "slot": "graveyard",
       "pinned": false
      }
     ]
