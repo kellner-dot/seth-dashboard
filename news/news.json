@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T12:00:40+0000",
- "updated_ts": 1792238440,
+ "updated": "2026-10-17T12:30:40+0000",
+ "updated_ts": 1792240240,
  "topics": [
   {
    "name": "Tech",
@@ -27,13 +27,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "We Still Use Paper",
-     "summary": "Comments",
-     "url": "https://humanpro.co/articles/we-still-use-paper/",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
      "summary": "Comments",
      "url": "https://llmspeed.dev/",
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
      "time": "Sat, 17 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Intuitive concurrent programming in any language",
+     "summary": "Comments",
+     "url": "https://www.lf-lang.org/",
+     "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -123,18 +123,25 @@
      "source": "BBC World"
     },
     {
-     "title": "Katie Zacharia leaving White House role less than five days into job",
-     "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
-     "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 17 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Rare pink diamond goes on display in France 100 years after amateur heist",
      "summary": "The French royal jewel will be on public display for the first time since it was found hidden in an apple after a 1926 theft.",
      "url": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 17 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
+     "summary": "She and five staff members were found to have used the inedible paint in meals to make them look more appealing.",
+     "url": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
+     "time": "Sat, 17 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Perspective: Midterm money madness",
+     "summary": "Campaign ad spending has topped $10 billion this election cycle, as voters struggle to afford groceries and gas.",
+     "url": "https://www.npr.org/2026/10/17/nx-s1-5997474/perspective-midterm-money-madness",
+     "time": "Sat, 17 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
@@ -170,19 +177,19 @@
      "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms",
      "time": "Sat, 17 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Weddings are expensive. How about a grocery store cake?",
-     "summary": "About a third of couples are willing to save money on cake and dessert, according to the wedding-planning site Zola.",
-     "url": "https://www.npr.org/2026/10/17/nx-s1-5976921/grocery-store-wedding-cakes",
-     "time": "Sat, 17 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Coffee for the community",
+     "summary": "Debbie Scherrer greets visitors to Saturday\u2019s pop-up caf\u00e9 on the porch of Rochester\u2019s Kimball building. Photo by Tim Calabro/White River Valley Herald \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/coffee-shop-herald-1200x755.jpg\" /> Volunteers turned the porc",
+     "url": "https://vtdigger.org/2026/10/17/coffee-for-the-community/",
+     "time": "Sat, 17 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Pro-Phil Scott super PAC launches ad buy, another signal Vermont governor\u2019s race could be close",
      "summary": "Democratic nominee for governor Amanda Janoo, left, and Republican Gov. Phil Scott. Photos by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Janoo-Scott-2-up-02-e1792187218775.png\" /> The PAC is funded by the national Republican Governor",
@@ -215,13 +222,6 @@
      "title": "Popular Brousseau Mountain trail in Essex County conserved for peregrine falcons and future generations",
      "summary": "The view looking southeast from Brousseau Mountain in Norton on September 4, 2021. Photo by K. Fiegenbaum/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/BrousseauMountain_KFiegenbaum-1200x900.jpg?crop=1\" /> \u201cWe wanted to keep the magical, pristine pea",
      "url": "https://vtdigger.org/2026/10/16/popular-brousseau-mountain-trail-in-essex-county-conserved-for-peregrine-falcons-and-future-generations/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Rural Vermont is losing its say over its own land",
-     "summary": "Conservation in Vermont is being defined in a way that excludes the people who actually tend the land. Read the story on VTDigger here: Rural Vermont is losing its say over its own land.",
-     "url": "https://vtdigger.org/2026/10/16/opinion-rural-vermont-is-losing-its-say-over-its-own-land/",
      "time": "Fri, 16 Oct 2026",
      "source": "VT Digger"
     }
