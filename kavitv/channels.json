@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-16T00:10:07.016292-04:00",
- "date": "2026-10-16",
+ "generated_at": "2026-10-17T00:10:05.143186-04:00",
+ "date": "2026-10-17",
  "channels": [
   {
    "id": "horror",
@@ -9,7 +9,7 @@
    "pool": "Genres=Horror across the full movie library.",
    "film_count": 123,
    "total_runtime_h": 151.1,
-   "program_count": 19
+   "program_count": 20
   },
   {
    "id": "experimental",
@@ -18,7 +18,7 @@
    "pool": "12 arthouse directors + Schizopolis (Seth's favorite, pinned).",
    "film_count": 57,
    "total_runtime_h": 74.3,
-   "program_count": 17
+   "program_count": 18
   },
   {
    "id": "independent",
