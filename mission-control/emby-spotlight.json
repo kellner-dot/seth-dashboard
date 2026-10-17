@@ -1,10 +1,10 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5445,
+ "movies": 5843,
  "series": 34,
  "episodes": 59,
  "played": 7,
- "unwatched": 5438,
+ "unwatched": 5836,
  "new_arrivals": [
   {
    "name": "The Monkey",
@@ -157,15 +157,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "Mao by Mao",
-  "year": 1977,
+  "name": "Up To and Including Her Limits",
+  "year": 1976,
   "genres": [
-   "Documentary",
-   "History"
+   "Documentary"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A film-d\u00e9tournement biography of Mao Tse-tung in which the life of the recently deceased Great Helmsman is told in his own words, using quotes culled from various Red Guard publications.  The rise to power of the film's "
+  "overview": "Up To and Including Her Limits extends the principles of Jackson Pollock's action painting. Schneemann is suspended from a rope harness, naked and drawing; her moving body becomes a measure of concentration, the sustaine"
  }
 }
