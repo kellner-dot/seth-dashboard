@@ -1,45 +1,41 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-17T20:30:52+0000",
- "cpu_pct": 0.9,
- "mem_pct": 60.2,
+ "generated_iso": "2026-10-17T20:40:43+0000",
+ "cpu_pct": 19.9,
+ "mem_pct": 66.7,
  "mem_total_gb": 15.2,
  "disk_pct": 70,
- "disk_free_gb": 278.9,
- "uptime_h": 26.7,
+ "disk_free_gb": 278.7,
+ "uptime_h": 0.1,
  "top": [
   {
-   "cpu": 9692.5,
-   "name": "System",
-   "memMB": 20
+   "cpu": 75.9,
+   "name": "llama-server",
+   "memMB": 5805.1
   },
   {
-   "cpu": 6964.9,
+   "cpu": 64.2,
    "name": "MsMpEng",
-   "memMB": 326.5
+   "memMB": 379.5
   },
   {
-   "cpu": 4715.9,
-   "name": "Memory Compression",
-   "memMB": 249.9
+   "cpu": 51.7,
+   "name": "System",
+   "memMB": 1.4
   },
   {
-   "cpu": 2943,
-   "name": "tailscaled",
-   "memMB": 72.9
+   "cpu": 29.4,
+   "name": "OfficeClickToRun",
+   "memMB": 128.3
   },
   {
-   "cpu": 1359.5,
+   "cpu": 19.1,
    "name": "python",
-   "memMB": 157.7
+   "memMB": 162.9
   }
  ],
  "history": {
   "cpu": [
-   [
-    1792240842,
-    4.5
-   ],
    [
     1792241442,
     5.7
@@ -227,13 +223,13 @@
    [
     1792269052,
     0.9
+   ],
+   [
+    1792269643,
+    19.9
    ]
   ],
   "mem": [
-   [
-    1792240842,
-    63
-   ],
    [
     1792241442,
     63.1
@@ -421,13 +417,13 @@
    [
     1792269052,
     60.2
+   ],
+   [
+    1792269643,
+    66.7
    ]
   ],
   "disk": [
-   [
-    1792240842,
-    70.5
-   ],
    [
     1792241442,
     70.5
@@ -614,6 +610,10 @@
    ],
    [
     1792269052,
+    70
+   ],
+   [
+    1792269643,
     70
    ]
   ]
