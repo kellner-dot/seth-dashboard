@@ -1,20 +1,52 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-18T23:20:45+0000",
+ "generated_iso": "2026-10-18T23:30:51+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-18 18:53:05.518 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-18 19:23:09.769 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-18 18:53:09.727 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-18 19:23:14.017 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-18 18:53:13.921 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-18 19:30:48.868 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\347f1d1d-7a93-45ee-b82b-ed740",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-18 19:30:48.872 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\60221bde-5cac-4dad-9ab2-af410",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-18 19:30:48.874 Error App: Error deleting file C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\cache\\temp\\c99f059b-c8a3-401d-a603-44785",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.UnauthorizedAccessException: System.UnauthorizedAccessException: Access to the path 'C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\programdata\\ca",
      "c": "err"
     }
    ]
