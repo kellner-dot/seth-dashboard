@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-18T21:00:38+0000",
- "updated_ts": 1792357238,
+ "updated": "2026-10-18T21:30:40+0000",
+ "updated_ts": 1792359040,
  "topics": [
   {
    "name": "Tech",
@@ -27,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Hybrid Reasoning Agents: 35\u201355% fewer tokens and up to 2.6\u00d7 faster inference",
+     "summary": "Comments",
+     "url": "https://arxiv.org/abs/2610.18861",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "PalmOS Lemmings",
      "summary": "Comments",
      "url": "https://github.com/ardiri/palmos-lemmings",
@@ -34,17 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
+     "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
      "summary": "Comments",
-     "url": "https://api-docs.deepseek.com/guides/search/",
+     "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
      "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "SIGSALY: Churchill's top secret hotline to the president",
-     "summary": "Comments",
-     "url": "https://www.iwm.org.uk/history/iwm/cwr/telephone",
-     "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,13 +95,6 @@
    "name": "World",
    "articles": [
     {
-     "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
-     "summary": "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
-     "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 18 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Macron calls for 'calm and order' after riots across France",
      "summary": "French President Emmanuel Macron gives a national address after widespread disorder and as some looting continued in Paris.",
      "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
@@ -116,6 +109,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Inside Chicago's battle against the synthetic drugs flooding the US",
+     "summary": "A new wave of synthetic drugs is sweeping across the United States, raising fear of a worsening drug crisis. The BBC's Quentin Sommerville reports from the frontlines in South Side, Chicago, where communities are battling the crisis.",
+     "url": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 18 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
      "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
      "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
-     "summary": "BBC News hears from users, dealers, prison and recovery workers as the country battles with a deadly new drug epidemic.",
-     "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+     "title": "European diplomats attacked by Israeli settlers in West Bank",
+     "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+     "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 18 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "European diplomats attacked by Israeli settlers in West Bank",
-     "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
-     "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+     "title": "Cindy Crawford 'beyond heartbroken' after death of son Presley at 27",
+     "summary": "Presley Gerber's death in September is being investigated as a suspected overdose.",
+     "url": "https://www.bbc.co.uk/news/articles/cwzrd6123jyyo?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 18 Oct 2026",
      "source": "BBC World"
     },
