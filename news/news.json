@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-18T12:30:40+0000",
- "updated_ts": 1792326640,
+ "updated": "2026-10-18T13:00:37+0000",
+ "updated_ts": 1792328437,
  "topics": [
   {
    "name": "Tech",
@@ -13,13 +13,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Parser Combinators",
-     "summary": "Comments",
-     "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
      "summary": "Comments",
      "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
@@ -27,9 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
+     "title": "Open MicroManipulator \u2013 A sub-micrometer 3D motion control plattform",
      "summary": "Comments",
-     "url": "https://sphinx-six-theta.vercel.app/",
+     "url": "https://github.com/0x23/MicroManipulatorStepper",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Parser Combinators",
+     "summary": "Comments",
+     "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
      "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Bleached corals thrive within days when touching healthy neighbour",
+     "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
      "summary": "Comments",
-     "url": "https://www.nature.com/articles/d41586-026-03266-x",
-     "time": "Fri, 16 Oct 2026",
+     "url": "https://sphinx-six-theta.vercel.app/",
+     "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Pope Leo says he will gradually resume duties after cancer surgery",
+     "summary": "Pope Leo XIV thanked thousands of faithful in St. Peter's Square on Sunday for their prayers while he was hospitalized, and said he plans to gradually return to his usual duties.",
+     "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
+     "time": "Sun, 18 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "If you have the scratch, they have the scares",
      "summary": "Scary stories are more than fun, they're big business.",
      "url": "https://www.npr.org/2026/10/18/nx-s1-5985869/if-you-have-the-scratch-they-have-the-scares",
@@ -170,19 +177,19 @@
      "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
      "time": "Sat, 17 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
-     "summary": "The Pope left Rome's Gemelli Hospital Saturday, days after surgery for lung cancer removed the lower lobe of his right lung. He is currently scheduled to travel to Latin America in November.",
-     "url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
-     "time": "Sat, 17 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Vermont colleges should recruit closer to home",
+     "summary": "Vermont colleges spent too much energy chasing international students instead of recruiting students in their own backyard. Read the story on VTDigger here: Vermont colleges should recruit closer to home.",
+     "url": "https://vtdigger.org/2026/10/18/opinion-vermont-colleges-should-recruit-closer-to-home/",
+     "time": "Sun, 18 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "After upsets in 2024, parties focus on key races for balance of power in Vermont Senate",
      "summary": "Democratic incumbent Sen. Ruth Hardy, left, speaks during an Addison County Senate candidates forum in Addison on Tuesday, October 13, 2026. Seated next to her are Republican challenger Andrew Klein, Republican incumbent Sen. Steve Heffernan, and Democratic challenger Hannah Sess",
@@ -215,13 +222,6 @@
      "title": "Pro-Phil Scott super PAC launches ad buy, another signal Vermont governor\u2019s race could be close",
      "summary": "Democratic nominee for governor Amanda Janoo, left, and Republican Gov. Phil Scott. Photos by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Janoo-Scott-2-up-02-e1792187218775.png\" /> The PAC is funded by the national Republican Governor",
      "url": "https://vtdigger.org/2026/10/16/pro-phil-scott-super-pac-launches-ad-buy-another-signal-vermont-governors-race-could-be-close/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Addison County lands $3 million grant to fight addiction",
-     "summary": "These officials represent organizations that will deploy the $3 million grant, recently won by United Way of Addison County, to boost services for people struggling with substance use disorder. Pictured from left are Chelsea Delisle of the Charter House Coalition, Jubilee McGill ",
-     "url": "https://vtdigger.org/2026/10/16/addison-county-lands-3-million-grant-to-fight-addiction/",
      "time": "Fri, 16 Oct 2026",
      "source": "VT Digger"
     }
