@@ -1,6 +1,6 @@
 {
- "generated_at": 1792321858,
- "generated_iso": "2026-10-18T11:10:58+0000",
+ "generated_at": 1792322458,
+ "generated_iso": "2026-10-18T11:20:58+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [
@@ -9,20 +9,20 @@
    "icon": "\ud83d\udef0\ufe0f",
    "title": "Razr RVG down",
    "message": "Razr is online but RVG agent not responding.",
-   "at": "2026-10-18T11:10:58+0000"
+   "at": "2026-10-18T11:20:58+0000"
   },
   {
    "severity": "info",
    "icon": "\ud83d\udcbb",
    "title": "MacBook Air offline",
    "message": "Mac not reachable on Tailnet.",
-   "at": "2026-10-18T11:10:58+0000"
+   "at": "2026-10-18T11:20:58+0000"
   }
  ],
  "github": {
   "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 11,
+  "public_repos": 0,
+  "private_repos": 0,
   "pages": [
    {
     "name": "seth-dashboard",
@@ -65,7 +65,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 52691,
+   "uptime_s": 53294,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
