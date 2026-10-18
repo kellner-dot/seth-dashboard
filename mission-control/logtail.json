@@ -1,16 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-18T18:50:39+0000",
+ "generated_iso": "2026-10-18T19:00:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-18 14:23:34.845 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-18 14:53:16.859 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-18 14:23:52.168 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-18 14:53:34.324 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-18 14:53:51.837 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
