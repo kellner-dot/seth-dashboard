@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-18T11:00:39+0000",
- "updated_ts": 1792321239,
+ "updated": "2026-10-18T11:30:38+0000",
+ "updated_ts": 1792323038,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,20 @@
      "title": "DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
      "summary": "Comments",
      "url": "https://api-docs.deepseek.com/guides/search/",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "How employment is changing at Anthropic",
+     "summary": "Comments",
+     "url": "https://www.anthropic.com/research/employment-at-anthropic",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Parser Combinators",
+     "summary": "Comments",
+     "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
      "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,23 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Parser Combinators",
-     "summary": "Comments",
-     "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Bleached corals thrive within days when touching healthy neighbour",
      "summary": "Comments",
      "url": "https://www.nature.com/articles/d41586-026-03266-x",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Teal \u2013 A statically-typed dialect of Lua",
-     "summary": "Comments",
-     "url": "https://teal-language.org/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "\u2018Hollywood, VT\u2019 project spotlights the Green Mountain State\u2019s movie history",
+     "summary": "A movie crew films Alfred Hitchcock\u2019s comic mystery \u201cThe Trouble with Harry\u201d in the Northeast Kingdom town of Craftsbury in the fall of 1954. Photo courtesy Paramount Pictures/Vermont Life magazine \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/VTD-Hollywood-V",
+     "url": "https://vtdigger.org/2026/10/18/hollywood-vt-project-spotlights-the-green-mountain-states-movie-history/",
+     "time": "Sun, 18 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "To tax or not to tax: Two towns consider a local option tax this November",
      "summary": "Hinesburg Town Hall seen on Tuesday, November 9, 2021. Photo by Glenn Russell/VTDigger \" data-image-caption=\"Hinesburg Town Hall seen on Tuesday, November 9, 2021. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2021/11/hinesburg-1-20211",
      "url": "https://vtdigger.org/2026/10/18/to-tax-or-not-to-tax-two-towns-consider-a-local-option-tax-this-november/",
@@ -215,13 +222,6 @@
      "title": "In his third congressional race, Republican Gerald Malloy is looking for middle ground",
      "summary": "Gerald Malloy, Republican candidate for Vermont\u2019s U.S. House of Representatives seat. Photo by Emma White/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Gerald-Malloy-2026.png\" /> Experts highlight a shifting platform in Gerald Malloy\u2019s third campaign",
      "url": "https://vtdigger.org/2026/10/16/in-his-third-congressional-race-republican-gerald-malloy-is-looking-for-middle-ground/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "A free press under pressure: New York Times\u2019 Eric Lipton speaks in Vermont",
-     "summary": "Eric Lipton, a four-time Pulitzer Prize winner and investigative reporter for The New York Times, talks to an audience at the Delta Hotel in South Burlington on 9 October 2026. (Daria Bishop for Vermont Digger) \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/20",
-     "url": "https://vtdigger.org/2026/10/16/a-free-press-under-pressure-new-york-times-eric-lipton-speaks-in-vermont/",
      "time": "Fri, 16 Oct 2026",
      "source": "VT Digger"
     }
