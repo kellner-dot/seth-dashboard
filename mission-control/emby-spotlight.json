@@ -157,14 +157,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Venite et Loquamur",
+  "name": "Fantastic Four",
   "year": 2015,
   "genres": [
-   "Documentary"
+   "Action",
+   "Adventure"
   ],
-  "runtime_min": 0,
+  "runtime_min": 100,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A group of students and teachers gather in an historical mansion in the woods of West Virginia for a week-long retreat in spoken Latin.  I observe and I participate while navigating the errata with my camera."
+  "overview": "Four young outsiders teleport to a dangerous universe, which alters their physical form in shocking ways. Their lives irrevocably upended, the team must learn to harness their daunting new abilities and work together to "
  }
 }
