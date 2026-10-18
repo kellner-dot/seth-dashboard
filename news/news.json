@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-18T16:31:07+0000",
- "updated_ts": 1792341067,
+ "updated": "2026-10-18T17:00:38+0000",
+ "updated_ts": 1792342838,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "macOS 15.8.2 Breaks OpenGL",
+     "summary": "Comments",
+     "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "RepRapMicron",
      "summary": "Comments",
@@ -13,10 +20,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "macOS 15.8.2 Breaks OpenGL",
+     "title": "Someone Behind the Software",
      "summary": "Comments",
-     "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+     "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
      "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Sigsaly: Churchill's top secret hotline to the President",
+     "summary": "Comments",
+     "url": "https://www.iwm.org.uk/history/iwm/cwr/telephone",
+     "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -30,20 +44,6 @@
      "title": "DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
      "summary": "Comments",
      "url": "https://api-docs.deepseek.com/guides/search/",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Will it be a golden age or a dark age for mathematics (and science)?",
-     "summary": "Comments",
-     "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Java sealed classes and exhaustive pattern matching",
-     "summary": "Comments",
-     "url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
      "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Noah Adams, longtime host of NPR's All Things Considered, has died",
+     "summary": "One of NPR's most gifted storytellers, his soft voice and vivid writing helped define the network's sound for a generation of Americans.",
+     "url": "https://www.npr.org/2026/10/18/nx-s1-5556931/noah-adams-all-things-considered-has-died",
+     "time": "Sun, 18 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Pope Leo says he will gradually resume duties after cancer surgery",
      "summary": "Pope Leo XIV thanked thousands of faithful in St. Peter's Square on Sunday for their prayers while he was hospitalized, and said he plans to gradually return to his usual duties.",
      "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
@@ -168,13 +175,6 @@
      "title": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
      "summary": "NPR's Joel Rose talks with Oregon Governor Tina Kotek about the shooting at Silver Rail Elementary in Bend, Oregon.",
      "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting",
-     "time": "Sat, 17 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "French police arrest 1,800 after violent clashes and looting mar protests",
-     "summary": "Police arrested at least 1,800 people across France after violent groups clashed with officers and looted shops during nationwide demonstrations that drew hundreds of thousands of people.",
-     "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
      "time": "Sat, 17 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Watch Taylor Swift Debut \u201cThe Fate of Ophelia\u201d Live at the Academy Museum Gala",
+     "summary": "She also performed \u201cLove Story,\u201d \u201cBlank Space,\u201d and her Toy Story 5 original song \u201cI Knew It, I Knew You\u201d",
+     "url": "https://pitchfork.com/story/watch-taylor-swift-debut-the-fate-of-ophelia-live-at-the-academy-museum-gala/",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "John Wilson Is Making a Harry Styles Tour Documentary",
      "summary": "The History of Concrete director will helm a film about Harry\u2019s Together, Together tour, Variety reports",
      "url": "https://pitchfork.com/story/john-wilson-is-making-a-harry-styles-tour-documentary/",
@@ -263,13 +270,6 @@
      "summary": "The You Seem Pretty Sad for a Girl So in Love song gets a remix in Roan\u2019s hands",
      "url": "https://pitchfork.com/story/olivia-rodrigo-and-chappell-roan-play-david-byrnes-gameshow-in-expectations-video/",
      "time": "Fri, 16 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Wednesday\u2019s Karly Hartzman Plots Solo Tour",
-     "summary": "The short jaunt across the southeastern U.S. is set for early December",
-     "url": "https://pitchfork.com/story/wednesdays-karly-hartzman-plots-solo-tour/",
-     "time": "Thu, 15 Oct 2026",
      "source": "Pitchfork"
     }
    ]
