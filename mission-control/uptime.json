@@ -1,12 +1,11 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-17T23:51:09+0000",
+ "generated_iso": "2026-10-18T00:01:10+0000",
  "services": [
   {
    "name": "Gaming PC",
    "online": true,
    "days": [
-    null,
     null,
     null,
     null,
@@ -35,14 +34,14 @@
     99.3,
     100.0,
     98.6,
-    99.3
+    99.3,
+    100.0
    ]
   },
   {
    "name": "Emby Server",
    "online": true,
    "days": [
-    null,
     null,
     null,
     null,
@@ -71,14 +70,14 @@
     95.8,
     100.0,
     98.6,
-    95.3
+    95.3,
+    100.0
    ]
   },
   {
    "name": "Mac RVG",
    "online": true,
    "days": [
-    null,
     null,
     null,
     null,
@@ -107,6 +106,7 @@
     99.3,
     71.7,
     45.2,
+    100.0,
     100.0
    ]
   },
@@ -114,7 +114,6 @@
    "name": "BlueBubbles",
    "online": true,
    "days": [
-    null,
     null,
     null,
     null,
@@ -143,6 +142,7 @@
     99.3,
     71.7,
     45.2,
+    100.0,
     100.0
    ]
   },
@@ -150,7 +150,6 @@
    "name": "Razr RVG",
    "online": false,
    "days": [
-    null,
     null,
     null,
     null,
@@ -179,14 +178,14 @@
     98.6,
     93.1,
     19.9,
-    0.7
+    0.7,
+    0.0
    ]
   },
   {
    "name": "onn ADB fwd",
    "online": true,
    "days": [
-    null,
     null,
     null,
     null,
@@ -215,7 +214,8 @@
     74.8,
     81.4,
     89.0,
-    89.9
+    89.9,
+    100.0
    ]
   },
   {
@@ -236,7 +236,7 @@
     null,
     null,
     null,
-    null,
+    100.0,
     100.0,
     100.0,
     100.0,
@@ -272,7 +272,6 @@
     null,
     null,
     null,
-    null,
     100.0,
     100.0,
     100.0,
@@ -285,6 +284,7 @@
     100.0,
     100.0,
     99.3,
+    100.0,
     100.0,
     100.0,
     100.0
