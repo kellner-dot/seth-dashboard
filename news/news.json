@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-18T10:00:38+0000",
- "updated_ts": 1792317638,
+ "updated": "2026-10-18T10:30:39+0000",
+ "updated_ts": 1792319439,
  "topics": [
   {
    "name": "Tech",
@@ -27,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Parser Combinators",
+     "summary": "Comments",
+     "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Bleached corals thrive within days when touching healthy neighbour",
      "summary": "Comments",
      "url": "https://www.nature.com/articles/d41586-026-03266-x",
@@ -37,13 +44,6 @@
      "title": "Lean now ships with verified kernels",
      "summary": "Comments",
      "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Teal \u2013 A statically-typed dialect of Lua",
-     "summary": "Comments",
-     "url": "https://teal-language.org/",
      "time": "Fri, 16 Oct 2026",
      "source": "Hacker News"
     },
