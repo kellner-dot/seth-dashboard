@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-18T17:30:38+0000",
- "updated_ts": 1792344638,
+ "updated": "2026-10-18T18:00:43+0000",
+ "updated_ts": 1792346443,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "RepRapMicron",
-     "summary": "Comments",
-     "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Someone Behind the Software",
      "summary": "Comments",
@@ -20,17 +13,24 @@
      "source": "Hacker News"
     },
     {
-     "title": "macOS 15.8.2 Breaks OpenGL",
+     "title": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled",
      "summary": "Comments",
-     "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+     "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
      "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Sigsaly: Churchill's top secret hotline to the President",
+     "title": "RepRapMicron",
      "summary": "Comments",
-     "url": "https://www.iwm.org.uk/history/iwm/cwr/telephone",
-     "time": "Wed, 14 Oct 2026",
+     "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The Intel 8087 chip: floating-point addition and subtraction",
+     "summary": "Comments",
+     "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+     "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
+     "title": "Sigsaly: Churchill's top secret hotline to the President",
      "summary": "Comments",
-     "url": "https://api-docs.deepseek.com/guides/search/",
-     "time": "Sun, 18 Oct 2026",
+     "url": "https://www.iwm.org.uk/history/iwm/cwr/telephone",
+     "time": "Wed, 14 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -151,6 +151,13 @@
      "source": "NPR News"
     },
     {
+     "title": "Trump defers federal diesel taxes to help farmers, but states issue warnings",
+     "summary": "President Trump's executive order deferring federal taxes on diesel is aimed at helping farmers but it's more complicated than it sounds and states are warning drivers they may owe taxes later.",
+     "url": "https://www.npr.org/2026/10/18/nx-s1-5996662/trump-suspends-federal-diesel-taxes-to-help-farmers-but-states-issue-warnings",
+     "time": "Sun, 18 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "If you have the scratch, they have the scares",
      "summary": "Scary stories are more than fun, they're big business.",
      "url": "https://www.npr.org/2026/10/18/nx-s1-5985869/if-you-have-the-scratch-they-have-the-scares",
@@ -165,17 +172,10 @@
      "source": "NPR News"
     },
     {
-     "title": "Major fire breaks out in Alberta after deadly incident at military base",
-     "summary": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+     "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
+     "summary": "Canadian Prime Minister Mark Carney described the incident as one of the worst peacetime tragedies for Canada's military on domestic soil.",
      "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
      "time": "Sun, 18 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
-     "summary": "NPR's Joel Rose talks with Oregon Governor Tina Kotek about the shooting at Silver Rail Elementary in Bend, Oregon.",
-     "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting",
-     "time": "Sat, 17 Oct 2026",
      "source": "NPR News"
     }
    ]
