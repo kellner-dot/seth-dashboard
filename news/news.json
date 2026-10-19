@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-19T10:00:39+0000",
- "updated_ts": 1792404039,
+ "updated": "2026-10-19T10:30:36+0000",
+ "updated_ts": 1792405836,
  "topics": [
   {
    "name": "Tech",
@@ -13,17 +13,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "How to Train Your Robot",
-     "summary": "Comments",
-     "url": "https://www.construction-physics.com/p/how-to-train-your-robot",
-     "time": "Thu, 15 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
      "summary": "Comments",
      "url": "https://arxiv.org/abs/2610.18861",
      "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "How to Train Your Robot",
+     "summary": "Comments",
+     "url": "https://www.construction-physics.com/p/how-to-train-your-robot",
+     "time": "Thu, 15 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,13 +95,6 @@
    "name": "World",
    "articles": [
     {
-     "title": "Katya Adler: France's government under pressure after weekend of widespread violence",
-     "summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
-     "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 19 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
      "summary": "Two men tell of the work they say they have been doing to support Ukrainian intelligence during the war.",
      "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
@@ -126,6 +119,13 @@
      "title": "Funding shortages force World Food Programme to cut aid to Gaza",
      "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
      "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 19 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Possible wreckage of Amelia Earhart's plane likely to be trees, say researchers",
+     "summary": "Researchers travelled to a remote Pacific Island to confirm whether an object first spotted on satellite imagery in 2020 solved the mystery of the pilot's disappearance.",
+     "url": "https://www.bbc.co.uk/news/articles/cmq5n8x106jdo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 19 Oct 2026",
      "source": "BBC World"
     },
