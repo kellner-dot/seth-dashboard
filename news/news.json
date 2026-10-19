@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-19T12:00:39+0000",
- "updated_ts": 1792411239,
+ "updated": "2026-10-19T12:30:37+0000",
+ "updated_ts": 1792413037,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Linux 7.3 Released",
-     "summary": "Comments",
-     "url": "https://lwn.net/Articles/1101143/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
      "summary": "Comments",
@@ -20,9 +13,23 @@
      "source": "Hacker News"
     },
     {
+     "title": "Linux 7.3 Released",
+     "summary": "Comments",
+     "url": "https://lwn.net/Articles/1101143/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Timestral: Mistral release time-series foundation models",
      "summary": "Comments",
      "url": "https://mistral.ai/news/timestral/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+     "summary": "Comments",
+     "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-     "summary": "Comments",
-     "url": "https://arxiv.org/abs/2610.18861",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
+     "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
+     "summary": "Tests showed Sceye\u2019s high-flying platform can deliver connectivity in disasters.",
+     "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Anthropic gives outside AI watchdog \u201cemployee-like\u201d access",
@@ -79,13 +86,6 @@
      "title": "\u201cthegentlemanpervert\u201d producing AI CSAM is a NJ prosecutor, say cops",
      "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
      "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
-     "summary": "There are still significant hurdles ahead, both technical and legislative.",
-     "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
      "time": "Fri, 16 Oct 2026",
      "source": "Ars Technica"
     }
