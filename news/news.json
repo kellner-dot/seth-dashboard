@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-19T08:00:39+0000",
- "updated_ts": 1792396839,
+ "updated": "2026-10-19T08:30:39+0000",
+ "updated_ts": 1792398639,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Linux 7.3 Released",
+     "summary": "Comments",
+     "url": "https://lwn.net/Articles/1101143/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Rabbits were a medieval royal luxury in England until the Black Death",
      "summary": "Comments",
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
      "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Linux 7.3 Released",
-     "summary": "Comments",
-     "url": "https://lwn.net/Articles/1101143/",
-     "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,7 +95,7 @@
    "name": "World",
    "articles": [
     {
-     "title": "France's government under pressure after weekend of widespread violence",
+     "title": "Katya Adler: France's government under pressure after weekend of widespread violence",
      "summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
      "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 19 Oct 2026",
@@ -131,7 +131,7 @@
     },
     {
      "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
-     "summary": "Prosecutors say Paul Mackenzie lured the latest victims to their deaths by writing notes from his prison cell.",
+     "summary": "Self-proclaimed pastor Paul Mackenzie faces 191 murder charges - all but one of them children.",
      "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 19 Oct 2026",
      "source": "BBC World"
