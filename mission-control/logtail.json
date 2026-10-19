@@ -1,20 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T15:00:48+0000",
+ "generated_iso": "2026-10-19T15:10:37+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-19 10:53:17.028 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 10:53:34.410 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 10:53:51.843 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "(emby log unavailable: <urlopen error Remote end closed connection without response>)",
      "c": "err"
     }
    ]
