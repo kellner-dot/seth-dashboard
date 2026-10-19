@@ -1,10 +1,10 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-19T16:31:10+0000",
+ "generated_iso": "2026-10-19T16:41:01+0000",
  "services": [
   {
    "name": "Gaming PC",
-   "online": false,
+   "online": true,
    "days": [
     null,
     null,
@@ -215,7 +215,7 @@
     89.0,
     89.9,
     89.2,
-    50.5
+    51.0
    ]
   },
   {
