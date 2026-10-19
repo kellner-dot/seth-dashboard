@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-19T13:30:44+0000",
- "updated_ts": 1792416644,
+ "updated": "2026-10-19T14:00:44+0000",
+ "updated_ts": 1792418444,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Timestral: Mistral release time-series foundation models",
+     "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
      "summary": "Comments",
-     "url": "https://mistral.ai/news/timestral/",
+     "url": "https://100toolkit.com/blog/deslop-model/",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,9 +27,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+     "title": "Timestral: Mistral release time-series foundation models",
      "summary": "Comments",
-     "url": "https://100toolkit.com/blog/deslop-model/",
+     "url": "https://mistral.ai/news/timestral/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Alternatives to Animal Testing Are Finally Taking Off",
+     "summary": "Comments",
+     "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +48,18 @@
      "source": "Hacker News"
     },
     {
-     "title": "ESA's Hera Will View Asteroid Scars from DART's Strike",
-     "summary": "Comments",
-     "url": "https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous",
+     "title": "Review: Lanterns is a truly unique twist on the superhero genre",
+     "summary": "Gritty HBO series is a beacon for what's possible when one is allowed to get creative with the tropes.",
+     "url": "https://arstechnica.com/culture/2026/10/review-lanterns-is-a-truly-unique-twist-on-the-superhero-genre/",
      "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "DIY VR: How to build your own headset, and why you probably won't want to",
+     "summary": "A primer on the joys and pains of building your own head-mounted display.",
+     "url": "https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
@@ -73,20 +87,6 @@
      "summary": "The single-player is just OK, but according to the players, that doesn't matter.",
      "url": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
      "time": "Sat, 17 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "OpenAI models hacked a crypto wallet and breached more websites",
-     "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-     "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "\u201cthegentlemanpervert\u201d producing AI CSAM is a NJ prosecutor, say cops",
-     "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-     "time": "Fri, 16 Oct 2026",
      "source": "Ars Technica"
     }
    ]
