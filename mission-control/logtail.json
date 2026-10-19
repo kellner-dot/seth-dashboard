@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T00:40:46+0000",
+ "generated_iso": "2026-10-19T00:50:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-18 20:24:17.636 Error DynamicHlsService-0HNPDEGE994NB:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
     {
      "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
      "c": "err"
