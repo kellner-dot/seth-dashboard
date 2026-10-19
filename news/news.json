@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-19T21:30:41+0000",
- "updated_ts": 1792445441,
+ "updated": "2026-10-19T22:00:45+0000",
+ "updated_ts": 1792447245,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "MiniMax M3.1 Flash",
+     "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
      "summary": "Comments",
-     "url": "https://www.minimax.io/blog/minimax-m31f",
+     "url": "https://josie.lol/blog/linux-rtx-spark",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
+     "title": "MiniMax M3.1 Flash",
      "summary": "Comments",
-     "url": "https://josie.lol/blog/linux-rtx-spark",
+     "url": "https://www.minimax.io/blog/minimax-m31f",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,13 +27,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Wine ported to OpenBSD",
-     "summary": "Comments",
-     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "The reverts will continue until morale improves",
      "summary": "Comments",
      "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
@@ -41,9 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Android apps running native on macOS",
+     "title": "Wine ported to OpenBSD",
      "summary": "Comments",
-     "url": "https://github.com/kksimp/Mac.apk",
+     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+     "summary": "Comments",
+     "url": "https://bsd.network/@brynet/117407035545900963",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -151,16 +151,16 @@
      "source": "NPR News"
     },
     {
-     "title": "The real reason it's going to take a while to know who won in some midterm races",
-     "summary": "Hint: It's not only because California counts slowly.",
-     "url": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
+     "title": "A Kelvin wave raised sea levels on the West Coast. More are coming",
+     "summary": "A large underwater wave moved up the West Coast, raising sea levels. Scientists say it's driven by El Ni\u00f1o and it's going to happen again.",
+     "url": "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast",
      "time": "Mon, 19 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "A Kelvin wave raised sea levels on the West Coast. More are coming",
-     "summary": "A large underwater wave moved up the West Coast, raising sea levels. Scientists say it's driven by El Ni\u00f1o and it's going to happen again.",
-     "url": "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast",
+     "title": "The real reason it's going to take a while to know who won in some midterm races",
+     "summary": "Hint: It's not only because California counts slowly.",
+     "url": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
      "time": "Mon, 19 Oct 2026",
      "source": "NPR News"
     },
@@ -183,6 +183,13 @@
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "ICE looks to boost staffing at intelligence hubs in Vermont",
+     "summary": "A Department of Homeland Security office off Industrial Avenue in Williston on Tuesday, October 7, 2025. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/10/homeland-security-1-20251007-1200x798.jpg\" /> The agency is considering hiri",
+     "url": "https://vtdigger.org/2026/10/19/ice-looks-to-boost-staffing-at-intelligence-hubs-in-vermont/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Portion of I-91 in northern Vermont named for border agent killed in line of duty",
      "summary": "FILE &#8211; In this undated and unknown location photo released by the Department of Homeland Security shows Border Patrol Agent David Maland posing with a service dog. (Department of Homeland Security via AP, File) \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026",
@@ -217,19 +224,19 @@
      "url": "https://vtdigger.org/2026/10/19/opinion-rural-vermont-needs-the-young-to-choose-this-place/",
      "time": "Mon, 19 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "What can we do? An answer from Vermont\u2019s premiere theater.",
-     "summary": "The Flynn asked what it could do to address the uncertainty many of us feel about our nation's future. The answer, Women+ on the Edge of Democracy, takes the stage Saturday, October 24. Read the story on VTDigger here: What can we do? An answer from Vermont\u2019s premiere theater..",
-     "url": "https://vtdigger.org/2026/10/19/what-can-we-do-an-answer-from-vermonts-premiere-theater/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Muna Safe After Tour Bus Fire",
+     "summary": "Naomi McPherson is searching for \u201cthe grandchild of the warlock whose curse is wreaking havoc on my life\u201d",
+     "url": "https://pitchfork.com/story/muna-safe-after-tour-bus-fire/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Brooklyn Street Named After Late Baby\u2019s All Right Co-Founder Billy Jones",
      "summary": "\u201cBilly did more for music in New York than what can be put into words\u201d",
@@ -262,13 +269,6 @@
      "title": "Tinashe Is Touring in 2027",
      "summary": "The Show Must Go On kicks off in April",
      "url": "https://pitchfork.com/story/tinashe-is-touring-in-2027/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Hot Chip\u2019s New Album Puts Them A Long Way From Kansas",
-     "summary": "Lead single \u201cRandom Violence\u201d is a tribute to the late JD Twitch",
-     "url": "https://pitchfork.com/story/hot-chips-new-album-puts-them-a-long-way-from-kansas/",
      "time": "Mon, 19 Oct 2026",
      "source": "Pitchfork"
     }
