@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T10:50:42+0000",
+ "generated_iso": "2026-10-19T11:00:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-19 06:25:05.370 Info DynamicHlsService-0HNPDEGE99843:00000001: ProcessRun 'StreamTranscode 724a83' Process exited with code 1 - Failed",
+     "t": "2026-10-19 06:53:16.857 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-19 06:25:05.405 Error DynamicHlsService-0HNPDEGE99843:00000001: Error processing request",
+     "t": "2026-10-19 06:53:34.227 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-19 06:53:51.606 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
