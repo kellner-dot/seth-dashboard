@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-19T14:30:39+0000",
- "updated_ts": 1792420239,
+ "updated": "2026-10-19T15:00:38+0000",
+ "updated_ts": 1792422038,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+     "title": "Wine Ported to OpenBSD",
      "summary": "Comments",
-     "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,13 +27,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
-     "summary": "Comments",
-     "url": "https://100toolkit.com/blog/deslop-model/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Alternatives to Animal Testing Are Finally Taking Off",
      "summary": "Comments",
      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
@@ -46,6 +39,27 @@
      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "ESA's Hera Will View Asteroid Scars from DART's Strike",
+     "summary": "Comments",
+     "url": "https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+     "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+     "summary": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
+     "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Review: Lanterns is a truly unique twist on the superhero genre",
@@ -74,26 +88,19 @@
      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
      "time": "Sun, 18 Oct 2026",
      "source": "Ars Technica"
-    },
-    {
-     "title": "Science says your boss should talk less in meetings",
-     "summary": "Research suggests listening more while talking less. Killing aimless meetings can help, too.",
-     "url": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/",
-     "time": "Sat, 17 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Why BioWare's Neverwinter Nights still has thousands of active players",
-     "summary": "The single-player is just OK, but according to the players, that doesn't matter.",
-     "url": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
-     "time": "Sat, 17 Oct 2026",
-     "source": "Ars Technica"
     }
    ]
   },
   {
    "name": "World",
    "articles": [
+    {
+     "title": "Australian MP critically injured after apparent car attack",
+     "summary": "The independent politician is in hospital after what the prime minister says may have been a deliberate attack.",
+     "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 19 Oct 2026",
+     "source": "BBC World"
+    },
     {
      "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
      "summary": "Self-proclaimed pastor Paul Mackenzie faces 191 murder charges - all but one of them children.",
@@ -116,23 +123,16 @@
      "source": "BBC World"
     },
     {
+     "title": "Exiled critic of Rwandan president found beheaded",
+     "summary": "Former army sergeant major Robert Kabera was a popular YouTuber and singer, who had sought asylum in Uganda.",
+     "url": "https://www.bbc.co.uk/news/articles/c3lylj78777do?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 19 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Personal attacks fire up debate before Brazil's run-off vote",
      "summary": "The race heats up just days before the run-off between the left-wing incumbent and his right-wing challenger.",
      "url": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 19 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Catalonia's former rebel president can return to Spain, court rules",
-     "summary": "The court upholds a decision to lift an arrest warrant for Carles Puigdemont linked to the independence bid he led in 2017.",
-     "url": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 19 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Meloni calls emergency meeting after weekend of violent clashes",
-     "summary": "More than 200 people were detained during two days of rioting in the city, Italian media reports.",
-     "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 19 Oct 2026",
      "source": "BBC World"
     },
@@ -246,7 +246,7 @@
     },
     {
      "title": "John Wilson Is Making a Harry Styles Tour Documentary",
-     "summary": "The How To With John Wilson creator will direct a film about the star\u2019s Together, Together tour, Variety reports",
+     "summary": "The How to With John Wilson creator will direct a film about the star\u2019s Together, Together tour",
      "url": "https://pitchfork.com/story/john-wilson-is-making-a-harry-styles-tour-documentary/",
      "time": "Sun, 18 Oct 2026",
      "source": "Pitchfork"
