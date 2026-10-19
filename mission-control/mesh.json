@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-10-19T05:30:37+0000",
+ "generated_iso": "2026-10-19T05:45:39+0000",
  "nodes": [
   {
    "name": "muse",
@@ -10,28 +10,73 @@
    "self": true
   },
   {
-   "name": "seths-pc",
-   "role": "Gaming PC",
-   "ip": "100.124.240.93",
-   "online": false
-  },
-  {
    "name": "seths-macbook-air",
    "role": "MacBook Air",
    "ip": "100.92.65.104",
-   "online": false
+   "online": true,
+   "rvg": true
   },
   {
-   "name": "iphone",
-   "role": "iPhone",
-   "ip": "100.109.182.123",
-   "online": false
+   "name": "muse-3",
+   "role": "Tailnet node",
+   "ip": "100.101.148.19",
+   "online": true
+  },
+  {
+   "name": "googletv9618",
+   "role": "Tailnet node",
+   "ip": "100.92.144.100",
+   "online": true
+  },
+  {
+   "name": "muse-6",
+   "role": "Tailnet node",
+   "ip": "100.72.120.58",
+   "online": true
+  },
+  {
+   "name": "muse",
+   "role": "This VM",
+   "ip": "100.88.106.125",
+   "online": true
+  },
+  {
+   "name": "seths-pc",
+   "role": "Gaming PC",
+   "ip": "100.124.240.93",
+   "online": true,
+   "rvg": true
+  },
+  {
+   "name": "muse-2",
+   "role": "Tailnet node",
+   "ip": "100.109.48.35",
+   "online": true
   },
   {
    "name": "razr",
    "role": "Motorola Razr",
    "ip": "100.79.81.67",
-   "online": false
+   "online": true,
+   "rvg": false
+  },
+  {
+   "name": "muse-5",
+   "role": "Tailnet node",
+   "ip": "100.126.132.43",
+   "online": true
+  },
+  {
+   "name": "muse-4",
+   "role": "Tailnet node",
+   "ip": "100.98.158.16",
+   "online": true
+  },
+  {
+   "name": "iphone",
+   "role": "iPhone",
+   "ip": "100.109.182.123",
+   "online": true
   }
  ]
 }
