@@ -1,44 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T13:20:39+0000",
+ "generated_iso": "2026-10-19T13:30:54+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-19 09:14:59.634 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-19 09:23:16.924 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-19 09:14:59.717 Info DynamicHlsService-0HNPDEGE9992L:00000001: ProcessRun 'StreamTranscode 0e9047' Process exited with code 1 - Failed",
+     "t": "2026-10-19 09:23:34.257 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-19 09:14:59.762 Error DynamicHlsService-0HNPDEGE9992L:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 09:15:04.803 Info DynamicHlsService-0HNPDEGE9992M:00000001: ProcessRun 'StreamTranscode 2b4017' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 09:15:04.836 Error DynamicHlsService-0HNPDEGE9992M:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-19 09:23:51.675 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
