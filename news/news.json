@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-19T05:00:41+0000",
- "updated_ts": 1792386041,
+ "updated": "2026-10-19T05:30:37+0000",
+ "updated_ts": 1792387837,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis",
+     "summary": "Comments",
+     "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Strot \u2013 Compile an LLM's intent once, run decisions locally forever",
+     "summary": "Comments",
+     "url": "https://github.com/strot-ai/Project-STROT",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
      "summary": "Comments",
@@ -30,20 +44,6 @@
      "title": "Superlite: A Faster Alternatie to Superpowers",
      "summary": "Comments",
      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Someone behind the software",
-     "summary": "Comments",
-     "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: Strot \u2013 Compile an LLM's intent once, run decisions locally forever",
-     "summary": "Comments",
-     "url": "https://github.com/strot-ai/Project-STROT",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -98,7 +98,7 @@
      "title": "Macron calls for 'calm and order' after riots across France",
      "summary": "French President Emmanuel Macron gives a national address after widespread disorder and as some looting continued in Paris.",
      "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 18 Oct 2026",
+     "time": "Mon, 19 Oct 2026",
      "source": "BBC World"
     },
     {
