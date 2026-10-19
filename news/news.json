@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-19T17:30:38+0000",
- "updated_ts": 1792431038,
+ "updated": "2026-10-19T18:00:37+0000",
+ "updated_ts": 1792432837,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Mercury 3: Diffusion at Scale",
+     "summary": "Comments",
+     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Wine Ported to OpenBSD",
      "summary": "Comments",
@@ -13,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "CERN and Mistral join forces to accelerate AI for science",
+     "title": "MiniMax M3.1 Flash",
      "summary": "Comments",
-     "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+     "url": "https://www.minimax.io/blog/minimax-m31f",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,24 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Timestral: Mistral release time-series foundation models",
+     "title": "Timestral: Mistral's time-series foundation models",
      "summary": "Comments",
      "url": "https://mistral.ai/news/timestral/",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Linux 7.3",
+     "title": "It's still OK to enjoy programming",
      "summary": "Comments",
-     "url": "https://lwn.net/Articles/1101143/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Evidence (YC S21) Is Hiring Software Engineers",
-     "summary": "Comments",
-     "url": "https://evidence.dev/jobs",
-     "time": "Mon, 19 Oct 2026",
+     "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+     "time": "Sat, 17 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -151,16 +151,16 @@
      "source": "NPR News"
     },
     {
-     "title": "The real reason it's going to take a while to know who won in some midterm races",
-     "summary": "Hint: It's not only because California counts slowly.",
-     "url": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
+     "title": "A Kelvin wave raised sea levels on the West Coast. More are coming",
+     "summary": "A large underwater wave moved up the West Coast, raising sea levels. Scientists say it's driven by El Ni\u00f1o and it's going to happen again.",
+     "url": "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast",
      "time": "Mon, 19 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "A Kelvin wave raised sea levels on the West Coast. More are coming",
-     "summary": "A large underwater wave moved up the West Coast, raising sea levels. Scientists say it's driven by El Ni\u00f1o and it's going to happen again.",
-     "url": "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast",
+     "title": "The real reason it's going to take a while to know who won in some midterm races",
+     "summary": "Hint: It's not only because California counts slowly.",
+     "url": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
      "time": "Mon, 19 Oct 2026",
      "source": "NPR News"
     },
