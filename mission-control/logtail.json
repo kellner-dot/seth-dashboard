@@ -1,26 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T19:30:45+0000",
+ "generated_iso": "2026-10-19T19:40:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-19 15:25:00.224 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 15:25:00.278 Info DynamicHlsService-0HNPDEGE99B4D:00000001: ProcessRun 'StreamTranscode cef2e0' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 15:25:00.313 Error DynamicHlsService-0HNPDEGE99B4D:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
     {
      "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
