@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-19T00:00:40+0000",
- "updated_ts": 1792368040,
+ "updated": "2026-10-19T00:30:40+0000",
+ "updated_ts": 1792369840,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
      "summary": "Comments",
      "url": "https://arxiv.org/abs/2610.18861",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "William Gibson and the trademarking of cyberspace",
+     "summary": "Comments",
+     "url": "https://colo.to/cyberspace.html",
      "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
@@ -30,13 +37,6 @@
      "title": "Free Pascal compiler now supports dynamic packages",
      "summary": "Comments",
      "url": "https://www.getlazarus.org/dynamic/",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "RepRapMicron",
-     "summary": "Comments",
-     "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
      "time": "Sun, 18 Oct 2026",
      "source": "Hacker News"
     },
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Inside Chicago's battle against the synthetic drugs flooding the US",
-     "summary": "The BBC's Quentin Sommerville reports from Chicago, where communities are battling a new wave of synthetic drugs.",
-     "url": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 18 Oct 2026",
+     "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+     "summary": "Two men tell of the work they say they have been doing to support Ukrainian intelligence during the war.",
+     "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 19 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
-     "summary": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
-     "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+     "title": "Inside Chicago's battle against the synthetic drugs flooding the US",
+     "summary": "The BBC's Quentin Sommerville reports from Chicago, where communities are battling a new wave of synthetic drugs.",
+     "url": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 18 Oct 2026",
      "source": "BBC World"
     },
