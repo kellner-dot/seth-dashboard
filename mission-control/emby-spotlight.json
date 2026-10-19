@@ -1,11 +1,19 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5843,
+ "movies": 5844,
  "series": 34,
  "episodes": 59,
  "played": 7,
- "unwatched": 5836,
+ "unwatched": 5837,
  "new_arrivals": [
+  {
+   "name": "Violet Voss",
+   "year": 2025,
+   "genres": [],
+   "runtime_min": 23,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
   {
    "name": "The Monkey",
    "year": 2025,
@@ -74,17 +82,6 @@
     "Western"
    ],
    "runtime_min": 135,
-   "progress_pct": 0,
-   "type": "Movie"
-  },
-  {
-   "name": "Big Fish",
-   "year": 2003,
-   "genres": [
-    "Adventure",
-    "Fantasy"
-   ],
-   "runtime_min": 125,
    "progress_pct": 0,
    "type": "Movie"
   }
@@ -157,15 +154,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Variety Lights",
-  "year": 1950,
+  "name": "Ubu encha\u00een\u00e9",
+  "year": 1971,
   "genres": [
-   "Drama",
-   "Comedy"
+   "Comedy",
+   "Fantasy"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "In Italy, Checco Dal Monte manages a troupe of traveling performers with plenty of heart but minimal talent. At a small town engagement, he encounters the starry-eyed, gorgeous Lily Antonelli, and hires her as a dancer o"
+  "overview": "Father Ubu, grotesque king and symbol of the tyranny of power in Ubu king, decides to become a slave to acquire real power. This is the first sequel to \"Ubu roi\" (1965) directed by Averty."
  }
 }
