@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-19T21:00:38+0000",
- "updated_ts": 1792443638,
+ "updated": "2026-10-19T21:30:41+0000",
+ "updated_ts": 1792445441,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "MiniMax M3.1 Flash",
      "summary": "Comments",
      "url": "https://www.minimax.io/blog/minimax-m31f",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
+     "summary": "Comments",
+     "url": "https://josie.lol/blog/linux-rtx-spark",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +48,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "It's still ok to enjoy programming",
-     "summary": "Comments",
-     "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
-     "time": "Sat, 17 Oct 2026",
-     "source": "Hacker News"
+     "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+     "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
+     "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Accused OpenAI spy had folder called \u201cSaudi Gov Docs,\u201d FBI says",
+     "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
+     "summary": "One way to make batteries cleaner is to make fewer of them.",
+     "url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "PSA: Patch your Plex media server before someone hacks it",
+     "summary": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
+     "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
@@ -58,34 +86,6 @@
      "title": "ReactOS reaches major milestone with NTFS install support",
      "summary": "ReactOS gains NTFS install support with new driver.",
      "url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "AI game clones are making indie developers afraid to show their work",
-     "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
-     "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Florida DMV hacked after police dept insecurely stored login info",
-     "summary": "Florida issues alerts after statewide DMV data breach linked to ShinyHunters.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Disney found a way to buy Character.AI without buying its lawsuits",
-     "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
-     "summary": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
-     "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
      "time": "Mon, 19 Oct 2026",
      "source": "Ars Technica"
     }
@@ -116,7 +116,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
+     "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
      "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
      "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 19 Oct 2026",
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Portion of I-91 in northern Vermont named for border agent killed in line of duty",
+     "summary": "FILE &#8211; In this undated and unknown location photo released by the Department of Homeland Security shows Border Patrol Agent David Maland posing with a service dog. (Department of Homeland Security via AP, File) \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026",
+     "url": "https://vtdigger.org/2026/10/19/portion-of-i-91-in-northern-vermont-named-for-border-agent-killed-in-line-of-duty/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Windsor, no longer a prison town, still maintains a connection to people who die in state custody",
      "summary": "Two flat granite stones engraved with the names of men who died while incarcerated at Southern State Correctional Facility are set in the grass at the end of a row of white crosses. Photo by Noel Clark/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Ce",
      "url": "https://vtdigger.org/2026/10/19/windsor-no-longer-a-prison-town-still-maintains-a-connection-to-people-who-die-in-state-custody/",
@@ -216,13 +223,6 @@
      "summary": "The Flynn asked what it could do to address the uncertainty many of us feel about our nation's future. The answer, Women+ on the Edge of Democracy, takes the stage Saturday, October 24. Read the story on VTDigger here: What can we do? An answer from Vermont\u2019s premiere theater..",
      "url": "https://vtdigger.org/2026/10/19/what-can-we-do-an-answer-from-vermonts-premiere-theater/",
      "time": "Mon, 19 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Then Again: Hoff overcame opponent and power of incumbency to make history",
-     "summary": "The Times Argus newspaper of Nov. 7, 1962 announces Phil Hoff\u2019s stunning victory. Via Newspapers.com \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/TA-front-page-Nov-7-1962-1200x881.jpg\" /> Vermont had such a long history as a Republican bastion that Democrats",
-     "url": "https://vtdigger.org/2026/10/18/then-again-hoff-overcame-opponent-and-power-of-incumbency-to-make-history/",
-     "time": "Sun, 18 Oct 2026",
      "source": "VT Digger"
     }
    ]
