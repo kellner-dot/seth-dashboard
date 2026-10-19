@@ -1,20 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T23:30:43+0000",
+ "generated_iso": "2026-10-19T23:40:45+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-19 19:23:17.096 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-19 19:39:12.923 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
      "c": "err"
     },
     {
-     "t": "2026-10-19 19:23:34.467 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-19 19:23:51.800 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The Fountain (2006) (1080p B",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-19 19:39:12.923 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The_Devil's_Advocate.[nolimi",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-19 19:39:12.923 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\Zidane.A.21st.Century.Portra",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-19 19:39:12.925 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\80s-commercials-1982.mp4'.",
      "c": "err"
     }
    ]
