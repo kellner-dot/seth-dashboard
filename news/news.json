@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-19T17:00:44+0000",
- "updated_ts": 1792429244,
+ "updated": "2026-10-19T17:30:38+0000",
+ "updated_ts": 1792431038,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
-     "summary": "Comments",
-     "url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Wine Ported to OpenBSD",
      "summary": "Comments",
@@ -27,6 +20,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix",
+     "summary": "Comments",
+     "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Timestral: Mistral release time-series foundation models",
      "summary": "Comments",
      "url": "https://mistral.ai/news/timestral/",
@@ -34,16 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Another day another GitHub incident",
+     "title": "Linux 7.3",
      "summary": "Comments",
-     "url": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+     "url": "https://lwn.net/Articles/1101143/",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Linux 7.3",
+     "title": "Evidence (YC S21) Is Hiring Software Engineers",
      "summary": "Comments",
-     "url": "https://lwn.net/Articles/1101143/",
+     "url": "https://evidence.dev/jobs",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -231,6 +231,27 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Watch Cardi B Blaze Through Her No-Brakes Tiny Desk Performance",
+     "summary": "The rapper\u2019s backing band gave fresh, rock-inflected updates to singles like \u201cErrTime,\u201d \u201cUp,\u201d and \u201cBodak Yellow\u201d",
+     "url": "https://pitchfork.com/story/watch-cardi-b-blaze-through-her-no-brakes-tiny-desk-performance/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Sophia Stel, Worldpeace DMT, Weed420, and More: This Week\u2019s Pitchfork Selects Playlist",
+     "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
+     "url": "https://pitchfork.com/story/sophia-stel-worldpeace-dmt-weed-420-this-weeks-pitchfork-selects-playlist/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Watch Underscores Debut New Song With Jane Remover",
+     "summary": "The duo premiered the collaboration during Underscores\u2019 Charli xcx support slot in Inglewood",
+     "url": "https://pitchfork.com/story/watch-underscores-bring-out-jane-remover-to-debut-new-song/",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Tinashe Is Touring in 2027",
      "summary": "The Show Must Go On kicks off in April",
      "url": "https://pitchfork.com/story/tinashe-is-touring-in-2027/",
@@ -249,27 +270,6 @@
      "summary": "She also performed \u201cLove Story,\u201d \u201cBlank Space,\u201d and her Toy Story 5 original song \u201cI Knew It, I Knew You\u201d",
      "url": "https://pitchfork.com/story/watch-taylor-swift-debut-the-fate-of-ophelia-live-at-the-academy-museum-gala/",
      "time": "Sun, 18 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "John Wilson Is Making a Harry Styles Tour Documentary",
-     "summary": "The How to With John Wilson creator will direct a film about the star\u2019s Together, Together tour",
-     "url": "https://pitchfork.com/story/john-wilson-is-making-a-harry-styles-tour-documentary/",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "A$AP Rocky Recruits Jeremih and Reggie for \u201cShroom Clouds\u201d",
-     "summary": "Teased since 2021, the song launches Don\u2019t Be Dumb - Disc 2",
-     "url": "https://pitchfork.com/story/asap-rocky-recruits-jeremih-and-reggie-for-shroom-clouds/",
-     "time": "Fri, 16 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "11 New Albums You Should Listen to Now: Fontaines D.C., the Avalanches, and More",
-     "summary": "Stream new releases from Fontaines D.C., the Avalanches, @, and more",
-     "url": "https://pitchfork.com/story/11-new-albums-you-should-listen-to-now-fontaines-dc-the-avalanches-and-more/",
-     "time": "Fri, 16 Oct 2026",
      "source": "Pitchfork"
     }
    ]
