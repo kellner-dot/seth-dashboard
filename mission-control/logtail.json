@@ -1,44 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T02:50:40+0000",
+ "generated_iso": "2026-10-19T03:00:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-18 22:45:00.210 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-18 22:53:16.781 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-18 22:45:00.276 Info DynamicHlsService-0HNPDEGE995FF:00000001: ProcessRun 'StreamTranscode 2c95f9' Process exited with code 1 - Failed",
+     "t": "2026-10-18 22:53:34.109 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-18 22:45:00.307 Error DynamicHlsService-0HNPDEGE995FF:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-18 22:45:05.347 Info DynamicHlsService-0HNPDEGE995FG:00000001: ProcessRun 'StreamTranscode c8f176' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-18 22:45:05.388 Error DynamicHlsService-0HNPDEGE995FG:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-18 22:53:51.383 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -47,7 +23,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] POST /rvd/launch",
+     "t": "[supervision.lo] Mon Oct 19 02:56:08 UTC 2026: lock process confirmed on device (PID 5006)",
      "c": "ok"
     },
     {
