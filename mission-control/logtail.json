@@ -1,25 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-19T00:20:42+0000",
+ "generated_iso": "2026-10-19T00:30:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-18 20:01:31.767 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-18 20:01:31.983 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-18 20:01:32.007 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
      "c": "err"
     },
     {
-     "t": "2026-10-18 20:01:32.071 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
-     "c": "ok"
+     "t": "2026-10-18 20:24:17.636 Error DynamicHlsService-0HNPDEGE994NB:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-18 20:24:17.636 Error DynamicHlsService-0HNPDEGE994NC:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-18 20:24:17.652 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
     }
    ]
   },
