@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T11:30:39+0000",
- "updated_ts": 1792495839,
+ "updated": "2026-10-20T12:00:45+0000",
+ "updated_ts": 1792497645,
  "topics": [
   {
    "name": "Tech",
@@ -20,16 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "OpenBSD 8.0",
+     "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
      "summary": "Comments",
-     "url": "https://www.openbsd.org/80.html",
+     "url": "https://github.com/microg/GmsCore/wiki",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+     "title": "OpenBSD 8.0",
      "summary": "Comments",
-     "url": "https://github.com/microg/GmsCore/wiki",
+     "url": "https://www.openbsd.org/80.html",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Restoration of Retinal Regenerative Potential (2025)",
+     "title": "'Der Viener Schlinger': The meat cannon that launched 20k hot dogs",
      "summary": "Comments",
-     "url": "https://www.nature.com/articles/s41467-025-58290-8",
-     "time": "Sun, 18 Oct 2026",
+     "url": "https://flatwaterfreepress.org/der-viener-schlinger-the-meat-cannon-that-launched-20000-hot-dogs/",
+     "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,7 +95,21 @@
    "name": "World",
    "articles": [
     {
-     "title": "Suspect arrested after historic town hall set alight during disorder - French media",
+     "title": "Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence",
+     "summary": "The US secretary of state rejects accusations Ukrainians were dying because the US was withholding intelligence.",
+     "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 20 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Man charged with attack on Australian MP as suspect's father says she is family friend",
+     "summary": "Brendan Nugent's family say they have known Helen Haines, who remains in a critical condition, for more than 20 years.",
+     "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 20 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Suspect arrested after historic town hall set alight - French media",
      "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
      "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
@@ -109,7 +123,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Canadian tourist found guilty of animal cruelty after stealing Las Vegas flamingo from enclosure",
+     "title": "Tourist found guilty after stealing Las Vegas flamingo from enclosure",
      "summary": "The man testified that he snatched Peachy from its enclosure at the Flamingo hotel and casino after drinking 30 to 40 beers, but did not mean any harm.",
      "url": "https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
@@ -120,20 +134,6 @@
      "summary": "More than half a million young people will cast their ballots in Israel next week - and they could make all the difference.",
      "url": "https://www.bbc.co.uk/news/articles/cmvg632xgndeo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-     "summary": "Serhii Beskrestnov says there has not been enough time to warn people about incoming missile attacks. The White House said there had been no changes to intelligence sharing.",
-     "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 19 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Mission blasts off for Mars to grab a piece of its moon",
-     "summary": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
-     "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 19 Oct 2026",
      "source": "BBC World"
     },
     {
