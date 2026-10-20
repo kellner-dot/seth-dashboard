@@ -1,56 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T05:20:41+0000",
+ "generated_iso": "2026-10-20T05:30:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsing.",
+     "t": "2026-10-20 01:23:17.143 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t ---> System.TimeoutException: A task was canceled.",
+     "t": "2026-10-20 01:23:34.556 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.",
-     "c": "err"
-    },
-    {
-     "t": "\t   --- End of inner exception stack trace ---",
-     "c": "err"
-    },
-    {
-     "t": "\t   --- End of inner exception stack trace ---",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
-     "c": "err"
-    },
-    {
-     "t": "\t   --- End of inner exception stack trace ---",
-     "c": "err"
-    },
-    {
-     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsin",
-     "c": "err"
-    },
-    {
-     "t": "\tTargetSite: Void HandleFailure(System.Exception, Boolean, System.Net.Http.HttpResponseMessage, System.Threading.CancellationTokenSource, System.Threa",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
-     "c": "err"
-    },
-    {
-     "t": "\tInnerException: System.TimeoutException: A task was canceled.",
-     "c": "err"
-    },
-    {
-     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: A task was canceled.",
+     "t": "2026-10-20 01:23:51.886 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
