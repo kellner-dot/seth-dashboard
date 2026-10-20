@@ -1,19 +1,12 @@
 {
- "updated": "2026-10-20T17:00:37+0000",
- "updated_ts": 1792515637,
+ "updated": "2026-10-20T17:30:38+0000",
+ "updated_ts": 1792517438,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Facebook now charging to post more than 2 links a month",
-     "summary": "Comments",
-     "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "DeepSeek just open-sourced its inference engine",
+     "title": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
      "summary": "Comments",
      "url": "https://github.com/deepseek-ai/DeepInfer",
      "time": "Tue, 20 Oct 2026",
@@ -41,6 +34,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Publish fake stats, get cited in LLMs",
+     "summary": "Comments",
+     "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "How I got over 300 Tor exit nodes removed",
      "summary": "Comments",
      "url": "https://kaba.cx/posts/20261020_Tor/",
@@ -48,8 +48,15 @@
      "source": "Hacker News"
     },
     {
+     "title": "Polestar tries to quantify what it\u2019s like to drive a performance car",
+     "summary": "Drivers had electrodes strapped to their heads as they tested EVs on track.",
+     "url": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-     "summary": "A single query is all that's required to find thousands of conversations listed by title.",
+     "summary": "Meta is suspending the sharing feature while it investigates its privacy.",
      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
@@ -79,13 +86,6 @@
      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
      "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Accused OpenAI spy had folder called \u201cSaudi Gov Docs,\u201d FBI says",
-     "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
      "time": "Mon, 19 Oct 2026",
      "source": "Ars Technica"
     }
