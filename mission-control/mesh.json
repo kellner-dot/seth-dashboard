@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-10-20T19:00:44+0000",
+ "generated_iso": "2026-10-20T19:15:40+0000",
  "nodes": [
   {
    "name": "muse",
@@ -45,7 +45,7 @@
    "role": "Gaming PC",
    "ip": "100.124.240.93",
    "online": true,
-   "rvg": false
+   "rvg": true
   },
   {
    "name": "muse-2",
