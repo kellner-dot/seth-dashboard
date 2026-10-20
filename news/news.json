@@ -1,15 +1,29 @@
 {
- "updated": "2026-10-20T09:30:38+0000",
- "updated_ts": 1792488638,
+ "updated": "2026-10-20T10:00:38+0000",
+ "updated_ts": 1792490438,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
+     "summary": "Comments",
+     "url": "https://www.heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Nordwand Mono \u2013 A monospace font for coders and adventurers",
      "summary": "Comments",
      "url": "https://github.com/tywr/Nordwand-Mono",
      "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "UK Defence Startups Are Being Denied Banking Services Under ESG Rules",
+     "summary": "Comments",
+     "url": "https://foxandlion.pub/analysis/uk-defence-start-ups-are-being-denied-banking-services-under-esg-rules",
+     "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -20,30 +34,16 @@
      "source": "Hacker News"
     },
     {
+     "title": "DeepSeek just open-sourced its inference engine",
+     "summary": "Comments",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
      "summary": "Comments",
      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Restoration of Retinal Regenerative Potential",
-     "summary": "Comments",
-     "url": "https://www.nature.com/articles/s41467-025-58290-8",
-     "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-     "summary": "Comments",
-     "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "MiniMax M3.1 Flash",
-     "summary": "Comments",
-     "url": "https://www.minimax.io/blog/minimax-m31f",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Can the new federal voucher program help public schools? Democrats are torn",
+     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
+     "time": "Tue, 20 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Why are some food prices up and others down? Here are the stories of 5 items",
      "summary": "Here's what's behind the fluctuating costs of everyday grocery items such as ground beef, eggs and chocolate chip cookies.",
      "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
@@ -147,13 +154,6 @@
      "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
      "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
      "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
-     "time": "Tue, 20 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Can the new federal voucher program help public schools? Democrats are torn",
-     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
