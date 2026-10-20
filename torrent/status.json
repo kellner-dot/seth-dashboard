@@ -1,6 +1,38 @@
 {
- "updated": "2026-10-20 02:22",
- "biglybtRunning": false,
- "error": "parse failed",
- "torrents": []
+ "updated": "2026-10-20 02:51",
+ "biglybtRunning": true,
+ "torrents": [
+  {
+   "rateUpload": 0,
+   "status.biglybt": 100,
+   "downloadedEver": 2172233208,
+   "totalSize": 2169230517,
+   "percentDone": 1.0,
+   "rateDownload": 0,
+   "uploadRatio": 0.0,
+   "name": "[AmateurAllure] Violet Voss (2025.08.01) [1080p].mp4",
+   "eta": -1,
+   "status": 0,
+   "id": 10,
+   "uploadedEver": 0
+  },
+  {
+   "rateUpload": 0,
+   "status.biglybt": 100,
+   "downloadedEver": 1949894438,
+   "totalSize": 1948653415,
+   "percentDone": 1.0,
+   "rateDownload": 0,
+   "uploadRatio": 0.017,
+   "name": "Little Shop of Horrors 1986 Directors Cut REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+   "eta": -1,
+   "status": 0,
+   "id": 11,
+   "uploadedEver": 34986336
+  }
+ ],
+ "downSpeed": 0,
+ "upSpeed": 0,
+ "activeCount": 0,
+ "ratio": 0.01
 }
