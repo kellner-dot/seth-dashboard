@@ -1,24 +1,10 @@
 {
- "updated": "2026-10-20T04:02:22+0000",
- "updated_ts": 1792468942,
+ "updated": "2026-10-20T04:30:41+0000",
+ "updated_ts": 1792470641,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Lula supporters protest against Meta to denounce its 'electoral interference'",
-     "summary": "Comments",
-     "url": "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Novo Nordisk, Eli Lilly Report GLP-1 Signals of Slowed Biological Aging at ARDD",
-     "summary": "Comments",
-     "url": "https://trial.medpath.com/news/novo-nordisk-and-eli-lilly-report-glp-1-signals-of-slowed-biological-aging-at-ardd",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "OpenBSD 8.0",
      "summary": "Comments",
@@ -44,6 +30,20 @@
      "title": "I built a drone with only one motor [video]",
      "summary": "Comments",
      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Weball: Play Katamari on Websites",
+     "summary": "Comments",
+     "url": "https://www.funwithcomputervision.com/weball/",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Wine ported to OpenBSD",
+     "summary": "Comments",
+     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
      "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "The real reason it's going to take a while to know who won in some midterm races",
-     "summary": "Hint: It's not only because California counts slowly.",
-     "url": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
+     "title": "A Kelvin wave raised sea levels on the West Coast. More are coming",
+     "summary": "A large underwater wave moved up the West Coast, raising sea levels. Scientists say it's driven by El Ni\u00f1o and it's going to happen again.",
+     "url": "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast",
      "time": "Mon, 19 Oct 2026",
      "source": "NPR News"
     }
