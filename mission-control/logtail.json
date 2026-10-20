@@ -1,44 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T22:20:42+0000",
+ "generated_iso": "2026-10-20T22:30:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-20 18:09:59.998 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-20 18:23:17.942 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-20 18:10:00.062 Info DynamicHlsService-0HNPDEGE99JLT:00000001: ProcessRun 'StreamTranscode 71630f' Process exited with code 1 - Failed",
+     "t": "2026-10-20 18:23:35.287 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-20 18:10:00.106 Error DynamicHlsService-0HNPDEGE99JLT:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-20 18:10:05.170 Info DynamicHlsService-0HNPDEGE99JLU:00000001: ProcessRun 'StreamTranscode 211d24' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-20 18:10:05.204 Error DynamicHlsService-0HNPDEGE99JLU:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-20 18:23:52.682 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -71,27 +47,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-20T17:56:24-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "t": "[supervision.lo] 2026-10-20T18:21:59-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T18:22:05-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T18:22:05-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T18:22:05-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T18:26:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-20T18:06:07-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T18:11:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T18:12:21-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T18:13:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T18:17:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "t": "[supervision.lo] 2026-10-20T18:28:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
      "c": "ok"
     }
    ]
