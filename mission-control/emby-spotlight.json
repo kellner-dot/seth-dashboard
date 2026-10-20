@@ -154,14 +154,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Wandering About Falling Down",
-  "year": 2019,
+  "name": "Loving Vincent",
+  "year": 2017,
   "genres": [
-   "Documentary"
+   "Animation",
+   "Drama"
   ],
-  "runtime_min": 0,
+  "runtime_min": 95,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "travelogue-lecture-performance-video on 1993 film 'Falling Down'"
+  "overview": "A young man arrives at the last hometown of painter Vincent van Gogh to deliver the troubled artist's final letter and ends up investigating his final days there."
  }
 }
