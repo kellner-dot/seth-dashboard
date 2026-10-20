@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-10-20T20:00:49+0000",
+ "generated_iso": "2026-10-20T20:15:40+0000",
  "nodes": [
   {
    "name": "muse",
@@ -38,6 +38,12 @@
    "name": "muse",
    "role": "This VM",
    "ip": "100.88.106.125",
+   "online": true
+  },
+  {
+   "name": "kavivpn",
+   "role": "Tailnet node",
+   "ip": "100.119.42.52",
    "online": true
   },
   {
