@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T17:30:44+0000",
+ "generated_iso": "2026-10-20T17:40:43+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -47,28 +47,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-20T13:10:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T13:15:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T13:20:49-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T13:20:56-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-20T13:20:56-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
      "t": "[supervision.lo] 2026-10-20T13:21:00-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T13:31:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T13:32:22-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T13:32:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T13:35:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
     }
    ]
   }
