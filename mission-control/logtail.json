@@ -1,56 +1,44 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T07:20:40+0000",
+ "generated_iso": "2026-10-20T07:30:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsing.",
+     "t": "2026-10-20 03:25:00.289 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t ---> System.TimeoutException: A task was canceled.",
+     "t": "2026-10-20 03:25:00.347 Info DynamicHlsService-0HNPDEGE99F1S:00000001: ProcessRun 'StreamTranscode 83f881' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "\t ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.",
+     "t": "2026-10-20 03:25:00.379 Error DynamicHlsService-0HNPDEGE99F1S:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     },
     {
-     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
+     "t": "2026-10-20 03:25:05.445 Info DynamicHlsService-0HNPDEGE99F1T:00000001: ProcessRun 'StreamTranscode 790a56' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "\t   --- End of inner exception stack trace ---",
+     "t": "2026-10-20 03:25:05.475 Error DynamicHlsService-0HNPDEGE99F1T:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 20 seconds elapsin",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "\tTargetSite: Void HandleFailure(System.Exception, Boolean, System.Net.Http.HttpResponseMessage, System.Threading.CancellationTokenSource, System.Threa",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
-     "c": "err"
-    },
-    {
-     "t": "\tInnerException: System.TimeoutException: A task was canceled.",
-     "c": "err"
-    },
-    {
-     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: A task was canceled.",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     }
    ]
