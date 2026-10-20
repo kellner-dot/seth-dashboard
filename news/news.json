@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T18:00:39+0000",
- "updated_ts": 1792519239,
+ "updated": "2026-10-20T18:30:38+0000",
+ "updated_ts": 1792521038,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+     "title": "DeepInfer: High-performance inference framework for DeepSeek models",
      "summary": "Comments",
      "url": "https://github.com/deepseek-ai/DeepInfer",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+     "summary": "Comments",
+     "url": "https://github.com/google-pytorch/torch_tpu",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,13 +34,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "What Shall I Teach My Son?",
-     "summary": "Comments",
-     "url": "https://stevekrouse.com/ends",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Apple broke an essential presentation feature of iPads",
      "summary": "Comments",
      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+     "title": "Publish fake stats, get cited in LLMs",
      "summary": "Comments",
-     "url": "https://github.com/google-pytorch/torch_tpu",
+     "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -165,16 +165,16 @@
      "source": "NPR News"
     },
     {
-     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
-     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+     "title": "Why these 5 everyday items fluctuate in price at the grocery store",
+     "summary": "Here's what's behind the fluctuating costs of everyday grocery items such as ground beef, eggs and chocolate chip cookies.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Why these 5 everyday items fluctuate in price at the grocery store",
-     "summary": "Here's what's behind the fluctuating costs of everyday grocery items such as ground beef, eggs and chocolate chip cookies.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
+     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
+     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Romain Gavras Is Bummed About Those AI Versions of \u201cStorm\u201d",
+     "summary": "\u201cPart of me wanted to quit filmmaking, move back to Greece, and become an olive farmer\u201d",
+     "url": "https://pitchfork.com/story/romain-gavras-is-bummed-about-those-ai-versions-of-storm/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Did Drake Steal \u201cJanice STFU\u201d?",
      "summary": "Songwriter Aviel Hirschfield claims his reference track is a smoking gun. Now you can hear the audio that he says proves it",
      "url": "https://pitchfork.com/story/did-drake-steal-janice-stfu/",
@@ -263,13 +270,6 @@
      "summary": "She claims her successor seized control of the iconic music venue through improper means",
      "url": "https://pitchfork.com/story/levon-helms-daughter-countersues-levon-helm-studios/",
      "time": "Tue, 20 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Muna Safe After Tour Bus Fire",
-     "summary": "Naomi McPherson is searching for \u201cthe grandchild of the warlock whose curse is wreaking havoc on my life\u201d",
-     "url": "https://pitchfork.com/story/muna-safe-after-tour-bus-fire/",
-     "time": "Mon, 19 Oct 2026",
      "source": "Pitchfork"
     }
    ]
