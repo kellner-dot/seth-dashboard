@@ -1,6 +1,6 @@
 {
- "generated_at": 1792534714,
- "generated_iso": "2026-10-20T22:18:34+0000",
+ "generated_at": 1792534822,
+ "generated_iso": "2026-10-20T22:20:22+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -11,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 166818,
+   "uptime_s": 166926,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -66,9 +66,9 @@
     "up": false
    },
    "rvg_agent": {
-    "up": false
+    "up": true
    },
-   "online": false
+   "online": true
   },
   {
    "id": "iphone-xs-max",
@@ -76,7 +76,7 @@
    "kind": "phone",
    "ip": "100.109.182.123",
    "online": true,
-   "ping_ms": 26
+   "ping_ms": 37
   },
   {
    "id": "motorola-razr-2023",
