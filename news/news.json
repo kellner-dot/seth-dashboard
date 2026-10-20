@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T14:30:37+0000",
- "updated_ts": 1792506637,
+ "updated": "2026-10-20T15:00:38+0000",
+ "updated_ts": 1792508438,
  "topics": [
   {
    "name": "Tech",
@@ -20,6 +20,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "EMudhra Intermediate CA Compromise",
+     "summary": "Comments",
+     "url": "https://emudhra.we-have-a-problem.com/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Publish fake stats, get cited in LLMs",
      "summary": "Comments",
      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
@@ -27,23 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "NixOS is making me less afraid",
+     "title": "Tsrs: A Port of TypeScript to Rust",
      "summary": "Comments",
-     "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
+     "url": "https://blog.cloudflare.com/typescript-rust-port/",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+     "title": "My Friend Bob Cringely",
      "summary": "Comments",
-     "url": "https://github.com/microg/GmsCore/wiki",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The Byzantine Generals Problem: A visual explanation",
-     "summary": "Comments",
-     "url": "https://gravitypersists.github.io/exploring-byzantine-generals-problem/",
+     "url": "https://tyma.com/my-cringe-story/",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,8 +95,8 @@
    "name": "World",
    "articles": [
     {
-     "title": "Zelensky and US envoys to hold Oslo talks as Rubio denies withholding intelligence",
-     "summary": "The US secretary of state rejects accusations Ukrainians were dying because the US was withholding intelligence.",
+     "title": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
+     "summary": "The US secretary of state earlier rejected accusations Ukrainians were dying because the US was withholding critical intelligence.",
      "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
@@ -116,16 +116,16 @@
      "source": "BBC World"
     },
     {
-     "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
-     "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
-     "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
+     "title": "Sudan army drones hit mourners and fuel market killing more than 200 people, sources say",
+     "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+     "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Kenya cult leader's children still being starved weeks before trial, son says",
-     "summary": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
-     "url": "https://www.bbc.co.uk/news/articles/c6d7q2rxqxgxo?at_medium=RSS&at_campaign=rss",
+     "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
+     "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
+     "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
     },
@@ -151,16 +151,16 @@
      "source": "NPR News"
     },
     {
-     "title": "Can the new federal voucher program help public schools? Democrats are torn",
-     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
+     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
+     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
-     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+     "title": "Can the new federal voucher program help public schools? Democrats are torn",
+     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Lambrini Girls Announce 2027 North American Tour",
+     "summary": "The British punk duo also shared two new songs, including one about \"a sad little man who gets radicalised by the manosphere\"",
+     "url": "https://pitchfork.com/story/lambrini-girls-announce-2027-north-american-tour/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Rosal\u00eda to Perform at Latin Grammys 2026",
      "summary": "Anitta, Silvana Estrada, Mon Laferte, and Daddy Yankee will also take the stage in Las Vegas",
      "url": "https://pitchfork.com/story/rosalia-to-perform-at-latin-grammys-2026/",
@@ -262,13 +269,6 @@
      "title": "Watch Cardi B Blaze Through Her No-Brakes Tiny Desk Performance",
      "summary": "The rapper\u2019s backing band gave fresh, rock-inflected updates to singles like \u201cErrTime,\u201d \u201cUp,\u201d and \u201cBodak Yellow\u201d",
      "url": "https://pitchfork.com/story/watch-cardi-b-blaze-through-her-no-brakes-tiny-desk-performance/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Sophia Stel, Worldpeace DMT, Weed420, and More: This Week\u2019s Pitchfork Selects Playlist",
-     "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
-     "url": "https://pitchfork.com/story/sophia-stel-worldpeace-dmt-weed-420-this-weeks-pitchfork-selects-playlist/",
      "time": "Mon, 19 Oct 2026",
      "source": "Pitchfork"
     }
