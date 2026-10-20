@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T20:00:44+0000",
- "updated_ts": 1792526444,
+ "updated": "2026-10-20T20:30:50+0000",
+ "updated_ts": 1792528250,
  "topics": [
   {
    "name": "Tech",
@@ -41,52 +41,52 @@
      "source": "Hacker News"
     },
     {
-     "title": "Ofcom concedes defeat in 4chan case",
+     "title": "What shall I teach my son?",
      "summary": "Comments",
-     "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+     "url": "https://stevekrouse.com/ends",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Polestar tries to quantify what it\u2019s like to drive a performance car",
-     "summary": "Drivers had electrodes strapped to their heads as they tested EVs on track.",
-     "url": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
+     "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
+     "summary": "A lifetime ad-free subscription is available.",
+     "url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-     "summary": "Meta is suspending the sharing feature while it investigates its privacy.",
-     "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+     "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+     "summary": "Meta changes AI scraping policy but won\u2019t add language respecting robots.txt.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Visiting Slate\u2019s first showroom as its $25,000 electric truck nears production",
-     "summary": "Slate's first showroom sells the promise. Mass production will determine the rest.",
-     "url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
+     "title": "Gemini's Personal Intelligence is coming to cars",
+     "summary": "It's probably time to audit your Gemini settings.",
+     "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
-     "summary": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.",
-     "url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+     "title": "OpenBSD 8.0 arrives with security record still intact",
+     "summary": "OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests",
+     "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Pennsylvania issues alert on congenital measles\u2014something US hasn't seen for decades",
-     "summary": "Congenital measles can be fatal, and survivors require monitoring for years.",
-     "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
-     "time": "Mon, 19 Oct 2026",
+     "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+     "summary": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
+     "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+     "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
-     "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
-     "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
-     "time": "Mon, 19 Oct 2026",
+     "title": "TP-Link tries to appease Trump admin with pledge to assemble routers in US",
+     "summary": "TP-Link can't sell latest routers in US despite rivals getting FCC approvals.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/",
+     "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -94,6 +94,13 @@
   {
    "name": "World",
    "articles": [
+    {
+     "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+     "summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
+     "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 20 Oct 2026",
+     "source": "BBC World"
+    },
     {
      "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
      "summary": "France's second city saw some of the worst violence as chaos gripped the country on Saturday.",
@@ -109,6 +116,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+     "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+     "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+     "time": "Tue, 20 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
      "summary": "The Canadian province has voted overwhelmingly to remain part of Canada, though deep political divisions endure.",
      "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
@@ -116,25 +130,18 @@
      "source": "BBC World"
     },
     {
-     "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
-     "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
-     "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
+     "title": "Trump sued over Canadian tariffs in latest legal challenge",
+     "summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
+     "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-     "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
-     "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+     "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+     "summary": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
+     "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
      "time": "Tue, 20 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Why Israeli Gen Z voters are drawn to the far right",
-     "summary": "More than half a million young people will cast their ballots in Israel next week - and they could make all the difference.",
-     "url": "https://www.bbc.co.uk/news/articles/cmvg632xgndeo?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 20 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
      "title": "Vanessa Kerry is the new WHO envoy for health resilience. What's on her to-do list?",
@@ -158,23 +165,16 @@
      "source": "NPR News"
     },
     {
-     "title": "Can the new federal voucher program help public schools? Democrats are torn",
-     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
-     "time": "Tue, 20 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Why these 5 everyday items fluctuate in price at the grocery store",
-     "summary": "Here's what's behind the fluctuating costs of everyday grocery items such as ground beef, eggs and chocolate chip cookies.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
-     "time": "Tue, 20 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
      "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
      "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+     "time": "Tue, 20 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Can the new federal voucher program help public schools? Democrats are torn",
+     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     }
@@ -183,6 +183,13 @@
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Vermont taxpayers can\u2019t compare school budgets. The state could fix that.",
+     "summary": "Each district reports its budget its own way. Three changes would give voters numbers they can actually compare. Read the story on VTDigger here: Vermont taxpayers can\u2019t compare school budgets. The state could fix that..",
+     "url": "https://vtdigger.org/2026/10/20/opinion-vermont-taxpayers-cant-compare-school-budgets-the-state-could-fix-that/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Lewis M. Holmes",
      "summary": "Lewis Meredith Holmes lived an engaged life as both a scientist and a humanist, with respect for the mind, the earth and the many people with whom he shared his life. Read the story on VTDigger here: Lewis M. Holmes.",
@@ -215,13 +222,6 @@
      "title": "Portion of I-91 in northern Vermont named for border agent killed in line of duty",
      "summary": "FILE &#8211; In this undated and unknown location photo released by the Department of Homeland Security shows Border Patrol Agent David Maland posing with a service dog. (Department of Homeland Security via AP, File) \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026",
      "url": "https://vtdigger.org/2026/10/19/portion-of-i-91-in-northern-vermont-named-for-border-agent-killed-in-line-of-duty/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Windsor, no longer a prison town, still maintains a connection to people who die in state custody",
-     "summary": "Two flat granite stones engraved with the names of men who died while incarcerated at Southern State Correctional Facility are set in the grass at the end of a row of white crosses. Photo by Noel Clark/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Ce",
-     "url": "https://vtdigger.org/2026/10/19/windsor-no-longer-a-prison-town-still-maintains-a-connection-to-people-who-die-in-state-custody/",
      "time": "Mon, 19 Oct 2026",
      "source": "VT Digger"
     }
