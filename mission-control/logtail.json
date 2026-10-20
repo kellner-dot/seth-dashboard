@@ -1,44 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T18:20:39+0000",
+ "generated_iso": "2026-10-20T18:30:46+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-20 14:09:50.620 Error App: Error in validateChildren for 372819 T:\\Movies",
+     "t": "2026-10-20 14:23:18.040 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "2026-10-20 14:23:35.460 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies'.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-20 14:09:50.691 Error App: Error in validateChildren for 21433 D:\\TV Shows",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-20 14:09:51.793 Error App: Error in TheTVDB",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
+     "t": "2026-10-20 14:23:52.847 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -71,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-20T13:50:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T13:55:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-20T14:01:05-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
      "c": "ok"
     },
@@ -92,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-20T14:15:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T14:21:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T14:25:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
      "c": "ok"
     }
    ]
