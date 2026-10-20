@@ -1,20 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T12:50:38+0000",
+ "generated_iso": "2026-10-20T13:00:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-20 08:23:51.998 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-20 08:53:17.375 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-20 08:36:45.793 Warn SystemService-0HNPDEGE99GQF:00000001: AUTH-ERROR: 100.126.132.43 - Access token is invalid or expired.",
+     "t": "2026-10-20 08:53:34.727 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-20 08:36:45.793 Error SystemService-0HNPDEGE99GQF:00000001: Access token is invalid or expired.",
+     "t": "2026-10-20 08:53:52.086 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
