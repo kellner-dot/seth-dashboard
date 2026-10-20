@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T04:30:41+0000",
- "updated_ts": 1792470641,
+ "updated": "2026-10-20T05:00:54+0000",
+ "updated_ts": 1792472454,
  "topics": [
   {
    "name": "Tech",
@@ -13,6 +13,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+     "summary": "Comments",
+     "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "MiniMax M3.1 Flash",
      "summary": "Comments",
      "url": "https://www.minimax.io/blog/minimax-m31f",
@@ -20,10 +27,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+     "title": "Go will reject certificate chains containing eight distrusted SPKIs",
      "summary": "Comments",
-     "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-     "time": "Mon, 19 Oct 2026",
+     "url": "https://github.com/golang/go/issues/82345",
+     "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://www.funwithcomputervision.com/weball/",
      "time": "Sun, 18 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Wine ported to OpenBSD",
-     "summary": "Comments",
-     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-     "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
