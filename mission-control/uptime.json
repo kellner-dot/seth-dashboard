@@ -1,10 +1,10 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-20T21:11:02+0000",
+ "generated_iso": "2026-10-20T21:21:15+0000",
  "services": [
   {
    "name": "Gaming PC",
-   "online": true,
+   "online": false,
    "days": [
     null,
     null,
@@ -35,12 +35,12 @@
     99.3,
     99.3,
     98.6,
-    97.7
+    96.9
    ]
   },
   {
    "name": "Emby Server",
-   "online": true,
+   "online": false,
    "days": [
     null,
     null,
@@ -71,7 +71,7 @@
     95.3,
     98.6,
     98.6,
-    97.7
+    96.9
    ]
   },
   {
@@ -184,7 +184,7 @@
   },
   {
    "name": "onn ADB fwd",
-   "online": false,
+   "online": true,
    "days": [
     null,
     null,
@@ -215,7 +215,7 @@
     89.9,
     89.2,
     57.9,
-    71.3
+    71.5
    ]
   },
   {
