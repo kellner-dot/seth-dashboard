@@ -1,11 +1,168 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 0,
- "series": 0,
- "episodes": 0,
- "played": 0,
- "unwatched": 0,
- "new_arrivals": [],
- "continue_watching": [],
- "surprise_pick": null
+ "movies": 5845,
+ "series": 34,
+ "episodes": 59,
+ "played": 7,
+ "unwatched": 5838,
+ "new_arrivals": [
+  {
+   "name": "Violet Voss",
+   "year": 2025,
+   "genres": [],
+   "runtime_min": 23,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Little Shop of Horrors",
+   "year": 1986,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 103,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "The Monkey",
+   "year": 2025,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Possessor",
+   "year": 2020,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 104,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Megalopolis",
+   "year": 2024,
+   "genres": [
+    "Science Fiction",
+    "Drama"
+   ],
+   "runtime_min": 139,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Inland Empire",
+   "year": 2006,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 180,
+   "progress_pct": 0,
+   "type": "Movie"
+  }
+ ],
+ "continue_watching": [
+  {
+   "name": "The 'Burbs",
+   "year": 1989,
+   "genres": [
+    "Comedy",
+    "Horror"
+   ],
+   "runtime_min": 101,
+   "progress_pct": 24,
+   "type": "Movie"
+  },
+  {
+   "name": "Baby Doll",
+   "year": 1982,
+   "genres": [
+    "Documentary"
+   ],
+   "runtime_min": 3,
+   "progress_pct": 40,
+   "type": "Movie"
+  },
+  {
+   "name": "964 Pinocchio",
+   "year": 1991,
+   "genres": [
+    "Horror",
+    "Science Fiction"
+   ],
+   "runtime_min": 97,
+   "progress_pct": 13,
+   "type": "Movie"
+  },
+  {
+   "name": "Green Room",
+   "year": 2016,
+   "genres": [
+    "Horror",
+    "Crime"
+   ],
+   "runtime_min": 95,
+   "progress_pct": 15,
+   "type": "Movie"
+  },
+  {
+   "name": "The Boxer's Omen",
+   "year": 1983,
+   "genres": [
+    "Horror",
+    "Fantasy"
+   ],
+   "runtime_min": 105,
+   "progress_pct": 8,
+   "type": "Movie"
+  },
+  {
+   "name": "Adaptation.",
+   "year": 2002,
+   "genres": [
+    "Comedy",
+    "Crime"
+   ],
+   "runtime_min": 115,
+   "progress_pct": 22,
+   "type": "Movie"
+  }
+ ],
+ "surprise_pick": {
+  "name": "Orpheus Filmed on the Battlefield",
+  "year": 1969,
+  "genres": [
+   "Documentary",
+   "Drama"
+  ],
+  "runtime_min": 37,
+  "progress_pct": 0,
+  "type": "Movie",
+  "overview": "In December 1968 I participated in the film Orpheus Shot on the Battlefield, which originated as a collective work, a movie without an author, but which would ultimately be attributed to Antonio Maenza in the end even th"
+ }
 }
