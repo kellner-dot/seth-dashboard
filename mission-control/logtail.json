@@ -1,14 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T13:10:42+0000",
+ "generated_iso": "2026-10-20T13:21:07+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-20 09:05:00.129 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
     {
      "t": "2026-10-20 09:05:00.195 Info DynamicHlsService-0HNPDEGE99H06:00000001: ProcessRun 'StreamTranscode 19401d' Process exited with code 1 - Failed",
      "c": "err"
