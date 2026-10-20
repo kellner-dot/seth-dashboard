@@ -154,14 +154,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "La Pomme de Newton",
-  "year": 2005,
+  "name": "Witch's Cradle",
+  "year": 1944,
   "genres": [
-   "Comedy"
+   "Fantasy",
+   "Horror"
   ],
-  "runtime_min": 2,
+  "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "An avant-garde work by Pierre Alferi (2005), preserved in the UbuWeb archive of experimental film, video, and performance art. Part of a collection documenting the international avant-garde."
+  "overview": "The surrealist film shows repetitive imagery involving a string fashioned in a bizarre, almost spiderweb-like pattern over the hands of several individuals, most notably an unnamed young woman and an elderly gentleman. T"
  }
 }
