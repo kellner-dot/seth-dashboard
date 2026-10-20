@@ -1,14 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T17:40:43+0000",
+ "generated_iso": "2026-10-20T17:50:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-20 13:23:17.356 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
     {
      "t": "2026-10-20 13:23:34.807 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
@@ -47,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-20T13:20:56-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-20T13:21:00-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-20T13:31:41-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
      "c": "ok"
     },
@@ -68,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-20T13:35:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T13:41:17-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-20T13:45:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-20",
      "c": "ok"
     }
    ]
