@@ -154,14 +154,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Concrete Vache",
-  "year": 2010,
+  "name": "The Short Films of David Lynch",
+  "year": 2002,
   "genres": [
-   "Documentary"
+   "Documentary",
+   "Animation"
   ],
-  "runtime_min": 0,
+  "runtime_min": 65,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Made for Milton Keynes Gallery's 10th anniversary using images from its archive and language from its press releases and catalogues."
+  "overview": "A collection of visionary director David Lynch's short films from the first 29 years of his career is accompanied by a special introduction to each film by the director himself."
  }
 }
