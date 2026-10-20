@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-20T07:00:41+0000",
- "updated_ts": 1792479641,
+ "updated": "2026-10-20T07:30:38+0000",
+ "updated_ts": 1792481438,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "OpenBSD 8.0",
-     "summary": "Comments",
-     "url": "https://www.openbsd.org/80.html",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Nordwand Mono \u2013 A monospace font for coders and adventurers",
      "summary": "Comments",
@@ -20,16 +13,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Vite+ an excellent toolchain for AI agent development",
+     "title": "OpenBSD 8.0",
      "summary": "Comments",
-     "url": "https://janmichalek.com/blog/vite-plus-agentni-vyvoj?lang=en",
+     "url": "https://www.openbsd.org/80.html",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+     "title": "Vite+ an excellent toolchain for AI agent development",
      "summary": "Comments",
-     "url": "https://deathplanswitch.com/",
+     "url": "https://janmichalek.com/blog/vite-plus-agentni-vyvoj?lang=en",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "MiniMax M3.1 Flash",
+     "title": "Restoration of Retinal Regenerative Potential",
      "summary": "Comments",
-     "url": "https://www.minimax.io/blog/minimax-m31f",
-     "time": "Mon, 19 Oct 2026",
+     "url": "https://www.nature.com/articles/s41467-025-58290-8",
+     "time": "Sun, 18 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+     "summary": "Comments",
+     "url": "https://deathplanswitch.com/",
+     "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -145,7 +145,7 @@
     },
     {
      "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
-     "summary": "Voters in Canada's oil-rich province of Alberta have rejected a proposal to begin a process toward independence, results showed early Tuesday, delivering a victory for supporters of Canadian unity.",
+     "summary": "Voters in Canada's oil-rich Alberta province overwhelmingly backed remaining in Canada, with early referendum results Tuesday delivering a boost to Prime Minister Carney's push for national unity.",
      "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
