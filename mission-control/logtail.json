@@ -1,36 +1,24 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-20T03:40:41+0000",
+ "generated_iso": "2026-10-20T03:50:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-19 23:35:00.417 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tSystem.IO.FileNotFoundException: System.IO.FileNotFoundException: File not found: T:\\TV Shows",
      "c": "err"
     },
     {
-     "t": "2026-10-19 23:35:00.489 Info DynamicHlsService-0HNPDEGE99DN9:00000001: ProcessRun 'StreamTranscode c6b777' Process exited with code 1 - Failed",
+     "t": "2026-10-19 23:47:11.526 Warn LibraryStructureService-0HNPDEGE99DP4:00000001: AUTH-ERROR: 127.0.0.1 - Access token is invalid or expired.",
      "c": "err"
     },
     {
-     "t": "2026-10-19 23:35:00.528 Error DynamicHlsService-0HNPDEGE99DN9:00000001: Error processing request",
+     "t": "2026-10-19 23:47:11.526 Error LibraryStructureService-0HNPDEGE99DP4:00000001: Access token is invalid or expired.",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 23:35:05.570 Info DynamicHlsService-0HNPDEGE99DNA:00000001: ProcessRun 'StreamTranscode 75c94c' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-19 23:35:05.608 Error DynamicHlsService-0HNPDEGE99DNA:00000001: Error processing request",
+     "t": "2026-10-19 23:47:18.443 Error LibraryStructureService-0HNPDEGE99DP5:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -38,7 +26,31 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\tSystem.IO.FileNotFoundException: System.IO.FileNotFoundException: File not found: T:\\TV Shows",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-19 23:48:05.007 Error LibraryStructureService-0HNPDEGE99DP8:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.FileNotFoundException: System.IO.FileNotFoundException: File not found: T:\\TV Shows",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-19 23:49:34.952 Error ProviderManager: Error validating children for Movies 372819 T:\\Movies",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies'.",
      "c": "err"
     }
    ]
