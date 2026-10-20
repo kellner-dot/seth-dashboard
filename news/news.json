@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T13:00:38+0000",
- "updated_ts": 1792501238,
+ "updated": "2026-10-20T13:30:51+0000",
+ "updated_ts": 1792503051,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,13 @@
      "title": "DeepSeek just open-sourced its inference engine",
      "summary": "Comments",
      "url": "https://github.com/deepseek-ai/DeepInfer",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Demographic \"Doomsday\" Misses the Mark",
+     "summary": "Comments",
+     "url": "https://www.science.org/doi/10.1126/science.ael8752",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -23,13 +30,6 @@
      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
      "summary": "Comments",
      "url": "https://github.com/microg/GmsCore/wiki",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Demographic \"Doomsday\" Misses the Mark",
-     "summary": "Comments",
-     "url": "https://www.science.org/doi/10.1126/science.ael8752",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,9 +102,9 @@
      "source": "BBC World"
     },
     {
-     "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
-     "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
-     "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
+     "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+     "summary": "France's second city saw some of the worst violence as chaos gripped the country on Saturday.",
+     "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
     },
@@ -116,16 +116,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Suspect arrested after historic town hall set alight - French media",
-     "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
-     "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+     "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
+     "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
+     "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Tourist found guilty after stealing Las Vegas flamingo from enclosure",
-     "summary": "The man testified that he snatched Peachy from its enclosure at the Flamingo hotel and casino after drinking 30 to 40 beers, but did not mean any harm.",
-     "url": "https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&at_campaign=rss",
+     "title": "Kenya cult leader's children still being starved weeks before trial, son says",
+     "summary": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
+     "url": "https://www.bbc.co.uk/news/articles/c6d7q2rxqxgxo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
     },
@@ -151,16 +151,16 @@
      "source": "NPR News"
     },
     {
-     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
-     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+     "title": "Can the new federal voucher program help public schools? Democrats are torn",
+     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Can the new federal voucher program help public schools? Democrats are torn",
-     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
+     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
+     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Rosal\u00eda to Perform at Latin Grammys 2026",
+     "summary": "Anitta, Silvana Estrada, Mon Laferte, and Daddy Yankee will also take the stage in Las Vegas",
+     "url": "https://pitchfork.com/story/rosalia-to-perform-at-latin-grammys-2026/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Levon Helm\u2019s Daughter Countersues Levon Helm Studios",
      "summary": "She claims her successor seized control of the iconic music venue through improper means",
      "url": "https://pitchfork.com/story/levon-helms-daughter-countersues-levon-helm-studios/",
@@ -262,13 +269,6 @@
      "title": "Sophia Stel, Worldpeace DMT, Weed420, and More: This Week\u2019s Pitchfork Selects Playlist",
      "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
      "url": "https://pitchfork.com/story/sophia-stel-worldpeace-dmt-weed-420-this-weeks-pitchfork-selects-playlist/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Watch Underscores Debut New Song With Jane Remover",
-     "summary": "The duo premiered the collaboration during Underscores\u2019 Charli xcx support slot in Inglewood",
-     "url": "https://pitchfork.com/story/watch-underscores-bring-out-jane-remover-to-debut-new-song/",
      "time": "Mon, 19 Oct 2026",
      "source": "Pitchfork"
     }
