@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T22:30:41+0000",
- "updated_ts": 1792535441,
+ "updated": "2026-10-20T23:00:58+0000",
+ "updated_ts": 1792537258,
  "topics": [
   {
    "name": "Tech",
@@ -34,6 +34,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+     "summary": "Comments",
+     "url": "https://github.com/google-pytorch/torch_tpu",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "SlopCodeBench 10/2026 \u2013 Opus 5.5, Astra wins overall, xhigh considered harmful",
      "summary": "Comments",
      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
@@ -41,11 +48,25 @@
      "source": "Hacker News"
     },
     {
-     "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-     "summary": "Comments",
-     "url": "https://github.com/google-pytorch/torch_tpu",
+     "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+     "summary": "\"I do think there's a lot of merit to combining the companies.\"",
+     "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
      "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Cops raid office of RFK Jr. allies planning \u201cunethical\u201d vaccine trial on babies",
+     "summary": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
+     "url": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
+     "summary": "Xbox maker is also apparently planning its own gaming handheld for next year.",
+     "url": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
@@ -65,27 +86,6 @@
      "title": "Gemini's Personal Intelligence is coming to cars",
      "summary": "It's probably time to audit your Gemini settings.",
      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "OpenBSD 8.0 arrives with security record still intact",
-     "summary": "OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests",
-     "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-     "summary": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
-     "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "TP-Link tries to appease Trump admin with pledge to assemble routers in US",
-     "summary": "TP-Link can't sell latest routers in US despite rivals getting FCC approvals.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     }
@@ -165,16 +165,16 @@
      "source": "NPR News"
     },
     {
-     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
-     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+     "title": "Can the new federal voucher program help public schools? Democrats are torn",
+     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Why these 5 everyday items fluctuate in price at the grocery store",
-     "summary": "Here's what's behind the fluctuating costs of everyday grocery items such as ground beef, eggs and chocolate chip cookies.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
+     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
+     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     }
@@ -183,6 +183,13 @@
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Layoffs announced at Vermont Information Processing in Colchester",
+     "summary": "Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-image-caption=\"Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigge",
+     "url": "https://vtdigger.org/2026/10/20/layoffs-announced-at-vermont-information-processing-in-colchester/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Attorneys seek spring trial for man facing murder charge in Rutland deadly police chase",
      "summary": "Supporters of Rutland City police officer Jessica Ebbighausen attend a hearing for Tate Rheaume in Rutland County Superior criminal court on Tuesday April 9, 2024. Rheaume is charged in the crash that killed Ebbighausen in 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"",
@@ -216,13 +223,6 @@
      "summary": "Each district reports its budget its own way. Three changes would give voters numbers they can actually compare. Read the story on VTDigger here: Vermont taxpayers can\u2019t compare school budgets. The state could fix that..",
      "url": "https://vtdigger.org/2026/10/20/opinion-vermont-taxpayers-cant-compare-school-budgets-the-state-could-fix-that/",
      "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Lewis M. Holmes",
-     "summary": "Lewis Meredith Holmes lived an engaged life as both a scientist and a humanist, with respect for the mind, the earth and the many people with whom he shared his life. Read the story on VTDigger here: Lewis M. Holmes.",
-     "url": "https://vtdigger.org/2026/10/19/obituary-lewis-m-holmes/",
-     "time": "Mon, 19 Oct 2026",
      "source": "VT Digger"
     }
    ]
