@@ -1,1 +1,167 @@
-{"test":1}
+{
+ "generated": "emby-spotlight poller",
+ "movies": 5844,
+ "series": 34,
+ "episodes": 59,
+ "played": 7,
+ "unwatched": 5837,
+ "new_arrivals": [
+  {
+   "name": "Violet Voss",
+   "year": 2025,
+   "genres": [],
+   "runtime_min": 23,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "The Monkey",
+   "year": 2025,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Possessor",
+   "year": 2020,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 104,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Megalopolis",
+   "year": 2024,
+   "genres": [
+    "Science Fiction",
+    "Drama"
+   ],
+   "runtime_min": 139,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Inland Empire",
+   "year": 2006,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 180,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Cowboys & Aliens",
+   "year": 2011,
+   "genres": [
+    "Science Fiction",
+    "Western"
+   ],
+   "runtime_min": 135,
+   "progress_pct": 0,
+   "type": "Movie"
+  }
+ ],
+ "continue_watching": [
+  {
+   "name": "The 'Burbs",
+   "year": 1989,
+   "genres": [
+    "Comedy",
+    "Horror"
+   ],
+   "runtime_min": 101,
+   "progress_pct": 24,
+   "type": "Movie"
+  },
+  {
+   "name": "Baby Doll",
+   "year": 1982,
+   "genres": [
+    "Documentary"
+   ],
+   "runtime_min": 3,
+   "progress_pct": 40,
+   "type": "Movie"
+  },
+  {
+   "name": "964 Pinocchio",
+   "year": 1991,
+   "genres": [
+    "Horror",
+    "Science Fiction"
+   ],
+   "runtime_min": 97,
+   "progress_pct": 13,
+   "type": "Movie"
+  },
+  {
+   "name": "Green Room",
+   "year": 2016,
+   "genres": [
+    "Horror",
+    "Crime"
+   ],
+   "runtime_min": 95,
+   "progress_pct": 15,
+   "type": "Movie"
+  },
+  {
+   "name": "The Boxer's Omen",
+   "year": 1983,
+   "genres": [
+    "Horror",
+    "Fantasy"
+   ],
+   "runtime_min": 105,
+   "progress_pct": 8,
+   "type": "Movie"
+  },
+  {
+   "name": "Adaptation.",
+   "year": 2002,
+   "genres": [
+    "Comedy",
+    "Crime"
+   ],
+   "runtime_min": 115,
+   "progress_pct": 22,
+   "type": "Movie"
+  }
+ ],
+ "surprise_pick": {
+  "name": "The Nude Restaurant",
+  "year": 1967,
+  "genres": [
+   "Comedy"
+  ],
+  "runtime_min": 0,
+  "progress_pct": 0,
+  "type": "Movie",
+  "overview": "An experimental film by Andy Warhol. Andy Warhol (1928-1987), the central figure of American Pop Art, made hundreds of experimental films in the 1960s that tested duration, stardom, and the camera's gaze. Works like Slee"
+ }
+}
