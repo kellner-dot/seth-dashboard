@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T21:30:42+0000",
- "updated_ts": 1792531842,
+ "updated": "2026-10-20T22:00:47+0000",
+ "updated_ts": 1792533647,
  "topics": [
   {
    "name": "Tech",
@@ -13,13 +13,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Voxtral 3",
-     "summary": "Comments",
-     "url": "https://mistral.ai/news/voxtral-3/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
      "summary": "Comments",
      "url": "https://github.com/deepseek-ai/DeepInfer",
@@ -27,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+     "title": "Voxtral 3",
      "summary": "Comments",
-     "url": "https://github.com/google-pytorch/torch_tpu",
+     "url": "https://mistral.ai/news/voxtral-3/",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -37,6 +30,13 @@
      "title": "What shall I teach my son?",
      "summary": "Comments",
      "url": "https://stevekrouse.com/ends",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+     "summary": "Comments",
+     "url": "https://github.com/google-pytorch/torch_tpu",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -184,6 +184,27 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Brattleboro shelter resident pleads guilty in 2023 killing",
+     "summary": "Zaaina Mahvish-Jammeh, 42, pleaded guilty to second-degree murder during a hearing at Windham Superior Court, Criminal Division, on Tuesday, Oct. 20, 2026. Mahvish-Jammeh admitted to killing Leah Rosin-Pritchard, a shelter coordinator with Groundworks Collaborative, on April 3, 2",
+     "url": "https://vtdigger.org/2026/10/20/brattleboro-shelter-resident-pleads-guilty-in-2023-killing/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "What do foul-mouthed candidates think they\u2019re gaining?",
+     "summary": "Profanity offends older Vermonters and does nothing to win over younger ones. Read the story on VTDigger here: What do foul-mouthed candidates think they\u2019re gaining?.",
+     "url": "https://vtdigger.org/2026/10/20/what-do-foul-mouthed-candidates-think-theyre-gaining/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Vermont experts say bats need our help. How do we get over our fear of them?",
+     "summary": "Vermont Fish &#038; Wildlife Department staff and TNC partners conduct an annual hibernaculum bat count for a partner university\u2019s white-nose research in 2024. Photo credit Vermont Fish &#038; Wildlife Dept. \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/VFWD-",
+     "url": "https://vtdigger.org/2026/10/20/vermont-experts-say-bats-need-our-help-how-do-we-get-over-our-fear-of-them/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Vermont taxpayers can\u2019t compare school budgets. The state could fix that.",
      "summary": "Each district reports its budget its own way. Three changes would give voters numbers they can actually compare. Read the story on VTDigger here: Vermont taxpayers can\u2019t compare school budgets. The state could fix that..",
      "url": "https://vtdigger.org/2026/10/20/opinion-vermont-taxpayers-cant-compare-school-budgets-the-state-could-fix-that/",
@@ -203,33 +224,19 @@
      "url": "https://vtdigger.org/2026/10/19/local-businessman-donates-4-million-to-financially-ailing-brattleboro-memorial-hospital/",
      "time": "Mon, 19 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "Clement \u201cTed\u201d Meunier",
-     "summary": "Ted\u2019s life was characterized by his quiet demeanor, yet his robust laugh and zest for life were unmistakable. He approached each day with enthusiasm, pursuing dreams and nurturing his family\u2019s shared adventures. Read the story on VTDigger here: Clement \u201cTed\u201d Meunier.",
-     "url": "https://vtdigger.org/2026/10/19/obituary-clement-ted-meunier/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "ICE looks to boost staffing at intelligence hubs in Vermont",
-     "summary": "A Department of Homeland Security office off Industrial Avenue in Williston on Tuesday, October 7, 2025. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/10/homeland-security-1-20251007-1200x798.jpg\" /> The agency is considering hiri",
-     "url": "https://vtdigger.org/2026/10/19/ice-looks-to-boost-staffing-at-intelligence-hubs-in-vermont/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Portion of I-91 in northern Vermont named for border agent killed in line of duty",
-     "summary": "FILE &#8211; In this undated and unknown location photo released by the Department of Homeland Security shows Border Patrol Agent David Maland posing with a service dog. (Department of Homeland Security via AP, File) \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026",
-     "url": "https://vtdigger.org/2026/10/19/portion-of-i-91-in-northern-vermont-named-for-border-agent-killed-in-line-of-duty/",
-     "time": "Mon, 19 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Bicep Reveal First Album in Five Years, Drop Three New Songs",
+     "summary": "Slug features contributions from Lauren Duffus, Eartheater, George Riley, Clark, and Sassy 009",
+     "url": "https://pitchfork.com/story/bicep-reveal-first-album-in-five-years-drop-three-new-songs/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Lil Baby Recruits Future, Young Thug for New Album Fresh",
      "summary": "It\u2019s out November 6",
@@ -262,13 +269,6 @@
      "title": "Lambrini Girls Announce 2027 North American Tour",
      "summary": "The British punk duo also shared two new songs, including one about \"a sad little man who gets radicalised by the manosphere\"",
      "url": "https://pitchfork.com/story/lambrini-girls-announce-2027-north-american-tour/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Rosal\u00eda to Perform at Latin Grammys 2026",
-     "summary": "Anitta, Silvana Estrada, Mon Laferte, and Daddy Yankee will also take the stage in Las Vegas",
-     "url": "https://pitchfork.com/story/rosalia-to-perform-at-latin-grammys-2026/",
      "time": "Tue, 20 Oct 2026",
      "source": "Pitchfork"
     }
