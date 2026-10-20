@@ -1,16 +1,27 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5844,
+ "movies": 5845,
  "series": 34,
  "episodes": 59,
  "played": 7,
- "unwatched": 5837,
+ "unwatched": 5838,
  "new_arrivals": [
   {
    "name": "Violet Voss",
    "year": 2025,
    "genres": [],
    "runtime_min": 23,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Little Shop of Horrors",
+   "year": 1986,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 103,
    "progress_pct": 0,
    "type": "Movie"
   },
@@ -71,17 +82,6 @@
     "Thriller"
    ],
    "runtime_min": 180,
-   "progress_pct": 0,
-   "type": "Movie"
-  },
-  {
-   "name": "Cowboys & Aliens",
-   "year": 2011,
-   "genres": [
-    "Science Fiction",
-    "Western"
-   ],
-   "runtime_min": 135,
    "progress_pct": 0,
    "type": "Movie"
   }
@@ -154,14 +154,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Art Ensemble of Chicago and Cecil Taylor",
-  "year": 1984,
+  "name": "Heathers",
+  "year": 1989,
   "genres": [
-   "Music"
+   "Comedy",
+   "Crime"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "An avant-garde work by Art Ensemble of Chicago and Cecil Taylor (1984), preserved in the UbuWeb archive of experimental film, video, and performance art. Part of a collection documenting the international avant-garde."
+  "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids."
  }
 }
