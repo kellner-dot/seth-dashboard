@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T13:30:51+0000",
- "updated_ts": 1792503051,
+ "updated": "2026-10-20T14:00:38+0000",
+ "updated_ts": 1792504838,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Demographic \"Doomsday\" Misses the Mark",
+     "title": "Apple broke an essential presentation feature of iPads",
      "summary": "Comments",
-     "url": "https://www.science.org/doi/10.1126/science.ael8752",
+     "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "NixOS is making me less afraid",
+     "summary": "Comments",
+     "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+     "summary": "Comments",
+     "url": "https://github.com/microg/GmsCore/wiki",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,24 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+     "title": "Publish fake stats, get cited in LLMs",
      "summary": "Comments",
-     "url": "https://github.com/microg/GmsCore/wiki",
+     "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
      "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "OpenBSD 8.0",
-     "summary": "Comments",
-     "url": "https://www.openbsd.org/80.html",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-     "summary": "Comments",
-     "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-     "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,7 +95,7 @@
    "name": "World",
    "articles": [
     {
-     "title": "Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence",
+     "title": "Zelensky and US envoys to hold Oslo talks as Rubio denies withholding intelligence",
      "summary": "The US secretary of state rejects accusations Ukrainians were dying because the US was withholding intelligence.",
      "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
@@ -151,16 +151,16 @@
      "source": "NPR News"
     },
     {
-     "title": "Can the new federal voucher program help public schools? Democrats are torn",
-     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
+     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
+     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
-     "summary": "The warnings surfaced in a trove of unreported court records. \"I have been fighting about fixing this for months with people who didn't think the harms are severe enough,\" wrote one executive.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+     "title": "Can the new federal voucher program help public schools? Democrats are torn",
+     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
