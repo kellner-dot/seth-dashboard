@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T08:30:45+0000",
- "updated_ts": 1792571445,
+ "updated": "2026-10-21T09:00:40+0000",
+ "updated_ts": 1792573240,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Muse exposes users' personal and business secrets when they share conversations",
-     "summary": "Comments",
-     "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
      "summary": "Comments",
      "url": "https://news-web.php.net/php.announce/509",
@@ -34,16 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Voxtral 3",
+     "title": "Muse exposes users' personal and business secrets when they share conversations",
      "summary": "Comments",
-     "url": "https://mistral.ai/news/voxtral-3/",
-     "time": "Tue, 20 Oct 2026",
+     "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+     "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+     "title": "The Decoherence Trap",
      "summary": "Comments",
-     "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+     "url": "https://maevyn.codes/decoherence",
+     "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Voxtral 3",
+     "summary": "Comments",
+     "url": "https://mistral.ai/news/voxtral-3/",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,7 +102,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+     "title": "Trump and Zelensky appear at loggerheads despite new optimism",
      "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
@@ -123,7 +123,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Elon Musk confirms talks to merge Tesla and SpaceX",
+     "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
      "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
@@ -135,6 +135,13 @@
      "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Morning news brief",
+     "summary": "Trump envoy Steve Witkoff to visit Russia in hopes of ending war, Trump campaigns in North Carolina, Saudi Arabia cancels 'Davos in the Desert' due to air strikes.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6003502/morning-news-brief",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "LeBron James talks smack with Knicks fans in victorious 76ers debut",
@@ -169,13 +176,6 @@
      "summary": "The U.S. is the only major economy where planet-warming pollution dramatically increased last year. The United Nations warns the planet is on track for catastrophic warming.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6003553/america-oil-gas-coal-climate-change-trump-carbon-emissions",
      "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Some on DOJ's 20,000 \"likely\" noncitizen list in Calif. appear to be U.S.-born",
-     "summary": "Election officials in Los Angeles County say their preliminary analysis of the federal government's list of 20,000 \"likely\" noncitizens registered to vote in California shows the list is \"unreliable.\"",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens",
-     "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     }
    ]
