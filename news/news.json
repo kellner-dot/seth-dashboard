@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T20:00:39+0000",
- "updated_ts": 1792612839,
+ "updated": "2026-10-21T20:30:50+0000",
+ "updated_ts": 1792614650,
  "topics": [
   {
    "name": "Tech",
@@ -20,9 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+     "title": "Google's Rust Style Guide",
      "summary": "Comments",
-     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+     "url": "https://google.github.io/styleguide/rustguide.html",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "GitLab CVSS 10.0 Integer Overflow issue",
+     "summary": "Comments",
+     "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Google's Rust Style Guide",
+     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
      "summary": "Comments",
-     "url": "https://google.github.io/styleguide/rustguide.html",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
-     "summary": "Comments",
-     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,9 +102,23 @@
      "source": "BBC World"
     },
     {
+     "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+     "summary": "Russia's President Putin does not feel under pressure right now to end the war.",
+     "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 21 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Macron accuses foreign leaders of exploiting French riots",
      "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
      "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 21 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Pope does not need further treatment after lung cancer surgery",
+     "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+     "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
     },
@@ -116,13 +130,6 @@
      "source": "BBC World"
     },
     {
-     "title": "Australian MP loses both legs after alleged car attack, husband says",
-     "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
-     "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 21 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Family of prison officer killed by IRA receives state apology",
      "summary": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later.",
      "url": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
@@ -130,11 +137,11 @@
      "source": "BBC World"
     },
     {
-     "title": "Meta fined $25bn for 'lies' over user data privacy",
-     "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
-     "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+     "title": "Meet the people moving north to escape increasingly hot summers",
+     "summary": "As climate change fuels hotter summers, some Britons are moving north in search of cooler weather. Could a similar shift be on the horizon in the United States?",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-5977837/climate-uk-usa-housing",
      "time": "Wed, 21 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
      "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
@@ -170,19 +177,19 @@
      "url": "https://www.npr.org/2026/10/21/nx-s1-6009441/psychedelics-brain-inflammation-immune-system",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Sentenced to death at 17, at 68, quilt artist receives solo museum exhibition",
-     "summary": "A quilt artist who spent decades on death row now has his first solo exhibit at the Grand Rapids Art Museum.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6003634/sentenced-to-death-at-17-at-68-quilt-artist-receives-solo-museum-exhibition",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Vermont Conversation: \u2018We can\u2019t solve our problems with the same thinking that created them.\u2019 Amanda Janoo would \u2018lead a different way.\u2019",
+     "summary": "Candidate for governor Amanda Janoo speaks during a Democratic Party unity rally in Burlington on Wednesday, August 12, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/08/unity-rally-2-20260812-1200x798.jpg\" /> With artificial",
+     "url": "https://vtdigger.org/2026/10/21/vermont-conversation-we-cant-solve-our-problems-with-the-same-thinking-that-created-them-amanda-janoo-would-lead-a-different-way/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Picture future you: How young teens can explore their potential at VSAC\u2019s career and STEM fairs",
      "summary": "Think back to middle school. Maybe you hadn\u2019t thought much about life after high school, or hadn\u2019t spent much time beyond your home community. What if someone encouraged you to think bigger, to step out of your comfort zone and into your curiosities? Read the story on VTDigger he",
@@ -217,26 +224,12 @@
      "url": "https://vtdigger.org/2026/10/20/attorneys-seek-spring-trial-for-man-facing-murder-charge-in-rutland-deadly-police-chase/",
      "time": "Tue, 20 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "Brattleboro shelter resident pleads guilty in 2023 killing",
-     "summary": "Zaaina Mahvish-Jammeh, 42, pleaded guilty to second-degree murder during a hearing at Windham Superior Court, Criminal Division, on Tuesday, Oct. 20, 2026. Mahvish-Jammeh admitted to killing Leah Rosin-Pritchard, a shelter coordinator with Groundworks Collaborative, on April 3, 2",
-     "url": "https://vtdigger.org/2026/10/20/brattleboro-shelter-resident-pleads-guilty-in-2023-killing/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
-    {
-     "title": "11 New Albums You Should Listen to Now: Alchemical Sisters, Fine, Yeah Yeah Yeahs, and More",
-     "summary": "Stream new releases from Alchemical Sisters, Fine, Yeah Yeah Yeahs, and Josh Johnson",
-     "url": "https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-alchemical-sisters-fine-yeah-yeah-yeahs/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
     {
      "title": "Watch Fontaines D.C. Perform on Jools Holland",
      "summary": "The Irish rock band broke out Dopamine Chamber songs and more for their special 45-minute set",
@@ -269,6 +262,13 @@
      "title": "Snoh Aalegra Unveils New Album With Song Featuring Nile Rodgers and Raphael Saadiq",
      "summary": "Listen to \u201cI Love You\u201d from Legendary Love",
      "url": "https://pitchfork.com/story/snoh-aalegra-unveils-new-album-with-song-featuring-nile-rodgers-and-raphael-saadiq/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Angine de Poitrine Set 2027 International Tour",
+     "summary": "Will they land Angine de Pawtrine to open?",
+     "url": "https://pitchfork.com/story/angine-de-poitrine-set-2027-international-tour/",
      "time": "Wed, 21 Oct 2026",
      "source": "Pitchfork"
     }
