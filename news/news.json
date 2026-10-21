@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T23:00:40+0000",
- "updated_ts": 1792623640,
+ "updated": "2026-10-21T23:30:39+0000",
+ "updated_ts": 1792625439,
  "topics": [
   {
    "name": "Tech",
@@ -20,17 +20,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "No More Icons in Every Menu by Default",
-     "summary": "Comments",
-     "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "GitLab Critical Patch Release",
      "summary": "Comments",
      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
      "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "No More Icons in Every Menu by Default",
+     "summary": "Comments",
+     "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+     "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Claude Duet",
+     "title": "Google's Rust Style Guide",
      "summary": "Comments",
-     "url": "https://claude.com/product/claude-duet",
+     "url": "https://google.github.io/styleguide/rustguide.html",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Talking Heads Announce New Book",
+     "summary": "With essays from Lorde, Debbie Harry, Karl Ove Knausgaard, and more",
+     "url": "https://pitchfork.com/story/talking-heads-announce-new-book/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Watch Fontaines D.C. Perform on Jools Holland",
      "summary": "The Irish rock band broke out Dopamine Chamber songs and more for their special 45-minute set",
      "url": "https://pitchfork.com/story/watch-fontaines-dc-perform-on-jools-holland/",
@@ -262,13 +269,6 @@
      "title": "Snoh Aalegra Unveils New Album With Song Featuring Nile Rodgers and Raphael Saadiq",
      "summary": "Listen to \u201cI Love You\u201d from Legendary Love",
      "url": "https://pitchfork.com/story/snoh-aalegra-unveils-new-album-with-song-featuring-nile-rodgers-and-raphael-saadiq/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Angine de Poitrine Set 2027 International Tour",
-     "summary": "Will they land Angine de Pawtrine to open?",
-     "url": "https://pitchfork.com/story/angine-de-poitrine-set-2027-international-tour/",
      "time": "Wed, 21 Oct 2026",
      "source": "Pitchfork"
     }
