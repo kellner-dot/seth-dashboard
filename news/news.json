@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T14:02:24+0000",
- "updated_ts": 1792591344,
+ "updated": "2026-10-21T14:31:41+0000",
+ "updated_ts": 1792593101,
  "topics": [
   {
    "name": "Tech",
@@ -20,16 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+     "title": "PHP2Shell: AI uncovers critical RCE in PHP",
      "summary": "Comments",
-     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "url": "https://www.wiz.io/blog/php2shell-php-rce",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
+     "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
      "summary": "Comments",
-     "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "LayerFS: The filesystem for AI coding agents",
+     "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
      "summary": "Comments",
-     "url": "https://layerfs.ai/",
+     "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -181,55 +181,15 @@
    ]
   },
   {
-   "name": "Vermont",
-   "articles": [
-    {
-     "title": "Picture future you: How young teens can explore their potential at VSAC\u2019s career and STEM fairs",
-     "summary": "Think back to middle school. Maybe you hadn\u2019t thought much about life after high school, or hadn\u2019t spent much time beyond your home community. What if someone encouraged you to think bigger, to step out of your comfort zone and into your curiosities? Read the story on VTDigger he",
-     "url": "https://vtdigger.org/2026/10/21/picture-future-you-how-young-teens-can-explore-their-potential-at-vsacs-career-and-stem-fairs/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Advocates for homeless Vermonters say new rules put \u2018process over people\u2019",
-     "summary": "Motel 6 in Colchester on Oct. 20, 2026. Carly Berlin/Vermont Public \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Motel6_2_102026-1200x800.jpg\" /> Getting approved for a motel room this fall can require a person experiencing homelessness to complete a detaile",
-     "url": "https://vtdigger.org/2026/10/21/advocates-for-homeless-vermonters-say-new-rules-put-process-over-people/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Beta seeks approval for master build plan",
-     "summary": "The floor of Beta Technologies&#8217; production facility in South Burlington. Photo courtesy of Katherine Levasseur/Beta Technologies \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/12/Beta-Technologies-Production-Facility-Floor-1200x800.jpg\" /> The plan anticipa",
-     "url": "https://vtdigger.org/2026/10/20/beta-seeks-approval-for-master-build-plan/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Layoffs announced at Vermont Information Processing in Colchester",
-     "summary": "Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-image-caption=\"Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigge",
-     "url": "https://vtdigger.org/2026/10/20/layoffs-announced-at-vermont-information-processing-in-colchester/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Attorneys seek spring trial for man facing murder charge in Rutland deadly police chase",
-     "summary": "Supporters of Rutland City police officer Jessica Ebbighausen attend a hearing for Tate Rheaume in Rutland County Superior criminal court on Tuesday April 9, 2024. Rheaume is charged in the crash that killed Ebbighausen in 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"",
-     "url": "https://vtdigger.org/2026/10/20/attorneys-seek-spring-trial-for-man-facing-murder-charge-in-rutland-deadly-police-chase/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Brattleboro shelter resident pleads guilty in 2023 killing",
-     "summary": "Zaaina Mahvish-Jammeh, 42, pleaded guilty to second-degree murder during a hearing at Windham Superior Court, Criminal Division, on Tuesday, Oct. 20, 2026. Mahvish-Jammeh admitted to killing Leah Rosin-Pritchard, a shelter coordinator with Groundworks Collaborative, on April 3, 2",
-     "url": "https://vtdigger.org/2026/10/20/brattleboro-shelter-resident-pleads-guilty-in-2023-killing/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
-    }
-   ]
-  },
-  {
    "name": "Music",
    "articles": [
+    {
+     "title": "Bassvictim Readying Second Album of the Year",
+     "summary": "Listen to \u201cWhite Flag\u201d from the UK duo\u2019s Peace + War",
+     "url": "https://pitchfork.com/story/bassvictim-readying-second-album-of-the-year/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Wendy Eisenberg Shares 30-Minute Song, Announces New Band With More Eaze",
      "summary": "Whait will release their debut LP in February",
@@ -262,13 +222,6 @@
      "title": "Did Drake Steal \u201cJanice STFU\u201d?",
      "summary": "Songwriter Aviel Hirschfield claims his reference track is a smoking gun. Now you can hear the audio that he says proves it",
      "url": "https://pitchfork.com/story/did-drake-steal-janice-stfu/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "They Are Gutting a Body of Water\u2019s Doug Dulgarian Diagnosed With Cancer",
-     "summary": "The band have canceled a forthcoming tour but are currently keeping December dates in New York and Philadelphia",
-     "url": "https://pitchfork.com/story/they-are-gutting-a-body-of-waters-doug-dulgarian-diagnosed-with-cancer/",
      "time": "Tue, 20 Oct 2026",
      "source": "Pitchfork"
     }
