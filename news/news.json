@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-21T19:30:38+0000",
- "updated_ts": 1792611038,
+ "updated": "2026-10-21T20:00:39+0000",
+ "updated_ts": 1792612839,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Claude Duet",
+     "title": "Mistral Large 4",
      "summary": "Comments",
-     "url": "https://claude.com/product/claude-duet",
+     "url": "https://docs.mistral.ai/models/mistral-large-4-0",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,23 +27,23 @@
      "source": "Hacker News"
     },
     {
+     "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+     "summary": "Comments",
+     "url": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Google's Rust Style Guide",
+     "summary": "Comments",
+     "url": "https://google.github.io/styleguide/rustguide.html",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
      "summary": "Comments",
      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "DuckDB 2.0.0 LTS \u201cCinnamon Teal\u201d",
-     "summary": "Comments",
-     "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "EA is shutting down BioWare",
-     "summary": "Comments",
-     "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
+     "summary": "The top Democrats on the House and Senate intelligence committees said they are working under the presumption that the president will seek to justify election interference by alleging fraud.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "How Trump's attacks on voting system integrity might affect upcoming elections",
      "summary": "Election law expert Rick Hasen explains Trump's interference in the midterms, including threatening local officials with criminal prosecution unless they strike alleged noncitizens from voter rolls.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6010463/how-trumps-attacks-on-voting-system-integrity-might-affect-upcoming-elections",
@@ -168,13 +175,6 @@
      "title": "Sentenced to death at 17, at 68, quilt artist receives solo museum exhibition",
      "summary": "A quilt artist who spent decades on death row now has his first solo exhibit at the Grand Rapids Art Museum.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6003634/sentenced-to-death-at-17-at-68-quilt-artist-receives-solo-museum-exhibition",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Israel detains dozens of Americans, including a congressional candidate, in West Bank",
-     "summary": "Democratic congressional candidate Brad Lander along with about 80 American and Israeli rabbis and activists were helping Palestinian olive harvesters when they were detained by Israeli forces.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "11 New Albums You Should Listen to Now: Alchemical Sisters, Fine, Yeah Yeah Yeahs, and More",
+     "summary": "Stream new releases from Alchemical Sisters, Fine, Yeah Yeah Yeahs, and Josh Johnson",
+     "url": "https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-alchemical-sisters-fine-yeah-yeah-yeahs/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Watch Fontaines D.C. Perform on Jools Holland",
      "summary": "The Irish rock band broke out Dopamine Chamber songs and more for their special 45-minute set",
      "url": "https://pitchfork.com/story/watch-fontaines-dc-perform-on-jools-holland/",
@@ -262,13 +269,6 @@
      "title": "Snoh Aalegra Unveils New Album With Song Featuring Nile Rodgers and Raphael Saadiq",
      "summary": "Listen to \u201cI Love You\u201d from Legendary Love",
      "url": "https://pitchfork.com/story/snoh-aalegra-unveils-new-album-with-song-featuring-nile-rodgers-and-raphael-saadiq/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Angine de Poitrine Set 2027 International Tour",
-     "summary": "Will they land Angine de Pawtrine to open?",
-     "url": "https://pitchfork.com/story/angine-de-poitrine-set-2027-international-tour/",
      "time": "Wed, 21 Oct 2026",
      "source": "Pitchfork"
     }
