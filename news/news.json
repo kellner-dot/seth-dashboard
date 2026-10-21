@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-21T02:00:38+0000",
- "updated_ts": 1792548038,
+ "updated": "2026-10-21T02:30:39+0000",
+ "updated_ts": 1792549839,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "SimCity, but with Permits",
+     "title": "Show HN: SimCity, but with Permits",
      "summary": "Comments",
      "url": "https://permit.petercai.com/",
      "time": "Tue, 20 Oct 2026",
@@ -20,17 +20,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Voxtral 3",
+     "title": "Learning to live with Waymos",
      "summary": "Comments",
-     "url": "https://mistral.ai/news/voxtral-3/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The Other Epidemic: Trying to get off benzodiazepines",
-     "summary": "Comments",
-     "url": "https://www.thebeliever.net/the-other-epidemic/",
-     "time": "Tue, 20 Oct 2026",
+     "url": "https://www.newyorker.com/magazine/2026/10/19/were-learning-to-live-with-waymos-its-going-weird",
+     "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -41,9 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+     "title": "Voxtral 3",
      "summary": "Comments",
-     "url": "https://github.com/google-pytorch/torch_tpu",
+     "url": "https://mistral.ai/news/voxtral-3/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The Other Epidemic: Trying to get off benzodiazepines",
+     "summary": "Comments",
+     "url": "https://www.thebeliever.net/the-other-epidemic/",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Some on DOJ's 20,000 \"likely\" noncitizen list in Calif. appear to be U.S.-born",
+     "summary": "Election officials in Los Angeles County say their preliminary analysis of the federal government's list of 20,000 \"likely\" noncitizens registered to vote in California shows the list is \"unreliable.\"",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens",
+     "time": "Tue, 20 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
      "summary": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
      "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
@@ -161,13 +168,6 @@
      "title": "What if an AI bubble bursts \u2014 and that accelerates AI job losses?",
      "summary": "Research on past recessions suggests downturns can accelerate automation. That raises the specter of a double whammy for workers.",
      "url": "https://www.npr.org/sections/planet-money/2026/10/20/g-s1-148305/what-if-an-ai-bubble-bursts-and-that-accelerates-ai-job-losses",
-     "time": "Tue, 20 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Can the new federal voucher program help public schools? Democrats are torn",
-     "summary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     },
