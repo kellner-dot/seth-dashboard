@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T17:30:49+0000",
- "updated_ts": 1792603849,
+ "updated": "2026-10-21T18:00:42+0000",
+ "updated_ts": 1792605642,
  "topics": [
   {
    "name": "Tech",
@@ -13,7 +13,7 @@
      "source": "Hacker News"
     },
     {
-     "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+     "title": "Today's PHP security release, and how we're strengthening security",
      "summary": "Comments",
      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
      "time": "Wed, 21 Oct 2026",
@@ -34,6 +34,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+     "summary": "Comments",
+     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
      "summary": "Comments",
      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
@@ -41,11 +48,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "Rust off Rails: The opinionated web stack for the AI era",
-     "summary": "Comments",
-     "url": "https://rustoffrails.org/",
+     "title": "SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase",
+     "summary": "\"We have had significant constructive engagement with the FAA.\"",
+     "url": "https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/",
      "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+     "summary": "OpenEvidence is booming despite questions about accuracy and ads.",
+     "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Review: Carrie is a triumphant remix with one major flaw",
+     "summary": "Mike Flanagan's re-imagining of Stephen King's classic is well worth watching.",
+     "url": "https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "The past, present, and future share a show floor at Pinball Expo 2026",
+     "summary": "Flipping through the highlights in and around Pinball Expo 2026.",
+     "url": "https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "PHP warns it plans to release 2 emergency patches imminently",
@@ -58,34 +86,6 @@
      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
      "summary": "\"I do think there's a lot of merit to combining the companies.\"",
      "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Cops raid office of RFK Jr. allies planning \u201cunethical\u201d vaccine trial on babies",
-     "summary": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
-     "url": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
-     "summary": "Xbox maker is also apparently planning its own gaming handheld for next year.",
-     "url": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
-     "summary": "A lifetime ad-free subscription is available.",
-     "url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-     "summary": "Meta changes AI scraping policy but won\u2019t add language respecting robots.txt.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     }
@@ -231,6 +231,20 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Ben Folds Five Announce First Tour Since 2013",
+     "summary": "The trio will be rockin\u2019 a city near you next spring",
+     "url": "https://pitchfork.com/story/ben-folds-five-announce-first-tour-since-2013/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Yung Miami Launches Debut Solo Album With New Songs \u201cF U\u201d and \u201c2008\u201d",
+     "summary": "The long-awaited Watch Dis features Quavo, G Herbo, Lil Baby, Kodak Black, Shenseea, Vybez Kartel, and more",
+     "url": "https://pitchfork.com/story/yung-miami-announces-debut-solo-album-watch-dis-features/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Chvrches Announce First Album in Six Years and 2027 Tour",
      "summary": "The trio will perform material from All The King\u2019s Men on the road come spring",
      "url": "https://pitchfork.com/story/chvrches-announce-first-album-in-six-years-and-2027-tour/",
@@ -255,20 +269,6 @@
      "title": "Clap Your Hands Say Yeah Launch New Album Burned",
      "summary": "Alec Ounsworth and co. will also tour in 2027",
      "url": "https://pitchfork.com/story/clap-your-hands-say-yeah-launch-new-album-burned-2027-tour/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Bassvictim Readying Second Album of the Year",
-     "summary": "Listen to \u201cWhite Flag\u201d from the UK duo\u2019s Peace + War",
-     "url": "https://pitchfork.com/story/bassvictim-readying-second-album-of-the-year/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Wendy Eisenberg Shares 30-Minute Song, Announces New Band With More Eaze",
-     "summary": "Whait will release their debut LP in February",
-     "url": "https://pitchfork.com/story/wendy-eisenberg-shares-two-reworked-songs-featuring-trevor-dunn-more-eaze/",
      "time": "Wed, 21 Oct 2026",
      "source": "Pitchfork"
     }
