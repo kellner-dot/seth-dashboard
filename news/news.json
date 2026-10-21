@@ -1,24 +1,10 @@
 {
- "updated": "2026-10-21T21:30:39+0000",
- "updated_ts": 1792618239,
+ "updated": "2026-10-21T22:00:56+0000",
+ "updated_ts": 1792620056,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Mistral Large 4",
-     "summary": "Comments",
-     "url": "https://docs.mistral.ai/models/mistral-large-4-0",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Meta hit with $25B penalty for deceiving users about privacy on Facebook",
-     "summary": "Comments",
-     "url": "https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Today's PHP security release, and how we're strengthening security",
      "summary": "Comments",
@@ -27,10 +13,24 @@
      "source": "Hacker News"
     },
     {
-     "title": "GitLab Remote Code Execution - Integer Overflow issue",
+     "title": "AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days",
+     "summary": "Comments",
+     "url": "https://github.com/amazonlinux/amazon-linux-2023/issues/1148",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "GitLab Critical Patch Release",
      "summary": "Comments",
      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
      "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "No More Icons in Every Menu by Default",
+     "summary": "Comments",
+     "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+     "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
