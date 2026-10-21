@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T03:00:41+0000",
- "updated_ts": 1792551641,
+ "updated": "2026-10-21T03:30:39+0000",
+ "updated_ts": 1792553439,
  "topics": [
   {
    "name": "Tech",
@@ -16,6 +16,13 @@
      "title": "In Hilbert space, all things are quantumly possible",
      "summary": "Comments",
      "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The Future of CSS",
+     "summary": "Comments",
+     "url": "https://www.joshwcomeau.com/css/interop-2027/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "The Future of CSS",
-     "summary": "Comments",
-     "url": "https://www.joshwcomeau.com/css/interop-2027/",
+     "title": "PHP warns it plans to release 2 emergency patches imminently",
+     "summary": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
+     "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
      "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
@@ -79,13 +86,6 @@
      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
      "summary": "Meta changes AI scraping policy but won\u2019t add language respecting robots.txt.",
      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Gemini's Personal Intelligence is coming to cars",
-     "summary": "It's probably time to audit your Gemini settings.",
-     "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
      "time": "Tue, 20 Oct 2026",
      "source": "Ars Technica"
     }
