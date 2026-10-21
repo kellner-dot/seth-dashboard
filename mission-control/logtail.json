@@ -1,20 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-21T09:10:41+0000",
+ "generated_iso": "2026-10-21T09:20:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-21 04:53:17.606 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-21 05:16:01.736 Error LiveTvManager: Error getting programs for channel F1 Channel",
      "c": "err"
     },
     {
-     "t": "2026-10-21 04:53:34.998 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-10-21 04:53:52.406 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: ServiceUnavailable",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-21 05:16:01.736 Error LiveTvManager: Error getting programs for channel RACER Select",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: ServiceUnavailable",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-21 05:16:01.775 Error LiveTvManager: Error getting programs for channel KaviTV Experimental",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: ServiceUnavailable",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-21 05:16:01.776 Error LiveTvManager: Error getting programs for channel KaviTV Independent",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: ServiceUnavailable",
      "c": "err"
     }
    ]
@@ -47,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-21T04:40:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-21",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-21T04:45:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-21",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-21T04:50:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-21",
      "c": "ok"
     },
@@ -68,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-21T05:05:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-21",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-21T05:10:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-21",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-21T05:15:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-21",
      "c": "ok"
     }
    ]
