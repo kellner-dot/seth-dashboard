@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T16:30:40+0000",
- "updated_ts": 1792600240,
+ "updated": "2026-10-21T17:00:40+0000",
+ "updated_ts": 1792602040,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
-     "summary": "Comments",
-     "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
      "summary": "Comments",
      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
@@ -34,16 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+     "title": "DuckDB 2.0.0 LTS \u201cCinnamon Teal\u201d",
      "summary": "Comments",
-     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+     "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+     "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
      "summary": "Comments",
-     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+     "summary": "Comments",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
