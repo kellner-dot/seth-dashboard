@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T11:30:38+0000",
- "updated_ts": 1792582238,
+ "updated": "2026-10-21T12:00:40+0000",
+ "updated_ts": 1792584040,
  "topics": [
   {
    "name": "Tech",
@@ -34,17 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-     "summary": "Comments",
-     "url": "https://news-web.php.net/php.announce/509",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Does Ruby on Rails still make sense?",
      "summary": "Comments",
      "url": "https://tech.dirkjonker.nl/does-ruby-on-rails-make-sense/",
      "time": "Mon, 19 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+     "summary": "Comments",
+     "url": "https://news-web.php.net/php.announce/509",
+     "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,8 +95,8 @@
    "name": "World",
    "articles": [
     {
-     "title": "US citizen Stephen Hubbard freed by Russia and 'on his way home', Trump says",
-     "summary": "The former teacher has been released without any \"swap\" required, according to the president.",
+     "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+     "summary": "The 74-year-old former teacher has been released without any \"swap\" required, Trump says.",
      "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "DOJ's noncitizen voter list is unreliable, officials say. And, U.S. pollution rises",
+     "summary": "The Justice Department's \"likely\" noncitizen voter list in California is \"unreliable,\" according to officials. And, the United Nations reports a major increase in U.S. climate pollution.",
+     "url": "https://www.npr.org/2026/10/21/g-s1-149068/up-first-newsletter-california-voter-roll-united-nations-emissions-us-crimes-ukraine-russia",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
      "summary": "Russian President Vladimir Putin says he has freed an American, Stephen Hubbard, from a Russian prison following a request from President Trump.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
@@ -165,16 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "LeBron James talks smack with Knicks fans in victorious 76ers debut",
-     "summary": "The Sixers got a first look at the potent lineup they put together this summer in hopes of winning their first title since 1983.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6010350/lebron-knicks-76ers",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "FAA clears the way for airlines to put Boeing's long-delayed 737 Max 10 into service",
-     "summary": "Nearly a decade after Boeing unveiled its largest 737 Max jet, the company has cleared a major hurdle in its effort to bring the plane to airlines.",
-     "url": "https://www.npr.org/2026/10/21/g-s1-149032/faa-boeing-737-max-10",
+     "title": "Millions are struck off India's voter rolls in largest disenfranchisement in history",
+     "summary": "India is plunged into political crisis after 130 million names were struck off voter rolls during a massive revision.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-5997960/india-voter-rolls",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
