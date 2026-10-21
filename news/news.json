@@ -1,21 +1,14 @@
 {
- "updated": "2026-10-21T14:31:41+0000",
- "updated_ts": 1792593101,
+ "updated": "2026-10-21T15:00:43+0000",
+ "updated_ts": 1792594843,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Updated PHP version released to GitHub",
+     "title": "PHP 8.2.35",
      "summary": "Comments",
      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 out",
-     "summary": "Comments",
-     "url": "https://www.php.net/index.php",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -23,6 +16,13 @@
      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
      "summary": "Comments",
      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
+     "summary": "Comments",
+     "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
+     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
      "summary": "Comments",
-     "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,16 +102,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Australian MP loses both legs after alleged car attack, husband says",
-     "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
-     "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
+     "title": "Macron accuses foreign leaders of exploiting French riots",
+     "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
+     "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-     "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-     "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
+     "title": "Australian MP loses both legs after alleged car attack, husband says",
+     "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
+     "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
     },
@@ -165,24 +165,78 @@
      "source": "NPR News"
     },
     {
-     "title": "Expecting a baby? 5 tips to help you prepare for pregnancy costs",
-     "summary": "The cost of having a baby is difficult to predict. The amount families pay varies widely. Here are five tips to help you prepare for the often unexpected costs of pregnancy and giving birth.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-5996849/insurance-cost-baby-pregnancy",
+     "title": "2025 policing trend: Fewer serious crimes, more minor arrests",
+     "summary": "Arrests for more minor offenses, including vagrancy, rose in the U.S., even as violent crime rates dropped to historic lows, according to an analysis from criminal justice reform advocacy group FWD.us",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6003663/crime-data-down-low-level-offenses-increase",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "2025 policing trend: Fewer serious crimes, more minor arrests",
-     "summary": "Arrests for more minor offenses, including vagrancy, rose in the U.S., even as violent crime rates dropped to historic lows, according to an analysis from criminal justice reform advocacy group FWD.us",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6003663/crime-data-down-low-level-offenses-increase",
+     "title": "Expecting a baby? 5 tips to help you prepare for pregnancy costs",
+     "summary": "The cost of having a baby is difficult to predict. The amount families pay varies widely. Here are five tips to help you prepare for the often unexpected costs of pregnancy and giving birth.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-5996849/insurance-cost-baby-pregnancy",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
    ]
   },
   {
+   "name": "Vermont",
+   "articles": [
+    {
+     "title": "Picture future you: How young teens can explore their potential at VSAC\u2019s career and STEM fairs",
+     "summary": "Think back to middle school. Maybe you hadn\u2019t thought much about life after high school, or hadn\u2019t spent much time beyond your home community. What if someone encouraged you to think bigger, to step out of your comfort zone and into your curiosities? Read the story on VTDigger he",
+     "url": "https://vtdigger.org/2026/10/21/picture-future-you-how-young-teens-can-explore-their-potential-at-vsacs-career-and-stem-fairs/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Advocates for homeless Vermonters say new rules put \u2018process over people\u2019",
+     "summary": "Motel 6 in Colchester on Oct. 20, 2026. Carly Berlin/Vermont Public \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Motel6_2_102026-1200x800.jpg\" /> Getting approved for a motel room this fall can require a person experiencing homelessness to complete a detaile",
+     "url": "https://vtdigger.org/2026/10/21/advocates-for-homeless-vermonters-say-new-rules-put-process-over-people/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Beta seeks approval for master build plan",
+     "summary": "The floor of Beta Technologies&#8217; production facility in South Burlington. Photo courtesy of Katherine Levasseur/Beta Technologies \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/12/Beta-Technologies-Production-Facility-Floor-1200x800.jpg\" /> The plan anticipa",
+     "url": "https://vtdigger.org/2026/10/20/beta-seeks-approval-for-master-build-plan/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Layoffs announced at Vermont Information Processing in Colchester",
+     "summary": "Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-image-caption=\"Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigge",
+     "url": "https://vtdigger.org/2026/10/20/layoffs-announced-at-vermont-information-processing-in-colchester/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Attorneys seek spring trial for man facing murder charge in Rutland deadly police chase",
+     "summary": "Supporters of Rutland City police officer Jessica Ebbighausen attend a hearing for Tate Rheaume in Rutland County Superior criminal court on Tuesday April 9, 2024. Rheaume is charged in the crash that killed Ebbighausen in 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"",
+     "url": "https://vtdigger.org/2026/10/20/attorneys-seek-spring-trial-for-man-facing-murder-charge-in-rutland-deadly-police-chase/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Brattleboro shelter resident pleads guilty in 2023 killing",
+     "summary": "Zaaina Mahvish-Jammeh, 42, pleaded guilty to second-degree murder during a hearing at Windham Superior Court, Criminal Division, on Tuesday, Oct. 20, 2026. Mahvish-Jammeh admitted to killing Leah Rosin-Pritchard, a shelter coordinator with Groundworks Collaborative, on April 3, 2",
+     "url": "https://vtdigger.org/2026/10/20/brattleboro-shelter-resident-pleads-guilty-in-2023-killing/",
+     "time": "Tue, 20 Oct 2026",
+     "source": "VT Digger"
+    }
+   ]
+  },
+  {
    "name": "Music",
    "articles": [
+    {
+     "title": "Clap Your Hands Say Yeah Launch New Album Burned",
+     "summary": "Alec Ounsworth and co. will also tour in 2027",
+     "url": "https://pitchfork.com/story/clap-your-hands-say-yeah-launch-new-album-burned-2027-tour/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Bassvictim Readying Second Album of the Year",
      "summary": "Listen to \u201cWhite Flag\u201d from the UK duo\u2019s Peace + War",
@@ -215,13 +269,6 @@
      "title": "Romain Gavras Is Bummed About Those AI Versions of \u201cStorm\u201d",
      "summary": "\u201cPart of me wanted to quit filmmaking, move back to Greece, and become an olive farmer\u201d",
      "url": "https://pitchfork.com/story/romain-gavras-is-bummed-about-those-ai-versions-of-storm/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Did Drake Steal \u201cJanice STFU\u201d?",
-     "summary": "Songwriter Aviel Hirschfield claims his reference track is a smoking gun. Now you can hear the audio that he says proves it",
-     "url": "https://pitchfork.com/story/did-drake-steal-janice-stfu/",
      "time": "Tue, 20 Oct 2026",
      "source": "Pitchfork"
     }
