@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T21:01:03+0000",
- "updated_ts": 1792616463,
+ "updated": "2026-10-21T21:30:39+0000",
+ "updated_ts": 1792618239,
  "topics": [
   {
    "name": "Tech",
@@ -13,13 +13,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Today's PHP security release, and how we're strengthening security",
-     "summary": "Comments",
-     "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Meta hit with $25B penalty for deceiving users about privacy on Facebook",
      "summary": "Comments",
      "url": "https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook/",
@@ -27,9 +20,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "GitLab CVSS 10.0 Integer Overflow issue",
+     "title": "Today's PHP security release, and how we're strengthening security",
+     "summary": "Comments",
+     "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "GitLab Remote Code Execution - Integer Overflow issue",
      "summary": "Comments",
      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+     "summary": "Comments",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
      "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-     "summary": "Comments",
-     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-     "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,8 +95,8 @@
    "name": "World",
    "articles": [
     {
-     "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
-     "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
+     "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+     "summary": "Russia says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
@@ -184,6 +184,20 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Essex failed to warn voters about a tax vote. Now the November result might not count.",
+     "summary": "Poll workers await the next voters at the Essex Town polls on Town Meeting Day, Tuesday, March 7, 2023. Photo by Auditi Guha/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2023/03/Essex-TMD-2023-1200x900.jpg?crop=1\" /> The notification blunder means that if p",
+     "url": "https://vtdigger.org/2026/10/21/essex-failed-to-warn-voters-about-a-tax-vote-now-the-november-result-might-not-count/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Children who witness domestic violence are victims too",
+     "summary": "In Vermont, domestic violence is one of the main reasons children can\u2019t go home safely. Domestic Violence Awareness Month is a time to count them among the victims. Read the story on VTDigger here: Children who witness domestic violence are victims too.",
+     "url": "https://vtdigger.org/2026/10/21/children-who-witness-domestic-violence-are-victims-too/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "State panel sanctions ex-Rutland officer for violations of anti-bias policing and other policies",
      "summary": "The Rutland City Police Department seen on Thursday, September 10, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/rutlland-city-police-1-20260910-1200x798.jpg\" /> The action marks the second time this year the Vermont Crim",
      "url": "https://vtdigger.org/2026/10/21/state-panel-sanctions-ex-rutland-officer-for-violations-of-anti-bias-policing-and-other-policies/",
@@ -209,20 +223,6 @@
      "summary": "Motel 6 in Colchester on Oct. 20, 2026. Carly Berlin/Vermont Public \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Motel6_2_102026-1200x800.jpg\" /> Getting approved for a motel room this fall can require a person experiencing homelessness to complete a detaile",
      "url": "https://vtdigger.org/2026/10/21/advocates-for-homeless-vermonters-say-new-rules-put-process-over-people/",
      "time": "Wed, 21 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Beta seeks approval for master build plan",
-     "summary": "The floor of Beta Technologies&#8217; production facility in South Burlington. Photo courtesy of Katherine Levasseur/Beta Technologies \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/12/Beta-Technologies-Production-Facility-Floor-1200x800.jpg\" /> The plan anticipa",
-     "url": "https://vtdigger.org/2026/10/20/beta-seeks-approval-for-master-build-plan/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Layoffs announced at Vermont Information Processing in Colchester",
-     "summary": "Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-image-caption=\"Vermont Information Processing in Colchester seen on Wednesday, August 2, 2023. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigge",
-     "url": "https://vtdigger.org/2026/10/20/layoffs-announced-at-vermont-information-processing-in-colchester/",
-     "time": "Tue, 20 Oct 2026",
      "source": "VT Digger"
     }
    ]
