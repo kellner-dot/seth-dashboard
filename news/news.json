@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T12:00:40+0000",
- "updated_ts": 1792584040,
+ "updated": "2026-10-21T12:31:54+0000",
+ "updated_ts": 1792585914,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "The 1.5\u00b0C goal of the Paris Agreement is no longer viable",
-     "summary": "Comments",
-     "url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "The Future of CSS",
      "summary": "Comments",
      "url": "https://www.joshwcomeau.com/css/interop-2027/",
@@ -34,16 +27,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Does Ruby on Rails still make sense?",
+     "title": "The 1.5\u00b0C goal of the Paris Agreement is no longer viable",
      "summary": "Comments",
-     "url": "https://tech.dirkjonker.nl/does-ruby-on-rails-make-sense/",
-     "time": "Mon, 19 Oct 2026",
+     "url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+     "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
      "summary": "Comments",
      "url": "https://news-web.php.net/php.announce/509",
+     "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: SimCity, but with Permits",
+     "summary": "Comments",
+     "url": "https://permit.petercai.com/",
      "time": "Tue, 20 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Trump leans into unprecedented power ahead of midterm elections",
+     "summary": "Less than two weeks before the election, Trump continues to crash through barriers that he wouldn't dare cross in his first term.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6009395/trump-power-midterm-elections",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "DOJ's noncitizen voter list is unreliable, officials say. And, U.S. pollution rises",
      "summary": "The Justice Department's \"likely\" noncitizen voter list in California is \"unreliable,\" according to officials. And, the United Nations reports a major increase in U.S. climate pollution.",
      "url": "https://www.npr.org/2026/10/21/g-s1-149068/up-first-newsletter-california-voter-roll-united-nations-emissions-us-crimes-ukraine-russia",
@@ -151,13 +158,6 @@
      "source": "NPR News"
     },
     {
-     "title": "2025 policing trend: Fewer serious crimes, more minor arrests",
-     "summary": "Arrests for more minor offenses, including vagrancy, rose in the U.S., even as violent crime rates dropped to historic lows, according to an analysis from criminal justice reform advocacy group FWD.us",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6003663/crime-data-down-low-level-offenses-increase",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "Expecting a baby? 5 tips to help you prepare for pregnancy costs",
      "summary": "The cost of having a baby is difficult to predict. The amount families pay varies widely. Here are five tips to help you prepare for the often unexpected costs of pregnancy and giving birth.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-5996849/insurance-cost-baby-pregnancy",
@@ -165,16 +165,16 @@
      "source": "NPR News"
     },
     {
-     "title": "Morning news brief",
-     "summary": "Trump envoy Steve Witkoff to visit Russia in hopes of ending war, Trump campaigns in North Carolina, Saudi Arabia cancels 'Davos in the Desert' due to Houthi strikes.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6003502/morning-news-brief",
+     "title": "2025 policing trend: Fewer serious crimes, more minor arrests",
+     "summary": "Arrests for more minor offenses, including vagrancy, rose in the U.S., even as violent crime rates dropped to historic lows, according to an analysis from criminal justice reform advocacy group FWD.us",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6003663/crime-data-down-low-level-offenses-increase",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Millions are struck off India's voter rolls in largest disenfranchisement in history",
-     "summary": "India is plunged into political crisis after 130 million names were struck off voter rolls during a massive revision.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-5997960/india-voter-rolls",
+     "title": "Morning news brief",
+     "summary": "Trump envoy Steve Witkoff to visit Russia in hopes of ending war, Trump campaigns in North Carolina, Saudi Arabia cancels 'Davos in the Desert' due to Houthi strikes.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6003502/morning-news-brief",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
