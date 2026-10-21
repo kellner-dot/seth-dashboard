@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T15:30:38+0000",
- "updated_ts": 1792596638,
+ "updated": "2026-10-21T16:00:49+0000",
+ "updated_ts": 1792598449,
  "topics": [
   {
    "name": "Tech",
@@ -27,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+     "summary": "Comments",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
      "summary": "Comments",
      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
@@ -37,13 +44,6 @@
      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
      "summary": "Comments",
      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-     "summary": "Comments",
-     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "Supreme Court upholds pause on Trump's anti-trans prison policy",
+     "summary": "The Supreme Court ruled Wednesday that the Trump administration has to continue providing gender-affirming care to inmates in federal prisons as litigation on efforts to change the policy continues.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-5993878/supreme-court-trump-trans-prison-policy",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "New human data hints at psychedelics' potential to combat inflammation",
+     "summary": "Lab studies have shown that psychedelics like psilocybin can lower inflammation and may be protective for a range of illnesses. Now, researchers are publishing some of the first data in humans that signals this holds potential for patients with neurodegenerative diseases like Par",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6009441/psychedelics-brain-inflammation-immune-system",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Sentenced to death at 17, at 68, quilt artist receives solo museum exhibition",
      "summary": "A quilt artist who spent decades on death row now has his first solo exhibit at the Grand Rapids Art Museum.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6003634/sentenced-to-death-at-17-at-68-quilt-artist-receives-solo-museum-exhibition",
@@ -161,20 +175,6 @@
      "title": "DOJ's noncitizen voter list is unreliable, officials say. And, U.S. pollution rises",
      "summary": "The Justice Department's \"likely\" noncitizen voter list in California is \"unreliable,\" according to officials. And, the United Nations reports a major increase in U.S. climate pollution.",
      "url": "https://www.npr.org/2026/10/21/g-s1-149068/up-first-newsletter-california-voter-roll-united-nations-emissions-us-crimes-ukraine-russia",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
-     "summary": "The announcement of Hubbard's release came as talks got underway between Putin and White House envoy Steve Witkoff in Saint Petersburg focused on the latest U.S. efforts to end the war in Ukraine.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Expecting a baby? 5 tips to help you prepare for pregnancy costs",
-     "summary": "The cost of having a baby is difficult to predict. The amount families pay varies widely. Here are five tips to help you prepare for the often unexpected costs of pregnancy and giving birth.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-5996849/insurance-cost-baby-pregnancy",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Angine de Poitrine Set 2027 International Tour",
+     "summary": "Will they land Angine de Pawtrine to open?",
+     "url": "https://pitchfork.com/story/angine-de-poitrine-set-2027-international-tour/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Clap Your Hands Say Yeah Launch New Album Burned",
      "summary": "Alec Ounsworth and co. will also tour in 2027",
      "url": "https://pitchfork.com/story/clap-your-hands-say-yeah-launch-new-album-burned-2027-tour/",
@@ -262,13 +269,6 @@
      "title": "Lil Baby Recruits Future, Young Thug for New Album Fresh",
      "summary": "It\u2019s out November 6",
      "url": "https://pitchfork.com/story/lil-baby-recruits-future-young-thug-for-new-album-fresh/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Romain Gavras Is Bummed About Those AI Versions of \u201cStorm\u201d",
-     "summary": "\u201cPart of me wanted to quit filmmaking, move back to Greece, and become an olive farmer\u201d",
-     "url": "https://pitchfork.com/story/romain-gavras-is-bummed-about-those-ai-versions-of-storm/",
      "time": "Tue, 20 Oct 2026",
      "source": "Pitchfork"
     }
