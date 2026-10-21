@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-20T00:39:44.795096-04:00",
- "date": "2026-10-20",
+ "generated_at": "2026-10-21T00:10:42.963451-04:00",
+ "date": "2026-10-21",
  "channels": [
   {
    "id": "horror",
    "name": "KaviTV Horror",
    "tagline": "24/7 horror \u2014 slashers, giallo, creature features, dread.",
    "pool": "Genres=Horror across the full movie library.",
-   "film_count": 123,
-   "total_runtime_h": 148.4,
-   "program_count": 23
+   "film_count": 124,
+   "total_runtime_h": 150.1,
+   "program_count": 19
   },
   {
    "id": "experimental",
@@ -18,7 +18,7 @@
    "pool": "12 arthouse directors + Schizopolis (Seth's favorite, pinned).",
    "film_count": 57,
    "total_runtime_h": 73.0,
-   "program_count": 18
+   "program_count": 20
   },
   {
    "id": "independent",
@@ -27,7 +27,7 @@
    "pool": "15 indie studios + 7 indie-auteur directors, deduped.",
    "film_count": 43,
    "total_runtime_h": 68.5,
-   "program_count": 14
+   "program_count": 16
   }
  ]
 }
