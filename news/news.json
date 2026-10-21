@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-21T13:00:48+0000",
- "updated_ts": 1792587648,
+ "updated": "2026-10-21T13:34:27+0000",
+ "updated_ts": 1792589667,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
+     "summary": "Comments",
+     "url": "https://www.ncsc.nl/actueel",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
      "summary": "Comments",
@@ -13,9 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
+     "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
      "summary": "Comments",
-     "url": "https://www.ncsc.nl/actueel",
+     "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Most advice is right for the person giving it",
+     "summary": "Comments",
+     "url": "https://coached.com/essays/most-advice-is-right-for-the-person-giving-it/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,23 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "The Future of CSS",
+     "title": "LayerFS: The filesystem for AI coding agents",
      "summary": "Comments",
-     "url": "https://www.joshwcomeau.com/css/interop-2027/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-     "summary": "Comments",
-     "url": "https://news-web.php.net/php.announce/509",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The 1.5\u00b0C goal of the Paris Agreement is no longer viable",
-     "summary": "Comments",
-     "url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+     "url": "https://layerfs.ai/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -96,13 +96,13 @@
    "articles": [
     {
      "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-     "summary": "The 74-year-old former teacher has been released without any \"swap\" required, Trump says.",
+     "summary": "The 74-year-old former teacher, who was captured, has been released without any \"swap\" required, Trump says.",
      "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Trump and Zelensky appear at loggerheads despite new optimism",
+     "title": "Trump and Zelensky at loggerheads despite new optimism",
      "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "80 Israelis and Americans, including NY Democrat Brad Lander, detained in West Bank",
+     "summary": "U.S. Democratic congressional nominee Brad Lander was detained along with about 80 American and Israeli rabbis and activists by Israeli security forces as they helped Palestinian olive harvesters.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Trump leans into unprecedented power ahead of midterm elections",
      "summary": "Less than two weeks before the election, Trump continues to crash through barriers that he wouldn't dare cross in his first term.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6009395/trump-power-midterm-elections",
@@ -158,13 +165,6 @@
      "source": "NPR News"
     },
     {
-     "title": "2025 policing trend: Fewer serious crimes, more minor arrests",
-     "summary": "Arrests for more minor offenses, including vagrancy, rose in the U.S., even as violent crime rates dropped to historic lows, according to an analysis from criminal justice reform advocacy group FWD.us",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6003663/crime-data-down-low-level-offenses-increase",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "Expecting a baby? 5 tips to help you prepare for pregnancy costs",
      "summary": "The cost of having a baby is difficult to predict. The amount families pay varies widely. Here are five tips to help you prepare for the often unexpected costs of pregnancy and giving birth.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-5996849/insurance-cost-baby-pregnancy",
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "Morning news brief",
-     "summary": "Trump envoy Steve Witkoff to visit Russia in hopes of ending war, Trump campaigns in North Carolina, Saudi Arabia cancels 'Davos in the Desert' due to Houthi strikes.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6003502/morning-news-brief",
+     "title": "2025 policing trend: Fewer serious crimes, more minor arrests",
+     "summary": "Arrests for more minor offenses, including vagrancy, rose in the U.S., even as violent crime rates dropped to historic lows, according to an analysis from criminal justice reform advocacy group FWD.us",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6003663/crime-data-down-low-level-offenses-increase",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
@@ -183,6 +183,13 @@
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Picture future you: How young teens can explore their potential at VSAC\u2019s career and STEM fairs",
+     "summary": "Think back to middle school. Maybe you hadn\u2019t thought much about life after high school, or hadn\u2019t spent much time beyond your home community. What if someone encouraged you to think bigger, to step out of your comfort zone and into your curiosities? Read the story on VTDigger he",
+     "url": "https://vtdigger.org/2026/10/21/picture-future-you-how-young-teens-can-explore-their-potential-at-vsacs-career-and-stem-fairs/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Advocates for homeless Vermonters say new rules put \u2018process over people\u2019",
      "summary": "Motel 6 in Colchester on Oct. 20, 2026. Carly Berlin/Vermont Public \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Motel6_2_102026-1200x800.jpg\" /> Getting approved for a motel room this fall can require a person experiencing homelessness to complete a detaile",
@@ -217,19 +224,19 @@
      "url": "https://vtdigger.org/2026/10/20/brattleboro-shelter-resident-pleads-guilty-in-2023-killing/",
      "time": "Tue, 20 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "What do foul-mouthed candidates think they\u2019re gaining?",
-     "summary": "Profanity offends older Vermonters and does nothing to win over younger ones. Read the story on VTDigger here: What do foul-mouthed candidates think they\u2019re gaining?.",
-     "url": "https://vtdigger.org/2026/10/20/what-do-foul-mouthed-candidates-think-theyre-gaining/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Wendy Eisenberg Shares 30-Minute Song, Announces New Band With More Eaze",
+     "summary": "Whait will release their debut LP in February",
+     "url": "https://pitchfork.com/story/wendy-eisenberg-shares-two-reworked-songs-featuring-trevor-dunn-more-eaze/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Bicep Reveal First Album in Five Years, Drop Three New Songs",
      "summary": "Slug features contributions from Lauren Duffus, Eartheater, George Riley, Clark, and Sassy 009",
@@ -262,13 +269,6 @@
      "title": "They Are Gutting a Body of Water\u2019s Doug Dulgarian Diagnosed With Cancer",
      "summary": "The band have canceled a forthcoming tour but are currently keeping December dates in New York and Philadelphia",
      "url": "https://pitchfork.com/story/they-are-gutting-a-body-of-waters-doug-dulgarian-diagnosed-with-cancer/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Lambrini Girls Announce 2027 North American Tour",
-     "summary": "The British punk duo also shared two new songs, including one about \"a sad little man who gets radicalised by the manosphere\"",
-     "url": "https://pitchfork.com/story/lambrini-girls-announce-2027-north-american-tour/",
      "time": "Tue, 20 Oct 2026",
      "source": "Pitchfork"
     }
