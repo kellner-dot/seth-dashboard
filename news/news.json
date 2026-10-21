@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-21T05:30:40+0000",
- "updated_ts": 1792560640,
+ "updated": "2026-10-21T06:00:38+0000",
+ "updated_ts": 1792562438,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Major PHP Vulnerability Leaked",
-     "summary": "Comments",
-     "url": "https://jackalsyn.com/posts/php-up-2026.html",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "The Future of CSS",
      "summary": "Comments",
@@ -38,6 +31,13 @@
      "summary": "Comments",
      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
      "time": "Tue, 20 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Battlezone Online: BZFlag in the Browser",
+     "summary": "Comments",
+     "url": "https://github.com/timriker/bzo",
+     "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -109,10 +109,17 @@
      "source": "BBC World"
     },
     {
-     "title": "Elon Musk says Tesla-SpaceX merger being considered",
+     "title": "Elon Musk considering Tesla-SpaceX merger",
      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
      "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 20 Oct 2026",
+     "time": "Wed, 21 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Pakistan arrests man hunted by US over $126m postage fraud case",
+     "summary": "Faheem Akram allegedly sold more than 5 million fake postage labels for a fixed price of $2 a piece.",
+     "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -123,18 +130,25 @@
      "source": "BBC World"
     },
     {
-     "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
-     "summary": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
-     "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
-     "time": "Tue, 20 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
      "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
      "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
      "time": "Tue, 20 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Zelenskyy says early warning system for Russian missile attacks resumes",
+     "summary": "Ukrainian President Volodymyr Zelenskyy said the change happened after talks with his American counterparts, including a phone call with U.S. Secretary of State Marco Rubio.",
+     "url": "https://www.npr.org/2026/10/21/g-s1-149026/zelenskyy-russian-missiles-warning",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "France announces nightly curfews 'for as long as necessary' in Paris and other cities",
+     "summary": "Fresh curfews were being imposed across the city centers of Paris and Lyon on Tuesday after the first quiet night since France's most destructive rioting in years.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "United Nations report highlights significant increase in U.S. climate pollution",
@@ -161,20 +175,6 @@
      "title": "Vanessa Kerry is the new WHO envoy for health resilience. What's on her to-do list?",
      "summary": "A respected figure in the world of global health, Dr. Kerry takes on a new responsibility. She says it's challenging but not \"daunting.\"",
      "url": "https://www.npr.org/2026/10/20/g-s1-147952/vanessa-kerry-resilience-world-health-organization",
-     "time": "Tue, 20 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "DOJ charges 28 with voting crimes. And, TikTok ignored staff's child safety concerns",
-     "summary": "The Justice Department has charged 28 people in California with voting crimes as Election Day nears. And, TikTok staff raised child safety concerns with executives, who failed to act, court records show.",
-     "url": "https://www.npr.org/2026/10/20/g-s1-148877/up-first-newsletter-california-elections-doj-midterms-trump-tiktok",
-     "time": "Tue, 20 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "What if an AI bubble bursts \u2014 and that accelerates AI job losses?",
-     "summary": "Research on past recessions suggests downturns can accelerate automation. That raises the specter of a double whammy for workers.",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/20/g-s1-148305/what-if-an-ai-bubble-bursts-and-that-accelerates-ai-job-losses",
      "time": "Tue, 20 Oct 2026",
      "source": "NPR News"
     }
