@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T16:00:49+0000",
- "updated_ts": 1792598449,
+ "updated": "2026-10-21T16:30:40+0000",
+ "updated_ts": 1792600240,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+     "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
      "summary": "Comments",
-     "url": "https://www.wiz.io/blog/php2shell-php-rce",
+     "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
      "summary": "Comments",
-     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+     "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
      "summary": "Comments",
-     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,9 +95,9 @@
    "name": "World",
    "articles": [
     {
-     "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-     "summary": "The 74-year-old former teacher, who was captured, has been released without any \"swap\" required, Trump says.",
-     "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+     "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+     "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
+     "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
      "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
     },
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "How Trump's attacks on voting system integrity might affect upcoming elections",
+     "summary": "Election law expert Rick Hasen explains Trump's interference in the midterms, including threatening local officials with criminal prosecution unless they strike alleged noncitizens from voter rolls.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6010463/how-trumps-attacks-on-voting-system-integrity-might-affect-upcoming-elections",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Why local officials are feeling 'on edge' as election day approaches",
+     "summary": "Al Schmidt is the chief election official in the state of Pennsylvania. President Trump's insults put him in danger during the 2020 ballot count. Now Schmidt talks about preparing for the midterms.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6010517/why-local-officials-are-feeling-on-edge-as-election-day-approaches",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Supreme Court upholds pause on Trump's anti-trans prison policy",
      "summary": "The Supreme Court ruled Wednesday that the Trump administration has to continue providing gender-affirming care to inmates in federal prisons as litigation on efforts to change the policy continues.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-5993878/supreme-court-trump-trans-prison-policy",
@@ -161,20 +175,6 @@
      "title": "Israel detains dozens of Americans, including a congressional candidate, in West Bank",
      "summary": "Democratic congressional candidate Brad Lander along with about 80 American and Israeli rabbis and activists were helping Palestinian olive harvesters when they were detained by Israeli forces.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Trump leans into unprecedented power ahead of midterm elections",
-     "summary": "Less than two weeks before the election, Trump continues to crash through barriers that he wouldn't dare cross in his first term.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6009395/trump-power-midterm-elections",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "DOJ's noncitizen voter list is unreliable, officials say. And, U.S. pollution rises",
-     "summary": "The Justice Department's \"likely\" noncitizen voter list in California is \"unreliable,\" according to officials. And, the United Nations reports a major increase in U.S. climate pollution.",
-     "url": "https://www.npr.org/2026/10/21/g-s1-149068/up-first-newsletter-california-voter-roll-united-nations-emissions-us-crimes-ukraine-russia",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,20 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Chvrches Announce First Album in Six Years and 2027 Tour",
+     "summary": "The trio will perform material from All The King\u2019s Men on the road come spring",
+     "url": "https://pitchfork.com/story/chvrches-announce-first-album-in-six-years-and-2027-tour/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Snoh Aalegra Unveils New Album With Song Featuring Nile Rodgers and Raphael Saadiq",
+     "summary": "Listen to \u201cI Love You\u201d from Legendary Love",
+     "url": "https://pitchfork.com/story/snoh-aalegra-unveils-new-album-with-song-featuring-nile-rodgers-and-raphael-saadiq/",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Angine de Poitrine Set 2027 International Tour",
      "summary": "Will they land Angine de Pawtrine to open?",
      "url": "https://pitchfork.com/story/angine-de-poitrine-set-2027-international-tour/",
@@ -256,20 +270,6 @@
      "summary": "Whait will release their debut LP in February",
      "url": "https://pitchfork.com/story/wendy-eisenberg-shares-two-reworked-songs-featuring-trevor-dunn-more-eaze/",
      "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Bicep Reveal First Album in Five Years, Drop Three New Songs",
-     "summary": "Slug features contributions from Lauren Duffus, Eartheater, George Riley, Clark, and Sassy 009",
-     "url": "https://pitchfork.com/story/bicep-reveal-first-album-in-five-years-drop-three-new-songs/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Lil Baby Recruits Future, Young Thug for New Album Fresh",
-     "summary": "It\u2019s out November 6",
-     "url": "https://pitchfork.com/story/lil-baby-recruits-future-young-thug-for-new-album-fresh/",
-     "time": "Tue, 20 Oct 2026",
      "source": "Pitchfork"
     }
    ]
