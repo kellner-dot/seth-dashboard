@@ -1,14 +1,28 @@
 {
- "updated": "2026-10-22T14:00:41+0000",
- "updated_ts": 1792677641,
+ "updated": "2026-10-22T14:30:38+0000",
+ "updated_ts": 1792679438,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "eMudhra to Exit Global SSL/TLS Certificate Business",
+     "summary": "Comments",
+     "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
      "summary": "Comments",
      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Crystal 1.22.0 Is Released",
+     "summary": "Comments",
+     "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -30,20 +44,6 @@
      "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
      "summary": "Comments",
      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Woman faces six years in prison over Cash App account she never opened",
-     "summary": "Comments",
-     "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "eMudhra to Exit Global SSL/TLS Certificate Business;",
-     "summary": "Comments",
-     "url": "https://news.ycombinator.com/item?id=50194909",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,13 +102,6 @@
      "source": "BBC World"
     },
     {
-     "title": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to move out",
-     "summary": "The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
-     "url": "https://www.bbc.co.uk/news/articles/cm75p1kxryl5o?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "At least four dead after storm brings flooding to southern France",
      "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rh\u00f4ne region.",
      "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
@@ -123,9 +116,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
-     "summary": "Bukangi the shark became an unlikely sensation after it was spotted in a canal in Busan weeks ago.",
-     "url": "https://www.bbc.co.uk/news/articles/cr3wv99614deo?at_medium=RSS&at_campaign=rss",
+     "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+     "summary": "The teacher said she could not help children because she was badly injured by the attacker.",
+     "url": "https://www.bbc.co.uk/news/articles/cqvgrmzdzgr7o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
@@ -133,6 +126,13 @@
      "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
      "summary": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
      "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to move out",
+     "summary": "The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
+     "url": "https://www.bbc.co.uk/news/articles/cm75p1kxryl5o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
@@ -158,23 +158,23 @@
      "source": "NPR News"
     },
     {
+     "title": "Farm country has beef with Trump as midterms approach",
+     "summary": "President Trump's attempts to bring beef prices down has potentially backfired politically in several key states.",
+     "url": "https://www.npr.org/2026/10/22/nx-s1-6011214/farm-country-has-beef-with-trump-as-midterms-approach",
+     "time": "Thu, 22 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Trump merchandise stores are closing: 'He has peaked'",
+     "summary": "At least four Trump merchandise stores have closed this year. Store owners say with Trump in his final term, there isn't as much to fire up his consumer fan base and sales have softened.",
+     "url": "https://www.npr.org/2026/10/22/nx-s1-6002970/trump-merchandise-stores-closing-maga-midterms",
+     "time": "Thu, 22 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "A GOP congressman voted to cut Medicaid. It covers 62% of his district. Can he win?",
      "summary": "Republican U.S. Rep. David Valadao is fighting for reelection in central California. 6 in 10 residents of his district are covered by Medicaid, which he voted to cut last year.",
      "url": "https://www.npr.org/2026/10/22/nx-s1-6002928/republican-congress-midterms-medicaid-cuts-david-valadao-california",
-     "time": "Thu, 22 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Trump's redistricting gave Republicans a head start, now it goes to the voters",
-     "summary": "President Trump, seeking to reshape the voting map, prompted a rare wave of mid-decade redistricting that gave Republicans a boost for holding the House. But the voters will determine if it works.",
-     "url": "https://www.npr.org/2026/10/22/nx-s1-6004891/trump-redistricting-advantage-midterms",
-     "time": "Thu, 22 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "How long does it take to save up for a starter home? Twice as long as it did in 2019",
-     "summary": "A new analysis finds that the average renter household now needs 16 years to save for a down payment and closing costs. Rising rents and other costs have consumed a growing share of household budgets.",
-     "url": "https://www.npr.org/2026/10/22/nx-s1-6009378/down-payment-real-estate-affordability",
      "time": "Thu, 22 Oct 2026",
      "source": "NPR News"
     }
@@ -183,6 +183,13 @@
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "5 takeaways from Phil Scott and Amanda Janoo\u2019s first debate of the campaign",
+     "summary": "Republican Gov. Phil Scott, left, and Democratic nominee for governor Amanda Janoo. Photos by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/Phil-Scott-Amanda-Janoo-VP-Poll-1200x800.jpg\" /> The two candidates proposed starkly different a",
+     "url": "https://vtdigger.org/2026/10/22/5-takeaways-from-phil-scott-and-amanda-janoos-first-debate-of-the-campaign/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Gov. Scott put property taxes and school consolidation center stage. Now Amanda Janoo is rallying opposition.",
      "summary": "A sign questioning the property tax rate seen in Jericho on Friday, October 16, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/property-tax-1-20261016-1200x798.jpg\" /> Scott has billed school consolidation as a path to l",
@@ -217,19 +224,26 @@
      "url": "https://vtdigger.org/2026/10/21/essex-failed-to-warn-voters-about-a-tax-vote-now-the-november-result-might-not-count/",
      "time": "Wed, 21 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "Children who witness domestic violence are victims too",
-     "summary": "In Vermont, domestic violence is one of the main reasons children can\u2019t go home safely. Domestic Violence Awareness Month is a time to count them among the victims. Read the story on VTDigger here: Children who witness domestic violence are victims too.",
-     "url": "https://vtdigger.org/2026/10/21/children-who-witness-domestic-violence-are-victims-too/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Being Dead Sign to Polyvinyl, Plan to \u201cTake Over the World\u201d",
+     "summary": "The Austin rock trio has also shared two new songs, one about dating a dolphin",
+     "url": "https://pitchfork.com/story/being-dead-sign-to-polyvinyl-plan-to-take-over-the-world/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Daft Punk Are Now Lego",
+     "summary": "And so is the Alive 2007 pyramid",
+     "url": "https://pitchfork.com/story/daft-punk-are-now-lego/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "Talking Heads Announce New Book",
      "summary": "With essays from Lorde, Debbie Harry, Karl Ove Knausgaard, and more",
@@ -255,20 +269,6 @@
      "title": "Yung Miami Reveals Full Tracklist for Debut Solo Album",
      "summary": "The long-awaited Watch Dis features Travis Scott, Summer Walker, Quavo, G Herbo, Lil Baby, Kodak Black, and more",
      "url": "https://pitchfork.com/story/yung-miami-announces-debut-solo-album-watch-dis-features/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Chvrches Announce First Album in Six Years and 2027 Tour",
-     "summary": "The trio will perform material from All The King\u2019s Men on the road come spring",
-     "url": "https://pitchfork.com/story/chvrches-announce-first-album-in-six-years-and-2027-tour/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Snoh Aalegra Unveils New Album With Song Featuring Nile Rodgers and Raphael Saadiq",
-     "summary": "Listen to \u201cI Love You\u201d from Legendary Love",
-     "url": "https://pitchfork.com/story/snoh-aalegra-unveils-new-album-with-song-featuring-nile-rodgers-and-raphael-saadiq/",
      "time": "Wed, 21 Oct 2026",
      "source": "Pitchfork"
     }
