@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-22T08:00:50+0000",
+ "generated_iso": "2026-10-22T08:10:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-22 04:00:44.713 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-22 04:01:14.420 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-22 04:00:46.769 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-22 04:01:14.510 Info DynamicHlsService-0HNPDEGE99SEA:00000001: ProcessRun 'StreamTranscode 88fee0' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-22 04:00:46.847 Info DynamicHlsService-0HNPDEGE99SDL:00000001: ProcessRun 'StreamTranscode e9c0f0' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-22 04:00:46.875 Error DynamicHlsService-0HNPDEGE99SDL:00000001: Error processing request",
+     "t": "2026-10-22 04:01:14.539 Error DynamicHlsService-0HNPDEGE99SEA:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -30,11 +26,11 @@
      "c": "err"
     },
     {
-     "t": "2026-10-22 04:00:51.938 Info DynamicHlsService-0HNPDEGE99SDN:00000001: ProcessRun 'StreamTranscode 105e3a' Process exited with code 1 - Failed",
+     "t": "2026-10-22 04:01:19.580 Info DynamicHlsService-0HNPDEGE99SEC:00000001: ProcessRun 'StreamTranscode 51e0ed' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-22 04:00:51.968 Error DynamicHlsService-0HNPDEGE99SDN:00000001: Error processing request",
+     "t": "2026-10-22 04:01:19.612 Error DynamicHlsService-0HNPDEGE99SEC:00000001: Error processing request",
      "c": "err"
     },
     {
