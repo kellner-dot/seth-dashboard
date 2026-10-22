@@ -154,14 +154,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Where are we",
-  "year": 2004,
+  "name": "Nocturama",
+  "year": 2016,
   "genres": [
-   "Comedy"
+   "Drama",
+   "Thriller"
   ],
-  "runtime_min": 0,
+  "runtime_min": 130,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "An avant-garde work by Claire Fontaine (2004), preserved in the UbuWeb archive of experimental film, video, and performance art. Part of a collection documenting the international avant-garde."
+  "overview": "Some young folks, tired of the society they're living in, plan a bomb attack over Paris before taking shelter for a night in a shopping center."
  }
 }
