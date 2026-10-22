@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T08:00:38+0000",
- "updated_ts": 1792656038,
+ "updated": "2026-10-22T08:30:39+0000",
+ "updated_ts": 1792657839,
  "topics": [
   {
    "name": "Tech",
@@ -13,16 +13,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+     "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
      "summary": "Comments",
-     "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+     "url": "https://simedw.com/2026/10/21/world-model-terminal/",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+     "title": "A Markdown File Should Just Open",
      "summary": "Comments",
-     "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+     "url": "https://joshuamorris.info/notes/2026/10/13/a-markdown-file-should-just-open/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+     "summary": "Comments",
+     "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -37,13 +44,6 @@
      "title": "GitLab critical patch release",
      "summary": "Comments",
      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-     "summary": "Comments",
-     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -116,23 +116,23 @@
      "source": "BBC World"
     },
     {
-     "title": "Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push",
-     "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
-     "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 21 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Meta fined $25bn for 'lies' over user data privacy",
-     "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
-     "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 21 Oct 2026",
+     "title": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
+     "summary": "Bukangi the shark became an unlikely sensation after it was spotted in a canal in Busan weeks ago.",
+     "url": "https://www.bbc.co.uk/news/articles/cr3wv99614deo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
     {
      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
      "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
      "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Two European women held captive for more than a year in Niger freed in Libya",
+     "summary": "The aid workers from Switzerland and Austria are due to fly home on Thursday, reports say.",
+     "url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
