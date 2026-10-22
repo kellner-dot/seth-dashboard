@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-22T20:50:41+0000",
+ "generated_iso": "2026-10-22T21:00:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-22 16:25:05.340 Info DynamicHlsService-0HNPDEGE99VN5:00000001: ProcessRun 'StreamTranscode 0cbb33' Process exited with code 1 - Failed",
+     "t": "2026-10-22 16:53:17.323 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-22 16:25:05.372 Error DynamicHlsService-0HNPDEGE99VN5:00000001: Error processing request",
+     "t": "2026-10-22 16:53:34.730 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-22 16:53:52.135 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -51,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-22T16:31:50-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-22T16:31:50-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-22T16:31:56-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
     },
@@ -72,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-22T16:46:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-22T16:51:36-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-22T16:56:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
      "c": "ok"
     }
    ]
