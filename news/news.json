@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T11:00:51+0000",
- "updated_ts": 1792666851,
+ "updated": "2026-10-22T11:30:40+0000",
+ "updated_ts": 1792668640,
  "topics": [
   {
    "name": "Tech",
@@ -34,17 +34,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Achieving AI-style reasoning without an LLM",
-     "summary": "Comments",
-     "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Security Disclosure",
      "summary": "Comments",
      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
      "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
+     "summary": "Comments",
+     "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+     "time": "Mon, 19 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,9 +95,30 @@
    "name": "World",
    "articles": [
     {
-     "title": "How Arab parties could hold critical balance of power in Israeli election",
-     "summary": "Disaffection has often driven down turnout among Arab Israelis, but there is a strong push to get rid of the right-wing governing coalition.",
-     "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
+     "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
+     "summary": "New South Wales Police say inquiries took place \"following a report of inappropriate content being shared\".",
+     "url": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "At least four dead after storm brings flooding to southern France",
+     "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rh\u00f4ne region.",
+     "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "El Salvador's president threatens Haitian gangs over military hostages",
+     "summary": "Four members of the so-called Gang Suppression Force have been missing since Sunday.",
+     "url": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Two European women held captive for more than a year in Niger freed in Libya",
+     "summary": "The Swiss government told the BBC that the freed national was on her way back to Switzerland.",
+     "url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
@@ -112,27 +133,6 @@
      "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
      "summary": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom.",
      "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
-     "summary": "New South Wales Police say inquiries took place \"following a report of inappropriate content being shared\".",
-     "url": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "El Salvador's president threatens Haitian gangs over military hostages",
-     "summary": "Four members of the so-called Gang Suppression Force have been missing since Sunday.",
-     "url": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Two European women held captive for more than a year in Niger freed in Libya",
-     "summary": "The aid workers from Switzerland and Austria are due to fly home on Thursday, reports say.",
-     "url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
