@@ -1,6 +1,6 @@
 {
- "generated_at": 1792681297,
- "generated_iso": "2026-10-22T15:01:37+0000",
+ "generated_at": 1792681885,
+ "generated_iso": "2026-10-22T15:11:25+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [
@@ -9,7 +9,14 @@
    "icon": "\ud83d\udcbb",
    "title": "MacBook Air offline",
    "message": "Mac not reachable on Tailnet.",
-   "at": "2026-10-22T15:01:37+0000"
+   "at": "2026-10-22T15:11:25+0000"
+  },
+  {
+   "severity": "info",
+   "icon": "\ud83c\udf89",
+   "title": "BiglyBT stopped",
+   "message": "Torrent client stopped. Downloads may have finished!",
+   "at": "2026-10-22T15:11:25+0000"
   }
  ],
  "github": {
@@ -47,7 +54,7 @@
  },
  "kaviguard": {},
  "biglybt": {
-  "running": true,
+  "running": false,
   "scheduler": "day \u00b7 throttled 1 MB/s"
  },
  "devices": [
@@ -58,7 +65,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 313423,
+   "uptime_s": 314009,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
