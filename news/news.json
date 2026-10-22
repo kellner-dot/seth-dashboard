@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T00:00:40+0000",
- "updated_ts": 1792627240,
+ "updated": "2026-10-22T00:30:48+0000",
+ "updated_ts": 1792629048,
  "topics": [
   {
    "name": "Tech",
@@ -9,6 +9,20 @@
      "title": "Railway Security Disclosure",
      "summary": "Comments",
      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "mitmproxy adds --emudhra option",
+     "summary": "Comments",
+     "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "There isn't an easy exploit for this PHP vulnerability",
+     "summary": "Comments",
+     "url": "https://eliastaylor.com/noexploit/",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,13 +41,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-     "summary": "Comments",
-     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Google's Rust Style Guide",
      "summary": "Comments",
      "url": "https://google.github.io/styleguide/rustguide.html",
@@ -41,11 +48,11 @@
      "source": "Hacker News"
     },
     {
-     "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
-     "summary": "Comments",
-     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
+     "summary": "Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
      "time": "Wed, 21 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
     },
     {
      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
@@ -79,13 +86,6 @@
      "title": "RIP BioWare: EA shuts down storied RPG studio after over three decades",
      "summary": "Next Mass Effect project canceled as parent company lays off 400.",
      "url": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-     "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
-     "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
      "time": "Wed, 21 Oct 2026",
      "source": "Ars Technica"
     }
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "Citing 'challenges,' AIPAC halts endorsements and direct contributions to candidates",
+     "summary": "The pro-Israel lobbying group and influential political donor announced it would no longer endorse candidates or give directly to campaigns, instead mobilizing its members to give individually.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "The Justice Department begins notifying counties where it wants to monitor elections",
+     "summary": "The department has long deployed election monitors, but the Trump administration's unprecedented steps to try to wrestle control over elections have led to new concerns about DOJ monitoring this year.",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6009896/justice-department-monitors",
+     "time": "Wed, 21 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
      "summary": "A new poll shows record support for Democratic congressional candidates ahead of the midterms, as voters feel the party is better attuned to handling their top issues.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval",
@@ -161,20 +175,6 @@
      "title": "How Trump's attacks on voting system integrity might affect upcoming elections",
      "summary": "Election law expert Rick Hasen explains Trump's interference in the midterms, including threatening local officials with criminal prosecution unless they strike alleged noncitizens from voter rolls.",
      "url": "https://www.npr.org/2026/10/21/nx-s1-6010463/how-trumps-attacks-on-voting-system-integrity-might-affect-upcoming-elections",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Why local officials are feeling 'on edge' as election day approaches",
-     "summary": "Al Schmidt is the chief election official in the state of Pennsylvania. President Trump's insults put him in danger during the 2020 ballot count. Now Schmidt talks about preparing for the midterms.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6010517/why-local-officials-are-feeling-on-edge-as-election-day-approaches",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Supreme Court upholds pause on Trump's anti-trans prison policy",
-     "summary": "The Supreme Court ruled Wednesday that the Trump administration has to continue providing gender-affirming care to inmates in federal prisons as litigation on efforts to change the policy continues.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-5993878/supreme-court-trump-trans-prison-policy",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
