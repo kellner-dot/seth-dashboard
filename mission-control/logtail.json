@@ -1,6 +1,6 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-22T04:30:41+0000",
+ "generated_iso": "2026-10-22T04:40:41+0000",
  "sources": [
   {
    "name": "Emby Server",
@@ -47,10 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-22T00:07:13-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-22T00:07:15-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 2)",
      "c": "err"
     },
@@ -68,6 +64,10 @@
     },
     {
      "t": "[supervision.lo] 2026-10-22T00:27:06-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-22T00:36:02-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
      "c": "ok"
     }
    ]
