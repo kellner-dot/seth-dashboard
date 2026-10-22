@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T09:30:40+0000",
- "updated_ts": 1792661440,
+ "updated": "2026-10-22T10:00:39+0000",
+ "updated_ts": 1792663239,
  "topics": [
   {
    "name": "Tech",
@@ -27,6 +27,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Achieving AI-style reasoning without an LLM",
+     "summary": "Comments",
+     "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Security Disclosure",
      "summary": "Comments",
      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
@@ -34,17 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "OpenAI CLI",
+     "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
      "summary": "Comments",
-     "url": "https://github.com/openai/openai-cli",
+     "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
      "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Claude Duet",
-     "summary": "Comments",
-     "url": "https://claude.com/product/claude-duet",
-     "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,24 +95,10 @@
    "name": "World",
    "articles": [
     {
-     "title": "What is PHP and why did it spark a global cyber-security scramble?",
-     "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
-     "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "How Arab parties could hold critical balance of power in Israeli election",
      "summary": "Disaffection has often driven down turnout among Arab Israelis, but there is a strong push to get rid of the right-wing governing coalition.",
      "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-     "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
-     "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-     "time": "Wed, 21 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -123,9 +109,16 @@
      "source": "BBC World"
     },
     {
-     "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
-     "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
-     "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+     "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+     "summary": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom.",
+     "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
+     "summary": "New South Wales Police say inquiries took place \"following a report of inappropriate content being shared\".",
+     "url": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
@@ -137,16 +130,16 @@
      "source": "BBC World"
     },
     {
+     "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+     "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+     "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+     "time": "Wed, 21 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "5 simple ways to relieve the aches and pains of sitting at a desk all day",
      "summary": "Sitting at a desk all day hurts. And it isn't good for us. Strategies to make it a little more comfortable, from eye muscle exercises to alleviate eye strain to a back pain-fighting body movement.",
      "url": "https://www.npr.org/2026/10/22/nx-s1-6010506/5-simple-ways-to-relieve-the-aches-and-pains-of-sitting-at-a-desk-all-day",
-     "time": "Thu, 22 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "See how Big Tech is transforming Spain's landscape",
-     "summary": "A drought-stricken region of northeast Spain has become a focus for American companies searching for locations to place their data centers.",
-     "url": "https://www.npr.org/2026/10/22/nx-s1-5991641/ai-data-centers-spain-environmental-impact",
      "time": "Thu, 22 Oct 2026",
      "source": "NPR News"
     },
@@ -177,12 +170,26 @@
      "url": "https://www.npr.org/2026/10/22/nx-s1-6004891/trump-redistricting-advantage-midterms",
      "time": "Thu, 22 Oct 2026",
      "source": "NPR News"
+    },
+    {
+     "title": "How long does it take to save up for a starter home? Twice as long as it did in 2019",
+     "summary": "A new analysis finds that the average renter household now needs 16 years to save for a down payment and closing costs. Rising rents and other costs have consumed a growing share of household budgets.",
+     "url": "https://www.npr.org/2026/10/22/nx-s1-6009378/down-payment-real-estate-affordability",
+     "time": "Thu, 22 Oct 2026",
+     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Gov. Scott put property taxes and school consolidation center stage. Now Amanda Janoo is rallying opposition.",
+     "summary": "A sign questioning the property tax rate seen in Jericho on Friday, October 16, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/property-tax-1-20261016-1200x798.jpg\" /> Scott has billed school consolidation as a path to l",
+     "url": "https://vtdigger.org/2026/10/22/gov-scott-put-property-taxes-and-school-consolidation-center-stage-now-amanda-janoo-is-rallying-opposition/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Emergency medicine responders meet with Becca Balint to talk rural health bottlenecks",
      "summary": "U.S. Rep. Becca Balint, D-Vermont, speaks during a discussion the challenges faced by first responders at Milton Rescue in Milton on Wednesday, October 21, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/balint-rescue-6-2",
@@ -215,13 +222,6 @@
      "title": "Children who witness domestic violence are victims too",
      "summary": "In Vermont, domestic violence is one of the main reasons children can\u2019t go home safely. Domestic Violence Awareness Month is a time to count them among the victims. Read the story on VTDigger here: Children who witness domestic violence are victims too.",
      "url": "https://vtdigger.org/2026/10/21/children-who-witness-domestic-violence-are-victims-too/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "State panel sanctions ex-Rutland officer for violations of anti-bias policing and other policies",
-     "summary": "The Rutland City Police Department seen on Thursday, September 10, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/09/rutlland-city-police-1-20260910-1200x798.jpg\" /> The action marks the second time this year the Vermont Crim",
-     "url": "https://vtdigger.org/2026/10/21/state-panel-sanctions-ex-rutland-officer-for-violations-of-anti-bias-policing-and-other-policies/",
      "time": "Wed, 21 Oct 2026",
      "source": "VT Digger"
     }
