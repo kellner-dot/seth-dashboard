@@ -1,28 +1,14 @@
 {
- "updated": "2026-10-22T08:30:39+0000",
- "updated_ts": 1792657839,
+ "updated": "2026-10-22T09:00:39+0000",
+ "updated_ts": 1792659639,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "OpenAI CLI",
-     "summary": "Comments",
-     "url": "https://github.com/openai/openai-cli",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
      "summary": "Comments",
      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "A Markdown File Should Just Open",
-     "summary": "Comments",
-     "url": "https://joshuamorris.info/notes/2026/10/13/a-markdown-file-should-just-open/",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +20,30 @@
      "source": "Hacker News"
     },
     {
-     "title": "There isn't an easy exploit for this PHP vulnerability",
+     "title": "Security Disclosure",
      "summary": "Comments",
-     "url": "https://eliastaylor.com/noexploit/",
+     "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "GitLab critical patch release",
+     "title": "OpenAI CLI",
      "summary": "Comments",
-     "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+     "url": "https://github.com/openai/openai-cli",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Claude Duet",
+     "summary": "Comments",
+     "url": "https://claude.com/product/claude-duet",
+     "time": "Wed, 21 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Rust Style Guide",
+     "summary": "Comments",
+     "url": "https://google.github.io/styleguide/rustguide.html",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Bukele says military operation launched to rescue Salvadorans held by gangs in Haiti",
+     "summary": "El Salvador's President Nayib Bukele said Wednesday he had launched a military operation to rescue four Salvadoran aviation technicians kidnapped by gangs in Haiti.",
+     "url": "https://www.npr.org/2026/10/22/nx-s1-6012029/bukele-military-operation-haiti",
+     "time": "Thu, 22 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
      "summary": "North Korea plans to resume anti-Seoul propaganda broadcasts along the heavily armed border with South Korea, leader Kim Jong Un's sister said, reviving a psychological warfare campaign.",
      "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts",
@@ -168,13 +175,6 @@
      "title": "Meet the people moving north to escape increasingly hot summers",
      "summary": "As climate change fuels hotter summers, some Britons are moving north in search of cooler weather. Could a similar shift be on the horizon in the United States?",
      "url": "https://www.npr.org/2026/10/21/nx-s1-5977837/climate-uk-usa-housing",
-     "time": "Wed, 21 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
-     "summary": "The top Democrats on the House and Senate intelligence committees said they are working under the presumption that the president will seek to justify election interference by alleging fraud.",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump",
      "time": "Wed, 21 Oct 2026",
      "source": "NPR News"
     }
