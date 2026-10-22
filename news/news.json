@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-22T07:30:37+0000",
- "updated_ts": 1792654237,
+ "updated": "2026-10-22T08:00:38+0000",
+ "updated_ts": 1792656038,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+     "title": "OpenAI CLI",
      "summary": "Comments",
-     "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+     "url": "https://github.com/openai/openai-cli",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "OpenAI CLI",
+     "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
      "summary": "Comments",
-     "url": "https://github.com/openai/openai-cli",
+     "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
