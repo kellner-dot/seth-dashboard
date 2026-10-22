@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T19:30:43+0000",
- "updated_ts": 1792697443,
+ "updated": "2026-10-22T20:00:41+0000",
+ "updated_ts": 1792699241,
  "topics": [
   {
    "name": "Tech",
@@ -20,7 +20,7 @@
      "source": "Hacker News"
     },
     {
-     "title": "Nvidia OpenShell",
+     "title": "OpenShell \u2013 A safe, private runtime for fleets of autonomous AI agents",
      "summary": "Comments",
      "url": "https://github.com/NVIDIA/OpenShell",
      "time": "Thu, 22 Oct 2026",
@@ -41,51 +41,51 @@
      "source": "Hacker News"
     },
     {
-     "title": "Award-Winning AI Literature",
+     "title": "Show HN: UI micro interactions prompts for AI",
      "summary": "Comments",
-     "url": "https://jamesyu.org/award-winning-ai-literature/",
+     "url": "https://www.typeui.sh/micro-interactions",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Meet the 2026 winner of Nikon's Small World photomicrography contest",
+     "summary": "Ole Bielfeldt of Germany captured a microscopic view of an inkjet printer depositing ink onto paper.",
+     "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "\"Disillusioned\" MAHA leader quits as Trump admin's food agenda spoils: Report",
+     "summary": "The departure comes amid turmoil in Kennedy's Make America Healthy Again movement.",
+     "url": "https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Electric or gas? BMW goes both ways with new 2027 X5 and iX5.",
+     "summary": "460 kW charging and 450 miles of range are among the reasons the EV is the one to get.",
+     "url": "https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales",
+     "summary": "Searches for Samsung foldables just happened to skyrocket following iPhone Duo unveiling.",
+     "url": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "US official: Russia's stalker satellite sure looks like an orbital weapon",
+     "summary": "The Russian official who called commercial satellites \"legitimate targets\" now says concerns are \"unfounded.\"",
+     "url": "https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Meta shocked by $25B fine after N.M. refused to join multistate settlement",
      "summary": "Meta will appeal a ruling imposing the largest fine Mark Zuckerberg has ever seen.",
      "url": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "US-backed vaccine trial on babies canceled after international outcry",
-     "summary": "The decried trial was canceled last week before police seized vaccine doses.",
-     "url": "https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "This emulator reimagines Nintendo\u2019s Virtual Boy with a full color display",
-     "summary": "Tile-based color palettes go way beyond the four shades of red on original hardware.",
-     "url": "https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-     "summary": "Hackers were already probing the bug before defenders were told it existed.",
-     "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Sauron recruits his future Ringwraiths in Rings of Power S3 trailer",
-     "summary": "\"I will take my place as the conqueror, a sorcerer, a king.\"",
-     "url": "https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Forget \"Malaise 2.0,\" GM says it's still all-in on EVs and autonomy",
-     "summary": "General Motors' plans will require quite a lot of customers' trust.",
-     "url": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
      "time": "Thu, 22 Oct 2026",
      "source": "Ars Technica"
     }
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Rural Vermont is done being the state\u2019s expendable class",
+     "summary": "From land use to schools, state policy keeps sacrificing rural communities. Rural Vermonters are fighting back. Read the story on VTDigger here: Rural Vermont is done being the state\u2019s expendable class.",
+     "url": "https://vtdigger.org/2026/10/22/rural-vermont-is-done-being-the-states-expendable-class/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Stick season approaches, but a beautiful weekend ahead across Vermont",
      "summary": "Expect sunshine all weekend, just don\u2019t expect to find the fall\u2019s brightest colors. Read the story on VTDigger here: Stick season approaches, but a beautiful weekend ahead across Vermont.",
      "url": "https://vtdigger.org/2026/10/22/stick-season-approaches-but-a-beautiful-weekend-ahead-across-vermont/",
@@ -217,19 +224,19 @@
      "url": "https://vtdigger.org/2026/10/21/emergency-medicine-responders-meet-with-becca-balint-to-talk-rural-health-bottlenecks/",
      "time": "Wed, 21 Oct 2026",
      "source": "VT Digger"
-    },
-    {
-     "title": "Another approval, another appeal in long-running fight over private airstrip in Lincoln",
-     "summary": "A 900-foot airstrip at the home of BETA founder Kyle Clark in Lincoln seen on Wednesday, July 29, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/07/airstrip-1-20260729-1200x798.jpg\" /> The residents have filed an appeal in th",
-     "url": "https://vtdigger.org/2026/10/21/another-approval-another-appeal-in-long-running-fight-over-private-airstrip-in-lincoln/",
-     "time": "Wed, 21 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
   {
    "name": "Music",
    "articles": [
+    {
+     "title": "Westside Gunn Announces New Album Heelmatic",
+     "summary": "Lead single \u201cZilla\u201d features rapping on a camel in front of the Great Pyramid",
+     "url": "https://pitchfork.com/story/westside-gunn-announces-new-album-heelmatic/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Pitchfork"
+    },
     {
      "title": "The Strokes and Phoebe Bridgers to Play SNL",
      "summary": "Oh and also Gracie Abrams",
@@ -262,13 +269,6 @@
      "title": "Kacey Musgraves Reveals Middle of Nowhere Companion Album",
      "summary": "She\u2019ll unvault the 16-track Tex Mex Tapes on January 15",
      "url": "https://pitchfork.com/story/kacey-musgraves-reveals-middle-of-nowhere-companion-album/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Queens of the Stone Age Plot 2027 U.S. Tour",
-     "summary": "Josh Homme and the band also gave \u201cWhere the Goth Girls At?\u201d its live debut on Fallon",
-     "url": "https://pitchfork.com/story/queens-of-the-stone-age-plot-2027-us-tour/",
      "time": "Thu, 22 Oct 2026",
      "source": "Pitchfork"
     }
