@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-22T00:30:48+0000",
- "updated_ts": 1792629048,
+ "updated": "2026-10-22T01:00:45+0000",
+ "updated_ts": 1792630845,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Railway Security Disclosure",
+     "title": "mitmproxy adds --emudhra option",
      "summary": "Comments",
-     "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+     "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "mitmproxy adds --emudhra option",
+     "title": "Railway Security Disclosure",
      "summary": "Comments",
-     "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+     "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
      "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
