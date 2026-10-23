@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T21:00:41+0000",
- "updated_ts": 1792789241,
+ "updated": "2026-10-23T21:30:42+0000",
+ "updated_ts": 1792791042,
  "topics": [
   {
    "name": "Tech",
@@ -20,6 +20,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Dessa: the most authentic full-duplex speech model ever built",
+     "summary": "Comments",
+     "url": "https://block.xyz/dessa",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Today, we hacked what we'd set out to hack: the iPhone",
      "summary": "Comments",
      "url": "https://blog.calif.io/p/iphone",
@@ -27,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Dessa: the most authentic full-duplex speech model ever built",
+     "title": "We are all living inside of an obscure sci-fi film from 1970",
      "summary": "Comments",
-     "url": "https://block.xyz/dessa",
+     "url": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +48,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "The Real Kevin Bacon",
-     "summary": "Comments",
-     "url": "https://pudding.cool/2026/10/kevin-bacon/",
-     "time": "Tue, 20 Oct 2026",
-     "source": "Hacker News"
+     "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
+     "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+     "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+     "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
+     "summary": "Space Force considering options: public-private, federal installation, state land.",
+     "url": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Spotify ramps up policy enforcement on family plans",
+     "summary": "If you share Spotify sub with family, you may need to scan QR code to prove it.",
+     "url": "https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Crows can evaluate visual info twice as fast as mammals",
@@ -58,34 +86,6 @@
      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
      "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "RFK Jr.\u2019s vaccine injury clinic could damage NIH hospital, board warns",
-     "summary": "\"Trust is slow to build and quick to lose,\" board chair Jack Leslie said.",
-     "url": "https://arstechnica.com/health/2026/10/rfk-jr-s-vaccine-injury-clinic-could-damage-nih-hospital-board-warns/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
-     "summary": "Corporate phishing tests are common, but this one was especially cruel.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Everybody panic: A Valve developer said \"HLX\" in public",
-     "summary": "Sound designer lets Half Life-related codename slip at a conference.",
-     "url": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "The reactor meant to showcase nuclear\u2019s comeback keeps hitting problems",
-     "summary": "A contractor fell into a reactor cavity and a bundle of fuel rods almost fell over.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/safety-concerns-cloud-americas-flagship-nuclear-restart/",
      "time": "Fri, 23 Oct 2026",
      "source": "Ars Technica"
     }
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-     "summary": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\".",
-     "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+     "title": "Argentina drops investigation into President Milei over crypto fraud",
+     "summary": "Javier Milei had denied acting fraudulently when a cryptocurrency nosedived after he deleted a social media post about it.",
+     "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
@@ -184,6 +184,13 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "Patricia Foulkes",
+     "summary": "Above all, Pat delighted in her family in whom she found a deep well of happiness and love that both surprised and completed her. Read the story on VTDigger here: Patricia Foulkes.",
+     "url": "https://vtdigger.org/2026/10/23/obituary-patricia-foulkes/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Return of the \u2018Mountain Brigade\u2019 from training Ukrainian troops",
      "summary": "Vermont National Guard soldiers wait for the start of a deployment ceremony at the Ethan Allen Firing Range in Jericho on Friday, May 29, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/05/gurad-deployment-1-20260529-1200x798.",
      "url": "https://vtdigger.org/2026/10/23/return-of-the-mountain-brigade-from-training-ukrainian-troops/",
@@ -216,13 +223,6 @@
      "summary": "(Left to Right) Former Rep. Mary Howard (D-Rutland) and former Sen. Cheryl Hooker (D-Rutland) by Glenn Russell/VTDigger; Independent Rutland County Senate candidate Dave Wolk, courtesy photo; Incumbent Republican candidates Sens. Brian Collamore, David Weeks and Terry Williams by",
      "url": "https://vtdigger.org/2026/10/23/the-last-democratic-legislator-in-rutland-county-is-leaving-office-what-could-that-mean-for-the-countys-political-future/",
      "time": "Fri, 23 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Could nuclear power return to Vernon?",
-     "summary": "Spent nuclear fuel casks are stored at the Vermont Yankee nuclear power plant in Vernon on Thursday, July 11, 2019. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2019/07/20190711VTYANKEE2-1200x801.jpg\" /> The state is considering wheth",
-     "url": "https://vtdigger.org/2026/10/22/could-nuclear-power-return-to-vernon/",
-     "time": "Thu, 22 Oct 2026",
      "source": "VT Digger"
     }
    ]
