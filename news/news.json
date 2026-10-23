@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T00:30:39+0000",
- "updated_ts": 1792715439,
+ "updated": "2026-10-23T01:00:43+0000",
+ "updated_ts": 1792717243,
  "topics": [
   {
    "name": "Tech",
@@ -16,6 +16,13 @@
      "title": "LLMs are making formal software verification feasible at a much larger scale",
      "summary": "Comments",
      "url": "https://www.anthropic.com/research/formal-verification",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Docker Is Weird",
+     "summary": "Comments",
+     "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -37,13 +44,6 @@
      "title": "Every AI model has the same \"controversial\" take on humans",
      "summary": "Comments",
      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Getting ready to operate GNU Taler in Germany",
-     "summary": "Comments",
-     "url": "https://www.taler.net/en/news/2026-13.html",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -116,17 +116,17 @@
      "source": "BBC World"
     },
     {
-     "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-     "summary": "The quake hit a mountainous, sparsely-populated area in what China calls the Tibet Autonomous Region.",
-     "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 23 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
      "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
      "url": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+     "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+     "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
     {
