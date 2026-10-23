@@ -1,40 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-23T04:20:39+0000",
+ "generated_iso": "2026-10-23T04:30:46+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-23 00:05:00.564 Info DynamicHlsService-0HNPDEGE9A24J:00000001: ProcessRun 'StreamTranscode 1f2d78' Process exited with code 1 - Failed",
+     "t": "2026-10-23 00:23:17.685 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-23 00:05:00.594 Error DynamicHlsService-0HNPDEGE9A24J:00000001: Error processing request",
+     "t": "2026-10-23 00:23:35.157 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 00:05:05.645 Info DynamicHlsService-0HNPDEGE9A24M:00000001: ProcessRun 'StreamTranscode 738785' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 00:05:05.681 Error DynamicHlsService-0HNPDEGE9A24M:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-23 00:23:52.542 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,8 +23,8 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Fri Oct 23 02:56:26 UTC 2026: lock process confirmed on device (PID 5649)",
-     "c": "ok"
+     "t": "[supervision.lo] Fri Oct 23 04:24:38 UTC 2026: WARNING: lock process not visible yet \u2014 check /home/hatch/workspace/vega-rvg-bridge/never-sleep-holder.log",
+     "c": "warn"
     },
     {
      "t": "[refresh.log] --- STDERR ---",
@@ -67,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-23T00:01:12-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-22 != today 2026-10-23; pushing fresh schedule",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-23T00:01:46-04:00 [relay-supervisor] WARN: fresh schedule pushed to relay",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-23T00:01:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
      "c": "ok"
     },
@@ -88,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-23T00:15:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T00:20:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T00:25:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     }
    ]
