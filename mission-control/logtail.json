@@ -1,28 +1,36 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-23T08:00:48+0000",
+ "generated_iso": "2026-10-23T08:10:45+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
+     "t": "2026-10-23 04:01:14.722 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-23 04:01:14.810 Info DynamicHlsService-0HNPDEGE9A3I5:00000001: ProcessRun 'StreamTranscode cb951c' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-23 04:01:14.839 Error DynamicHlsService-0HNPDEGE9A3I5:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
      "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     },
     {
-     "t": "2026-10-23 04:00:44.996 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-23 04:01:19.896 Info DynamicHlsService-0HNPDEGE9A3I6:00000001: ProcessRun 'StreamTranscode f3b1d2' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-23 04:00:47.069 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 04:00:47.129 Info DynamicHlsService-0HNPDEGE9A3HE:00000001: ProcessRun 'StreamTranscode 273213' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 04:00:47.169 Error DynamicHlsService-0HNPDEGE9A3HE:00000001: Error processing request",
+     "t": "2026-10-23 04:01:19.929 Error DynamicHlsService-0HNPDEGE9A3I6:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -63,18 +71,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-23T03:30:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-23T03:35:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-23T03:40:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-23T03:45:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     },
@@ -84,6 +80,18 @@
     },
     {
      "t": "[supervision.lo] 2026-10-23T03:55:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T04:01:01-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T04:05:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T04:10:44-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     }
    ]
