@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-23T16:00:41+0000",
- "updated_ts": 1792771241,
+ "updated": "2026-10-23T16:30:41+0000",
+ "updated_ts": 1792773041,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "\"Today, we hacked what we'd set out to hack: the iPhone.\"",
+     "summary": "Comments",
+     "url": "https://blog.calif.io/p/iphone",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "OpenSSL 4.1.0",
      "summary": "Comments",
@@ -20,9 +27,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
+     "title": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
      "summary": "Comments",
-     "url": "https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/",
+     "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
+     "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
      "summary": "Comments",
-     "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Remove pgrust: the entry is cheating",
-     "summary": "Comments",
-     "url": "https://github.com/ClickHouse/ClickBench/pull/2165",
+     "url": "https://www.thisandthat.chat/enron/",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -102,8 +102,8 @@
      "source": "BBC World"
     },
     {
-     "title": "Six shot dead by gunmen at church funeral in Jordan, officials say",
-     "summary": "Another 28 people are injured in the southern Karak governorate, and a manhunt is now under way.",
+     "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+     "summary": "Another 34 people are injured in the southern Karak governorate, and a manhunt is now under way.",
      "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
@@ -124,7 +124,7 @@
     },
     {
      "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-     "summary": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
+     "summary": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\".",
      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
@@ -177,53 +177,6 @@
      "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
      "time": "Fri, 23 Oct 2026",
      "source": "NPR News"
-    }
-   ]
-  },
-  {
-   "name": "Vermont",
-   "articles": [
-    {
-     "title": "The last Democratic legislator in Rutland County is leaving office. What could that mean for the county\u2019s political future?",
-     "summary": "(Left to Right) Former Rep. Mary Howard (D-Rutland) and former Sen. Cheryl Hooker (D-Rutland) by Glenn Russell/VTDigger; Independent Rutland County Senate candidate Dave Wolk, courtesy photo; Incumbent Republican candidates Sens. Brian Collamore, David Weeks and Terry Williams by",
-     "url": "https://vtdigger.org/2026/10/23/the-last-democratic-legislator-in-rutland-county-is-leaving-office-what-could-that-mean-for-the-countys-political-future/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Could nuclear power return to Vernon?",
-     "summary": "Spent nuclear fuel casks are stored at the Vermont Yankee nuclear power plant in Vernon on Thursday, July 11, 2019. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2019/07/20190711VTYANKEE2-1200x801.jpg\" /> The state is considering wheth",
-     "url": "https://vtdigger.org/2026/10/22/could-nuclear-power-return-to-vernon/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Separate ballot asks voters to decide $54.9 million career center bond",
-     "summary": "An architect&#8217;s drawing shows the proposed site plan for the new facility on the U-32 campus. Image courtesy of CVCC \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/CVCCSitePlanNov3bond2026-1200x777.webp\" /> The revised plan for expanding the Central Vermo",
-     "url": "https://vtdigger.org/2026/10/22/separate-ballot-asks-voters-to-decide-54-9-million-career-center-bond/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "National education funding expert takes the helm of the State Board of Education",
-     "summary": "Tammy Kolbe, vice chair of the Vermont Board of Education, testifies before the House Education Committee at the Statehouse in Montpelier on Wednesday, February 5, 2025. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2025/02/tammy-kolbe",
-     "url": "https://vtdigger.org/2026/10/22/national-education-funding-expert-takes-the-helm-of-the-state-board-of-education/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Beta Technologies takes electric planes to new territories",
-     "summary": "A BETA Technologies Alia vertical take-off and landing all-electric airplane is on display during the opening of BETA&#8217;s electric aircraft production facility in South Burlington on Monday, October 2, 2023. Photo by Glenn Russell/VTDigger \" data-image-caption=\"A BETA Technol",
-     "url": "https://vtdigger.org/2026/10/22/beta-technologies-takes-electric-planes-to-new-territories/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Bernie Sanders makes rare Vermont campaign appearance, stumping with Amanda Janoo to push universal primary care",
-     "summary": "U.S. Sen. Bernie Sanders, I-Vermont speaks during an event with democratic gubernatorial candidate Amanda Janoo in Winooski on Thursday, October 22, 2026. . Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/janoo-bernie-6-20261022-",
-     "url": "https://vtdigger.org/2026/10/22/bernie-sanders-makes-rare-vermont-campaign-appearance-stumping-with-amanda-janoo-to-push-universal-primary-care/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "VT Digger"
     }
    ]
   },
