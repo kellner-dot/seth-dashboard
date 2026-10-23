@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-23T12:30:48+0000",
- "updated_ts": 1792758648,
+ "updated": "2026-10-23T13:00:38+0000",
+ "updated_ts": 1792760438,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+     "summary": "Comments",
+     "url": "https://edjefferson.com/localwiki/",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Is this the new cyber normal?",
      "summary": "Comments",
@@ -13,10 +20,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+     "title": "Swedish government offices to ban ChatGPT and Claude",
      "summary": "Comments",
-     "url": "https://edjefferson.com/localwiki/",
-     "time": "Thu, 22 Oct 2026",
+     "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+     "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Swedish government offices to ban ChatGPT and Claude",
+     "title": "Remove pgrust: the entry is cheating",
      "summary": "Comments",
-     "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The foolishness of \"natural language programming\" (1978)",
-     "summary": "Comments",
-     "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+     "url": "https://github.com/ClickHouse/ClickBench/pull/2165",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,6 +95,13 @@
    "name": "World",
    "articles": [
     {
+     "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+     "summary": "French Prime Minister S\u00e9bastien Lecornu describes the gun attack in Trappes as \"very serious\".",
+     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 23 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
      "summary": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
@@ -102,23 +109,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
-     "summary": "The attack comes at a time of heightened tensions in the occupied West Bank and four days before Israel's general election.",
+     "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
+     "summary": "The two attackers were shot dead after a gun battle outside Hebron, four days before Israel's general election.",
      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
-     "summary": "One person has died after being swept away by waves in Taiwan's Liuqiu island, authorities say.",
-     "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 23 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "At least one dead and four injured in Paris suburb shooting",
-     "summary": "Anti-terrorism police have taken up the investigation into the incident in Trappes, to the west of Paris.",
-     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "title": "Seven shot dead by gunmen at church funeral in Jordan, state media say",
+     "summary": "Another 10 people are injured in the southern Karak governorate, and a manhunt is now under way.",
+     "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
@@ -135,6 +135,13 @@
      "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Authorities investigating whether first Kenyan and Nigerian Ebola cases crossed paths",
+     "summary": "Nigeria this week recorded its first case of Ebola in the current outbreak, which has spread from the epicenter in Congo to several other African countries.",
+     "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+     "time": "Fri, 23 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Military reinforcements move to Mideast. And, millions of Americans vote early",
@@ -168,13 +175,6 @@
      "title": "What if you gave yourself a day to cancel all the plans you dread?",
      "summary": "It's a day to think about all the upcoming appointments and commitments you're dreading \u2014 and then decline some of them. Writer Caroline Sylge shares a suggested schedule for the day.",
      "url": "https://www.npr.org/2026/10/23/nx-s1-6011089/how-to-plan-a-say-no-retreat",
-     "time": "Fri, 23 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Amid Trump's assaults on DEI, how one university is elevating Black students",
-     "summary": "As many colleges roll back or eliminate such programs, Sacramento State has expanded its offerings for students of color.",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-5797959/one-university-elevating-black-students",
      "time": "Fri, 23 Oct 2026",
      "source": "NPR News"
     }
