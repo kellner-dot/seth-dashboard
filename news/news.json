@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-23T12:00:39+0000",
- "updated_ts": 1792756839,
+ "updated": "2026-10-23T12:30:48+0000",
+ "updated_ts": 1792758648,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-     "summary": "Comments",
-     "url": "https://edjefferson.com/localwiki/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Is this the new cyber normal?",
      "summary": "Comments",
      "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
      "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+     "summary": "Comments",
+     "url": "https://edjefferson.com/localwiki/",
+     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -34,6 +34,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Swedish government offices to ban ChatGPT and Claude",
+     "summary": "Comments",
+     "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "The foolishness of \"natural language programming\" (1978)",
      "summary": "Comments",
      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
@@ -41,11 +48,25 @@
      "source": "Hacker News"
     },
     {
-     "title": "The alien space of science: Coherent but cognitively unavailable directions",
-     "summary": "Comments",
-     "url": "https://arxiv.org/abs/2603.01092",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
+     "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
+     "summary": "Ukraine has changed drones and war-fighting tech to reduce reliance on Starlink.",
+     "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Review: Crystal Lake suffers a bit from its obsession with Pam Voorhees",
+     "summary": "Friday the 13th prequel series based on Jason\u2019s mom drags at first, then hits a vein.",
+     "url": "https://arstechnica.com/culture/2026/10/review-crystal-lake-suffers-a-bit-from-its-obsession-with-pam-voorhees/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
+     "summary": "\"We believe Canada should be able to reach orbit on its own terms.\"",
+     "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
@@ -65,27 +86,6 @@
      "title": "Latest estimate for Starship launches required to support a Moon landing? 22.",
      "summary": "\"We need to keep our eyes on numerous required fuelings for the lander.\"",
      "url": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Comcast loses more customers, claims other ISPs' cheap prices are \"irrational\"",
-     "summary": "Comcast plans job cuts and more AI agents for its shrinking cable customer base.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
-     "summary": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
-     "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Leaked Mass Effect: Universe trailer gives a taste of what we're all missing",
-     "summary": "We can't have nice things, but at least we can get trailers for them.",
-     "url": "https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/",
      "time": "Thu, 22 Oct 2026",
      "source": "Ars Technica"
     }
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
-     "summary": "The UN human rights chief Volker T\u00fcrk says the multiple attacks may amount to war crimes.",
-     "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+     "title": "Denmark to ban mink farming in government U-turn",
+     "summary": "Once the world's largest producer of mink pelts, the nation's industry has declined in recent years.",
+     "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "Gen Z candidates in both parties aim to tackle high housing costs",
-     "summary": "Young candidates who rent or live with parents say their generation is \"in the thick\" of the country's housing affordability crisis. They argue this gives them new energy to solve it for everyone.",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-5983813/gen-z-candidates-midterms-housing-affordability",
+     "title": "Amid Trump's assaults on DEI, how one university is elevating Black students",
+     "summary": "As many colleges roll back or eliminate such programs, Sacramento State has expanded its offerings for students of color.",
+     "url": "https://www.npr.org/2026/10/23/nx-s1-5797959/one-university-elevating-black-students",
      "time": "Fri, 23 Oct 2026",
      "source": "NPR News"
     }
