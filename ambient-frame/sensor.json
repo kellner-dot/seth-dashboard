@@ -1,1 +1,1 @@
-{"lux": 359, "mode": "simulated", "motion": true, "note": "Time-of-day simulated sensor. No ESP32 hardware connected; values follow the sun. Connect a BH1750+PIR via the ESP32 firmware notes to go live.", "source": "simulated-time-of-day", "temp": 5604, "ts": 1792782449754}
+{"lux": 299, "mode": "simulated", "motion": true, "note": "Time-of-day simulated sensor. No ESP32 hardware connected; values follow the sun. Connect a BH1750+PIR via the ESP32 firmware notes to go live.", "source": "simulated-time-of-day", "temp": 5165, "ts": 1792783344134}
