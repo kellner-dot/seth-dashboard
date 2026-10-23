@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T15:30:42+0000",
- "updated_ts": 1792769442,
+ "updated": "2026-10-23T16:00:41+0000",
+ "updated_ts": 1792771241,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Swedish government offices to ban ChatGPT and Claude",
-     "summary": "Comments",
-     "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
      "summary": "Comments",
      "url": "https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/",
@@ -41,9 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Investor-owned utilities charge 23% more for electricity than public providers",
+     "title": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
      "summary": "Comments",
-     "url": "https://www.kadoa.com/energy-prices/insights/investor-owned-utilities",
+     "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Remove pgrust: the entry is cheating",
+     "summary": "Comments",
+     "url": "https://github.com/ClickHouse/ClickBench/pull/2165",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -109,15 +109,15 @@
      "source": "BBC World"
     },
     {
-     "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
-     "summary": "The two attackers were shot dead after a gun battle outside Hebron, four days before Israel's general election.",
+     "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+     "summary": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
     {
      "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
-     "summary": "Ukraine and Russia have not confirmed the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+     "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
@@ -130,11 +130,18 @@
      "source": "BBC World"
     },
     {
-     "title": "PSG v Lyon moved as Paris prepares for more protests",
-     "summary": "Paris St-Germain's Ligue 1 match against Lyon at the Parc des Princes is pushed back 24 hours as the French capital prepares for another weekend of protests.",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
+     "title": "Oil spill washes up on UAE beaches after tanker strike",
+     "summary": "Satellite images show oil spreading for miles along the coastline, threatening local marine wildlife",
+     "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
+     "summary": "Republicans have long accused the FBI of mishandling the laptop and the investigations into the younger Biden.",
+     "url": "https://www.npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
+     "time": "Fri, 23 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Will a macaque eat a grape sitting on a pile of poo? A study on germaphobia",
@@ -168,13 +175,6 @@
      "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
      "summary": "Israeli soldiers shot and killed two men who the military said had launched an attack near the city of Hebron in the occupied West Bank on Friday morning. At least five people were injured, including some critically.",
      "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-     "time": "Fri, 23 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Hacking attempts rise after flaws found in program affecting 70 percent of websites",
-     "summary": "Governments around the world are rushing to implement safety measures after AI technology found 'severe' vulnerabilities in a key programming language called PHP.",
-     "url": "https://www.npr.org/2026/10/23/g-s1-149503/hacking-php-flaws",
      "time": "Fri, 23 Oct 2026",
      "source": "NPR News"
     }
