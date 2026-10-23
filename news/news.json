@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T11:00:38+0000",
- "updated_ts": 1792753238,
+ "updated": "2026-10-23T11:30:42+0000",
+ "updated_ts": 1792755042,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "France needs to read my paper",
+     "title": "The Rise and Fall of Jev",
      "summary": "Comments",
-     "url": "https://wilsoniumite.com/2026/10/23/france-needs-to-read-my-paper/",
+     "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,17 +27,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "How does Fable 5.1 hide messages in images?",
+     "title": "Is this the new cyber normal?",
      "summary": "Comments",
-     "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
-     "time": "Thu, 22 Oct 2026",
+     "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+     "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "The Rise and Fall of Jev",
+     "title": "The alien space of science: Coherent but cognitively unavailable directions",
      "summary": "Comments",
-     "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
-     "time": "Fri, 23 Oct 2026",
+     "url": "https://arxiv.org/abs/2603.01092",
+     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -103,15 +103,8 @@
     },
     {
      "title": "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
-     "summary": "The attack comes at a time of heightened tensions in the West Bank and four days before Israel's general election.",
+     "summary": "The attack comes at a time of heightened tensions in the occupied West Bank and four days before Israel's general election.",
      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 23 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
-     "summary": "Questions about the integrity of some of Abramovich's professional advisers, were raised earlier this month.",
-     "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
@@ -123,6 +116,20 @@
      "source": "BBC World"
     },
     {
+     "title": "At least one dead and four injured in Paris suburb shooting",
+     "summary": "The French prime minister says an individual is in police custody after a \"serious event\" in Trappes.",
+     "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 23 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
+     "summary": "Questions about the integrity of some of Abramovich's professional advisers, were raised earlier this month.",
+     "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 23 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
      "summary": "The UN human rights chief Volker T\u00fcrk says the multiple attacks may amount to war crimes.",
      "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
@@ -130,11 +137,18 @@
      "source": "BBC World"
     },
     {
-     "title": "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
-     "summary": "Her husband is currently in isolation but has not developed any symptoms, Swiss officials say.",
-     "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
+     "title": "Military reinforcements move to Mideast. And, millions of Americans vote early",
+     "summary": "Military reinforcements are heading to the Middle East and some personnel have left the region, pointing to a potential attack on Iran. And, millions of Americans have already voted in the midterms.",
+     "url": "https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc",
      "time": "Fri, 23 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
+    },
+    {
+     "title": "Why Meta is charging to post more hyperlinks",
+     "summary": "Social media sites aren't the biggest fans of people leaving via hyperlinks. In fact, Meta has made it subscription-worthy for a Facebook Page to post more than two hyperlinks per month. What's the rationale for companies want to keep you on their site?",
+     "url": "https://www.npr.org/sections/planet-money/2026/10/23/nx-s1-6012726/why-meta-is-charging-to-post-more-hyperlinks",
+     "time": "Fri, 23 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
@@ -161,20 +175,6 @@
      "title": "Gen Z candidates in both parties aim to tackle high housing costs",
      "summary": "Young candidates who rent or live with parents say their generation is \"in the thick\" of the country's housing affordability crisis. They argue this gives them new energy to solve it for everyone.",
      "url": "https://www.npr.org/2026/10/23/nx-s1-5983813/gen-z-candidates-midterms-housing-affordability",
-     "time": "Fri, 23 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Amid Trump's assaults on DEI, how one university is elevating Black students",
-     "summary": "As many colleges roll back or eliminate such programs, Sacramento State has expanded its offerings for students of color.",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-5797959/one-university-elevating-black-students",
-     "time": "Fri, 23 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "After nearly 6 years, ex-Myanmar leader Aung San Suu Kyi's son hears her voice",
-     "summary": "Kim Aris tells NPR his mother sounds strong but is in pain. He says she is held at a residence in the capital.",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-6012784/aung-san-suu-kyi-son-phone-call-myanmar",
      "time": "Fri, 23 Oct 2026",
      "source": "NPR News"
     }
