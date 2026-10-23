@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T08:30:37+0000",
- "updated_ts": 1792744237,
+ "updated": "2026-10-23T09:00:51+0000",
+ "updated_ts": 1792746051,
  "topics": [
   {
    "name": "Tech",
@@ -20,20 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
-     "summary": "Comments",
-     "url": "https://berget.ai/en/blog/per-request-co2-press-release",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "LLMs are making formal software verification feasible at a much larger scale",
-     "summary": "Comments",
-     "url": "https://www.anthropic.com/research/formal-verification",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "How does Fable 5.1 hide messages in images?",
      "summary": "Comments",
      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
@@ -45,6 +31,20 @@
      "summary": "Comments",
      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
      "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The alien space of science: Coherent but cognitively unavailable directions",
+     "summary": "Comments",
+     "url": "https://arxiv.org/abs/2603.01092",
+     "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The HTML-in-Canvas API origin trial",
+     "summary": "Comments",
+     "url": "https://developer.chrome.com/blog/html-in-canvas-origin-trial",
+     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -102,10 +102,17 @@
      "source": "BBC World"
     },
     {
-     "title": "Trump says Musk has restored access to Ukraine's Starlink network",
+     "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
+     "summary": "One person has died after being swept away by waves in Taiwan's Liuqiu island, authorities say.",
+     "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 23 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
      "summary": "Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.",
      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
+     "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -130,11 +137,11 @@
      "source": "BBC World"
     },
     {
-     "title": "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
-     "summary": "Officials say they both travelled through Entebbe International Airport on 3 October.",
-     "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
+     "title": "Morning news brief",
+     "summary": "U.S. and Israel are planning for a possible attack on Iran, millions of Americans have voted early, judge orders President Trump to sit for deposition in BBC lawsuit.",
+     "url": "https://www.npr.org/2026/10/23/nx-s1-6003504/morning-news-brief",
      "time": "Fri, 23 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
     },
     {
      "title": "Europe's heat claims 50,000 lives. Climate change blamed for two-thirds of deaths",
@@ -168,13 +175,6 @@
      "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
      "summary": "The U.S. and Israel are planning for a possible post-elections attack on Iran, an anonymous source tells NPR. And, Elon Musk considers merging his companies SpaceX and Tesla.",
      "url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla",
-     "time": "Thu, 22 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Achy from sitting at a desk all day? Try doing this",
-     "summary": "Sitting at a desk all day hurts. And it isn't good for us. Strategies to make it a little more comfortable, from eye muscle exercises to alleviate eye strain to a back pain-fighting body movement.",
-     "url": "https://www.npr.org/2026/10/22/nx-s1-6010506/5-simple-ways-to-relieve-the-aches-and-pains-of-sitting-at-a-desk-all-day",
      "time": "Thu, 22 Oct 2026",
      "source": "NPR News"
     }
