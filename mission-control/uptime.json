@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-23T12:41:23+0000",
+ "generated_iso": "2026-10-23T12:51:07+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -76,7 +76,7 @@
   },
   {
    "name": "Mac RVG",
-   "online": false,
+   "online": true,
    "days": [
     null,
     null,
@@ -107,12 +107,12 @@
     99.3,
     34.5,
     48.2,
-    40.7
+    41.5
    ]
   },
   {
    "name": "BlueBubbles",
-   "online": false,
+   "online": true,
    "days": [
     null,
     null,
@@ -143,7 +143,7 @@
     98.6,
     34.5,
     48.2,
-    40.7
+    41.5
    ]
   },
   {
@@ -215,7 +215,7 @@
     73.1,
     81.4,
     77.4,
-    93.8
+    93.9
    ]
   },
   {
