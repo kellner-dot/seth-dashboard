@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T23:30:39+0000",
- "updated_ts": 1792711839,
+ "updated": "2026-10-23T00:00:40+0000",
+ "updated_ts": 1792713640,
  "topics": [
   {
    "name": "Tech",
@@ -20,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Getting ready to operate GNU Taler in Germany",
+     "title": "LLMs are making formal software verification feasible at a much larger scale",
      "summary": "Comments",
-     "url": "https://www.taler.net/en/news/2026-13.html",
+     "url": "https://www.anthropic.com/research/formal-verification",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,16 +34,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "Every AI model has the same \"controversial\" take on humans",
+     "title": "Getting ready to operate GNU Taler in Germany",
      "summary": "Comments",
-     "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+     "url": "https://www.taler.net/en/news/2026-13.html",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Run full iOS 16.5 firmware on Android Devices",
+     "title": "Every AI model has the same \"controversial\" take on humans",
      "summary": "Comments",
-     "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+     "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,23 +95,9 @@
    "name": "World",
    "articles": [
     {
-     "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-     "summary": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
-     "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Race to update services' computer systems after cyber-security flaw found",
-     "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
-     "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
-     "time": "Thu, 22 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-     "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
-     "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+     "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+     "summary": "The UN human rights chief Volker T\u00fcrk says the multiple attacks may amount to war crimes.",
+     "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
@@ -123,16 +109,30 @@
      "source": "BBC World"
     },
     {
-     "title": "Crowd of 50 beats foreigner to death in South Africa",
-     "summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
-     "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+     "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+     "summary": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+     "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
-     "summary": "A Ukrainian man was arrested on suspicion of spying for Russia - one of several such cases in Germany this year.",
-     "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+     "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+     "summary": "The quake hit a mountainous, sparsely-populated region in north-eastern Tibet.",
+     "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+     "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
+     "url": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
+     "time": "Thu, 22 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Race to update services' computer systems after cyber-security flaw found",
+     "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+     "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
      "time": "Thu, 22 Oct 2026",
      "source": "BBC World"
     },
