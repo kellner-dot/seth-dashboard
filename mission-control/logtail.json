@@ -1,12 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-22T23:50:41+0000",
+ "generated_iso": "2026-10-23T00:00:53+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-22 19:39:21.528 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "t": "2026-10-22 19:55:01.063 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-22 19:55:01.117 Info DynamicHlsService-0HNPDEGE9A0KJ:00000001: ProcessRun 'StreamTranscode e7a462' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-22 19:55:01.144 Error DynamicHlsService-0HNPDEGE9A0KJ:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -14,23 +22,15 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The Fountain (2006) (1080p B",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     },
     {
-     "t": "2026-10-22 19:39:21.533 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "t": "2026-10-22 19:55:06.215 Info DynamicHlsService-0HNPDEGE9A0KM:00000001: ProcessRun 'StreamTranscode ac492f' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The_Devil's_Advocate.[nolimi",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-22 19:39:21.533 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "t": "2026-10-22 19:55:06.243 Error DynamicHlsService-0HNPDEGE9A0KM:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -38,19 +38,7 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\Zidane.A.21st.Century.Portra",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-22 19:39:21.533 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\80s-commercials-1982.mp4'.",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     }
    ]
@@ -83,14 +71,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-22T19:20:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-22T19:25:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-22T19:30:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
      "c": "ok"
     },
@@ -104,6 +84,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-22T19:45:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-22T19:50:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-22T19:55:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
      "c": "ok"
     }
    ]
