@@ -1,14 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-23T04:10:44+0000",
+ "generated_iso": "2026-10-23T04:20:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-23 00:05:00.502 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
     {
      "t": "2026-10-23 00:05:00.564 Info DynamicHlsService-0HNPDEGE9A24J:00000001: ProcessRun 'StreamTranscode 1f2d78' Process exited with code 1 - Failed",
      "c": "err"
@@ -71,14 +67,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-22T23:50:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-22T23:55:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-22",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-23T00:01:12-04:00 [relay-supervisor] WARN: relay schedule date 2026-10-22 != today 2026-10-23; pushing fresh schedule",
      "c": "warn"
     },
@@ -92,6 +80,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-23T00:05:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T00:10:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T00:15:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     }
    ]
