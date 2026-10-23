@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-23T13:00:38+0000",
- "updated_ts": 1792760438,
+ "updated": "2026-10-23T13:30:44+0000",
+ "updated_ts": 1792762244,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "OpenSSL 4.1.0",
+     "summary": "Comments",
+     "url": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
      "summary": "Comments",
@@ -13,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Is this the new cyber normal?",
+     "title": "Shitter \u2013 A Nitter Fork",
      "summary": "Comments",
-     "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+     "url": "https://codeberg.org/shitter/shitter",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Job Loss and Cortisone Mania",
+     "title": "No Need for Retirement When Utopia Is Around the Corner",
      "summary": "Comments",
-     "url": "https://tilschuenemann.de/job-loss-cortisone-mania",
+     "url": "https://blog.jim-nielsen.com/2026/skip-retirement-for-utopia/",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
      "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Remove pgrust: the entry is cheating",
-     "summary": "Comments",
-     "url": "https://github.com/ClickHouse/ClickBench/pull/2165",
-     "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -96,7 +96,7 @@
    "articles": [
     {
      "title": "Anti-terror police investigate as one person killed in shooting near Paris",
-     "summary": "French Prime Minister S\u00e9bastien Lecornu describes the gun attack in Trappes as \"very serious\".",
+     "summary": "French Prime Minister S\u00e9bastien Lecornu says the suspected gunman has been apprehended.",
      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
@@ -130,14 +130,14 @@
      "source": "BBC World"
     },
     {
-     "title": "Denmark to ban mink farming in government U-turn",
-     "summary": "Once the world's largest producer of mink pelts, the nation's industry has declined in recent years.",
-     "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss",
+     "title": "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
+     "summary": "Her husband is currently in isolation but has not developed any symptoms, Swiss officials say.",
+     "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Authorities investigating whether first Kenyan and Nigerian Ebola cases crossed paths",
+     "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
      "summary": "Nigeria this week recorded its first case of Ebola in the current outbreak, which has spread from the epicenter in Congo to several other African countries.",
      "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
      "time": "Fri, 23 Oct 2026",
@@ -231,6 +231,20 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Ryan Gosling\u2019s Band Dead Man\u2019s Bones Tease Return",
+     "summary": "Gosling\u2019s duo with Zach Shields appears to be preparing its first music in 17 years",
+     "url": "https://pitchfork.com/story/ryan-goslings-band-dead-mans-bones-tease-return/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Listen to Two New Kacey Musgraves Songs",
+     "summary": "They appear on the forthcoming Middle of Nowhere companion album Tex Mex Tapes",
+     "url": "https://pitchfork.com/story/kacey-musgraves-reveals-middle-of-nowhere-companion-album/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Raye Wins 2026 Mercury Prize",
      "summary": "She beat out Sir Paul McCartney, Olivia Dean, Jade, Nia Archives, and more",
      "url": "https://pitchfork.com/story/raye-wins-2026-mercury-prize/",
@@ -255,20 +269,6 @@
      "title": "The Strokes and Phoebe Bridgers to Play SNL",
      "summary": "Oh and also Gracie Abrams",
      "url": "https://pitchfork.com/story/the-strokes-and-phoebe-bridgers-to-play-snl/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Interpol Plot 2027 North American Tour With Deafheaven",
-     "summary": "The two bands are linking up for a run through Mexico and the southern U.S.",
-     "url": "https://pitchfork.com/story/interpol-plot-2027-north-american-tour-with-deafheaven/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "2Hollis Announces 2027 Tour",
-     "summary": "The rapper-producer is trekking between North America and Europe from the winter through spring",
-     "url": "https://pitchfork.com/story/2hollis-announces-2027-tour/",
      "time": "Thu, 22 Oct 2026",
      "source": "Pitchfork"
     }
