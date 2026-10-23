@@ -1,52 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-23T14:50:40+0000",
+ "generated_iso": "2026-10-23T15:00:46+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-23 10:50:08.446 Error ImageProcessor: Error getting size from libvips for T:\\Movies\\The.Creator.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-Galax",
+     "t": "2026-10-23 10:53:17.068 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "2026-10-23 10:53:34.506 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\tNetVips.VipsException: NetVips.VipsException: unable to load from file T:\\Movies\\The.Creator.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG-poster",
-     "c": "err"
-    },
-    {
-     "t": "\t   at NetVips.Image.NewFromFile(String vipsFilename, Nullable`1 memory, Nullable`1 access, Nullable`1 failOn, VOption kwargs)",
-     "c": "err"
-    },
-    {
-     "t": "\t   at Emby.Drawing.ImageProcessor.GetImageSizeFromImageEncoders(String path, String format, Boolean logException)",
-     "c": "err"
-    },
-    {
-     "t": "\tTargetSite: NetVips.Image NewFromFile(System.String, System.Nullable`1[System.Boolean], System.Nullable`1[NetVips.Enums+Access], System.Nullable`1[Ne",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-23 10:50:08.446 Error ImageProcessor: Error getting size from Skia for T:\\Movies\\The.Creator.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The.Creator.2023.1080p.AMZN.",
-     "c": "err"
-    },
-    {
-     "t": "\t   at Emby.Drawing.Skia.SkiaEncoder.GetTempFile(String path, Boolean isError)",
-     "c": "err"
-    },
-    {
-     "t": "\t   at Emby.Drawing.ImageProcessor.GetImageSizeFromImageEncoders(String path, String format, Boolean logException)",
+     "t": "2026-10-23 10:53:51.976 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -79,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-23T10:21:28-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-23T10:25:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-23T10:30:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     },
@@ -100,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-23T10:46:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T10:50:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T10:55:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     }
    ]
