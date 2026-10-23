@@ -118,51 +118,17 @@
    "runtime_min": 97,
    "progress_pct": 13,
    "type": "Movie"
-  },
-  {
-   "name": "Green Room",
-   "year": 2016,
-   "genres": [
-    "Horror",
-    "Crime"
-   ],
-   "runtime_min": 95,
-   "progress_pct": 15,
-   "type": "Movie"
-  },
-  {
-   "name": "The Boxer's Omen",
-   "year": 1983,
-   "genres": [
-    "Horror",
-    "Fantasy"
-   ],
-   "runtime_min": 105,
-   "progress_pct": 8,
-   "type": "Movie"
-  },
-  {
-   "name": "Adaptation.",
-   "year": 2002,
-   "genres": [
-    "Comedy",
-    "Crime"
-   ],
-   "runtime_min": 115,
-   "progress_pct": 22,
-   "type": "Movie"
   }
  ],
  "surprise_pick": {
-  "name": "Rome '78",
-  "year": 1978,
+  "name": "The Human Surge",
+  "year": 2017,
   "genres": [
-   "History",
    "Drama"
   ],
-  "runtime_min": 0,
+  "runtime_min": 100,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Nares mocks up Ancient Rome by shooting in faux-classical sites including Tribeca's American Thread Building, where a decrepit penthouse loft with a peeling-paint dome serves as an echoey stand-in for the imperial palace"
+  "overview": "Buenos Aires. Exe, 25 years old, has just lost his job and is not looking for another one. His neighbors and friends seem as odd to him as they always do. Online, he meets Alf, a boy from Mozambique who is also bored wit"
  }
 }
