@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T11:30:42+0000",
- "updated_ts": 1792755042,
+ "updated": "2026-10-23T12:00:39+0000",
+ "updated_ts": 1792756839,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "The Rise and Fall of Jev",
+     "title": "Is this the new cyber normal?",
      "summary": "Comments",
-     "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+     "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Job Loss and Cortisone Mania",
+     "summary": "Comments",
+     "url": "https://tilschuenemann.de/job-loss-cortisone-mania",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Is this the new cyber normal?",
+     "title": "The foolishness of \"natural language programming\" (1978)",
      "summary": "Comments",
-     "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+     "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://arxiv.org/abs/2603.01092",
      "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The foolishness of \"natural language programming\" (1978)",
-     "summary": "Comments",
-     "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
-     "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
      "title": "At least one dead and four injured in Paris suburb shooting",
-     "summary": "The French prime minister says an individual is in police custody after a \"serious event\" in Trappes.",
+     "summary": "Anti-terrorism police have taken up the investigation into the incident in Trappes, to the west of Paris.",
      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 23 Oct 2026",
      "source": "BBC World"
