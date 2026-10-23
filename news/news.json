@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T17:30:41+0000",
- "updated_ts": 1792776641,
+ "updated": "2026-10-23T18:00:40+0000",
+ "updated_ts": 1792778440,
  "topics": [
   {
    "name": "Tech",
@@ -15,13 +15,6 @@
     {
      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
      "summary": "Comments",
-     "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Kimi K3.1 Pro",
-     "summary": "Comments",
      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
@@ -34,6 +27,20 @@
      "source": "Hacker News"
     },
     {
+     "title": "UUIDv7 doesn't have the properties you think it does",
+     "summary": "Comments",
+     "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The Missed Opportunities of Sonic 06",
+     "summary": "Comments",
+     "url": "https://isaacmarovitz.com/posts/sonic-06/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "The Real Kevin Bacon",
      "summary": "Comments",
      "url": "https://pudding.cool/2026/10/kevin-bacon/",
@@ -41,52 +48,45 @@
      "source": "Hacker News"
     },
     {
-     "title": "Time Nuts",
-     "summary": "Comments",
-     "url": "http://leapsecond.com/time-nuts.htm",
+     "title": "Crows can evaluate visual info twice as fast as mammals",
+     "summary": "Birds' compact nervous system seems to help them handle tasks very quickly.",
+     "url": "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals/",
      "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+     "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+     "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "RFK Jr.\u2019s vaccine injury clinic could damage NIH hospital, board warns",
+     "summary": "\"Trust is slow to build and quick to lose,\" board chair Jack Leslie said.",
+     "url": "https://arstechnica.com/health/2026/10/rfk-jr-s-vaccine-injury-clinic-could-damage-nih-hospital-board-warns/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
+     "summary": "Corporate phishing tests are common, but this one was especially cruel.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+     "summary": "Sound designer lets Half Life-related codename slip at a conference.",
+     "url": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "The reactor meant to showcase nuclear\u2019s comeback keeps hitting problems",
      "summary": "A contractor fell into a reactor cavity and a bundle of fuel rods almost fell over.",
      "url": "https://arstechnica.com/tech-policy/2026/10/safety-concerns-cloud-americas-flagship-nuclear-restart/",
      "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
-     "summary": "Ukraine has changed drone and war-fighting tech to reduce reliance on Starlink.",
-     "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Review: Crystal Lake suffers a bit from its obsession with Pam Voorhees",
-     "summary": "Friday the 13th prequel series based on Jason\u2019s mom drags at first, then hits a vein.",
-     "url": "https://arstechnica.com/culture/2026/10/review-crystal-lake-suffers-a-bit-from-its-obsession-with-pam-voorhees/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
-     "summary": "\"We believe Canada should be able to reach orbit on its own terms.\"",
-     "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
-     "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
-     "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-     "time": "Thu, 22 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
-     "summary": "Markers released top-line results today after previously reporting the trial succeeded.",
-     "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
-     "time": "Thu, 22 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "A D.C. park was made 'for the pleasure of the people.' Trump's plan would change that",
+     "summary": "Trump's most recent rendering of East Potomac Park overtakes the D.C. peninsula with a sprawling golf course, without the grassy areas and road beloved by locals. That's prompted grassroots pushback.",
+     "url": "https://www.npr.org/2026/10/23/nx-s1-6010488/east-potomac-trump-golf-hains-point",
+     "time": "Fri, 23 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
      "summary": "Republicans have long accused the FBI of mishandling the laptop and the investigations into the younger Biden.",
      "url": "https://www.npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
@@ -168,13 +175,6 @@
      "title": "Why Meta is charging to post more hyperlinks",
      "summary": "Social media sites aren't the biggest fans of people leaving via hyperlinks. In fact, Meta has made it subscription-worthy for a Facebook Page to post more than two hyperlinks per month. What's the rationale for companies want to keep you on their site?",
      "url": "https://www.npr.org/sections/planet-money/2026/10/23/nx-s1-6012726/why-meta-is-charging-to-post-more-hyperlinks",
-     "time": "Fri, 23 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-     "summary": "Israeli soldiers shot and killed two men who the military said had launched an attack near the city of Hebron in the occupied West Bank on Friday morning. At least five people were injured, including some critically.",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
      "time": "Fri, 23 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,20 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Slayyyter Cancels Remaining UK and European Tour Dates",
+     "summary": "Laryngitis and vocal cord tears are forcing the singer \u201cto go on medication and full vocal rest for at least two weeks\u201d",
+     "url": "https://pitchfork.com/story/slayyyter-cancels-remaining-uk-and-european-tour-dates/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Noel Gallagher Talks Vegans, Macca, Underwear on Chicken Shop Date",
+     "summary": "\u201cDo you know what\u2019s not a high-flying bird? A chicken.\u201d",
+     "url": "https://pitchfork.com/story/noel-gallagher-talks-vegans-macca-underwear-on-chicken-shop-date/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Chappell Roan Duets With Caroline Polachek, PinkPantheress, and Lola Young",
      "summary": "All on the closing night of Roan\u2019s Los Angeles pop extravaganza, the Super Graphic Spectacular",
      "url": "https://pitchfork.com/story/chappell-roan-duets-with-caroline-polachek-pinkpantheress-and-lola-young/",
@@ -256,20 +270,6 @@
      "summary": "Gosling\u2019s duo with Zach Shields appears to be preparing its first music in 17 years",
      "url": "https://pitchfork.com/story/ryan-goslings-band-dead-mans-bones-tease-return/",
      "time": "Fri, 23 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Listen to Two New Kacey Musgraves Songs",
-     "summary": "They appear on the forthcoming Middle of Nowhere companion album Tex Mex Tapes",
-     "url": "https://pitchfork.com/story/kacey-musgraves-reveals-middle-of-nowhere-companion-album/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Raye Wins 2026 Mercury Prize",
-     "summary": "She beat out Sir Paul McCartney, Olivia Dean, Jade, Nia Archives, and more",
-     "url": "https://pitchfork.com/story/raye-wins-2026-mercury-prize/",
-     "time": "Thu, 22 Oct 2026",
      "source": "Pitchfork"
     }
    ]
