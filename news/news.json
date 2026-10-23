@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T22:30:43+0000",
- "updated_ts": 1792794643,
+ "updated": "2026-10-23T23:00:42+0000",
+ "updated_ts": 1792796442,
  "topics": [
   {
    "name": "Tech",
@@ -34,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "OpenAI: Securing our frontier model training environment",
+     "title": "CVE Tracker",
      "summary": "Comments",
-     "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+     "url": "https://cve.0xosprey.com/",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -46,6 +46,13 @@
      "url": "https://edjefferson.com/localwiki/",
      "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+     "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
+     "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
@@ -79,13 +86,6 @@
      "title": "Crows can evaluate visual info twice as fast as mammals",
      "summary": "Birds' compact nervous system seems to help them handle tasks very quickly.",
      "url": "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
-     "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
-     "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
      "time": "Fri, 23 Oct 2026",
      "source": "Ars Technica"
     }
