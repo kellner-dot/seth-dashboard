@@ -1,6 +1,6 @@
 {
- "generated_at": 1792773910,
- "generated_iso": "2026-10-23T16:45:10+0000",
+ "generated_at": 1792774210,
+ "generated_iso": "2026-10-23T16:50:10+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -11,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 406024,
+   "uptime_s": 406324,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -31,15 +31,15 @@
      "playing": null
     },
     {
-     "device": "GoogleTV9618",
-     "client": "Emby for Android",
-     "user": "Seth",
-     "playing": null
-    },
-    {
      "device": "KaviTV-Sentinel",
      "client": "KaviTV-Playback-Sentinel",
      "user": "",
+     "playing": null
+    },
+    {
+     "device": "GoogleTV9618",
+     "client": "Emby for Android",
+     "user": "Seth",
      "playing": null
     },
     {
@@ -88,8 +88,7 @@
    "name": "iPhone",
    "kind": "phone",
    "ip": "100.109.182.123",
-   "online": true,
-   "ping_ms": 216
+   "online": false
   },
   {
    "id": "motorola-razr-2023",
