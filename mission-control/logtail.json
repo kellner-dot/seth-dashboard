@@ -1,20 +1,52 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T03:40:40+0000",
+ "generated_iso": "2026-10-24T03:50:39+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-23 23:23:17.046 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-23 23:45:24.494 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-23 23:23:34.446 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-23 23:45:24.583 Info DynamicHlsService-0HNPHCJCTSPK7:00000001: ProcessRun 'StreamTranscode 4ba056' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-23 23:23:51.819 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-23 23:45:24.662 Info DynamicHlsService-0HNPHCJCTSPK7:00000001: ProcessRun 'StreamTranscode 4ba056' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-23 23:45:24.699 Error DynamicHlsService-0HNPHCJCTSPK7:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-23 23:45:29.760 Info DynamicHlsService-0HNPHCJCTSPK8:00000001: ProcessRun 'StreamTranscode 379d4d' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-23 23:45:29.818 Info DynamicHlsService-0HNPHCJCTSPK8:00000001: ProcessRun 'StreamTranscode 379d4d' Process exited with code 1 - Failed",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-23 23:45:29.856 Error DynamicHlsService-0HNPHCJCTSPK8:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     }
    ]
@@ -47,14 +79,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-23T23:10:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-23T23:15:43-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-23T23:20:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     },
@@ -68,6 +92,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-23T23:35:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T23:40:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T23:45:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     }
    ]
