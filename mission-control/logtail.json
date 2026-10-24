@@ -1,26 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T17:30:43+0000",
+ "generated_iso": "2026-10-24T17:40:38+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 13:25:44.211 Error App: Error registering with Connect",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Common.Extensions.RemoteServiceUnavailableException: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException: Exception of type",
-     "c": "err"
-    },
     {
      "t": "2026-10-24 13:26:37.477 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
      "c": "ok"
@@ -83,14 +67,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-24T13:15:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-24T13:20:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-24T13:26:50-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
@@ -105,6 +81,14 @@
     {
      "t": "[supervision.lo] 2026-10-24T13:28:09-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T13:30:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T13:35:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
     }
    ]
   }
