@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T12:30:38+0000",
- "updated_ts": 1792845038,
+ "updated": "2026-10-24T13:00:41+0000",
+ "updated_ts": 1792846841,
  "topics": [
   {
    "name": "Tech",
@@ -41,11 +41,25 @@
      "source": "Hacker News"
     },
     {
-     "title": "I can't believe we're still arguing over whether X is for jerks",
+     "title": "Today, we hacked what we'd set out to hack: the iPhone",
      "summary": "Comments",
-     "url": "https://lexontech.org/i-cant-believe-were-still-arguing-over-whether-x-is-for-jerks",
-     "time": "Sat, 24 Oct 2026",
+     "url": "https://blog.calif.io/p/iphone",
+     "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+     "summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
+     "url": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+     "time": "Sat, 24 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
+     "summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
+     "url": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
+     "time": "Sat, 24 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
@@ -72,20 +86,6 @@
      "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
      "summary": "Space Force considering options: public-private, federal installation, state land.",
      "url": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Spotify ramps up policy enforcement on family plans",
-     "summary": "If you share Spotify sub with family, you may need to scan QR code to prove it.",
-     "url": "https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Crows can evaluate visual info twice as fast as mammals",
-     "summary": "Birds' compact nervous system seems to help them handle tasks very quickly.",
-     "url": "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals/",
      "time": "Fri, 23 Oct 2026",
      "source": "Ars Technica"
     }
