@@ -1,52 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T15:20:41+0000",
+ "generated_iso": "2026-10-24T15:30:45+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-24 11:20:21.326 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-24 11:23:16.876 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-24 11:20:21.405 Info DynamicHlsService-0HNPHCJCTSTVA:00000001: ProcessRun 'StreamTranscode eb14e5' Process exited with code 1 - Failed",
+     "t": "2026-10-24 11:23:34.294 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-24 11:20:21.469 Info DynamicHlsService-0HNPHCJCTSTVA:00000001: ProcessRun 'StreamTranscode eb14e5' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 11:20:21.507 Error DynamicHlsService-0HNPHCJCTSTVA:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 11:20:26.573 Info DynamicHlsService-0HNPHCJCTSTVC:00000001: ProcessRun 'StreamTranscode 405188' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 11:20:26.645 Info DynamicHlsService-0HNPHCJCTSTVC:00000001: ProcessRun 'StreamTranscode 405188' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 11:20:26.676 Error DynamicHlsService-0HNPHCJCTSTVC:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-24 11:23:51.694 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -79,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-24T10:50:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-24T10:55:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-24T11:00:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     },
@@ -100,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-24T11:15:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T11:20:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T11:25:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     }
    ]
