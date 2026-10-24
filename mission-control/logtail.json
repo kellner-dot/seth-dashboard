@@ -1,26 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T17:40:38+0000",
+ "generated_iso": "2026-10-24T17:50:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-24 13:26:37.477 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-24 13:26:37.681 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-24 13:26:37.702 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 13:26:37.756 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
-     "c": "ok"
-    },
     {
      "t": "2026-10-24 13:26:49.166 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
      "c": "ok"
@@ -67,14 +51,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-24T13:26:50-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-24T13:27:13-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
-     "c": "warn"
-    },
-    {
      "t": "[supervision.lo] 2026-10-24T13:27:13-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
@@ -88,6 +64,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-24T13:35:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T13:40:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T13:45:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     }
    ]
