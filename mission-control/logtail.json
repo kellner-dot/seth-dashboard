@@ -1,26 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T23:10:42+0000",
+ "generated_iso": "2026-10-24T23:20:46+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-24 18:55:19.689 Info DynamicHlsService-0HNPI0O3NB0VD:00000001: ProcessRun 'StreamTranscode d34531' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 18:55:19.721 Error DynamicHlsService-0HNPI0O3NB0VD:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
     {
      "t": "2026-10-24 18:55:24.765 Info DynamicHlsService-0HNPI0O3NB0VE:00000001: ProcessRun 'StreamTranscode 407c3c' Process exited with code 1 - Failed",
      "c": "err"
@@ -67,14 +51,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-24T18:40:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-24T18:45:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-24T18:50:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     },
@@ -88,6 +64,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-24T19:05:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T19:11:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T19:15:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     }
    ]
