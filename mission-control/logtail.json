@@ -1,36 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T20:10:41+0000",
+ "generated_iso": "2026-10-24T20:20:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "t": "2026-10-24 16:15:19.665 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-24 15:54:11.563 Error DynamicHlsService-0HNPI0O3NAVR6:00000001: Error processing request",
+     "t": "2026-10-24 16:15:19.755 Info DynamicHlsService-0HNPI0O3NB006:00000001: ProcessRun 'StreamTranscode d6904d' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
-     "c": "err"
-    },
-    {
-     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-24 15:54:11.576 Error DynamicHlsService-0HNPI0O3NAVR7:00000001: Error processing request",
+     "t": "2026-10-24 16:15:19.800 Error DynamicHlsService-0HNPI0O3NB006:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -38,19 +22,23 @@
      "c": "err"
     },
     {
-     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     },
     {
-     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
+     "t": "2026-10-24 16:15:24.852 Info DynamicHlsService-0HNPI0O3NB007:00000001: ProcessRun 'StreamTranscode b21994' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "t": "2026-10-24 16:15:24.888 Error DynamicHlsService-0HNPI0O3NB007:00000001: Error processing request",
      "c": "err"
     },
     {
-     "t": "2026-10-24 15:54:11.599 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
      "c": "err"
     }
    ]
@@ -83,14 +71,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-24T15:40:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-24T15:45:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-24T15:50:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     },
@@ -104,6 +84,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-24T16:05:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T16:10:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T16:15:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     }
    ]
