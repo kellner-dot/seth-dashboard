@@ -1,48 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T02:50:42+0000",
+ "generated_iso": "2026-10-24T03:00:44+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-23 22:40:21.647 Info DynamicHlsService-0HNPHCJCTSP69:00000001: ProcessRun 'StreamTranscode ce8e79' Process exited with code 1 - Failed",
+     "t": "2026-10-23 22:53:16.980 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-23 22:40:21.727 Info DynamicHlsService-0HNPHCJCTSP69:00000001: ProcessRun 'StreamTranscode ce8e79' Process exited with code 1 - Failed",
+     "t": "2026-10-23 22:53:34.377 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-23 22:40:21.762 Error DynamicHlsService-0HNPHCJCTSP69:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 22:40:26.805 Info DynamicHlsService-0HNPHCJCTSP6A:00000001: ProcessRun 'StreamTranscode 4f955c' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 22:40:26.864 Info DynamicHlsService-0HNPHCJCTSP6A:00000001: ProcessRun 'StreamTranscode 4f955c' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 22:40:26.902 Error DynamicHlsService-0HNPHCJCTSP6A:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-23 22:53:51.793 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -51,8 +23,8 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Sat Oct 24 02:22:51 UTC 2026: WARNING: lock process not visible yet \u2014 check /home/hatch/workspace/vega-rvg-bridge/never-sleep-holder.log",
-     "c": "warn"
+     "t": "[supervision.lo] POST /rvd/input",
+     "c": "ok"
     },
     {
      "t": "[refresh.log] --- STDERR ---",
@@ -75,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-23T22:20:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-23T22:25:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-23T22:30:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     },
@@ -96,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-23T22:45:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T22:50:48-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T22:55:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     }
    ]
