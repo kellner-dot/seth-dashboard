@@ -1,6 +1,6 @@
 {
- "generated_at": 1792868709,
- "generated_iso": "2026-10-24T19:05:09+0000",
+ "generated_at": 1792869010,
+ "generated_iso": "2026-10-24T19:10:10+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -37,9 +37,9 @@
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": false,
+   "online": true,
    "rvg_agent": {
-    "up": false,
+    "up": true,
     "authed": false
    }
   }
