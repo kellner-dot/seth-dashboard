@@ -121,14 +121,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Citizen Sleuth",
-  "year": 2023,
+  "name": "The Lighthouse",
+  "year": 2017,
   "genres": [
-   "Documentary"
+   "Fantasy",
+   "Animation"
   ],
-  "runtime_min": 78,
+  "runtime_min": 109,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Follows Emily Nestor and her hit true-crime podcast, Mile Marker 181, as she investigates a mysterious death. Her search for truth\u2014and fame\u2014reveals the rise and fall of an Appalachian podcaster in the new media age."
+  "overview": "In a boat graveyard a conflictive relationship between two neighbors takes place: a lighthouse keeper and a mermaid. The lighthouse keeper guides the boats towards safe waters while the mermaids tries to sink them."
  }
 }
