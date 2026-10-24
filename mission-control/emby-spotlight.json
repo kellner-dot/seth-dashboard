@@ -1,11 +1,135 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 0,
- "series": 0,
- "episodes": 0,
- "played": 0,
- "unwatched": 0,
- "new_arrivals": [],
- "continue_watching": [],
- "surprise_pick": null
+ "movies": 5845,
+ "series": 34,
+ "episodes": 59,
+ "played": 7,
+ "unwatched": 5838,
+ "new_arrivals": [
+  {
+   "name": "Violet Voss",
+   "year": 2025,
+   "genres": [],
+   "runtime_min": 23,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Little Shop of Horrors",
+   "year": 1986,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 103,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "The Monkey",
+   "year": 2025,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 0,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "80s-commercials",
+   "year": 1982,
+   "genres": [],
+   "runtime_min": 16,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Possessor",
+   "year": 2020,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 104,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Megalopolis",
+   "year": 2024,
+   "genres": [
+    "Science Fiction",
+    "Drama"
+   ],
+   "runtime_min": 139,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Inland Empire",
+   "year": 2006,
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "runtime_min": 180,
+   "progress_pct": 0,
+   "type": "Movie"
+  }
+ ],
+ "continue_watching": [
+  {
+   "name": "The 'Burbs",
+   "year": 1989,
+   "genres": [
+    "Comedy",
+    "Horror"
+   ],
+   "runtime_min": 101,
+   "progress_pct": 24,
+   "type": "Movie"
+  },
+  {
+   "name": "Baby Doll",
+   "year": 1982,
+   "genres": [
+    "Documentary"
+   ],
+   "runtime_min": 3,
+   "progress_pct": 40,
+   "type": "Movie"
+  },
+  {
+   "name": "964 Pinocchio",
+   "year": 1991,
+   "genres": [
+    "Horror",
+    "Science Fiction"
+   ],
+   "runtime_min": 97,
+   "progress_pct": 13,
+   "type": "Movie"
+  }
+ ],
+ "surprise_pick": {
+  "name": "Episode B (Second episode, 15 Jul 1985)",
+  "year": 1985,
+  "genres": [
+   "Adventure",
+   "Action"
+  ],
+  "runtime_min": 0,
+  "progress_pct": 0,
+  "type": "Movie",
+  "overview": "An avant-garde work by Alive From Off Center, preserved in the UbuWeb archive of experimental film, video, and performance art. Part of a collection documenting the international avant-garde."
+ }
 }
