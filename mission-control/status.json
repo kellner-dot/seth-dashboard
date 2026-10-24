@@ -1,68 +1,28 @@
 {
- "generated_at": 1792870259,
- "generated_iso": "2026-10-24T19:30:59+0000",
- "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
+ "generated_at": 1792870509,
+ "generated_iso": "2026-10-24T19:35:09+0000",
+ "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [
-  {
-   "severity": "critical",
-   "icon": "\ud83d\udda5\ufe0f",
-   "title": "Gaming PC offline",
-   "message": "SETHS-PC not reachable. Emby, TeraBox, and BiglyBT data may be stale.",
-   "at": "2026-10-24T19:30:59+0000"
-  }
- ],
- "github": {
-  "profile": "https://github.com/kellner-dot",
-  "public_repos": 10,
-  "private_repos": 11,
-  "pages": [
-   {
-    "name": "seth-dashboard",
-    "url": "https://kellner-dot.github.io/seth-dashboard/"
-   },
-   {
-    "name": "theartfuldodger-site",
-    "url": "https://kellner-dot.github.io/theartfuldodger-site/"
-   }
-  ]
- },
- "emby_library": {
-  "movies": null,
-  "series": null,
-  "episodes": null,
-  "recent": []
- },
- "terabox": {
-  "total": null,
-  "used": null,
-  "free": null
- },
- "kaviguard": {},
- "biglybt": {
-  "running": false,
-  "scheduler": ""
- },
  "devices": [
   {
    "id": "seths-pc",
    "name": "Gaming PC",
    "kind": "server",
    "ip": "100.124.240.93",
-   "online": false,
-   "rvg_version": "",
-   "uptime_s": null,
+   "online": true,
+   "rvg_version": "1.20.0",
+   "uptime_s": 24,
    "hostname": "SETHS-PC",
    "emby": {
     "running": false,
-    "version": ""
+    "version": null
    },
    "emby_sessions": [],
-   "terabox_uploaders": 0,
+   "terabox_uploaders": 2,
    "firetv": {
     "seen_in_emby": false,
     "sessions": [],
-    "adb": "unreachable (subnet route not approved or stick offline)"
+    "adb": "unreachable (port 5555 closed 2026-10-02)"
    }
   },
   {
@@ -85,7 +45,7 @@
    "kind": "phone",
    "ip": "100.109.182.123",
    "online": true,
-   "ping_ms": null
+   "ping_ms": 35
   },
   {
    "id": "motorola-razr-2023",
