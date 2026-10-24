@@ -121,14 +121,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Face Addict",
-  "year": 2005,
+  "name": "Annihilation",
+  "year": 2018,
   "genres": [
-   "Documentary"
+   "Science Fiction",
+   "Horror"
   ],
-  "runtime_min": 0,
+  "runtime_min": 115,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Face Addict tells the story of a unique and unrepeatable experience, that of the artistic community in New York between the late '70s and early '80s, known as the downtown scene."
+  "overview": "A biologist signs up for a dangerous, secret expedition into a mysterious zone where the laws of nature don't apply."
  }
 }
