@@ -1,25 +1,57 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-24T19:50:44+0000",
+ "generated_iso": "2026-10-24T20:00:45+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-24 15:36:06.876 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-24 15:36:07.082 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
-     "c": "ok"
-    },
-    {
-     "t": "2026-10-24 15:36:07.101 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
      "c": "err"
     },
     {
-     "t": "2026-10-24 15:36:07.157 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
-     "c": "ok"
+     "t": "2026-10-24 15:54:11.563 Error DynamicHlsService-0HNPI0O3NAVR6:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-24 15:54:11.576 Error DynamicHlsService-0HNPI0O3NAVR7:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.ArgumentNullException: System.ArgumentNullException: Value cannot be null. (Parameter 'key')",
+     "c": "err"
+    },
+    {
+     "t": "\t   at System.ThrowHelper.ThrowArgumentNullException(String name)",
+     "c": "err"
+    },
+    {
+     "t": "\tTargetSite: Void ThrowArgumentNullException(System.String)",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-24 15:54:11.599 Error Trakt: Event details incomplete. Cannot process current media",
+     "c": "err"
     }
    ]
   },
@@ -51,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-24T14:26:47-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
-     "c": "warn"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-24T14:26:47-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-24T14:26:47-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
     },
@@ -72,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-24T15:45:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T15:50:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-24T15:55:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-24",
      "c": "ok"
     }
    ]
