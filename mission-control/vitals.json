@@ -1,45 +1,41 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-24T00:10:43+0000",
- "cpu_pct": 11,
- "mem_pct": 83.3,
+ "generated_iso": "2026-10-24T00:20:59+0000",
+ "cpu_pct": 30.4,
+ "mem_pct": 42.8,
  "mem_total_gb": 15.2,
- "disk_pct": 70.9,
- "disk_free_gb": 270.9,
- "uptime_h": 120.2,
+ "disk_pct": 71,
+ "disk_free_gb": 270.1,
+ "uptime_h": 0,
  "top": [
   {
-   "cpu": 207802.1,
-   "name": "sideloadlydaemon",
-   "memMB": 237.5
-  },
-  {
-   "cpu": 33877.2,
-   "name": "System",
-   "memMB": 3
-  },
-  {
-   "cpu": 33130.4,
+   "cpu": 34.1,
    "name": "MsMpEng",
-   "memMB": 333.9
+   "memMB": 442.3
   },
   {
-   "cpu": 13357.7,
-   "name": "dwm",
-   "memMB": 46
+   "cpu": 12.9,
+   "name": "System",
+   "memMB": 3.2
   },
   {
-   "cpu": 8843.5,
-   "name": "Memory Compression",
-   "memMB": 386.9
+   "cpu": 6,
+   "name": "svchost",
+   "memMB": 13.1
+  },
+  {
+   "cpu": 4.2,
+   "name": "explorer",
+   "memMB": 228.1
+  },
+  {
+   "cpu": 3,
+   "name": "svchost",
+   "memMB": 32.5
   }
  ],
  "history": {
   "cpu": [
-   [
-    1792773055,
-    12.6
-   ],
    [
     1792773645,
     14.7
@@ -227,13 +223,13 @@
    [
     1792800643,
     11
+   ],
+   [
+    1792801259,
+    30.4
    ]
   ],
   "mem": [
-   [
-    1792773055,
-    92.2
-   ],
    [
     1792773645,
     94.9
@@ -421,13 +417,13 @@
    [
     1792800643,
     83.3
+   ],
+   [
+    1792801259,
+    42.8
    ]
   ],
   "disk": [
-   [
-    1792773055,
-    70.9
-   ],
    [
     1792773645,
     70.9
@@ -615,6 +611,10 @@
    [
     1792800643,
     70.9
+   ],
+   [
+    1792801259,
+    71
    ]
   ]
  }
