@@ -1,21 +1,14 @@
 {
- "updated": "2026-10-24T22:00:42+0000",
- "updated_ts": 1792879242,
+ "updated": "2026-10-24T22:30:41+0000",
+ "updated_ts": 1792881041,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Steal My Bitcoin",
+     "title": "Show HN: Steal My Bitcoin",
      "summary": "Comments",
      "url": "https://stealmybitcoin.com/",
-     "time": "Sat, 24 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "No Signs of AI Payoff Outside the Tech Sector",
-     "summary": "Comments",
-     "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
      "time": "Sat, 24 Oct 2026",
      "source": "Hacker News"
     },
@@ -23,13 +16,6 @@
      "title": "The Goose Programming Language",
      "summary": "Comments",
      "url": "https://aardappel.github.io/goose/",
-     "time": "Sat, 24 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "John Carmack on the Goose Language: multiple data stacks and relative references",
-     "summary": "Comments",
-     "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
      "time": "Sat, 24 Oct 2026",
      "source": "Hacker News"
     },
@@ -44,6 +30,20 @@
      "title": "Roku developer repositories moved from GitHub to GitLab",
      "summary": "Comments",
      "url": "https://blog.roku.com/developer/gitlab-move",
+     "time": "Sat, 24 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+     "summary": "Comments",
+     "url": "https://de.numista.com/9866",
+     "time": "Sat, 24 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "FreeDNS",
+     "summary": "Comments",
+     "url": "https://freedns.afraid.org/",
      "time": "Sat, 24 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "How data centers became a bipartisan political issue in Wisconsin",
+     "summary": "Data centers are a big issue across the country. As midterms approach, many look to the swing state of Wisconsin for lessons for how that issue could play out nationally.",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
+     "time": "Sat, 24 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Ukraine says Starlink is back to normal after disruptions",
      "summary": "Ukrainian President Volodymyr Zelenskyy said that normal Starlink operating speeds were restored after more than a week of disruptions.",
      "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
@@ -168,13 +175,6 @@
      "title": "U.S. birth rate drops to record low, but older women are having more babies",
      "summary": "The U.S. birth rate fell to its lowest level ever recorded, according to a report from the Centers for Disease Control and Prevention. The drop would have been greater, but women over age 30 are having more children.",
      "url": "https://www.npr.org/2026/10/24/nx-s1-6012804/birth-rate-population-cdc",
-     "time": "Sat, 24 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "This decade has been missing its big-impact midterm",
-     "summary": "Every other decade over the past hundred years has produced at least one midterm that made a big difference in Congress and in national politics more broadly.",
-     "url": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
      "time": "Sat, 24 Oct 2026",
      "source": "NPR News"
     }
