@@ -1,56 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-23T23:50:41+0000",
+ "generated_iso": "2026-10-24T00:00:48+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-23 19:39:22.193 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
+     "t": "2026-10-23 19:53:16.864 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "2026-10-23 19:53:34.239 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The Fountain (2006) (1080p B",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 19:39:22.193 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\The_Devil's_Advocate.[nolimi",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 19:39:22.193 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\Zidane.A.21st.Century.Portra",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-23 19:39:22.193 Error SubtitleManager: Error searching for subtitles on Open Subtitles",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies\\80s-commercials-1982.mp4'.",
+     "t": "2026-10-23 19:53:51.682 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -83,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-23T19:20:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-23T19:25:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-23T19:30:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     },
@@ -104,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-23T19:45:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T19:50:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-23T19:55:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-23",
      "c": "ok"
     }
    ]
