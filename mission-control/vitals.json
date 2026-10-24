@@ -1,45 +1,41 @@
 {
  "generated": "vitals poller",
- "generated_iso": "2026-10-24T16:10:41+0000",
- "cpu_pct": 17.3,
- "mem_pct": 89.7,
+ "generated_iso": "2026-10-24T16:20:43+0000",
+ "cpu_pct": 5.8,
+ "mem_pct": 88.4,
  "mem_total_gb": 15.2,
  "disk_pct": 72.1,
  "disk_free_gb": 259.4,
- "uptime_h": 15.8,
+ "uptime_h": 16,
  "top": [
   {
-   "cpu": 12083,
+   "cpu": 12126.5,
    "name": "MsMpEng",
-   "memMB": 264.8
+   "memMB": 268.3
   },
   {
-   "cpu": 4465.4,
+   "cpu": 4492.6,
    "name": "System",
    "memMB": 2.8
   },
   {
-   "cpu": 1936.7,
+   "cpu": 1957.5,
    "name": "dwm",
    "memMB": 36.8
   },
   {
-   "cpu": 574.1,
-   "name": "SecurityHealthService",
-   "memMB": 12.8
+   "cpu": 628.2,
+   "name": "llama-server",
+   "memMB": 339.8
   },
   {
-   "cpu": 568.4,
-   "name": "llama-server",
-   "memMB": 495.1
+   "cpu": 576.5,
+   "name": "SecurityHealthService",
+   "memMB": 12.8
   }
  ],
  "history": {
   "cpu": [
-   [
-    1792830040,
-    10.9
-   ],
    [
     1792830644,
     11.9
@@ -227,13 +223,13 @@
    [
     1792858241,
     17.3
+   ],
+   [
+    1792858843,
+    5.8
    ]
   ],
   "mem": [
-   [
-    1792830040,
-    92.1
-   ],
    [
     1792830644,
     97.4
@@ -421,13 +417,13 @@
    [
     1792858241,
     89.7
+   ],
+   [
+    1792858843,
+    88.4
    ]
   ],
   "disk": [
-   [
-    1792830040,
-    71
-   ],
    [
     1792830644,
     71
@@ -614,6 +610,10 @@
    ],
    [
     1792858241,
+    72.1
+   ],
+   [
+    1792858843,
     72.1
    ]
   ]
