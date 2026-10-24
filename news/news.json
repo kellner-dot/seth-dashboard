@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-24T10:00:53+0000",
- "updated_ts": 1792836053,
+ "updated": "2026-10-24T10:30:42+0000",
+ "updated_ts": 1792837842,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "I Don't Understand Quantum Physics",
+     "summary": "Comments",
+     "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+     "time": "Sat, 24 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "OBS Studio 33",
      "summary": "Comments",
@@ -27,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "I Don't Understand Quantum Physics",
+     "title": "ThinkRail from JetBrains",
      "summary": "Comments",
-     "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+     "url": "https://thinkrail.ai/",
      "time": "Sat, 24 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://blog.calif.io/p/iphone",
      "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Twelve years of distributed SQLite",
-     "summary": "Comments",
-     "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
-     "time": "Sat, 24 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "Is your Medicare Advantage plan ending next year? Here's what to know",
+     "summary": "Medicare open enrollment runs through Dec. 7, and for as many as 5 million seniors, it will be important to log on and pick a new plan.",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6014612/medicare-advantage-open-enrollment-cancelled-plan",
+     "time": "Sat, 24 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "U.S. birth rate drops to record low, but older women are having more babies",
+     "summary": "The U.S. birth rate fell to its lowest level ever recorded, according to a report from the Centers for Disease Control and Prevention. The drop would have been greater, but women over age 30 are having more children.",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6012804/birth-rate-population-cdc",
+     "time": "Sat, 24 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "This decade has been missing its big-impact midterm",
      "summary": "Every other decade over the past hundred years has produced at least one midterm that made a big difference in Congress and in national politics more broadly.",
      "url": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
@@ -161,20 +175,6 @@
      "title": "Russia steps up election influence efforts in final stretch of midterms",
      "summary": "Researchers who track online influence operations say Kremlin-backed groups are renewing tactics they've used to sow distrust and discord in previous elections in the U.S. and around the world.",
      "url": "https://www.npr.org/2026/10/23/nx-s1-5995508/russia-midterms-election-influence",
-     "time": "Fri, 23 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
-     "summary": "The Pentagon is building weapons and projects with AI capabilities that officials say don't always closely adhere to the agency's own guidelines for AI, according to a congressional watchdog report published in October.",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
-     "time": "Fri, 23 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Ohio could decide control of the Senate. Its rural voters might decide the winner",
-     "summary": "Ohio has been a reliably red state for several elections but it's competitive this year. If Democrats want to prevail, they'll have to win people who have backed Republicans, like rural voters.",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-6012809/ohio-senate-governor-election-rural-voters",
      "time": "Fri, 23 Oct 2026",
      "source": "NPR News"
     }
