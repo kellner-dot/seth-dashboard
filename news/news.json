@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T00:00:43+0000",
- "updated_ts": 1792800043,
+ "updated": "2026-10-24T00:30:41+0000",
+ "updated_ts": 1792801841,
  "topics": [
   {
    "name": "Tech",
@@ -20,6 +20,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "CVE Tracker",
+     "summary": "Comments",
+     "url": "https://cve.0xosprey.com/",
+     "time": "Fri, 23 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Today, we hacked what we'd set out to hack: the iPhone",
      "summary": "Comments",
      "url": "https://blog.calif.io/p/iphone",
@@ -27,9 +34,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "CVE Tracker",
+     "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
      "summary": "Comments",
-     "url": "https://cve.0xosprey.com/",
+     "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
      "time": "Fri, 23 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://block.xyz/dessa",
      "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-     "summary": "Comments",
-     "url": "https://edjefferson.com/localwiki/",
-     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
