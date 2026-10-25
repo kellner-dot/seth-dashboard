@@ -1,28 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-25T08:20:42+0000",
+ "generated_iso": "2026-10-25T08:30:47+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-25 04:23:17.404 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-25 04:01:37.771 Info DynamicHlsService-0HNPI0O3NB475:00000001: ProcessRun 'StreamTranscode cecbfc' Process exited with code 1 - Failed",
+     "t": "2026-10-25 04:23:34.755 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-25 04:01:37.814 Error DynamicHlsService-0HNPI0O3NB475:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-25 04:23:52.146 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -55,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-25T03:32:13-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
-     "c": "err"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T03:34:37-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
-     "c": "err"
-    },
-    {
      "t": "[supervision.lo] 2026-10-25T04:00:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     },
@@ -76,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-25T04:15:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T04:20:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T04:25:45-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     }
    ]
