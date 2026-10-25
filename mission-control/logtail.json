@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-25T16:50:39+0000",
+ "generated_iso": "2026-10-25T17:00:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-25 12:25:24.601 Info DynamicHlsService-0HNPI0O3NB7B2:00000001: ProcessRun 'StreamTranscode d666ca' Process exited with code 1 - Failed",
+     "t": "2026-10-25 12:53:16.960 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-25 12:25:24.624 Error DynamicHlsService-0HNPI0O3NB7B2:00000001: Error processing request",
+     "t": "2026-10-25 12:53:34.380 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-25 12:53:51.768 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -51,14 +47,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-25T12:20:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T12:25:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-25T12:31:44-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     },
@@ -72,6 +60,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-25T12:45:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T12:50:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T12:55:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     }
    ]
