@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-10-25T17:41:03+0000",
+ "generated_iso": "2026-10-25T17:51:11+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -40,7 +40,7 @@
   },
   {
    "name": "Emby Server",
-   "online": true,
+   "online": false,
    "days": [
     null,
     null,
@@ -71,7 +71,7 @@
     98.5,
     100.0,
     93.8,
-    100.0
+    99.1
    ]
   },
   {
@@ -215,7 +215,7 @@
     77.4,
     83.1,
     79.3,
-    75.7
+    75.9
    ]
   },
   {
