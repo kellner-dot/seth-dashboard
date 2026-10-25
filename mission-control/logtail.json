@@ -1,14 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-25T12:10:42+0000",
+ "generated_iso": "2026-10-25T12:20:41+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "2026-10-25 07:53:17.077 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
     {
      "t": "2026-10-25 07:53:34.466 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
@@ -23,7 +19,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[supervision.lo] Sun Oct 25 09:17:55 UTC 2026: WARNING: lock process not visible yet \u2014 check /home/hatch/workspace/vega-rvg-bridge/never-sleep-holder.log",
+     "t": "[supervision.lo] Sun Oct 25 12:12:50 UTC 2026: WARNING: lock process not visible yet \u2014 check /home/hatch/workspace/vega-rvg-bridge/never-sleep-holder.log",
      "c": "warn"
     },
     {
@@ -47,14 +43,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-25T07:40:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T07:45:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-25T07:50:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     },
@@ -68,6 +56,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-25T08:05:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T08:10:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T08:15:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     }
    ]
