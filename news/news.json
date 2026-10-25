@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-25T15:00:43+0000",
- "updated_ts": 1792940443,
+ "updated": "2026-10-25T15:30:39+0000",
+ "updated_ts": 1792942239,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+     "summary": "Comments",
+     "url": "https://bigwhalehunting.com/workforce/",
+     "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Tool book of a Nuremberg knight from 1505",
      "summary": "Comments",
@@ -31,13 +38,6 @@
      "summary": "Comments",
      "url": "https://danluu.com/ambitious/",
      "time": "Sat, 24 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "R/open source bans all solo projects and projects using LLMs",
-     "summary": "Comments",
-     "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
-     "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,13 +95,6 @@
    "name": "World",
    "articles": [
     {
-     "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-     "summary": "Fl\u00e1vio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
-     "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 25 Oct 2026",
-     "source": "BBC World"
-    },
-    {
      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
      "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
      "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
@@ -123,9 +116,9 @@
      "source": "BBC World"
     },
     {
-     "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-     "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-     "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+     "title": "Gabon says access to social media restored after eight-month ban",
+     "summary": "The authorities had justified the ban by saying online content was fuelling conflict, while the opposition had condemned it as an abuse of power.",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 25 Oct 2026",
      "source": "BBC World"
     },
@@ -135,6 +128,20 @@
      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 24 Oct 2026",
      "source": "BBC World"
+    },
+    {
+     "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+     "summary": "The ex-wife of Donald Trump Jr, with whom she shares five children, announced in May that she had been diagnosed with breast cancer.",
+     "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+     "time": "Sat, 24 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "What makes a good spine-tingler? Stephen Graham Jones says it's all in the ending",
+     "summary": "Horror writer Stephen Graham Jones says horror's current moment is powered by more than just fear.",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6007348/what-makes-a-good-spine-tingler-stephen-graham-jones-says-its-all-in-the-ending",
+     "time": "Sun, 25 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "The College of Magic turns ordinary kids into confident, top-hat wearing magicians",
@@ -168,13 +175,6 @@
      "title": "In Arkansas, Democrats see an opening at the edge of the competitive midterms map",
      "summary": "In a sign of the potentially dire midterm political environment, Republicans have spent millions of dollars playing defense in Arkansas, one of the most conservative states in the country.",
      "url": "https://www.npr.org/2026/10/25/nx-s1-6009402/midterm-blue-wave-map-arkansas-democrats-cotton-shoffner-hill-jones",
-     "time": "Sun, 25 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-     "summary": "While protests in France have claimed most international attention, large demonstrations also rocked many European cities Saturday from Milan to Rome to Madrid, Lisbon and Tirana.",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
      "time": "Sun, 25 Oct 2026",
      "source": "NPR News"
     }
