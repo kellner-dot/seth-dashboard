@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T11:30:42+0000",
- "updated_ts": 1792927842,
+ "updated": "2026-10-25T12:00:46+0000",
+ "updated_ts": 1792929646,
  "topics": [
   {
    "name": "Tech",
@@ -20,9 +20,23 @@
      "source": "Hacker News"
     },
     {
+     "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+     "summary": "Comments",
+     "url": "https://github.com/ihhub/fheroes2",
+     "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Cerebras Deploys Trillion-Parameter AI Models",
      "summary": "Comments",
      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+     "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+     "summary": "Comments",
+     "url": "https://twitter.com/mike64_t/status/2114150399406202896",
      "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
@@ -31,20 +45,6 @@
      "summary": "Comments",
      "url": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
      "time": "Thu, 22 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The Goose Programming Language",
-     "summary": "Comments",
-     "url": "https://aardappel.github.io/goose/",
-     "time": "Sat, 24 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
-     "summary": "Comments",
-     "url": "https://twitter.com/mike64_t/status/2114150399406202896",
-     "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "The College of Magic turns ordinary kids into confident, top-hat wearing magicians",
+     "summary": "The students, many from marginalized communities, learn to conjure up candy, do card tricks \u2014 and face the world with a confident, creative and resilient mindset.",
+     "url": "https://www.npr.org/2026/10/25/g-s1-149089/magic-magicians-south-africa-school-students",
+     "time": "Sun, 25 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "When a teen posts a selfie, how much filter is 'too much' filter?",
      "summary": "The recent Meta settlement includes a clause banning \"cosmetic procedure filters\" for teens. But defining what constitutes an extreme makeover isn't easy.",
      "url": "https://www.npr.org/2026/10/25/nx-s1-6011190/meta-facebook-settlement-beauty-filters-ai",
@@ -170,19 +177,19 @@
      "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
      "time": "Sun, 25 Oct 2026",
      "source": "NPR News"
-    },
-    {
-     "title": "Drought, fire and high diesel prices 'addin' up tough' for Oregon ranchers",
-     "summary": "Record diesel prices are kicking Western ranchers while they're down. Drought means they have to buy extra hay, and pay truckers extra to deliver it because of fuel price hikes.",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-5992998/drought-fire-and-high-diesel-prices-addin-up-tough-for-oregon-ranchers",
-     "time": "Sun, 25 Oct 2026",
-     "source": "NPR News"
     }
    ]
   },
   {
    "name": "Vermont",
    "articles": [
+    {
+     "title": "Turning tragedy into baskets: One partnership brings conservation and craft together",
+     "summary": "Joanne Garton, community forester with the Vermont Urban &#038; Community Forestry Program, in a stand of black ash trees in Hardwick on Sept. 25, 2026. The trees marked with an orange ribbon have been treated with an insecticide, which will help protect it from an emerald ash bo",
+     "url": "https://vtdigger.org/2026/10/25/turning-tragedy-into-baskets-one-partnership-brings-conservation-and-craft-together/",
+     "time": "Sun, 25 Oct 2026",
+     "source": "VT Digger"
+    },
     {
      "title": "Manchester weighs Flock camera alternatives ahead of Vermont ban on automated license plate readers",
      "summary": "A license plate reader camera on VT Route 7A in Manchester seen on Thursday, June 11, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/06/license-plate-camera-4-20260611-1200x798.jpg\" /> Town officials are looking for the \"fine",
@@ -215,13 +222,6 @@
      "title": "At vigil, memories of two who died while unhoused and a call for change",
      "summary": "Community members form a large circle during a candlelight vigil at Trinity United Methodist Church in Montpelier on Oct. 16. Photo by Tracy Brannstrom/The Bridge \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/BRI_Vigil_TB-2048x1536-1-1200x900.jpeg?crop=1\" /> ",
      "url": "https://vtdigger.org/2026/10/23/at-vigil-memories-of-two-who-died-while-unhoused-and-a-call-for-change/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Magical thinking won\u2019t fix Vermont\u2019s problems",
-     "summary": "Higher wages, a four-day workweek, lower business costs and artificial intelligence in state government would do more for Vermont than another feel-good program. Read the story on VTDigger here: Magical thinking won\u2019t fix Vermont\u2019s problems.",
-     "url": "https://vtdigger.org/2026/10/23/opinion-magical-thinking-wont-fix-vermonts-problems/",
      "time": "Fri, 23 Oct 2026",
      "source": "VT Digger"
     }
