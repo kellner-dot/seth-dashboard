@@ -1,24 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-25T08:00:40+0000",
+ "generated_iso": "2026-10-25T08:10:40+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-25 04:00:16.981 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-25 04:01:32.603 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-25 04:00:19.083 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-25 04:01:32.685 Info DynamicHlsService-0HNPI0O3NB472:00000001: ProcessRun 'StreamTranscode e141f6' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-25 04:00:19.233 Info DynamicHlsService-0HNPI0O3NB45J:00000001: ProcessRun 'StreamTranscode e856d3' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-25 04:00:19.273 Error DynamicHlsService-0HNPI0O3NB45J:00000001: Error processing request",
+     "t": "2026-10-25 04:01:32.726 Error DynamicHlsService-0HNPI0O3NB472:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -30,11 +26,11 @@
      "c": "err"
     },
     {
-     "t": "2026-10-25 04:00:24.339 Info DynamicHlsService-0HNPI0O3NB45K:00000001: ProcessRun 'StreamTranscode d5b75f' Process exited with code 1 - Failed",
+     "t": "2026-10-25 04:01:37.771 Info DynamicHlsService-0HNPI0O3NB475:00000001: ProcessRun 'StreamTranscode cecbfc' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-25 04:00:24.356 Error DynamicHlsService-0HNPI0O3NB45K:00000001: Error processing request",
+     "t": "2026-10-25 04:01:37.814 Error DynamicHlsService-0HNPI0O3NB475:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -75,14 +71,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-25T03:20:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T03:25:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-25T03:31:41-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
@@ -97,6 +85,14 @@
     {
      "t": "[supervision.lo] 2026-10-25T03:34:37-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 1)",
      "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T04:00:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T04:05:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
     }
    ]
   }
