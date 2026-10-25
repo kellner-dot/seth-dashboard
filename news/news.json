@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T03:00:44+0000",
- "updated_ts": 1792897244,
+ "updated": "2026-10-25T03:30:50+0000",
+ "updated_ts": 1792899050,
  "topics": [
   {
    "name": "Tech",
@@ -10,6 +10,13 @@
      "summary": "Comments",
      "url": "https://danluu.com/ambitious/",
      "time": "Sat, 24 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Xbox Turns Down Netflix $500M Offer",
+     "summary": "Comments",
+     "url": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
+     "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -27,24 +34,17 @@
      "source": "Hacker News"
     },
     {
+     "title": "Cerebras Deploys Trillion-Parameter AI Models",
+     "summary": "Comments",
+     "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+     "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
      "summary": "Comments",
      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
      "time": "Sat, 24 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Why Gopher in 2026?",
-     "summary": "Comments",
-     "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
-     "time": "Sat, 24 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Reactive Optimizers: rewrite the optimizer's source code during training",
-     "summary": "Comments",
-     "url": "https://xingjianbai.com/reactive-optimizers/",
-     "time": "Wed, 21 Oct 2026",
      "source": "Hacker News"
     },
     {
