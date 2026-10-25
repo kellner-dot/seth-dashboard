@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T14:00:42+0000",
- "updated_ts": 1792936842,
+ "updated": "2026-10-25T14:30:39+0000",
+ "updated_ts": 1792938639,
  "topics": [
   {
    "name": "Tech",
@@ -13,23 +13,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-     "summary": "Comments",
-     "url": "https://github.com/ihhub/fheroes2",
-     "time": "Sun, 25 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Challenge Is Gone",
-     "summary": "Comments",
-     "url": "https://blog.alxgsv.com/challenge-is-gone/",
-     "time": "Sun, 25 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Show HN: Farol \u2013 a risk map of a pull request for the person who approves it",
      "summary": "Comments",
      "url": "https://github.com/winnin/farol",
+     "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+     "summary": "Comments",
+     "url": "https://github.com/ihhub/fheroes2",
      "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
@@ -45,6 +38,13 @@
      "summary": "Comments",
      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
      "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "How Japanese Dried Bonito Is Made",
+     "summary": "Comments",
+     "url": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
+     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -95,9 +95,9 @@
    "name": "World",
    "articles": [
     {
-     "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-     "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-     "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+     "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
+     "summary": "Fl\u00e1vio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
+     "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 25 Oct 2026",
      "source": "BBC World"
     },
@@ -105,13 +105,6 @@
      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
      "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
      "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 25 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-     "summary": "Fl\u00e1vio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
-     "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 25 Oct 2026",
      "source": "BBC World"
     },
@@ -126,6 +119,13 @@
      "title": "Gunmen kill at least 10 villagers and loot shops in north-east Nigeria",
      "summary": "Police are searching for other casualties, with officials warning the actual death toll could rise further.",
      "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 25 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+     "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+     "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 25 Oct 2026",
      "source": "BBC World"
     },
