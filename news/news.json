@@ -1,29 +1,15 @@
 {
- "updated": "2026-10-25T07:00:37+0000",
- "updated_ts": 1792911637,
+ "updated": "2026-10-25T07:30:39+0000",
+ "updated_ts": 1792913439,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-     "summary": "Comments",
-     "url": "https://github.com/slee-persis/GVS5H",
-     "time": "Sun, 25 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "We should be more ambitious with the software we build",
      "summary": "Comments",
      "url": "https://danluu.com/ambitious/",
      "time": "Sat, 24 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Cerebras Deploys Trillion-Parameter AI Models",
-     "summary": "Comments",
-     "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-     "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -34,10 +20,24 @@
      "source": "Hacker News"
     },
     {
+     "title": "Cerebras Deploys Trillion-Parameter AI Models",
+     "summary": "Comments",
+     "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+     "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "The Goose Programming Language",
      "summary": "Comments",
      "url": "https://aardappel.github.io/goose/",
      "time": "Sat, 24 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "How Japanese Dried Bonito Is Made",
+     "summary": "Comments",
+     "url": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
+     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+     "summary": "While protests in France have claimed most international attention, large demonstrations also rocked many European cities Saturday from Milan to Rome to Madrid, Lisbon and Tirana.",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+     "time": "Sun, 25 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "Drought, fire and high diesel prices 'addin' up tough' for Oregon ranchers",
      "summary": "Record diesel prices are kicking Western ranchers while they're down. Drought means they have to buy extra hay, and pay truckers extra to deliver it because of fuel price hikes.",
      "url": "https://www.npr.org/2026/10/25/nx-s1-5992998/drought-fire-and-high-diesel-prices-addin-up-tough-for-oregon-ranchers",
@@ -168,13 +175,6 @@
      "title": "Ukraine says Starlink is back to normal after disruptions",
      "summary": "Ukrainian President Volodymyr Zelenskyy said that normal Starlink operating speeds were restored after more than a week of disruptions.",
      "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
-     "time": "Sat, 24 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Perspective: The next James Bond",
-     "summary": "A new James Bond is nigh, to replace the last actor in the 64 year-old movie franchise. What evil forces will the new 007 face? Killer Drones? Killer AI? Killer lettuce?",
-     "url": "https://www.npr.org/2026/10/24/nx-s1-6004258/perspective-the-next-james-bond",
      "time": "Sat, 24 Oct 2026",
      "source": "NPR News"
     }
