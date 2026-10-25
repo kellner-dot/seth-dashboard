@@ -1,17 +1,13 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-25T07:20:40+0000",
+ "generated_iso": "2026-10-25T07:32:14+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-25 02:53:34.738 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-25 02:53:52.122 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
+     "t": "(emby log unavailable: The read operation timed out)",
+     "c": "ok"
     }
    ]
   },
@@ -43,28 +39,28 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-25T02:50:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T02:55:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T03:01:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T03:05:47-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T03:10:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-25T03:15:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T03:20:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T03:25:46-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T03:31:41-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "c": "err"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T03:32:13-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "c": "warn"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T03:32:13-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "c": "err"
     }
    ]
   }
