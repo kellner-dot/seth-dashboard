@@ -1,6 +1,6 @@
 {
- "generated_at": 1792960515,
- "generated_iso": "2026-10-25T20:35:15+0000",
+ "generated_at": 1792960810,
+ "generated_iso": "2026-10-25T20:40:10+0000",
  "collector": "mission-control v1 (hatch VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "devices": [
@@ -11,7 +11,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 90034,
+   "uptime_s": 90329,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -82,9 +82,9 @@
    "name": "Razr+",
    "kind": "phone",
    "ip": "100.79.81.67",
-   "online": false,
+   "online": true,
    "rvg_agent": {
-    "up": false,
+    "up": true,
     "authed": false
    }
   }
