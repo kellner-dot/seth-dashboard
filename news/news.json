@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-26T09:00:38+0000",
- "updated_ts": 1793005238,
+ "updated": "2026-10-26T09:30:43+0000",
+ "updated_ts": 1793007043,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Switzerland. Block by block. At 1:1 scale",
+     "summary": "Comments",
+     "url": "https://blocks.manifold3d.ch/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Show HN: TitleArt \u2013 Make text like it's 1997",
      "summary": "Comments",
@@ -13,16 +20,16 @@
      "source": "Hacker News"
     },
     {
-     "title": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+     "title": "The result of the C++26 DIS ballot",
      "summary": "Comments",
-     "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+     "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "The result of the C++26 DIS ballot",
+     "title": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
      "summary": "Comments",
-     "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+     "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://brashandplucky.com/2026/10/15/growing-trees.html",
      "time": "Fri, 23 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Dolly Parton's Imagination Library",
-     "summary": "Comments",
-     "url": "https://imaginationlibrary.com/",
-     "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -137,45 +137,45 @@
      "source": "BBC World"
     },
     {
-     "title": "Morning news brief",
-     "summary": "Republicans' gerrymandering efforts have led to expensive and competitive races, Brazil's President Lula elected for fourth term, protests sweep parts of Europe.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6012093/morning-news-brief",
+     "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
+     "summary": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
      "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Brazil's left-wing President Lula elected for fourth term",
-     "summary": "Brazil's 80-year-old left-wing leader President Lula defeats Fl\u00e1vio Bolsonaro in a bitterly contested runoff.",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Loggers say Roadless Rule repeal won't solve their biggest challenges",
+     "summary": "President Trump is planning to open up some of the nation's last pristine forests to road building and timber companies. But those who work in the woods say it won't do enough to revive the industry.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6009247/loggers-say-roadless-rule-repeal-wont-solve-their-biggest-challenges",
+     "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "U.S. measles cases more than double what they were last year as outbreak spreads",
-     "summary": "Pennsylvania is the worst hit state, with at least 1,338 cases of measles confirmed in 44 counties so far this year, according to the Pennsylvania Department of Health.",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016205/measles-outbreak-pennsylvania",
-     "time": "Sun, 25 Oct 2026",
+     "title": "How AI is transforming hurricane forecasts",
+     "summary": "Hurricane forecasters are increasingly using artificial intelligence to make predictions.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
+     "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
-     "summary": "Attorney General Todd Blanche defended the Justice Department's suit over Alaska's Senate race in an interview on CNN.",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Special ed diaries: Teachers tell NPR about their most joyous, most difficult moments",
+     "summary": "What makes special education teaching jobs so hard to fill? NPR set out to find some answers by talking to more than a dozen teachers who do this work every day.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6000653/special-education-teacher-shortage",
+     "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Venezuela's opposition leader Mar\u00eda Corina Machado returns after months in exile",
-     "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Court ruling fails to end wait for thousands of immigrants stuck abroad without visas",
+     "summary": "A federal judge struck down a Trump administration ban on issuing immigrant visas to people from 75 countries, but immigrants continue to be stuck in their countries. Attorneys say the federal government is slow-walking the processing of visas on purpose.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-5991896/court-ruling-fails-to-end-wait-for-thousands-of-immigrants-stuck-abroad-without-visas",
+     "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Israelis have changed. Will they change their leadership?",
-     "summary": "Israel is holding a general election this week after years of war. For many Israelis, shaken by the Oct. 7, 2023, attacks and years of war, it is the most consequential in decades.",
-     "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Republicans are spending millions and still may not win districts drawn to favor them",
+     "summary": "Republicans redrew Congressional district lines to try to tilt the midterms in their favor. But now they are facing expensive and competitive races they had hoped to outmaneuver.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6008167/republican-redistricting-midterms-competitive-map",
+     "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     }
    ]
