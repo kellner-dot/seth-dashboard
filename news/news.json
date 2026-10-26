@@ -1,28 +1,14 @@
 {
- "updated": "2026-10-26T05:30:40+0000",
- "updated_ts": 1792992640,
+ "updated": "2026-10-26T06:00:42+0000",
+ "updated_ts": 1792994442,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "US Wages Share of GDI at 75 Year Low",
-     "summary": "Comments",
-     "url": "https://fred.stlouisfed.org/series/W270RE1A156NBEA",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Show HN: TitleArt \u2013 Make text like it's 1997",
      "summary": "Comments",
      "url": "https://titleart.dvy.io/",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Behind the scenes at the NeXT Computer office",
-     "summary": "Comments",
-     "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,9 +20,23 @@
      "source": "Hacker News"
     },
     {
+     "title": "Behind the scenes at the NeXT Computer office",
+     "summary": "Comments",
+     "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Dolly Parton's Imagination Library",
      "summary": "Comments",
      "url": "https://imaginationlibrary.com/",
+     "time": "Sun, 25 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: A Truly Modular Keyboard",
+     "summary": "Comments",
+     "url": "https://github.com/notaroomba/keybytes",
      "time": "Sun, 25 Oct 2026",
      "source": "Hacker News"
     },
@@ -95,9 +95,16 @@
    "name": "World",
    "articles": [
     {
-     "title": "Elation across Serbia after veteran ruler Vu\u010di\u0107 concedes to student-led protest movement",
+     "title": "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 26 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
+     "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicol\u00e1s Maduro.",
+     "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 26 Oct 2026",
      "source": "BBC World"
     },
@@ -109,17 +116,10 @@
      "source": "BBC World"
     },
     {
-     "title": "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-     "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicol\u00e1s Maduro.",
-     "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+     "title": "Australian murderer loses bid to eat Vegemite in prison",
+     "summary": "Andre McKechnie, who murdered a property developer, argued it was his right to enjoy Australian culture.",
+     "url": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 26 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-     "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
-     "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 25 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-     "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-     "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+     "title": "Russia to host first Olympic federation world event since Ukraine invasion",
+     "summary": "The International Weightlifting Federation becomes the first Olympic federation to choose Russia to host a world championships since its invasion of Ukraine.",
+     "url": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss",
      "time": "Sun, 25 Oct 2026",
      "source": "BBC World"
     },
