@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-26T19:00:47+0000",
- "updated_ts": 1793041247,
+ "updated": "2026-10-26T19:30:44+0000",
+ "updated_ts": 1793043044,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+     "summary": "Comments",
+     "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
      "summary": "Comments",
@@ -20,9 +27,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+     "title": "Oldest GUI application that still runs on Windows 11",
      "summary": "Comments",
-     "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+     "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -30,13 +37,6 @@
      "title": "GPT-6.1 Terra",
      "summary": "Comments",
      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Anthropic S-1",
-     "summary": "Comments",
-     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -109,9 +109,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-     "summary": "The R&B star previously pleaded guilty to affray, after attacking a music producer with a glass bottle.",
-     "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+     "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+     "summary": "Maurene Comey believes she was let go from her job as a federal prosecutor because her father is the former FBI director.",
+     "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 26 Oct 2026",
      "source": "BBC World"
     },
