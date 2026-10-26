@@ -1,32 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-26T17:11:52+0000",
+ "generated_iso": "2026-10-26T17:20:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-26 12:55:18.637 Info DynamicHlsService-0HNPI0O3NBGHU:00000001: ProcessRun 'StreamTranscode 1d6501' Process exited with code 1 - Failed",
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies'.",
      "c": "err"
     },
     {
-     "t": "2026-10-26 12:55:18.671 Error DynamicHlsService-0HNPI0O3NBGHU:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 12:55:23.730 Info DynamicHlsService-0HNPI0O3NBGHV:00000001: ProcessRun 'StreamTranscode 1577c2' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 12:55:23.763 Error DynamicHlsService-0HNPI0O3NBGHV:00000001: Error processing request",
+     "t": "2026-10-26 13:17:33.961 Error App: Error in validateChildren for 980220 D:\\Media\\Adult\\OnlyFans",
      "c": "err"
     },
     {
@@ -34,7 +18,31 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\Media\\Adult\\OnlyFans'.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-26 13:17:34.067 Error App: Error in validateChildren for 21433 D:\\TV Shows",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-26 13:17:36.692 Error App: Error in TheTVDB",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
      "c": "err"
     }
    ]
@@ -67,14 +75,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-26T12:41:19-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-26T12:45:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-26T12:50:59-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
      "c": "ok"
     },
@@ -88,6 +88,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-26T13:05:52-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-26T13:11:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-26T13:15:49-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
      "c": "ok"
     }
    ]
