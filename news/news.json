@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-26T13:00:41+0000",
- "updated_ts": 1793019641,
+ "updated": "2026-10-26T13:30:49+0000",
+ "updated_ts": 1793021449,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Anthropic S-1",
+     "summary": "Comments",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Switzerland. Block by block. At 1:1 scale",
      "summary": "Comments",
@@ -20,16 +27,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Websites Should Be Printable",
+     "title": "Fixing Tool-Call Accuracy in vLLM",
      "summary": "Comments",
-     "url": "https://brennenputh.me/blog/printable-websites/",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: TitleArt \u2013 Make text like it's 1997",
-     "summary": "Comments",
-     "url": "https://titleart.dvy.io/",
+     "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,9 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Behind the scenes at the NeXT Computer office",
+     "title": "Show HN: TitleArt \u2013 Make text like it's 1997",
      "summary": "Comments",
-     "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+     "url": "https://titleart.dvy.io/",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -116,6 +116,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
+     "summary": "Local youths reportedly accused the health workers of contaminating water sources and spreading Ebola.",
+     "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 26 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
      "summary": "Bauza had voiced a number of characters in this summer's animated hit Coyote vs. Acme.",
      "url": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
@@ -130,11 +137,18 @@
      "source": "BBC World"
     },
     {
-     "title": "Nurse killed in Ebola attack in DR Congo",
-     "summary": "Local youths reportedly accused the health workers of contaminating water sources and spreading Ebola.",
-     "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+     "title": "Australian judge rejects prisoner's human rights challenge to Vegemite ban",
+     "summary": "Andre McKechnie, 55, is serving a life sentence for murder. He took his battle for the salty, sticky, black-brown byproduct of brewing beer to the court last year. He argued being refused Vegemite breached the Charter of Human Rights and Responsibilities Act.",
+     "url": "https://www.npr.org/2026/10/26/g-s1-149923/australian-judge-rejects-prisoners-human-rights-challenge-to-vegemite-ban",
      "time": "Mon, 26 Oct 2026",
-     "source": "BBC World"
+     "source": "NPR News"
+    },
+    {
+     "title": "What to know about China's plenum as Xi seeks stronger party discipline",
+     "summary": "This closed-door gathering that started Monday comes about a year before Xi is expected to secure a fourth term and personnel changes to key leadership bodies.",
+     "url": "https://www.npr.org/2026/10/26/g-s1-149918/what-to-know-about-chinas-plenum-as-xi-seeks-stronger-party-discipline",
+     "time": "Mon, 26 Oct 2026",
+     "source": "NPR News"
     },
     {
      "title": "Redistricting isn't playing out how the GOP hoped. And, Brazil's Lula wins 4th term",
@@ -161,20 +175,6 @@
      "title": "How AI is transforming hurricane forecasts",
      "summary": "Hurricane forecasters are increasingly using artificial intelligence to make predictions.",
      "url": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
-     "time": "Mon, 26 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Loggers say Roadless Rule repeal won't solve their biggest challenges",
-     "summary": "President Trump is planning to open up some of the nation's last pristine forests to road building and timber companies. But those who work in the woods say it won't do enough to revive the industry.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6009247/loggers-say-roadless-rule-repeal-wont-solve-their-biggest-challenges",
-     "time": "Mon, 26 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Court ruling fails to end wait for thousands of immigrants stuck abroad without visas",
-     "summary": "A federal judge struck down a Trump administration ban on issuing immigrant visas to people from 75 countries, but immigrants continue to be stuck in their countries.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-5991896/court-ruling-fails-to-end-wait-for-thousands-of-immigrants-stuck-abroad-without-visas",
      "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     }
