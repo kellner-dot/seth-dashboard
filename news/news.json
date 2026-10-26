@@ -1,35 +1,14 @@
 {
- "updated": "2026-10-26T14:31:01+0000",
- "updated_ts": 1793025061,
+ "updated": "2026-10-26T15:00:44+0000",
+ "updated_ts": 1793026844,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "OLED iPad Mini",
-     "summary": "Comments",
-     "url": "https://www.apple.com/shop/buy-ipad/ipad-mini",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The new iPad mini",
-     "summary": "Comments",
-     "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Fixing Tool-Call Accuracy in vLLM",
      "summary": "Comments",
      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Switzerland. Block by block. At 1:1 scale",
-     "summary": "Comments",
-     "url": "https://blocks.manifold3d.ch/",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,10 +20,31 @@
      "source": "Hacker News"
     },
     {
+     "title": "Switzerland. Block by block. At 1:1 scale",
+     "summary": "Comments",
+     "url": "https://blocks.manifold3d.ch/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "One of the Greatest Inventions in the History of Human Transport",
      "summary": "Comments",
      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
      "time": "Thu, 22 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "The new iPad mini",
+     "summary": "Comments",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "OLED iPad Mini",
+     "summary": "Comments",
+     "url": "https://www.apple.com/shop/buy-ipad/ipad-mini",
+     "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -109,7 +109,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Anthropic warns of AI's 'risks to humanity' ahead of blockbuster share listing",
+     "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
      "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
      "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 26 Oct 2026",
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-     "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicol\u00e1s Maduro.",
-     "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+     "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+     "summary": "The troops are expected to protect energy facilities in northern Niger, near the Libyan border.",
+     "url": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 26 Oct 2026",
      "source": "BBC World"
     },
