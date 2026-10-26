@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T11:30:42+0000",
- "updated_ts": 1793014242,
+ "updated": "2026-10-26T12:01:05+0000",
+ "updated_ts": 1793016065,
  "topics": [
   {
    "name": "Tech",
@@ -13,13 +13,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: TitleArt \u2013 Make text like it's 1997",
-     "summary": "Comments",
-     "url": "https://titleart.dvy.io/",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Birdwatching rewires the brain and slows cognitive decline",
      "summary": "Comments",
      "url": "https://www.bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline",
@@ -27,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+     "title": "Show HN: TitleArt \u2013 Make text like it's 1997",
      "summary": "Comments",
-     "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+     "url": "https://titleart.dvy.io/",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -37,6 +30,13 @@
      "title": "Behind the scenes at the NeXT Computer office",
      "summary": "Comments",
      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+     "summary": "Comments",
+     "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "Court ruling fails to end wait for thousands of immigrants stuck abroad without visas",
-     "summary": "A federal judge struck down a Trump administration ban on issuing immigrant visas to people from 75 countries, but immigrants continue to be stuck in their countries.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-5991896/court-ruling-fails-to-end-wait-for-thousands-of-immigrants-stuck-abroad-without-visas",
+     "title": "Republicans are spending millions and still may not win districts drawn to favor them",
+     "summary": "Republicans redrew Congressional district lines to try to tilt the midterms in their favor. But now they are facing expensive and competitive races they had hoped to outmaneuver.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6008167/republican-redistricting-midterms-competitive-map",
      "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     }
