@@ -1,48 +1,36 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-25T23:50:40+0000",
+ "generated_iso": "2026-10-26T00:00:49+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "\t*** Error Report ***",
+     "t": "\tTargetSite: Void HandleFailure(System.Exception, Boolean, System.Net.Http.HttpResponseMessage, System.Threading.CancellationTokenSource, System.Threa",
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
      "c": "err"
     },
     {
-     "t": "2026-10-25 19:50:19.327 Error SecurityManager: Error checking registration status of MBSupporter",
+     "t": "\tInnerException: System.TimeoutException: The operation was canceled.",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
+     "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: The operation was canceled.",
      "c": "err"
     },
     {
-     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadGateway",
+     "t": "\tInnerException: System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thre",
      "c": "err"
     },
     {
-     "t": "2026-10-25 19:50:19.430 Error SecurityManager: Error checking registration status of MBSupporter",
+     "t": "\tInnerException: System.Net.Sockets.SocketException: The I/O operation has been aborted because of either a thread exit or an application request.",
      "c": "err"
     },
     {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadGateway",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-25 19:50:24.347 Info DynamicHlsService-0HNPI0O3NBA37:00000001: ProcessRun 'StreamTranscode e00f93' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-25 19:50:24.385 Error DynamicHlsService-0HNPI0O3NBA37:00000001: Error processing request",
+     "t": "2026-10-25 19:53:55.167 Error SecurityManager: Error checking registration status of MBSupporter",
      "c": "err"
     },
     {
@@ -50,7 +38,19 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: Cancelling connection to https://mb3admin.com/admin/service/registration/",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-25 19:53:55.167 Error SecurityManager: Error checking registration status of MBSupporter",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: Cancelling connection to https://mb3admin.com/admin/service/registration/",
      "c": "err"
     }
    ]
@@ -83,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-25T19:21:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T19:25:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-25T19:31:11-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     },
@@ -104,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-25T19:45:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T19:50:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T19:55:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     }
    ]
