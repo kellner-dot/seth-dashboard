@@ -1,22 +1,10 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-26T00:10:42+0000",
+ "generated_iso": "2026-10-26T00:20:43+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
-    {
-     "t": "\tTargetSite: Void HandleFailure(System.Exception, Boolean, System.Net.Http.HttpResponseMessage, System.Threading.CancellationTokenSource, System.Threa",
-     "c": "err"
-    },
-    {
-     "t": "\t   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, Canc",
-     "c": "err"
-    },
-    {
-     "t": "\tInnerException: System.TimeoutException: The operation was canceled.",
-     "c": "err"
-    },
     {
      "t": "\tInnerException: System.Threading.Tasks.TaskCanceledException: The operation was canceled.",
      "c": "err"
@@ -83,14 +71,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-25T19:40:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-25T19:45:51-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-25T19:50:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     },
@@ -104,6 +84,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-25T20:06:00-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T20:10:55-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-25T20:15:50-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-25",
      "c": "ok"
     }
    ]
