@@ -1,20 +1,12 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-26T11:50:41+0000",
+ "generated_iso": "2026-10-26T12:00:51+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-26 07:45:18.445 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 07:45:18.500 Info DynamicHlsService-0HNPI0O3NBEIH:00000001: ProcessRun 'StreamTranscode 2f39ee' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 07:45:18.528 Error DynamicHlsService-0HNPI0O3NBEIH:00000001: Error processing request",
+     "t": "2026-10-26 07:55:36.146 Error PluginService-0HNPI0O3NBEL1:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -22,15 +14,11 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
      "c": "err"
     },
     {
-     "t": "2026-10-26 07:45:23.578 Info DynamicHlsService-0HNPI0O3NBEII:00000001: ProcessRun 'StreamTranscode 039882' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 07:45:23.605 Error DynamicHlsService-0HNPI0O3NBEII:00000001: Error processing request",
+     "t": "2026-10-26 07:55:36.446 Error PluginService-0HNPI0O3NBEL2:00000001: Error processing request",
      "c": "err"
     },
     {
@@ -38,7 +26,31 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-26 07:55:36.794 Error PluginService-0HNPI0O3NBEL3:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-26 07:55:37.138 Error PluginService-0HNPI0O3NBEL4:00000001: Error processing request",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tSystem.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object.",
      "c": "err"
     }
    ]
@@ -71,14 +83,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-26T07:20:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-26T07:25:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-26T07:31:04-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
      "c": "ok"
     },
@@ -92,6 +96,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-26T07:45:58-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-26T07:50:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-26T07:55:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
      "c": "ok"
     }
    ]
