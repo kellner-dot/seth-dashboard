@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-26T18:30:40+0000",
- "updated_ts": 1793039440,
+ "updated": "2026-10-26T19:00:47+0000",
+ "updated_ts": 1793041247,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Meta Employees Denounce Interference in Brazilian Elections",
-     "summary": "Comments",
-     "url": "https://www.panamericandispatch.org/p/meta-employees-denounce-interference",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
      "summary": "Comments",
@@ -23,6 +16,20 @@
      "title": "CSS-Tricks has a new owner",
      "summary": "Comments",
      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+     "summary": "Comments",
+     "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "GPT-6.1 Terra",
+     "summary": "Comments",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -41,11 +48,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "GPT-6.1 Terra",
-     "summary": "Comments",
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "title": "Boston Dynamics employees want to block sale of robot dogs to ICE",
+     "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+     "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
      "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Musk accuses Ukraine of violating Starlink terms with deadly drone strikes",
+     "summary": "Ukraine says Starshield back to normal, denies misuse of Starlink commercial service.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/musk-accuses-ukraine-of-violating-starlink-terms-with-deadly-drone-strikes/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+     "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Some iPhone Duo screens are already failing",
+     "summary": "Apple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens.",
+     "url": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "F1 in Texas: The American race that fans love to attend",
@@ -55,38 +83,10 @@
      "source": "Ars Technica"
     },
     {
-     "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
+     "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
      "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
      "time": "Mon, 26 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "From impulse purchase to pocket studio: The M-Vave FM-1",
-     "summary": "M-Vave's cheap FM-1 pocket synth has exploded as a community firmware playground.",
-     "url": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
-     "summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
-     "url": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
-     "time": "Sat, 24 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
-     "summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
-     "url": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
-     "time": "Sat, 24 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-     "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
-     "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-     "time": "Fri, 23 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -137,6 +137,20 @@
      "source": "BBC World"
     },
     {
+     "title": "Trump administration pushes for food assistance card upgrade to fight fraud",
+     "summary": "The proposed rule is a major step forward in addressing a form of fraud that has robbed SNAP recipients of millions.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6017810/snap-benefits-ebt-card-chip-usda-rule",
+     "time": "Mon, 26 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Judge says DOJ illegally fired the daughter of former FBI director Comey",
+     "summary": "Maurene Comey served as a federal prosecutor in Manhattan for around a decade. A judicial ruling finding her dismissal unlawful adds to concerns of politically motivated firings at the DOJ.",
+     "url": "https://www.npr.org/2026/10/26/g-s1-149960/judge-maurene-comey-illegal-dismissal",
+     "time": "Mon, 26 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "AI giant Anthropic files for an IPO that could break records",
      "summary": "The AI company, which makes the popular Claude chatbot, has filed for an initial public offering that could be one of the biggest ever.",
      "url": "https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records",
@@ -161,20 +175,6 @@
      "title": "Redistricting isn't playing out how the GOP hoped. And, Brazil's Lula wins 4th term",
      "summary": "Republicans are spending millions on the midterms, and they still may not win districts drawn to favor them. And, Brazil's Luiz In\u00e1cio Lula da Silva won a fourth term in a stunning political comeback.",
      "url": "https://www.npr.org/2026/10/26/g-s1-149917/up-first-newsletter-republican-redistricting-france-serbia-protests-brazil-luiz-inacio-lula-da-silva",
-     "time": "Mon, 26 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
-     "summary": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
-     "time": "Mon, 26 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "How AI is transforming hurricane forecasts",
-     "summary": "Hurricane forecasters are increasingly using artificial intelligence to make predictions.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
      "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     }
