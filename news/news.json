@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T05:00:41+0000",
- "updated_ts": 1792990841,
+ "updated": "2026-10-26T05:30:40+0000",
+ "updated_ts": 1792992640,
  "topics": [
   {
    "name": "Tech",
@@ -20,6 +20,13 @@
      "source": "Hacker News"
     },
     {
+     "title": "Behind the scenes at the NeXT Computer office",
+     "summary": "Comments",
+     "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
      "summary": "Comments",
      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
@@ -34,17 +41,10 @@
      "source": "Hacker News"
     },
     {
-     "title": "Behind the scenes at the NeXT Computer office",
+     "title": "Overgrown, when plants invade your abandoned tabs",
      "summary": "Comments",
-     "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: A Truly Modular Keyboard",
-     "summary": "Comments",
-     "url": "https://github.com/notaroomba/keybytes",
-     "time": "Sun, 25 Oct 2026",
+     "url": "https://charliegerard.dev/blog/overgrown-extension/",
+     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
