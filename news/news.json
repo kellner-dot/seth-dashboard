@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-26T13:30:49+0000",
- "updated_ts": 1793021449,
+ "updated": "2026-10-26T14:00:45+0000",
+ "updated_ts": 1793023245,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Anthropic S-1",
+     "title": "Fixing Tool-Call Accuracy in vLLM",
      "summary": "Comments",
-     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,17 +27,17 @@
      "source": "Hacker News"
     },
     {
-     "title": "Fixing Tool-Call Accuracy in vLLM",
-     "summary": "Comments",
-     "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Tasks as Code: Move Your Tickets into the Repository",
      "summary": "Comments",
      "url": "https://typemill.net/knowledge-hub/tasks-as-code",
      "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "One of the Greatest Inventions in the History of Human Transport",
+     "summary": "Comments",
+     "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
+     "time": "Thu, 22 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -109,9 +109,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Australian murderer loses bid to eat Vegemite in prison",
-     "summary": "Andre McKechnie, who murdered a property developer, argued it was his right to enjoy Australian culture.",
-     "url": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
+     "title": "AI giant Anthropic unveils plans for blockbuster share listing",
+     "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
+     "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+     "time": "Mon, 26 Oct 2026",
+     "source": "BBC World"
+    },
+    {
+     "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+     "summary": "The R&B star previously pleaded guilty to affray, after attacking a music producer with a glass bottle.",
+     "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 26 Oct 2026",
      "source": "BBC World"
     },
@@ -123,17 +130,10 @@
      "source": "BBC World"
     },
     {
-     "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
-     "summary": "Bauza had voiced a number of characters in this summer's animated hit Coyote vs. Acme.",
-     "url": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
+     "title": "Australian murderer loses bid to eat Vegemite in prison",
+     "summary": "Andre McKechnie, who murdered a property developer, argued it was his right to enjoy Australian culture.",
+     "url": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
      "time": "Mon, 26 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
-     "summary": "The Super Bass singer is the latest big name to campaign in Michigan, where a tight Senate race is playing out ahead of the 3 November midterms.",
-     "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss",
-     "time": "Sun, 25 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -165,16 +165,16 @@
      "source": "NPR News"
     },
     {
-     "title": "Special ed diaries: Teachers tell NPR about their most joyous, most difficult moments",
-     "summary": "What makes special education teaching jobs so hard to fill? NPR set out to find some answers by talking to more than a dozen teachers who do this work every day.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6000653/special-education-teacher-shortage",
+     "title": "How AI is transforming hurricane forecasts",
+     "summary": "Hurricane forecasters are increasingly using artificial intelligence to make predictions.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
      "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "How AI is transforming hurricane forecasts",
-     "summary": "Hurricane forecasters are increasingly using artificial intelligence to make predictions.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
+     "title": "Special ed diaries: Teachers tell NPR about their most joyous, most difficult moments",
+     "summary": "What makes special education teaching jobs so hard to fill? NPR set out to find some answers by talking to more than a dozen teachers who do this work every day.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6000653/special-education-teacher-shortage",
      "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     }
@@ -232,7 +232,7 @@
    "articles": [
     {
      "title": "Elvis Presley Catalog Owners Sue AI Company Anthropic for Copyright Infringement",
-     "summary": "The lawsuit claims Anthropic illegally used 274 songs by The King to train its AI model Claude",
+     "summary": "The lawsuit claims Anthropic illegally used 274 songs by the King to train its AI model Claude",
      "url": "https://pitchfork.com/story/elvis-presley-catalog-owners-sue-ai-company-anthropic-for-copyright-infringement/",
      "time": "Sun, 25 Oct 2026",
      "source": "Pitchfork"
@@ -245,7 +245,7 @@
      "source": "Pitchfork"
     },
     {
-     "title": "Turnstile Pack Out Washington Monument for Palestine, Sudan, and Lebanon Benefit Show",
+     "title": "Turnstile Pack Washington Mall for Palestine, Sudan, and Lebanon Benefit Show",
      "summary": "The Baltimore hardcore band raised over $220,000 for Human Concern International\u2019s relief efforts in the three regions",
      "url": "https://pitchfork.com/story/turnstile-pack-out-washington-monument-for-palestine-sudan-and-lebanon-benefit-show/",
      "time": "Sun, 25 Oct 2026",
