@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T15:00:44+0000",
- "updated_ts": 1793026844,
+ "updated": "2026-10-26T15:30:43+0000",
+ "updated_ts": 1793028643,
  "topics": [
   {
    "name": "Tech",
@@ -20,13 +20,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Switzerland. Block by block. At 1:1 scale",
-     "summary": "Comments",
-     "url": "https://blocks.manifold3d.ch/",
-     "time": "Mon, 26 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "One of the Greatest Inventions in the History of Human Transport",
      "summary": "Comments",
      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
@@ -34,18 +27,39 @@
      "source": "Hacker News"
     },
     {
-     "title": "The new iPad mini",
+     "title": "Pharo 14",
      "summary": "Comments",
-     "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+     "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "OLED iPad Mini",
+     "title": "Switzerland. Block by block. At 1:1 scale",
      "summary": "Comments",
-     "url": "https://www.apple.com/shop/buy-ipad/ipad-mini",
+     "url": "https://blocks.manifold3d.ch/",
      "time": "Mon, 26 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Partyline: A group voice application for Reticulum, built on LXST",
+     "summary": "Comments",
+     "url": "https://github.com/RFnexus/partyline",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "F1 in Texas: The American race that fans love to attend",
+     "summary": "Ars spends the weekend with the Audi Revolut F1 team at the Circuit of the Americas.",
+     "url": "https://arstechnica.com/cars/2026/10/f1-in-texas-one-more-race-and-well-have-a-new-champion/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
+     "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+     "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "From impulse purchase to pocket studio: The M-Vave FM-1",
@@ -72,20 +86,6 @@
      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
      "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
      "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
-     "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-     "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
-     "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
      "time": "Fri, 23 Oct 2026",
      "source": "Ars Technica"
     }
@@ -172,9 +172,9 @@
      "source": "NPR News"
     },
     {
-     "title": "How AI is transforming hurricane forecasts",
-     "summary": "Hurricane forecasters are increasingly using artificial intelligence to make predictions.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
+     "title": "Special ed diaries: Teachers tell NPR about their most joyous, most difficult moments",
+     "summary": "What makes special education teaching jobs so hard to fill? NPR set out to find some answers by talking to more than a dozen teachers who do this work every day.",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6000653/special-education-teacher-shortage",
      "time": "Mon, 26 Oct 2026",
      "source": "NPR News"
     }
@@ -231,6 +231,20 @@
    "name": "Music",
    "articles": [
     {
+     "title": "The Weeknd Debuts \u201cHong Kong\u201d in Hong Kong",
+     "summary": "Faye Wong features on the new song, premiered during his four-night run at Kai Tak Stadium",
+     "url": "https://pitchfork.com/story/the-weeknd-debuts-hong-kong-in-hong-kong/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
+     "title": "Throwing Muses Reissue Self-Titled Debut Album for 40th Anniversary",
+     "summary": "Throwing Muses introduced 4AD\u2019s first American signing to the world",
+     "url": "https://pitchfork.com/story/throwing-muses-reissue-self-titled-debut-album-for-40th-anniversary/",
+     "time": "Mon, 26 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "Elvis Presley Catalog Owners Sue AI Company Anthropic for Copyright Infringement",
      "summary": "The lawsuit claims Anthropic illegally used 274 songs by the King to train its AI model Claude",
      "url": "https://pitchfork.com/story/elvis-presley-catalog-owners-sue-ai-company-anthropic-for-copyright-infringement/",
@@ -255,20 +269,6 @@
      "title": "Slayyyter Cancels Remaining UK and European Tour Dates",
      "summary": "Laryngitis and vocal cord tears are forcing the singer \u201cto go on medication and full vocal rest for at least two weeks\u201d",
      "url": "https://pitchfork.com/story/slayyyter-cancels-remaining-uk-and-european-tour-dates/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Noel Gallagher Talks Vegans, Macca, Underwear on Chicken Shop Date",
-     "summary": "\u201cDo you know what\u2019s not a high-flying bird? A chicken.\u201d",
-     "url": "https://pitchfork.com/story/noel-gallagher-talks-vegans-macca-underwear-on-chicken-shop-date/",
-     "time": "Fri, 23 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Chappell Roan Duets With Caroline Polachek, PinkPantheress, and Lola Young",
-     "summary": "All on the closing night of Roan\u2019s Los Angeles pop extravaganza, the Super Graphic Spectacular",
-     "url": "https://pitchfork.com/story/chappell-roan-duets-with-caroline-polachek-pinkpantheress-and-lola-young/",
      "time": "Fri, 23 Oct 2026",
      "source": "Pitchfork"
     }
