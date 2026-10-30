@@ -1,31 +1,10 @@
 {
- "updated": "2026-10-30T23:00:44+0000",
- "updated_ts": 1793401244,
+ "updated": "2026-10-30T23:30:40+0000",
+ "updated_ts": 1793403040,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Linode Security Incident",
-     "summary": "Comments",
-     "url": "https://status.linode.com/incidents/nt58zhx3pmgm",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "France is getting download tax for content providers (\u20ac0.055/GB)",
-     "summary": "Comments",
-     "url": "https://www.resetera.com/threads/france-is-getting-download-tax-for-content-providers-%E2%82%AC0-055-gb-for-data-delivered-to-french-users.1675109/",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Bunny CDN Security Incident",
-     "summary": "Comments",
-     "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "My favourite PowerMac is a Nintendo Wii",
      "summary": "Comments",
@@ -34,7 +13,7 @@
      "source": "Hacker News"
     },
     {
-     "title": "Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+     "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
      "summary": "Comments",
      "url": "https://www.firezone.dev/blog/introducing-sanstun",
      "time": "Fri, 30 Oct 2026",
@@ -44,6 +23,27 @@
      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
      "summary": "Comments",
      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Northflank Breached",
+     "summary": "Comments",
+     "url": "https://status.northflank.com",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Federal Bureau of Prisons employees serve as election monitors at polling sites",
+     "summary": "Comments",
+     "url": "https://www.corrections1.com/federal-prison/bop-employees-to-serve-as-election-monitors-at-polling-sites-doj-filing-says",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Jules Verne's Lost Novel",
+     "summary": "Comments",
+     "url": "https://blue-continuum.com/verne-paris",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
