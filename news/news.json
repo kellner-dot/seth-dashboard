@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T19:00:59+0000",
- "updated_ts": 1793386859,
+ "updated": "2026-10-30T19:30:48+0000",
+ "updated_ts": 1793388648,
  "topics": [
   {
    "name": "Tech",
@@ -13,13 +13,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Northflank Breached",
-     "summary": "Comments",
-     "url": "https://status.northflank.com",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "GitHub Incident with Actions, Pages, and Webhooks",
      "summary": "Comments",
      "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
@@ -27,9 +20,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+     "title": "Northflank Breached",
      "summary": "Comments",
-     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "url": "https://status.northflank.com",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
@@ -37,6 +30,13 @@
      "title": "A Working Nintendo in ~1GB of Qwen Weights",
      "summary": "Comments",
      "url": "https://github.com/dbreunig/nesformer",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+     "summary": "Comments",
+     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
