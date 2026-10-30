@@ -1,92 +1,92 @@
 {
- "updated": "2026-10-26T20:30:43+0000",
- "updated_ts": 1793046643,
+ "updated": "2026-10-30T18:00:48+0000",
+ "updated_ts": 1793383248,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Type Server Protocol",
+     "title": "Northflank Breached",
      "summary": "Comments",
-     "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
-     "time": "Mon, 26 Oct 2026",
+     "url": "https://status.northflank.com",
+     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
      "summary": "Comments",
-     "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-     "time": "Mon, 26 Oct 2026",
+     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Oldest GUI application that still runs on Windows 11",
+     "title": "A Working Nintendo in ~1GB of Qwen Weights",
      "summary": "Comments",
-     "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
-     "time": "Mon, 26 Oct 2026",
+     "url": "https://github.com/dbreunig/nesformer",
+     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "CSS-Tricks has a new owner",
+     "title": "Florilegium: Procedural Flowers in LaTeX",
      "summary": "Comments",
-     "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-     "time": "Mon, 26 Oct 2026",
+     "url": "https://github.com/kevinraymond/florilegium",
+     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "GPT-6.1 Terra",
+     "title": "The federated code forge",
      "summary": "Comments",
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "time": "Mon, 26 Oct 2026",
+     "url": "https://tangled.org/blog/forge/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Nietzschian Debugger",
+     "title": "AI isn't replacing SREs, it's deskilling them",
      "summary": "Comments",
-     "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
-     "time": "Mon, 26 Oct 2026",
+     "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Boston Dynamics employees want to block sale of robot dogs to ICE",
-     "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
-     "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+     "summary": "Low costs and offline security mean magnetic tape still has a job.",
+     "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Musk accuses Ukraine of violating Starlink terms with deadly drone strikes",
-     "summary": "Ukraine says Starshield back to normal, denies misuse of Starlink commercial service.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/musk-accuses-ukraine-of-violating-starlink-terms-with-deadly-drone-strikes/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Thousands of \u201cghost students\u201d use AI to steal millions in student loans, DOJ says",
+     "summary": "Applying for FAFSA may get messy as DOJ \u201cghost student\u201d crackdown ramps up.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
-     "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
-     "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Analysts find looming launch crisis is \"more severe\" than anticipated",
+     "summary": "There's no evidence that Starship will launch traditional satellites, either.",
+     "url": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Some iPhone Duo screens are already failing",
-     "summary": "Apple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens.",
-     "url": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "GM to pay $220 million after selling customer Smart Driver data",
+     "summary": "Owners of GM cars found their driving data had been sold to insurance companies.",
+     "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "F1 in Texas: The American race that fans love to attend",
-     "summary": "Ars spends the weekend with the Audi Revolut F1 team at the Circuit of the Americas.",
-     "url": "https://arstechnica.com/cars/2026/10/f1-in-texas-one-more-race-and-well-have-a-new-champion/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+     "summary": "Binance scrambles to freeze billions after record-breaking hack linked to North Korea.",
+     "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     },
     {
-     "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
-     "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
-     "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "2027 Nissan Rogue Hybrid: Drives like an EV, but there's no plug involved",
+     "summary": "Nissan\u2019s series hybrid e-Power system has been retuned for American roads.",
+     "url": "https://arstechnica.com/cars/2026/10/2027-nissan-rogue-hybrid-drives-like-an-ev-but-theres-no-plug-involved/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     }
    ]
@@ -95,87 +95,87 @@
    "name": "World",
    "articles": [
     {
-     "title": "Lula wins fourth term in dramatic Brazil election comeback",
-     "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Fl\u00e1vio Bolsonaro.",
-     "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+     "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+     "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
-     "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
-     "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 26 Oct 2026",
+     "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+     "summary": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
+     "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Trump administration illegally fired James Comey's daughter, judge rules",
-     "summary": "Maurene Comey believes she was let go from her job as a federal prosecutor because her father is the former FBI director.",
-     "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+     "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+     "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-     "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
-     "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Prominent Russian newspaper shuts down under pressure from authorities",
+     "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+     "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Catholic bishops apologise for 'exploited' Trump meeting",
-     "summary": "Two bishops in images that show them praying with Trump have said they believed the meeting was private.",
-     "url": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Spain transport minister says he won't resign over high-speed rail disaster",
+     "summary": "\u00d3scar Puente has been facing calls to resign after two high-speed trains collided earlier in the week, killing at least 69 people.",
+     "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "US Marine indicted for murder and robbery of woman in Japan",
-     "summary": "Prosecutors have indicted Devin Jacob Ballard for a killing that has caused outrage in Japan, local media reports.",
-     "url": "https://www.bbc.co.uk/news/articles/c3vgxjex1z9wo?at_medium=RSS&at_campaign=rss",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
+     "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
+     "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "Trump administration pushes for food assistance card upgrade to fight fraud",
-     "summary": "The proposed rule is a major step forward in addressing a form of fraud that has robbed SNAP recipients of millions.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6017810/snap-benefits-ebt-card-chip-usda-rule",
-     "time": "Mon, 26 Oct 2026",
+     "title": "ICE activity is surging ahead of midterms. So is voter turnout.",
+     "summary": "Across the country, there are reports of heightened ICE activity. Advocates worry about how close it is to midterms, but so far voter turnout is surging.",
+     "url": "https://www.npr.org/2026/10/30/nx-s1-6023331/ice-activity-surge-midterms",
+     "time": "Fri, 30 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Judge says DOJ illegally fired the daughter of former FBI director Comey",
-     "summary": "Maurene Comey served as a federal prosecutor in Manhattan for around a decade. A judicial ruling finding her dismissal unlawful adds to concerns of politically motivated firings at the DOJ.",
-     "url": "https://www.npr.org/2026/10/26/g-s1-149960/judge-maurene-comey-illegal-dismissal",
-     "time": "Mon, 26 Oct 2026",
+     "title": "NPR special: 5 takeaways from a year of listening to swing voters",
+     "summary": "Every election, there is a crucial sliver of voters who help determine which candidates win. Here are five takeaways from a year of listening to voters who backed Biden in 2020 and then Trump in 2024.",
+     "url": "https://www.npr.org/2026/10/30/nx-s1-6008113/npr-special-swing-voter-focus-groups",
+     "time": "Fri, 30 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "AI giant Anthropic files for an IPO that could break records",
-     "summary": "The AI company, which makes the popular Claude chatbot, has filed for an initial public offering that could be one of the biggest ever.",
-     "url": "https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+     "summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
+     "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+     "time": "Fri, 30 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Australian judge rejects prisoner's human rights challenge to Vegemite ban",
-     "summary": "Andre McKechnie, 55, is serving a life sentence for murder. He took his battle for the salty, sticky, black-brown byproduct of brewing beer to the court last year. He argued being refused Vegemite breached the Charter of Human Rights and Responsibilities Act.",
-     "url": "https://www.npr.org/2026/10/26/g-s1-149923/australian-judge-rejects-prisoners-human-rights-challenge-to-vegemite-ban",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Why is the Cheesecake Factory at the center of the latest culture war?",
+     "summary": "A joke by former President Obama has gone viral and received backlash from the Trump administration as the issue of affordability looms large over next week's midterm elections.",
+     "url": "https://www.npr.org/2026/10/30/nx-s1-6023106/cheesecake-factory-culture-war-affordability-trump-obama",
+     "time": "Fri, 30 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "What to know about China's plenum as Xi seeks stronger party discipline",
-     "summary": "This closed-door gathering that started Monday comes about a year before Xi is expected to secure a fourth term and personnel changes to key leadership bodies.",
-     "url": "https://www.npr.org/2026/10/26/g-s1-149918/what-to-know-about-chinas-plenum-as-xi-seeks-stronger-party-discipline",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Binance flags 'potential security issue,' says approximately $6.3 billion impacted",
+     "summary": "It wasn't immediately clear the extent of the damage hackers might have been able to cause, and Binance had not explicitly confirmed that funds had been pilfered. The company said its teams are \"working around the clock\" to resolve the issue.",
+     "url": "https://www.npr.org/2026/10/30/nx-s1-6023109/binance-security-issue",
+     "time": "Fri, 30 Oct 2026",
      "source": "NPR News"
     },
     {
-     "title": "Redistricting isn't playing out how the GOP hoped. And, Brazil's Lula wins 4th term",
-     "summary": "Republicans are spending millions on the midterms, and they still may not win districts drawn to favor them. And, Brazil's Luiz In\u00e1cio Lula da Silva won a fourth term in a stunning political comeback.",
-     "url": "https://www.npr.org/2026/10/26/g-s1-149917/up-first-newsletter-republican-redistricting-france-serbia-protests-brazil-luiz-inacio-lula-da-silva",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
+     "summary": "Alaska's governor ordered an investigation into claims that Dems recruited a spoiler candidate to confuse voters. And, Hegseth ousted an Army general as the U.S. prepares for potential attacks on Iran.",
+     "url": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
+     "time": "Fri, 30 Oct 2026",
      "source": "NPR News"
     }
    ]
@@ -184,45 +184,45 @@
    "name": "Vermont",
    "articles": [
     {
-     "title": "Supporters raise offer for Rice Memorial High in hopes of spurring court approval of sale",
-     "summary": "The football field at the grade 9-12 Rice Memorial High School in South Burlington. Photo by Kevin O\u2019Connor/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/VTD-Rice-Memorial-High-3-1200x900.jpg?crop=1\" /> A nonprofit aiming to save the South Burlington",
-     "url": "https://vtdigger.org/2026/10/26/supporters-raise-offer-for-rice-memorial-high-in-hopes-of-spurring-court-approval-of-sale/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Lois A. Schumacher",
+     "summary": "She had a strong interest in arts and crafts and pursued interests in painting, weaving, ceramics and hooked rugs. Read the story on VTDigger here: Lois A. Schumacher.",
+     "url": "https://vtdigger.org/2026/10/29/obituary-lois-a-schumacher/",
+     "time": "Thu, 29 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "Teen food pantry tackles food insecurity",
-     "summary": "School lunches. Stock photo by Antoni Shkraba via Pexels universal school meals, sandwich, oranges, dates, grapes, apricots, corn, carrots, celery, produce, food \" data-image-caption=\"School lunches. Stock photo by Antoni Shkraba via Pexels \" data-large-file=\"https://vtdigger.org",
-     "url": "https://vtdigger.org/2026/10/25/teen-food-pantry-tackles-food-insecurity/",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Bennington Battle Monument dig reveals possible historic tavern, artifacts",
+     "summary": "Researchers think these stones may mark the threshold into the former tavern. Photo by Jeff McRae/Bennington Banner \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/bennington-battle-monument-artifacts-1200x673.webp\" /> Historic site opened for tours revealing n",
+     "url": "https://vtdigger.org/2026/10/29/bennington-battle-monument-dig-reveals-possible-historic-tavern-artifacts/",
+     "time": "Thu, 29 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "Second-home taxes aren\u2019t fair",
-     "summary": "Vermont can\u2019t legally target only out-of-staters, so locals would pay too. Read the story on VTDigger here: Second-home taxes aren\u2019t fair.",
-     "url": "https://vtdigger.org/2026/10/25/opinion-second-home-taxes-arent-fair/",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Vermont to receive $4.5M settlement from General Motors following data privacy investigation",
+     "summary": "Vermont Attorney General Charity Clark and members of her staff addressed the press on Thursday afternoon. Photo by Theo Wells-Spackman/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/AG-Clark-GM-Settlement.jpg\" /> \u201cGM collected data from tens of thous",
+     "url": "https://vtdigger.org/2026/10/29/vermont-to-receive-4-5-settlement-from-general-motors-following-data-privacy-investigation/",
+     "time": "Thu, 29 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "What\u2019s behind the Vermont Catholic Church\u2019s ever-evolving bankruptcy case \u2014 and what\u2019s next",
-     "summary": "St. Charles Church in Bellows Falls is one of more than 60 Catholic parishes in Vermont. Photo by Kevin O\u2019Connor/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/VTD-Catholic-27-1200x900.jpg?crop=1\" /> A primer from people in the know about the state\u2019s ",
-     "url": "https://vtdigger.org/2026/10/25/whats-behind-the-vermont-catholic-churchs-ever-evolving-bankruptcy-case-and-whats-next/",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Let the wealthy help keep Vermont rural",
+     "summary": "People who move to Vermont for its rural character have good reason to help pay to protect it. Read the story on VTDigger here: Let the wealthy help keep Vermont rural.",
+     "url": "https://vtdigger.org/2026/10/29/opinion-let-the-wealthy-help-keep-vermont-rural/",
+     "time": "Thu, 29 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "\u2018Anti-homelessness landscaping\u2019 in Middlebury raises questions over approaches to rural encampments",
-     "summary": "Middlebury officials placed a layer of uneven rock beneath a bridge where unhoused residents used to camp. Photo by Theo Wells-Spackman/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Bridge-homelessness-boulders.jpg\" /> As winter approaches and debate",
-     "url": "https://vtdigger.org/2026/10/25/anti-homelessness-landscaping-in-middlebury-raises-questions-over-approaches-to-rural-encampments/",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Voter voices from Rutland\u2019s downtown Walmart plaza",
+     "summary": "Walmart has operated its downtown Rutland store since 1997. Photo by Kevin O\u2019Connor/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2024/11/VTD-Rutland-future-2-1200x900.jpg?crop=1\" /> While some Rutland County residents favor the recognizable face in the gube",
+     "url": "https://vtdigger.org/2026/10/29/voter-voices-from-rutlands-downtown-walmart-plaza/",
+     "time": "Thu, 29 Oct 2026",
      "source": "VT Digger"
     },
     {
-     "title": "Turning tragedy into baskets: One partnership brings conservation and craft together",
-     "summary": "Joanne Garton, community forester with the Vermont Urban &#038; Community Forestry Program, in a stand of black ash trees in Hardwick on Sept. 25, 2026. The trees marked with an orange ribbon have been treated with an insecticide, which will help protect it from an emerald ash bo",
-     "url": "https://vtdigger.org/2026/10/25/turning-tragedy-into-baskets-one-partnership-brings-conservation-and-craft-together/",
-     "time": "Sun, 25 Oct 2026",
+     "title": "November brings an end to foliage season \u2014 but it\u2019s not winter yet",
+     "summary": "A motorcyclist travels along the Notch Road in Cambridge during stick season on Thursday, October 29, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/stick-season-3-20261028-1200x798.jpg\" /> Another sunny weekend is ahead a",
+     "url": "https://vtdigger.org/2026/10/29/november-brings-an-end-to-foliage-season-but-its-not-winter-yet/",
+     "time": "Thu, 29 Oct 2026",
      "source": "VT Digger"
     }
    ]
@@ -231,45 +231,45 @@
    "name": "Music",
    "articles": [
     {
-     "title": "The Flaming Lips Reveal New Album The Teardrop Throbs",
-     "summary": "The announcement arrives with a 2,300-word post from Wayne Coyne",
-     "url": "https://pitchfork.com/story/the-flaming-lips-reveal-a-album-the-teardrop-throbs/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Florence and the Machine Announce Everybody Scream Tour Live Album",
+     "summary": "The 22-track effort is out next week",
+     "url": "https://pitchfork.com/story/florence-and-the-machine-announce-everybody-scream-tour-live-album/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Pitchfork"
     },
     {
-     "title": "Ecco2K, Whait, Angelo LeRoi, and More: This Week\u2019s Pitchfork Selects Playlist",
-     "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
-     "url": "https://pitchfork.com/story/ecco2k-whait-angelo-leroi-and-more-this-weeks-pitchfork-selects-playlist/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Lily Allen Dressed as an Empty Ticketmaster Map for Halloween",
+     "summary": "After scaling down her summer tour, Allen dressed up as every pop star\u2019s nightmare: a pox of unsold tickets",
+     "url": "https://pitchfork.com/story/lily-allen-dressed-as-an-empty-ticketmaster-map-for-halloween/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Pitchfork"
     },
     {
-     "title": "Sophia Stel Is Going on the \u201cGreatest Tour of All Time\u201d",
-     "summary": "With dates across the U.S. and Europe",
-     "url": "https://pitchfork.com/story/sophia-stel-is-going-on-the-greatest-tour-of-all-time/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "8 New Albums You Should Listen to Now: Diiv, Queens of the Stone Age, and More",
+     "summary": "Stream new releases from Diiv, Queens of the Stone Age, Kali Malone, and more",
+     "url": "https://pitchfork.com/story/8-new-albums-you-should-listen-to-now-diiv-queens-of-the-stone-age/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Pitchfork"
     },
     {
-     "title": "The Weeknd Debuts \u201cHong Kong\u201d in Hong Kong",
-     "summary": "Faye Wong features on the new song, premiered during his four-night run at Kai Tak Stadium",
-     "url": "https://pitchfork.com/story/the-weeknd-debuts-hong-kong-in-hong-kong/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Phoebe Bridgers and Billie Eilish Lend Their Voices to My Chemical Romance\u2019s New Short Film",
+     "summary": "The band made the animated \u201cPrelude to the End\u201d with visual artist Lauren Tsai",
+     "url": "https://pitchfork.com/story/phoebe-bridgers-and-billie-eilish-are-in-my-chemical-romances-new-short-film/",
+     "time": "Fri, 30 Oct 2026",
      "source": "Pitchfork"
     },
     {
-     "title": "Throwing Muses Reissue Self-Titled Debut Album for 40th Anniversary",
-     "summary": "Throwing Muses introduced 4AD\u2019s first American signing to the world",
-     "url": "https://pitchfork.com/story/throwing-muses-reissue-self-titled-debut-album-for-40th-anniversary/",
-     "time": "Mon, 26 Oct 2026",
+     "title": "Phoebe Bridgers Announces Madison Square Garden EP",
+     "summary": "Out now via Tidal",
+     "url": "https://pitchfork.com/story/phoebe-bridgers-announces-madison-square-garden-ep/",
+     "time": "Thu, 29 Oct 2026",
      "source": "Pitchfork"
     },
     {
-     "title": "Elvis Presley Catalog Owners Sue AI Company Anthropic for Copyright Infringement",
-     "summary": "The lawsuit claims Anthropic illegally used 274 songs by the King to train its AI model Claude",
-     "url": "https://pitchfork.com/story/elvis-presley-catalog-owners-sue-ai-company-anthropic-for-copyright-infringement/",
-     "time": "Sun, 25 Oct 2026",
+     "title": "Nick Valensi Is Busy Playing With Everyone But the Strokes",
+     "summary": "He\u2019s on a \u201ctemporary break\u201d from his longtime band\u2014but not from performing with other artists",
+     "url": "https://pitchfork.com/story/nick-valensi-is-busy-playing-with-everyone-but-the-strokes/",
+     "time": "Thu, 29 Oct 2026",
      "source": "Pitchfork"
     }
    ]
