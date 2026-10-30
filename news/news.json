@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T21:00:45+0000",
- "updated_ts": 1793394045,
+ "updated": "2026-10-30T21:30:42+0000",
+ "updated_ts": 1793395842,
  "topics": [
   {
    "name": "Tech",
@@ -13,16 +13,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Northflank Breached",
+     "title": "Bunny CDN Security Incident",
      "summary": "Comments",
-     "url": "https://status.northflank.com",
+     "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Bunny CDN Security Incident",
+     "title": "Product Managers aren't safe either",
      "summary": "Comments",
-     "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+     "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Northflank Breached",
+     "summary": "Comments",
+     "url": "https://status.northflank.com",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
@@ -34,18 +41,32 @@
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+     "title": "Jules Verne's Lost Novel",
      "summary": "Comments",
-     "url": "https://github.com/dbreunig/nesformer",
+     "url": "https://blue-continuum.com/verne-paris",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Breaking the open web won't stop the bad bots",
-     "summary": "Comments",
-     "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
-     "time": "Tue, 27 Oct 2026",
-     "source": "Hacker News"
+     "title": "Dartmouth's provost warned us about AI cheating\u2014but his own AI use cost him his job",
+     "summary": "People who love AI don't always love telling others they used it.",
+     "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Over 25% of people lie to get antibiotics\u2014and their lies aren't even good",
+     "summary": "Faked symptoms still point to infections that antibiotics don't treat.",
+     "url": "https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Basically no one is using AI agents for their DoorDash orders",
+     "summary": "But it's still early days for the relatively new e-commerce use case.",
+     "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Rare meteorite from Mars gives us a view into its ancient crust",
@@ -65,27 +86,6 @@
      "title": "Thousands of \u201cghost students\u201d use AI to steal millions in student loans, DOJ says",
      "summary": "Applying for FAFSA may get messy as DOJ \u201cghost student\u201d crackdown ramps up.",
      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Analysts find looming launch crisis is \"more severe\" than anticipated",
-     "summary": "There's no evidence that Starship will launch traditional satellites, either.",
-     "url": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "GM to pay $220 million after selling customer Smart Driver data",
-     "summary": "Owners of GM cars found their driving data had been sold to insurance companies.",
-     "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
-     "summary": "Binance scrambles to freeze billions after record-breaking hack linked to North Korea.",
-     "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
      "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     }
@@ -116,6 +116,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Police deployed during stand-off over control of Poland's top court",
+     "summary": "It comes after the government suspended two senior justices and moved to bring criminal charges against them.",
+     "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+     "time": "Fri, 30 Oct 2026",
+     "source": "BBC World"
+    },
+    {
      "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
      "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
@@ -126,13 +133,6 @@
      "title": "Spain transport minister says he won't resign over high-speed rail disaster",
      "summary": "\u00d3scar Puente has been facing calls to resign after two high-speed trains collided earlier in the week, killing at least 69 people.",
      "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 30 Oct 2026",
-     "source": "BBC World"
-    },
-    {
-     "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-     "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
-     "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
@@ -231,6 +231,13 @@
    "name": "Music",
    "articles": [
     {
+     "title": "Listen to the First Atlas Sound Song in 15 Years",
+     "summary": "\u201cOctoberland\u201d also arrives with a music video",
+     "url": "https://pitchfork.com/story/listen-to-the-first-atlas-sound-song-in-15-years/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Pitchfork"
+    },
+    {
      "title": "You Can Now Share Your Pitchfork Reviews",
      "summary": "Go ahead and send those 0.0s to 10.0s to your friends and family",
      "url": "https://pitchfork.com/story/you-can-now-share-your-pitchfork-reviews/",
@@ -263,13 +270,6 @@
      "summary": "The band made the animated \u201cPrelude to the End\u201d with visual artist Lauren Tsai",
      "url": "https://pitchfork.com/story/phoebe-bridgers-and-billie-eilish-are-in-my-chemical-romances-new-short-film/",
      "time": "Fri, 30 Oct 2026",
-     "source": "Pitchfork"
-    },
-    {
-     "title": "Phoebe Bridgers Announces Madison Square Garden EP",
-     "summary": "Out now via Tidal",
-     "url": "https://pitchfork.com/story/phoebe-bridgers-announces-madison-square-garden-ep/",
-     "time": "Thu, 29 Oct 2026",
      "source": "Pitchfork"
     }
    ]
