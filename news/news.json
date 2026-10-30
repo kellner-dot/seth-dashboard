@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T18:30:42+0000",
- "updated_ts": 1793385042,
+ "updated": "2026-10-30T19:00:59+0000",
+ "updated_ts": 1793386859,
  "topics": [
   {
    "name": "Tech",
@@ -41,11 +41,18 @@
      "source": "Hacker News"
     },
     {
-     "title": "The federated code forge",
+     "title": "Florilegium: Procedural Flowers in LaTeX",
      "summary": "Comments",
-     "url": "https://tangled.org/blog/forge/",
+     "url": "https://github.com/kevinraymond/florilegium",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
+    },
+    {
+     "title": "Rare meteorite from Mars gives us a view into its ancient crust",
+     "summary": "A meteorite found in the Sahara is a rare piece of Mars' ancient crust.",
+     "url": "https://arstechnica.com/science/2026/10/rare-meteorite-from-mars-gives-us-a-view-into-its-ancient-crust/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Ars Technica"
     },
     {
      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
@@ -79,13 +86,6 @@
      "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
      "summary": "Binance scrambles to freeze billions after record-breaking hack linked to North Korea.",
      "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "2027 Nissan Rogue Hybrid: Drives like an EV, but there's no plug involved",
-     "summary": "Nissan\u2019s series hybrid e-Power system has been retuned for American roads.",
-     "url": "https://arstechnica.com/cars/2026/10/2027-nissan-rogue-hybrid-drives-like-an-ev-but-theres-no-plug-involved/",
      "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     }
