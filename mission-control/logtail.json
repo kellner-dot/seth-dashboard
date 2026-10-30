@@ -1,44 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-26T20:40:47+0000",
+ "generated_iso": "2026-10-30T17:50:42+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-26 16:35:18.549 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-30 13:23:34.235 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-10-26 16:35:18.611 Info DynamicHlsService-0HNPI0O3NBHSL:00000001: ProcessRun 'StreamTranscode 912f0c' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 16:35:18.667 Error DynamicHlsService-0HNPI0O3NBHSL:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 16:35:23.725 Info DynamicHlsService-0HNPI0O3NBHSM:00000001: ProcessRun 'StreamTranscode 188cf7' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-26 16:35:23.763 Error DynamicHlsService-0HNPI0O3NBHSM:00000001: Error processing request",
-     "c": "err"
-    },
-    {
-     "t": "\t*** Error Report ***",
-     "c": "err"
-    },
-    {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "2026-10-30 13:23:51.607 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -47,51 +19,51 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[refresh.log]   File \"/usr/lib/python3.12/http/client.py\", line 336, in begin",
+     "t": "[supervision.lo] Thu Oct 29 17:02:14 UTC 2026: WARNING: lock process not visible yet \u2014 check /home/hatch/workspace/vega-rvg-bridge/never-sleep-holder.log",
+     "c": "warn"
+    },
+    {
+     "t": "[refresh.log] --- STDERR ---",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]     version, status, reason = self._read_status()",
+     "t": "[refresh.log] #< CLIXML",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]                               ^^^^^^^^^^^^^^^^^^^",
+     "t": "[refresh.log] <Objs Version=\"1.1.0.1\" xmlns=\"http://schemas.microsoft.com/powershell/2004/04\"><Obj S=\"progress\" RefId=\"0\"><TN RefId=\"0\"><T>System.Management.Automat",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]   File \"/usr/lib/python3.12/http/client.py\", line 305, in _read_status",
+     "t": "[refresh.log] --- EXIT: 0",
      "c": "ok"
     },
     {
-     "t": "[refresh.log]     raise RemoteDisconnected(\"Remote end closed connection without\"",
+     "t": "[refresh.log] [2026-10-30T10:45:37+00:00] daily refresh done",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] http.client.RemoteDisconnected: Remote end closed connection without response",
+     "t": "[supervision.lo] 2026-10-30T13:21:06-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-30",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-26T16:10:53-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "t": "[supervision.lo] 2026-10-30T13:26:14-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-30",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-26T16:16:06-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "t": "[supervision.lo] 2026-10-30T13:31:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-30",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-26T16:20:54-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "t": "[supervision.lo] 2026-10-30T13:35:57-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-30",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-26T16:25:56-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "t": "[supervision.lo] 2026-10-30T13:41:09-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-30",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-26T16:31:17-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-26T16:36:01-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-26",
+     "t": "[supervision.lo] 2026-10-30T13:46:14-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-30",
      "c": "ok"
     }
    ]
