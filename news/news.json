@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T20:30:44+0000",
- "updated_ts": 1793392244,
+ "updated": "2026-10-30T21:00:45+0000",
+ "updated_ts": 1793394045,
  "topics": [
   {
    "name": "Tech",
@@ -16,6 +16,13 @@
      "title": "Northflank Breached",
      "summary": "Comments",
      "url": "https://status.northflank.com",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Bunny CDN Security Incident",
+     "summary": "Comments",
+     "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
      "time": "Tue, 27 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Bunny CDN Security Incident",
-     "summary": "Comments",
-     "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
-     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -116,7 +116,7 @@
      "source": "BBC World"
     },
     {
-     "title": "Prominent Russian newspaper shuts down under pressure from authorities",
+     "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
      "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 30 Oct 2026",
@@ -184,6 +184,20 @@
    "name": "Vermont",
    "articles": [
     {
+     "title": "The saga of a sweet turnip",
+     "summary": "A turnip dressed as a baby seen as it vies for &#8220;best dressed&#8221; in the Turnip Contest during the Gilfeather Turnip Festival in Wardsboro on Saturday, October 24, 2026. Photo by Glenn Russell/VTDigger \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/tur",
+     "url": "https://vtdigger.org/2026/10/30/the-saga-of-a-sweet-turnip/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
+     "title": "Community nurse programs are getting a lot of airtime this election. Here\u2019s how they work.",
+     "summary": "Hartford Community Nurse Katie Williams talks with Joan Ponzoni in Jan. 2025, at the Bugbee Senior Center in White River Junction. File photo by Jennifer Hauck/Valley News \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/hartford-community-nurse-katie-williams-v",
+     "url": "https://vtdigger.org/2026/10/30/community-nurse-programs-are-getting-a-lot-of-airtime-this-election-heres-how-they-work/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "VT Digger"
+    },
+    {
      "title": "Tax the rich to spare the rest of us",
      "summary": "Making the wealthiest filers pay more could wipe out state income tax for nearly all Vermonters. Read the story on VTDigger here: Tax the rich to spare the rest of us.",
      "url": "https://vtdigger.org/2026/10/30/opinion-tax-the-rich-to-spare-the-rest-of-us/",
@@ -209,20 +223,6 @@
      "summary": "Bombardier Park in Milton as seen on Oct. 29, 2026. Photo by Charlotte Oliver/VTDigger. \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/Bombardier-Park-Milton-1200x900.jpg?crop=1\" /> Parkgoers enjoying a sunny afternoon in Milton shared their thoughts on the up",
      "url": "https://vtdigger.org/2026/10/30/voters-voices-from-miltons-bombardier-park/",
      "time": "Fri, 30 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Lois A. Schumacher",
-     "summary": "She had a strong interest in arts and crafts and pursued interests in painting, weaving, ceramics and hooked rugs. Read the story on VTDigger here: Lois A. Schumacher.",
-     "url": "https://vtdigger.org/2026/10/29/obituary-lois-a-schumacher/",
-     "time": "Thu, 29 Oct 2026",
-     "source": "VT Digger"
-    },
-    {
-     "title": "Bennington Battle Monument dig reveals possible historic tavern, artifacts",
-     "summary": "Researchers think these stones may mark the threshold into the former tavern. Photo by Jeff McRae/Bennington Banner \" data-large-file=\"https://vtdigger.org/wp-content/uploads/2026/10/bennington-battle-monument-artifacts-1200x673.webp\" /> Historic site opened for tours revealing n",
-     "url": "https://vtdigger.org/2026/10/29/bennington-battle-monument-dig-reveals-possible-historic-tavern-artifacts/",
-     "time": "Thu, 29 Oct 2026",
      "source": "VT Digger"
     }
    ]
