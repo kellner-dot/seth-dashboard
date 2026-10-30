@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-10-30T21:45:56+0000",
+ "generated_iso": "2026-10-30T22:00:47+0000",
  "nodes": [
   {
    "name": "muse",
@@ -64,7 +64,7 @@
    "role": "Motorola Razr",
    "ip": "100.79.81.67",
    "online": true,
-   "rvg": false
+   "rvg": true
   },
   {
    "name": "muse-5",
