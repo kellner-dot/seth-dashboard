@@ -1,9 +1,24 @@
 {
- "generated_at": 1793395288,
- "generated_iso": "2026-10-30T21:21:28+0000",
+ "generated_at": 1793395877,
+ "generated_iso": "2026-10-30T21:31:17+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
- "alerts": [],
+ "alerts": [
+  {
+   "severity": "info",
+   "icon": "\ud83d\udef0\ufe0f",
+   "title": "Razr RVG down",
+   "message": "Razr is online but RVG agent not responding.",
+   "at": "2026-10-30T21:31:17+0000"
+  },
+  {
+   "severity": "info",
+   "icon": "\ud83d\udcbb",
+   "title": "MacBook Air offline",
+   "message": "Mac not reachable on Tailnet.",
+   "at": "2026-10-30T21:31:17+0000"
+  }
+ ],
  "github": {
   "profile": "https://github.com/kellner-dot",
   "public_repos": 10,
@@ -50,7 +65,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 97790,
+   "uptime_s": 98378,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
@@ -77,13 +92,13 @@
    "kind": "server",
    "ip": "100.92.65.104",
    "bluebubbles": {
-    "http": 200,
-    "up": true
+    "http": 0,
+    "up": false
    },
    "rvg_agent": {
-    "up": true
+    "up": false
    },
-   "online": true
+   "online": false
   },
   {
    "id": "iphone-xs-max",
@@ -100,7 +115,7 @@
    "ip": "100.79.81.67",
    "online": true,
    "rvg_agent": {
-    "up": true,
+    "up": false,
     "authed": false
    }
   }
