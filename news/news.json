@@ -1,14 +1,28 @@
 {
- "updated": "2026-10-31T20:00:43+0000",
- "updated_ts": 1793476843,
+ "updated": "2026-10-31T20:30:51+0000",
+ "updated_ts": 1793478651,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
+     "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+     "summary": "Comments",
+     "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
      "summary": "Comments",
      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "HackerTube: YouTube built from videos recommended by HN",
+     "summary": "Comments",
+     "url": "https://karpathy.bearblog.dev/hacker-tube/",
      "time": "Sat, 31 Oct 2026",
      "source": "Hacker News"
     },
@@ -20,13 +34,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-     "summary": "Comments",
-     "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-     "time": "Sat, 31 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "It's the Memory Latency, Stupid",
      "summary": "Comments",
      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
@@ -34,16 +41,9 @@
      "source": "Hacker News"
     },
     {
-     "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+     "title": "Show HN: NES Contra (1987) port (ASM \u2013> C and then C \u2013> WebAssembly)",
      "summary": "Comments",
-     "url": "https://piefed.world/post/1503394",
-     "time": "Sat, 31 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Jepsen: ParticleDB 1.1.4",
-     "summary": "Comments",
-     "url": "https://jepsen.io/analyses/particledb-1.1.4",
+     "url": "https://epoyraz.github.io/nes-contra-us/",
      "time": "Sat, 31 Oct 2026",
      "source": "Hacker News"
     },
@@ -144,7 +144,7 @@
      "source": "NPR News"
     },
     {
-     "title": "Anti-corruption and party discipline: takeaways from from this week's key political meeting in Beijing",
+     "title": "Key takeaways from this week's political meeting in Beijing",
      "summary": "The Communist party central committee meeting was focused on discipline and fighting corruption. It comes ahead of next year when Xi is widely expected to try to secure a fourth term.",
      "url": "https://www.npr.org/2026/10/31/nx-s1-6024695/political-meeting-beijing-takeaways",
      "time": "Sat, 31 Oct 2026",
