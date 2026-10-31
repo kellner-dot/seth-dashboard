@@ -1,6 +1,6 @@
 {
- "generated_at": 1793464260,
- "generated_iso": "2026-10-31T16:31:00+0000",
+ "generated_at": 1793464863,
+ "generated_iso": "2026-10-31T16:41:03+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [],
@@ -20,16 +20,16 @@
   ]
  },
  "emby_library": {
-  "movies": 5845,
-  "series": 34,
-  "episodes": 59,
+  "movies": 5854,
+  "series": 2,
+  "episodes": 17,
   "recent": [
    "Violet Voss",
-   "Little Shop of Horrors",
    "The Monkey",
    "80s-commercials",
-   "Come Over, My Parents Aren't Home",
-   "The Monkey"
+   "Megalopolis",
+   "Inland Empire",
+   "Poor Things"
   ]
  },
  "terabox": {
@@ -50,7 +50,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 24295,
+   "uptime_s": 24896,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
