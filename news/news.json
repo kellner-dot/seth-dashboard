@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-31T10:30:38+0000",
- "updated_ts": 1793442638,
+ "updated": "2026-10-31T11:00:38+0000",
+ "updated_ts": 1793444438,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Serbia just elected the world's brainiest parliament",
+     "summary": "Comments",
+     "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Switch Lowering in GCC",
      "summary": "Comments",
@@ -38,13 +45,6 @@
      "summary": "Comments",
      "url": "https://github.com/chris124567/cfsolve",
      "time": "Wed, 28 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
-     "summary": "Comments",
-     "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-     "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -144,13 +144,6 @@
      "source": "NPR News"
     },
     {
-     "title": "100 years later, Harry Houdini's death still haunts Detroit",
-     "summary": "The legacy of magician Harry Houdini still looms large in Detroit 100 years after his death there. Some mark the anniversary of Houdini's death by trying to make contact with his spirit.",
-     "url": "https://www.npr.org/2026/10/31/nx-s1-6008110/100-years-harry-houdinis-death-haunts-detroit",
-     "time": "Sat, 31 Oct 2026",
-     "source": "NPR News"
-    },
-    {
      "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
      "summary": "In October, 2025, the remnants of a typhoon seriously damaged Alaska Native villages in the far western part of the state. A year later, one of the hardest hit communities is still recovering.",
      "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
@@ -175,6 +168,13 @@
      "title": "Oil company earnings skyrocket \u2014 again",
      "summary": "Oil companies are reporting another quarter of sky-high profits as the war in Iran pushes up the price of oil \u2014 and prices at the pump.",
      "url": "https://www.npr.org/2026/10/31/nx-s1-6008072/oil-company-profits-gasoline-diesel-prices",
+     "time": "Sat, 31 Oct 2026",
+     "source": "NPR News"
+    },
+    {
+     "title": "Your writing was flagged as AI. What does that actually mean?",
+     "summary": "As editors turn to imperfect AI detection tools to weed out machine-generated submissions, writers who say they were falsely accused of using AI are left wondering what triggered a positive result.",
+     "url": "https://www.npr.org/2026/10/31/nx-s1-5963520/ai-writing-detectors-pangram",
      "time": "Sat, 31 Oct 2026",
      "source": "NPR News"
     }
