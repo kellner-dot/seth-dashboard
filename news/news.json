@@ -1,12 +1,19 @@
 {
- "updated": "2026-10-31T16:00:41+0000",
- "updated_ts": 1793462441,
+ "updated": "2026-10-31T16:30:38+0000",
+ "updated_ts": 1793464238,
  "topics": [
   {
    "name": "Tech",
    "articles": [
     {
-     "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+     "title": "Malware uses LLMs to rank victims by how much they're worth",
+     "summary": "Comments",
+     "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
      "summary": "Comments",
      "url": "https://piefed.world/post/1503394",
      "time": "Sat, 31 Oct 2026",
@@ -16,6 +23,13 @@
      "title": "We Took over ChatGPT Accounts",
      "summary": "Comments",
      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Casio Watches of the 1980s",
+     "summary": "Comments",
+     "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
      "time": "Sat, 31 Oct 2026",
      "source": "Hacker News"
     },
@@ -30,20 +44,6 @@
      "title": "Switch Lowering in GCC",
      "summary": "Comments",
      "url": "https://xoranth.net/gcc-switch/",
-     "time": "Sat, 31 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Simple circuits can create complex behaviors",
-     "summary": "Comments",
-     "url": "https://aatishb.com/myriad/lets-build-a-brain/",
-     "time": "Tue, 27 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Malware uses LLMs to rank victims by how much they're worth",
-     "summary": "Comments",
-     "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
      "time": "Sat, 31 Oct 2026",
      "source": "Hacker News"
     },
