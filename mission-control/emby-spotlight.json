@@ -1,27 +1,16 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5845,
+ "movies": 5864,
  "series": 34,
  "episodes": 59,
  "played": 7,
- "unwatched": 5838,
+ "unwatched": 5857,
  "new_arrivals": [
   {
    "name": "Violet Voss",
    "year": 2025,
    "genres": [],
    "runtime_min": 23,
-   "progress_pct": 0,
-   "type": "Movie"
-  },
-  {
-   "name": "Little Shop of Horrors",
-   "year": 1986,
-   "genres": [
-    "Horror",
-    "Comedy"
-   ],
-   "runtime_min": 103,
    "progress_pct": 0,
    "type": "Movie"
   },
@@ -45,25 +34,6 @@
    "type": "Movie"
   },
   {
-   "name": "80s-commercials",
-   "year": 1982,
-   "genres": [],
-   "runtime_min": 16,
-   "progress_pct": 0,
-   "type": "Movie"
-  },
-  {
-   "name": "Possessor",
-   "year": 2020,
-   "genres": [
-    "Horror",
-    "Thriller"
-   ],
-   "runtime_min": 104,
-   "progress_pct": 0,
-   "type": "Movie"
-  },
-  {
    "name": "Megalopolis",
    "year": 2024,
    "genres": [
@@ -82,6 +52,39 @@
     "Thriller"
    ],
    "runtime_min": 180,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Cowboys & Aliens",
+   "year": 2011,
+   "genres": [
+    "Science Fiction",
+    "Western"
+   ],
+   "runtime_min": 135,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "Big Fish",
+   "year": 2003,
+   "genres": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "runtime_min": 125,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
+  {
+   "name": "The Invisible Man",
+   "year": 2020,
+   "genres": [
+    "Thriller",
+    "Science Fiction"
+   ],
+   "runtime_min": 124,
    "progress_pct": 0,
    "type": "Movie"
   }
@@ -118,17 +121,49 @@
    "runtime_min": 97,
    "progress_pct": 13,
    "type": "Movie"
+  },
+  {
+   "name": "Green Room",
+   "year": 2016,
+   "genres": [
+    "Horror",
+    "Crime"
+   ],
+   "runtime_min": 95,
+   "progress_pct": 15,
+   "type": "Movie"
+  },
+  {
+   "name": "All Light, Everywhere",
+   "year": 2021,
+   "genres": [
+    "Documentary"
+   ],
+   "runtime_min": 109,
+   "progress_pct": 49,
+   "type": "Movie"
+  },
+  {
+   "name": "The Boxer's Omen",
+   "year": 1983,
+   "genres": [
+    "Horror",
+    "Fantasy"
+   ],
+   "runtime_min": 105,
+   "progress_pct": 8,
+   "type": "Movie"
   }
  ],
  "surprise_pick": {
-  "name": "Milkman",
-  "year": 2005,
+  "name": "The Last Happy Day",
+  "year": 2009,
   "genres": [
-   "Drama"
+   "Documentary"
   ],
   "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "In Milkman which was made in 2005, Cao Fei sorrowfully captures the daily life of the nominal main character who is a milkman. He is sprawled all over his bed during the day and agonizes over the temptation of an online "
+  "overview": "THE LAST HAPPY DAY is an experimental documentary portrait of Sandor (Alexander) Lenard, a Hungarian medical doctor and a distant cousin of filmmaker Lynne Sachs. In 1938 Lenard, a writer with a Jewish background, fled t"
  }
 }
