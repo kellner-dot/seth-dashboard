@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-31T18:30:43+0000",
- "updated_ts": 1793471443,
+ "updated": "2026-10-31T19:00:40+0000",
+ "updated_ts": 1793473240,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "The Impact of Generative AI on Critical Thinking",
+     "summary": "Comments",
+     "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
      "summary": "Comments",
@@ -23,13 +30,6 @@
      "title": "UK Green party drops longstanding opposition to nuclear power",
      "summary": "Comments",
      "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
-     "time": "Sat, 31 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Casio Watches of the 1980s",
-     "summary": "Comments",
-     "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
      "time": "Sat, 31 Oct 2026",
      "source": "Hacker News"
     },
@@ -137,6 +137,13 @@
      "source": "BBC World"
     },
     {
+     "title": "Anti-corruption and party discipline: takeaways from from this week's key political meeting in Beijing",
+     "summary": "The Communist party central committee meeting was focused on discipline and fighting corruption. It comes ahead of next year when Xi is widely expected to try to secure a fourth term.",
+     "url": "https://www.npr.org/2026/10/31/nx-s1-6024695/political-meeting-beijing-takeaways",
+     "time": "Sat, 31 Oct 2026",
+     "source": "NPR News"
+    },
+    {
      "title": "A simple explainer of the massive $6.3 billion crypto heist at Binance",
      "summary": "Here are five things to know about the massive hack of the crypto exchange Binance \u2014 from how it happened to what it means for the sector.",
      "url": "https://www.npr.org/2026/10/31/nx-s1-6024426/binance-crypto-heist-cyber-criminals-north-korea",
@@ -168,13 +175,6 @@
      "title": "Do you have seasonal affective disorder? How to tell \u2014 and what to do about it",
      "summary": "The syndrome can make people feel like a \"hibernating bear,\" says Dr. Norman Rosenthal, who published the first research on SAD. He explains how to identify the symptoms and what to do to feel better.",
      "url": "https://www.npr.org/2026/10/31/nx-s1-6023200/do-you-have-seasonal-affective-disorder-how-to-tell-and-what-to-do-about-it",
-     "time": "Sat, 31 Oct 2026",
-     "source": "NPR News"
-    },
-    {
-     "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
-     "summary": "In October, 2025, the remnants of a typhoon seriously damaged Alaska Native villages in the far western part of the state. A year later, one of the hardest hit communities is still recovering.",
-     "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
      "time": "Sat, 31 Oct 2026",
      "source": "NPR News"
     }
