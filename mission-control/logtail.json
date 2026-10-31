@@ -1,21 +1,41 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-31T21:40:59+0000",
+ "generated_iso": "2026-10-31T21:50:53+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-31 17:23:17.128 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-31 17:47:39.655 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-31 17:47:39.852 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-31 17:47:39.872 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-31 17:23:34.537 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-10-31 17:47:39.929 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-31 17:47:52.597 Info QuickSyncDx11CodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ff",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-31 17:47:52.789 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.e",
+     "c": "ok"
+    },
+    {
+     "t": "2026-10-31 17:47:52.808 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed",
      "c": "err"
     },
     {
-     "t": "2026-10-31 17:23:51.880 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
+     "t": "2026-10-31 17:47:52.866 Info AmfCodecProvider: ProcessRun 'ffdetect_amfenc' Execute: C:\\Users\\sethr\\AppData\\Roaming\\Emby-Server\\system\\ffdetect.exe -h",
+     "c": "ok"
     }
    ]
   },
@@ -47,14 +67,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-31T17:11:14-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-31T17:16:13-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-31T17:21:12-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
      "c": "ok"
     },
@@ -68,6 +80,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-31T17:36:23-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-31T17:41:08-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-31T17:46:16-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
      "c": "ok"
     }
    ]
