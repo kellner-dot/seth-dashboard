@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-31T01:00:47+0000",
- "updated_ts": 1793408447,
+ "updated": "2026-10-31T01:30:47+0000",
+ "updated_ts": 1793410247,
  "topics": [
   {
    "name": "Tech",
    "articles": [
-    {
-     "title": "Cloudflare Turnstile solver library (no headless browser required)",
-     "summary": "Comments",
-     "url": "https://github.com/chris124567/cfsolve",
-     "time": "Wed, 28 Oct 2026",
-     "source": "Hacker News"
-    },
     {
      "title": "My favourite PowerMac is a Nintendo Wii",
      "summary": "Comments",
@@ -20,16 +13,23 @@
      "source": "Hacker News"
     },
     {
-     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+     "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
      "summary": "Comments",
-     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "url": "https://tng.episodle.com/",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+     "title": "Cloudflare Turnstile solver library (no headless browser required)",
      "summary": "Comments",
-     "url": "https://tng.episodle.com/",
+     "url": "https://github.com/chris124567/cfsolve",
+     "time": "Wed, 28 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+     "summary": "Comments",
+     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
@@ -48,7 +48,7 @@
      "source": "Hacker News"
     },
     {
-     "title": "Think you can save the Hubble Space Telescope? NASA wants to know.",
+     "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
      "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
      "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
      "time": "Sat, 31 Oct 2026",
@@ -109,10 +109,10 @@
      "source": "BBC World"
     },
     {
-     "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-     "summary": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
-     "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
-     "time": "Fri, 30 Oct 2026",
+     "title": "Police deployed during stand-off over control of top Poland court",
+     "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+     "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+     "time": "Sat, 31 Oct 2026",
      "source": "BBC World"
     },
     {
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "Police deployed during stand-off over control of top Poland court",
-     "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
-     "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+     "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+     "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+     "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
     {
-     "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
-     "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
-     "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+     "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+     "summary": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
+     "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
