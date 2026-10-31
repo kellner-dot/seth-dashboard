@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-31T00:01:21+0000",
- "updated_ts": 1793404881,
+ "updated": "2026-10-31T00:30:50+0000",
+ "updated_ts": 1793406650,
  "topics": [
   {
    "name": "Tech",
@@ -13,9 +13,23 @@
      "source": "Hacker News"
     },
     {
+     "title": "Cloudflare Turnstile solver library (no headless browser required)",
+     "summary": "Comments",
+     "url": "https://github.com/chris124567/cfsolve",
+     "time": "Wed, 28 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
      "summary": "Comments",
      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "time": "Fri, 30 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+     "summary": "Comments",
+     "url": "https://tng.episodle.com/",
      "time": "Fri, 30 Oct 2026",
      "source": "Hacker News"
     },
@@ -27,20 +41,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "Cloudflare Turnstile solver library (no headless browser required)",
-     "summary": "Comments",
-     "url": "https://github.com/chris124567/cfsolve",
-     "time": "Wed, 28 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Jules Verne's Lost Novel",
-     "summary": "Comments",
-     "url": "https://blue-continuum.com/verne-paris",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "Infinite Mac: BeOS",
      "summary": "Comments",
      "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
@@ -48,7 +48,14 @@
      "source": "Hacker News"
     },
     {
-     "title": "Flesh-eating screwworms are feasting on pets; 4 dogs and cat attacked this week",
+     "title": "Think you can save the Hubble Space Telescope? NASA wants to know.",
+     "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
+     "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Ars Technica"
+    },
+    {
+     "title": "Flesh-eating screwworms spread to third state and are attacking pets",
      "summary": "USDA has identified 74 animal cases in US since parasitic flies invaded in June.",
      "url": "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/",
      "time": "Fri, 30 Oct 2026",
@@ -79,13 +86,6 @@
      "title": "Dartmouth's provost warned us about AI cheating\u2014but his own AI use cost him his job",
      "summary": "People who love AI don't always love telling others they used it.",
      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Ars Technica"
-    },
-    {
-     "title": "Over 25% of people lie to get antibiotics\u2014and their lies aren't even good",
-     "summary": "Faked symptoms still point to infections that antibiotics don't treat.",
-     "url": "https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/",
      "time": "Fri, 30 Oct 2026",
      "source": "Ars Technica"
     }
