@@ -1,24 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-10-31T17:10:43+0000",
+ "generated_iso": "2026-10-31T17:20:45+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-10-31 13:10:34.803 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'T:\\Movies'.",
      "c": "err"
     },
     {
-     "t": "2026-10-31 13:10:36.871 Error Trakt: Event details incomplete. Cannot process current media",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-31 13:10:36.936 Info DynamicHlsService-0HNPN6GIA8SGL:00000001: ProcessRun 'StreamTranscode 5d305b' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-31 13:10:36.969 Error DynamicHlsService-0HNPN6GIA8SGL:00000001: Error processing request",
+     "t": "2026-10-31 13:17:57.715 Error App: Error in validateChildren for 980220 D:\\Media\\Adult\\OnlyFans",
      "c": "err"
     },
     {
@@ -26,15 +18,11 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\Media\\Adult\\OnlyFans'.",
      "c": "err"
     },
     {
-     "t": "2026-10-31 13:10:42.038 Info DynamicHlsService-0HNPN6GIA8SGM:00000001: ProcessRun 'StreamTranscode 328207' Process exited with code 1 - Failed",
-     "c": "err"
-    },
-    {
-     "t": "2026-10-31 13:10:42.072 Error DynamicHlsService-0HNPN6GIA8SGM:00000001: Error processing request",
+     "t": "2026-10-31 13:17:57.723 Error App: Error in validateChildren for 21433 D:\\TV Shows",
      "c": "err"
     },
     {
@@ -42,7 +30,19 @@
      "c": "err"
     },
     {
-     "t": "\tEmby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Emby.Server.MediaEncoding.Unified.Ffmpeg.FfRunException: Error starting ffmpeg",
+     "t": "\tSystem.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\TV Shows'.",
+     "c": "err"
+    },
+    {
+     "t": "2026-10-31 13:18:00.101 Error App: Error in TheTVDB",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: BadRequest",
      "c": "err"
     }
    ]
@@ -75,14 +75,6 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-10-31T12:41:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
-     "c": "ok"
-    },
-    {
-     "t": "[supervision.lo] 2026-10-31T12:46:10-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
-     "c": "ok"
-    },
-    {
      "t": "[supervision.lo] 2026-10-31T12:51:02-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
      "c": "ok"
     },
@@ -96,6 +88,14 @@
     },
     {
      "t": "[supervision.lo] 2026-10-31T13:06:06-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-31T13:11:11-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
+     "c": "ok"
+    },
+    {
+     "t": "[supervision.lo] 2026-10-31T13:16:03-04:00 [relay-supervisor] OK: relay healthy, schedule date 2026-10-31",
      "c": "ok"
     }
    ]
