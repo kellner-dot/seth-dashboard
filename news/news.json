@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-31T08:30:39+0000",
- "updated_ts": 1793435439,
+ "updated": "2026-10-31T09:00:40+0000",
+ "updated_ts": 1793437240,
  "topics": [
   {
    "name": "Tech",
    "articles": [
+    {
+     "title": "Switch Lowering in GCC",
+     "summary": "Comments",
+     "url": "https://xoranth.net/gcc-switch/",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Show HN: Marelleo, an open-source story box I built for my kids using ESP32",
+     "summary": "Comments",
+     "url": "https://zebra.rodeo/en/blog/marelleo/",
+     "time": "Tue, 27 Oct 2026",
+     "source": "Hacker News"
+    },
     {
      "title": "My favourite PowerMac is a Nintendo Wii",
      "summary": "Comments",
@@ -31,20 +45,6 @@
      "summary": "Comments",
      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
      "time": "Fri, 30 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Northflank Breached",
-     "summary": "Comments",
-     "url": "https://status.northflank.com",
-     "time": "Fri, 30 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "Show HN: Samosa \u2013 Linter for Math Derivations",
-     "summary": "Comments",
-     "url": "https://samosa-math.vercel.app",
-     "time": "Tue, 27 Oct 2026",
      "source": "Hacker News"
     },
     {
@@ -130,9 +130,9 @@
      "source": "BBC World"
     },
     {
-     "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-     "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
-     "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+     "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+     "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+     "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
      "time": "Fri, 30 Oct 2026",
      "source": "BBC World"
     },
