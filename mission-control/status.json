@@ -1,6 +1,6 @@
 {
- "generated_at": 1793499668,
- "generated_iso": "2026-11-01T02:21:08+0000",
+ "generated_at": 1793500274,
+ "generated_iso": "2026-11-01T02:31:14+0000",
  "collector": "mission-control v2 (kavi1 VM, 5-min cron)",
  "note": "Secrets-free snapshot. Live actions available on the tailnet dashboard only.",
  "alerts": [],
@@ -50,7 +50,7 @@
    "ip": "100.124.240.93",
    "online": true,
    "rvg_version": "1.20.0",
-   "uptime_s": 59702,
+   "uptime_s": 60308,
    "hostname": "SETHS-PC",
    "emby": {
     "running": true,
