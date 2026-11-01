@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T00:00:53+0000",
- "updated_ts": 1793491253,
+ "updated": "2026-11-01T00:30:39+0000",
+ "updated_ts": 1793493039,
  "topics": [
   {
    "name": "Tech",
@@ -13,13 +13,6 @@
      "source": "Hacker News"
     },
     {
-     "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-     "summary": "Comments",
-     "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-     "time": "Sat, 31 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
      "summary": "Comments",
      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
@@ -27,23 +20,30 @@
      "source": "Hacker News"
     },
     {
-     "title": "When Electric Cars Were for Women",
+     "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+     "summary": "Comments",
+     "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+     "summary": "Comments",
+     "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+     "time": "Sat, 31 Oct 2026",
+     "source": "Hacker News"
+    },
+    {
+     "title": "When electric cars were for women",
      "summary": "Comments",
      "url": "https://spectrum.ieee.org/early-electric-vehicles",
      "time": "Sat, 31 Oct 2026",
      "source": "Hacker News"
     },
     {
-     "title": "It's the Memory Latency, Stupid",
+     "title": "It's the memory latency, stupid",
      "summary": "Comments",
      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-     "time": "Sat, 31 Oct 2026",
-     "source": "Hacker News"
-    },
-    {
-     "title": "With 86% of the words, you might understand only 38% of an anime's lines",
-     "summary": "Comments",
-     "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
      "time": "Sat, 31 Oct 2026",
      "source": "Hacker News"
     },
@@ -123,16 +123,16 @@
      "source": "BBC World"
     },
     {
-     "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
-     "summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
-     "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
-     "time": "Sat, 31 Oct 2026",
+     "title": "India's opposition set to hold mega rally seeking election chief's resignation",
+     "summary": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
+     "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+     "time": "Sun, 01 Nov 2026",
      "source": "BBC World"
     },
     {
-     "title": "Ethiopian PM puts ministers through military training",
-     "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
-     "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+     "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+     "summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
+     "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
      "time": "Sat, 31 Oct 2026",
      "source": "BBC World"
     },
