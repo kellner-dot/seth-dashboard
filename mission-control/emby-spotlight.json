@@ -1,11 +1,22 @@
 {
  "generated": "emby-spotlight poller",
- "movies": 5864,
- "series": 34,
- "episodes": 59,
+ "movies": 5865,
+ "series": 37,
+ "episodes": 62,
  "played": 7,
- "unwatched": 5857,
+ "unwatched": 5858,
  "new_arrivals": [
+  {
+   "name": "Little Shop of Horrors",
+   "year": 1986,
+   "genres": [
+    "Horror",
+    "Comedy"
+   ],
+   "runtime_min": 103,
+   "progress_pct": 0,
+   "type": "Movie"
+  },
   {
    "name": "Violet Voss",
    "year": 2025,
@@ -74,17 +85,6 @@
     "Fantasy"
    ],
    "runtime_min": 125,
-   "progress_pct": 0,
-   "type": "Movie"
-  },
-  {
-   "name": "The Invisible Man",
-   "year": 2020,
-   "genres": [
-    "Thriller",
-    "Science Fiction"
-   ],
-   "runtime_min": 124,
    "progress_pct": 0,
    "type": "Movie"
   }
@@ -156,14 +156,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "The Stranger",
-  "year": 2007,
+  "name": "Do You Believe In Water?",
+  "year": 1976,
   "genres": [
+   "Short",
    "Drama"
   ],
-  "runtime_min": 10,
+  "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Yvan, forty, finds his life thrown into turmoil on the day a young stranger falls down dead in the yard of his house. Yvan lives isolated in the countryside and so he finds himself at home with the body of a man whom he "
+  "overview": "In a nearly bare loft space, Weiner's performers cluster around an octagonal pink table, enacting a series of what seem to be choreographed exercises or processes: playing patty-cake, grappling for possession of rectangu"
  }
 }
