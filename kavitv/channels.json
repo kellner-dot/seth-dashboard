@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-07T05:14:40.823426-05:00",
- "date": "2026-11-07",
+ "generated_at": "2026-11-09T00:10:58.664088-05:00",
+ "date": "2026-11-09",
  "channels": [
   {
    "id": "horror",
@@ -9,7 +9,7 @@
    "pool": "Genres=Horror across the full movie library.",
    "film_count": 126,
    "total_runtime_h": 146.3,
-   "program_count": 19
+   "program_count": 24
   },
   {
    "id": "experimental",
@@ -27,7 +27,7 @@
    "pool": "15 indie studios + 7 indie-auteur directors, deduped.",
    "film_count": 43,
    "total_runtime_h": 68.5,
-   "program_count": 15
+   "program_count": 14
   }
  ]
 }
