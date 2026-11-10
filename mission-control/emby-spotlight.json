@@ -156,14 +156,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Castro Street",
-  "year": 1966,
+  "name": "Ghost in the Shell",
+  "year": 1995,
   "genres": [
-   "Documentary"
+   "Action",
+   "Animation"
   ],
-  "runtime_min": 0,
+  "runtime_min": 107,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Inspired by a lesson from Erik Satie, a film in the form of a street: Castro Street, running by the Standard Oil Refinery in Richmond, California."
+  "overview": "In the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetm"
  }
 }
