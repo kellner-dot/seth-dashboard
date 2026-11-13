@@ -156,14 +156,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Moving Sculpture: Jean Tinguely",
-  "year": 1981,
+  "name": "The Lighthouse",
+  "year": 2017,
   "genres": [
-   "Documentary"
+   "Fantasy",
+   "Animation"
   ],
-  "runtime_min": 0,
+  "runtime_min": 109,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Documentary about Jean Tinguely and his work."
+  "overview": "In a boat graveyard a conflictive relationship between two neighbors takes place: a lighthouse keeper and a mermaid. The lighthouse keeper guides the boats towards safe waters while the mermaids tries to sink them."
  }
 }
