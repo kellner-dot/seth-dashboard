@@ -156,15 +156,14 @@
   }
  ],
  "surprise_pick": {
-  "name": "The Lighthouse",
-  "year": 2017,
+  "name": "Caterpillar",
+  "year": 1973,
   "genres": [
-   "Fantasy",
-   "Animation"
+   "Documentary"
   ],
-  "runtime_min": 109,
+  "runtime_min": 0,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "In a boat graveyard a conflictive relationship between two neighbors takes place: a lighthouse keeper and a mermaid. The lighthouse keeper guides the boats towards safe waters while the mermaids tries to sink them."
+  "overview": "Looking down at nature's small works in the woods of Maine, then straight up at the sky, then down again at the daylong journey of an inchworm."
  }
 }
