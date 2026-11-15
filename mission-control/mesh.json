@@ -1,6 +1,6 @@
 {
  "generated": "mesh poller",
- "generated_iso": "2026-11-15T01:16:39+0000",
+ "generated_iso": "2026-11-15T01:46:31+0000",
  "nodes": [
   {
    "name": "muse",
@@ -76,6 +76,12 @@
    "name": "muse-4",
    "role": "Tailnet node",
    "ip": "100.98.158.16",
+   "online": true
+  },
+  {
+   "name": "kavibot-standby-micro",
+   "role": "Tailnet node",
+   "ip": "100.84.22.110",
    "online": true
   },
   {
