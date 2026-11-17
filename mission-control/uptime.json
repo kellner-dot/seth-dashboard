@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-11-17T21:43:22+0000",
+ "generated_iso": "2026-11-17T22:02:52+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -179,7 +179,7 @@
     98.8,
     99.4,
     100.0,
-    46.5
+    45.7
    ]
   },
   {
@@ -215,7 +215,7 @@
     99.4,
     100.0,
     98.6,
-    91.9
+    92.0
    ]
   },
   {
@@ -256,7 +256,7 @@
   },
   {
    "name": "iPhone",
-   "online": false,
+   "online": true,
    "days": [
     100.0,
     100.0,
