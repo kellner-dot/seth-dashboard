@@ -156,14 +156,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Stille Nacht",
-  "year": 1969,
+  "name": "Re-Animator",
+  "year": 1985,
   "genres": [
-   "Horror"
+   "Science Fiction",
+   "Comedy"
   ],
-  "runtime_min": 6,
+  "runtime_min": 86,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A Materialaktion (an art performance/happening in which objects are used to create an art piece) by Viennese Aktionist Otto Muehl. The setting is a solemn Christmas celebration."
+  "overview": "Conducting clandestine experiments within the morgue at Miskatonic University, scientist Herbert West reveals to a fellow graduate student his groundbreaking work concerning the re-animation of fresh corpses."
  }
 }
