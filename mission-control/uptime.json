@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-11-18T20:54:55+0000",
+ "generated_iso": "2026-11-18T22:13:10+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -76,7 +76,7 @@
   },
   {
    "name": "Mac RVG",
-   "online": false,
+   "online": true,
    "days": [
     99.3,
     34.5,
@@ -107,12 +107,12 @@
     100.0,
     100.0,
     99.5,
-    84.9
+    85.6
    ]
   },
   {
    "name": "BlueBubbles",
-   "online": false,
+   "online": true,
    "days": [
     98.6,
     34.5,
@@ -143,12 +143,12 @@
     100.0,
     100.0,
     100.0,
-    86.0
+    86.7
    ]
   },
   {
    "name": "Razr RVG",
-   "online": false,
+   "online": true,
    "days": [
     100.0,
     100.0,
@@ -179,12 +179,12 @@
     99.4,
     100.0,
     42.0,
-    0.0
+    4.6
    ]
   },
   {
    "name": "onn ADB fwd",
-   "online": true,
+   "online": false,
    "days": [
     73.1,
     81.4,
@@ -215,7 +215,7 @@
     100.0,
     98.6,
     91.7,
-    91.4
+    89.2
    ]
   },
   {
@@ -287,7 +287,7 @@
     100.0,
     100.0,
     99.5,
-    98.9
+    99.0
    ]
   }
  ]
