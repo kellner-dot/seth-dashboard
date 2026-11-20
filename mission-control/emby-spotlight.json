@@ -156,14 +156,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Dandanko",
-  "year": 1960,
+  "name": "Nocturama",
+  "year": 2016,
   "genres": [
-   "Drama"
+   "Drama",
+   "Thriller"
   ],
-  "runtime_min": 11,
+  "runtime_min": 130,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A short scene of a mother and her little son playing ball games on a set of steps together."
+  "overview": "Some young folks, tired of the society they're living in, plan a bomb attack over Paris before taking shelter for a night in a shopping center."
  }
 }
