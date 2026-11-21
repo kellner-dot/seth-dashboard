@@ -156,14 +156,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "A Cold Draft",
-  "year": 1988,
+  "name": "We Bury the Dead",
+  "year": 2026,
   "genres": [
-   "Drama"
+   "Horror",
+   "Thriller"
   ],
-  "runtime_min": 0,
+  "runtime_min": 95,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "Shows the surveillance of a woman by overseers who have judged her to be mad. What is most provocative about this film is that it proposes multiple credible points of view even as the woman is being certified insane by t"
+  "overview": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world."
  }
 }
