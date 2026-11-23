@@ -1,6 +1,6 @@
 {
  "generated": "uptime poller",
- "generated_iso": "2026-11-23T02:02:31+0000",
+ "generated_iso": "2026-11-23T03:31:31+0000",
  "services": [
   {
    "name": "Gaming PC",
@@ -148,7 +148,7 @@
   },
   {
    "name": "Razr RVG",
-   "online": false,
+   "online": true,
    "days": [
     100.0,
     99.3,
@@ -179,7 +179,7 @@
     99.4,
     100.0,
     74.7,
-    0.0
+    29.2
    ]
   },
   {
