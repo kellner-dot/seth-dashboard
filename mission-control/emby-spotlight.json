@@ -156,14 +156,15 @@
   }
  ],
  "surprise_pick": {
-  "name": "Black Hearts Bleed Red",
-  "year": 1992,
+  "name": "The Legend of Boggy Creek",
+  "year": 1972,
   "genres": [
-   "Horror"
+   "Adventure",
+   "Mystery"
   ],
-  "runtime_min": 16,
+  "runtime_min": 87,
   "progress_pct": 0,
   "type": "Movie",
-  "overview": "A stark adaptation of Flannery O\u2019Connor\u2019s short story A Good Man Is Hard To Find."
+  "overview": "A documentary-style drama based on true accounts of the Fouke Monster in Arkansas."
  }
 }
