@@ -1,20 +1,20 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-11-25T07:01:14+0000",
+ "generated_iso": "2026-11-25T07:41:31+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-11-25 01:53:17.805 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-11-25 02:23:17.639 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-11-25 01:53:35.205 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-11-25 02:23:35.006 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-11-25 01:53:52.632 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-11-25 02:23:52.420 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -47,27 +47,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T02:56:08-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-11-25T03:35:56-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T02:56:08-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6897)",
+     "t": "[supervision.lo] 2026-11-25T03:35:56-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6905)",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T03:00:55-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-11-25T03:41:07-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T03:01:02-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "t": "[supervision.lo] 2026-11-25T03:41:13-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T03:01:02-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-11-25T03:41:13-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T03:01:02-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6898)",
+     "t": "[supervision.lo] 2026-11-25T03:41:13-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6906)",
      "c": "err"
     }
    ]
