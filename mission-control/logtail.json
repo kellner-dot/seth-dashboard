@@ -1,16 +1,16 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-11-25T11:41:18+0000",
+ "generated_iso": "2026-11-25T12:51:07+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-11-25 06:40:33.896 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-11-25 07:23:35.267 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     },
     {
-     "t": "2026-11-25 06:40:35.937 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "2026-11-25 07:23:52.708 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -19,7 +19,7 @@
    "name": "Fleet Pollers",
    "lines": [
     {
-     "t": "[refresh.log] #2 Schizopolis & Friends: Baraka (program)",
+     "t": "[refresh.log] #2 Schizopolis & Friends: American Beauty (program)",
      "c": "ok"
     },
     {
@@ -27,43 +27,43 @@
      "c": "ok"
     },
     {
-     "t": "[refresh.log] #4 Late Night Lynch: Falling Down (program)",
+     "t": "[refresh.log] #4 Late Night Lynch: Match Point (program)",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] #5 SethTV Shuffle: Tank Girl (program)",
+     "t": "[refresh.log] #5 SethTV Shuffle: Desert Warrior (program)",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] [2026-11-24T11:43:18+00:00] publishing to GitHub...",
+     "t": "[refresh.log] [2026-11-25T11:43:16+00:00] publishing to GitHub...",
      "c": "ok"
     },
     {
-     "t": "[refresh.log] [2026-11-24T11:44:00+00:00] NOTE (worker 2026-11-24 run): script aborted at publishing step, twenty-second day in a row - Drive GitHub PAT fetch retur",
+     "t": "[refresh.log] [2026-11-25T11:44:00+00:00] NOTE (worker 2026-11-25 run): script aborted at publishing step, twenty-third day in a row - Drive GitHub PAT fetch return",
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T07:35:53-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-11-25T08:46:00-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T07:35:53-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6952)",
+     "t": "[supervision.lo] 2026-11-25T08:46:00-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6966)",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T07:40:43-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-11-25T08:50:52-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T07:40:49-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "t": "[supervision.lo] 2026-11-25T08:50:58-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T07:40:49-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-11-25T08:50:58-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T07:40:55-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6953)",
+     "t": "[supervision.lo] 2026-11-25T08:50:58-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6967)",
      "c": "err"
     }
    ]
