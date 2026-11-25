@@ -1,16 +1,56 @@
 {
  "generated": "logtail poller",
- "generated_iso": "2026-11-25T08:21:12+0000",
+ "generated_iso": "2026-11-25T10:31:48+0000",
  "sources": [
   {
    "name": "Emby Server",
    "lines": [
     {
-     "t": "2026-11-25 02:53:35.140 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\t*** Error Report ***",
      "c": "err"
     },
     {
-     "t": "2026-11-25 02:53:52.546 Error Trakt: Event details incomplete. Cannot process current media",
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: NotFound",
+     "c": "err"
+    },
+    {
+     "t": "2026-11-25 05:23:50.442 Error LiveTvManager: Error getting programs for channel WatchAEW",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: NotFound",
+     "c": "err"
+    },
+    {
+     "t": "2026-11-25 05:23:50.443 Error LiveTvManager: Error getting programs for channel F1 Channel",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: NotFound",
+     "c": "err"
+    },
+    {
+     "t": "2026-11-25 05:23:50.443 Error LiveTvManager: Error getting programs for channel RACER Select",
+     "c": "err"
+    },
+    {
+     "t": "\t*** Error Report ***",
+     "c": "err"
+    },
+    {
+     "t": "\tMediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: NotFound",
+     "c": "err"
+    },
+    {
+     "t": "2026-11-25 05:23:57.874 Error Trakt: Event details incomplete. Cannot process current media",
      "c": "err"
     }
    ]
@@ -43,27 +83,27 @@
      "c": "ok"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T04:15:56-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-11-25T06:25:58-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T04:15:56-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6912)",
+     "t": "[supervision.lo] 2026-11-25T06:25:58-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6938)",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T04:20:54-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
+     "t": "[supervision.lo] 2026-11-25T06:30:53-04:00 [relay-supervisor] WARN: relay health check failed; classifying via task state",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T04:21:00-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
+     "t": "[supervision.lo] 2026-11-25T06:30:59-04:00 [relay-supervisor] WARN: endpoint down; task=None listener=None relay_procs=0",
      "c": "warn"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T04:21:00-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
+     "t": "[supervision.lo] 2026-11-25T06:30:59-04:00 [relay-supervisor] ERROR: ALERT: scheduled task KaviTV-relay not found; cannot recover",
      "c": "err"
     },
     {
-     "t": "[supervision.lo] 2026-11-25T04:21:00-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6913)",
+     "t": "[supervision.lo] 2026-11-25T06:30:59-04:00 [relay-supervisor] ERROR: relay DOWN after recovery attempt (consecutive failures: 6939)",
      "c": "err"
     }
    ]
